@@ -33,77 +33,102 @@ Find the locale code for your language in the list below. The file can be found 
 
 ## Currently supported locales
 
-- af_ZA:       Afrikaans (South Africa)
-- ar_DZ:  العربية (الجزائر)
-- ar_EG:  العربية (مصر)
-- ar_JO:  العربية (الأردن)
-- ar_SA:  العربية (السعودية)
+- af_ZA: Afrikaans (South Africa)
+- ar_DZ: العربية (الجزائر)
+- ar_EG: العربية (مصر)
+- ar_JO: العربية (الأردن)
+- ar_SA: العربية (السعودية)
 - ast_ES: Asturianu
-- az_AZ:  Azərbaycan dili
-- be_BY:  беларускі (Беларусь)
-- bg_BG:  български (България)
-- bn_BD:  বাংলা(বাংলাদেশ)
-- bn_IN:  বাংলা (ভারত)
-- bo_CN:  བོད་སྐད་
-- br_FR:  Brezhoneg
-- bs_BA:  Bosanski
-- ca_ES:  català (Espanya)
-- cs_CZ:  čeština (Česká republika)
-- cy_GB:  Cymraeg
-- da_DK:  Dansk (Danmark)
-- de_CH:  Deutsch (Schweiz)
-- de_DE:  Deutsch (Deutschland)
-- el_GR:  Ελληνικά (Ελλάδα)
-- en_AU:  English (Australia)
-- en_CA:  English (Canada)
-- en_GB:  English (United Kingdom)
-- en_US:  English (United States)
-- eo_XX:  Esperanto
-- es_AR:  español (Argentina)
-- es_CL:  español (Chile)
-- es_CO:  español (Colombia)
-- es_CR:  español (Costa Rica)
-- es_EC:  español (Ecuador)
-- es_ES:  español (España)
-- es_MX:  español (México)
-- es_PE:  español (Perú)
-- es_UY:  español (Uruguay)
-- es_VE:  español (Venezuela)
-- et_EE:  Eesti (Eesti)
-- eu_ES:  Euskara
-- fa_IR:  فارسی
-- fi_FI:  suomi (Suomi)
-- fr_BE:  français (Belgique)
-- fr_CA:  français (Canada)
-- fr_CH:  français (Suisse)
-- fr_FR:  français (France)
-- ga_IE:  Gaeilge (Éire)
-- gd_GB:  Gàidhlig
-- gl_ES:  Galego
-- gu_IN:  ગુજરાતી
-- he_IL:  עברית‏
-- hi_IN:  हिंदी (भारत)
-- hr_HR:  hrvatski (Hrvatska)
-- hu_HU:  magyar (Magyarország)
-- hy_AM:  Հայերեն
-- id_ID:  Bahasa Indonesia
-- io_XX:  Ido
-- is_IS:  íslenska (Ísland)
-- it_IT:  italiano (Italia)
-- ja_JP:  日本語 (日本)
-- ka_GE:  ქართული
-- kn_IN:  ಕನ್ನಡ (India)
-- ko_KR:  한국어 (대한민국)
-- kw_GB:  Kernowek
-- ky_KG:  кыргызча
-- ln_CD:  Lingála
-- lt_LT:  Lietuvių (Lietuva)
-- lv_LV:  Latviešu (Latvija)
-- ml_IN:  മലയാളം
-- mn_MN:  Монгол
-- mr_IN:  मराठी
-- ms_MY:  Bahasa Melayu (Malaysia)
-- nb_NO:  Norsk (bokmål)
-- ne_NP:  नेपाली
-- nl_BE:  Nederlands (België)
-- nl_NL:  Nederlands (Nederland)
+- az_AZ: Azərbaycan dili
+- be_BY: беларускі (Беларусь)
+- bg_BG: български (България)
+- bn_BD: বাংলা(বাংলাদেশ)
+- bn_IN: বাংলা (ভারত)
+- bo_CN: བོད་སྐད་
+- br_FR: Brezhoneg
+- bs_BA: Bosanski
+- ca_ES: català (Espanya)
+- cs_CZ: čeština (Česká republika)
+- cy_GB: Cymraeg
+- da_DK: Dansk (Danmark)
+- de_CH: Deutsch (Schweiz)
+- de_DE: Deutsch (Deutschland)
+- el_GR: Ελληνικά (Ελλάδα)
+- en_AU: English (Australia)
+- en_CA: English (Canada)
+- en_GB: English (United Kingdom)
+- en_US: English (United States)
+- eo_XX: Esperanto
+- es_AR: español (Argentina)
+- es_CL: español (Chile)
+- es_CO: español (Colombia)
+- es_CR: español (Costa Rica)
+- es_EC: español (Ecuador)
+- es_ES: español (España)
+- es_MX: español (México)
+- es_PE: español (Perú)
+- es_UY: español (Uruguay)
+- es_VE: español (Venezuela)
+- et_EE: Eesti (Eesti)
+- eu_ES: Euskara
+- fa_IR: فارسی
+- fi_FI: suomi (Suomi)
+- fr_BE: français (Belgique)
+- fr_CA: français (Canada)
+- fr_CH: français (Suisse)
+- fr_FR: français (France)
+- ga_IE: Gaeilge (Éire)
+- gd_GB: Gàidhlig
+- gl_ES: Galego
+- gu_IN: ગુજરાતી
+- he_IL: עברית‏
+- hi_IN: हिंदी (भारत)
+- hr_HR: hrvatski (Hrvatska)
+- hu_HU: magyar (Magyarország)
+- hy_AM: Հայերեն
+- id_ID: Bahasa Indonesia
+- io_XX: Ido
+- is_IS: íslenska (Ísland)
+- it_IT: italiano (Italia)
+- ja_JP: 日本語 (日本)
+- ka_GE: ქართული
+- kn_IN: ಕನ್ನಡ (India)
+- ko_KR: 한국어 (대한민국)
+- kw_GB: Kernowek
+- ky_KG: кыргызча
+- ln_CD: Lingála
+- lt_LT: Lietuvių (Lietuva)
+- lv_LV: Latviešu (Latvija)
+- ml_IN: മലയാളം
+- mn_MN: Монгол
+- mr_IN: मराठी
+- ms_MY: Bahasa Melayu (Malaysia)
+- nb_NO: Norsk (bokmål)
+- ne_NP: नेपाली
+- nl_BE: Nederlands (België)
+- nl_NL: Nederlands (Nederland)
+- nn_NO: Norsk (nynorsk)
+- pl_PL: polski (Polska)
+- ps_AF: پښتو
+- pt_BR: português (Brasil)
+- pt_PT: português (Portugal)
+- ro_RO: română (România)
+- ru_RU: русский (Россия)
+- si_LK: පළාත
+- sk_SK: Slovenčina (Slovenská republika)
+- sl_SI: Slovenščina (Slovenija)
+- sq_AL: shqip (Shqipëria)
+- sr_RS: Српски (Serbia)
+- sv_SE: svenska (Sverige)
+- ta_IN: தமிழ்
+- te_IN: తెలుగు
+- th_TH: ไทย (ประเทศไทย)
+- tl_PH: Filipino
+- tokipona_XX: Toki Pona
+- tpi_PG: Tok Pisin
+- tr_TR: Türkçe (Türkiye)
+- uk_UA: українська (Україна)
+- ur_PK: اردو
+- vi_VN: Tiếng Việt (Việt Nam)
+- zh_CN: 中文 (中国)
+- zh_TW: 中文 (台灣)
