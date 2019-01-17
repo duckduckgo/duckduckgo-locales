@@ -31,7 +31,7 @@ Example: Deutsch (Deutschland)
 
 Find the locale code for your language in the list below. The file can be found under locales/, e.g. locales/de_DE/LC_MESSAGES/duckduckgo.po
 
-## Currently supported locales
+## Currently supported locales (Please see issue [#13](https://github.com/duckduckgo/duckduckgo-locales/issues/13) for discussion on this)
 
 - af_ZA: Afrikaans (South Africa)
 - ar_DZ: العربية (الجزائر)
