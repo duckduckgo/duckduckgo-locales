@@ -1,3 +1,4 @@
+
 # Romanian Language Guidelines
 
 ## Diacritics
@@ -24,3 +25,8 @@ It's recommended to use the Romanian equivalent where possible. However the tran
 **meme** - though not standardized, should be translated as *memă*
 **online** - as is
 **site** - should be translated as *site*, not *sit* or *sait*
+
+
+## Privacy
+
+The English language might make a distinction between *privacy*, *confidentiality* and *intimacy*, however the word *privacy* can be translated as either *confidențialitate* (*confidentiality*) or *intimitate* (*intimacy*), depending on the context. Considering DuckDuckGo's emphasis on *privacy*, special care should be taken when translating the word. As a rule of thumb, *confidențialitate* seems more appropriate than *intimitate*.
