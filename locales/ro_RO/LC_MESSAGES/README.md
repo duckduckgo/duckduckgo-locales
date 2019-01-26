@@ -20,10 +20,15 @@ The translation maintains the intended tone.
 It's recommended to use the Romanian equivalent where possible. However the translator should consider standard language as opposed to linguists recommendations. Examples:
 
 **browser** - should be translated as *browser*, not *navigator [de Internet]*; the former is more common
+
 **email** - though *email* is the standard (IETF) spelling, the term *e-mail* was introduced in various Romanian dictionaries since at least 1997; additionally, the word *email* has a distinct entry in the dictionary, meaning *enamel*
+
 **link** - as is; translates to *legătură*, but it's seldom used
+
 **meme** - though not standardized, should be translated as *memă*
+
 **online** - as is
+
 **site** - should be translated as *site*, not *sit* or *sait*
 
 
