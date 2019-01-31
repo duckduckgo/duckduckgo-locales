@@ -12,7 +12,8 @@ It is recommended to use an informal style where appropriate. Polite personal pr
 Jocular expressions should be avoided unless explicitly called for. E.g.:
 
     msgid "We get a ton of searches, and all of them are anonymous."
-    msgstr "Avem o tonă de căutări, și toate sunt anonime."
+    msgstr "Primim o tonă de căutări, și toate sunt anonime."
+
 The translation maintains the intended tone.
 
 ## Neologisms, loanwords, technical terms
