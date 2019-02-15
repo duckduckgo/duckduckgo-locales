@@ -24,4 +24,3 @@ sub wanted {
         ok( !$?, "$name built OK" )
     );
 }
-
