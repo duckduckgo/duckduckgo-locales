@@ -19,7 +19,6 @@ sub wanted;
 # this should suffice for now
 sub simple_sprintf_check {
     my ( $msgid, $msgstr ) = map { s/^"//r =~ s/"$//r } @_;
-    my $sprintf_re = qr/%\d?s/;
     return 1 unless $msgid && $msgstr;
     my $cmsgid = () = $msgid =~ /%s/g;
     my $cmsgstr = () = $msgstr =~ /%(?:\d\$)?s/g;
