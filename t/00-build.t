@@ -14,6 +14,9 @@ use vars qw/*name *dir *prune/;
 
 sub wanted;
 
+system( qw/ msgfmt duckduckgo.pot / );
+ok( !$?, "duckduckgo.pot built OK" );
+
 File::Find::find({wanted => \&wanted}, 'locales');
 done_testing;
 
