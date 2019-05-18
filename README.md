@@ -108,6 +108,7 @@ Find the locale code for your language in the list below. The file can be found 
 - nl_BE: Nederlands (België)
 - nl_NL: Nederlands (Nederland)
 - nn_NO: Norsk (nynorsk)
+- od_IN: ଓଡ଼ିଆ (ଭାରତ)
 - pl_PL: polski (Polska)
 - ps_AF: پښتو
 - pt_BR: português (Brasil)
