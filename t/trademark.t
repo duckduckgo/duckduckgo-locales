@@ -26,10 +26,13 @@ done_testing;
 
 sub wanted {
     /^.*\.po\z/s || return;
-    for ( @{ Locale::PO->load_file_asarray( $_ ) } ) {
+    my $po = Locale::PO->load_file_asarray( $_ );
+    return if $po->[0]->has_flag('translated-trademark');
+    for ( @{ $po } ) {
+        next if $_->has_flag('translated-trademark');
         next unless $_->msgid =~ /DuckDuckGo/;
         ok( trademark_check( $_->msgid, $_->msgstr ),
-          'Translation for ' . $_->msgid . ' does not contain DuckDuckGo : ' . $_->msgstr )
+          'Translation for ' . $_->msgid . ' in ' . $name . ' does not contain DuckDuckGo : ' . $_->msgstr )
     }
 }
 
