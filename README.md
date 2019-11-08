@@ -40,7 +40,7 @@ Find the locale code for your language in the list below. The file can be found 
 - ar_SA: العربية (السعودية)
 - ast_ES: Asturianu
 - az_AZ: Azərbaycan dili
-- be_BY: беларускі (Беларусь)
+- be_BY: беларуская (Беларусь)
 - bg_BG: български (България)
 - bn_BD: বাংলা(বাংলাদেশ)
 - bn_IN: বাংলা (ভারত)
