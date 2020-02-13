@@ -115,7 +115,7 @@ Find the locale code for your language in the list below. The file can be found 
 - pt_PT: português (Portugal)
 - ro_RO: română (România)
 - ru_RU: русский (Россия)
-- si_LK: පළාත
+- si_LK: සිංහල
 - sk_SK: Slovenčina (Slovenská republika)
 - sl_SI: Slovenščina (Slovenija)
 - sq_AL: shqip (Shqipëria)
