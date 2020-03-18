@@ -24,6 +24,7 @@ While you can edit PO files in any text editor or directly on GitHub, there are 
 
 - [Poedit](https://poedit.net/)
 - [Online PO file editor](https://localise.biz/free/poeditor)
+- [Crowdin - Centralized web workflow (Ukrainian translation)](https://crowdin.com/project/duckduckgo)
 
 ## Where to find the PO file for your language
 
