@@ -17,7 +17,7 @@ sub wanted;
 
 sub translation_check {
     my ( $msgid, $msgstr ) = map { s/^"//r =~ s/"$//r } @_;
-    return 1 unless $msgstr eq "";
+    return 1 if $msgstr eq "";
 }
 
 File::Find::find({wanted => \&wanted}, 'locales');
