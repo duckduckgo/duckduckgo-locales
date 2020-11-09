@@ -2,6 +2,52 @@
 
 Translation files for [duckduckgo.com](https://duckduckgo.com/).
 
+## Professional translations for major languages
+
+We're now using a professional service to translate languages in our major markets. This builds on the fantastic work of our translation community and will enable us to attain full coverage and consistency across languages. 
+
+The following languages will be affected:
+- Afrikaans
+- Belarusian
+- Bulgarian
+- Chinese (Simplified)
+- Chinese (Traditional)
+- Croatian
+- Czech
+- Danish
+- Dutch
+- Estonian
+- Finnish
+- French
+- German
+- Greek
+- Hindi
+- Hungarian
+- Indonesian
+- Italian
+- Japanese
+- Korean
+- Latvian
+- Lithuanian
+- Malayalam (India)
+- Norwegian
+- Polish
+- Portuguese (Portugal)
+- Romanian
+- Russian
+- Sinhala
+- Slovak
+- Slovenian
+- Spanish
+- Swedish
+- Thai
+- Turkish
+- Ukrainian
+
+Soon, we plan to launch a complete review of all translations to ensure even more consistency across languages.
+
+We're very grateful for all the translation contributions that have helped support users around the world up to now, and we still welcome comments to help us improve translations. Please [open an Issue](https://github.com/duckduckgo/duckduckgo-locales/issues/new) and let us know what you think.
+
 ## About PO files
 
 PO files contain lists of tokens and translations. Tokens are stored in "msgid" values and translations in "msgstr" values, e.g.
