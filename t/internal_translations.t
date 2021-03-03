@@ -155,8 +155,8 @@ use vars qw/*name *dir *prune %european_languages/;
       ad_badge => "Перегляд оголошень виконується із захистом конфіденційності DuckDuckGo. Клацаннями оголошень керує рекламна мережа Microsoft"
     },
     zh_CN => {
-      more_info => "",
-      ad_badge => ""
+      more_info => "更多信息",
+      ad_badge => "DuckDuckGo 会保护观看广告的隐私。广告点击量由 Microsoft 广告网络管理"
     },
     zh_TW => {
       more_info => "",
