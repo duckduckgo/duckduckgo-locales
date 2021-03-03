@@ -83,8 +83,8 @@ use vars qw/*name *dir *prune %european_languages/;
       ad_badge => "La privacy della visualizzazione degli annunci è protetta da DuckDuckGo. I clic sugli annunci sono gestiti dalla rete pubblicitaria di Microsoft"
     },
     ja_JP => {
-      more_info => "",
-      ad_badge => ""
+      more_info => "詳細",
+      ad_badge => "広告表示機能のプライバシーは DuckDuckGo で保護されます。広告のクリックは Microsoft の広告ネットワークで管理されています"
     },
     ko_KR => {
       more_info => "",
