@@ -99,8 +99,8 @@ use vars qw/*name *dir *prune %european_languages/;
       ad_badge => "Reklāmu skatīšanu aizsargā DuckDuckGo konfidencialitāte. Klikšķus uz reklāmām pārvalda Microsoft reklāmu tīkls"
     },
     ml_IN => {
-      more_info => "",
-      ad_badge => ""
+      more_info => "കൂടുതൽ വിവരങ്ങൾ",
+      ad_badge => "പരസ്യങ്ങൾ കാണുന്നത് DuckDuckGo സ്വകാര്യതാ പരിരക്ഷ ചെയ്തിരിക്കുന്നു. പരസ്യ ക്ലിക്കുകൾ നിയന്ത്രിക്കുന്നത് മൈക്രോസോഫ്റ്റിന്റെ പരസ്യ നെറ്റ്‌വർക്കാണ്"
     },
     nb_NO => {
       more_info => "mer info",
