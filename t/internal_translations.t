@@ -15,8 +15,8 @@ use vars qw/*name *dir *prune %european_languages/;
 
 %european_languages = (
     af_ZA => {
-      more_info => "",
-      ad_badge => ""
+      more_info => "Nog Inligting",
+      ad_badge => "Jou privaatheid word deur DuckDuckGo beskerm as jy na advertensies kyk. Advertensie-klikke word deur Microsoft se advertensienetwerk bestuur"
     },
     be_BY => {
       more_info => "",
