@@ -151,8 +151,8 @@ use vars qw/*name *dir *prune %european_languages/;
       ad_badge => "Reklam görüntüleme, DuckDuckGo’nun gizlilik koruması altındadır. Reklam tıklamaları, Microsoft’un reklam ağı tarafından yönetilir"
     },
     uk_UA => {
-      more_info => "",
-      ad_badge => ""
+      more_info => "Більше Інформації",
+      ad_badge => "Перегляд оголошень виконується із захистом конфіденційності DuckDuckGo. Клацаннями оголошень керує рекламна мережа Microsoft"
     },
     zh_CN => {
       more_info => "",
