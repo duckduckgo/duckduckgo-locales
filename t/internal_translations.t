@@ -71,8 +71,8 @@ use vars qw/*name *dir *prune %european_languages/;
       ad_badge => "A hirdetéseket a DuckDuckGo adatvédelme keretében tekintheted meg. A hirdetéskattintásokat a Microsoft hirdetési hálózata kezeli"
     },
     id_ID => {
-      more_info => "",
-      ad_badge => ""
+      more_info => "Info Lebih Banyak",
+      ad_badge => "Melihat iklan adalah privasi yang dilindungi oleh DuckDuckGo. Klik iklan dikelola oleh jaringan iklan Microsoft"
     },
     is_IS => {
       more_info => "frekari upplýsingar",
