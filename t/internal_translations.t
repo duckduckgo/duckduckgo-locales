@@ -143,8 +143,8 @@ use vars qw/*name *dir *prune %european_languages/;
       ad_badge => "Visning av annonser är sekretessskyddat av DuckDuckGo. Annonsklick hanteras av Microsofts annonsnätverk"
     },
     th_TH => {
-      more_info => "",
-      ad_badge => ""
+      more_info => "ข้อมูลเพิ่มเติม",
+      ad_badge => "การดูโฆษณาได้รับการปกป้องความเป็นส่วนตัวโดย DuckDuckGo การคลิกโฆษณาได้รับการจัดการโดยเครือข่ายโฆษณาของ Microsoft"
     },
     tr_TR => {
       more_info => "daha fazla bilgi",
