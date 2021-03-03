@@ -159,8 +159,8 @@ use vars qw/*name *dir *prune %european_languages/;
       ad_badge => "DuckDuckGo 会保护观看广告的隐私。广告点击量由 Microsoft 广告网络管理"
     },
     zh_TW => {
-      more_info => "",
-      ad_badge => ""
+      more_info => "查看更多資訊",
+      ad_badge => "DuckDuckGo 會保護你在觀看廣告時的隱私。點擊廣告則由 Microsoft 的廣告網路管理"
     },
 );
 
