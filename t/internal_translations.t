@@ -14,6 +14,14 @@ use vars qw/*name *dir *prune %european_languages/;
 *prune  = *File::Find::prune;
 
 %european_languages = (
+    af_ZA => {
+      more_info => "",
+      ad_badge => ""
+    },
+    be_BY => {
+      more_info => "",
+      ad_badge => ""
+    },
     bg_BG => {
       more_info => "повече информация",
       ad_badge => "Вашата поверителност при гледане на реклами е защитена от DuckDuckGo. Рекламните кликове се управляват от рекламната мрежа на Microsoft"
@@ -50,6 +58,10 @@ use vars qw/*name *dir *prune %european_languages/;
       more_info => "plus d'informations",
       ad_badge => "La confidentialité des annonces est protégée par DuckDuckGo. Les clics sur les annonces sont gérés par le réseau publicitaire Microsoft de"
     },
+    hi_IN => {
+      more_info => "",
+      ad_badge => ""
+    },
     hr_HR => {
       more_info => "više informacija",
       ad_badge => "Pregledavanje oglasa je privatnost koju štiti DuckDuckGo. Klikovima na oglase upravlja Microsoftova oglasna mreža"
@@ -57,6 +69,10 @@ use vars qw/*name *dir *prune %european_languages/;
     hu_HU => {
       more_info => "További információ",
       ad_badge => "A hirdetéseket a DuckDuckGo adatvédelme keretében tekintheted meg. A hirdetéskattintásokat a Microsoft hirdetési hálózata kezeli"
+    },
+    id_ID => {
+      more_info => "",
+      ad_badge => ""
     },
     is_IS => {
       more_info => "frekari upplýsingar",
@@ -66,6 +82,14 @@ use vars qw/*name *dir *prune %european_languages/;
       more_info => "Maggiori Informazioni",
       ad_badge => "La privacy della visualizzazione degli annunci è protetta da DuckDuckGo. I clic sugli annunci sono gestiti dalla rete pubblicitaria di Microsoft"
     },
+    ja_JP => {
+      more_info => "",
+      ad_badge => ""
+    },
+    ko_KR => {
+      more_info => "",
+      ad_badge => ""
+    },
     lt_LT => {
       more_info => "daugiau informacijos",
       ad_badge => "Peržiūrimų skelbimų privatumą saugo „DuckDuckGo“. Skelbimų spustelėjimus tvarko „Microsoft“ skelbimų tinklas"
@@ -73,6 +97,10 @@ use vars qw/*name *dir *prune %european_languages/;
     lv_LV => {
       more_info => "papildu informācija",
       ad_badge => "Reklāmu skatīšanu aizsargā DuckDuckGo konfidencialitāte. Klikšķus uz reklāmām pārvalda Microsoft reklāmu tīkls"
+    },
+    ml_IN => {
+      more_info => "",
+      ad_badge => ""
     },
     nb_NO => {
       more_info => "mer info",
@@ -98,6 +126,10 @@ use vars qw/*name *dir *prune %european_languages/;
       more_info => "подробнее",
       ad_badge => "DuckDuckGo обеспечивает защиту конфиденциальности пользователей при просмотре рекламных объявлений. Управление переходами по рекламным объявлениям осуществляется рекламной сетью «Майкрософт»"
     },
+    si_LK => {
+      more_info => "",
+      ad_badge => ""
+    },
     sk_SK => {
       more_info => "ďalšie informácie",
       ad_badge => "Zobrazenie reklám je chránené ochranou osobných údajov DuckDuckGo. Kliknutia na reklamy spravuje reklamná sieť spoločnosti Microsoft"
@@ -110,10 +142,26 @@ use vars qw/*name *dir *prune %european_languages/;
       more_info => "mer info",
       ad_badge => "Visning av annonser är sekretessskyddat av DuckDuckGo. Annonsklick hanteras av Microsofts annonsnätverk"
     },
+    th_TH => {
+      more_info => "",
+      ad_badge => ""
+    },
     tr_TR => {
       more_info => "daha fazla bilgi",
       ad_badge => "Reklam görüntüleme, DuckDuckGo’nun gizlilik koruması altındadır. Reklam tıklamaları, Microsoft’un reklam ağı tarafından yönetilir"
-    }
+    },
+    uk_UA => {
+      more_info => "",
+      ad_badge => ""
+    },
+    zh_CN => {
+      more_info => "",
+      ad_badge => ""
+    },
+    zh_TW => {
+      more_info => "",
+      ad_badge => ""
+    },
 );
 
 sub wanted;
