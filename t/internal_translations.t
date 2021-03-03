@@ -18,10 +18,6 @@ use vars qw/*name *dir *prune %european_languages/;
       more_info => "повече информация",
       ad_badge => "Вашата поверителност при гледане на реклами е защитена от DuckDuckGo. Рекламните кликове се управляват от рекламната мрежа на Microsoft"
     },
-    hr_HR => {
-      more_info => "više informacija",
-      ad_badge => "Pregledavanje oglasa je privatnost koju štiti DuckDuckGo. Klikovima na oglase upravlja Microsoftova oglasna mreža"
-    },
     cs_CZ => {
       more_info => "více informací",
       ad_badge => "Při zobrazení reklam společnost DuckDuckGo chrání vaše soukromí. Kliknutí na reklamy jsou spravována reklamní sítí společnosti Microsoft"
@@ -30,17 +26,21 @@ use vars qw/*name *dir *prune %european_languages/;
       more_info => "mere info",
       ad_badge => "DuckDuckGo beskytter dine personoplysninger, når du ser annoncer. Annonceklik administreres af Microsofts annoncenetværk"
     },
-    nl_NL => {
-      more_info => "meer informatie",
-      ad_badge => "De weergave van advertenties wordt beschermd door DuckDuckGo. Advertentieklikken worden beheerd door het advertentienetwerk van Microsoft"
+    de_DE => {
+      more_info => "Weitere Informationen",
+      ad_badge => "Der Datenschutz beim Aufrufen von Anzeigen wird durch. DuckDuckGo gewährleistet. Die Anzeigen-Klicks werden durch das Microsoft-Werbenetzwerk verwaltet"
+    },
+    el_GR => {
+      more_info => "περισσότερες πληροφορίες",
+      ad_badge => "Στην προβολή διαφημίσεων υπάρχει προστασία απορρήτου από την DuckDuckGo. Η διαχείριση των κλικ διαφήμισης γίνεται από το δίκτυο διαφημίσεων της Microsoft"
+    },
+    es_ES => {
+      more_info => "más información",
+      ad_badge => "DuckDuckGo protege la privacidad de la visualización de anuncios. La red de anuncios de Microsoft gestiona los clics en los anuncios"
     },
     et_EE => {
       more_info => "lisateave",
       ad_badge => "DuckDuckGo kaitseb reklaamide vaatamisel teie privaatsust. Reklaamiklõpse haldab Microsofti reklaamivõrgustik"
-    },
-    de_DE => {
-      more_info => "Weitere Informationen",
-      ad_badge => "Der Datenschutz beim Aufrufen von Anzeigen wird durch. DuckDuckGo gewährleistet. Die Anzeigen-Klicks werden durch das Microsoft-Werbenetzwerk verwaltet"
     },
     fi_FI => {
       more_info => "lisätietoa",
@@ -50,13 +50,9 @@ use vars qw/*name *dir *prune %european_languages/;
       more_info => "plus d'informations",
       ad_badge => "La confidentialité des annonces est protégée par DuckDuckGo. Les clics sur les annonces sont gérés par le réseau publicitaire Microsoft de"
     },
-    el_GR => {
-      more_info => "περισσότερες πληροφορίες",
-      ad_badge => "Στην προβολή διαφημίσεων υπάρχει προστασία απορρήτου από την DuckDuckGo. Η διαχείριση των κλικ διαφήμισης γίνεται από το δίκτυο διαφημίσεων της Microsoft"
-    },
-    es_ES => {
-      more_info => "más información",
-      ad_badge => "DuckDuckGo protege la privacidad de la visualización de anuncios. La red de anuncios de Microsoft gestiona los clics en los anuncios"
+    hr_HR => {
+      more_info => "više informacija",
+      ad_badge => "Pregledavanje oglasa je privatnost koju štiti DuckDuckGo. Klikovima na oglase upravlja Microsoftova oglasna mreža"
     },
     hu_HU => {
       more_info => "További információ",
@@ -81,6 +77,10 @@ use vars qw/*name *dir *prune %european_languages/;
     nb_NO => {
       more_info => "mer info",
       ad_badge => "Visningsannonser er personvernbeskyttet av DuckDuckGo. Annonseklikk administreres av Microsofts annonsenettverk"
+    },
+    nl_NL => {
+      more_info => "meer informatie",
+      ad_badge => "De weergave van advertenties wordt beschermd door DuckDuckGo. Advertentieklikken worden beheerd door het advertentienetwerk van Microsoft"
     },
     pl_PL => {
       more_info => "więcej informacji",
