@@ -59,8 +59,8 @@ use vars qw/*name *dir *prune %european_languages/;
       ad_badge => "La confidentialité des annonces est protégée par DuckDuckGo. Les clics sur les annonces sont gérés par le réseau publicitaire Microsoft de"
     },
     hi_IN => {
-      more_info => "",
-      ad_badge => ""
+      more_info => "अधिक जानकारी",
+      ad_badge => "विज्ञापन देखना DuckDuckGo द्वारा गोपनीयता संरक्षित है। विज्ञापन क्लिक को Microsoft के विज्ञापन नेटवर्क द्वारा प्रबंधित किया जाता है"
     },
     hr_HR => {
       more_info => "više informacija",
