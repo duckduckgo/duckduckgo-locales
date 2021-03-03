@@ -19,8 +19,8 @@ use vars qw/*name *dir *prune %european_languages/;
       ad_badge => "Jou privaatheid word deur DuckDuckGo beskerm as jy na advertensies kyk. Advertensie-klikke word deur Microsoft se advertensienetwerk bestuur"
     },
     be_BY => {
-      more_info => "",
-      ad_badge => ""
+      more_info => "Больш звестак",
+      ad_badge => "Прыватнасць прагляду рэкламы абараняецца DuckDuckGo. Націсканні на рэкламныя аб'явы кіруюцца сеткай Microsoft"
     },
     bg_BG => {
       more_info => "повече информация",
