@@ -85,6 +85,10 @@ msgid "%s%s%s reviews"
 msgstr "%s%s%s baxış"
 
 msgctxt "install-duckduckgo"
+msgid "%sClick %sAdd%sCheck %sAllow%s, then click %sOkay%s"
+msgstr ""
+
+msgctxt "install-duckduckgo"
 msgid "%sClick %sAllow%sClick %sAdd%sCheck %sAllow%s, then click %sOkay%s"
 msgstr ""
 
@@ -112,12 +116,10 @@ msgctxt "frontpage"
 msgid "%sLearn More%s."
 msgstr "%sƏtraflı Öyrən%s."
 
-# smartling.placeholder_format=C
 msgctxt "precise_user_location"
 msgid "%sLearn how we keep your location private%s."
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "noresults"
 msgid "%sReset filters %s"
 msgstr ""
@@ -280,9 +282,19 @@ msgctxt "image-color"
 msgid "All Colors"
 msgstr "Bütün rənglər"
 
+#. a filter for any image with a Creative Commons usage license
+msgctxt "image-licence"
+msgid "All Creative Commons"
+msgstr ""
+
 msgctxt "image-layout"
 msgid "All Layouts"
 msgstr "Bütün Düzülüşlər"
+
+#. 'license' as in 'permission to use, share, or modify a work'
+msgctxt "image-licence"
+msgid "All Licenses"
+msgstr ""
 
 msgid "All Places"
 msgstr "Bütün Yerlər"
@@ -297,7 +309,6 @@ msgstr "Bütün Nəticələr"
 msgid "All Settings"
 msgstr "Bütün Tənzimləmələr"
 
-# smartling.placeholder_format=C
 msgctxt "settings pages"
 msgid "All Settings"
 msgstr ""
@@ -310,7 +321,29 @@ msgctxt "image-type"
 msgid "All Types"
 msgstr "Bütün Növləri"
 
-# smartling.placeholder_format=C
+#. This is shown in an image filter. This option only shows images in colors, excluding black and white images. https://duckduckgo.com/?q=images+of+cats&iar=images&iax=images&ia=images
+msgctxt "image-color"
+msgid "All colors"
+msgstr ""
+
+#. This is shown in a layout selector for images, other options are: square, tall, wide  https://duckduckgo.com/?q=images+of+cats&iar=images&iax=images&ia=images.
+msgctxt "image-layout"
+msgid "All layouts"
+msgstr ""
+
+msgctxt "settingsvalue"
+msgid "All regions"
+msgstr ""
+
+msgctxt "size"
+msgid "All sizes"
+msgstr ""
+
+#. Shown in an image type selector. Other options are: photograph, clipart, animated gif, etc.  https://duckduckgo.com/?q=images+of+cats&iar=images&iax=images&ia=images
+msgctxt "image-type"
+msgid "All types"
+msgstr ""
+
 msgctxt "settings"
 msgid ""
 "Allows Cloud Save key to be stored locally on device (required to use Cloud "
@@ -349,12 +382,10 @@ msgctxt "image-type"
 msgid "Animated GIF"
 msgstr "Animasiyalı GIF"
 
-# smartling.placeholder_format=C
 msgctxt "precise_user_location"
 msgid "Anonymous Location Enabled"
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "precise_user_location"
 msgid "Anonymous location enabled"
 msgstr ""
@@ -387,6 +418,24 @@ msgstr "Hər hansı görüntü keyfiyyəti"
 msgid "Any Time"
 msgstr "Nə Vaxtsa"
 
+#. Shown in video filtering. https://duckduckgo.com/?q=videos+of+cats&iax=videos&ia=videos
+msgctxt "video-duration"
+msgid "Any duration"
+msgstr ""
+
+#. Shown in video filtering. https://duckduckgo.com/?q=videos+of+cats&iax=videos&ia=videos
+msgctxt "video-license"
+msgid "Any license"
+msgstr ""
+
+#. Shown in video filtering. https://duckduckgo.com/?q=videos+of+cats&iax=videos&ia=videos
+msgctxt "video-resolution"
+msgid "Any resolution"
+msgstr ""
+
+msgid "Any time"
+msgstr ""
+
 msgid "Anywhere"
 msgstr "Hər hansı yerdə"
 
@@ -404,7 +453,6 @@ msgctxt "settings"
 msgid "Appearance"
 msgstr "Görünüş"
 
-# smartling.placeholder_format=C
 msgctxt "Custom date range filer"
 msgid "Apply"
 msgstr ""
@@ -447,7 +495,6 @@ msgctxt "settings"
 msgid "Auto-Suggest"
 msgstr "Avto Təklif"
 
-# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Autocomplete Suggestions"
 msgstr ""
@@ -553,11 +600,6 @@ msgid "Belgium (nl)"
 msgstr "Belçika"
 
 msgctxt "settingsvalue"
-msgid "Best Available"
-msgstr ""
-
-# smartling.placeholder_format=C
-msgctxt "settingsvalue"
 msgid "Best available"
 msgstr ""
 
@@ -580,6 +622,10 @@ msgstr "Qara"
 msgctxt "image-color"
 msgid "Black and White"
 msgstr "Qara və ağ"
+
+msgctxt "image-color"
+msgid "Black and white"
+msgstr ""
 
 msgid "Block Trackers"
 msgstr ""
@@ -641,7 +687,6 @@ msgid ""
 "%smajor browsers%s."
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "precise_user_location"
 msgid "Browser Location Unavailable"
 msgstr ""
@@ -650,8 +695,8 @@ msgctxt "settingsvalue"
 msgid "Browser Preferred Language"
 msgstr "Brauzerin Tercih Edilmiş Dil"
 
-msgctxt "precise_user_location"
-msgid "Browser location unavailable."
+msgctxt "settingsvalue"
+msgid "Browser preferred language"
 msgstr ""
 
 msgid "Bulgaria"
@@ -659,21 +704,6 @@ msgstr "Bolqarıstan"
 
 #. Click "Show Bookmarklet and Settings Data" - http://i.imgur.com/NKOWrRl.png
 #. Then - http://i.imgur.com/mo6wsE4.png
-msgctxt "settings"
-msgid ""
-"By default settings are stored in non-personal browser cookies (in your "
-"browser). You can use Anonymous Cloud Save to store your settings in a more "
-"permanent way (on a remote server in the cloud). No personally identifiable "
-"information will be stored in the cloud, and your pass phrase will never "
-"leave your browser."
-msgstr ""
-"Varsayılmayan parametrlər qeyri-şəxsi brauzer çerezlərində saxlanılır "
-"(brauzerinizdə). Ayarlarınızı daha da qalıcı bir şəkildə (buluddakı uzaq bir "
-"serverdə) saxlamaq üçün Anonymous Cloud Save istifadə edə bilərsiniz. "
-"Buludda heç bir şəxsiyyət vəsiqə məlumatı saxlanılmayacaq və pass phrase heç "
-"vaxt sizin brauzerinizi tərk etməyəcəkdir."
-
-# smartling.placeholder_format=C
 msgctxt "settings"
 msgid ""
 "By default, settings are stored in non-personal browser cookies (in your "
@@ -726,21 +756,11 @@ msgstr "Mərkəzi Qruplaşma"
 #. One of the option in DuckDuckGo Search Settings under appearance tab.
 #. http://i.imgur.com/CklQ1Ku.png
 msgctxt "settings"
-msgid "Center align the results page (instead of left aligned)"
-msgstr "Mərkəz nəticə səhifəsini hizalamaq (sola hizalanma yerinə)"
-
-# smartling.placeholder_format=C
-msgctxt "settings"
 msgid "Center-aligns the results page (instead of left-aligned)"
 msgstr ""
 
 msgid "Change Region"
 msgstr "Bölgəni Dəyiş"
-
-#. http://i.imgur.com/OntTi6e.png
-msgctxt "settings"
-msgid "Change the background color across the entire site"
-msgstr "Bütün saytın arka plan rəngini dəyişdirin"
 
 #. http://i.imgur.com/oO0X6Pt.png
 msgctxt "settings"
@@ -753,15 +773,10 @@ msgstr ""
 
 #. http://i.imgur.com/mcZdcaF.png
 msgctxt "settings"
-msgid "Changes results to be region specific"
-msgstr "Dəyişikliklər bölgəyə xüsusi olacaq"
-
-# smartling.placeholder_format=C
-msgctxt "settings"
 msgid "Changes search results based on region"
 msgstr ""
 
-# smartling.placeholder_format=C
+#. http://i.imgur.com/OntTi6e.png
 msgctxt "settings"
 msgid "Changes the background color across the entire site"
 msgstr ""
@@ -823,11 +838,6 @@ msgid "Changes what happens when you click on a video thumbnail"
 msgstr "Bir video klikə vurduğunuzda nə olur dəyişir"
 
 msgctxt "settings"
-msgid "Changes whether the visited check mark is visible"
-msgstr "Ziyaret edilən onay işaretinin görünüp görünmediğini değiştirir"
-
-# smartling.placeholder_format=C
-msgctxt "settings"
 msgid "Changes whether the visited checkmark is visible"
 msgstr ""
 
@@ -860,11 +870,6 @@ msgid "China"
 msgstr "Çin"
 
 #. http://i.imgur.com/f8Ae6jo.png
-msgctxt "cloudsave"
-msgid "Choose a unique pass phrase for your settings:"
-msgstr "Parametrləriniz üçün unikal şifrəni seçin"
-
-# smartling.placeholder_format=C
 msgctxt "cloudsave"
 msgid "Choose a unique passphrase for your settings."
 msgstr ""
@@ -902,7 +907,6 @@ msgstr ""
 msgid "Clear Region"
 msgstr "Regionu sil"
 
-# smartling.placeholder_format=C
 msgid "Clear all filters"
 msgstr ""
 
@@ -1012,7 +1016,8 @@ msgstr ""
 msgid "Click on the magnifying glass in the search box at the top right"
 msgstr "Sağ üstdə axtarış qutusuna büyüteç vurun"
 
-# smartling.placeholder_format=C
+#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
+#. In the cloud save box - http://i.imgur.com/FbCoYVE.png
 msgctxt "cloudsave"
 msgid ""
 "Click or tap %sDelete My Data%s. This removes the data from the cloud, but "
@@ -1099,7 +1104,6 @@ msgctxt "cloudsave"
 msgid "Cloud Save"
 msgstr "Bulud Yaddaş"
 
-# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Cloud Save"
 msgstr ""
@@ -1150,6 +1154,10 @@ msgstr "Yalnız rəng"
 msgid "Color Settings"
 msgstr "Rəng Nizamlamaları"
 
+msgctxt "image-color"
+msgid "Color only"
+msgstr ""
+
 #. In the top menu under Settings
 msgid "Colors"
 msgstr "Rənglər"
@@ -1194,11 +1202,6 @@ msgid "Conversion"
 msgstr "Söhbət"
 
 #. http://i.imgur.com/fd7EjAN.png
-msgctxt "settings"
-msgid "Cookie Data:"
-msgstr "Çərəz Məlumatları:"
-
-# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Cookie data:"
 msgstr ""
@@ -1259,8 +1262,10 @@ msgctxt "settingsvalue"
 msgid "Custom %s"
 msgstr "Xüsusi %s"
 
-# smartling.placeholder_format=C
 msgid "Custom Date Range"
+msgstr ""
+
+msgid "Custom date range"
 msgstr ""
 
 msgctxt "settings"
@@ -1291,7 +1296,6 @@ msgctxt "feedback form"
 msgid "Date Filters"
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "feedback form"
 msgid "Date filters"
 msgstr ""
@@ -1310,14 +1314,10 @@ msgstr "Əsas"
 msgid "Definition"
 msgstr "Mənası"
 
-# smartling.placeholder_format=C
-msgid "Delete My Data"
-msgstr ""
-
 #. When anonymous cloud save is enabled, a box is available with a <em>delete your data</em> button at the bottom of <a href="https://duckduckgo.com/settings.html">settings page<a/>.
 #. This token is displayed as a button, so keep it short!
-msgid "Delete my data"
-msgstr "Mənim məlumatımı sil"
+msgid "Delete My Data"
+msgstr ""
 
 msgid "Denmark"
 msgstr "Danimarka"
@@ -1475,14 +1475,6 @@ msgstr "DuckDuckGo Dəstək Mərkəzi"
 msgid "DuckDuckGo URL Parameters"
 msgstr "DuckDuckGo URL Parametrləri"
 
-#. Stuff about how your password is stored and secured.
-#. Into "How does it work" paragraph of <a href="https://duckduckgo.com/settings.html">settings page</a>.
-#. You have to click the "What is this?" link to display it.
-msgctxt "cloudsave"
-msgid "DuckDuckGo does not ever know your passphrase."
-msgstr "DuckDuckGo sizin şifrənizi bilmir"
-
-# smartling.placeholder_format=C
 msgctxt "precise_user_location"
 msgid ""
 "DuckDuckGo is private by design. When you enable location, it is stored on "
@@ -1492,21 +1484,10 @@ msgid ""
 "this technology to protect your privacy%s."
 msgstr ""
 
-msgctxt "precise_user_location"
-msgid ""
-"DuckDuckGo is private by design. When you enable location, it is stored on "
-"your local device only. When you search, your device then sends it to us, we "
-"use it to improve results for that search, and then we promptly throw it "
-"away, such that you remain anonymous. Learn more about how we designed this "
-"technology to protect your privacy %shere%s."
-msgstr ""
-
-# smartling.placeholder_format=C
 msgctxt "cloudsave"
 msgid "DuckDuckGo never knows your passphrase."
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "settings"
 msgid ""
 "DuckDuckGo only uses your approximate location. That's all we need to "
@@ -1533,15 +1514,6 @@ msgstr ""
 #. You have to click the "What is this?" link to display it.
 msgctxt "cloudsave"
 msgid ""
-"Each time you ask for a passphrase suggestion, we get a reasonably large "
-"list of random words from the DuckDuckGo servers."
-msgstr ""
-"Hər dəfə siz şifrə sözü təklifi üçün müraciət edirsiniz, biz olduqca böyük "
-"müxtəlif söz siyahısını DuckDuckGo serverindən əldə edirik."
-
-# smartling.placeholder_format=C
-msgctxt "cloudsave"
-msgid ""
 "Each time you ask for a passphrase suggestion, we receive a long list of "
 "random words from the DuckDuckGo servers. In the browser, we then select 4-5 "
 "random words from that list, ensuring that the passphrase is at least 18-20 "
@@ -1557,7 +1529,8 @@ msgctxt "precise_user_location"
 msgid "Enable 'Sites can ask for my location.'"
 msgstr ""
 
-# smartling.placeholder_format=C
+#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
+#. In the cloud save box - http://i.imgur.com/fUS6WAi.png
 msgctxt "cloudsave"
 msgid "Enable Cloud Save by entering your existing passphrase."
 msgstr ""
@@ -1570,18 +1543,10 @@ msgctxt "new tab page"
 msgid "Enable Most Visited Sites"
 msgstr ""
 
-# smartling.placeholder_format=C
 msgid ""
 "Enable anonymous location for more accurate results. You can always change "
 "your mind later."
 msgstr ""
-
-#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
-#. In the cloud save box - http://i.imgur.com/fUS6WAi.png
-msgctxt "cloudsave"
-msgid "Enable cloud save by entering your existing passphrase."
-msgstr ""
-"Mövcud keçid parolunuzu daxil etməklə, buludu yadda saxlaya bilərsiniz."
 
 msgctxt "precise_user_location"
 msgid "Enable the Location setting on your phone."
@@ -1609,25 +1574,11 @@ msgstr ""
 #. then locate the text here: http://i.imgur.com/xisuMjL.png
 msgctxt "cloudsave"
 msgid ""
-"Enter a new passphrase and click 'Save Settings' This will save your data "
-"under your new passphrase."
-msgstr ""
-"Yeni bir şifrəni daxil edin və 'Ayarları Saxla' düyməsinə vurun. Bu, yeni "
-"parolanızla məlumatlarınızı saxlayacaq."
-
-# smartling.placeholder_format=C
-msgctxt "cloudsave"
-msgid ""
 "Enter a new passphrase and click/tap %sSave Settings%s. This will save your "
 "data under your new passphrase."
 msgstr ""
 
 #. http://i.imgur.com/qo0C6MA.png
-msgctxt "settings"
-msgid "Enter a pass phrase"
-msgstr "Şifrə sözünü daxil edin"
-
-# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Enter a passphrase"
 msgstr ""
@@ -1649,17 +1600,8 @@ msgctxt "email newsletter"
 msgid "Enter your email address."
 msgstr ""
 
-msgctxt "cloudsave"
-msgid "Enter your pass phrase to load your settings:"
-msgstr "Ayarlarınızı yükləmək üçün pasword ifadənizi daxil edin:"
-
 #. Click "Load Settings" - http://i.imgur.com/3czvc4H.png
 #. Then - http://i.imgur.com/K6c3e4L.png
-msgctxt "settings"
-msgid "Enter your pass phrase to load your settings:"
-msgstr "Parametrlərinizi işə salmaq üçün şifrənizi qeyd edin:"
-
-# smartling.placeholder_format=C
 msgctxt "cloudsave"
 msgid "Enter your passphrase to load your settings."
 msgstr ""
@@ -1704,11 +1646,6 @@ msgid "Extra Large"
 msgstr "Əlavə Böyük"
 
 msgctxt "directions"
-msgid "Fastest Route"
-msgstr ""
-
-# smartling.placeholder_format=C
-msgctxt "directions"
 msgid "Fastest route"
 msgstr ""
 
@@ -1742,21 +1679,12 @@ msgstr ""
 msgid "Filter Options"
 msgstr "Süzgəc nizamlamaları"
 
-# smartling.placeholder_format=C
 msgid "Filter by Date"
 msgstr ""
 
-# smartling.placeholder_format=C
 msgid "Filter by Region"
 msgstr ""
 
-msgid "Filter by date"
-msgstr "Zamanla filter et"
-
-msgid "Filter by region"
-msgstr "Bölgəyə görə filtr"
-
-# smartling.placeholder_format=C
 msgctxt "feedback form"
 msgid "Filters aren't working"
 msgstr ""
@@ -1773,7 +1701,6 @@ msgstr ""
 msgid "Find DuckDuckGo in the displayed list and click %sMake Default%s"
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "precise_user_location"
 msgid "Find results closer to you"
 msgstr ""
@@ -1822,19 +1749,34 @@ msgstr ""
 msgid "France"
 msgstr "Fransa"
 
+#. a filter for images with the CC BY-NC usage license
+msgctxt "image-licence"
+msgid "Free to Modify, Share, and Use"
+msgstr ""
+
+#. a filter for images with the CC BY usage license
+msgctxt "image-licence"
+msgid "Free to Modify, Share, and Use Commercially"
+msgstr ""
+
+#. a filter for images with the CC BY-NC-ND usage license
+msgctxt "image-licence"
+msgid "Free to Share and Use"
+msgstr ""
+
+#. a filter for images with the CC BY-ND usage license
+msgctxt "image-licence"
+msgid "Free to Share and Use Commercially"
+msgstr ""
+
 msgctxt "new user poll"
 msgid "Friend or family"
 msgstr "Dost və ya ailə"
 
-# smartling.placeholder_format=C
+#. http://i.imgur.com/tGau0Vx.png
 msgctxt "settings"
 msgid "GET Requests"
 msgstr ""
-
-#. http://i.imgur.com/tGau0Vx.png
-msgctxt "settings"
-msgid "GET requests"
-msgstr "\"GET\" sorğuları"
 
 msgid "Game ended"
 msgstr "Oyun bitdi"
@@ -2019,24 +1961,13 @@ msgctxt "new tab page"
 msgid "Hide Most Visited Sites"
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Hide Passphrase"
 msgstr ""
 
-# smartling.placeholder_format=C
 #. Hides details of a step-by-step navigation route
 msgctxt "directions"
 msgid "Hide Steps"
-msgstr ""
-
-#. "Hide pass phrase" appears in the Load Cloud Settings box: http://i.imgur.com/24xv6L8.png
-msgctxt "settings"
-msgid "Hide pass phrase"
-msgstr "Şifrə sözünü gizlət"
-
-msgctxt "directions"
-msgid "Hide steps"
 msgstr ""
 
 msgctxt "settings"
@@ -2045,6 +1976,11 @@ msgstr ""
 
 msgctxt "video-resolution"
 msgid "High Definition"
+msgstr ""
+
+#. Shown in video filtering. https://duckduckgo.com/?q=videos+of+cats&iax=videos&ia=videos
+msgctxt "video-resolution"
+msgid "High definition"
 msgstr ""
 
 #. <em>ky</em>'s label for one of the color settings query parameters into <a href="https://duckduckgo.com/params.html">query parameters documentation page</a>.
@@ -2122,7 +2058,6 @@ msgctxt "feedback form"
 msgid "I don't want this type of results"
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "feedback form"
 msgid "I expected to see results from more sellers"
 msgstr ""
@@ -2185,10 +2120,6 @@ msgstr ""
 "Əgər istəyirsinizsə Ev Səhifəsini seçin hansıki Yeni pəncərə və Yeni "
 "nişanların yanındadır (ilə açın)."
 
-msgctxt "settingsvalue"
-msgid "Image Tiles"
-msgstr ""
-
 msgctxt "Report image modal"
 msgid "Image contains explicit content"
 msgstr ""
@@ -2197,7 +2128,6 @@ msgctxt "Report image modal"
 msgid "Image is not relevant to my search"
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "settingsvalue"
 msgid "Image tiles"
 msgstr ""
@@ -2211,36 +2141,11 @@ msgstr "Partnyor"
 
 msgctxt "settings"
 msgid ""
-"In some older browsers it's necessary to redirect your clicks through our "
-"server to prevent Search Leakage. %sMore Info%s."
-msgstr ""
-
-# smartling.placeholder_format=C
-msgctxt "settings"
-msgid ""
 "In some older browsers, it's necessary to redirect your clicks through our "
 "server to prevent search leakage. %sLearn more%s."
 msgstr ""
 
-#. Explanations about <em>how does passphrase generation work</em> paragraph.
-#. From <a href="https://duckduckgo.com/settings.html">settings page</a>.
-#. You have to click the "What is this?" link to display it.
-msgctxt "cloudsave"
-msgid ""
-"In the browser, we then select four or five random words from that list, "
-"ensuring that it is at least 18-20 characters long."
-msgstr ""
-"Biz brauzerdə işarələrin ən az 18-20 uzunluğunda olmasına əmin olmaq üçün "
-"dörd beş təsadufi sözləri siyahıdan seçirik. "
-
 msgid "In the drop down select %sDuckDuckGo%s!"
-msgstr ""
-
-# smartling.placeholder_format=C
-msgctxt "cloudsave"
-msgid ""
-"In the interest of transparency, this data is not encrypted: You can see "
-"exactly what information we store."
 msgstr ""
 
 #. Explanations for <em>how does the settings cloud save works</em> paragraph.
@@ -2248,11 +2153,9 @@ msgstr ""
 #. You have to click the "What is this?" link to display it.
 msgctxt "cloudsave"
 msgid ""
-"In the interest of transparency, this data is not encrypted: you can see "
+"In the interest of transparency, this data is not encrypted: You can see "
 "exactly what information we store."
 msgstr ""
-"Şəffaflıq olması üçün bu məlumat şifrələnməyib: siz tam olaraq hansı "
-"informasiyanı yerləşdirdiyimizi görə bilərsiniz. "
 
 msgid "In the menu at the top select %sTools%s > %sSettings%s"
 msgstr ""
@@ -2267,12 +2170,8 @@ msgstr ""
 msgid "In the side menu select %sInternet Search%s"
 msgstr ""
 
-# smartling.placeholder_format=C
 #. e.g., 'Including results for Mozart' (when the user searched for 'Mozar')
 msgid "Including results for %s"
-msgstr ""
-
-msgid "Including results for %s."
 msgstr ""
 
 msgid "India"
@@ -2299,6 +2198,10 @@ msgstr ""
 
 msgctxt "settings"
 msgid "Infinite Scroll for Images and Videos"
+msgstr ""
+
+msgctxt "settings"
+msgid "Infinite Scroll for Images, Videos, and Shopping"
 msgstr ""
 
 msgid "Install"
@@ -2358,15 +2261,6 @@ msgstr "Kimsə sizin zero-click əlavənizdə işləyir?"
 msgid "Israel"
 msgstr "İsrail"
 
-#. https://duckduckgo.com/settings near the bottom, under "Cloud Save", by clicking "What's this", under "How does passphrase generation work?"
-msgctxt "cloudsave"
-msgid ""
-"It is easier to remember four or five words than 10 random letters and "
-"numbers, and far more secure."
-msgstr ""
-"Dörd ya da beş sözü yadda saxlamaq 10 nizamsız hərfi və ya rəqəmi yadda "
-"saxlamaqdan daha asandır, həmçinin daha təhlükəsizdir."
-
 msgctxt "precise_user_location"
 msgid "It's not working."
 msgstr ""
@@ -2382,7 +2276,7 @@ msgstr "İtaliya"
 msgid "Items"
 msgstr "Məhsullar"
 
-# smartling.placeholder_format=C
+#. https://duckduckgo.com/settings near the bottom, under "Cloud Save", by clicking "What's this", under "How does passphrase generation work?"
 msgctxt "cloudsave"
 msgid ""
 "It’s easier to remember 4-5 words than 10 random letters and numbers, and "
@@ -2503,10 +2397,6 @@ msgctxt "SERP footer content"
 msgid "Learn how to search like the pros."
 msgstr ""
 
-msgctxt "precise_user_location"
-msgid "Learn how we keep your location private %shere%s."
-msgstr ""
-
 msgctxt "SERP footer content"
 msgid "Learn how we're dedicated to keeping you safe online."
 msgstr ""
@@ -2547,6 +2437,11 @@ msgstr "Açıq mavi"
 #. Discontinued, don't translate
 msgid "Light green"
 msgstr "Açıq yaşıl"
+
+#. i.e. a type of image comprised of lines without gradiations in shade or hue
+msgctxt "image-type"
+msgid "Line Drawing"
+msgstr ""
 
 #. https://duckduckgo.com/params under "Look & Feel Settings"
 msgid "Link font:"
@@ -2594,6 +2489,10 @@ msgstr ""
 
 msgctxt "settings"
 msgid "Loads more image results when scrolling"
+msgstr ""
+
+msgctxt "settings"
+msgid "Loads more results in Images, Videos, and Shopping when scrolling"
 msgstr ""
 
 #. http://i.imgur.com/WTkvs9I.png
@@ -2655,11 +2554,6 @@ msgid "Maps"
 msgstr ""
 
 msgctxt "feedback form"
-msgid "Maps / Location Info"
-msgstr ""
-
-# smartling.placeholder_format=C
-msgctxt "feedback form"
 msgid "Maps / location info"
 msgstr ""
 
@@ -2697,7 +2591,6 @@ msgctxt "settingsvalue"
 msgid "Metric (Kilograms, Meters, Celsius)"
 msgstr "Metrik (Kq, Metr, Selsi)"
 
-# smartling.placeholder_format=C
 msgctxt "settingsvalue"
 msgid "Metric (kilograms, meters, Celsius)"
 msgstr ""
@@ -2764,7 +2657,6 @@ msgstr ""
 msgid "More Related Topics"
 msgstr "Daha Çox Oxşar Mövzu"
 
-# smartling.placeholder_format=C
 #. e.g., 'More Reviews on Tripadvisor'
 msgctxt "more_reviews_on_external_website"
 msgid "More Reviews on %s "
@@ -2809,10 +2701,6 @@ msgstr "Daha çox nəticə"
 msgctxt "additional_info_at"
 msgid "More results"
 msgstr "Daha çox nəticə"
-
-msgctxt "more_reviews_on_external_website"
-msgid "More reviews on %s "
-msgstr ""
 
 msgctxt "video-duration"
 msgid "More than 20 minutes"
@@ -2933,10 +2821,6 @@ msgstr ""
 msgid "No More Photos"
 msgstr ""
 
-msgctxt "settingsvalue"
-msgid "No Preference (Default)"
-msgstr "Heç bir üstünlük yoxdur (Default)"
-
 msgctxt "settings"
 msgid "No Region Selected"
 msgstr "Region seçilməyib"
@@ -2952,13 +2836,8 @@ msgctxt "safe search"
 msgid "No adult content"
 msgstr "Böyüklər üçün məzmun yoxdur"
 
-# smartling.placeholder_format=C
 msgctxt "directions"
 msgid "No available routes between these locations"
-msgstr ""
-
-msgctxt "directions"
-msgid "No available routes between these locations."
 msgstr ""
 
 msgctxt "safe search"
@@ -2969,7 +2848,6 @@ msgctxt "noresults"
 msgid "No more results found for %s%s%s."
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "settingsvalue"
 msgid "No preference (default)"
 msgstr ""
@@ -3024,27 +2902,18 @@ msgstr ""
 msgid "Norway"
 msgstr "Norveç"
 
-msgctxt "settingsvalue"
-msgid "Not Set"
-msgstr ""
-
 msgctxt "precise_user_location"
 msgid "Not getting nearby results?"
 msgstr ""
 
-# smartling.placeholder_format=C
 #. Not many results contain '<query>' (<query> is the query that the user sent to the search engine)
 msgid "Not many results contain %s"
-msgstr ""
-
-msgid "Not many results contain %s."
 msgstr ""
 
 msgctxt "Report image modal"
 msgid "Not relevant"
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "settingsvalue"
 msgid "Not set"
 msgstr ""
@@ -3131,6 +3000,10 @@ msgstr ""
 
 msgctxt "maps_places"
 msgid "Open"
+msgstr ""
+
+#. The placeholder is a business name, e.g. 'Open Ikea website'.
+msgid "Open %s website"
 msgstr ""
 
 msgid "Open %sMenu > Settings > Search %s and select DuckDuckGo!"
@@ -3226,9 +3099,6 @@ msgctxt "feedback form"
 msgid "Other"
 msgstr "Digər"
 
-msgid "Other Settings"
-msgstr "Digər Ayarlar"
-
 msgctxt "homepage onboarding"
 msgid ""
 "Other search engines track your searches even when you’re in private "
@@ -3291,19 +3161,9 @@ msgid "Page %s"
 msgstr "Səhifə %s"
 
 msgctxt "settings"
-msgid "Page Appearance"
-msgstr "Səhifə görünüşü"
-
-#. indica o número de páxina de resultados na que estamos
-msgctxt "settings"
-msgid "Page Break #'s"
-msgstr ""
-
-msgctxt "settings"
 msgid "Page Break Lines"
 msgstr "Səhifə Break Xətləri"
 
-# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Page Break Numbers"
 msgstr ""
@@ -3314,33 +3174,19 @@ msgid "Page Width"
 msgstr "Səhifə Eni"
 
 msgctxt "cloudsave"
-msgid "Pass phrase is already taken."
-msgstr "Pass ifadəsi artıq alınmışdır."
-
-msgctxt "cloudsave"
-msgid "Pass phrase must be at least 9 characters long"
-msgstr "Pass söz ən azı 9 simvol olmalıdır"
-
-msgctxt "cloudsave"
-msgid "Pass phrase not found"
-msgstr "Şifrə sözü tapılmadı"
-
-# smartling.placeholder_format=C
-msgctxt "cloudsave"
 msgid "Passphrase is already taken."
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "cloudsave"
 msgid "Passphrase must be at least 9 characters long."
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "cloudsave"
 msgid "Passphrase not found."
 msgstr ""
 
-# smartling.placeholder_format=C
+#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
+#. Then in the cloud save box - http://i.imgur.com/tbzpD5S.png
 msgctxt "cloudsave"
 msgid ""
 "Passphrases cannot be recovered as we don't associate your IP address, "
@@ -3368,6 +3214,18 @@ msgstr "Keçən həftə"
 #. Option for the filter-by-date search.
 msgid "Past Year"
 msgstr "Keçən il"
+
+msgid "Past day"
+msgstr ""
+
+msgid "Past month"
+msgstr ""
+
+msgid "Past week"
+msgstr ""
+
+msgid "Past year"
+msgstr ""
 
 msgctxt "settings"
 msgid "Personalize DuckDuckGo"
@@ -3432,7 +3290,6 @@ msgctxt "precise_user_location"
 msgid "Please help us understand why:"
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "feedback form"
 msgid "Please provide feedback"
 msgstr ""
@@ -3494,7 +3351,6 @@ msgctxt "settings"
 msgid "Previous Region"
 msgstr "Əvvəlki Region"
 
-# smartling.placeholder_format=C
 msgctxt "feedback form"
 msgid "Price shown doesn't reflect merchant site"
 msgstr ""
@@ -3534,7 +3390,6 @@ msgctxt "settings"
 msgid "Privacy Newsletter"
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Privacy Newsletters"
 msgstr ""
@@ -3578,17 +3433,14 @@ msgctxt "attribution"
 msgid "Producer"
 msgstr "İstehsalçı"
 
-# smartling.placeholder_format=C
 msgctxt "feedback form"
 msgid "Product ad content is deceptive"
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "feedback form"
 msgid "Product ad pricing is misleading"
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "feedback form"
 msgid "Product ads aren't relevant"
 msgstr ""
@@ -3603,10 +3455,6 @@ msgid "Prompt me"
 msgstr "Mənə soruş"
 
 msgctxt "settings"
-msgid "Prompt me to anonymously use browser location for better results."
-msgstr ""
-
-msgctxt "settings"
 msgid "Prompt me to customize my DuckDuckGo experience."
 msgstr ""
 
@@ -3614,7 +3462,6 @@ msgctxt "settings"
 msgid "Prompt me to personalize my DuckDuckGo experience."
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Prompt me to use my approximate location to get nearby results."
 msgstr ""
@@ -3634,6 +3481,11 @@ msgctxt "showcase_app"
 msgid "Protect your data on every device."
 msgstr ""
 
+#. a filter for images with the CC0 usage license
+msgctxt "image-licence"
+msgid "Public Domain"
+msgstr ""
+
 #. Used for various color settings  query parameters values captions into <a =href="https://duckduckgo.com/params.html">query parameters documentation page</a>.
 msgid "Purple"
 msgstr "Bənövşəyi"
@@ -3641,17 +3493,6 @@ msgstr "Bənövşəyi"
 msgctxt "color"
 msgid "Purple"
 msgstr ""
-
-#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
-#. In the cloud save box - http://i.imgur.com/FbCoYVE.png
-msgctxt "cloudsave"
-msgid ""
-"Push 'Delete My Data'. This removes the data from the cloud, but it remains "
-"in your browser until you click on 'Reset all settings'"
-msgstr ""
-"'Mənim Məlumatlarımı Sil' düyməsinə basmaq. Bu, buluddakı məlumatları rədd "
-"etsə də, \"Bütün parametrləri sıfırla\" düyməsinə basılmadan brauzerinizdə "
-"qalır"
 
 #. Instant Answer Tab Name
 msgid "Quotations"
@@ -3697,14 +3538,9 @@ msgstr "Qırmızı"
 msgid "Reddit"
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Redirect (When Necessary)"
 msgstr ""
-
-msgctxt "settings"
-msgid "Redirect (when necessary)"
-msgstr "Redirect (lazım olduqda)"
 
 msgid "Redirect:"
 msgstr "Yönləndir:"
@@ -3811,20 +3647,10 @@ msgctxt "settings"
 msgid "Result URL Color"
 msgstr "Nəticə URL Rəngi"
 
-# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Result URLs Above Snippet"
 msgstr ""
 
-msgctxt "settings"
-msgid "Result URLs above snippet"
-msgstr "Parça üzərində yuxarı nəticə URL'leri"
-
-msgctxt "settings"
-msgid "Result Visited Check Mark"
-msgstr "Nəticə Görüldü Check Mark"
-
-# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Result Visited Checkmark"
 msgstr ""
@@ -3837,10 +3663,6 @@ msgstr "Nəticədə Ziyarət Edilmiş Başlıq Rəngi"
 #. In the top menu under Settings
 msgid "Results"
 msgstr "Nəticələr"
-
-msgctxt "settings"
-msgid "Results Appearance"
-msgstr "Nəticələrin Görünüşü"
 
 msgctxt "precise_user_location"
 msgid "Results are good enough."
@@ -3899,6 +3721,10 @@ msgstr ""
 
 msgid "Safe search blocked some results for %s."
 msgstr "Təhlükəsiz axtarış %s üçün bəzi nəticələrə mane oldu."
+
+#. Safe search lets you remove adult content from results on DuckDuckGo. This string is used to invite users to select the desired level of protection (e.g., strict, moderate, off)
+msgid "Safe search:"
+msgstr ""
 
 #. For a button that shows satellite imagery on a map
 msgctxt "map-mode"
@@ -3974,10 +3800,6 @@ msgstr ""
 msgid "Search Box"
 msgstr "Axtarış Qutusu"
 
-msgctxt "feedback form"
-msgid "Search Box"
-msgstr ""
-
 msgctxt "settings"
 msgid "Search Button Background"
 msgstr "Axtarış Düyməsi Arxa Planı"
@@ -4001,12 +3823,10 @@ msgstr "Axtarış Seçimləri"
 msgid "Search Results"
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "map"
 msgid "Search This Area"
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Search Visibility"
 msgstr ""
@@ -4014,7 +3834,6 @@ msgstr ""
 msgid "Search and browse privately with the DuckDuckGo app."
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "feedback form"
 msgid "Search box"
 msgstr ""
@@ -4043,7 +3862,6 @@ msgctxt "search input box"
 msgid "Search the web without being tracked"
 msgstr ""
 
-# smartling.placeholder_format=C
 #. Search this area for hotels, restaurants, bars, parks, banks etc.
 msgctxt "map"
 msgid "Search this area for..."
@@ -4069,11 +3887,6 @@ msgid "Security Issue"
 msgstr ""
 
 msgctxt "feedback form"
-msgid "Security Issue (Opens in New Tab)"
-msgstr ""
-
-# smartling.placeholder_format=C
-msgctxt "feedback form"
 msgid "Security issue (opens in new tab)"
 msgstr ""
 
@@ -4085,7 +3898,6 @@ msgstr "Buna da bax"
 msgid "See Photos"
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "cloudsave"
 msgid "See also"
 msgstr ""
@@ -4097,11 +3909,6 @@ msgctxt "SERP footer content"
 msgid "See our %straffic page%s for details."
 msgstr "Detallar üçün %strafik səhifəmizə%s baxın."
 
-msgctxt "settings"
-msgid "See the %sURL Parameter Reference Page%s for more details"
-msgstr "Daha ətraflı məlumat üçün %sURL Parametr Referansı%s səhifəsinə baxın"
-
-# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "See the %sURL Parameter Reference page%s for more details."
 msgstr ""
@@ -4254,7 +4061,6 @@ msgctxt "settings"
 msgid "Settings in JSON:"
 msgstr "JSON-da parametrlər:"
 
-# smartling.placeholder_format=C
 msgid "Settings updated"
 msgstr ""
 
@@ -4263,7 +4069,6 @@ msgid "Share DuckDuckGo and help friends take their privacy back!"
 msgstr ""
 "DuckDuckGo-nu paylaş və dostlarına şəxsi gizliliklərini saxlamağa yardım et!"
 
-# smartling.placeholder_format=C
 msgctxt "feedback form"
 msgid "Share Feedback"
 msgstr ""
@@ -4287,13 +4092,11 @@ msgstr ""
 msgid "Shortcuts to other sites to search off DuckDuckGo"
 msgstr ""
 
-# smartling.placeholder_format=C
 #. button to show X>1 more options in a list
 msgctxt "shopping_vertical"
 msgid "Show %s more"
 msgstr ""
 
-# smartling.placeholder_format=C
 #. button to show 1 more option in a list
 msgctxt "shopping_vertical"
 msgid "Show 1 more"
@@ -4329,107 +4132,27 @@ msgctxt "new tab page"
 msgid "Show Most Visited Sites"
 msgstr ""
 
-# smartling.placeholder_format=C
+#. Click "Load Settings" - http://i.imgur.com/cii6KqL.png
+#. Then - http://i.imgur.com/nOvjdKb.png
 msgctxt "settings"
 msgid "Show Passphrase"
 msgstr ""
 
-# smartling.placeholder_format=C
 #. Shows details of a step-by-step navigation route
 msgctxt "directions"
 msgid "Show Steps"
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "noresults"
 msgid "Show Web Results"
 msgstr ""
-
-msgctxt "settings"
-msgid "Show favicons for each result"
-msgstr "Hər nəticə üçün favikonları göstər"
-
-msgctxt "settings"
-msgid "Show horizontal lines at result page breaks"
-msgstr "Nəticə səhifə kəsintilərində üfüqi xəttləri göstərin"
-
-msgctxt "settings"
-msgid "Show links to instructions for how to add DuckDuckGo to your browser"
-msgstr "DuckDuckGo'yu brauzerinizə necə əlavə etmək üçün təlimatlara baxın"
 
 msgctxt "directions"
 msgid "Show map"
 msgstr ""
 
-msgctxt "settings"
-msgid "Show most visited links on new tab page"
-msgstr ""
-
-msgctxt "settings"
-msgid "Show occasional reminders to add DuckDuckGo to your browser"
-msgstr ""
-
-msgctxt "settings"
-msgid "Show occasional reminders to add DuckDuckGo to your devices"
-msgstr ""
-
-msgctxt "settings"
-msgid ""
-"Show occasional reminders to sign up for the DuckDuckGo privacy newsletter"
-msgstr ""
-
-msgctxt "settings"
-msgid "Show page numbers at result page breaks"
-msgstr "Nəticə səhifə sonlarında səhifə nömrələrini göstərin"
-
-#. Click "Load Settings" - http://i.imgur.com/cii6KqL.png
-#. Then - http://i.imgur.com/nOvjdKb.png
-msgid "Show pass phrase"
-msgstr "Şifrəni göstər"
-
-msgctxt "settings"
-msgid "Show pass phrase"
-msgstr "Şifrə sözünü göstər"
-
-msgctxt "settings"
-msgid "Show sign up form for the DuckDuckGo privacy newsletter"
-msgstr ""
-
-msgctxt "directions"
-msgid "Show steps"
-msgstr ""
-
-#. http://i.imgur.com/94erFcS.png
-msgctxt "settings"
-msgid "Show suggestions under the search box as you type"
-msgstr "Axtarış qutusunun altında yazdıqlarınıza uyğun təklifləri göstər"
-
-msgctxt "settings"
-msgid "Show the Result URL line above the snippet text"
-msgstr "Nəticə URL xəttini snippet mətnin üstündə göstərin"
-
-msgctxt "settings"
-msgid "Show the full URL for each result"
-msgstr "Hər nəticə üçün tam URL göstər"
-
-msgctxt "settings"
-msgid "Show the privacy benefits of using DuckDuckGo on the homepage"
-msgstr ""
-
 msgctxt "video-duration"
 msgid "Show videos of any length"
-msgstr ""
-
-msgctxt "noresults"
-msgid "Show web results"
-msgstr ""
-
-msgctxt "settings"
-msgid "Show welcome message on top of the search results page"
-msgstr ""
-
-msgctxt "settings"
-msgid "Show welcome message to EU Android preference menu users"
 msgstr ""
 
 msgctxt "SERP footer content"
@@ -4454,68 +4177,56 @@ msgstr ""
 msgid "Shows"
 msgstr "Verilişlər"
 
-# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Shows favicons for each result"
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Shows horizontal lines at result page breaks"
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Shows links to instructions for how to add DuckDuckGo to your browser"
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Shows most visited links on new tab page"
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Shows occasional reminders to add DuckDuckGo to your browser"
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Shows occasional reminders to add DuckDuckGo to your devices"
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "settings"
 msgid ""
 "Shows occasional reminders to sign up for the DuckDuckGo privacy newsletters"
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Shows page numbers at result page breaks"
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Shows sign-up form for the DuckDuckGo privacy newsletters"
 msgstr ""
 
-# smartling.placeholder_format=C
+#. http://i.imgur.com/94erFcS.png
 msgctxt "settings"
 msgid "Shows suggestions under the search box as you type"
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Shows the full URL for each result"
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Shows the privacy benefits of using DuckDuckGo on the homepage"
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Shows the result URL line above the snippet text"
 msgstr ""
@@ -4525,12 +4236,10 @@ msgctxt "settings"
 msgid "Shows the search button background"
 msgstr "Axtarış düyməsini arxa planda göstərin"
 
-# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Shows welcome message on top of the search results page"
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Shows welcome message to EU Android preference menu users"
 msgstr ""
@@ -4624,6 +4333,11 @@ msgctxt "video-resolution"
 msgid "Standard Definition"
 msgstr ""
 
+#. Shown in video filtering. https://duckduckgo.com/?q=videos+of+cats&iax=videos&ia=videos
+msgctxt "video-resolution"
+msgid "Standard definition"
+msgstr ""
+
 msgid "Start Searching"
 msgstr ""
 
@@ -4692,24 +4406,14 @@ msgctxt "showcase_newsletter"
 msgid "Subscribe to our Privacy Crash Course"
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Suggest Different Passphrase"
 msgstr ""
 
-# smartling.placeholder_format=C
+#. http://i.imgur.com/BMM6X3h.png
 msgctxt "settings"
 msgid "Suggest a Passphrase"
 msgstr ""
-
-#. http://i.imgur.com/BMM6X3h.png
-msgctxt "settings"
-msgid "Suggest a pass phrase"
-msgstr "Şifrə sözü təklif et"
-
-msgctxt "settings"
-msgid "Suggest different phrase"
-msgstr "Fərqli söz təklif edin"
 
 msgctxt "directions"
 msgid "Suggestions:"
@@ -4830,22 +4534,13 @@ msgid ""
 "cases this includes passwords, or payment details."
 msgstr ""
 
-# smartling.placeholder_format=C
+#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
+#. Then in the cloud save box - http://i.imgur.com/elru00b.png
 msgctxt "cloudsave"
 msgid ""
 "The Cloud Save bookmarklet allows any changes you make to your settings to "
 "automatically save in the cloud."
 msgstr ""
-
-#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
-#. Then in the cloud save box - http://i.imgur.com/elru00b.png
-msgctxt "cloudsave"
-msgid ""
-"The benefit of this over using the URL parameters bookmarklet is that when "
-"you change settings, they will automatically be saved in the cloud."
-msgstr ""
-"Bu URL parametrləri bookmarklet istifadə edərək, üstünlük ki, parametrləri "
-"dəyişdikdə avtomatik olaraq buludda saxlanılacaq."
 
 #. Click "What is this?" - http://i.imgur.com/KhmRHth.png
 #. Then look in the cloud save box - http://i.imgur.com/fIEYjbI.png
@@ -4910,7 +4605,6 @@ msgid ""
 "and by making DuckDuckGo your default search engine."
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "attribution"
 msgid "This Instant Answer was made by the %sDuckDuckHack%s Community."
 msgstr ""
@@ -4920,10 +4614,6 @@ msgstr ""
 msgctxt "cloudsave"
 msgid "This has a few benefits:"
 msgstr "Bunun bir neçə üstünlüyü var:"
-
-msgctxt "attribution"
-msgid "This instant answer was made by the %sDuckDuckHack%s Community."
-msgstr ""
 
 msgctxt "new tab page"
 msgid ""
@@ -5069,7 +4759,6 @@ msgctxt "settingsvalue"
 msgid "US based (Pounds, Feet, Fahrenheit)"
 msgstr "Amerikada (Paund, Fit, Fahrenheit)"
 
-# smartling.placeholder_format=C
 msgctxt "settingsvalue"
 msgid "US-based (pounds, feet, Fahrenheit)"
 msgstr ""
@@ -5109,18 +4798,13 @@ msgstr ""
 msgid "Under Search click the drop down and select %sDuckDuckGo%s"
 msgstr ""
 
-#. http://i.imgur.com/7M5ogIs.png
-#. If, "On" --it will add an underline to result titles like this: http://i.imgur.com/VRFC6VQ.png
-#. If, "Off" --there will be no underline, like this: http://i.imgur.com/6MyezXn.png
-msgctxt "settings"
-msgid "Underline the title link for each result"
-msgstr "Hər nəticənin başlıq keçidinin altından xətt çək"
-
 #. https://duckduckgo.com/params under "Look & Feel Settings" header
 msgid "Underline:"
 msgstr "Altxətt:"
 
-# smartling.placeholder_format=C
+#. http://i.imgur.com/7M5ogIs.png
+#. If, "On" --it will add an underline to result titles like this: http://i.imgur.com/VRFC6VQ.png
+#. If, "Off" --there will be no underline, like this: http://i.imgur.com/6MyezXn.png
 msgctxt "settings"
 msgid "Underlines the title link for each result"
 msgstr ""
@@ -5191,15 +4875,11 @@ msgstr "Videolar"
 msgid "Vietnam"
 msgstr "Vyetnam"
 
-# smartling.placeholder_format=C
 msgid "View File"
 msgstr ""
 
 msgid "View all !bangs"
 msgstr "!banglər-in hamısını gör"
-
-msgid "View file"
-msgstr "Faylı gör"
 
 msgid "View on %s"
 msgstr ""
@@ -5232,11 +4912,6 @@ msgctxt "forecast"
 msgid "W"
 msgstr ""
 
-msgctxt "precise_user_location"
-msgid "Waiting For Location..."
-msgstr ""
-
-# smartling.placeholder_format=C
 #. Waiting for the device location sensor to return data
 msgctxt "precise_user_location"
 msgid "Waiting for Location..."
@@ -5278,42 +4953,19 @@ msgctxt "cloudsave"
 msgid "We cannot reverse the passphrase key generation."
 msgstr "Şifrə açarı yaradanı geri gətirə bilmirik."
 
-#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
-#. Then in the cloud save box - http://i.imgur.com/pZ0pyIJ.png
-msgctxt "cloudsave"
-msgid ""
-"We do not have usernames and we don't store any personally identifiable "
-"information."
-msgstr ""
-"Bizdə istifadəçi adları yoxdur və biz heç bir şəxsi informasiyaları "
-"saxlamırıq. "
-
 #. https://duckduckgo.com/about under "We believe in better search and real privacy at the same time. That's why: "
 msgctxt "wedonttrackyou"
 msgid "We don't %s you."
 msgstr "Biz sizi %s."
 
-#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
-#. Then in the cloud save box - http://i.imgur.com/tbzpD5S.png
-msgctxt "cloudsave"
-msgid ""
-"We don't associate your IP address or browser fingerprint or any other "
-"information with the file."
-msgstr ""
-"Biz sizin İP ünvanınızı, brauzer barmaq izinizi və ya hər hansısa "
-"informasiyanızı faylınıza qoşmuruq. "
-
 msgctxt "reasons-to-use-duckduckgo"
 msgid "We don't follow you around with ads."
 msgstr "Sizi reklamlarla izləməyəcəyik."
 
-# smartling.placeholder_format=C
+#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
+#. Then in the cloud save box - http://i.imgur.com/pZ0pyIJ.png
 msgctxt "cloudsave"
 msgid "We don't store usernames or any personally identifiable information."
-msgstr ""
-
-msgctxt "settings"
-msgid "We don't store your location. It remains only on your device. %sInfo%s"
 msgstr ""
 
 msgctxt "homepage onboarding"
@@ -5392,22 +5044,8 @@ msgctxt "SERP footer content"
 msgid "We get a ton of searches, and all of them are anonymous."
 msgstr "Çox saylı axtarışlar edirik və hamısı anonim olaraq qalır."
 
-#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
-#. Then in the cloud save box - http://i.imgur.com/DZOnHhY.png
-msgctxt "cloudsave"
-msgid ""
-"We save the settings file on Amazon S3 using the generated key as the name."
-msgstr ""
-"Biz parametrlər faylını Amazon S3-də şifrə yaradan vasitəsi ilə eyni adda "
-"saxlayırıq."
-
-# smartling.placeholder_format=C
 msgctxt "feedback form"
 msgid "We use feedback like this to improve DuckDuckGo."
-msgstr ""
-
-msgctxt "feedback form"
-msgid "We use feedback like this to improve DuckDuckGo. It really helps."
 msgstr ""
 
 msgid ""
@@ -5446,10 +5084,6 @@ msgctxt "homepage onboarding"
 msgid "Welcome to the Duck Side!"
 msgstr "Duck Side xoş gəlmisiniz!"
 
-msgctxt "maps_places"
-msgid "What People Say"
-msgstr ""
-
 msgctxt "new user poll"
 msgid "What brought you back today?"
 msgstr ""
@@ -5462,13 +5096,8 @@ msgctxt "feedback form"
 msgid "What did you like?"
 msgstr "Nəyi bəyəndiniz?"
 
-# smartling.placeholder_format=C
 msgctxt "feedback form"
 msgid "What do you think of the information shown?"
-msgstr ""
-
-msgctxt "feedback form"
-msgid "What do you think?"
 msgstr ""
 
 #. Click "What is this?" - http://i.imgur.com/KhmRHth.png
@@ -5477,22 +5106,13 @@ msgctxt "cloudsave"
 msgid "What information gets saved?"
 msgstr "Hansı məlumatlar saxlanılır?"
 
-# smartling.placeholder_format=C
+#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
+#. Then in the cloud save box - http://i.imgur.com/YrfhzTL.png
 msgctxt "cloudsave"
 msgid ""
 "What is the Cloud Save bookmarklet and how does it differ from the URL "
 "parameter bookmarklet?"
 msgstr ""
-
-#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
-#. Then in the cloud save box - http://i.imgur.com/YrfhzTL.png
-msgctxt "cloudsave"
-msgid ""
-"What is the cloud save bookmarklet and how does it differ from the URL "
-"parameter bookmarklet?"
-msgstr ""
-"Bulud saxlama sevimliləri nədir və URL parametr sevimlilərindən nə kimi "
-"fərqləri var?"
 
 #. http://i.imgur.com/fDEZ8XN.png
 msgid "What is this?"
@@ -5502,7 +5122,6 @@ msgctxt "new user poll"
 msgid "What led you to DuckDuckGo?"
 msgstr ""
 
-# smartling.placeholder_format=C
 msgctxt "maps_places"
 msgid "What people say:"
 msgstr ""
@@ -5548,11 +5167,6 @@ msgid "Width:"
 msgstr "Genişlik:"
 
 msgctxt "feedback form"
-msgid "Wikipedia Info"
-msgstr ""
-
-# smartling.placeholder_format=C
-msgctxt "feedback form"
 msgid "Wikipedia info"
 msgstr ""
 
@@ -5581,7 +5195,6 @@ msgctxt "new user poll"
 msgid "Yes, new user!"
 msgstr "Bəli, yeni istifadəçi!"
 
-# smartling.placeholder_format=C
 msgctxt "cloudsave"
 msgid ""
 "Yes, we throw away data when you’re done with it, and it cannot be recovered."
@@ -5603,11 +5216,6 @@ msgstr ""
 
 #. Click "What is this?" - http://i.imgur.com/KhmRHth.png
 #. In the cloud save box - http://i.imgur.com/pVjCXmw.png
-msgctxt "cloudsave"
-msgid "You can restore your settings after deleting cookies"
-msgstr "Çerezləri silməkdən sonra parametrlərinizi bərpa edə bilərsiniz"
-
-# smartling.placeholder_format=C
 msgctxt "cloudsave"
 msgid "You can restore your settings after deleting cookies."
 msgstr ""
@@ -5706,7 +5314,6 @@ msgstr ""
 "Sizin rəyiniz həqiqətən bizə yardım edir. Xahiş edirik bu qutuda istənilən "
 "vaxt öz düşüncələrinizi paylaşın. "
 
-# smartling.placeholder_format=C
 msgctxt "cloudsave"
 msgid ""
 "Your passphrase generates a 512-bit key by using the Secure Hash Algorithm "
@@ -5714,27 +5321,6 @@ msgid ""
 "browser. We save the settings file using the key as the name. DuckDuckGo "
 "never knows your passphrase."
 msgstr ""
-
-#. http://i.imgur.com/AQ4Neq7.png
-#. Text describing how passphrases are encrypted
-msgctxt "cloudsave"
-msgid ""
-"Your passphrase is used to generate a key using the Secure Hash Algorithm "
-"known as %sSHA-2%s, using a 512 bit key."
-msgstr ""
-"Parolanız 512 bitlik bir düyməni istifadə edərək, %sSHA-2%s kimi tanınan "
-"Secure Hash alqoritmini istifadə edərək bir əsas yaratmaq üçün istifadə "
-"olunur."
-
-#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
-#. In the cloud save box - http://i.imgur.com/xwcnjZL.png
-msgctxt "cloudsave"
-msgid ""
-"Your passphrase never leaves the browser, only the key and the settings file "
-"associated with it."
-msgstr ""
-"Şifrəniz heç vaxt brauzerdən, yalnız onunla əlaqəli parametrlərdən və "
-"düymədən ayrılır."
 
 msgctxt "new user poll"
 msgid "Your response is 100% anonymous."
@@ -5756,6 +5342,11 @@ msgctxt "made_by"
 msgid "by %s"
 msgstr "%s ilə"
 
+#. An abbreviated form of "day" that can be displayed in a small space e.g. "1d"
+msgctxt "published date for videos"
+msgid "d"
+msgstr ""
+
 #. https://duckduckgo.com/params under "Color Settings" under all
 #. under "Look & Feel Settings"  under "Size:" and "Text link: "
 msgctxt "setting"
@@ -5769,6 +5360,11 @@ msgstr "e-poçt"
 msgid "for"
 msgstr "üçün"
 
+#. An abbreviated form of "hour" that can be displayed in a small space e.g. "1h"
+msgctxt "published date for videos"
+msgid "h"
+msgstr ""
+
 msgctxt "nonjsversion"
 msgid "here"
 msgstr "buradan"
@@ -5777,6 +5373,16 @@ msgstr "buradan"
 msgctxt "questions"
 msgid "let us know"
 msgstr "bizi məlumatlandırın "
+
+#. An abbreviated form of "minute" that can be displayed in a small space e.g. "1m"
+msgctxt "published date for videos"
+msgid "m"
+msgstr ""
+
+#. An abbreviated form of "month" that can be displayed in a small space e.g. "1mo"
+msgctxt "published date for videos"
+msgid "mo"
+msgstr ""
 
 #. https://duckduckgo.com/50x.html?e=2
 #. p.s.(tsester): i found it out by searching "  "
@@ -5845,8 +5451,7 @@ msgstr "izləmə"
 msgid "tracker blocking"
 msgstr ""
 
-#~ msgid "Auto-load:"
-#~ msgstr "Avtomatik yükləmə"
-
-#~ msgid "New Window:"
-#~ msgstr "Yeni Pəncərə"
+#. An abbreviated form of "year" that can be displayed in a small space e.g. "1yr"
+msgctxt "published date for videos"
+msgid "yr"
+msgstr ""

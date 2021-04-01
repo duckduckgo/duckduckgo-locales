@@ -77,6 +77,10 @@ msgctxt "homepage ATB social proof"
 msgid "%s%s%s reviews"
 msgstr "%1$s%2$s%3$s recensioni"
 
+msgctxt "install-duckduckgo"
+msgid "%sClick %sAdd%sCheck %sAllow%s, then click %sOkay%s"
+msgstr "%1$sFai clic su %2$sAggiungi%3$sSeleziona %4$sConsenti%5$s, poi fai clic su %6$sOkay%7$s"
+
 # Firefox, obsolete
 msgctxt "install-duckduckgo"
 msgid "%sClick %sAllow%sClick %sAdd%sCheck %sAllow%s, then click %sOkay%s"
@@ -271,9 +275,19 @@ msgctxt "image-color"
 msgid "All Colors"
 msgstr "Tutti i colori"
 
+#. a filter for any image with a Creative Commons usage license
+msgctxt "image-licence"
+msgid "All Creative Commons"
+msgstr "Tutte le Creative Commons"
+
 msgctxt "image-layout"
 msgid "All Layouts"
 msgstr "Tutte le disposizioni"
+
+#. 'license' as in 'permission to use, share, or modify a work'
+msgctxt "image-licence"
+msgid "All Licenses"
+msgstr "Tutte le licenze"
 
 msgid "All Places"
 msgstr "Tutti i Luoghi"
@@ -299,6 +313,29 @@ msgstr "Qualsiasi Dimensione"
 msgctxt "image-type"
 msgid "All Types"
 msgstr "Tutti i Tipi"
+
+#. This is shown in an image filter. This option only shows images in colors, excluding black and white images. https://duckduckgo.com/?q=images+of+cats&iar=images&iax=images&ia=images
+msgctxt "image-color"
+msgid "All colors"
+msgstr "Tutti i colori"
+
+#. This is shown in a layout selector for images, other options are: square, tall, wide  https://duckduckgo.com/?q=images+of+cats&iar=images&iax=images&ia=images.
+msgctxt "image-layout"
+msgid "All layouts"
+msgstr "Tutte le disposizioni"
+
+msgctxt "settingsvalue"
+msgid "All regions"
+msgstr "Tutti i paesi"
+
+msgctxt "size"
+msgid "All sizes"
+msgstr "Tutte le dimensioni"
+
+#. Shown in an image type selector. Other options are: photograph, clipart, animated gif, etc.  https://duckduckgo.com/?q=images+of+cats&iar=images&iax=images&ia=images
+msgctxt "image-type"
+msgid "All types"
+msgstr "Tutti i tipi"
 
 msgctxt "settings"
 msgid ""
@@ -371,6 +408,24 @@ msgstr "Qualsiasi risoluzione"
 
 #. Option for the filter-by-date search.
 msgid "Any Time"
+msgstr "Qualsiasi data"
+
+#. Shown in video filtering. https://duckduckgo.com/?q=videos+of+cats&iax=videos&ia=videos
+msgctxt "video-duration"
+msgid "Any duration"
+msgstr "Qualsiasi durata"
+
+#. Shown in video filtering. https://duckduckgo.com/?q=videos+of+cats&iax=videos&ia=videos
+msgctxt "video-license"
+msgid "Any license"
+msgstr "Qualsiasi licenza"
+
+#. Shown in video filtering. https://duckduckgo.com/?q=videos+of+cats&iax=videos&ia=videos
+msgctxt "video-resolution"
+msgid "Any resolution"
+msgstr "Qualsiasi risoluzione"
+
+msgid "Any time"
 msgstr "Qualsiasi data"
 
 msgid "Anywhere"
@@ -538,10 +593,6 @@ msgid "Belgium (nl)"
 msgstr "Belgio (nl)"
 
 msgctxt "settingsvalue"
-msgid "Best Available"
-msgstr "Migliore disponibile"
-
-msgctxt "settingsvalue"
 msgid "Best available"
 msgstr "Migliore disponibile"
 
@@ -563,6 +614,10 @@ msgstr "Nero"
 
 msgctxt "image-color"
 msgid "Black and White"
+msgstr "Bianco e nero"
+
+msgctxt "image-color"
+msgid "Black and white"
 msgstr "Bianco e nero"
 
 msgid "Block Trackers"
@@ -635,26 +690,15 @@ msgctxt "settingsvalue"
 msgid "Browser Preferred Language"
 msgstr "Lingua preferita del browser"
 
-msgctxt "precise_user_location"
-msgid "Browser location unavailable."
-msgstr "Localizzazione del browser non disponibile."
+msgctxt "settingsvalue"
+msgid "Browser preferred language"
+msgstr "Lingua del browser preferita"
 
 msgid "Bulgaria"
 msgstr "Bulgaria"
 
 #. Click "Show Bookmarklet and Settings Data" - http://i.imgur.com/NKOWrRl.png
 #. Then - http://i.imgur.com/mo6wsE4.png
-msgctxt "settings"
-msgid ""
-"By default settings are stored in non-personal browser cookies (in your "
-"browser). You can use Anonymous Cloud Save to store your settings in a more "
-"permanent way (on a remote server in the cloud). No personally identifiable "
-"information will be stored in the cloud, and your pass phrase will never "
-"leave your browser."
-msgstr "Le impostazioni sono memorizzate in cookie non personali in modo predefinito (nel tuo browser). Puoi utilizzare il Salvataggio Cloud Anonimo per salvare"
-" le tue impostazioni in modo permanente (su un server remoto del cloud). Nessuna informazione personale identificabile verrà memorizzata nel cloud e la"
-" tua password non lascerà mai il tuo browser."
-
 msgctxt "settings"
 msgid ""
 "By default, settings are stored in non-personal browser cookies (in your "
@@ -709,20 +753,11 @@ msgstr "Allineamento centrale"
 #. One of the option in DuckDuckGo Search Settings under appearance tab.
 #. http://i.imgur.com/CklQ1Ku.png
 msgctxt "settings"
-msgid "Center align the results page (instead of left aligned)"
-msgstr "Allinea al centro della pagina i risultati (invece che a sinistra)"
-
-msgctxt "settings"
 msgid "Center-aligns the results page (instead of left-aligned)"
 msgstr "Allinea i risultati al centro della pagina (invece che a sinistra)"
 
 msgid "Change Region"
 msgstr "Cambia Paese"
-
-#. http://i.imgur.com/OntTi6e.png
-msgctxt "settings"
-msgid "Change the background color across the entire site"
-msgstr "Cambia il colore dello sfondo nell'intero sito"
 
 #. http://i.imgur.com/oO0X6Pt.png
 msgctxt "settings"
@@ -733,13 +768,10 @@ msgstr "Cambia quanto spazio occupa l'header e come si comporta quando scorri la
 
 #. http://i.imgur.com/mcZdcaF.png
 msgctxt "settings"
-msgid "Changes results to be region specific"
-msgstr "Rende i risultati specifici per Regione"
-
-msgctxt "settings"
 msgid "Changes search results based on region"
 msgstr "Cambia i risultati della ricerca in base alla regione"
 
+#. http://i.imgur.com/OntTi6e.png
 msgctxt "settings"
 msgid "Changes the background color across the entire site"
 msgstr "Cambia il colore dello sfondo nell'intero sito"
@@ -801,10 +833,6 @@ msgid "Changes what happens when you click on a video thumbnail"
 msgstr "Cambia cosa accade quando clicchi sulla miniatura di un video"
 
 msgctxt "settings"
-msgid "Changes whether the visited check mark is visible"
-msgstr "Cambia la visibilità del segno di spunta per i siti visitati"
-
-msgctxt "settings"
 msgid "Changes whether the visited checkmark is visible"
 msgstr "Visualizza/nasconde il segno di spunta per i siti visitati"
 
@@ -837,10 +865,6 @@ msgid "China"
 msgstr "Cina"
 
 #. http://i.imgur.com/f8Ae6jo.png
-msgctxt "cloudsave"
-msgid "Choose a unique pass phrase for your settings:"
-msgstr "Scegli una password personale per le tue impostazioni:"
-
 msgctxt "cloudsave"
 msgid "Choose a unique passphrase for your settings."
 msgstr "Scegli una passphrase univoca per le tue impostazioni."
@@ -1002,6 +1026,8 @@ msgstr "Clicca sulla %1$slente di ingrandimento%2$s nella barra di ricerca"
 msgid "Click on the magnifying glass in the search box at the top right"
 msgstr "Clicca sulla lente di ingrandimento nella casella di ricerca in alto a destra"
 
+#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
+#. In the cloud save box - http://i.imgur.com/FbCoYVE.png
 msgctxt "cloudsave"
 msgid ""
 "Click or tap %sDelete My Data%s. This removes the data from the cloud, but "
@@ -1147,6 +1173,10 @@ msgstr "Solo colore"
 msgid "Color Settings"
 msgstr "Impostazioni Colore"
 
+msgctxt "image-color"
+msgid "Color only"
+msgstr "Solo a colori"
+
 #. In the top menu under Settings
 msgid "Colors"
 msgstr "Colori"
@@ -1191,10 +1221,6 @@ msgid "Conversion"
 msgstr "Conversione"
 
 #. http://i.imgur.com/fd7EjAN.png
-msgctxt "settings"
-msgid "Cookie Data:"
-msgstr "Dati del cookie:"
-
 msgctxt "settings"
 msgid "Cookie data:"
 msgstr "Dati del cookie:"
@@ -1258,6 +1284,9 @@ msgstr "%1$s personalizzato"
 msgid "Custom Date Range"
 msgstr "Intervallo di date personalizzato"
 
+msgid "Custom date range"
+msgstr "Intervallo di date personalizzato"
+
 msgctxt "settings"
 msgid "Customize DuckDuckGo"
 msgstr "Personalizza DuckDuckGo"
@@ -1304,12 +1333,9 @@ msgstr "Predefinito"
 msgid "Definition"
 msgstr "Definizione"
 
-msgid "Delete My Data"
-msgstr "Cancella i miei dati"
-
 #. When anonymous cloud save is enabled, a box is available with a <em>delete your data</em> button at the bottom of <a href="https://duckduckgo.com/settings.html">settings page<a/>.
 #. This token is displayed as a button, so keep it short!
-msgid "Delete my data"
+msgid "Delete My Data"
 msgstr "Cancella i miei dati"
 
 msgid "Denmark"
@@ -1471,13 +1497,6 @@ msgstr "Centro di supporto DuckDuckGo"
 msgid "DuckDuckGo URL Parameters"
 msgstr "Parametri URL DuckDuckGo"
 
-#. Stuff about how your password is stored and secured.
-#. Into "How does it work" paragraph of <a href="https://duckduckgo.com/settings.html">settings page</a>.
-#. You have to click the "What is this?" link to display it.
-msgctxt "cloudsave"
-msgid "DuckDuckGo does not ever know your passphrase."
-msgstr "DuckDuckGo non sarà mai a conoscenza della tua password."
-
 msgctxt "precise_user_location"
 msgid ""
 "DuckDuckGo is private by design. When you enable location, it is stored on "
@@ -1488,17 +1507,6 @@ msgid ""
 msgstr "DuckDuckGo si basa sul principio della \"privacy by design\". Quando attivi il rilevamento della posizione, questa viene salvata unicamente sul tuo dispositivo."
 " Quando effettui una ricerca, il dispositivo ci invia la tua posizione. Noi la usiamo per affinare i risultati e poi la distruggiamo immediatamente, in"
 " modo da salvaguardare la tua privacy. %1$sScopri come abbiamo progettato questa tecnologia finalizzata a proteggere la tua privacy%2$s."
-
-msgctxt "precise_user_location"
-msgid ""
-"DuckDuckGo is private by design. When you enable location, it is stored on "
-"your local device only. When you search, your device then sends it to us, we "
-"use it to improve results for that search, and then we promptly throw it "
-"away, such that you remain anonymous. Learn more about how we designed this "
-"technology to protect your privacy %shere%s."
-msgstr "DuckDuckGo si basa sul principio della \"privacy by design\". Quando attivi il rilevamento della posizione, questa viene salvata unicamente sul tuo dispositivo."
-" Quando fai una ricerca, il dispositivo ci invia la tua posizione. Noi la usiamo per affinare i risultati e poi la distruggiamo immediatamente, così da"
-" salvaguardare la tua privacy. Scopri come abbiamo progettato questa tecnologia finalizzata a proteggere la tua privacy %1$squi%2$s."
 
 msgctxt "cloudsave"
 msgid "DuckDuckGo never knows your passphrase."
@@ -1530,12 +1538,6 @@ msgstr "Messaggio di benvenuto EU Android"
 #. You have to click the "What is this?" link to display it.
 msgctxt "cloudsave"
 msgid ""
-"Each time you ask for a passphrase suggestion, we get a reasonably large "
-"list of random words from the DuckDuckGo servers."
-msgstr "Ogni volta che chiedi un suggerimento password, prendiamo una lista ragionevolmente lunga di parole casuali dai server DuckDuckGo."
-
-msgctxt "cloudsave"
-msgid ""
 "Each time you ask for a passphrase suggestion, we receive a long list of "
 "random words from the DuckDuckGo servers. In the browser, we then select 4-5 "
 "random words from that list, ensuring that the passphrase is at least 18-20 "
@@ -1552,6 +1554,8 @@ msgctxt "precise_user_location"
 msgid "Enable 'Sites can ask for my location.'"
 msgstr "Attiva \"I siti possono chiedere la mia posizione\"."
 
+#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
+#. In the cloud save box - http://i.imgur.com/fUS6WAi.png
 msgctxt "cloudsave"
 msgid "Enable Cloud Save by entering your existing passphrase."
 msgstr "Abilita Cloud Save inserendo la tua passphrase esistente."
@@ -1568,12 +1572,6 @@ msgid ""
 "Enable anonymous location for more accurate results. You can always change "
 "your mind later."
 msgstr "Abilita la posizione anonima per risultati più accurati. Puoi sempre cambiare idea in seguito."
-
-#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
-#. In the cloud save box - http://i.imgur.com/fUS6WAi.png
-msgctxt "cloudsave"
-msgid "Enable cloud save by entering your existing passphrase."
-msgstr "Abilita il salvataggio cloud inserendo la tua password."
 
 msgctxt "precise_user_location"
 msgid "Enable the Location setting on your phone."
@@ -1602,21 +1600,11 @@ msgstr "Accedi a %1$shttps://duckduckgo.com%2$s"
 #. then locate the text here: http://i.imgur.com/xisuMjL.png
 msgctxt "cloudsave"
 msgid ""
-"Enter a new passphrase and click 'Save Settings' This will save your data "
-"under your new passphrase."
-msgstr "Inserisci una nuova password e clicca 'Salva Impostazioni' I tuoi dati verranno salvati con la tua nuova password."
-
-msgctxt "cloudsave"
-msgid ""
 "Enter a new passphrase and click/tap %sSave Settings%s. This will save your "
 "data under your new passphrase."
 msgstr "Inserisci una nuova passphrase e clicca/tocca %1$sSalva Impostazioni%2$s. I tuoi dati verranno salvati con la tua nuova passphrase."
 
 #. http://i.imgur.com/qo0C6MA.png
-msgctxt "settings"
-msgid "Enter a pass phrase"
-msgstr "Inserisci una password"
-
 msgctxt "settings"
 msgid "Enter a passphrase"
 msgstr "Inserisci una passphrase"
@@ -1639,16 +1627,8 @@ msgctxt "email newsletter"
 msgid "Enter your email address."
 msgstr "Inserisci il tuo indirizzo email."
 
-msgctxt "cloudsave"
-msgid "Enter your pass phrase to load your settings:"
-msgstr "Inserisci la password per caricare le tue impostazioni:"
-
 #. Click "Load Settings" - http://i.imgur.com/3czvc4H.png
 #. Then - http://i.imgur.com/K6c3e4L.png
-msgctxt "settings"
-msgid "Enter your pass phrase to load your settings:"
-msgstr "Inserisci la tua password per caricare le tue impostazioni:"
-
 msgctxt "cloudsave"
 msgid "Enter your passphrase to load your settings."
 msgstr "Inserisci la tua passphrase per caricare le tue impostazioni."
@@ -1692,10 +1672,6 @@ msgid "Extra Large"
 msgstr "Molto grande"
 
 msgctxt "directions"
-msgid "Fastest Route"
-msgstr "Percorso più veloce"
-
-msgctxt "directions"
 msgid "Fastest route"
 msgstr "Percorso più veloce"
 
@@ -1732,12 +1708,6 @@ msgid "Filter by Date"
 msgstr "Filtra per data"
 
 msgid "Filter by Region"
-msgstr "Filtra per regione"
-
-msgid "Filter by date"
-msgstr "Filtra per data"
-
-msgid "Filter by region"
 msgstr "Filtra per regione"
 
 msgctxt "feedback form"
@@ -1807,17 +1777,33 @@ msgstr "Forzare la crittografia sui siti web"
 msgid "France"
 msgstr "Francia"
 
+#. a filter for images with the CC BY-NC usage license
+msgctxt "image-licence"
+msgid "Free to Modify, Share, and Use"
+msgstr "Modifica, condivisione e utilizzo gratuiti"
+
+#. a filter for images with the CC BY usage license
+msgctxt "image-licence"
+msgid "Free to Modify, Share, and Use Commercially"
+msgstr "Modifica, condivisione e utilizzo commerciale gratuiti"
+
+#. a filter for images with the CC BY-NC-ND usage license
+msgctxt "image-licence"
+msgid "Free to Share and Use"
+msgstr "Condivisione e utilizzo gratuiti"
+
+#. a filter for images with the CC BY-ND usage license
+msgctxt "image-licence"
+msgid "Free to Share and Use Commercially"
+msgstr "Condivisione e uso commerciale gratuiti"
+
 msgctxt "new user poll"
 msgid "Friend or family"
 msgstr "Amico o famiglia"
 
-msgctxt "settings"
-msgid "GET Requests"
-msgstr "Richieste GET"
-
 #. http://i.imgur.com/tGau0Vx.png
 msgctxt "settings"
-msgid "GET requests"
+msgid "GET Requests"
 msgstr "Richieste GET"
 
 msgid "Game ended"
@@ -2014,21 +2000,17 @@ msgctxt "directions"
 msgid "Hide Steps"
 msgstr "Nascondi dettagli"
 
-#. "Hide pass phrase" appears in the Load Cloud Settings box: http://i.imgur.com/24xv6L8.png
-msgctxt "settings"
-msgid "Hide pass phrase"
-msgstr "Nascondi password"
-
-msgctxt "directions"
-msgid "Hide steps"
-msgstr "Nascondi indicazioni"
-
 msgctxt "settings"
 msgid "Hides search term from being shown in browser tab/history"
 msgstr "Nasconde i termini di ricerca dalla scheda e cronologia del browser"
 
 msgctxt "video-resolution"
 msgid "High Definition"
+msgstr "Alta definizione"
+
+#. Shown in video filtering. https://duckduckgo.com/?q=videos+of+cats&iax=videos&ia=videos
+msgctxt "video-resolution"
+msgid "High definition"
 msgstr "Alta definizione"
 
 #. <em>ky</em>'s label for one of the color settings query parameters into <a href="https://duckduckgo.com/params.html">query parameters documentation page</a>.
@@ -2165,10 +2147,6 @@ msgid ""
 "If you want, select Home Page next to New windows and New tabs (open with)."
 msgstr "Se vuoi, seleziona \"Pagina iniziale\" vicino a \"Apri nuove finestre\" e \"Apri nuovi pannelli\"."
 
-msgctxt "settingsvalue"
-msgid "Image Tiles"
-msgstr "Riquadri immagine"
-
 msgctxt "Report image modal"
 msgid "Image contains explicit content"
 msgstr "L'immagine contiene contenuti espliciti"
@@ -2190,42 +2168,20 @@ msgstr "In collaborazione con"
 
 msgctxt "settings"
 msgid ""
-"In some older browsers it's necessary to redirect your clicks through our "
-"server to prevent Search Leakage. %sMore Info%s."
-msgstr "In alcuni browser obsoleti è necessario redirezionare i tuoi click attraverso il nostro server per prevenire la fuoriuscita delle ricerche. %1$sMaggiori"
-" informazioni%2$s."
-
-msgctxt "settings"
-msgid ""
 "In some older browsers, it's necessary to redirect your clicks through our "
 "server to prevent search leakage. %sLearn more%s."
 msgstr "In alcuni browser obsoleti è necessario reindirizzare i tuoi clic attraverso il nostro server per evitare la dispersione delle ricerche. %1$sMaggiori Informazioni%2$s."
 
-#. Explanations about <em>how does passphrase generation work</em> paragraph.
-#. From <a href="https://duckduckgo.com/settings.html">settings page</a>.
-#. You have to click the "What is this?" link to display it.
-msgctxt "cloudsave"
-msgid ""
-"In the browser, we then select four or five random words from that list, "
-"ensuring that it is at least 18-20 characters long."
-msgstr "Scegliamo poi nel browser quattro o cinque parole casuali da quella lista, assicurandoci che siano lunghe almeno 18-20 caratteri."
-
 #  SeaMonkey default search engine instruction
 msgid "In the drop down select %sDuckDuckGo%s!"
 msgstr "Nel menu a tendina seleziona %1$sDuckDuckGo%2$s!"
-
-msgctxt "cloudsave"
-msgid ""
-"In the interest of transparency, this data is not encrypted: You can see "
-"exactly what information we store."
-msgstr "Nell'interesse della privacy, questi dati non sono crittografati: puoi vedere chiaramente le informazioni che memorizziamo."
 
 #. Explanations for <em>how does the settings cloud save works</em> paragraph.
 #. From <a href="https://duckduckgo.com/settings.html">settings page</a>.
 #. You have to click the "What is this?" link to display it.
 msgctxt "cloudsave"
 msgid ""
-"In the interest of transparency, this data is not encrypted: you can see "
+"In the interest of transparency, this data is not encrypted: You can see "
 "exactly what information we store."
 msgstr "Nell'interesse della privacy, questi dati non sono crittografati: puoi vedere chiaramente le informazioni che memorizziamo."
 
@@ -2248,9 +2204,6 @@ msgstr "Nel menu laterale seleziona %1$sRicerca Internet%2$s"
 #. e.g., 'Including results for Mozart' (when the user searched for 'Mozar')
 msgid "Including results for %s"
 msgstr "Sono inclusi i risultati per %1$s"
-
-msgid "Including results for %s."
-msgstr "Inclusi i risultati per %1$s."
 
 msgid "India"
 msgstr "India"
@@ -2277,6 +2230,10 @@ msgstr "Caricamento automatico immagini"
 msgctxt "settings"
 msgid "Infinite Scroll for Images and Videos"
 msgstr "Caricamento automatico per immagini e video"
+
+msgctxt "settings"
+msgid "Infinite Scroll for Images, Videos, and Shopping"
+msgstr "Caricamento automatico per immagini, video e acquisti"
 
 msgid "Install"
 msgstr "Installa"
@@ -2335,13 +2292,6 @@ msgstr "Qualcuno sta lavorando sul tuo plugin zero-click?"
 msgid "Israel"
 msgstr "Israele"
 
-#. https://duckduckgo.com/settings near the bottom, under "Cloud Save", by clicking "What's this", under "How does passphrase generation work?"
-msgctxt "cloudsave"
-msgid ""
-"It is easier to remember four or five words than 10 random letters and "
-"numbers, and far more secure."
-msgstr "È più facile ricordare quattro o cinque parole che 10 lettere e numeri casuali, ed è molto più sicuro."
-
 msgctxt "precise_user_location"
 msgid "It's not working."
 msgstr "Non funziona."
@@ -2357,6 +2307,7 @@ msgstr "Italia"
 msgid "Items"
 msgstr "Elementi"
 
+#. https://duckduckgo.com/settings near the bottom, under "Cloud Save", by clicking "What's this", under "How does passphrase generation work?"
 msgctxt "cloudsave"
 msgid ""
 "It’s easier to remember 4-5 words than 10 random letters and numbers, and "
@@ -2477,10 +2428,6 @@ msgctxt "SERP footer content"
 msgid "Learn how to search like the pros."
 msgstr "Impara come cercare da esperti."
 
-msgctxt "precise_user_location"
-msgid "Learn how we keep your location private %shere%s."
-msgstr "Scopri come manteniamo privata la tua posizione %1$squi%2$s."
-
 msgctxt "SERP footer content"
 msgid "Learn how we're dedicated to keeping you safe online."
 msgstr "Scopri cosa facciamo per tenerti al sicuro online."
@@ -2521,6 +2468,11 @@ msgstr "Azzurro"
 #. Discontinued, don't translate
 msgid "Light green"
 msgstr "Verde chiaro"
+
+#. i.e. a type of image comprised of lines without gradiations in shade or hue
+msgctxt "image-type"
+msgid "Line Drawing"
+msgstr "Disegno a linee"
 
 #. https://duckduckgo.com/params under "Look & Feel Settings"
 msgid "Link font:"
@@ -2569,6 +2521,10 @@ msgstr "Carica altre immagini e altri video durante lo scorrimento"
 msgctxt "settings"
 msgid "Loads more image results when scrolling"
 msgstr "Carica altre immagini durante lo scorrimento"
+
+msgctxt "settings"
+msgid "Loads more results in Images, Videos, and Shopping when scrolling"
+msgstr "Carica altri risultati in Immagini, Video e Shopping durante lo scorrimento"
 
 #. http://i.imgur.com/WTkvs9I.png
 msgctxt "settings"
@@ -2627,10 +2583,6 @@ msgstr "Mappe"
 msgctxt "feedback form"
 msgid "Maps"
 msgstr "Mappe"
-
-msgctxt "feedback form"
-msgid "Maps / Location Info"
-msgstr "Mappe / Informazioni sulla posizione"
 
 msgctxt "feedback form"
 msgid "Maps / location info"
@@ -2781,10 +2733,6 @@ msgctxt "additional_info_at"
 msgid "More results"
 msgstr "Altri risultati"
 
-msgctxt "more_reviews_on_external_website"
-msgid "More reviews on %s "
-msgstr "Ulteriori recensioni su %1$s "
-
 msgctxt "video-duration"
 msgid "More than 20 minutes"
 msgstr "Più di 20 minuti"
@@ -2904,10 +2852,6 @@ msgstr "Nessun percorso disponibile"
 msgid "No More Photos"
 msgstr "Nessun'altra foto"
 
-msgctxt "settingsvalue"
-msgid "No Preference (Default)"
-msgstr "Nessuna Preferenza (Predefinito)"
-
 msgctxt "settings"
 msgid "No Region Selected"
 msgstr "Nessuna Regione Selezionata"
@@ -2926,10 +2870,6 @@ msgstr "Nessun contenuto per adulti"
 msgctxt "directions"
 msgid "No available routes between these locations"
 msgstr "Non sono disponibili itinerari tra queste località"
-
-msgctxt "directions"
-msgid "No available routes between these locations."
-msgstr "Non è disponibile alcun percorso tra queste località."
 
 msgctxt "safe search"
 msgid "No explicit images or videos"
@@ -2991,10 +2931,6 @@ msgstr "Normale"
 msgid "Norway"
 msgstr "Norvegia"
 
-msgctxt "settingsvalue"
-msgid "Not Set"
-msgstr "Non impostato"
-
 msgctxt "precise_user_location"
 msgid "Not getting nearby results?"
 msgstr "Non trovi risultati nelle vicinanze?"
@@ -3002,9 +2938,6 @@ msgstr "Non trovi risultati nelle vicinanze?"
 #. Not many results contain '<query>' (<query> is the query that the user sent to the search engine)
 msgid "Not many results contain %s"
 msgstr "Non ci sono molti risultati che contengono %1$s"
-
-msgid "Not many results contain %s."
-msgstr "Non ci sono molti risultati contenenti %1$s."
 
 msgctxt "Report image modal"
 msgid "Not relevant"
@@ -3096,6 +3029,10 @@ msgstr "Solo le impostazioni che hai modificato. Sono tutte elencate nella pagin
 msgctxt "maps_places"
 msgid "Open"
 msgstr "Aperto"
+
+#. The placeholder is a business name, e.g. 'Open Ikea website'.
+msgid "Open %s website"
+msgstr "Apri il sito web %1$s"
 
 msgid "Open %sMenu > Settings > Search %s and select DuckDuckGo!"
 msgstr "Apri %1$sMenu > Impostazioni > Ricerca %2$s e seleziona DuckDuckGo!"
@@ -3193,9 +3130,6 @@ msgctxt "feedback form"
 msgid "Other"
 msgstr "Altro"
 
-msgid "Other Settings"
-msgstr "Altre impostazioni"
-
 msgctxt "homepage onboarding"
 msgid ""
 "Other search engines track your searches even when you’re in private "
@@ -3254,15 +3188,6 @@ msgid "Page %s"
 msgstr "Pagina %1$s"
 
 msgctxt "settings"
-msgid "Page Appearance"
-msgstr "Aspetto della pagina"
-
-#. indica o número de páxina de resultados na que estamos
-msgctxt "settings"
-msgid "Page Break #'s"
-msgstr "Interruzione di pagina #'s"
-
-msgctxt "settings"
 msgid "Page Break Lines"
 msgstr "Linee di fine pagina"
 
@@ -3276,18 +3201,6 @@ msgid "Page Width"
 msgstr "Larghezza pagina"
 
 msgctxt "cloudsave"
-msgid "Pass phrase is already taken."
-msgstr "Password già in uso."
-
-msgctxt "cloudsave"
-msgid "Pass phrase must be at least 9 characters long"
-msgstr "La password deve contenere almeno 9 caratteri"
-
-msgctxt "cloudsave"
-msgid "Pass phrase not found"
-msgstr "Password non trovata"
-
-msgctxt "cloudsave"
 msgid "Passphrase is already taken."
 msgstr "Passphrase già in uso."
 
@@ -3299,6 +3212,8 @@ msgctxt "cloudsave"
 msgid "Passphrase not found."
 msgstr "Passphrase non trovata."
 
+#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
+#. Then in the cloud save box - http://i.imgur.com/tbzpD5S.png
 msgctxt "cloudsave"
 msgid ""
 "Passphrases cannot be recovered as we don't associate your IP address, "
@@ -3325,6 +3240,18 @@ msgstr "Ultima settimana"
 
 #. Option for the filter-by-date search.
 msgid "Past Year"
+msgstr "Ultimo anno"
+
+msgid "Past day"
+msgstr "Ieri"
+
+msgid "Past month"
+msgstr "Ultimo mese"
+
+msgid "Past week"
+msgstr "Ultima settimana"
+
+msgid "Past year"
 msgstr "Ultimo anno"
 
 msgctxt "settings"
@@ -3557,10 +3484,6 @@ msgid "Prompt me"
 msgstr "Chiedimelo"
 
 msgctxt "settings"
-msgid "Prompt me to anonymously use browser location for better results."
-msgstr "Chiedi di usare in modo anonimo la posizione del browser per ottenere risultati migliori."
-
-msgctxt "settings"
 msgid "Prompt me to customize my DuckDuckGo experience."
 msgstr "Inducimi a modificare la mia esperienza su DuckDuckGo."
 
@@ -3587,6 +3510,11 @@ msgctxt "showcase_app"
 msgid "Protect your data on every device."
 msgstr "Proteggi i tuoi dati su ogni dispositivo."
 
+#. a filter for images with the CC0 usage license
+msgctxt "image-licence"
+msgid "Public Domain"
+msgstr "Pubblico dominio"
+
 #. Used for various color settings  query parameters values captions into <a =href="https://duckduckgo.com/params.html">query parameters documentation page</a>.
 msgid "Purple"
 msgstr "Viola"
@@ -3594,14 +3522,6 @@ msgstr "Viola"
 msgctxt "color"
 msgid "Purple"
 msgstr "Viola"
-
-#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
-#. In the cloud save box - http://i.imgur.com/FbCoYVE.png
-msgctxt "cloudsave"
-msgid ""
-"Push 'Delete My Data'. This removes the data from the cloud, but it remains "
-"in your browser until you click on 'Reset all settings'"
-msgstr "Premi 'Elimina i Miei Dati'. Ciò rimuoverà i dati dal cloud, ma rimarranno nel tuo browser finchè non cliccherai 'Resetta tutte le impostazioni'"
 
 #. Instant Answer Tab Name
 msgid "Quotations"
@@ -3650,10 +3570,6 @@ msgstr "Reddit"
 msgctxt "settings"
 msgid "Redirect (When Necessary)"
 msgstr "Reindirizza (quando necessario)"
-
-msgctxt "settings"
-msgid "Redirect (when necessary)"
-msgstr "Redireziona (quando necessario)"
 
 msgid "Redirect:"
 msgstr "Reindirizzamento:"
@@ -3765,14 +3681,6 @@ msgid "Result URLs Above Snippet"
 msgstr "URL del risultato sopra la descrizione"
 
 msgctxt "settings"
-msgid "Result URLs above snippet"
-msgstr "URL del risultato sopra la descrizione"
-
-msgctxt "settings"
-msgid "Result Visited Check Mark"
-msgstr "Segno di spunta dei siti visitati"
-
-msgctxt "settings"
 msgid "Result Visited Checkmark"
 msgstr "Segno di spunta dei siti visitati"
 
@@ -3784,10 +3692,6 @@ msgstr "Colore titolo del risultato visitato"
 #. In the top menu under Settings
 msgid "Results"
 msgstr "Risultati"
-
-msgctxt "settings"
-msgid "Results Appearance"
-msgstr "Aspetto dei risultati"
 
 msgctxt "precise_user_location"
 msgid "Results are good enough."
@@ -3846,6 +3750,10 @@ msgstr "La ricerca sicura ha bloccato risultati per %1$s."
 
 msgid "Safe search blocked some results for %s."
 msgstr "La ricerca sicura ha bloccato alcuni risultati per %1$s."
+
+#. Safe search lets you remove adult content from results on DuckDuckGo. This string is used to invite users to select the desired level of protection (e.g., strict, moderate, off)
+msgid "Safe search:"
+msgstr "Ricerca sicura:"
 
 #. For a button that shows satellite imagery on a map
 msgctxt "map-mode"
@@ -3922,10 +3830,6 @@ msgid "Search Anonymously"
 msgstr "Cerca in modo anonimo"
 
 #. in https://duckduckgo.com/search_box. top header
-msgid "Search Box"
-msgstr "Casella di ricerca"
-
-msgctxt "feedback form"
 msgid "Search Box"
 msgstr "Casella di ricerca"
 
@@ -4014,10 +3918,6 @@ msgid "Security Issue"
 msgstr "Problema di sicurezza"
 
 msgctxt "feedback form"
-msgid "Security Issue (Opens in New Tab)"
-msgstr "Problema di sicurezza (apre una nuova scheda)"
-
-msgctxt "feedback form"
 msgid "Security issue (opens in new tab)"
 msgstr "Problema di sicurezza (apre una nuova scheda)"
 
@@ -4039,10 +3939,6 @@ msgstr "Vedi altre foto su %1$s"
 msgctxt "SERP footer content"
 msgid "See our %straffic page%s for details."
 msgstr "Vedi la nostra %1$spagina sul traffico%2$s per i dettagli."
-
-msgctxt "settings"
-msgid "See the %sURL Parameter Reference Page%s for more details"
-msgstr "Visita la %1$spagina di riferimento dei parametri URL%2$s per maggiori dettagli"
 
 msgctxt "settings"
 msgid "See the %sURL Parameter Reference page%s for more details."
@@ -4283,6 +4179,8 @@ msgctxt "new tab page"
 msgid "Show Most Visited Sites"
 msgstr "Mostra i siti più visitati"
 
+#. Click "Load Settings" - http://i.imgur.com/cii6KqL.png
+#. Then - http://i.imgur.com/nOvjdKb.png
 msgctxt "settings"
 msgid "Show Passphrase"
 msgstr "Mostra passphrase"
@@ -4296,92 +4194,13 @@ msgctxt "noresults"
 msgid "Show Web Results"
 msgstr "Mostra risultati web"
 
-msgctxt "settings"
-msgid "Show favicons for each result"
-msgstr "Mostra le favicon per ogni risultato"
-
-msgctxt "settings"
-msgid "Show horizontal lines at result page breaks"
-msgstr "Mostra una linea orizzontale ad ogni interruzione di pagina dei risultati"
-
-msgctxt "settings"
-msgid "Show links to instructions for how to add DuckDuckGo to your browser"
-msgstr "Mostra link per le istruzioni su come aggiungere DuckDuckGo al tuo browser"
-
 msgctxt "directions"
 msgid "Show map"
 msgstr "Mostra mappa"
 
-msgctxt "settings"
-msgid "Show most visited links on new tab page"
-msgstr "Mostra i link più visitati nella pagina Nuova Scheda"
-
-msgctxt "settings"
-msgid "Show occasional reminders to add DuckDuckGo to your browser"
-msgstr "Mostra promemoria occasionali per aggiungere DuckDuckGo al tuo browser"
-
-msgctxt "settings"
-msgid "Show occasional reminders to add DuckDuckGo to your devices"
-msgstr "Mostra promemoria occasionali per aggiungere DuckDuckGo ai tuoi dispositivi"
-
-msgctxt "settings"
-msgid ""
-"Show occasional reminders to sign up for the DuckDuckGo privacy newsletter"
-msgstr "Mostra promemoria occasionali per registrarti ai bollettini sulla privacy di DuckDuckGo"
-
-msgctxt "settings"
-msgid "Show page numbers at result page breaks"
-msgstr "Mostra il numero di pagina alla fine della pagina dei risultati"
-
-#. Click "Load Settings" - http://i.imgur.com/cii6KqL.png
-#. Then - http://i.imgur.com/nOvjdKb.png
-msgid "Show pass phrase"
-msgstr "Mostra password"
-
-msgctxt "settings"
-msgid "Show pass phrase"
-msgstr "Mostra password"
-
-msgctxt "settings"
-msgid "Show sign up form for the DuckDuckGo privacy newsletter"
-msgstr "Mostra il modulo di registrazione per ricevere le notizie di DuckDuckGo sulla privacy"
-
-msgctxt "directions"
-msgid "Show steps"
-msgstr "Mostra percorsi a piedi"
-
-#. http://i.imgur.com/94erFcS.png
-msgctxt "settings"
-msgid "Show suggestions under the search box as you type"
-msgstr "Mostra suggerimenti sotto la casella di ricerca mentre digiti"
-
-msgctxt "settings"
-msgid "Show the Result URL line above the snippet text"
-msgstr "Mostra l'URL del risultato sopra la descrizione del sito"
-
-msgctxt "settings"
-msgid "Show the full URL for each result"
-msgstr "Mostra l'URL completo per ogni risultato"
-
-msgctxt "settings"
-msgid "Show the privacy benefits of using DuckDuckGo on the homepage"
-msgstr "Mostra nella pagina principale i vantaggi nell'uso di DuckDuckGo per la privacy"
-
 msgctxt "video-duration"
 msgid "Show videos of any length"
 msgstr "Mostra video di qualsiasi durata"
-
-msgctxt "noresults"
-msgid "Show web results"
-msgstr "Mostra risultati web"
-
-msgctxt "settings"
-msgid "Show welcome message on top of the search results page"
-msgstr "Mostra un messaggio di benvenuto in cima alla pagina dei risultati"
-
-msgctxt "settings"
-msgid "Show welcome message to EU Android preference menu users"
-msgstr "Mostra un benvenuto agli utenti del Preference Menu su Android in EU"
 
 msgctxt "SERP footer content"
 msgid "Show your DuckDuckGo pride with t-shirts, stickers, & more."
@@ -4442,6 +4261,7 @@ msgctxt "settings"
 msgid "Shows sign-up form for the DuckDuckGo privacy newsletters"
 msgstr "Mostra il modulo di registrazione per ricevere le newsletter sulla privacy di DuckDuckGo"
 
+#. http://i.imgur.com/94erFcS.png
 msgctxt "settings"
 msgid "Shows suggestions under the search box as you type"
 msgstr "Mostra suggerimenti sotto la casella di ricerca mentre digiti"
@@ -4560,6 +4380,11 @@ msgctxt "video-resolution"
 msgid "Standard Definition"
 msgstr "Definizione standard"
 
+#. Shown in video filtering. https://duckduckgo.com/?q=videos+of+cats&iax=videos&ia=videos
+msgctxt "video-resolution"
+msgid "Standard definition"
+msgstr "Definizione standard"
+
 msgid "Start Searching"
 msgstr "Inizia a cercare"
 
@@ -4632,18 +4457,10 @@ msgctxt "settings"
 msgid "Suggest Different Passphrase"
 msgstr "Suggerisci una passphrase diversa"
 
+#. http://i.imgur.com/BMM6X3h.png
 msgctxt "settings"
 msgid "Suggest a Passphrase"
 msgstr "Suggerisci una passphrase"
-
-#. http://i.imgur.com/BMM6X3h.png
-msgctxt "settings"
-msgid "Suggest a pass phrase"
-msgstr "Suggeriscimi una password"
-
-msgctxt "settings"
-msgid "Suggest different phrase"
-msgstr "Suggerisci una frase diversa"
 
 msgctxt "directions"
 msgid "Suggestions:"
@@ -4765,19 +4582,13 @@ msgid ""
 msgstr "Questo significa che le informazioni inviate tra il tuo dispositivo e la pagina web dietro a questo link sono a maggior rischio di essere intercettate"
 " da terze parti. In rari casi questo include password o informazioni di pagamento."
 
+#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
+#. Then in the cloud save box - http://i.imgur.com/elru00b.png
 msgctxt "cloudsave"
 msgid ""
 "The Cloud Save bookmarklet allows any changes you make to your settings to "
 "automatically save in the cloud."
 msgstr "Il bookmarklet Cloud Save consente di salvare automaticamente nel cloud le modifiche apportate alle impostazioni."
-
-#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
-#. Then in the cloud save box - http://i.imgur.com/elru00b.png
-msgctxt "cloudsave"
-msgid ""
-"The benefit of this over using the URL parameters bookmarklet is that when "
-"you change settings, they will automatically be saved in the cloud."
-msgstr "Il vantaggio di preferire questo metodo rispetto a quello del bookmarklet è che quando cambi impostazioni, queste verranno automaticamente salvate in cloud."
 
 #. Click "What is this?" - http://i.imgur.com/KhmRHth.png
 #. Then look in the cloud save box - http://i.imgur.com/fIEYjbI.png
@@ -4851,10 +4662,6 @@ msgstr "Questa Risposta Immediata è stata creata dalla community di %1$sDuckDuc
 msgctxt "cloudsave"
 msgid "This has a few benefits:"
 msgstr "Ciò comporta alcuni vantaggi:"
-
-msgctxt "attribution"
-msgid "This instant answer was made by the %sDuckDuckHack%s Community."
-msgstr "Questa Risposta Immediata è stata creata dalla Comunità di %1$sDuckDuckHack%2$s."
 
 msgctxt "new tab page"
 msgid ""
@@ -5044,17 +4851,13 @@ msgstr "Sotto \"All'avvio\" seleziona %1$sApri una pagina specifica o un insieme
 msgid "Under Search click the drop down and select %sDuckDuckGo%s"
 msgstr "Sotto \"Ricerca\" clicca il menu a tendina e seleziona %1$sDuckDuckGo%2$s"
 
-#. http://i.imgur.com/7M5ogIs.png
-#. If, "On" --it will add an underline to result titles like this: http://i.imgur.com/VRFC6VQ.png
-#. If, "Off" --there will be no underline, like this: http://i.imgur.com/6MyezXn.png
-msgctxt "settings"
-msgid "Underline the title link for each result"
-msgstr "Sottolinea il link del titolo per ogni risultato"
-
 #. https://duckduckgo.com/params under "Look & Feel Settings" header
 msgid "Underline:"
 msgstr "Sottolineatura:"
 
+#. http://i.imgur.com/7M5ogIs.png
+#. If, "On" --it will add an underline to result titles like this: http://i.imgur.com/VRFC6VQ.png
+#. If, "Off" --there will be no underline, like this: http://i.imgur.com/6MyezXn.png
 msgctxt "settings"
 msgid "Underlines the title link for each result"
 msgstr "Sottolinea il link del titolo per ogni risultato"
@@ -5131,9 +4934,6 @@ msgstr "Visualizza file"
 msgid "View all !bangs"
 msgstr "Vedi tutti i !bang"
 
-msgid "View file"
-msgstr "Visualizza file"
-
 msgid "View on %s"
 msgstr "Vedi su %1$s"
 
@@ -5164,10 +4964,6 @@ msgstr "Link visitati:"
 msgctxt "forecast"
 msgid "W"
 msgstr "O"
-
-msgctxt "precise_user_location"
-msgid "Waiting For Location..."
-msgstr "Rilevamento in corso..."
 
 #. Waiting for the device location sensor to return data
 msgctxt "precise_user_location"
@@ -5210,38 +5006,20 @@ msgctxt "cloudsave"
 msgid "We cannot reverse the passphrase key generation."
 msgstr "Non possiamo invertire la generazione di chiavi."
 
-#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
-#. Then in the cloud save box - http://i.imgur.com/pZ0pyIJ.png
-msgctxt "cloudsave"
-msgid ""
-"We do not have usernames and we don't store any personally identifiable "
-"information."
-msgstr "Non abbiamo nomi utente e non memorizziamo alcuna informazione personale identificabile."
-
 #. https://duckduckgo.com/about under "We believe in better search and real privacy at the same time. That's why: "
 msgctxt "wedonttrackyou"
 msgid "We don't %s you."
 msgstr "Noi non ti %1$s."
 
-#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
-#. Then in the cloud save box - http://i.imgur.com/tbzpD5S.png
-msgctxt "cloudsave"
-msgid ""
-"We don't associate your IP address or browser fingerprint or any other "
-"information with the file."
-msgstr "Non associamo il tuo indirizzo IP o impronta del browser o qualsiasi altra informazione al file."
-
 msgctxt "reasons-to-use-duckduckgo"
 msgid "We don't follow you around with ads."
 msgstr "Non ti seguiamo proponendoti pubblicità."
 
+#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
+#. Then in the cloud save box - http://i.imgur.com/pZ0pyIJ.png
 msgctxt "cloudsave"
 msgid "We don't store usernames or any personally identifiable information."
 msgstr "Non memorizziamo nomi utente o informazioni personali."
-
-msgctxt "settings"
-msgid "We don't store your location. It remains only on your device. %sInfo%s"
-msgstr "Non memorizziamo la tua posizione. Resta solo sul tuo dispositivo. %1$sInfo%2$s"
 
 msgctxt "homepage onboarding"
 msgid "We don't store your personal info or track you. Ever."
@@ -5317,20 +5095,9 @@ msgctxt "SERP footer content"
 msgid "We get a ton of searches, and all of them are anonymous."
 msgstr "Riceviamo un sacco di ricerche, e sono tutte anonime."
 
-#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
-#. Then in the cloud save box - http://i.imgur.com/DZOnHhY.png
-msgctxt "cloudsave"
-msgid ""
-"We save the settings file on Amazon S3 using the generated key as the name."
-msgstr "Salviamo il file impostazioni su Amazon S3 usando la chiave generata come nome."
-
 msgctxt "feedback form"
 msgid "We use feedback like this to improve DuckDuckGo."
 msgstr "Usiamo i feedback come questo per migliorare DuckDuckGo."
-
-msgctxt "feedback form"
-msgid "We use feedback like this to improve DuckDuckGo. It really helps."
-msgstr "Usiamo le opinioni come queste per migliorare DuckDuckGo. Aiutano molto."
 
 msgid ""
 "We'll block hidden trackers and encrypt connections to keep you more private."
@@ -5368,10 +5135,6 @@ msgctxt "homepage onboarding"
 msgid "Welcome to the Duck Side!"
 msgstr "Dax the Duck ti dà il benvenuto!"
 
-msgctxt "maps_places"
-msgid "What People Say"
-msgstr "Opinioni"
-
 msgctxt "new user poll"
 msgid "What brought you back today?"
 msgstr "Cosa ti ha fatto tornare oggi?"
@@ -5388,29 +5151,19 @@ msgctxt "feedback form"
 msgid "What do you think of the information shown?"
 msgstr "Cosa ne pensi delle informazioni mostrate?"
 
-msgctxt "feedback form"
-msgid "What do you think?"
-msgstr "Cosa ne pensi?"
-
 #. Click "What is this?" - http://i.imgur.com/KhmRHth.png
 #. Then in the cloud save box - http://i.imgur.com/ta4V0Xy.png
 msgctxt "cloudsave"
 msgid "What information gets saved?"
 msgstr "Quali informazioni vengono salvate?"
 
+#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
+#. Then in the cloud save box - http://i.imgur.com/YrfhzTL.png
 msgctxt "cloudsave"
 msgid ""
 "What is the Cloud Save bookmarklet and how does it differ from the URL "
 "parameter bookmarklet?"
 msgstr "Cos'è il bookmarklet Cloud Save e in cosa si differenzia dal bookmarklet dei parametri URL?"
-
-#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
-#. Then in the cloud save box - http://i.imgur.com/YrfhzTL.png
-msgctxt "cloudsave"
-msgid ""
-"What is the cloud save bookmarklet and how does it differ from the URL "
-"parameter bookmarklet?"
-msgstr "Cos'è il bookmarklet salvataggio cloud e in cosa si differenzia dal bookmarklet parametri URL?"
 
 #. http://i.imgur.com/fDEZ8XN.png
 msgid "What is this?"
@@ -5465,10 +5218,6 @@ msgid "Width:"
 msgstr "Larghezza:"
 
 msgctxt "feedback form"
-msgid "Wikipedia Info"
-msgstr "Informazioni di Wikipedia"
-
-msgctxt "feedback form"
 msgid "Wikipedia info"
 msgstr "Informazioni di Wikipedia"
 
@@ -5516,10 +5265,6 @@ msgstr "Puoi farlo salvando le tue impostazioni sotto una diversa password, con 
 
 #. Click "What is this?" - http://i.imgur.com/KhmRHth.png
 #. In the cloud save box - http://i.imgur.com/pVjCXmw.png
-msgctxt "cloudsave"
-msgid "You can restore your settings after deleting cookies"
-msgstr "Puoi ripristinare le tue impostazioni dopo aver cancellato i cookie"
-
 msgctxt "cloudsave"
 msgid "You can restore your settings after deleting cookies."
 msgstr "Puoi ripristinare le tue impostazioni dopo aver cancellato i cookie."
@@ -5619,22 +5364,6 @@ msgid ""
 msgstr "La tua passphrase genera una chiave a 512 bit utilizzando l'algoritmo Secure Hash denominato %1$sSHA-2%2$s. Solo la chiave e il file delle impostazioni"
 " associato escono dal tuo browser. Salviamo il file delle impostazioni usando la chiave come nome. DuckDuckGo non sarà mai a conoscenza della tua passphrase."
 
-#. http://i.imgur.com/AQ4Neq7.png
-#. Text describing how passphrases are encrypted
-msgctxt "cloudsave"
-msgid ""
-"Your passphrase is used to generate a key using the Secure Hash Algorithm "
-"known as %sSHA-2%s, using a 512 bit key."
-msgstr "La tua password viene usata per generare una chiave attraverso il Secure Hash Algorithm conosciuto come %1$sSHA-2%2$s, utilizzando una chiave a 512 bit."
-
-#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
-#. In the cloud save box - http://i.imgur.com/xwcnjZL.png
-msgctxt "cloudsave"
-msgid ""
-"Your passphrase never leaves the browser, only the key and the settings file "
-"associated with it."
-msgstr "La tua password non lascia mai il browser, ma solo la chiave e il file impostazioni associati ad essa."
-
 msgctxt "new user poll"
 msgid "Your response is 100% anonymous."
 msgstr "La tua risposta è anonima al 100%."
@@ -5655,6 +5384,11 @@ msgctxt "made_by"
 msgid "by %s"
 msgstr "di %1$s"
 
+#. An abbreviated form of "day" that can be displayed in a small space e.g. "1d"
+msgctxt "published date for videos"
+msgid "d"
+msgstr "g"
+
 #. https://duckduckgo.com/params under "Color Settings" under all
 #. under "Look & Feel Settings"  under "Size:" and "Text link: "
 msgctxt "setting"
@@ -5668,6 +5402,11 @@ msgstr "email"
 msgid "for"
 msgstr "per"
 
+#. An abbreviated form of "hour" that can be displayed in a small space e.g. "1h"
+msgctxt "published date for videos"
+msgid "h"
+msgstr "h"
+
 msgctxt "nonjsversion"
 msgid "here"
 msgstr "qui"
@@ -5676,6 +5415,16 @@ msgstr "qui"
 msgctxt "questions"
 msgid "let us know"
 msgstr "faccelo sapere"
+
+#. An abbreviated form of "minute" that can be displayed in a small space e.g. "1m"
+msgctxt "published date for videos"
+msgid "m"
+msgstr "m"
+
+#. An abbreviated form of "month" that can be displayed in a small space e.g. "1mo"
+msgctxt "published date for videos"
+msgid "mo"
+msgstr "mese"
 
 #. https://duckduckgo.com/50x.html?e=2
 #. p.s.(tsester): i found it out by searching "  "
@@ -5747,3 +5496,8 @@ msgstr "traccia"
 
 msgid "tracker blocking"
 msgstr "blocco dei tracker"
+
+#. An abbreviated form of "year" that can be displayed in a small space e.g. "1yr"
+msgctxt "published date for videos"
+msgid "yr"
+msgstr "anno"

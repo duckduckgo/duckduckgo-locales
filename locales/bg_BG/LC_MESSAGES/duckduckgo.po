@@ -77,6 +77,10 @@ msgctxt "homepage ATB social proof"
 msgid "%s%s%s reviews"
 msgstr "%1$s%2$s%3$s отзива"
 
+msgctxt "install-duckduckgo"
+msgid "%sClick %sAdd%sCheck %sAllow%s, then click %sOkay%s"
+msgstr "%1$sЩракнете върху %2$sДобавяне%3$sПоставете отметка за %4$sРазрешаване%5$s, след това щракнете върху %6$sДобре%7$s"
+
 # Firefox, obsolete
 msgctxt "install-duckduckgo"
 msgid "%sClick %sAllow%sClick %sAdd%sCheck %sAllow%s, then click %sOkay%s"
@@ -270,9 +274,19 @@ msgctxt "image-color"
 msgid "All Colors"
 msgstr "Всички цветове"
 
+#. a filter for any image with a Creative Commons usage license
+msgctxt "image-licence"
+msgid "All Creative Commons"
+msgstr "Всички с лицензи от Creative Commons"
+
 msgctxt "image-layout"
 msgid "All Layouts"
 msgstr "Всички оформления"
+
+#. 'license' as in 'permission to use, share, or modify a work'
+msgctxt "image-licence"
+msgid "All Licenses"
+msgstr "Всички лицензи"
 
 msgid "All Places"
 msgstr "Всички места"
@@ -297,6 +311,29 @@ msgstr "Всички Размери"
 
 msgctxt "image-type"
 msgid "All Types"
+msgstr "Всички типове"
+
+#. This is shown in an image filter. This option only shows images in colors, excluding black and white images. https://duckduckgo.com/?q=images+of+cats&iar=images&iax=images&ia=images
+msgctxt "image-color"
+msgid "All colors"
+msgstr "Всички цветове"
+
+#. This is shown in a layout selector for images, other options are: square, tall, wide  https://duckduckgo.com/?q=images+of+cats&iar=images&iax=images&ia=images.
+msgctxt "image-layout"
+msgid "All layouts"
+msgstr "Всички оформления"
+
+msgctxt "settingsvalue"
+msgid "All regions"
+msgstr "Всички региони"
+
+msgctxt "size"
+msgid "All sizes"
+msgstr "Всички размери"
+
+#. Shown in an image type selector. Other options are: photograph, clipart, animated gif, etc.  https://duckduckgo.com/?q=images+of+cats&iar=images&iax=images&ia=images
+msgctxt "image-type"
+msgid "All types"
 msgstr "Всички типове"
 
 msgctxt "settings"
@@ -370,6 +407,24 @@ msgstr "Всякаква резолюция"
 
 #. Option for the filter-by-date search.
 msgid "Any Time"
+msgstr "По всяко време"
+
+#. Shown in video filtering. https://duckduckgo.com/?q=videos+of+cats&iax=videos&ia=videos
+msgctxt "video-duration"
+msgid "Any duration"
+msgstr "Всякаква продължителност"
+
+#. Shown in video filtering. https://duckduckgo.com/?q=videos+of+cats&iax=videos&ia=videos
+msgctxt "video-license"
+msgid "Any license"
+msgstr "Всякакъв лиценз"
+
+#. Shown in video filtering. https://duckduckgo.com/?q=videos+of+cats&iax=videos&ia=videos
+msgctxt "video-resolution"
+msgid "Any resolution"
+msgstr "Всякаква резолюция"
+
+msgid "Any time"
 msgstr "По всяко време"
 
 msgid "Anywhere"
@@ -537,10 +592,6 @@ msgid "Belgium (nl)"
 msgstr "Белгия (nl)"
 
 msgctxt "settingsvalue"
-msgid "Best Available"
-msgstr "Най-доброто предложение"
-
-msgctxt "settingsvalue"
 msgid "Best available"
 msgstr "Най-доброто предложение"
 
@@ -562,6 +613,10 @@ msgstr "черно"
 
 msgctxt "image-color"
 msgid "Black and White"
+msgstr "Черно и бяло"
+
+msgctxt "image-color"
+msgid "Black and white"
 msgstr "Черно и бяло"
 
 msgid "Block Trackers"
@@ -635,26 +690,15 @@ msgctxt "settingsvalue"
 msgid "Browser Preferred Language"
 msgstr "Предпочитан език за браузъра ви"
 
-msgctxt "precise_user_location"
-msgid "Browser location unavailable."
-msgstr "Местоположението на браузъра не е налично."
+msgctxt "settingsvalue"
+msgid "Browser preferred language"
+msgstr "Предпочитан език за браузъра"
 
 msgid "Bulgaria"
 msgstr "България"
 
 #. Click "Show Bookmarklet and Settings Data" - http://i.imgur.com/NKOWrRl.png
 #. Then - http://i.imgur.com/mo6wsE4.png
-msgctxt "settings"
-msgid ""
-"By default settings are stored in non-personal browser cookies (in your "
-"browser). You can use Anonymous Cloud Save to store your settings in a more "
-"permanent way (on a remote server in the cloud). No personally identifiable "
-"information will be stored in the cloud, and your pass phrase will never "
-"leave your browser."
-msgstr "По подразбиране настройките са съхранявани в нелични браузър бисквитки(във Вашия браузър). Можете да използвате Анонимно Облачно Запазване за да съхраните"
-" Вашите настройки в по-постоянен начин (на сървър в облака). Нелична идентификационна информация ще бъде съхранявана в облака, и Вашите пароли никога няма"
-" да напуснат Вашия браузър."
-
 msgctxt "settings"
 msgid ""
 "By default, settings are stored in non-personal browser cookies (in your "
@@ -709,20 +753,11 @@ msgstr "Центриране"
 #. One of the option in DuckDuckGo Search Settings under appearance tab.
 #. http://i.imgur.com/CklQ1Ku.png
 msgctxt "settings"
-msgid "Center align the results page (instead of left aligned)"
-msgstr "Центриране на страницата с резултатите (вместо подравнен отляво)"
-
-msgctxt "settings"
 msgid "Center-aligns the results page (instead of left-aligned)"
 msgstr "Центрира страницата с резултати (вместо да е подравнена в ляво)"
 
 msgid "Change Region"
 msgstr "Промени Региона"
-
-#. http://i.imgur.com/OntTi6e.png
-msgctxt "settings"
-msgid "Change the background color across the entire site"
-msgstr "Променя фоновия цвят за целия сайт"
 
 #. http://i.imgur.com/oO0X6Pt.png
 msgctxt "settings"
@@ -733,13 +768,10 @@ msgstr "Променя колко пространство използва хе
 
 #. http://i.imgur.com/mcZdcaF.png
 msgctxt "settings"
-msgid "Changes results to be region specific"
-msgstr "Променя резултатите да бъдат специфични за региона"
-
-msgctxt "settings"
 msgid "Changes search results based on region"
 msgstr "Променя резултатите от търсенето въз основа на регион"
 
+#. http://i.imgur.com/OntTi6e.png
 msgctxt "settings"
 msgid "Changes the background color across the entire site"
 msgstr "Променя фоновия цвят на целия сайт"
@@ -801,10 +833,6 @@ msgid "Changes what happens when you click on a video thumbnail"
 msgstr "Променя това, което се случва, когато кликвате на умалено видео"
 
 msgctxt "settings"
-msgid "Changes whether the visited check mark is visible"
-msgstr "Определя наличието на отметка до посетените от вас страници"
-
-msgctxt "settings"
 msgid "Changes whether the visited checkmark is visible"
 msgstr "Определя наличието на отметка до посетените от Вас страници"
 
@@ -837,10 +865,6 @@ msgid "China"
 msgstr "Китай"
 
 #. http://i.imgur.com/f8Ae6jo.png
-msgctxt "cloudsave"
-msgid "Choose a unique pass phrase for your settings:"
-msgstr "Изберете уникална парола за Вашите настройки:"
-
 msgctxt "cloudsave"
 msgid "Choose a unique passphrase for your settings."
 msgstr "Изберете уникална парола за Вашите настройки."
@@ -1003,6 +1027,8 @@ msgstr "Кликнете върху %1$sлупата%2$s в полето за т
 msgid "Click on the magnifying glass in the search box at the top right"
 msgstr "Натиснете лупата в полето за търсене горе в дясно"
 
+#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
+#. In the cloud save box - http://i.imgur.com/FbCoYVE.png
 msgctxt "cloudsave"
 msgid ""
 "Click or tap %sDelete My Data%s. This removes the data from the cloud, but "
@@ -1148,6 +1174,10 @@ msgstr "Само цвят"
 msgid "Color Settings"
 msgstr "Настройки на цветовете"
 
+msgctxt "image-color"
+msgid "Color only"
+msgstr "Само цвят"
+
 #. In the top menu under Settings
 msgid "Colors"
 msgstr "Цветове"
@@ -1192,10 +1222,6 @@ msgid "Conversion"
 msgstr "разговор"
 
 #. http://i.imgur.com/fd7EjAN.png
-msgctxt "settings"
-msgid "Cookie Data:"
-msgstr "Данни на Бисквитка:"
-
 msgctxt "settings"
 msgid "Cookie data:"
 msgstr "Данни на бисквитка:"
@@ -1259,6 +1285,9 @@ msgstr "Подбор на %1$s"
 msgid "Custom Date Range"
 msgstr "Потребителски период от време"
 
+msgid "Custom date range"
+msgstr "Потребителски период от време"
+
 msgctxt "settings"
 msgid "Customize DuckDuckGo"
 msgstr "Настройка на предпочитанията за DuckDuckGo"
@@ -1305,13 +1334,10 @@ msgstr "По подразбиране"
 msgid "Definition"
 msgstr "Определение"
 
-msgid "Delete My Data"
-msgstr "Изтриване на моите данни"
-
 #. When anonymous cloud save is enabled, a box is available with a <em>delete your data</em> button at the bottom of <a href="https://duckduckgo.com/settings.html">settings page<a/>.
 #. This token is displayed as a button, so keep it short!
-msgid "Delete my data"
-msgstr "Изтрий данните ми"
+msgid "Delete My Data"
+msgstr "Изтриване на моите данни"
 
 msgid "Denmark"
 msgstr "Дания"
@@ -1472,13 +1498,6 @@ msgstr "DuckDuckGo център за поддръжка"
 msgid "DuckDuckGo URL Parameters"
 msgstr "DuckDuckGo URL параметри"
 
-#. Stuff about how your password is stored and secured.
-#. Into "How does it work" paragraph of <a href="https://duckduckgo.com/settings.html">settings page</a>.
-#. You have to click the "What is this?" link to display it.
-msgctxt "cloudsave"
-msgid "DuckDuckGo does not ever know your passphrase."
-msgstr "DuckDuckGo изобщо не знае твоята кодова фраза."
-
 msgctxt "precise_user_location"
 msgid ""
 "DuckDuckGo is private by design. When you enable location, it is stored on "
@@ -1489,17 +1508,6 @@ msgid ""
 msgstr "DuckDuckGo е проектиран да осигурява поверителност. Когато активирате местоположение, то се съхранява само на локалното устройство. Когато търсите, устройството"
 " ни изпраща местоположението и ние го използваме, за да подобрим резултатите за това търсене, а след това своевременно го изтриваме, за да останете анонимни."
 " %1$sНаучете повече за начина, по който сме проектирали тази технология така, че да защитава Вашата поверителност%2$s."
-
-msgctxt "precise_user_location"
-msgid ""
-"DuckDuckGo is private by design. When you enable location, it is stored on "
-"your local device only. When you search, your device then sends it to us, we "
-"use it to improve results for that search, and then we promptly throw it "
-"away, such that you remain anonymous. Learn more about how we designed this "
-"technology to protect your privacy %shere%s."
-msgstr "DuckDuckGo е проектиран да осигурява поверителност. Когато активирате местоположение, то се съхранява само на локалното устройство. Когато търсите, устройството"
-" ни изпраща местоположението и ние го използваме, за да подобрим резултатите за това търсене, а след това своевременно го изтриваме, за да останете анонимни."
-" Научете повече за начина, по който тази технология защитава поверителността %1$sтук%2$s."
 
 msgctxt "cloudsave"
 msgid "DuckDuckGo never knows your passphrase."
@@ -1532,12 +1540,6 @@ msgstr "Приветствие за Android в ЕС"
 #. You have to click the "What is this?" link to display it.
 msgctxt "cloudsave"
 msgid ""
-"Each time you ask for a passphrase suggestion, we get a reasonably large "
-"list of random words from the DuckDuckGo servers."
-msgstr "Всеки път, когато попитате за примерна кодова дума, ние Ви предоставяме широк избор от произволни думи от нашите DuckDuckGo сървъри."
-
-msgctxt "cloudsave"
-msgid ""
 "Each time you ask for a passphrase suggestion, we receive a long list of "
 "random words from the DuckDuckGo servers. In the browser, we then select 4-5 "
 "random words from that list, ensuring that the passphrase is at least 18-20 "
@@ -1554,6 +1556,8 @@ msgctxt "precise_user_location"
 msgid "Enable 'Sites can ask for my location.'"
 msgstr "Активирайте \"Сайтовете може да питат за местоположението ми\"."
 
+#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
+#. In the cloud save box - http://i.imgur.com/fUS6WAi.png
 msgctxt "cloudsave"
 msgid "Enable Cloud Save by entering your existing passphrase."
 msgstr "Включете запазване в облака, като въведете съществуващата си парола."
@@ -1570,12 +1574,6 @@ msgid ""
 "Enable anonymous location for more accurate results. You can always change "
 "your mind later."
 msgstr "Активирайте анонимно местоположение за по-точни резултати. Можете винаги да промените решението си по-късно."
-
-#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
-#. In the cloud save box - http://i.imgur.com/fUS6WAi.png
-msgctxt "cloudsave"
-msgid "Enable cloud save by entering your existing passphrase."
-msgstr "Включете запис в облака като въведете съществуващата си парола."
 
 msgctxt "precise_user_location"
 msgid "Enable the Location setting on your phone."
@@ -1604,21 +1602,11 @@ msgstr "Въведете %1$shttps://duckduckgo.com%2$s"
 #. then locate the text here: http://i.imgur.com/xisuMjL.png
 msgctxt "cloudsave"
 msgid ""
-"Enter a new passphrase and click 'Save Settings' This will save your data "
-"under your new passphrase."
-msgstr "Въведете нова парола и натиснете \"Запази Настройките\". Това ще запази Вашите данни под новата Ви парола."
-
-msgctxt "cloudsave"
-msgid ""
 "Enter a new passphrase and click/tap %sSave Settings%s. This will save your "
 "data under your new passphrase."
 msgstr "Въведете нова парола и натиснете %1$sЗапазване на настройките%2$s. Така ще защитите данните си с новата парола."
 
 #. http://i.imgur.com/qo0C6MA.png
-msgctxt "settings"
-msgid "Enter a pass phrase"
-msgstr "Въведете парола"
-
 msgctxt "settings"
 msgid "Enter a passphrase"
 msgstr "Въведете парола"
@@ -1641,16 +1629,8 @@ msgctxt "email newsletter"
 msgid "Enter your email address."
 msgstr "Въведете своя имейл адрес."
 
-msgctxt "cloudsave"
-msgid "Enter your pass phrase to load your settings:"
-msgstr "Въведете своята парола за да се заредят Вашите настройки:"
-
 #. Click "Load Settings" - http://i.imgur.com/3czvc4H.png
 #. Then - http://i.imgur.com/K6c3e4L.png
-msgctxt "settings"
-msgid "Enter your pass phrase to load your settings:"
-msgstr "Въведете своята парола за да заредите настройките:"
-
 msgctxt "cloudsave"
 msgid "Enter your passphrase to load your settings."
 msgstr "Въведете Вашата парола, за да заредите своите настройки."
@@ -1694,10 +1674,6 @@ msgid "Extra Large"
 msgstr "Много голям"
 
 msgctxt "directions"
-msgid "Fastest Route"
-msgstr "Най-бърз маршрут"
-
-msgctxt "directions"
 msgid "Fastest route"
 msgstr "Най-бърз маршрут"
 
@@ -1734,12 +1710,6 @@ msgid "Filter by Date"
 msgstr "Филтриране по дати"
 
 msgid "Filter by Region"
-msgstr "Филтриране по региони"
-
-msgid "Filter by date"
-msgstr "Филтър по дати"
-
-msgid "Filter by region"
 msgstr "Филтриране по региони"
 
 msgctxt "feedback form"
@@ -1809,17 +1779,33 @@ msgstr "Да наложи криптиране на уебсайтове"
 msgid "France"
 msgstr "Франция"
 
+#. a filter for images with the CC BY-NC usage license
+msgctxt "image-licence"
+msgid "Free to Modify, Share, and Use"
+msgstr "С безплатна промяна, споделяне и използване"
+
+#. a filter for images with the CC BY usage license
+msgctxt "image-licence"
+msgid "Free to Modify, Share, and Use Commercially"
+msgstr "С безплатна промяна, споделяне и използване за търговски цели"
+
+#. a filter for images with the CC BY-NC-ND usage license
+msgctxt "image-licence"
+msgid "Free to Share and Use"
+msgstr "С безплатно споделяне и използване"
+
+#. a filter for images with the CC BY-ND usage license
+msgctxt "image-licence"
+msgid "Free to Share and Use Commercially"
+msgstr "С безплатно споделяне и използване за търговски цели"
+
 msgctxt "new user poll"
 msgid "Friend or family"
 msgstr "Приятел или член на семейството"
 
-msgctxt "settings"
-msgid "GET Requests"
-msgstr "GET запитвания"
-
 #. http://i.imgur.com/tGau0Vx.png
 msgctxt "settings"
-msgid "GET requests"
+msgid "GET Requests"
 msgstr "GET запитвания"
 
 msgid "Game ended"
@@ -2016,21 +2002,17 @@ msgctxt "directions"
 msgid "Hide Steps"
 msgstr "Скриване на стъпките"
 
-#. "Hide pass phrase" appears in the Load Cloud Settings box: http://i.imgur.com/24xv6L8.png
-msgctxt "settings"
-msgid "Hide pass phrase"
-msgstr "Скрий парола"
-
-msgctxt "directions"
-msgid "Hide steps"
-msgstr "Скриване на стъпките"
-
 msgctxt "settings"
 msgid "Hides search term from being shown in browser tab/history"
 msgstr "Скрива търсената дума, за да не се показва в раздела/историята на браузъра"
 
 msgctxt "video-resolution"
 msgid "High Definition"
+msgstr "Висока резолюция"
+
+#. Shown in video filtering. https://duckduckgo.com/?q=videos+of+cats&iax=videos&ia=videos
+msgctxt "video-resolution"
+msgid "High definition"
 msgstr "Висока резолюция"
 
 #. <em>ky</em>'s label for one of the color settings query parameters into <a href="https://duckduckgo.com/params.html">query parameters documentation page</a>.
@@ -2167,10 +2149,6 @@ msgid ""
 "If you want, select Home Page next to New windows and New tabs (open with)."
 msgstr "Ако искате, изберете Начална Страница, до Нови прозорци и Нови подпрозорци (отвори с)."
 
-msgctxt "settingsvalue"
-msgid "Image Tiles"
-msgstr "Плочки с изображения"
-
 msgctxt "Report image modal"
 msgid "Image contains explicit content"
 msgstr "Изображението има нецензурно съдържание"
@@ -2192,41 +2170,20 @@ msgstr "В партньорство с"
 
 msgctxt "settings"
 msgid ""
-"In some older browsers it's necessary to redirect your clicks through our "
-"server to prevent Search Leakage. %sMore Info%s."
-msgstr "В по стари браузъри е необходимо да пренасочим вашите кликове през нашия сървър за да предотвратим Изтичане на Информация. %1$sПовече Информация%2$s."
-
-msgctxt "settings"
-msgid ""
 "In some older browsers, it's necessary to redirect your clicks through our "
 "server to prevent search leakage. %sLearn more%s."
 msgstr "При някои по-стари браузъри трябва да пренасочим кликовете през нашия сървър, за да предотвратим изтичане на информация за търсенето. %1$sНаучете повече%2$s."
 
-#. Explanations about <em>how does passphrase generation work</em> paragraph.
-#. From <a href="https://duckduckgo.com/settings.html">settings page</a>.
-#. You have to click the "What is this?" link to display it.
-msgctxt "cloudsave"
-msgid ""
-"In the browser, we then select four or five random words from that list, "
-"ensuring that it is at least 18-20 characters long."
-msgstr "В браузъра след това избираме четири или пет произволни думи от този списък, като осигуряваме те да са с дължина поне 18-20 символа."
-
 #  SeaMonkey default search engine instruction
 msgid "In the drop down select %sDuckDuckGo%s!"
 msgstr "В падащото изберете %1$sDuckDuckGo%2$s!"
-
-msgctxt "cloudsave"
-msgid ""
-"In the interest of transparency, this data is not encrypted: You can see "
-"exactly what information we store."
-msgstr "С цел пълна прозрачност тези данни не се криптират: можете да видите точно каква информация сме запаметили."
 
 #. Explanations for <em>how does the settings cloud save works</em> paragraph.
 #. From <a href="https://duckduckgo.com/settings.html">settings page</a>.
 #. You have to click the "What is this?" link to display it.
 msgctxt "cloudsave"
 msgid ""
-"In the interest of transparency, this data is not encrypted: you can see "
+"In the interest of transparency, this data is not encrypted: You can see "
 "exactly what information we store."
 msgstr "С цел пълна прозрачност тези данни не се криптират: можете да видите точно каква информация сме запаметили."
 
@@ -2249,9 +2206,6 @@ msgstr "В страничното меню изберете %1$sИнтернет
 #. e.g., 'Including results for Mozart' (when the user searched for 'Mozar')
 msgid "Including results for %s"
 msgstr "Включва резултати за %1$s"
-
-msgid "Including results for %s."
-msgstr "Включва резултати за %1$s."
 
 msgid "India"
 msgstr "Индия"
@@ -2278,6 +2232,10 @@ msgstr "Автоматично зареждане на изображения"
 msgctxt "settings"
 msgid "Infinite Scroll for Images and Videos"
 msgstr "Автоматично зареждане на изображения и видео"
+
+msgctxt "settings"
+msgid "Infinite Scroll for Images, Videos, and Shopping"
+msgstr "Автоматично зареждане на изображения, видео и продукти за пазаруване"
 
 msgid "Install"
 msgstr "Инсталирай"
@@ -2336,13 +2294,6 @@ msgstr "Някой работи ли над твоята zero-click плъгин
 msgid "Israel"
 msgstr "Израел"
 
-#. https://duckduckgo.com/settings near the bottom, under "Cloud Save", by clicking "What's this", under "How does passphrase generation work?"
-msgctxt "cloudsave"
-msgid ""
-"It is easier to remember four or five words than 10 random letters and "
-"numbers, and far more secure."
-msgstr "По-лесно е да се запомнят четири или пет думи, отколкото 10 произволни букви и числа, освен това е и по-сигурно."
-
 msgctxt "precise_user_location"
 msgid "It's not working."
 msgstr "Не работи."
@@ -2358,6 +2309,7 @@ msgstr "Италия"
 msgid "Items"
 msgstr "Предмети"
 
+#. https://duckduckgo.com/settings near the bottom, under "Cloud Save", by clicking "What's this", under "How does passphrase generation work?"
 msgctxt "cloudsave"
 msgid ""
 "It’s easier to remember 4-5 words than 10 random letters and numbers, and "
@@ -2478,10 +2430,6 @@ msgctxt "SERP footer content"
 msgid "Learn how to search like the pros."
 msgstr "Научете как да търсите като професионалист."
 
-msgctxt "precise_user_location"
-msgid "Learn how we keep your location private %shere%s."
-msgstr "Научете как запазваме поверителността на местоположението %1$sтук%2$s."
-
 msgctxt "SERP footer content"
 msgid "Learn how we're dedicated to keeping you safe online."
 msgstr "Научете как сме се посветили на Вашата безопасност в Интернет."
@@ -2522,6 +2470,11 @@ msgstr "светло синьо"
 #. Discontinued, don't translate
 msgid "Light green"
 msgstr "светло зелено"
+
+#. i.e. a type of image comprised of lines without gradiations in shade or hue
+msgctxt "image-type"
+msgid "Line Drawing"
+msgstr "Изображение с линии"
 
 #. https://duckduckgo.com/params under "Look & Feel Settings"
 msgid "Link font:"
@@ -2570,6 +2523,10 @@ msgstr "Зарежда още резултати с изображения и в
 msgctxt "settings"
 msgid "Loads more image results when scrolling"
 msgstr "Зарежда още резултати с изображения при превъртане надолу"
+
+msgctxt "settings"
+msgid "Loads more results in Images, Videos, and Shopping when scrolling"
+msgstr "При превъртане зарежда повече резултати в изображения, видео и пазаруване"
 
 #. http://i.imgur.com/WTkvs9I.png
 msgctxt "settings"
@@ -2628,10 +2585,6 @@ msgstr "Карти"
 msgctxt "feedback form"
 msgid "Maps"
 msgstr "Карти"
-
-msgctxt "feedback form"
-msgid "Maps / Location Info"
-msgstr "Карти / Информация за местоположение"
 
 msgctxt "feedback form"
 msgid "Maps / location info"
@@ -2782,10 +2735,6 @@ msgctxt "additional_info_at"
 msgid "More results"
 msgstr "Повече резултати"
 
-msgctxt "more_reviews_on_external_website"
-msgid "More reviews on %s "
-msgstr "Още оценки в %1$s "
-
 msgctxt "video-duration"
 msgid "More than 20 minutes"
 msgstr "Повече от 20 минути"
@@ -2905,10 +2854,6 @@ msgstr "Няма налични маршрути"
 msgid "No More Photos"
 msgstr "Няма повече снимки"
 
-msgctxt "settingsvalue"
-msgid "No Preference (Default)"
-msgstr "Без Предпочитание (По Подразбиране)"
-
 msgctxt "settings"
 msgid "No Region Selected"
 msgstr "Не е Избрана Област"
@@ -2927,10 +2872,6 @@ msgstr "Без съдържание за възрастни"
 msgctxt "directions"
 msgid "No available routes between these locations"
 msgstr "Няма налични маршрути между тези две точки"
-
-msgctxt "directions"
-msgid "No available routes between these locations."
-msgstr "Няма налични маршрути между тези две точки."
 
 msgctxt "safe search"
 msgid "No explicit images or videos"
@@ -2992,10 +2933,6 @@ msgstr "нормално"
 msgid "Norway"
 msgstr "Норвегия"
 
-msgctxt "settingsvalue"
-msgid "Not Set"
-msgstr "Не е зададено"
-
 msgctxt "precise_user_location"
 msgid "Not getting nearby results?"
 msgstr "Не получавате ли резултати за обекти наблизо?"
@@ -3003,9 +2940,6 @@ msgstr "Не получавате ли резултати за обекти на
 #. Not many results contain '<query>' (<query> is the query that the user sent to the search engine)
 msgid "Not many results contain %s"
 msgstr "Няма много резултати, които съдържат %1$s"
-
-msgid "Not many results contain %s."
-msgstr "Не много резултати съдържат %1$s."
 
 msgctxt "Report image modal"
 msgid "Not relevant"
@@ -3097,6 +3031,10 @@ msgstr "Само настройките, които сте променили.Т
 msgctxt "maps_places"
 msgid "Open"
 msgstr "Отваряне"
+
+#. The placeholder is a business name, e.g. 'Open Ikea website'.
+msgid "Open %s website"
+msgstr "Отваряне на уебсайта на %1$s"
 
 msgid "Open %sMenu > Settings > Search %s and select DuckDuckGo!"
 msgstr "Отворете %1$sМеню > Настройки > Търсене %2$s и посочете DuckDuckGo!"
@@ -3194,9 +3132,6 @@ msgctxt "feedback form"
 msgid "Other"
 msgstr "Други"
 
-msgid "Other Settings"
-msgstr "Други Настройки"
-
 msgctxt "homepage onboarding"
 msgid ""
 "Other search engines track your searches even when you’re in private "
@@ -3256,15 +3191,6 @@ msgid "Page %s"
 msgstr "%1$s на страницата"
 
 msgctxt "settings"
-msgid "Page Appearance"
-msgstr "Настройки"
-
-#. indica o número de páxina de resultados na que estamos
-msgctxt "settings"
-msgid "Page Break #'s"
-msgstr "Разделител на Страници #"
-
-msgctxt "settings"
 msgid "Page Break Lines"
 msgstr "Линии на Разделител на Страници"
 
@@ -3278,18 +3204,6 @@ msgid "Page Width"
 msgstr "Ширина на Страницата"
 
 msgctxt "cloudsave"
-msgid "Pass phrase is already taken."
-msgstr "Паролата е вече заета."
-
-msgctxt "cloudsave"
-msgid "Pass phrase must be at least 9 characters long"
-msgstr "Паролата трябва да бъде дълга поне 9 букви"
-
-msgctxt "cloudsave"
-msgid "Pass phrase not found"
-msgstr "Паролата не е намерена"
-
-msgctxt "cloudsave"
 msgid "Passphrase is already taken."
 msgstr "Паролата вече е заета."
 
@@ -3301,6 +3215,8 @@ msgctxt "cloudsave"
 msgid "Passphrase not found."
 msgstr "Паролата не е намерена."
 
+#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
+#. Then in the cloud save box - http://i.imgur.com/tbzpD5S.png
 msgctxt "cloudsave"
 msgid ""
 "Passphrases cannot be recovered as we don't associate your IP address, "
@@ -3328,6 +3244,18 @@ msgstr "Последната седмица"
 #. Option for the filter-by-date search.
 msgid "Past Year"
 msgstr "Последната година"
+
+msgid "Past day"
+msgstr "Миналия ден"
+
+msgid "Past month"
+msgstr "Миналия месец"
+
+msgid "Past week"
+msgstr "Миналата седмица"
+
+msgid "Past year"
+msgstr "Миналата година"
 
 msgctxt "settings"
 msgid "Personalize DuckDuckGo"
@@ -3559,10 +3487,6 @@ msgid "Prompt me"
 msgstr "Подкани ме"
 
 msgctxt "settings"
-msgid "Prompt me to anonymously use browser location for better results."
-msgstr "Искам да получавам напомняне за анонимно използване на местоположението на браузъра с цел по-добри резултати."
-
-msgctxt "settings"
 msgid "Prompt me to customize my DuckDuckGo experience."
 msgstr "Искам да получавам напомняне за настройка на предпочитанията за DuckDuckGo."
 
@@ -3589,6 +3513,11 @@ msgctxt "showcase_app"
 msgid "Protect your data on every device."
 msgstr "Защитете Вашите данни на всяко устройство."
 
+#. a filter for images with the CC0 usage license
+msgctxt "image-licence"
+msgid "Public Domain"
+msgstr "Публичен домейн"
+
 #. Used for various color settings  query parameters values captions into <a =href="https://duckduckgo.com/params.html">query parameters documentation page</a>.
 msgid "Purple"
 msgstr "лилав"
@@ -3596,14 +3525,6 @@ msgstr "лилав"
 msgctxt "color"
 msgid "Purple"
 msgstr "лилав"
-
-#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
-#. In the cloud save box - http://i.imgur.com/FbCoYVE.png
-msgctxt "cloudsave"
-msgid ""
-"Push 'Delete My Data'. This removes the data from the cloud, but it remains "
-"in your browser until you click on 'Reset all settings'"
-msgstr "Натиснете \"Изтрий Моите Данни\". Това премахва данните от облака, но те остават във Вашия браузър, докато не кликнете на \"Изчисти всички настройки\""
 
 #. Instant Answer Tab Name
 msgid "Quotations"
@@ -3651,10 +3572,6 @@ msgstr "Reddit"
 
 msgctxt "settings"
 msgid "Redirect (When Necessary)"
-msgstr "Пренасочи (когато е необходимо)"
-
-msgctxt "settings"
-msgid "Redirect (when necessary)"
 msgstr "Пренасочи (когато е необходимо)"
 
 msgid "Redirect:"
@@ -3767,14 +3684,6 @@ msgid "Result URLs Above Snippet"
 msgstr "URL адреси на резултата над фрагмента"
 
 msgctxt "settings"
-msgid "Result URLs above snippet"
-msgstr "Показвай URLта над отрязъка"
-
-msgctxt "settings"
-msgid "Result Visited Check Mark"
-msgstr "Отметка При Постетен Сайт"
-
-msgctxt "settings"
 msgid "Result Visited Checkmark"
 msgstr "Отметка при посетен сайт"
 
@@ -3786,10 +3695,6 @@ msgstr "Цвят на Заглавието на Посетен Резултат"
 #. In the top menu under Settings
 msgid "Results"
 msgstr "Резултати"
-
-msgctxt "settings"
-msgid "Results Appearance"
-msgstr "Външен Вид на Резултатите"
 
 msgctxt "precise_user_location"
 msgid "Results are good enough."
@@ -3848,6 +3753,10 @@ msgstr "Безопасното търсене блокира резултати�
 
 msgid "Safe search blocked some results for %s."
 msgstr "Безопасното търсене е блокирало някои резултати за %1$s."
+
+#. Safe search lets you remove adult content from results on DuckDuckGo. This string is used to invite users to select the desired level of protection (e.g., strict, moderate, off)
+msgid "Safe search:"
+msgstr "Безопасно търсене:"
 
 #. For a button that shows satellite imagery on a map
 msgctxt "map-mode"
@@ -3924,10 +3833,6 @@ msgid "Search Anonymously"
 msgstr "Анонимно търсене"
 
 #. in https://duckduckgo.com/search_box. top header
-msgid "Search Box"
-msgstr "поле за търсене"
-
-msgctxt "feedback form"
 msgid "Search Box"
 msgstr "поле за търсене"
 
@@ -4017,10 +3922,6 @@ msgid "Security Issue"
 msgstr "Проблем със сигурността"
 
 msgctxt "feedback form"
-msgid "Security Issue (Opens in New Tab)"
-msgstr "Проблем със сигурността (Отваря се в нов раздел)"
-
-msgctxt "feedback form"
 msgid "Security issue (opens in new tab)"
 msgstr "Проблем със сигурността (отваря се в нов раздел)"
 
@@ -4042,10 +3943,6 @@ msgstr "Вижте още снимки на %1$s"
 msgctxt "SERP footer content"
 msgid "See our %straffic page%s for details."
 msgstr "Вижте нашата %1$sстраница с трафик%2$s за повече подробности."
-
-msgctxt "settings"
-msgid "See the %sURL Parameter Reference Page%s for more details"
-msgstr "Вижте %1$sстраницата за справка на URL параметъра%2$s за повече детайли"
 
 msgctxt "settings"
 msgid "See the %sURL Parameter Reference page%s for more details."
@@ -4286,6 +4183,8 @@ msgctxt "new tab page"
 msgid "Show Most Visited Sites"
 msgstr "Показване на най-често посещавани сайтове"
 
+#. Click "Load Settings" - http://i.imgur.com/cii6KqL.png
+#. Then - http://i.imgur.com/nOvjdKb.png
 msgctxt "settings"
 msgid "Show Passphrase"
 msgstr "Покажи парола"
@@ -4299,92 +4198,13 @@ msgctxt "noresults"
 msgid "Show Web Results"
 msgstr "Показване на резултати от мрежата"
 
-msgctxt "settings"
-msgid "Show favicons for each result"
-msgstr "Покажи фавикони за всеки резултат"
-
-msgctxt "settings"
-msgid "Show horizontal lines at result page breaks"
-msgstr "Покажи хоризонталните линии на края на страницата с резултати"
-
-msgctxt "settings"
-msgid "Show links to instructions for how to add DuckDuckGo to your browser"
-msgstr "Покажи препратки до инструкции как да добавиш DuckDuckGo в твоя браузър"
-
 msgctxt "directions"
 msgid "Show map"
 msgstr "Показване на картата"
 
-msgctxt "settings"
-msgid "Show most visited links on new tab page"
-msgstr "Показване на най-често посещавани връзки на страница в нов раздел"
-
-msgctxt "settings"
-msgid "Show occasional reminders to add DuckDuckGo to your browser"
-msgstr "Показване на периодични напомняния за добавяне на DuckDuckGo към браузъра"
-
-msgctxt "settings"
-msgid "Show occasional reminders to add DuckDuckGo to your devices"
-msgstr "Показване на периодични напомняния за добавяне на DuckDuckGo към вашите устройства"
-
-msgctxt "settings"
-msgid ""
-"Show occasional reminders to sign up for the DuckDuckGo privacy newsletter"
-msgstr "Показване на периодични напомняния за регистриране за бюлетина за поверителност на DuckDuckGo"
-
-msgctxt "settings"
-msgid "Show page numbers at result page breaks"
-msgstr "Показване номераа на края на всяка страница"
-
-#. Click "Load Settings" - http://i.imgur.com/cii6KqL.png
-#. Then - http://i.imgur.com/nOvjdKb.png
-msgid "Show pass phrase"
-msgstr "Покажи парола"
-
-msgctxt "settings"
-msgid "Show pass phrase"
-msgstr "Покажи парола"
-
-msgctxt "settings"
-msgid "Show sign up form for the DuckDuckGo privacy newsletter"
-msgstr "Показване на формуляр за регистриране за бюлетина за поверителност на DuckDuckGo"
-
-msgctxt "directions"
-msgid "Show steps"
-msgstr "Показване на стъпките"
-
-#. http://i.imgur.com/94erFcS.png
-msgctxt "settings"
-msgid "Show suggestions under the search box as you type"
-msgstr "Показва предложения под полето за търсене докато пишете"
-
-msgctxt "settings"
-msgid "Show the Result URL line above the snippet text"
-msgstr "Показване на лентата с резултатите над търсения текст"
-
-msgctxt "settings"
-msgid "Show the full URL for each result"
-msgstr "Показвай цялото URL за всеки резултат"
-
-msgctxt "settings"
-msgid "Show the privacy benefits of using DuckDuckGo on the homepage"
-msgstr "Показване в началната страница на ползите на DuckDuckGo за поверителността"
-
 msgctxt "video-duration"
 msgid "Show videos of any length"
 msgstr "Показване на видео с всякаква дължина"
-
-msgctxt "noresults"
-msgid "Show web results"
-msgstr "Показване на резултати от мрежата"
-
-msgctxt "settings"
-msgid "Show welcome message on top of the search results page"
-msgstr "Показване на приветствие в горната част на страницата с резултати от търсенето"
-
-msgctxt "settings"
-msgid "Show welcome message to EU Android preference menu users"
-msgstr "Показване на приветствие за потребителите с предпочетено меню за Android в ЕС"
 
 msgctxt "SERP footer content"
 msgid "Show your DuckDuckGo pride with t-shirts, stickers, & more."
@@ -4445,6 +4265,7 @@ msgctxt "settings"
 msgid "Shows sign-up form for the DuckDuckGo privacy newsletters"
 msgstr "Показва формуляр за регистриране за бюлетините за поверителност на DuckDuckGo"
 
+#. http://i.imgur.com/94erFcS.png
 msgctxt "settings"
 msgid "Shows suggestions under the search box as you type"
 msgstr "При въвеждане показва предложения под полето за търсене"
@@ -4563,6 +4384,11 @@ msgctxt "video-resolution"
 msgid "Standard Definition"
 msgstr "Стандартна резолюция"
 
+#. Shown in video filtering. https://duckduckgo.com/?q=videos+of+cats&iax=videos&ia=videos
+msgctxt "video-resolution"
+msgid "Standard definition"
+msgstr "Стандартна резолюция"
+
 msgid "Start Searching"
 msgstr "Стартиране на търсене"
 
@@ -4635,18 +4461,10 @@ msgctxt "settings"
 msgid "Suggest Different Passphrase"
 msgstr "Предложи друга парола"
 
+#. http://i.imgur.com/BMM6X3h.png
 msgctxt "settings"
 msgid "Suggest a Passphrase"
 msgstr "Предложи парола"
-
-#. http://i.imgur.com/BMM6X3h.png
-msgctxt "settings"
-msgid "Suggest a pass phrase"
-msgstr "Предложи нова парола"
-
-msgctxt "settings"
-msgid "Suggest different phrase"
-msgstr "Предложи друга фраза"
 
 msgctxt "directions"
 msgid "Suggestions:"
@@ -4768,20 +4586,13 @@ msgid ""
 msgstr "Това означава, че съществува повишен риск информацията, която се изпраща между Вашето устройство и уебсайта зад тази връзка, да бъде прихваната от трета"
 " страна. В редки случаи това включва пароли или данни за плащане."
 
+#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
+#. Then in the cloud save box - http://i.imgur.com/elru00b.png
 msgctxt "cloudsave"
 msgid ""
 "The Cloud Save bookmarklet allows any changes you make to your settings to "
 "automatically save in the cloud."
 msgstr "Отметката за запазване в облак Ви позволява да запазвате автоматично в облака всички направени от Вас промени в настройките."
-
-#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
-#. Then in the cloud save box - http://i.imgur.com/elru00b.png
-msgctxt "cloudsave"
-msgid ""
-"The benefit of this over using the URL parameters bookmarklet is that when "
-"you change settings, they will automatically be saved in the cloud."
-msgstr "Предимството от използването на тази функция пред отметката за URL параметри се състои в това, че когато промените своите настройки, те автоматично ще"
-" бъдат запаметени на облака."
 
 #. Click "What is this?" - http://i.imgur.com/KhmRHth.png
 #. Then look in the cloud save box - http://i.imgur.com/fIEYjbI.png
@@ -4855,10 +4666,6 @@ msgstr "Този мигновен отговор бе създаден от об
 msgctxt "cloudsave"
 msgid "This has a few benefits:"
 msgstr "Това има няколко предимства:"
-
-msgctxt "attribution"
-msgid "This instant answer was made by the %sDuckDuckHack%s Community."
-msgstr "Този мигновен отговор бе създаден от общността на %1$sDuckDuckHack%2$s"
 
 msgctxt "new tab page"
 msgid ""
@@ -5048,17 +4855,13 @@ msgstr "Под При стартиране изберете %1$sОтвори с�
 msgid "Under Search click the drop down and select %sDuckDuckGo%s"
 msgstr "Под Търсене натиснете на падащото и изберете %1$sDuckDuckGo%2$s"
 
-#. http://i.imgur.com/7M5ogIs.png
-#. If, "On" --it will add an underline to result titles like this: http://i.imgur.com/VRFC6VQ.png
-#. If, "Off" --there will be no underline, like this: http://i.imgur.com/6MyezXn.png
-msgctxt "settings"
-msgid "Underline the title link for each result"
-msgstr "Подчертан линк на заглавието на всеки резултат"
-
 #. https://duckduckgo.com/params under "Look & Feel Settings" header
 msgid "Underline:"
 msgstr "Подчертаване:"
 
+#. http://i.imgur.com/7M5ogIs.png
+#. If, "On" --it will add an underline to result titles like this: http://i.imgur.com/VRFC6VQ.png
+#. If, "Off" --there will be no underline, like this: http://i.imgur.com/6MyezXn.png
 msgctxt "settings"
 msgid "Underlines the title link for each result"
 msgstr "Подчертава връзката на заглавието на всеки резултат"
@@ -5135,9 +4938,6 @@ msgstr "Разгледай файла"
 msgid "View all !bangs"
 msgstr "Виж всички !bangs"
 
-msgid "View file"
-msgstr "Разгледай файла"
-
 msgid "View on %s"
 msgstr "Преглед в %1$s"
 
@@ -5168,10 +4968,6 @@ msgstr "Посетени линкове:"
 msgctxt "forecast"
 msgid "W"
 msgstr "З"
-
-msgctxt "precise_user_location"
-msgid "Waiting For Location..."
-msgstr "Изчакване за местоположение..."
 
 #. Waiting for the device location sensor to return data
 msgctxt "precise_user_location"
@@ -5214,38 +5010,20 @@ msgctxt "cloudsave"
 msgid "We cannot reverse the passphrase key generation."
 msgstr "Не можем да възстановим вече генерираните кодови фрази."
 
-#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
-#. Then in the cloud save box - http://i.imgur.com/pZ0pyIJ.png
-msgctxt "cloudsave"
-msgid ""
-"We do not have usernames and we don't store any personally identifiable "
-"information."
-msgstr "Ние не използваме потребителски имена и не съхраняваме каквато и да е персонална информация, с която да бъдете разпознати."
-
 #. https://duckduckgo.com/about under "We believe in better search and real privacy at the same time. That's why: "
 msgctxt "wedonttrackyou"
 msgid "We don't %s you."
 msgstr "Ние не Ви %1$s."
 
-#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
-#. Then in the cloud save box - http://i.imgur.com/tbzpD5S.png
-msgctxt "cloudsave"
-msgid ""
-"We don't associate your IP address or browser fingerprint or any other "
-"information with the file."
-msgstr "Ние не асоциираме Вашия IP адрес, нито данни за браузъра Ви, нито каквато и да е друга информация с този файл."
-
 msgctxt "reasons-to-use-duckduckgo"
 msgid "We don't follow you around with ads."
 msgstr "Няма да ви преследваме навсякъде с реклами."
 
+#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
+#. Then in the cloud save box - http://i.imgur.com/pZ0pyIJ.png
 msgctxt "cloudsave"
 msgid "We don't store usernames or any personally identifiable information."
 msgstr "Ние не съхраняваме потребителски имена или каквато и да е идентификационна информация."
-
-msgctxt "settings"
-msgid "We don't store your location. It remains only on your device. %sInfo%s"
-msgstr "Ние не съхраняваме вашето местоположение. То остава само на локалното устройство. %1$sИнформация%2$s"
 
 msgctxt "homepage onboarding"
 msgid "We don't store your personal info or track you. Ever."
@@ -5321,20 +5099,9 @@ msgctxt "SERP footer content"
 msgid "We get a ton of searches, and all of them are anonymous."
 msgstr "Ние получаваме милиони търсения и всички те са анонимни."
 
-#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
-#. Then in the cloud save box - http://i.imgur.com/DZOnHhY.png
-msgctxt "cloudsave"
-msgid ""
-"We save the settings file on Amazon S3 using the generated key as the name."
-msgstr "Ние запаметяваме файлa с настройките на Amazon S3, използвайки генерирания ключ като име."
-
 msgctxt "feedback form"
 msgid "We use feedback like this to improve DuckDuckGo."
 msgstr "Ние използваме тези мнения, за да подобрим DuckDuckGo."
-
-msgctxt "feedback form"
-msgid "We use feedback like this to improve DuckDuckGo. It really helps."
-msgstr "Ние използваме тези мнения, за да подобрим DuckDuckGo. Те наистина помагат."
 
 msgid ""
 "We'll block hidden trackers and encrypt connections to keep you more private."
@@ -5372,10 +5139,6 @@ msgctxt "homepage onboarding"
 msgid "Welcome to the Duck Side!"
 msgstr "Добре дошли на наша страна!"
 
-msgctxt "maps_places"
-msgid "What People Say"
-msgstr "Какво казват хората"
-
 msgctxt "new user poll"
 msgid "What brought you back today?"
 msgstr "Какво Ви върна тук днес?"
@@ -5392,27 +5155,17 @@ msgctxt "feedback form"
 msgid "What do you think of the information shown?"
 msgstr "Какво мислите за показаната информация?"
 
-msgctxt "feedback form"
-msgid "What do you think?"
-msgstr "Какво мислите?"
-
 #. Click "What is this?" - http://i.imgur.com/KhmRHth.png
 #. Then in the cloud save box - http://i.imgur.com/ta4V0Xy.png
 msgctxt "cloudsave"
 msgid "What information gets saved?"
 msgstr "Каква информация се съхранява?"
 
-msgctxt "cloudsave"
-msgid ""
-"What is the Cloud Save bookmarklet and how does it differ from the URL "
-"parameter bookmarklet?"
-msgstr "Какво представлява отметката за запазване в облака и по какво се различава от тази за URL параметрите?"
-
 #. Click "What is this?" - http://i.imgur.com/KhmRHth.png
 #. Then in the cloud save box - http://i.imgur.com/YrfhzTL.png
 msgctxt "cloudsave"
 msgid ""
-"What is the cloud save bookmarklet and how does it differ from the URL "
+"What is the Cloud Save bookmarklet and how does it differ from the URL "
 "parameter bookmarklet?"
 msgstr "Какво представлява отметката за запазване в облака и по какво се различава от тази за URL параметрите?"
 
@@ -5469,10 +5222,6 @@ msgid "Width:"
 msgstr "Ширина:"
 
 msgctxt "feedback form"
-msgid "Wikipedia Info"
-msgstr "Информация в Wikipedia"
-
-msgctxt "feedback form"
 msgid "Wikipedia info"
 msgstr "Информация в Wikipedia"
 
@@ -5520,10 +5269,6 @@ msgstr "Можете да го направите като запазите на
 
 #. Click "What is this?" - http://i.imgur.com/KhmRHth.png
 #. In the cloud save box - http://i.imgur.com/pVjCXmw.png
-msgctxt "cloudsave"
-msgid "You can restore your settings after deleting cookies"
-msgstr "Можете да върнете старите настройки след изтриване на бисквитките"
-
 msgctxt "cloudsave"
 msgid "You can restore your settings after deleting cookies."
 msgstr "Можете да възстановите настройките си, след като изтриете бисквитките."
@@ -5623,22 +5368,6 @@ msgid ""
 msgstr "Вашата парола се използва за генериране на 512-битов ключ чрез Secure Hash Algorithm, известен като %1$sSHA-2%2$s. От Вашия браузър излизат само ключът"
 " и свързаните с него настройки. Ние запазваме файла с настройките, като използваме този ключ за име. DuckDuckGo никога не научава Вашата парола."
 
-#. http://i.imgur.com/AQ4Neq7.png
-#. Text describing how passphrases are encrypted
-msgctxt "cloudsave"
-msgid ""
-"Your passphrase is used to generate a key using the Secure Hash Algorithm "
-"known as %sSHA-2%s, using a 512 bit key."
-msgstr "Вашата парола се използва за генериране на ключ, използвайки Secure Hash Algorithm, известен като %1$sSHA-2%2$s, използвайки 512-битов ключ."
-
-#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
-#. In the cloud save box - http://i.imgur.com/xwcnjZL.png
-msgctxt "cloudsave"
-msgid ""
-"Your passphrase never leaves the browser, only the key and the settings file "
-"associated with it."
-msgstr "Вашата кодова фраза никога не напуска браузъра Ви, а само ключът и файлът с настройки, асоцииран към него."
-
 msgctxt "new user poll"
 msgid "Your response is 100% anonymous."
 msgstr "Вашият отговор е 100% анонимен."
@@ -5659,6 +5388,11 @@ msgctxt "made_by"
 msgid "by %s"
 msgstr "от %1$s"
 
+#. An abbreviated form of "day" that can be displayed in a small space e.g. "1d"
+msgctxt "published date for videos"
+msgid "d"
+msgstr "д"
+
 #. https://duckduckgo.com/params under "Color Settings" under all
 #. under "Look & Feel Settings"  under "Size:" and "Text link: "
 msgctxt "setting"
@@ -5672,6 +5406,11 @@ msgstr "имейл"
 msgid "for"
 msgstr "за"
 
+#. An abbreviated form of "hour" that can be displayed in a small space e.g. "1h"
+msgctxt "published date for videos"
+msgid "h"
+msgstr "ч"
+
 msgctxt "nonjsversion"
 msgid "here"
 msgstr "тук без js скрипт"
@@ -5680,6 +5419,16 @@ msgstr "тук без js скрипт"
 msgctxt "questions"
 msgid "let us know"
 msgstr "свържи се с нас"
+
+#. An abbreviated form of "minute" that can be displayed in a small space e.g. "1m"
+msgctxt "published date for videos"
+msgid "m"
+msgstr "м"
+
+#. An abbreviated form of "month" that can be displayed in a small space e.g. "1mo"
+msgctxt "published date for videos"
+msgid "mo"
+msgstr "мес"
 
 #. https://duckduckgo.com/50x.html?e=2
 #. p.s.(tsester): i found it out by searching "  "
@@ -5751,3 +5500,8 @@ msgstr "трак"
 
 msgid "tracker blocking"
 msgstr "блокиране на проследяването"
+
+#. An abbreviated form of "year" that can be displayed in a small space e.g. "1yr"
+msgctxt "published date for videos"
+msgid "yr"
+msgstr "год"

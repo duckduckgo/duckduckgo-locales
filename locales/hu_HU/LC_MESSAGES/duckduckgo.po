@@ -77,6 +77,10 @@ msgctxt "homepage ATB social proof"
 msgid "%s%s%s reviews"
 msgstr "%1$s%2$s%3$s vélemény"
 
+msgctxt "install-duckduckgo"
+msgid "%sClick %sAdd%sCheck %sAllow%s, then click %sOkay%s"
+msgstr "%1$sKattints a %2$sHozzáadásra%3$sJelöld be az %4$sEngedélyezést%5$s, majd kattints az %6$sOkéra%7$s"
+
 # Firefox, obsolete
 msgctxt "install-duckduckgo"
 msgid "%sClick %sAllow%sClick %sAdd%sCheck %sAllow%s, then click %sOkay%s"
@@ -160,12 +164,10 @@ msgctxt "static_page"
 msgid "About"
 msgstr "További információ"
 
-#  Marked fuzzy because of translated trademark
 #. at least in:
 #. * https://duckduckgo.com/about. Appears in the window title when you open the link
-#, fuzzy
 msgid "About DuckDuckGo"
-msgstr "A DuckDuckGóról"
+msgstr "A DuckDuckGo-ról"
 
 msgid "About Us"
 msgstr "Rólunk"
@@ -274,9 +276,19 @@ msgctxt "image-color"
 msgid "All Colors"
 msgstr "Minden szín"
 
+#. a filter for any image with a Creative Commons usage license
+msgctxt "image-licence"
+msgid "All Creative Commons"
+msgstr "Összes Creative Commons"
+
 msgctxt "image-layout"
 msgid "All Layouts"
 msgstr "Minden elrendezés"
+
+#. 'license' as in 'permission to use, share, or modify a work'
+msgctxt "image-licence"
+msgid "All Licenses"
+msgstr "Minden engedély"
 
 msgid "All Places"
 msgstr "Minden hely"
@@ -301,6 +313,29 @@ msgstr "Minden Méret"
 
 msgctxt "image-type"
 msgid "All Types"
+msgstr "Minden típus"
+
+#. This is shown in an image filter. This option only shows images in colors, excluding black and white images. https://duckduckgo.com/?q=images+of+cats&iar=images&iax=images&ia=images
+msgctxt "image-color"
+msgid "All colors"
+msgstr "Minden szín"
+
+#. This is shown in a layout selector for images, other options are: square, tall, wide  https://duckduckgo.com/?q=images+of+cats&iar=images&iax=images&ia=images.
+msgctxt "image-layout"
+msgid "All layouts"
+msgstr "Minden elrendezés"
+
+msgctxt "settingsvalue"
+msgid "All regions"
+msgstr "Minden terület"
+
+msgctxt "size"
+msgid "All sizes"
+msgstr "Minden méret"
+
+#. Shown in an image type selector. Other options are: photograph, clipart, animated gif, etc.  https://duckduckgo.com/?q=images+of+cats&iar=images&iax=images&ia=images
+msgctxt "image-type"
+msgid "All types"
 msgstr "Minden típus"
 
 msgctxt "settings"
@@ -374,6 +409,24 @@ msgstr "Bármilyen felbontás"
 
 #. Option for the filter-by-date search.
 msgid "Any Time"
+msgstr "Bármikor"
+
+#. Shown in video filtering. https://duckduckgo.com/?q=videos+of+cats&iax=videos&ia=videos
+msgctxt "video-duration"
+msgid "Any duration"
+msgstr "Bármilyen hossz"
+
+#. Shown in video filtering. https://duckduckgo.com/?q=videos+of+cats&iax=videos&ia=videos
+msgctxt "video-license"
+msgid "Any license"
+msgstr "Bármilyen licensz"
+
+#. Shown in video filtering. https://duckduckgo.com/?q=videos+of+cats&iax=videos&ia=videos
+msgctxt "video-resolution"
+msgid "Any resolution"
+msgstr "Bármilyen felbontás"
+
+msgid "Any time"
 msgstr "Bármikor"
 
 msgid "Anywhere"
@@ -540,10 +593,6 @@ msgid "Belgium (nl)"
 msgstr "Belgium (holland)"
 
 msgctxt "settingsvalue"
-msgid "Best Available"
-msgstr "Az elérhető legjobb"
-
-msgctxt "settingsvalue"
 msgid "Best available"
 msgstr "Az elérhető legjobb"
 
@@ -565,6 +614,10 @@ msgstr "Fekete"
 
 msgctxt "image-color"
 msgid "Black and White"
+msgstr "Fekete-fehér"
+
+msgctxt "image-color"
+msgid "Black and white"
 msgstr "Fekete-fehér"
 
 msgid "Block Trackers"
@@ -638,25 +691,15 @@ msgctxt "settingsvalue"
 msgid "Browser Preferred Language"
 msgstr "Böngészőben beállított nyelv"
 
-msgctxt "precise_user_location"
-msgid "Browser location unavailable."
-msgstr "A böngésző helye nem érhető el."
+msgctxt "settingsvalue"
+msgid "Browser preferred language"
+msgstr "Böngésző elsődleges nyelve"
 
 msgid "Bulgaria"
 msgstr "Bulgária"
 
 #. Click "Show Bookmarklet and Settings Data" - http://i.imgur.com/NKOWrRl.png
 #. Then - http://i.imgur.com/mo6wsE4.png
-msgctxt "settings"
-msgid ""
-"By default settings are stored in non-personal browser cookies (in your "
-"browser). You can use Anonymous Cloud Save to store your settings in a more "
-"permanent way (on a remote server in the cloud). No personally identifiable "
-"information will be stored in the cloud, and your pass phrase will never "
-"leave your browser."
-msgstr "Alapesetben a beállításaid sütik formájában tárolja a böngésződ. Viszont lehetőséged van beállításaid állandó tárolásához is felhő tárhely segítségével."
-" Az eltárolás során nem kerül rögzítésre semmilyen személyes, beazonosításra alkalmas információ. Hitelesítőkulcsod pedig sosem kerülhet illetéktelen kezekbe."
-
 msgctxt "settings"
 msgid ""
 "By default, settings are stored in non-personal browser cookies (in your "
@@ -711,20 +754,11 @@ msgstr "Középre igazítás"
 #. One of the option in DuckDuckGo Search Settings under appearance tab.
 #. http://i.imgur.com/CklQ1Ku.png
 msgctxt "settings"
-msgid "Center align the results page (instead of left aligned)"
-msgstr "Keresési találatok középre igazítása"
-
-msgctxt "settings"
 msgid "Center-aligns the results page (instead of left-aligned)"
 msgstr "Keresési találatok oldalközépre igazítása (balra igazítás helyett)"
 
 msgid "Change Region"
 msgstr "Területváltás"
-
-#. http://i.imgur.com/OntTi6e.png
-msgctxt "settings"
-msgid "Change the background color across the entire site"
-msgstr "Az oldal háttérszínének beállítása"
 
 #. http://i.imgur.com/oO0X6Pt.png
 msgctxt "settings"
@@ -735,13 +769,10 @@ msgstr "Fejléc viselkedésének és megjelenítésének beállítása"
 
 #. http://i.imgur.com/mcZdcaF.png
 msgctxt "settings"
-msgid "Changes results to be region specific"
-msgstr "Találatok szűrése terület szerint"
-
-msgctxt "settings"
 msgid "Changes search results based on region"
 msgstr "A keresési eredményeket régió alapján változtatja"
 
+#. http://i.imgur.com/OntTi6e.png
 msgctxt "settings"
 msgid "Changes the background color across the entire site"
 msgstr "Az egész weboldal háttérszínét módosítja"
@@ -803,10 +834,6 @@ msgid "Changes what happens when you click on a video thumbnail"
 msgstr "Művelet videók előnézeti képére kattintva"
 
 msgctxt "settings"
-msgid "Changes whether the visited check mark is visible"
-msgstr "Változtatások, ha a jelölőnégyzet látható"
-
-msgctxt "settings"
 msgid "Changes whether the visited checkmark is visible"
 msgstr "Változtatások, ha a meglátogatva jelölőnégyzet látható"
 
@@ -839,10 +866,6 @@ msgid "China"
 msgstr "Kína"
 
 #. http://i.imgur.com/f8Ae6jo.png
-msgctxt "cloudsave"
-msgid "Choose a unique pass phrase for your settings:"
-msgstr "Válassz egyedi jelszavat a beállításaidhoz"
-
 msgctxt "cloudsave"
 msgid "Choose a unique passphrase for your settings."
 msgstr "Válassz egyedi jelszót a beállításaidhoz."
@@ -1005,6 +1028,8 @@ msgstr "Kattints a %1$snagyító%2$s-ra a keresőmezőben."
 msgid "Click on the magnifying glass in the search box at the top right"
 msgstr "Kattintson jobbra fent a keresősávban a nagyítóra"
 
+#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
+#. In the cloud save box - http://i.imgur.com/FbCoYVE.png
 msgctxt "cloudsave"
 msgid ""
 "Click or tap %sDelete My Data%s. This removes the data from the cloud, but "
@@ -1151,6 +1176,10 @@ msgstr "Csak színes"
 msgid "Color Settings"
 msgstr "Színbeállítások"
 
+msgctxt "image-color"
+msgid "Color only"
+msgstr "Csak színes"
+
 #. In the top menu under Settings
 msgid "Colors"
 msgstr "Színek"
@@ -1195,10 +1224,6 @@ msgid "Conversion"
 msgstr "Beszélgetés"
 
 #. http://i.imgur.com/fd7EjAN.png
-msgctxt "settings"
-msgid "Cookie Data:"
-msgstr "Süti adat:"
-
 msgctxt "settings"
 msgid "Cookie data:"
 msgstr "Süti adat:"
@@ -1262,6 +1287,9 @@ msgstr "Egyedi %1$s"
 msgid "Custom Date Range"
 msgstr "Egyéni dátumtartomány"
 
+msgid "Custom date range"
+msgstr "Egyéni dátumtartomány"
+
 msgctxt "settings"
 msgid "Customize DuckDuckGo"
 msgstr "DuckDuckGo testreszabása"
@@ -1308,12 +1336,9 @@ msgstr "Alapértelmezett"
 msgid "Definition"
 msgstr "Definíció"
 
-msgid "Delete My Data"
-msgstr "Adataim törlése"
-
 #. When anonymous cloud save is enabled, a box is available with a <em>delete your data</em> button at the bottom of <a href="https://duckduckgo.com/settings.html">settings page<a/>.
 #. This token is displayed as a button, so keep it short!
-msgid "Delete my data"
+msgid "Delete My Data"
 msgstr "Adataim törlése"
 
 msgid "Denmark"
@@ -1475,13 +1500,6 @@ msgstr "A DuckDuckGo támogatási központja"
 msgid "DuckDuckGo URL Parameters"
 msgstr "DuckDuckGo URL paraméterek"
 
-#. Stuff about how your password is stored and secured.
-#. Into "How does it work" paragraph of <a href="https://duckduckgo.com/settings.html">settings page</a>.
-#. You have to click the "What is this?" link to display it.
-msgctxt "cloudsave"
-msgid "DuckDuckGo does not ever know your passphrase."
-msgstr "A DuckDuckGo nem ismeri a kódszavad."
-
 msgctxt "precise_user_location"
 msgid ""
 "DuckDuckGo is private by design. When you enable location, it is stored on "
@@ -1492,17 +1510,6 @@ msgid ""
 msgstr "A DuckDuckGo már kialakításánál fogva tiszteletben tartja az adataidat. Ha engedélyezed a helymeghatározást, akkor az csak a helyi eszközödön tárolódik."
 " Kereséskor az eszközöd ezt elküldi nekünk, mi pedig arra használjuk, hogy javítsuk a keresés eredményeit, majd azonnal töröljük, hogy anonim maradj. %1$sTudj"
 " meg többet arról, hogyan terveztük ezt a technológiát adataid védelme érdekében%2$s."
-
-msgctxt "precise_user_location"
-msgid ""
-"DuckDuckGo is private by design. When you enable location, it is stored on "
-"your local device only. When you search, your device then sends it to us, we "
-"use it to improve results for that search, and then we promptly throw it "
-"away, such that you remain anonymous. Learn more about how we designed this "
-"technology to protect your privacy %shere%s."
-msgstr "A DuckDuckGo már kialakításánál fogva tiszteletben tartja az adataidat. Ha engedélyezed a helymeghatározást, akkor az csak a helyi eszközödön tárolódik."
-" Kereséskor az eszközöd ezt elküldi nekünk, mi pedig arra használjuk, hogy javítsuk a keresés eredményeit, majd azonnal töröljük, hogy anonim maradj. Tudj"
-" meg többet arról, hogyan terveztük ezt a technológiát adataid védelme érdekében %1$sitt%2$s."
 
 msgctxt "cloudsave"
 msgid "DuckDuckGo never knows your passphrase."
@@ -1535,12 +1542,6 @@ msgstr "EU Android Üdvözlő üzenet"
 #. You have to click the "What is this?" link to display it.
 msgctxt "cloudsave"
 msgid ""
-"Each time you ask for a passphrase suggestion, we get a reasonably large "
-"list of random words from the DuckDuckGo servers."
-msgstr "Minden alkalommar amikor kódszavakra kérsz javaslatot, véletlenszerű szavakat ajánlunk egy nagy listából a DuckDuckGo szervereiről."
-
-msgctxt "cloudsave"
-msgid ""
 "Each time you ask for a passphrase suggestion, we receive a long list of "
 "random words from the DuckDuckGo servers. In the browser, we then select 4-5 "
 "random words from that list, ensuring that the passphrase is at least 18-20 "
@@ -1557,6 +1558,8 @@ msgctxt "precise_user_location"
 msgid "Enable 'Sites can ask for my location.'"
 msgstr "Engedélyezd a „Webhelyek kérhetik a tartózkodási helyemet” lehetőséget."
 
+#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
+#. In the cloud save box - http://i.imgur.com/fUS6WAi.png
 msgctxt "cloudsave"
 msgid "Enable Cloud Save by entering your existing passphrase."
 msgstr "Felhőbe mentés engedélyezése a meglévő jelszó beírásával."
@@ -1573,12 +1576,6 @@ msgid ""
 "Enable anonymous location for more accurate results. You can always change "
 "your mind later."
 msgstr "A pontosabb eredmények érdekében engedélyezd az anonim tartózkodási helyet. Később bármikor meggondolhatod magad."
-
-#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
-#. In the cloud save box - http://i.imgur.com/fUS6WAi.png
-msgctxt "cloudsave"
-msgid "Enable cloud save by entering your existing passphrase."
-msgstr "felhő mentés"
 
 msgctxt "precise_user_location"
 msgid "Enable the Location setting on your phone."
@@ -1607,21 +1604,11 @@ msgstr "Lépj be %1$shttps://duckduckgo.com%2$s"
 #. then locate the text here: http://i.imgur.com/xisuMjL.png
 msgctxt "cloudsave"
 msgid ""
-"Enter a new passphrase and click 'Save Settings' This will save your data "
-"under your new passphrase."
-msgstr "Gépeljen be egy új jelszót és kattintson a \"Beállítások elmentésére\". Ezzel elmenti az új jelszavát."
-
-msgctxt "cloudsave"
-msgid ""
 "Enter a new passphrase and click/tap %sSave Settings%s. This will save your "
 "data under your new passphrase."
 msgstr "Adj meg egy új jelszót, és kattints a %1$sBeállítások mentése%2$s elemre. Ezzel az új jelszavad alatt elmented az adataidat."
 
 #. http://i.imgur.com/qo0C6MA.png
-msgctxt "settings"
-msgid "Enter a pass phrase"
-msgstr "Hitelesítőkód beírása"
-
 msgctxt "settings"
 msgid "Enter a passphrase"
 msgstr "Jelszó beírása"
@@ -1644,16 +1631,8 @@ msgctxt "email newsletter"
 msgid "Enter your email address."
 msgstr "Add meg az e-mail címedet."
 
-msgctxt "cloudsave"
-msgid "Enter your pass phrase to load your settings:"
-msgstr "Adja meg a beállításaihoz tartozó jeligét:"
-
 #. Click "Load Settings" - http://i.imgur.com/3czvc4H.png
 #. Then - http://i.imgur.com/K6c3e4L.png
-msgctxt "settings"
-msgid "Enter your pass phrase to load your settings:"
-msgstr "Add meg a hitelesítőkulcsod a beállításaid betöltéséhez:"
-
 msgctxt "cloudsave"
 msgid "Enter your passphrase to load your settings."
 msgstr "Add meg a jelszavad a beállításaid betöltéséhez."
@@ -1697,10 +1676,6 @@ msgid "Extra Large"
 msgstr "Extra nagy"
 
 msgctxt "directions"
-msgid "Fastest Route"
-msgstr "Leggyorsabb útvonal"
-
-msgctxt "directions"
 msgid "Fastest route"
 msgstr "Leggyorsabb útvonal"
 
@@ -1739,12 +1714,6 @@ msgstr "Szűrés dátum alapján"
 msgid "Filter by Region"
 msgstr "Szűrés terület alapján"
 
-msgid "Filter by date"
-msgstr "Szűrés dátum alapján"
-
-msgid "Filter by region"
-msgstr "Szűrés terület alapján"
-
 msgctxt "feedback form"
 msgid "Filters aren't working"
 msgstr "A szűrők nem működnek"
@@ -1761,10 +1730,8 @@ msgid "Find %sDuckDuckGo%s and click%sMake default%s"
 msgstr "Keresd meg a %1$sDuckDuckGo%2$s-t és kattints a %3$sBeállítás alapértelmezettként%4$s-re"
 
 #  Chrome 36 on macOS, 27 on Windows
-#  Marked fuzzy because of translated trademark
-#, fuzzy
 msgid "Find DuckDuckGo in the displayed list and click %sMake Default%s"
-msgstr "Keresse meg a DuckDuckGót a listában és kattintson a %1$sBeállítás alapértelmezettként%2$s lehetőségre"
+msgstr "Keresse meg a DuckDuckGo-t a listában és kattintson a %1$sBeállítás alapértelmezettként%2$s lehetőségre"
 
 msgctxt "precise_user_location"
 msgid "Find results closer to you"
@@ -1814,17 +1781,33 @@ msgstr "Titkosítás kényszerítése weboldalakon"
 msgid "France"
 msgstr "Franciaország"
 
+#. a filter for images with the CC BY-NC usage license
+msgctxt "image-licence"
+msgid "Free to Modify, Share, and Use"
+msgstr "Szabadon módosítható, megosztható és használható"
+
+#. a filter for images with the CC BY usage license
+msgctxt "image-licence"
+msgid "Free to Modify, Share, and Use Commercially"
+msgstr "Szabadon módosítható, megosztható és kereskedelmi célokra használható"
+
+#. a filter for images with the CC BY-NC-ND usage license
+msgctxt "image-licence"
+msgid "Free to Share and Use"
+msgstr "Szabadon megosztható és használható"
+
+#. a filter for images with the CC BY-ND usage license
+msgctxt "image-licence"
+msgid "Free to Share and Use Commercially"
+msgstr "Szabadon megosztható és kereskedelmi célokra használható"
+
 msgctxt "new user poll"
 msgid "Friend or family"
 msgstr "Barát vagy család"
 
-msgctxt "settings"
-msgid "GET Requests"
-msgstr "Keresési kérelem"
-
 #. http://i.imgur.com/tGau0Vx.png
 msgctxt "settings"
-msgid "GET requests"
+msgid "GET Requests"
 msgstr "Keresési kérelem"
 
 msgid "Game ended"
@@ -2021,21 +2004,17 @@ msgctxt "directions"
 msgid "Hide Steps"
 msgstr "Lépések elrejtése"
 
-#. "Hide pass phrase" appears in the Load Cloud Settings box: http://i.imgur.com/24xv6L8.png
-msgctxt "settings"
-msgid "Hide pass phrase"
-msgstr "Hitelesítés elrejtése"
-
-msgctxt "directions"
-msgid "Hide steps"
-msgstr "Lépések elrejtése"
-
 msgctxt "settings"
 msgid "Hides search term from being shown in browser tab/history"
 msgstr "Elrejti a keresési kifejezést, hogy ne jelenjen meg a böngésző lapján/az előzmények között"
 
 msgctxt "video-resolution"
 msgid "High Definition"
+msgstr "Nagy felbontás"
+
+#. Shown in video filtering. https://duckduckgo.com/?q=videos+of+cats&iax=videos&ia=videos
+msgctxt "video-resolution"
+msgid "High definition"
 msgstr "Nagy felbontás"
 
 #. <em>ky</em>'s label for one of the color settings query parameters into <a href="https://duckduckgo.com/params.html">query parameters documentation page</a>.
@@ -2172,10 +2151,6 @@ msgid ""
 "If you want, select Home Page next to New windows and New tabs (open with)."
 msgstr "Ha kívánod, válaszd ki az Új ablakok és Új rovatok melletti Honlapot."
 
-msgctxt "settingsvalue"
-msgid "Image Tiles"
-msgstr "Képmozaikok"
-
 msgctxt "Report image modal"
 msgid "Image contains explicit content"
 msgstr "A képen szexuális jellegű tartalom található"
@@ -2197,43 +2172,20 @@ msgstr "Együttműködik:"
 
 msgctxt "settings"
 msgid ""
-"In some older browsers it's necessary to redirect your clicks through our "
-"server to prevent Search Leakage. %sMore Info%s."
-msgstr "Néhány régebbi böngészőben át kell írányítani a kattintásaidat a szerverünkön, hogy megakadályozzuk a Keresés szivárgást. %1$sBővebb info%2$s."
-
-msgctxt "settings"
-msgid ""
 "In some older browsers, it's necessary to redirect your clicks through our "
 "server to prevent search leakage. %sLearn more%s."
 msgstr "Néhány régebbi böngészőben át kell irányítani a kattintásaidat a szerverünkön keresztül, hogy megakadályozzuk a keresés kiszivárgását. %1$sTudj meg többet%2$s."
 
-#. Explanations about <em>how does passphrase generation work</em> paragraph.
-#. From <a href="https://duckduckgo.com/settings.html">settings page</a>.
-#. You have to click the "What is this?" link to display it.
-msgctxt "cloudsave"
-msgid ""
-"In the browser, we then select four or five random words from that list, "
-"ensuring that it is at least 18-20 characters long."
-msgstr "A böngészőben ezután kiválasztunk négy vagy öt szót véletlenszerűen a listáról, meggyőződve arról, hogy legalább 18-20 karakter hosszúak."
-
 #  SeaMonkey default search engine instruction
-#  Marked fuzzy because of translated trademark
-#, fuzzy
 msgid "In the drop down select %sDuckDuckGo%s!"
-msgstr "A lenyílóban válaszd a %1$sDuckDuckGót%2$s!"
-
-msgctxt "cloudsave"
-msgid ""
-"In the interest of transparency, this data is not encrypted: You can see "
-"exactly what information we store."
-msgstr "Az átláthatóság érdekében ez az adat nincs titkosítva: pontosan láthatod, milyen információt tárolunk."
+msgstr "A lenyílóban válaszd a %1$sDuckDuckGo%2$s-t!"
 
 #. Explanations for <em>how does the settings cloud save works</em> paragraph.
 #. From <a href="https://duckduckgo.com/settings.html">settings page</a>.
 #. You have to click the "What is this?" link to display it.
 msgctxt "cloudsave"
 msgid ""
-"In the interest of transparency, this data is not encrypted: you can see "
+"In the interest of transparency, this data is not encrypted: You can see "
 "exactly what information we store."
 msgstr "Az átláthatóság érdekében ez az adat nincs titkosítva: pontosan láthatod, milyen információt tárolunk."
 
@@ -2256,9 +2208,6 @@ msgstr "Az oldalmenüben válassza a %1$sKeresés az interneten%2$s lehetősége
 #. e.g., 'Including results for Mozart' (when the user searched for 'Mozar')
 msgid "Including results for %s"
 msgstr "A %1$s-ra vonatkozó találatokat is beleértve"
-
-msgid "Including results for %s."
-msgstr "Találatok korlátozása a(z) %1$s kifejezésre."
 
 msgid "India"
 msgstr "India"
@@ -2285,6 +2234,10 @@ msgstr "Képek végtelen görgetése"
 msgctxt "settings"
 msgid "Infinite Scroll for Images and Videos"
 msgstr "Képek és videók végtelen görgetése"
+
+msgctxt "settings"
+msgid "Infinite Scroll for Images, Videos, and Shopping"
+msgstr "Képek, videók és termékek végtelen görgetése"
 
 msgid "Install"
 msgstr "Telepítés"
@@ -2343,13 +2296,6 @@ msgstr "Dolgozik valaki a te nulla-kattintásos plugin-eden?"
 msgid "Israel"
 msgstr "Izrael"
 
-#. https://duckduckgo.com/settings near the bottom, under "Cloud Save", by clicking "What's this", under "How does passphrase generation work?"
-msgctxt "cloudsave"
-msgid ""
-"It is easier to remember four or five words than 10 random letters and "
-"numbers, and far more secure."
-msgstr "Egyszerűbb emlékezni négy-öt szóra, mint tíz véletlenszerű betű és szám kombinációjára, és sokkal biztonságosabb is."
-
 msgctxt "precise_user_location"
 msgid "It's not working."
 msgstr "Nem működik."
@@ -2365,6 +2311,7 @@ msgstr "Olaszország"
 msgid "Items"
 msgstr "Elemek"
 
+#. https://duckduckgo.com/settings near the bottom, under "Cloud Save", by clicking "What's this", under "How does passphrase generation work?"
 msgctxt "cloudsave"
 msgid ""
 "It’s easier to remember 4-5 words than 10 random letters and numbers, and "
@@ -2485,10 +2432,6 @@ msgctxt "SERP footer content"
 msgid "Learn how to search like the pros."
 msgstr "Tudd meg, hogyan végezhetsz úgy keresést, mint a profik."
 
-msgctxt "precise_user_location"
-msgid "Learn how we keep your location private %shere%s."
-msgstr "Tudd meg, hogyan segítünk megőrizni magadnak a tartózkodási helyedet %1$sitt%2$s."
-
 msgctxt "SERP footer content"
 msgid "Learn how we're dedicated to keeping you safe online."
 msgstr "Ismerd meg elkötelezettségünket az online biztonságod érdekében."
@@ -2529,6 +2472,11 @@ msgstr "Világoskék"
 #. Discontinued, don't translate
 msgid "Light green"
 msgstr "Világoszöld"
+
+#. i.e. a type of image comprised of lines without gradiations in shade or hue
+msgctxt "image-type"
+msgid "Line Drawing"
+msgstr "Vonalas rajzolás"
 
 #. https://duckduckgo.com/params under "Look & Feel Settings"
 msgid "Link font:"
@@ -2577,6 +2525,10 @@ msgstr "Görgetéskor további kép- és videóeredményeket tölt be"
 msgctxt "settings"
 msgid "Loads more image results when scrolling"
 msgstr "Görgetéskor további képeredményeket tölt be"
+
+msgctxt "settings"
+msgid "Loads more results in Images, Videos, and Shopping when scrolling"
+msgstr "Több találat betöltése görgetéssel a képek, videók és vásárlás részben"
 
 #. http://i.imgur.com/WTkvs9I.png
 msgctxt "settings"
@@ -2635,10 +2587,6 @@ msgstr "Térképek"
 msgctxt "feedback form"
 msgid "Maps"
 msgstr "Térképek"
-
-msgctxt "feedback form"
-msgid "Maps / Location Info"
-msgstr "Tékép / Helyzet információ"
 
 msgctxt "feedback form"
 msgid "Maps / location info"
@@ -2789,10 +2737,6 @@ msgctxt "additional_info_at"
 msgid "More results"
 msgstr "További találatok"
 
-msgctxt "more_reviews_on_external_website"
-msgid "More reviews on %s "
-msgstr "További vélemények itt: %1$s "
-
 msgctxt "video-duration"
 msgid "More than 20 minutes"
 msgstr "Több, mint 20 perces"
@@ -2912,10 +2856,6 @@ msgstr "Nincs elérhető útvonal"
 msgid "No More Photos"
 msgstr "Nincs több fénykép"
 
-msgctxt "settingsvalue"
-msgid "No Preference (Default)"
-msgstr "Nincs beállítás (alapértelmezett)"
-
 msgctxt "settings"
 msgid "No Region Selected"
 msgstr "Nincs régió kiválasztva"
@@ -2934,10 +2874,6 @@ msgstr "Semmi felnőtt tartalom"
 msgctxt "directions"
 msgid "No available routes between these locations"
 msgstr "Nincs elérhető útvonal e helyszínek között"
-
-msgctxt "directions"
-msgid "No available routes between these locations."
-msgstr "Nincs elérhető útvonal e helyszínek között."
 
 msgctxt "safe search"
 msgid "No explicit images or videos"
@@ -2999,10 +2935,6 @@ msgstr "Normál"
 msgid "Norway"
 msgstr "Norvégia"
 
-msgctxt "settingsvalue"
-msgid "Not Set"
-msgstr "Nincs beállítva"
-
 msgctxt "precise_user_location"
 msgid "Not getting nearby results?"
 msgstr "Nincs közeli eredmény?"
@@ -3010,9 +2942,6 @@ msgstr "Nincs közeli eredmény?"
 #. Not many results contain '<query>' (<query> is the query that the user sent to the search engine)
 msgid "Not many results contain %s"
 msgstr "Nem sok találat tartalmazza a következőt: %1$s"
-
-msgid "Not many results contain %s."
-msgstr "Nem sok találat tartalmazza a(z) %1$s kifejezést."
 
 msgctxt "Report image modal"
 msgid "Not relevant"
@@ -3105,6 +3034,10 @@ msgctxt "maps_places"
 msgid "Open"
 msgstr "Megnyitás"
 
+#. The placeholder is a business name, e.g. 'Open Ikea website'.
+msgid "Open %s website"
+msgstr "%1$s weboldal megnyitása"
+
 msgid "Open %sMenu > Settings > Search %s and select DuckDuckGo!"
 msgstr "Menj a %1$sMenü > Beállítások > Keresés %2$s menüpontba és válaszd ki a DuckDuckGo-t!"
 
@@ -3116,10 +3049,8 @@ msgctxt "mobile homepage banner"
 msgid "Open %sMenu%s"
 msgstr "Nyisd meg a %1$sMenü%2$s-t"
 
-#  Marked fuzzy because of translated trademark
-#, fuzzy
 msgid "Open %sSettings > Safari > Search Engine%s and select DuckDuckGo!"
-msgstr "Nyissa meg a %1$sBeállítások > Safari > Kereső%2$s opciót és válassza a DuckDuckGót!"
+msgstr "Nyissa meg a %1$sBeállítások > Safari > Kereső%2$s opciót és válassza a DuckDuckGo-t!"
 
 #  Safari on iOS
 msgctxt "mobile homepage banner"
@@ -3203,9 +3134,6 @@ msgctxt "feedback form"
 msgid "Other"
 msgstr "Egyéb"
 
-msgid "Other Settings"
-msgstr "További beállítások"
-
 msgctxt "homepage onboarding"
 msgid ""
 "Other search engines track your searches even when you’re in private "
@@ -3265,15 +3193,6 @@ msgid "Page %s"
 msgstr "%1$s oldal"
 
 msgctxt "settings"
-msgid "Page Appearance"
-msgstr "Lap megjelenése"
-
-#. indica o número de páxina de resultados na que estamos
-msgctxt "settings"
-msgid "Page Break #'s"
-msgstr "Oldal törés"
-
-msgctxt "settings"
 msgid "Page Break Lines"
 msgstr "Oldaltörés vonal"
 
@@ -3287,18 +3206,6 @@ msgid "Page Width"
 msgstr "Oldal szélessége"
 
 msgctxt "cloudsave"
-msgid "Pass phrase is already taken."
-msgstr "Ez a jelige már foglalt."
-
-msgctxt "cloudsave"
-msgid "Pass phrase must be at least 9 characters long"
-msgstr "A jelige legalább kilenc karakter hosszú kell legyen"
-
-msgctxt "cloudsave"
-msgid "Pass phrase not found"
-msgstr "A jelige nem található"
-
-msgctxt "cloudsave"
 msgid "Passphrase is already taken."
 msgstr "Ez a jelszó már foglalt."
 
@@ -3310,6 +3217,8 @@ msgctxt "cloudsave"
 msgid "Passphrase not found."
 msgstr "Jelszó nem található."
 
+#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
+#. Then in the cloud save box - http://i.imgur.com/tbzpD5S.png
 msgctxt "cloudsave"
 msgid ""
 "Passphrases cannot be recovered as we don't associate your IP address, "
@@ -3336,6 +3245,18 @@ msgstr "Elmúlt héten"
 
 #. Option for the filter-by-date search.
 msgid "Past Year"
+msgstr "Elmúlt évben"
+
+msgid "Past day"
+msgstr "Elmúlt napon"
+
+msgid "Past month"
+msgstr "Elmúlt hónapban"
+
+msgid "Past week"
+msgstr "Elmúlt héten"
+
+msgid "Past year"
 msgstr "Elmúlt évben"
 
 msgctxt "settings"
@@ -3568,10 +3489,6 @@ msgid "Prompt me"
 msgstr "Kérdezz meg"
 
 msgctxt "settings"
-msgid "Prompt me to anonymously use browser location for better results."
-msgstr "Emlékeztess, hogy névtelenül használjam a böngésző helyét a jobb eredmények érdekében."
-
-msgctxt "settings"
 msgid "Prompt me to customize my DuckDuckGo experience."
 msgstr "Emlékeztess, hogy testre szabjam a DuckDuckGo élményemet."
 
@@ -3598,6 +3515,11 @@ msgctxt "showcase_app"
 msgid "Protect your data on every device."
 msgstr "Óvd meg az adataidat minden eszközödön."
 
+#. a filter for images with the CC0 usage license
+msgctxt "image-licence"
+msgid "Public Domain"
+msgstr "Nyilvános tartomány"
+
 #. Used for various color settings  query parameters values captions into <a =href="https://duckduckgo.com/params.html">query parameters documentation page</a>.
 msgid "Purple"
 msgstr "Lila"
@@ -3605,15 +3527,6 @@ msgstr "Lila"
 msgctxt "color"
 msgid "Purple"
 msgstr "Lila"
-
-#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
-#. In the cloud save box - http://i.imgur.com/FbCoYVE.png
-msgctxt "cloudsave"
-msgid ""
-"Push 'Delete My Data'. This removes the data from the cloud, but it remains "
-"in your browser until you click on 'Reset all settings'"
-msgstr "Ezután kattints az „Adataim törlése” gombra. Ez minden eddig tárolt beállításod eltávolítja a felhő tárhelyből, de a böngésződ még továbbra is használja"
-" azokat, míg nem törlöd a sütiket. Sütik törléséhez kattints az „Alapértelmezett beállítások használata” gombra."
 
 #. Instant Answer Tab Name
 msgid "Quotations"
@@ -3661,10 +3574,6 @@ msgstr "Reddit"
 
 msgctxt "settings"
 msgid "Redirect (When Necessary)"
-msgstr "Átírányítás (amikor szükséges)"
-
-msgctxt "settings"
-msgid "Redirect (when necessary)"
 msgstr "Átírányítás (amikor szükséges)"
 
 msgid "Redirect:"
@@ -3777,14 +3686,6 @@ msgid "Result URLs Above Snippet"
 msgstr "Cím a szövegrészlet fölött"
 
 msgctxt "settings"
-msgid "Result URLs above snippet"
-msgstr "Cím a szövegrészlet fölött"
-
-msgctxt "settings"
-msgid "Result Visited Check Mark"
-msgstr "Meglátogatott találat jelölőnégyzet"
-
-msgctxt "settings"
 msgid "Result Visited Checkmark"
 msgstr "Meglátogatott találat jelölőnégyzet"
 
@@ -3796,10 +3697,6 @@ msgstr "Megtekintett találatok színe"
 #. In the top menu under Settings
 msgid "Results"
 msgstr "Találatok"
-
-msgctxt "settings"
-msgid "Results Appearance"
-msgstr "Találatok megjelenése"
 
 msgctxt "precise_user_location"
 msgid "Results are good enough."
@@ -3858,6 +3755,10 @@ msgstr "A keresési szűrő elrejtett néhány találatot a következőre: %1$s"
 
 msgid "Safe search blocked some results for %s."
 msgstr "A keresési szűrő elrejtett néhány találat a következőre: %1$s"
+
+#. Safe search lets you remove adult content from results on DuckDuckGo. This string is used to invite users to select the desired level of protection (e.g., strict, moderate, off)
+msgid "Safe search:"
+msgstr "Biztonságos keresés:"
 
 #. For a button that shows satellite imagery on a map
 msgctxt "map-mode"
@@ -3934,10 +3835,6 @@ msgid "Search Anonymously"
 msgstr "Névtelen kesesés"
 
 #. in https://duckduckgo.com/search_box. top header
-msgid "Search Box"
-msgstr "Keresőmező"
-
-msgctxt "feedback form"
 msgid "Search Box"
 msgstr "Keresőmező"
 
@@ -4027,10 +3924,6 @@ msgid "Security Issue"
 msgstr "Biztonsági probléma"
 
 msgctxt "feedback form"
-msgid "Security Issue (Opens in New Tab)"
-msgstr "Biztonsági probléma (új lapon nyílik meg)"
-
-msgctxt "feedback form"
 msgid "Security issue (opens in new tab)"
 msgstr "Biztonsági probléma (új lapon nyílik meg)"
 
@@ -4052,10 +3945,6 @@ msgstr "További fényképek megtekintése erről: %1$s"
 msgctxt "SERP footer content"
 msgid "See our %straffic page%s for details."
 msgstr "Tekintsd meg a %1$sforgalom oldalt%2$s a részletekért."
-
-msgctxt "settings"
-msgid "See the %sURL Parameter Reference Page%s for more details"
-msgstr "További információkért látogass el az alábbi linkre: %1$sURL Parameter Reference Page%2$s"
 
 msgctxt "settings"
 msgid "See the %sURL Parameter Reference page%s for more details."
@@ -4083,10 +3972,8 @@ msgid "Select %sDuckDuckGo%s and click %sSet as default%s."
 msgstr "Válaszd a %1$sDuckDuckGo%2$s lehetőséget, majd kattints a %3$sBeállítás alapértelmezettként%4$s elemre."
 
 #  Firefox 33
-#  Marked fuzzy because of translated trademark
-#, fuzzy
 msgid "Select %sDuckDuckGo%s in the Default Search Engine drop down"
-msgstr "Válassza a %1$sDuckDuckGót%2$s az alapértelmezett kereső listában"
+msgstr "Válassza a %1$sDuckDuckGo%2$s-t az alapértelmezett kereső listában"
 
 #  IE 11 default search engine instruction
 msgid "Select %sDuckDuckGo%s in the list of search providers"
@@ -4163,10 +4050,8 @@ msgid ""
 msgstr "Válassza a %1$sEzen weboldal használata az egyedüli kezdőoldalként%2$s lehetőséget"
 
 #  Safari default search engine instruction
-#  Marked fuzzy because of translated trademark
-#, fuzzy
 msgid "Select DuckDuckGo!"
-msgstr "Válassza a DuckDuckGót!"
+msgstr "Válassza a DuckDuckGo-t!"
 
 msgctxt "precise_user_location"
 msgid "Select Settings > Location."
@@ -4300,6 +4185,8 @@ msgctxt "new tab page"
 msgid "Show Most Visited Sites"
 msgstr "A legtöbbször meglátogatott webhelyek megjelenítése"
 
+#. Click "Load Settings" - http://i.imgur.com/cii6KqL.png
+#. Then - http://i.imgur.com/nOvjdKb.png
 msgctxt "settings"
 msgid "Show Passphrase"
 msgstr "Hitelesítőkulcs megjelenítése"
@@ -4313,92 +4200,13 @@ msgctxt "noresults"
 msgid "Show Web Results"
 msgstr "Webes eredmények megjelenítése"
 
-msgctxt "settings"
-msgid "Show favicons for each result"
-msgstr "Favicon mutatása minden találatnál"
-
-msgctxt "settings"
-msgid "Show horizontal lines at result page breaks"
-msgstr "Vízszintes vonal mutatása oldaltörésnél"
-
-msgctxt "settings"
-msgid "Show links to instructions for how to add DuckDuckGo to your browser"
-msgstr "Linkek megjenítése a leírásokhoz, hogy hogyan add hozzá a DuckDuckGo-t a böngésződhöz."
-
 msgctxt "directions"
 msgid "Show map"
 msgstr "Térkép megjelenítése"
 
-msgctxt "settings"
-msgid "Show most visited links on new tab page"
-msgstr "A legtöbbször meglátogatott hivatkozások megjelenítése új lap oldalon"
-
-msgctxt "settings"
-msgid "Show occasional reminders to add DuckDuckGo to your browser"
-msgstr "Alkalmi emlékezetetők megjelenítése a böngészőben a DuckDuckGo hozzáadására"
-
-msgctxt "settings"
-msgid "Show occasional reminders to add DuckDuckGo to your devices"
-msgstr "Időnként mutasson emlékeztetőket a DuckDuckGo hozzáadására az eszközeidhez."
-
-msgctxt "settings"
-msgid ""
-"Show occasional reminders to sign up for the DuckDuckGo privacy newsletter"
-msgstr "Alkalmi emlékezetetők megjelenítése a böngészőben a DuckDuckGo adatvédelmi hírlevelére"
-
-msgctxt "settings"
-msgid "Show page numbers at result page breaks"
-msgstr "Oldalszám mutatása"
-
-#. Click "Load Settings" - http://i.imgur.com/cii6KqL.png
-#. Then - http://i.imgur.com/nOvjdKb.png
-msgid "Show pass phrase"
-msgstr "Hitelesítőkulcs megjelenítése"
-
-msgctxt "settings"
-msgid "Show pass phrase"
-msgstr "Hitelesítőkulcs megjelenítése"
-
-msgctxt "settings"
-msgid "Show sign up form for the DuckDuckGo privacy newsletter"
-msgstr "A DuckDuckGo adatvédelmi hírlevelére való feliratkozás megjelenítése"
-
-msgctxt "directions"
-msgid "Show steps"
-msgstr "Lépések megjelenítése"
-
-#. http://i.imgur.com/94erFcS.png
-msgctxt "settings"
-msgid "Show suggestions under the search box as you type"
-msgstr "Keresési javaslatok megjelenítése gépelés közben"
-
-msgctxt "settings"
-msgid "Show the Result URL line above the snippet text"
-msgstr "Mutassa a találat címét a szövegrész felett"
-
-msgctxt "settings"
-msgid "Show the full URL for each result"
-msgstr "Minden eredmény teljes elérésének megjelenítése"
-
-msgctxt "settings"
-msgid "Show the privacy benefits of using DuckDuckGo on the homepage"
-msgstr "A DuckDuckGo használatának adatvédelmi előnyeinek megjelenítése a kezdőoldalon"
-
 msgctxt "video-duration"
 msgid "Show videos of any length"
 msgstr "Tetszőleg hosszúságú videók megjelenítése"
-
-msgctxt "noresults"
-msgid "Show web results"
-msgstr "Webes eredmények megjelenítése"
-
-msgctxt "settings"
-msgid "Show welcome message on top of the search results page"
-msgstr "Üdvözlő üzenet megjelenítése a keresési eredményoldal tetején"
-
-msgctxt "settings"
-msgid "Show welcome message to EU Android preference menu users"
-msgstr "Üdvözlő üzenet megjelenítése az EU Android preferencia menü felhasználóknak"
 
 msgctxt "SERP footer content"
 msgid "Show your DuckDuckGo pride with t-shirts, stickers, & more."
@@ -4459,6 +4267,7 @@ msgctxt "settings"
 msgid "Shows sign-up form for the DuckDuckGo privacy newsletters"
 msgstr "A DuckDuckGo adatvédelmi hírleveleire való feliratkozási űrlap megjelenítése"
 
+#. http://i.imgur.com/94erFcS.png
 msgctxt "settings"
 msgid "Shows suggestions under the search box as you type"
 msgstr "Javaslatok megjelenítése a keresőmező alatt gépelés közben"
@@ -4577,6 +4386,11 @@ msgctxt "video-resolution"
 msgid "Standard Definition"
 msgstr "Közepes felbontás"
 
+#. Shown in video filtering. https://duckduckgo.com/?q=videos+of+cats&iax=videos&ia=videos
+msgctxt "video-resolution"
+msgid "Standard definition"
+msgstr "Normál felbontás"
+
 msgid "Start Searching"
 msgstr "Keresés indítása"
 
@@ -4649,18 +4463,10 @@ msgctxt "settings"
 msgid "Suggest Different Passphrase"
 msgstr "Javaslat más jelszóra"
 
+#. http://i.imgur.com/BMM6X3h.png
 msgctxt "settings"
 msgid "Suggest a Passphrase"
 msgstr "Véletlenszerű hitelesítőkulcs létrehozása"
-
-#. http://i.imgur.com/BMM6X3h.png
-msgctxt "settings"
-msgid "Suggest a pass phrase"
-msgstr "Véletlenszerű hitelesítőkulcs létrehozása"
-
-msgctxt "settings"
-msgid "Suggest different phrase"
-msgstr "Javaslat más kifejezésre"
 
 msgctxt "directions"
 msgid "Suggestions:"
@@ -4782,19 +4588,13 @@ msgid ""
 msgstr "Ez annyit jelent, hogy az eszközöd és az ezen hivatkozáson található weboldal között küldött információk fokozottan ki vannak téve annak a kockázatnak,"
 " hogy egy harmadik fél elhalássza őket. Ritka esetekben ez jelszavakat vagy fizetési információkat is tartalmazhat."
 
+#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
+#. Then in the cloud save box - http://i.imgur.com/elru00b.png
 msgctxt "cloudsave"
 msgid ""
 "The Cloud Save bookmarklet allows any changes you make to your settings to "
 "automatically save in the cloud."
 msgstr "A felhő tárhely könyvjelző lehetővé teszi, hogy a beállításaidon végrehajtott minden változtatás automatikusan mentésre kerüljön a felhőbe."
-
-#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
-#. Then in the cloud save box - http://i.imgur.com/elru00b.png
-msgctxt "cloudsave"
-msgid ""
-"The benefit of this over using the URL parameters bookmarklet is that when "
-"you change settings, they will automatically be saved in the cloud."
-msgstr "Ennek előnye a paraméterek link használatával szemben, hogy amikor változtatsz a beállításokon, a változtatások automatiusan a felhőben kerülnek mentésre."
 
 #. Click "What is this?" - http://i.imgur.com/KhmRHth.png
 #. Then look in the cloud save box - http://i.imgur.com/fIEYjbI.png
@@ -4868,10 +4668,6 @@ msgstr "Ezt az azonnali találatot a %1$sDuckDuckHack%2$s közösség készítet
 msgctxt "cloudsave"
 msgid "This has a few benefits:"
 msgstr "A felhő tárhely előnyei:"
-
-msgctxt "attribution"
-msgid "This instant answer was made by the %sDuckDuckHack%s Community."
-msgstr "Ezt az azonnali találatot a %1$sDuckDuckHack%2$s közösség készítette."
 
 msgctxt "new tab page"
 msgid ""
@@ -5061,17 +4857,13 @@ msgstr "Oldal indításkor válasszon %1$sNyisson meg egy különgleges oldalt v
 msgid "Under Search click the drop down and select %sDuckDuckGo%s"
 msgstr "Kattintson a keresősávra és válassza ki a legördülő menüből, hogy %1$sDuckDuckGo%2$s"
 
-#. http://i.imgur.com/7M5ogIs.png
-#. If, "On" --it will add an underline to result titles like this: http://i.imgur.com/VRFC6VQ.png
-#. If, "Off" --there will be no underline, like this: http://i.imgur.com/6MyezXn.png
-msgctxt "settings"
-msgid "Underline the title link for each result"
-msgstr "Találatok címének aláhúzása"
-
 #. https://duckduckgo.com/params under "Look & Feel Settings" header
 msgid "Underline:"
 msgstr "Aláhúzva:"
 
+#. http://i.imgur.com/7M5ogIs.png
+#. If, "On" --it will add an underline to result titles like this: http://i.imgur.com/VRFC6VQ.png
+#. If, "Off" --there will be no underline, like this: http://i.imgur.com/6MyezXn.png
 msgctxt "settings"
 msgid "Underlines the title link for each result"
 msgstr "Mindegyik találat címsorának aláhúzása"
@@ -5148,9 +4940,6 @@ msgstr "Fájl megtekintése"
 msgid "View all !bangs"
 msgstr "Minden !bang mutatása"
 
-msgid "View file"
-msgstr "Megtekintés"
-
 msgid "View on %s"
 msgstr "Megtekintés itt: %1$s"
 
@@ -5181,10 +4970,6 @@ msgstr "Látogatott linkek:"
 msgctxt "forecast"
 msgid "W"
 msgstr "NY"
-
-msgctxt "precise_user_location"
-msgid "Waiting For Location..."
-msgstr "Várakozás a tartózkodási helyre..."
 
 #. Waiting for the device location sensor to return data
 msgctxt "precise_user_location"
@@ -5227,38 +5012,20 @@ msgctxt "cloudsave"
 msgid "We cannot reverse the passphrase key generation."
 msgstr "A jelszóból kulcs generálást nem tudjuk megfordítani."
 
-#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
-#. Then in the cloud save box - http://i.imgur.com/pZ0pyIJ.png
-msgctxt "cloudsave"
-msgid ""
-"We do not have usernames and we don't store any personally identifiable "
-"information."
-msgstr "Mi nem használunk felhasználóneveket és nem tárolunk a személyedre vonatkozó adatokat."
-
 #. https://duckduckgo.com/about under "We believe in better search and real privacy at the same time. That's why: "
 msgctxt "wedonttrackyou"
 msgid "We don't %s you."
 msgstr "Mi nem %1$s téged."
 
-#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
-#. Then in the cloud save box - http://i.imgur.com/tbzpD5S.png
-msgctxt "cloudsave"
-msgid ""
-"We don't associate your IP address or browser fingerprint or any other "
-"information with the file."
-msgstr "Nem kötjük össze az IP címedet vagy a böngésződ ujjlenyomatát vagy bármilyen egyéb információt a fájllal."
-
 msgctxt "reasons-to-use-duckduckgo"
 msgid "We don't follow you around with ads."
 msgstr "Nem követünk téged a hirdetésekkel."
 
+#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
+#. Then in the cloud save box - http://i.imgur.com/pZ0pyIJ.png
 msgctxt "cloudsave"
 msgid "We don't store usernames or any personally identifiable information."
 msgstr "Mi nem tárolunk felhasználóneveket és azonosításra alkalmas adatokat."
-
-msgctxt "settings"
-msgid "We don't store your location. It remains only on your device. %sInfo%s"
-msgstr "Nem tároljuk a tartózkodási helyedet. Csak az eszközödön lesz eltárolva. %1$sInfó%2$s"
 
 msgctxt "homepage onboarding"
 msgid "We don't store your personal info or track you. Ever."
@@ -5334,20 +5101,9 @@ msgctxt "SERP footer content"
 msgid "We get a ton of searches, and all of them are anonymous."
 msgstr "Rengeteg keresést kapunk, és mindegyik névtelen."
 
-#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
-#. Then in the cloud save box - http://i.imgur.com/DZOnHhY.png
-msgctxt "cloudsave"
-msgid ""
-"We save the settings file on Amazon S3 using the generated key as the name."
-msgstr "A beállításfájlt a generált kulccsal megegyező néven mentjük az Amazon S3-on."
-
 msgctxt "feedback form"
 msgid "We use feedback like this to improve DuckDuckGo."
 msgstr "Az ilyen visszajelzéseket használjuk a DuckDuckGo fejlesztésére."
-
-msgctxt "feedback form"
-msgid "We use feedback like this to improve DuckDuckGo. It really helps."
-msgstr "Az ilyen visszajelzéseket használjuk a DuckDuckGo fejlesztésére. Sokat segítenek."
 
 msgid ""
 "We'll block hidden trackers and encrypt connections to keep you more private."
@@ -5385,10 +5141,6 @@ msgctxt "homepage onboarding"
 msgid "Welcome to the Duck Side!"
 msgstr "Isten hozott a Kacsa oldalon!"
 
-msgctxt "maps_places"
-msgid "What People Say"
-msgstr "Ezt mondják rólunk"
-
 msgctxt "new user poll"
 msgid "What brought you back today?"
 msgstr "Mi hozott téged ide ma?"
@@ -5405,27 +5157,17 @@ msgctxt "feedback form"
 msgid "What do you think of the information shown?"
 msgstr "Mit gondolsz a bemutatott információkról?"
 
-msgctxt "feedback form"
-msgid "What do you think?"
-msgstr "Mit gondolsz?"
-
 #. Click "What is this?" - http://i.imgur.com/KhmRHth.png
 #. Then in the cloud save box - http://i.imgur.com/ta4V0Xy.png
 msgctxt "cloudsave"
 msgid "What information gets saved?"
 msgstr "Milyen információ kerül mentésre?"
 
-msgctxt "cloudsave"
-msgid ""
-"What is the Cloud Save bookmarklet and how does it differ from the URL "
-"parameter bookmarklet?"
-msgstr "Mi a Cloud Save könyvjelző és miben különbözik az URL paraméteres könyvjelzőtől?"
-
 #. Click "What is this?" - http://i.imgur.com/KhmRHth.png
 #. Then in the cloud save box - http://i.imgur.com/YrfhzTL.png
 msgctxt "cloudsave"
 msgid ""
-"What is the cloud save bookmarklet and how does it differ from the URL "
+"What is the Cloud Save bookmarklet and how does it differ from the URL "
 "parameter bookmarklet?"
 msgstr "Mi a Cloud Save könyvjelző és miben különbözik az URL paraméteres könyvjelzőtől?"
 
@@ -5482,10 +5224,6 @@ msgid "Width:"
 msgstr "Szélesség:"
 
 msgctxt "feedback form"
-msgid "Wikipedia Info"
-msgstr "Wikipédia info"
-
-msgctxt "feedback form"
 msgid "Wikipedia info"
 msgstr "Wikipédia info"
 
@@ -5533,10 +5271,6 @@ msgstr "Megteheted, ha egy jelszóval mented a beállításaidat. Választhatod 
 
 #. Click "What is this?" - http://i.imgur.com/KhmRHth.png
 #. In the cloud save box - http://i.imgur.com/pVjCXmw.png
-msgctxt "cloudsave"
-msgid "You can restore your settings after deleting cookies"
-msgstr "Visszaállíthatod beállításaid egy esetleges törlés után."
-
 msgctxt "cloudsave"
 msgid "You can restore your settings after deleting cookies."
 msgstr "Visszaállíthatod a beállításaidat a sütik törlése után."
@@ -5636,22 +5370,6 @@ msgid ""
 msgstr "A jelszavad egy 512 bites kulcsot hoz létre a biztonságos kivonatolási algoritmus (Secure Hash Algorithm), vagyis %1$sSHA-2%2$s segítségével. Csak a kulcs"
 " és a hozzá tartozó beállításfájl kerül ki a böngésződből. A beállításfájl elmentéséhez a kulcsot használjuk névként. A DuckDuckGo soha nem tudja a jelszavad."
 
-#. http://i.imgur.com/AQ4Neq7.png
-#. Text describing how passphrases are encrypted
-msgctxt "cloudsave"
-msgid ""
-"Your passphrase is used to generate a key using the Secure Hash Algorithm "
-"known as %sSHA-2%s, using a 512 bit key."
-msgstr "A jelszavad használatával egy %1$sSHA-2%2$s-vel titkosított 512 bites kulcs készül."
-
-#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
-#. In the cloud save box - http://i.imgur.com/xwcnjZL.png
-msgctxt "cloudsave"
-msgid ""
-"Your passphrase never leaves the browser, only the key and the settings file "
-"associated with it."
-msgstr "A jelszavad soha nem hagyja el a böngészőt, csak a kulcsot és beállításokat tartalmazó fájl társul hozzá."
-
 msgctxt "new user poll"
 msgid "Your response is 100% anonymous."
 msgstr "A válaszod teljesen névtelen."
@@ -5672,6 +5390,11 @@ msgctxt "made_by"
 msgid "by %s"
 msgstr "%1$s által"
 
+#. An abbreviated form of "day" that can be displayed in a small space e.g. "1d"
+msgctxt "published date for videos"
+msgid "d"
+msgstr "n"
+
 #. https://duckduckgo.com/params under "Color Settings" under all
 #. under "Look & Feel Settings"  under "Size:" and "Text link: "
 msgctxt "setting"
@@ -5685,6 +5408,11 @@ msgstr "E-mail"
 msgid "for"
 msgstr "erre:"
 
+#. An abbreviated form of "hour" that can be displayed in a small space e.g. "1h"
+msgctxt "published date for videos"
+msgid "h"
+msgstr "ó"
+
 msgctxt "nonjsversion"
 msgid "here"
 msgstr "itt."
@@ -5693,6 +5421,16 @@ msgstr "itt."
 msgctxt "questions"
 msgid "let us know"
 msgstr "tudassa velünk"
+
+#. An abbreviated form of "minute" that can be displayed in a small space e.g. "1m"
+msgctxt "published date for videos"
+msgid "m"
+msgstr "p"
+
+#. An abbreviated form of "month" that can be displayed in a small space e.g. "1mo"
+msgctxt "published date for videos"
+msgid "mo"
+msgstr "hó"
 
 #. https://duckduckgo.com/50x.html?e=2
 #. p.s.(tsester): i found it out by searching "  "
@@ -5764,3 +5502,8 @@ msgstr "követés"
 
 msgid "tracker blocking"
 msgstr "követésvédelem"
+
+#. An abbreviated form of "year" that can be displayed in a small space e.g. "1yr"
+msgctxt "published date for videos"
+msgid "yr"
+msgstr "év"
