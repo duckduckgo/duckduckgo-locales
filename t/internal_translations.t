@@ -142,6 +142,10 @@ use vars qw/*name *dir *prune %european_languages/;
       more_info => "mer info",
       ad_badge => "Visning av annonser är sekretessskyddat av DuckDuckGo. Annonsklick hanteras av Microsofts annonsnätverk"
     },
+    te_IN => {
+      more_info => "మరింత సమాచారం",
+      ad_badge => "ప్రకటనలు చూడటంలో అంతరంగికతను DuckDuckGo కాపాడుతుంది. ప్రకటనల నొక్కులు Microsoft వారి ప్రకటనల నెట్‌వర్క్‌చే సంభాళించబడతాయి"
+    },
     th_TH => {
       more_info => "ข้อมูลเพิ่มเติม",
       ad_badge => "การดูโฆษณาได้รับการปกป้องความเป็นส่วนตัวโดย DuckDuckGo การคลิกโฆษณาได้รับการจัดการโดยเครือข่ายโฆษณาของ Microsoft"
