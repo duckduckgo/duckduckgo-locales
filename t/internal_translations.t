@@ -107,7 +107,7 @@ use vars qw/*name *dir *prune %european_languages/;
       ad_badge => "Visningsannonser er personvernbeskyttet av DuckDuckGo. Annonseklikk administreres av Microsofts annonsenettverk"
     },
     nl_NL => {
-      more_info => "meer informatie",
+      more_info => "Meer informatie",
       ad_badge => "De weergave van advertenties wordt beschermd door DuckDuckGo. Advertentieklikken worden beheerd door het advertentienetwerk van Microsoft"
     },
     pl_PL => {
