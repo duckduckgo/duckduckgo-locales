@@ -161,6 +161,7 @@ Find the locale code for your language in the list below. The file can be found 
 - pt_PT: português (Portugal)
 - ro_RO: română (România)
 - ru_RU: русский (Россия)
+- sat_IN: ᱥᱟᱱᱛᱟᱲᱤ (ᱵᱷᱟᱨᱚᱛ)
 - si_LK: සිංහල
 - sk_SK: Slovenčina (Slovenská republika)
 - sl_SI: Slovenščina (Slovenija)
