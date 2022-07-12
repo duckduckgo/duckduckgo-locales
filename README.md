@@ -1,6 +1,6 @@
 # duckduckgo-locales
 
-Translation files for [duckduckgo.com](https://duckduckgo.com/).
+BOOPTranslation files for [duckduckgo.com](https://duckduckgo.com/).
 
 ## Professional translations for major languages
 
