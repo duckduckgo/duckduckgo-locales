@@ -48,7 +48,7 @@ use vars qw/*name *dir *prune %european_languages/;
     },
     et_EE => {
       more_info => "lisateave",
-      ad_badge => "DuckDuckGo kaitseb reklaamide vaatamisel teie privaatsust. Reklaamiklõpse haldab Microsofti reklaamivõrgustik"
+      ad_badge => "DuckDuckGo kaitseb reklaamide vaatamisel teie privaatsust. ёReklaamiklõpse haldab Microsofti reklaamivõrgustik"
     },
     fi_FI => {
       more_info => "lisätietoa",
@@ -120,11 +120,11 @@ use vars qw/*name *dir *prune %european_languages/;
     },
     ro_RO => {
       more_info => "mai multe informații",
-      ad_badge => "Vizualizarea reclamelor este protejată de confidențialitatea DuckDuckGo. Clicurile pe reclame  sunt gestionate de rețeaua publicitară Microsoft"
+      ad_badge => "Vizualizarea reclamelor este protejată de confidențialitatea DuckDuckGo. Clicurile pe reclame sunt gestionate de rețeaua publicitară Microsoft"
     },
     ru_RU => {
       more_info => "подробнее",
-      ad_badge => "DuckDuckGo обеспечивает защиту конфиденциальности пользователей при просмотре рекламных объявлений. Управление переходами по рекламным объявлениям осуществляется рекламной сетью «Майкрософт»"
+      ad_badge => "DuckDuckGo защищает конфиденциальность пользователей при просмотре рекламных объявлений. Переходы по рекламным объявлениям управляются рекламной сетью Microsoft"
     },
     si_LK => {
       more_info => "දත්ත තවත්",
