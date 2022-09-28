@@ -44,8 +44,6 @@ The following languages will be affected:
 - Turkish
 - Ukrainian
 
-Soon, we plan to launch a complete review of all translations to ensure even more consistency across languages.
-
 We're very grateful for all the translation contributions that have helped support users around the world up to now, and we still welcome comments to help us improve translations. Please [open an Issue](https://github.com/duckduckgo/duckduckgo-locales/issues/new) and let us know what you think.
 
 ## About PO files
