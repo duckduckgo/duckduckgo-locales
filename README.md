@@ -138,6 +138,7 @@ Find the locale code for your language in the list below. The file can be found 
 - ka_GE: ქართული
 - kn_IN: ಕನ್ನಡ (India)
 - ko_KR: 한국어 (대한민국)
+- ku: Kurdî
 - kw_GB: Kernowek
 - ky_KG: кыргызча
 - ln_CD: Lingála
