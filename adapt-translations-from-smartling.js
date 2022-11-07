@@ -1,4 +1,10 @@
 #!/opt/nodenv/shims/node
+
+/**
+ * This file is used by DDG employees to integrate translations coming from Smartling.com into this repo.
+ * Community translations do not need to use this files.
+ */
+
 const fs = require('fs');
 const path = require('path');
 const readline = require('readline');
@@ -7,32 +13,35 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-const moveFiles = (srcDir, destDir) => {
+const copyFiles = (srcDir, destDir) => {
   const files = fs.readdirSync(srcDir)
-  return files.map(async file => {
-    const destFile = path.join(destDir, file.replace('Test', '').replace('.pot', '.po'));
+  return files.map(file => {
+    const destFile = path.join(destDir, file.replace('.pot', '.po'));
     const srcFile = path.join(srcDir, file);
     try {
-      fs.mkdirSync(destDir, {recursive: true})
-      fs.renameSync(srcFile, destFile);
-      fs.rmdirSync(srcDir);
-      console.log(`Moved file from ${srcDir} to ${destFile}`);
+      const dataBuffer = fs.readFileSync(srcFile);
+      const fileContent = dataBuffer.toString();
+      fs.writeFileSync(destFile, fileContent);
+      console.log(`Copied file from ${srcDir} to ${destFile}`);
     } catch (e) {
-      console.log(`Got an error trying to move the file: ${e.message}`)
+      console.log(`Got an error trying to copy the file ${srcDir}: ${e.message}`)
     }
   })
 }
 
-const start = async () => {
+const start = () => {
   try {
     rl.question('Where are the translations? ', function(baseFolder) {
+      // Needed because drag-dropping a path in the terminal on macOS adds a space at the end.
+      baseFolder = baseFolder.trim();
       console.log(`The base folder is: ${baseFolder}`);
       // filter for folders named like `it_IT`
       const folders = fs.readdirSync(baseFolder).filter(name => /^[a-z]{2}(-[A-Z]{2})?$/.test(name));
       folders.forEach(name => {
-        moveFiles(
+        const localesFolderBase = path.join(__dirname, 'locales/');
+        copyFiles(
           path.join(baseFolder, name),
-          path.join(baseFolder, name.replace('-', '_').replace('nb', 'nb_NO'), 'LC_MESSAGES')
+          path.join(localesFolderBase, name.replace('-', '_').replace('nb', 'nb_NO'), 'LC_MESSAGES')
         );
       });
       rl.close();
