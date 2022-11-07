@@ -32,10 +32,14 @@ const copyFiles = (srcDir, destDir) => {
 const start = () => {
   try {
     rl.question('Where are the translations? ', function(baseFolder) {
-      // Needed because drag-dropping a path in the terminal on macOS adds a space at the end.
-      baseFolder = baseFolder.trim();
+      // Normalise path input
+      baseFolder = baseFolder
+        // Fix apexes added when dropping paths in VSCode
+        .replace(/^'/, '').replace(/'$/, '')
+        // Fix whitespace added at the end of the string by macOS Terminal and iTerm
+        .trim();
       console.log(`The base folder is: ${baseFolder}`);
-      // filter for folders named like `it_IT`
+      // Filter for folders named like `it_IT`
       const folders = fs.readdirSync(baseFolder).filter(name => /^[a-z]{2}(-[A-Z]{2})?$/.test(name));
       folders.forEach(name => {
         const localesFolderBase = path.join(__dirname, 'locales/');
