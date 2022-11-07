@@ -7,15 +7,6 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-const fixFormatting = (file) => {
-  const dataBuffer = fs.readFileSync(file);
-  const fileContent = dataBuffer.toString();
-  const newContent =
-    fileContent
-      .replace(/# smartling\.placeholder_format=C[\n\r]/g, '');
-  fs.writeFileSync(file, newContent);
-}
-
 const moveFiles = (srcDir, destDir) => {
   const files = fs.readdirSync(srcDir)
   return files.map(async file => {
@@ -25,7 +16,6 @@ const moveFiles = (srcDir, destDir) => {
       fs.mkdirSync(destDir, {recursive: true})
       fs.renameSync(srcFile, destFile);
       fs.rmdirSync(srcDir);
-      fixFormatting(destFile);
       console.log(`Moved file from ${srcDir} to ${destFile}`);
     } catch (e) {
       console.log(`Got an error trying to move the file: ${e.message}`)
