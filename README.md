@@ -44,8 +44,6 @@ The following languages will be affected:
 - Turkish
 - Ukrainian
 
-Soon, we plan to launch a complete review of all translations to ensure even more consistency across languages.
-
 We're very grateful for all the translation contributions that have helped support users around the world up to now, and we still welcome comments to help us improve translations. Please [open an Issue](https://github.com/duckduckgo/duckduckgo-locales/issues/new) and let us know what you think.
 
 ## About PO files
@@ -140,6 +138,7 @@ Find the locale code for your language in the list below. The file can be found 
 - ka_GE: ქართული
 - kn_IN: ಕನ್ನಡ (India)
 - ko_KR: 한국어 (대한민국)
+- ku: Kurdî
 - kw_GB: Kernowek
 - ky_KG: кыргызча
 - ln_CD: Lingála
@@ -179,3 +178,15 @@ Find the locale code for your language in the list below. The file can be found 
 - vi_VN: Tiếng Việt (Việt Nam)
 - zh_CN: 中文 (中国)
 - zh_TW: 中文 (台灣)
+
+## Import translations from Smartling
+
+**Note:** This is only needed for DuckDuckGo employees. Community translators can ignore it 🙂.
+
+To import translations from Smartling:
+
+1. Unzip the output file
+2. From this folder, run `node ./adapt-translations-from-smartling.js`
+3. The script will ask for the location of the translated files. On macOS you can drag-drop the folder you just unzipped from Finder right to the terminal window
+4. Hit enter
+5. Review and commit 🎉
