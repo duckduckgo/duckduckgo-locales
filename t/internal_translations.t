@@ -123,8 +123,8 @@ use vars qw/*name *dir *prune %european_languages/;
       ad_badge => "Vizualizarea reclamelor este protejată de confidențialitatea DuckDuckGo. Clicurile pe reclame  sunt gestionate de rețeaua publicitară Microsoft"
     },
     ru_RU => {
-      more_info => "подробнее",
-      ad_badge => "DuckDuckGo обеспечивает защиту конфиденциальности пользователей при просмотре рекламных объявлений. Управление переходами по рекламным объявлениям осуществляется рекламной сетью «Майкрософт»"
+      more_info => "Подробнее",
+      ad_badge => "DuckDuckGo обеспечивает защиту конфиденциальности пользователей при просмотре рекламных объявлений. Управление переходами по рекламным объявлениям осуществляется рекламной сетью Майкрософт"
     },
     si_LK => {
       more_info => "දත්ත තවත්",
