@@ -41,6 +41,11 @@ msgctxt "Sports module"
 msgid "%s Season"
 msgstr "Temporada %s"
 
+#. Number of tracking attempts blocked, when there is more than 1. Eg: '2 attempts' or '302 attempts'
+msgctxt "tracker_stats"
+msgid "%s attempts"
+msgstr ""
+
 msgid "%s blocked by safe search."
 msgstr "%s bloquejat per la cerca segura."
 
@@ -79,6 +84,10 @@ msgstr "%s milles"
 msgctxt "maps_places"
 msgid "%s on %s"
 msgstr "%s a %s"
+
+#. The main headline indicating that more than 1 attempt has been blocked. Eg: '2 tracking attempts blocked'
+msgid "%s tracking attempts blocked"
+msgstr ""
 
 msgctxt "install-duckduckgo"
 msgid "%sClick %sAdd%sCheck %sAllow%s, then click %sOkay%s"
@@ -131,6 +140,11 @@ msgstr "%sRestableix els filtres %s"
 msgid "%sRight click%s in the search bar"
 msgstr "Feu %sclic dret%s a la barra de cerca"
 
+#. Number of tracking attempts blocked, when there's only 1
+msgctxt "tracker_stats"
+msgid "1 attempt"
+msgstr ""
+
 #. We realise this is the incorrect way to handle plurals. Sorry, we are working on a fix.
 msgctxt "published dates for organic results"
 msgid "1 day ago"
@@ -140,6 +154,10 @@ msgstr "fa 1 dia"
 msgctxt "published dates for organic results"
 msgid "1 hour ago"
 msgstr "fa 1 hora"
+
+#. The main headline indicating that 1 tracker was blocked
+msgid "1 tracking attempt blocked"
+msgstr ""
 
 msgctxt "install-extension"
 msgid "1. Open %sDownloads%s"
@@ -1747,6 +1765,13 @@ msgstr "Centre de suport del DuckDuckGo"
 msgid "DuckDuckGo URL Parameters"
 msgstr "Paràmetres de l'URL de DuckDuckGo"
 
+#. An information popup explaining that we block trackers
+msgid ""
+"DuckDuckGo blocks trackers on websites you visit, including trackers from "
+"companies like Google and Facebook, who often try to track you on other "
+"websites."
+msgstr ""
+
 msgctxt "precise_user_location"
 msgid ""
 "DuckDuckGo is private by design. When you enable location, it is stored on "
@@ -2149,6 +2174,11 @@ msgstr "Francès"
 msgctxt "language_name"
 msgid "French (Canada)"
 msgstr "Francès (Canadà)"
+
+#. Weekday abbreviation (short for 'Friday')
+msgctxt "maps_places"
+msgid "Fri"
+msgstr ""
 
 #. Weekday in plural form
 msgctxt "maps_places"
@@ -2908,6 +2938,11 @@ msgctxt "language_name"
 msgid "Kazakh"
 msgstr "Kazakh"
 
+#. An instruction to state that a list of companies/trackers will be updated with continued use
+msgctxt "tracker_stats"
+msgid "Keep browsing to see how many we block"
+msgstr ""
+
 msgid "Keep in Touch"
 msgstr "Estem en contacte"
 
@@ -3398,6 +3433,11 @@ msgctxt "settingsvalue"
 msgid "Moderate"
 msgstr "Moderat"
 
+#. Weekday abbreviation (short for 'Monday')
+msgctxt "maps_places"
+msgid "Mon"
+msgstr ""
+
 #. Weekday in plural form
 msgctxt "maps_places"
 msgid "Mondays"
@@ -3639,6 +3679,10 @@ msgctxt "settingsvalue"
 msgid "No preference (default)"
 msgstr "Sense preferències (per defecte)"
 
+#. Placeholder to indicate that nothing was blocked in the last hour
+msgid "No recent tracking activity"
+msgstr ""
+
 msgid "No results"
 msgstr "Sense resultats"
 
@@ -3653,6 +3697,11 @@ msgstr "Sense resultats."
 msgctxt "new user poll"
 msgid "No thanks."
 msgstr "No, gràcies."
+
+#. Heading for the tracker/companies list when we have observed trackers, but none in the last hour
+msgctxt "tracker_stats"
+msgid "No trackers blocked in the last hour"
+msgstr ""
 
 msgctxt "homepage onboarding"
 msgid "No tracking, no ad targeting, just searching!"
@@ -4682,6 +4731,11 @@ msgctxt "language_name"
 msgid "Samoan"
 msgstr "Samoà"
 
+#. Weekday abbreviation (short for 'Saturday')
+msgctxt "maps_places"
+msgid "Sat"
+msgstr ""
+
 #. For a button that shows satellite imagery on a map
 msgctxt "map-mode"
 msgid "Satellite"
@@ -5152,6 +5206,10 @@ msgctxt "load_more"
 msgid "Show More"
 msgstr "Mostra més"
 
+msgctxt "new tab page"
+msgid "Show Most Visited Sites"
+msgstr ""
+
 #. Click "Load Settings" - http://i.imgur.com/cii6KqL.png
 #. Then - http://i.imgur.com/nOvjdKb.png
 msgctxt "settings"
@@ -5170,6 +5228,10 @@ msgstr "Mostra resultats web"
 msgctxt "directions"
 msgid "Show map"
 msgstr "Mostra el mapa"
+
+#. The aria-label text for a toggle button that shows/hides the detailed feed
+msgid "Show recent activity"
+msgstr ""
 
 msgctxt "video-duration"
 msgid "Show videos of any length"
@@ -5455,6 +5517,11 @@ msgstr "Suggeriments:"
 msgctxt "Covid 19 module"
 msgid "Summary"
 msgstr "Resum"
+
+#. Weekday abbreviation (short for 'Sunday')
+msgctxt "maps_places"
+msgid "Sun"
+msgstr ""
 
 #. Weekday in plural form
 msgctxt "maps_places"
@@ -5762,6 +5829,11 @@ msgstr ""
 "Això restablirà la configuració desada als valors per defecte. Voleu "
 "continuar?"
 
+#. Weekday abbreviation (short for 'Thursday')
+msgctxt "maps_places"
+msgid "Thu"
+msgstr ""
+
 #. Weekday in plural form
 msgctxt "maps_places"
 msgid "Thursdays"
@@ -5860,6 +5932,16 @@ msgctxt "frontpage"
 msgid "Tour"
 msgstr "Recorregut"
 
+#. Heading above the list of trackers/companies
+msgctxt "tracker_stats"
+msgid "Trackers blocked in the last hour"
+msgstr ""
+
+#. Placeholder for when we cannot report any blocked trackers yet
+msgctxt "tracker_stats"
+msgid "Trackers that DuckDuckGo blocks will appear here"
+msgstr ""
+
 #. Part of the sentence: "<b>Translate</b> us."
 msgctxt "translateus"
 msgid "Translate"
@@ -5933,6 +6015,11 @@ msgstr "Proveu amb: %s"
 msgctxt "new user poll"
 msgid "Trying DuckDuckGo again"
 msgstr "Al DuckDuckGo de nou"
+
+#. Weekday abbreviation (short for 'Tuesday')
+msgctxt "maps_places"
+msgid "Tue"
+msgstr ""
 
 #. Weekday in plural form
 msgctxt "maps_places"
@@ -6399,6 +6486,11 @@ msgstr "El lloc web és incorrecte"
 msgctxt "feedback form"
 msgid "Website is missing"
 msgstr "Falta el lloc web"
+
+#. Weekday abbreviation (short for 'Wednesday')
+msgctxt "maps_places"
+msgid "Wed"
+msgstr ""
 
 #. Weekday in plural form
 msgctxt "maps_places"

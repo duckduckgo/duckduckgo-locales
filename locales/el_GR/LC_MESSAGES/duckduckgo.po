@@ -40,6 +40,12 @@ msgid "%s Season"
 msgstr "Σεζόν %1$s"
 
 # smartling.placeholder_format=C
+#. Number of tracking attempts blocked, when there is more than 1. Eg: '2 attempts' or '302 attempts'
+msgctxt "tracker_stats"
+msgid "%s attempts"
+msgstr "%1$s προσπάθειες"
+
+# smartling.placeholder_format=C
 msgid "%s blocked by safe search."
 msgstr "%1$s εμποδίστηκε από την ασφαλή αναζήτηση."
 
@@ -86,6 +92,11 @@ msgstr "%1$s μίλια"
 msgctxt "maps_places"
 msgid "%s on %s"
 msgstr "%1$s στο %2$s"
+
+# smartling.placeholder_format=C
+#. The main headline indicating that more than 1 attempt has been blocked. Eg: '2 tracking attempts blocked'
+msgid "%s tracking attempts blocked"
+msgstr "Αποκλείστηκαν %1$s προσπάθειες παρακολούθησης"
 
 # smartling.placeholder_format=C
 msgctxt "install-duckduckgo"
@@ -144,6 +155,12 @@ msgid "%sRight click%s in the search bar"
 msgstr "%1$sΚάντε δεξί κλικ%2$s στο πλαίσιο αναζήτησης"
 
 # smartling.placeholder_format=C
+#. Number of tracking attempts blocked, when there's only 1
+msgctxt "tracker_stats"
+msgid "1 attempt"
+msgstr "1 προσπάθεια"
+
+# smartling.placeholder_format=C
 #. We realise this is the incorrect way to handle plurals. Sorry, we are working on a fix.
 msgctxt "published dates for organic results"
 msgid "1 day ago"
@@ -154,6 +171,11 @@ msgstr "1 ημέρα πριν"
 msgctxt "published dates for organic results"
 msgid "1 hour ago"
 msgstr "1 ώρα πριν"
+
+# smartling.placeholder_format=C
+#. The main headline indicating that 1 tracker was blocked
+msgid "1 tracking attempt blocked"
+msgstr "Αποκλείστηκε 1 προσπάθεια παρακολούθησης"
 
 # smartling.placeholder_format=C
 msgctxt "install-extension"
@@ -2125,6 +2147,15 @@ msgid "DuckDuckGo URL Parameters"
 msgstr "Παράμετροι URL DuckDuckGo"
 
 # smartling.placeholder_format=C
+#. An information popup explaining that we block trackers
+msgid ""
+"DuckDuckGo blocks trackers on websites you visit, including trackers from "
+"companies like Google and Facebook, who often try to track you on other "
+"websites."
+msgstr "Το DuckDuckGo αποκλείει εφαρμογές παρακολούθησης σε ιστότοπους που επισκέπτεστε, συμπεριλαμβανομένων εφαρμογών παρακολούθησης από εταιρείες όπως η Google"
+" και η Facebook, οι οποίες προσπαθούν συχνά να σας παρακολουθούν σε άλλους ιστότοπους."
+
+# smartling.placeholder_format=C
 msgctxt "precise_user_location"
 msgid ""
 "DuckDuckGo is private by design. When you enable location, it is stored on "
@@ -2596,6 +2627,12 @@ msgstr "Γαλλικά"
 msgctxt "language_name"
 msgid "French (Canada)"
 msgstr "Γαλλικά (Καναδά)"
+
+# smartling.placeholder_format=C
+#. Weekday abbreviation (short for 'Friday')
+msgctxt "maps_places"
+msgid "Fri"
+msgstr "Παρ"
 
 # smartling.placeholder_format=C
 #. Weekday in plural form
@@ -3489,6 +3526,12 @@ msgid "Kazakh"
 msgstr "Καζακικά"
 
 # smartling.placeholder_format=C
+#. An instruction to state that a list of companies/trackers will be updated with continued use
+msgctxt "tracker_stats"
+msgid "Keep browsing to see how many we block"
+msgstr "Συνεχίστε την περιήγησή σας για να δείτε πόσους αποκλείουμε"
+
+# smartling.placeholder_format=C
 msgid "Keep in Touch"
 msgstr "Μείνετε σε Επαφή"
 
@@ -4086,6 +4129,12 @@ msgid "Moderate"
 msgstr "Μέτριο"
 
 # smartling.placeholder_format=C
+#. Weekday abbreviation (short for 'Monday')
+msgctxt "maps_places"
+msgid "Mon"
+msgstr "Δευ"
+
+# smartling.placeholder_format=C
 #. Weekday in plural form
 msgctxt "maps_places"
 msgid "Mondays"
@@ -4114,7 +4163,7 @@ msgstr "Περισσότερες Εικόνες"
 
 # smartling.placeholder_format=C
 msgid "More Info"
-msgstr "Περισσότερες πληροφορίες"
+msgstr "περισσότερες πληροφορίες"
 
 # smartling.placeholder_format=C
 msgctxt "Ads GDPR, internal use only. Do not change"
@@ -4389,6 +4438,11 @@ msgid "No preference (default)"
 msgstr "Καμία Προτίμηση (Προεπιλογή)"
 
 # smartling.placeholder_format=C
+#. Placeholder to indicate that nothing was blocked in the last hour
+msgid "No recent tracking activity"
+msgstr "Δεν υπάρχει πρόσφατη δραστηριότητα παρακολούθησης"
+
+# smartling.placeholder_format=C
 msgid "No results"
 msgstr "Κανένα αποτέλεσμα"
 
@@ -4406,6 +4460,12 @@ msgstr "Δεν βρέθηκαν αποτελέσματα."
 msgctxt "new user poll"
 msgid "No thanks."
 msgstr "Όχι ευχαριστώ."
+
+# smartling.placeholder_format=C
+#. Heading for the tracker/companies list when we have observed trackers, but none in the last hour
+msgctxt "tracker_stats"
+msgid "No trackers blocked in the last hour"
+msgstr "Δεν αποκλείστηκαν εφαρμογές παρακολούθησης κατά την τελευταία ώρα"
 
 # smartling.placeholder_format=C
 msgctxt "homepage onboarding"
@@ -5016,7 +5076,7 @@ msgstr "Επιλέξτε ένα συγκεκριμένο πρόβλημα"
 # smartling.placeholder_format=C
 #. Used for various color settings  query parameters values captions into <a =href="https://duckduckgo.com/params.html">query parameters documentation page</a>.
 msgid "Pink"
-msgstr "Ρόζ"
+msgstr "Ροζ"
 
 # smartling.placeholder_format=C
 msgctxt "color"
@@ -5374,7 +5434,7 @@ msgstr "Πουντζάμπι"
 # smartling.placeholder_format=C
 #. Used for various color settings  query parameters values captions into <a =href="https://duckduckgo.com/params.html">query parameters documentation page</a>.
 msgid "Purple"
-msgstr "Μωβ"
+msgstr "Μώβ"
 
 # smartling.placeholder_format=C
 msgctxt "color"
@@ -5661,6 +5721,12 @@ msgstr "Ασφαλής αναζήτηση:"
 msgctxt "language_name"
 msgid "Samoan"
 msgstr "Σαμόα"
+
+# smartling.placeholder_format=C
+#. Weekday abbreviation (short for 'Saturday')
+msgctxt "maps_places"
+msgid "Sat"
+msgstr "Σάβ"
 
 # smartling.placeholder_format=C
 #. For a button that shows satellite imagery on a map
@@ -6237,6 +6303,11 @@ msgid "Show More"
 msgstr "Δείξε Περισσόερα"
 
 # smartling.placeholder_format=C
+msgctxt "new tab page"
+msgid "Show Most Visited Sites"
+msgstr "Εμφάνιση ιστότοπων με τις περισσότερες επισκέψεις"
+
+# smartling.placeholder_format=C
 #. Click "Load Settings" - http://i.imgur.com/cii6KqL.png
 #. Then - http://i.imgur.com/nOvjdKb.png
 msgctxt "settings"
@@ -6258,6 +6329,11 @@ msgstr "Εμφάνιση αποτελεσμάτων ιστού"
 msgctxt "directions"
 msgid "Show map"
 msgstr "Εμφάνιση χάρτη"
+
+# smartling.placeholder_format=C
+#. The aria-label text for a toggle button that shows/hides the detailed feed
+msgid "Show recent activity"
+msgstr "Εμφάνιση πρόσφατης δραστηριότητας"
 
 # smartling.placeholder_format=C
 msgctxt "video-duration"
@@ -6594,6 +6670,12 @@ msgstr "Προτάσεις:"
 msgctxt "Covid 19 module"
 msgid "Summary"
 msgstr "Περίληψη"
+
+# smartling.placeholder_format=C
+#. Weekday abbreviation (short for 'Sunday')
+msgctxt "maps_places"
+msgid "Sun"
+msgstr "Κυρ"
 
 # smartling.placeholder_format=C
 #. Weekday in plural form
@@ -6959,6 +7041,12 @@ msgid "This will reset your saved settings to default values. Continue?"
 msgstr "Αυτή η επιλογή πρόκειται να διαγράψει τις αποθηκευμένες σας ρυθμίσεις και επιστρέφει στην αρχική προεπιλογή. Συνέχεια;"
 
 # smartling.placeholder_format=C
+#. Weekday abbreviation (short for 'Thursday')
+msgctxt "maps_places"
+msgid "Thu"
+msgstr "Πέμ"
+
+# smartling.placeholder_format=C
 #. Weekday in plural form
 msgctxt "maps_places"
 msgid "Thursdays"
@@ -7076,6 +7164,18 @@ msgid "Tour"
 msgstr "Περιήγηση"
 
 # smartling.placeholder_format=C
+#. Heading above the list of trackers/companies
+msgctxt "tracker_stats"
+msgid "Trackers blocked in the last hour"
+msgstr "Εφαρμογές παρακολούθησης που αποκλείστηκαν την τελευταία ώρα"
+
+# smartling.placeholder_format=C
+#. Placeholder for when we cannot report any blocked trackers yet
+msgctxt "tracker_stats"
+msgid "Trackers that DuckDuckGo blocks will appear here"
+msgstr "Οι εφαρμογές παρακολούθησης που αποκλείει το DuckDuckGo θα εμφανίζονται εδώ"
+
+# smartling.placeholder_format=C
 #. Part of the sentence: "<b>Translate</b> us."
 msgctxt "translateus"
 msgid "Translate"
@@ -7165,6 +7265,12 @@ msgstr "Δοκιμάστε: %1$s"
 msgctxt "new user poll"
 msgid "Trying DuckDuckGo again"
 msgstr "Δοκιμάζοντας το DuckDuckGo ξανά"
+
+# smartling.placeholder_format=C
+#. Weekday abbreviation (short for 'Tuesday')
+msgctxt "maps_places"
+msgid "Tue"
+msgstr "Τρί"
 
 # smartling.placeholder_format=C
 #. Weekday in plural form
@@ -7716,6 +7822,12 @@ msgid "Website is missing"
 msgstr "Ο ιστότοπος λείπει"
 
 # smartling.placeholder_format=C
+#. Weekday abbreviation (short for 'Wednesday')
+msgctxt "maps_places"
+msgid "Wed"
+msgstr "Τετ"
+
+# smartling.placeholder_format=C
 #. Weekday in plural form
 msgctxt "maps_places"
 msgid "Wednesdays"
@@ -8121,7 +8233,7 @@ msgstr "διαφήμιση"
 # smartling.placeholder_format=C
 #. Used in 0-click box for product results, e.g. <a href="https://duckduckgo.com/?q=9780061353246">https://duckduckgo.com/?q=9780061353246</a>
 msgid "by %s"
-msgstr "από το %1$s"
+msgstr "από %1$s"
 
 # smartling.placeholder_format=C
 msgctxt "made_by"

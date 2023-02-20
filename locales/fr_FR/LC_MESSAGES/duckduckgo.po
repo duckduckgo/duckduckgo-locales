@@ -40,6 +40,12 @@ msgid "%s Season"
 msgstr "Saison %1$s"
 
 # smartling.placeholder_format=C
+#. Number of tracking attempts blocked, when there is more than 1. Eg: '2 attempts' or '302 attempts'
+msgctxt "tracker_stats"
+msgid "%s attempts"
+msgstr "%1$s tentatives"
+
+# smartling.placeholder_format=C
 msgid "%s blocked by safe search."
 msgstr "%1$s bloqué par la recherche sécurisée."
 
@@ -86,6 +92,11 @@ msgstr "%1$s mi"
 msgctxt "maps_places"
 msgid "%s on %s"
 msgstr "%1$s sur %2$s"
+
+# smartling.placeholder_format=C
+#. The main headline indicating that more than 1 attempt has been blocked. Eg: '2 tracking attempts blocked'
+msgid "%s tracking attempts blocked"
+msgstr "%1$s tentatives de pistage bloquées"
 
 # smartling.placeholder_format=C
 msgctxt "install-duckduckgo"
@@ -144,6 +155,12 @@ msgid "%sRight click%s in the search bar"
 msgstr "%1$sClic droit%2$s dans la barre de recherche"
 
 # smartling.placeholder_format=C
+#. Number of tracking attempts blocked, when there's only 1
+msgctxt "tracker_stats"
+msgid "1 attempt"
+msgstr "1 tentative"
+
+# smartling.placeholder_format=C
 #. We realise this is the incorrect way to handle plurals. Sorry, we are working on a fix.
 msgctxt "published dates for organic results"
 msgid "1 day ago"
@@ -154,6 +171,11 @@ msgstr "Il y a 1 jour"
 msgctxt "published dates for organic results"
 msgid "1 hour ago"
 msgstr "Il ya 1 heure"
+
+# smartling.placeholder_format=C
+#. The main headline indicating that 1 tracker was blocked
+msgid "1 tracking attempt blocked"
+msgstr "1 tentative de pistage bloquée"
 
 # smartling.placeholder_format=C
 msgctxt "install-extension"
@@ -2125,6 +2147,15 @@ msgid "DuckDuckGo URL Parameters"
 msgstr "Paramètres de l'URL DuckDuckGo"
 
 # smartling.placeholder_format=C
+#. An information popup explaining that we block trackers
+msgid ""
+"DuckDuckGo blocks trackers on websites you visit, including trackers from "
+"companies like Google and Facebook, who often try to track you on other "
+"websites."
+msgstr "DuckDuckGo bloque les traqueurs sur les sites Web que vous visitez, y compris les traqueurs d'entreprises comme Google et Facebook, qui essaient souvent"
+" de vous pister sur d'autres sites Web."
+
+# smartling.placeholder_format=C
 msgctxt "precise_user_location"
 msgid ""
 "DuckDuckGo is private by design. When you enable location, it is stored on "
@@ -2595,6 +2626,12 @@ msgstr "Français"
 msgctxt "language_name"
 msgid "French (Canada)"
 msgstr "Français (Canada)"
+
+# smartling.placeholder_format=C
+#. Weekday abbreviation (short for 'Friday')
+msgctxt "maps_places"
+msgid "Fri"
+msgstr "Ven"
 
 # smartling.placeholder_format=C
 #. Weekday in plural form
@@ -3487,6 +3524,12 @@ msgid "Kazakh"
 msgstr "Kazakh"
 
 # smartling.placeholder_format=C
+#. An instruction to state that a list of companies/trackers will be updated with continued use
+msgctxt "tracker_stats"
+msgid "Keep browsing to see how many we block"
+msgstr "Continuez à naviguer pour voir combien nous en bloquons"
+
+# smartling.placeholder_format=C
 msgid "Keep in Touch"
 msgstr "Restez en contact"
 
@@ -4084,6 +4127,12 @@ msgid "Moderate"
 msgstr "Modérée"
 
 # smartling.placeholder_format=C
+#. Weekday abbreviation (short for 'Monday')
+msgctxt "maps_places"
+msgid "Mon"
+msgstr "Lun"
+
+# smartling.placeholder_format=C
 #. Weekday in plural form
 msgctxt "maps_places"
 msgid "Mondays"
@@ -4387,6 +4436,11 @@ msgid "No preference (default)"
 msgstr "Aucune préférence (par défaut)"
 
 # smartling.placeholder_format=C
+#. Placeholder to indicate that nothing was blocked in the last hour
+msgid "No recent tracking activity"
+msgstr "Aucune activité de pistage récente"
+
+# smartling.placeholder_format=C
 msgid "No results"
 msgstr "Aucune recherche n'a pas été trouvée"
 
@@ -4404,6 +4458,12 @@ msgstr "Aucun résultat trouvé."
 msgctxt "new user poll"
 msgid "No thanks."
 msgstr "Non merci."
+
+# smartling.placeholder_format=C
+#. Heading for the tracker/companies list when we have observed trackers, but none in the last hour
+msgctxt "tracker_stats"
+msgid "No trackers blocked in the last hour"
+msgstr "Aucun traqueur bloqué au cours de la dernière heure"
 
 # smartling.placeholder_format=C
 msgctxt "homepage onboarding"
@@ -5290,7 +5350,7 @@ msgstr "Votre confidentialité, simplifiée"
 
 # smartling.placeholder_format=C
 msgid "Privacy, simplified."
-msgstr "Votre confidentialité, simplifiée."
+msgstr "La confidentialité, simplifiée."
 
 # smartling.placeholder_format=C
 msgid "Private Search"
@@ -5659,6 +5719,12 @@ msgstr "Filtre parental :"
 msgctxt "language_name"
 msgid "Samoan"
 msgstr "Samoan"
+
+# smartling.placeholder_format=C
+#. Weekday abbreviation (short for 'Saturday')
+msgctxt "maps_places"
+msgid "Sat"
+msgstr "Sam"
 
 # smartling.placeholder_format=C
 #. For a button that shows satellite imagery on a map
@@ -6235,6 +6301,11 @@ msgid "Show More"
 msgstr "Afficher plus"
 
 # smartling.placeholder_format=C
+msgctxt "new tab page"
+msgid "Show Most Visited Sites"
+msgstr "Afficher les sites les plus visités"
+
+# smartling.placeholder_format=C
 #. Click "Load Settings" - http://i.imgur.com/cii6KqL.png
 #. Then - http://i.imgur.com/nOvjdKb.png
 msgctxt "settings"
@@ -6256,6 +6327,11 @@ msgstr "Afficher les résultats web"
 msgctxt "directions"
 msgid "Show map"
 msgstr "Afficher la carte"
+
+# smartling.placeholder_format=C
+#. The aria-label text for a toggle button that shows/hides the detailed feed
+msgid "Show recent activity"
+msgstr "Afficher l'activité récente"
 
 # smartling.placeholder_format=C
 msgctxt "video-duration"
@@ -6592,6 +6668,12 @@ msgstr "Suggestions:"
 msgctxt "Covid 19 module"
 msgid "Summary"
 msgstr "Résumé"
+
+# smartling.placeholder_format=C
+#. Weekday abbreviation (short for 'Sunday')
+msgctxt "maps_places"
+msgid "Sun"
+msgstr "Dim"
 
 # smartling.placeholder_format=C
 #. Weekday in plural form
@@ -6956,6 +7038,12 @@ msgid "This will reset your saved settings to default values. Continue?"
 msgstr "Vos paramètres enregistrés seront réinitialisés aux valeurs par défaut. Continuer quand même ?"
 
 # smartling.placeholder_format=C
+#. Weekday abbreviation (short for 'Thursday')
+msgctxt "maps_places"
+msgid "Thu"
+msgstr "Jeu"
+
+# smartling.placeholder_format=C
 #. Weekday in plural form
 msgctxt "maps_places"
 msgid "Thursdays"
@@ -7022,7 +7110,7 @@ msgstr "Pour imprimer l'itinéraire : %1$sRetournez à la carte. %2$sSélection
 
 # smartling.placeholder_format=C
 msgid "Today"
-msgstr "Aujourd'hui"
+msgstr "Auj."
 
 # smartling.placeholder_format=C
 #. Button label for selecting chart of today's prices
@@ -7071,6 +7159,18 @@ msgstr "Visite"
 msgctxt "frontpage"
 msgid "Tour"
 msgstr "Visite"
+
+# smartling.placeholder_format=C
+#. Heading above the list of trackers/companies
+msgctxt "tracker_stats"
+msgid "Trackers blocked in the last hour"
+msgstr "Traqueurs bloqués au cours de la dernière heure"
+
+# smartling.placeholder_format=C
+#. Placeholder for when we cannot report any blocked trackers yet
+msgctxt "tracker_stats"
+msgid "Trackers that DuckDuckGo blocks will appear here"
+msgstr "Les traqueurs bloqués par DuckDuckGo apparaîtront ici"
 
 # smartling.placeholder_format=C
 #. Part of the sentence: "<b>Translate</b> us."
@@ -7162,6 +7262,12 @@ msgstr "Essayez : %1$s"
 msgctxt "new user poll"
 msgid "Trying DuckDuckGo again"
 msgstr "Réessayer DuckDuckGo"
+
+# smartling.placeholder_format=C
+#. Weekday abbreviation (short for 'Tuesday')
+msgctxt "maps_places"
+msgid "Tue"
+msgstr "Mar"
 
 # smartling.placeholder_format=C
 #. Weekday in plural form
@@ -7710,6 +7816,12 @@ msgstr "Site Web erroné"
 msgctxt "feedback form"
 msgid "Website is missing"
 msgstr "Site Web manquant"
+
+# smartling.placeholder_format=C
+#. Weekday abbreviation (short for 'Wednesday')
+msgctxt "maps_places"
+msgid "Wed"
+msgstr "Mer"
 
 # smartling.placeholder_format=C
 #. Weekday in plural form
