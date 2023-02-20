@@ -40,6 +40,12 @@ msgid "%s Season"
 msgstr "%1$s 年賽季"
 
 # smartling.placeholder_format=C
+#. Number of tracking attempts blocked, when there is more than 1. Eg: '2 attempts' or '302 attempts'
+msgctxt "tracker_stats"
+msgid "%s attempts"
+msgstr "%1$s 次嘗試"
+
+# smartling.placeholder_format=C
 msgid "%s blocked by safe search."
 msgstr "安全搜尋已封鎖%1$s"
 
@@ -86,6 +92,11 @@ msgstr "%1$s 英哩"
 msgctxt "maps_places"
 msgid "%s on %s"
 msgstr "%1$s 來自 %2$s"
+
+# smartling.placeholder_format=C
+#. The main headline indicating that more than 1 attempt has been blocked. Eg: '2 tracking attempts blocked'
+msgid "%s tracking attempts blocked"
+msgstr "已封鎖了 %1$s 次追蹤嘗試"
 
 # smartling.placeholder_format=C
 msgctxt "install-duckduckgo"
@@ -144,6 +155,12 @@ msgid "%sRight click%s in the search bar"
 msgstr "在搜尋欄中%1$s點擊右鍵%2$s"
 
 # smartling.placeholder_format=C
+#. Number of tracking attempts blocked, when there's only 1
+msgctxt "tracker_stats"
+msgid "1 attempt"
+msgstr "1 次嘗試"
+
+# smartling.placeholder_format=C
 #. We realise this is the incorrect way to handle plurals. Sorry, we are working on a fix.
 msgctxt "published dates for organic results"
 msgid "1 day ago"
@@ -154,6 +171,11 @@ msgstr "1 天前"
 msgctxt "published dates for organic results"
 msgid "1 hour ago"
 msgstr "1 小時前"
+
+# smartling.placeholder_format=C
+#. The main headline indicating that 1 tracker was blocked
+msgid "1 tracking attempt blocked"
+msgstr "已封鎖了 1 次追蹤嘗試"
 
 # smartling.placeholder_format=C
 msgctxt "install-extension"
@@ -894,7 +916,7 @@ msgstr "部落格"
 # smartling.placeholder_format=C
 #. The color blue
 msgid "Blue"
-msgstr "藍"
+msgstr "藍色"
 
 # smartling.placeholder_format=C
 msgctxt "color"
@@ -2118,6 +2140,14 @@ msgid "DuckDuckGo URL Parameters"
 msgstr "DuckDuckGo 連結 (URL) 參數"
 
 # smartling.placeholder_format=C
+#. An information popup explaining that we block trackers
+msgid ""
+"DuckDuckGo blocks trackers on websites you visit, including trackers from "
+"companies like Google and Facebook, who often try to track you on other "
+"websites."
+msgstr "DuckDuckGo 將封鎖你造訪網站上的追蹤器，包括來自 Google 和 Facebook 等公司的追蹤器，它們經常試圖在你造訪其他網站時追蹤你。"
+
+# smartling.placeholder_format=C
 msgctxt "precise_user_location"
 msgid ""
 "DuckDuckGo is private by design. When you enable location, it is stored on "
@@ -2467,7 +2497,7 @@ msgstr "篩選條件沒有用"
 
 # smartling.placeholder_format=C
 msgid "Final"
-msgstr "最後"
+msgstr "最後得分"
 
 # smartling.placeholder_format=C
 #. Used to indicate the game is over and the score shown is the final score, e.g. 10-5 Final
@@ -3477,6 +3507,12 @@ msgid "Kazakh"
 msgstr "哈薩克語"
 
 # smartling.placeholder_format=C
+#. An instruction to state that a list of companies/trackers will be updated with continued use
+msgctxt "tracker_stats"
+msgid "Keep browsing to see how many we block"
+msgstr "持續瀏覽來檢視我們封鎖了多少"
+
+# smartling.placeholder_format=C
 msgid "Keep in Touch"
 msgstr "保持聯繫"
 
@@ -3621,7 +3657,7 @@ msgstr "拉脫維亞語"
 # smartling.placeholder_format=C
 #. Button that opens more informations in the new messagebox suggesting to add DDG, in the homepage.
 msgid "Learn %sMore%s"
-msgstr "瞭解更多%1$s%2$s"
+msgstr "瞭解%1$s更多%2$s"
 
 # smartling.placeholder_format=C
 #. Coñecer, ter coñecemento...
@@ -3653,7 +3689,7 @@ msgstr "在 Firefox 附加元件中瞭解更多資訊"
 # smartling.placeholder_format=C
 msgctxt "showcase_newsletter"
 msgid "Learn about online privacy right in your inbox."
-msgstr "就在收件匣內了解線上隱私"
+msgstr "就在收件匣內瞭解線上隱私。"
 
 # smartling.placeholder_format=C
 msgctxt "SERP footer content"
@@ -4383,6 +4419,11 @@ msgid "No preference (default)"
 msgstr "無喜好設定（預設）"
 
 # smartling.placeholder_format=C
+#. Placeholder to indicate that nothing was blocked in the last hour
+msgid "No recent tracking activity"
+msgstr "沒有近期的追蹤活動"
+
+# smartling.placeholder_format=C
 msgid "No results"
 msgstr "沒有搜尋結果"
 
@@ -4400,6 +4441,12 @@ msgstr "找不到任何結果。"
 msgctxt "new user poll"
 msgid "No thanks."
 msgstr "不，謝了。"
+
+# smartling.placeholder_format=C
+#. Heading for the tracker/companies list when we have observed trackers, but none in the last hour
+msgctxt "tracker_stats"
+msgid "No trackers blocked in the last hour"
+msgstr "最近一小時內未封鎖任何追蹤器"
 
 # smartling.placeholder_format=C
 msgctxt "homepage onboarding"
@@ -4481,7 +4528,7 @@ msgstr "好的"
 # smartling.placeholder_format=C
 msgctxt "mobile promotion on desktop"
 msgid "OK, got it!"
-msgstr "好，了解！"
+msgstr "好，瞭解！"
 
 # smartling.placeholder_format=C
 #. Abbreviation indicating this is the score for a game that is in overtime
@@ -6245,6 +6292,11 @@ msgid "Show More"
 msgstr "顯示更多"
 
 # smartling.placeholder_format=C
+msgctxt "new tab page"
+msgid "Show Most Visited Sites"
+msgstr "顯示最常造訪的網站"
+
+# smartling.placeholder_format=C
 #. Click "Load Settings" - http://i.imgur.com/cii6KqL.png
 #. Then - http://i.imgur.com/nOvjdKb.png
 msgctxt "settings"
@@ -6266,6 +6318,11 @@ msgstr "顯示網頁搜尋結果"
 msgctxt "directions"
 msgid "Show map"
 msgstr "顯示地圖"
+
+# smartling.placeholder_format=C
+#. The aria-label text for a toggle button that shows/hides the detailed feed
+msgid "Show recent activity"
+msgstr "顯示近期的活動"
 
 # smartling.placeholder_format=C
 msgctxt "video-duration"
@@ -7091,6 +7148,18 @@ msgstr "使用教學"
 msgctxt "frontpage"
 msgid "Tour"
 msgstr "使用教學"
+
+# smartling.placeholder_format=C
+#. Heading above the list of trackers/companies
+msgctxt "tracker_stats"
+msgid "Trackers blocked in the last hour"
+msgstr "最近一小時內封鎖的追蹤器"
+
+# smartling.placeholder_format=C
+#. Placeholder for when we cannot report any blocked trackers yet
+msgctxt "tracker_stats"
+msgid "Trackers that DuckDuckGo blocks will appear here"
+msgstr "DuckDuckGo 封鎖追蹤器將顯示在此處"
 
 # smartling.placeholder_format=C
 #. Part of the sentence: "<b>Translate</b> us."
@@ -8145,7 +8214,7 @@ msgstr "廣告"
 # smartling.placeholder_format=C
 #. Used in 0-click box for product results, e.g. <a href="https://duckduckgo.com/?q=9780061353246">https://duckduckgo.com/?q=9780061353246</a>
 msgid "by %s"
-msgstr "來自%1$s"
+msgstr "由%1$s製作"
 
 # smartling.placeholder_format=C
 msgctxt "made_by"

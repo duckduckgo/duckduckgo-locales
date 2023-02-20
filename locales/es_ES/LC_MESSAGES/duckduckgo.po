@@ -40,6 +40,12 @@ msgid "%s Season"
 msgstr "%1$s Temporada"
 
 # smartling.placeholder_format=C
+#. Number of tracking attempts blocked, when there is more than 1. Eg: '2 attempts' or '302 attempts'
+msgctxt "tracker_stats"
+msgid "%s attempts"
+msgstr "%1$s intentos"
+
+# smartling.placeholder_format=C
 msgid "%s blocked by safe search."
 msgstr "%1$s bloqueado por la búsqueda segura."
 
@@ -86,6 +92,11 @@ msgstr "%1$s mi"
 msgctxt "maps_places"
 msgid "%s on %s"
 msgstr "%1$s en %2$s"
+
+# smartling.placeholder_format=C
+#. The main headline indicating that more than 1 attempt has been blocked. Eg: '2 tracking attempts blocked'
+msgid "%s tracking attempts blocked"
+msgstr "%1$s intentos de rastreo bloqueados"
 
 # smartling.placeholder_format=C
 msgctxt "install-duckduckgo"
@@ -144,6 +155,12 @@ msgid "%sRight click%s in the search bar"
 msgstr "%1$sClic derecho%2$s en la barra de búsqueda"
 
 # smartling.placeholder_format=C
+#. Number of tracking attempts blocked, when there's only 1
+msgctxt "tracker_stats"
+msgid "1 attempt"
+msgstr "1 intento"
+
+# smartling.placeholder_format=C
 #. We realise this is the incorrect way to handle plurals. Sorry, we are working on a fix.
 msgctxt "published dates for organic results"
 msgid "1 day ago"
@@ -154,6 +171,11 @@ msgstr "hace 1 día"
 msgctxt "published dates for organic results"
 msgid "1 hour ago"
 msgstr "1 hora antes"
+
+# smartling.placeholder_format=C
+#. The main headline indicating that 1 tracker was blocked
+msgid "1 tracking attempt blocked"
+msgstr "1 intento de rastreo bloqueado"
 
 # smartling.placeholder_format=C
 msgctxt "install-extension"
@@ -2123,6 +2145,15 @@ msgid "DuckDuckGo URL Parameters"
 msgstr "Parámetros URL de DuckDuckGo"
 
 # smartling.placeholder_format=C
+#. An information popup explaining that we block trackers
+msgid ""
+"DuckDuckGo blocks trackers on websites you visit, including trackers from "
+"companies like Google and Facebook, who often try to track you on other "
+"websites."
+msgstr "DuckDuckGo bloquea los rastreadores de los sitios web que visitas, incluidos los de empresas como Google y Facebook, que a menudo intentan rastrearte en"
+" otros sitios web."
+
+# smartling.placeholder_format=C
 msgctxt "precise_user_location"
 msgid ""
 "DuckDuckGo is private by design. When you enable location, it is stored on "
@@ -3487,6 +3518,12 @@ msgid "Kazakh"
 msgstr "Kazajo"
 
 # smartling.placeholder_format=C
+#. An instruction to state that a list of companies/trackers will be updated with continued use
+msgctxt "tracker_stats"
+msgid "Keep browsing to see how many we block"
+msgstr "Sigue navegando para ver cuántos bloqueamos"
+
+# smartling.placeholder_format=C
 msgid "Keep in Touch"
 msgstr "Mantén el contacto"
 
@@ -4393,6 +4430,11 @@ msgid "No preference (default)"
 msgstr "Sin preferencias (por defecto)"
 
 # smartling.placeholder_format=C
+#. Placeholder to indicate that nothing was blocked in the last hour
+msgid "No recent tracking activity"
+msgstr "No hay actividad de rastreo reciente"
+
+# smartling.placeholder_format=C
 msgid "No results"
 msgstr "Sin resultados"
 
@@ -4410,6 +4452,12 @@ msgstr "No se han encontrado resultados."
 msgctxt "new user poll"
 msgid "No thanks."
 msgstr "No gracias."
+
+# smartling.placeholder_format=C
+#. Heading for the tracker/companies list when we have observed trackers, but none in the last hour
+msgctxt "tracker_stats"
+msgid "No trackers blocked in the last hour"
+msgstr "No hay rastreadores bloqueados en la última hora"
 
 # smartling.placeholder_format=C
 msgctxt "homepage onboarding"
@@ -5383,7 +5431,7 @@ msgstr "Panyabí"
 # smartling.placeholder_format=C
 #. Used for various color settings  query parameters values captions into <a =href="https://duckduckgo.com/params.html">query parameters documentation page</a>.
 msgid "Purple"
-msgstr "Morado"
+msgstr "Lila"
 
 # smartling.placeholder_format=C
 msgctxt "color"
@@ -6161,12 +6209,12 @@ msgstr "Configura tu ubicación manualmente o asegúrate de que los servicios de
 # smartling.placeholder_format=C
 #. In the top dropdown menu  ("More" > "Settings")
 msgid "Settings"
-msgstr "Ajustes"
+msgstr "Configuración"
 
 # smartling.placeholder_format=C
 msgctxt "feedback form"
 msgid "Settings"
-msgstr "Ajustes"
+msgstr "Configuración"
 
 # smartling.placeholder_format=C
 #. http://i.imgur.com/uzNLMwE.png
@@ -6257,6 +6305,11 @@ msgid "Show More"
 msgstr "Mostrar más"
 
 # smartling.placeholder_format=C
+msgctxt "new tab page"
+msgid "Show Most Visited Sites"
+msgstr "Mostrar Páginas Más Visitadas"
+
+# smartling.placeholder_format=C
 #. Click "Load Settings" - http://i.imgur.com/cii6KqL.png
 #. Then - http://i.imgur.com/nOvjdKb.png
 msgctxt "settings"
@@ -6278,6 +6331,11 @@ msgstr "Mostrar resultados web"
 msgctxt "directions"
 msgid "Show map"
 msgstr "Mostrar mapa"
+
+# smartling.placeholder_format=C
+#. The aria-label text for a toggle button that shows/hides the detailed feed
+msgid "Show recent activity"
+msgstr "Mostrar actividad reciente"
 
 # smartling.placeholder_format=C
 msgctxt "video-duration"
@@ -6882,7 +6940,7 @@ msgstr "El mundo necesita una alternativa al modelo de negocio acaparador."
 #. Title for the theme menu:
 #. https://duck.co/media/files/theme.png
 msgid "Theme"
-msgstr "Diseño"
+msgstr "Temas"
 
 # smartling.placeholder_format=C
 #. http://i.imgur.com/LpFhb1e.png
@@ -7105,6 +7163,18 @@ msgstr "Paseo"
 msgctxt "frontpage"
 msgid "Tour"
 msgstr "Paseo"
+
+# smartling.placeholder_format=C
+#. Heading above the list of trackers/companies
+msgctxt "tracker_stats"
+msgid "Trackers blocked in the last hour"
+msgstr "Rastreadores bloqueados en la última hora"
+
+# smartling.placeholder_format=C
+#. Placeholder for when we cannot report any blocked trackers yet
+msgctxt "tracker_stats"
+msgid "Trackers that DuckDuckGo blocks will appear here"
+msgstr "Los rastreadores que bloquea DuckDuckGo aparecerán aquí"
 
 # smartling.placeholder_format=C
 #. Part of the sentence: "<b>Translate</b> us."

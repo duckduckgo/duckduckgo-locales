@@ -40,6 +40,12 @@ msgid "%s Season"
 msgstr "Сезон %1$s"
 
 # smartling.placeholder_format=C
+#. Number of tracking attempts blocked, when there is more than 1. Eg: '2 attempts' or '302 attempts'
+msgctxt "tracker_stats"
+msgid "%s attempts"
+msgstr "Спробы: %1$s"
+
+# smartling.placeholder_format=C
 msgid "%s blocked by safe search."
 msgstr "%1$s заблакавана бяспечным пошукам."
 
@@ -86,6 +92,11 @@ msgstr "%1$s міль"
 msgctxt "maps_places"
 msgid "%s on %s"
 msgstr "%1$s на %2$s"
+
+# smartling.placeholder_format=C
+#. The main headline indicating that more than 1 attempt has been blocked. Eg: '2 tracking attempts blocked'
+msgid "%s tracking attempts blocked"
+msgstr "Заблакіраваныя спробы адсочвання: %1$s"
 
 # smartling.placeholder_format=C
 msgctxt "install-duckduckgo"
@@ -144,6 +155,12 @@ msgid "%sRight click%s in the search bar"
 msgstr "%1$sПстрыкніце правай кнопкай%2$s у радку пошуку"
 
 # smartling.placeholder_format=C
+#. Number of tracking attempts blocked, when there's only 1
+msgctxt "tracker_stats"
+msgid "1 attempt"
+msgstr "1 спроба"
+
+# smartling.placeholder_format=C
 #. We realise this is the incorrect way to handle plurals. Sorry, we are working on a fix.
 msgctxt "published dates for organic results"
 msgid "1 day ago"
@@ -154,6 +171,11 @@ msgstr "1 дзень таму"
 msgctxt "published dates for organic results"
 msgid "1 hour ago"
 msgstr "1 гадзіну таму"
+
+# smartling.placeholder_format=C
+#. The main headline indicating that 1 tracker was blocked
+msgid "1 tracking attempt blocked"
+msgstr "1 спроба адсочвання заблакіравана"
 
 # smartling.placeholder_format=C
 msgctxt "install-extension"
@@ -895,7 +917,7 @@ msgstr "Блог"
 # smartling.placeholder_format=C
 #. The color blue
 msgid "Blue"
-msgstr "Блакітны"
+msgstr "Сіні"
 
 # smartling.placeholder_format=C
 msgctxt "color"
@@ -2123,6 +2145,15 @@ msgstr "Служба падтрымкі DuckDuckGo"
 #. Bonus : also available through the <head><title>HERE</title></head> tag.
 msgid "DuckDuckGo URL Parameters"
 msgstr "DuckDuckGo URL Налады"
+
+# smartling.placeholder_format=C
+#. An information popup explaining that we block trackers
+msgid ""
+"DuckDuckGo blocks trackers on websites you visit, including trackers from "
+"companies like Google and Facebook, who often try to track you on other "
+"websites."
+msgstr "DuckDuckGo блакіруюцца сродкі адсочвання на сайтах, якія вы наведваеце, у тым ліку сродкі адсочвання ад такіх кампаній як Google і Facebook, з дапамогай"
+" якіх яны спрабуюць сачыць за вамі на іншых вэб-сайтах."
 
 # smartling.placeholder_format=C
 msgctxt "precise_user_location"
@@ -3490,6 +3521,12 @@ msgid "Kazakh"
 msgstr "Казахская"
 
 # smartling.placeholder_format=C
+#. An instruction to state that a list of companies/trackers will be updated with continued use
+msgctxt "tracker_stats"
+msgid "Keep browsing to see how many we block"
+msgstr "Спіс будзе абнаўляцца па меры вашага выкарыстання"
+
+# smartling.placeholder_format=C
 msgid "Keep in Touch"
 msgstr "Трымай сувязь"
 
@@ -4396,6 +4433,11 @@ msgid "No preference (default)"
 msgstr "Без пераваг (прадвызначана)"
 
 # smartling.placeholder_format=C
+#. Placeholder to indicate that nothing was blocked in the last hour
+msgid "No recent tracking activity"
+msgstr "Нічога не было заблакіравана за апошнюю гадзіну"
+
+# smartling.placeholder_format=C
 msgid "No results"
 msgstr "Вынікаў няма"
 
@@ -4413,6 +4455,12 @@ msgstr "Вынікі не знойдзены."
 msgctxt "new user poll"
 msgid "No thanks."
 msgstr "Не, дзякуй."
+
+# smartling.placeholder_format=C
+#. Heading for the tracker/companies list when we have observed trackers, but none in the last hour
+msgctxt "tracker_stats"
+msgid "No trackers blocked in the last hour"
+msgstr "За апошнюю гадзіну не было заблакіраваных ніякіх сродкаў адсочвання"
 
 # smartling.placeholder_format=C
 msgctxt "homepage onboarding"
@@ -6261,6 +6309,11 @@ msgid "Show More"
 msgstr "Паказаць яшчэ"
 
 # smartling.placeholder_format=C
+msgctxt "new tab page"
+msgid "Show Most Visited Sites"
+msgstr "Паказаць найбольш наведвальныя сайты"
+
+# smartling.placeholder_format=C
 #. Click "Load Settings" - http://i.imgur.com/cii6KqL.png
 #. Then - http://i.imgur.com/nOvjdKb.png
 msgctxt "settings"
@@ -6282,6 +6335,11 @@ msgstr "Паказаць вынікі ў сеціве"
 msgctxt "directions"
 msgid "Show map"
 msgstr "Паказаць карту"
+
+# smartling.placeholder_format=C
+#. The aria-label text for a toggle button that shows/hides the detailed feed
+msgid "Show recent activity"
+msgstr "Паказаць апошнія дзеянні"
 
 # smartling.placeholder_format=C
 msgctxt "video-duration"
@@ -7109,6 +7167,18 @@ msgstr "Уводзіны"
 msgctxt "frontpage"
 msgid "Tour"
 msgstr "Уводзіны"
+
+# smartling.placeholder_format=C
+#. Heading above the list of trackers/companies
+msgctxt "tracker_stats"
+msgid "Trackers blocked in the last hour"
+msgstr "Сродкі адсочвання, заблакіраваныя за апошнюю гадзіну"
+
+# smartling.placeholder_format=C
+#. Placeholder for when we cannot report any blocked trackers yet
+msgctxt "tracker_stats"
+msgid "Trackers that DuckDuckGo blocks will appear here"
+msgstr "Тут паказваюцца сродкі адсочвання, заблакіраваныя DuckDuckGo"
 
 # smartling.placeholder_format=C
 #. Part of the sentence: "<b>Translate</b> us."

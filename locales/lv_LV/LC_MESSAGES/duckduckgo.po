@@ -40,6 +40,12 @@ msgid "%s Season"
 msgstr "%1$s. sezona"
 
 # smartling.placeholder_format=C
+#. Number of tracking attempts blocked, when there is more than 1. Eg: '2 attempts' or '302 attempts'
+msgctxt "tracker_stats"
+msgid "%s attempts"
+msgstr "%1$s mēģinājumi"
+
+# smartling.placeholder_format=C
 msgid "%s blocked by safe search."
 msgstr "%1$s drošā meklēšanas bloķējumi"
 
@@ -86,6 +92,11 @@ msgstr "%1$s jūdzes"
 msgctxt "maps_places"
 msgid "%s on %s"
 msgstr "%1$s vietnē %2$s"
+
+# smartling.placeholder_format=C
+#. The main headline indicating that more than 1 attempt has been blocked. Eg: '2 tracking attempts blocked'
+msgid "%s tracking attempts blocked"
+msgstr "Bloķēti %1$s izsekošanas mēģinājumi"
 
 # smartling.placeholder_format=C
 msgctxt "install-duckduckgo"
@@ -144,6 +155,12 @@ msgid "%sRight click%s in the search bar"
 msgstr "%1$sAr peles labo pogu noklikšķini uz%2$s meklēšanas joslas"
 
 # smartling.placeholder_format=C
+#. Number of tracking attempts blocked, when there's only 1
+msgctxt "tracker_stats"
+msgid "1 attempt"
+msgstr "1 mēģinājums"
+
+# smartling.placeholder_format=C
 #. We realise this is the incorrect way to handle plurals. Sorry, we are working on a fix.
 msgctxt "published dates for organic results"
 msgid "1 day ago"
@@ -154,6 +171,11 @@ msgstr "Pirms 1 dienas"
 msgctxt "published dates for organic results"
 msgid "1 hour ago"
 msgstr "Pirms 1 stundas"
+
+# smartling.placeholder_format=C
+#. The main headline indicating that 1 tracker was blocked
+msgid "1 tracking attempt blocked"
+msgstr "Bloķēts 1 izsekošanas mēģinājums"
 
 # smartling.placeholder_format=C
 msgctxt "install-extension"
@@ -2125,6 +2147,15 @@ msgid "DuckDuckGo URL Parameters"
 msgstr "DuckDuckGo URL Parametri"
 
 # smartling.placeholder_format=C
+#. An information popup explaining that we block trackers
+msgid ""
+"DuckDuckGo blocks trackers on websites you visit, including trackers from "
+"companies like Google and Facebook, who often try to track you on other "
+"websites."
+msgstr "DuckDuckGo bloķē izsekotājus vietnēs, kuras tu apmeklē, tostarp tādu uzņēmumu kā Google un Facebook izsekotājus, kuri bieži cenšas izsekot lietotājus citās"
+" vietnēs."
+
+# smartling.placeholder_format=C
 msgctxt "precise_user_location"
 msgid ""
 "DuckDuckGo is private by design. When you enable location, it is stored on "
@@ -3491,6 +3522,12 @@ msgid "Kazakh"
 msgstr "Kazahu"
 
 # smartling.placeholder_format=C
+#. An instruction to state that a list of companies/trackers will be updated with continued use
+msgctxt "tracker_stats"
+msgid "Keep browsing to see how many we block"
+msgstr "Turpini pārlūkot, lai redzētu, cik daudz mēs bloķējam"
+
+# smartling.placeholder_format=C
 msgid "Keep in Touch"
 msgstr "Sazinies ar mums"
 
@@ -4122,7 +4159,7 @@ msgstr "Vairāk attēlu"
 
 # smartling.placeholder_format=C
 msgid "More Info"
-msgstr "Vairāk informācijas"
+msgstr "papildu informācija"
 
 # smartling.placeholder_format=C
 msgctxt "Ads GDPR, internal use only. Do not change"
@@ -4397,6 +4434,11 @@ msgid "No preference (default)"
 msgstr "Nav preferenču (noklusējums)"
 
 # smartling.placeholder_format=C
+#. Placeholder to indicate that nothing was blocked in the last hour
+msgid "No recent tracking activity"
+msgstr "Nav nesenu izsekošanas aktivitāšu"
+
+# smartling.placeholder_format=C
 msgid "No results"
 msgstr "Nav rezultātu"
 
@@ -4414,6 +4456,12 @@ msgstr "Rezultāti nav atrasti."
 msgctxt "new user poll"
 msgid "No thanks."
 msgstr "Nē, paldies."
+
+# smartling.placeholder_format=C
+#. Heading for the tracker/companies list when we have observed trackers, but none in the last hour
+msgctxt "tracker_stats"
+msgid "No trackers blocked in the last hour"
+msgstr "Pēdējās stundas laikā neviens izsekotājs nav bloķēts"
 
 # smartling.placeholder_format=C
 msgctxt "homepage onboarding"
@@ -6262,6 +6310,11 @@ msgid "Show More"
 msgstr "Parādīt vairāk"
 
 # smartling.placeholder_format=C
+msgctxt "new tab page"
+msgid "Show Most Visited Sites"
+msgstr "Rādīt visvairāk apmeklētās vietnes"
+
+# smartling.placeholder_format=C
 #. Click "Load Settings" - http://i.imgur.com/cii6KqL.png
 #. Then - http://i.imgur.com/nOvjdKb.png
 msgctxt "settings"
@@ -6283,6 +6336,11 @@ msgstr "Rādīt tīmekļa rezultātus"
 msgctxt "directions"
 msgid "Show map"
 msgstr "Parādīt karti"
+
+# smartling.placeholder_format=C
+#. The aria-label text for a toggle button that shows/hides the detailed feed
+msgid "Show recent activity"
+msgstr "Rādīt pēdējās aktivitātes"
 
 # smartling.placeholder_format=C
 msgctxt "video-duration"
@@ -6887,7 +6945,7 @@ msgstr "Pasaulei ir nepieciešams biznesa modelis."
 #. Title for the theme menu:
 #. https://duck.co/media/files/theme.png
 msgid "Theme"
-msgstr "Tēma"
+msgstr "Fons"
 
 # smartling.placeholder_format=C
 #. http://i.imgur.com/LpFhb1e.png
@@ -7110,6 +7168,18 @@ msgstr "Pamācība"
 msgctxt "frontpage"
 msgid "Tour"
 msgstr "Pamācība"
+
+# smartling.placeholder_format=C
+#. Heading above the list of trackers/companies
+msgctxt "tracker_stats"
+msgid "Trackers blocked in the last hour"
+msgstr "Pēdējās stundas laikā bloķētie izsekotāji"
+
+# smartling.placeholder_format=C
+#. Placeholder for when we cannot report any blocked trackers yet
+msgctxt "tracker_stats"
+msgid "Trackers that DuckDuckGo blocks will appear here"
+msgstr "Šeit parādīsies DuckDuckGo bloķētie izsekotāji"
 
 # smartling.placeholder_format=C
 #. Part of the sentence: "<b>Translate</b> us."

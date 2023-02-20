@@ -40,6 +40,12 @@ msgid "%s Season"
 msgstr "%1$s. évi szezon"
 
 # smartling.placeholder_format=C
+#. Number of tracking attempts blocked, when there is more than 1. Eg: '2 attempts' or '302 attempts'
+msgctxt "tracker_stats"
+msgid "%s attempts"
+msgstr "%1$s kísérlet"
+
+# smartling.placeholder_format=C
 msgid "%s blocked by safe search."
 msgstr "A biztonságos keresés letiltotta ezt: %1$s"
 
@@ -86,6 +92,11 @@ msgstr "%1$s mérföld"
 msgctxt "maps_places"
 msgid "%s on %s"
 msgstr "%1$s itt: %2$s"
+
+# smartling.placeholder_format=C
+#. The main headline indicating that more than 1 attempt has been blocked. Eg: '2 tracking attempts blocked'
+msgid "%s tracking attempts blocked"
+msgstr "%1$s nyomkövetési kísérletek blokkolva"
 
 # smartling.placeholder_format=C
 msgctxt "install-duckduckgo"
@@ -145,6 +156,12 @@ msgid "%sRight click%s in the search bar"
 msgstr "%1$sJobb klick%2$s a keresőmezőben"
 
 # smartling.placeholder_format=C
+#. Number of tracking attempts blocked, when there's only 1
+msgctxt "tracker_stats"
+msgid "1 attempt"
+msgstr "1 kísérlet"
+
+# smartling.placeholder_format=C
 #. We realise this is the incorrect way to handle plurals. Sorry, we are working on a fix.
 msgctxt "published dates for organic results"
 msgid "1 day ago"
@@ -155,6 +172,11 @@ msgstr "1 nappal ezelőtt"
 msgctxt "published dates for organic results"
 msgid "1 hour ago"
 msgstr "1 órával ezelőtt"
+
+# smartling.placeholder_format=C
+#. The main headline indicating that 1 tracker was blocked
+msgid "1 tracking attempt blocked"
+msgstr "1 nyomkövetési kísérlet blokkolva"
 
 # smartling.placeholder_format=C
 msgctxt "install-extension"
@@ -2126,6 +2148,15 @@ msgid "DuckDuckGo URL Parameters"
 msgstr "DuckDuckGo URL paraméterek"
 
 # smartling.placeholder_format=C
+#. An information popup explaining that we block trackers
+msgid ""
+"DuckDuckGo blocks trackers on websites you visit, including trackers from "
+"companies like Google and Facebook, who often try to track you on other "
+"websites."
+msgstr "A DuckDuckGo blokkolja a meglátogatott webhelyek nyomkövetőit, beleértve az olyan cégek nyomkövetőit is, mint a Google és a Facebook, amelyek gyakran próbálnak"
+" más webhelyeken nyomon követni."
+
+# smartling.placeholder_format=C
 msgctxt "precise_user_location"
 msgid ""
 "DuckDuckGo is private by design. When you enable location, it is stored on "
@@ -3491,6 +3522,12 @@ msgid "Kazakh"
 msgstr "kazah"
 
 # smartling.placeholder_format=C
+#. An instruction to state that a list of companies/trackers will be updated with continued use
+msgctxt "tracker_stats"
+msgid "Keep browsing to see how many we block"
+msgstr "Folytasd a böngészést, hogy megtudd, mennyit blokkolunk"
+
+# smartling.placeholder_format=C
 msgid "Keep in Touch"
 msgstr "Maradj velünk kapcsolatban"
 
@@ -4397,6 +4434,11 @@ msgid "No preference (default)"
 msgstr "Nincs beállítás (alapértelmezett)"
 
 # smartling.placeholder_format=C
+#. Placeholder to indicate that nothing was blocked in the last hour
+msgid "No recent tracking activity"
+msgstr "Nincs közelmúltbeli nyomkövetési tevékenység"
+
+# smartling.placeholder_format=C
 msgid "No results"
 msgstr "Nincs eredmény"
 
@@ -4414,6 +4456,12 @@ msgstr "Nincs találat."
 msgctxt "new user poll"
 msgid "No thanks."
 msgstr "Nem, köszönöm."
+
+# smartling.placeholder_format=C
+#. Heading for the tracker/companies list when we have observed trackers, but none in the last hour
+msgctxt "tracker_stats"
+msgid "No trackers blocked in the last hour"
+msgstr "Az elmúlt órában egyetlen nyomkövető sem lett blokkolva"
 
 # smartling.placeholder_format=C
 msgctxt "homepage onboarding"
@@ -6262,6 +6310,11 @@ msgid "Show More"
 msgstr "Mutass többet"
 
 # smartling.placeholder_format=C
+msgctxt "new tab page"
+msgid "Show Most Visited Sites"
+msgstr "A legtöbbször meglátogatott webhelyek megjelenítése"
+
+# smartling.placeholder_format=C
 #. Click "Load Settings" - http://i.imgur.com/cii6KqL.png
 #. Then - http://i.imgur.com/nOvjdKb.png
 msgctxt "settings"
@@ -6283,6 +6336,11 @@ msgstr "Webes eredmények megjelenítése"
 msgctxt "directions"
 msgid "Show map"
 msgstr "Térkép megjelenítése"
+
+# smartling.placeholder_format=C
+#. The aria-label text for a toggle button that shows/hides the detailed feed
+msgid "Show recent activity"
+msgstr "Legutóbbi tevékenység megjelenítése"
 
 # smartling.placeholder_format=C
 msgctxt "video-duration"
@@ -7110,6 +7168,18 @@ msgstr "Bemutató"
 msgctxt "frontpage"
 msgid "Tour"
 msgstr "Ismertető"
+
+# smartling.placeholder_format=C
+#. Heading above the list of trackers/companies
+msgctxt "tracker_stats"
+msgid "Trackers blocked in the last hour"
+msgstr "Az elmúlt órában blokkolt nyomkövetők"
+
+# smartling.placeholder_format=C
+#. Placeholder for when we cannot report any blocked trackers yet
+msgctxt "tracker_stats"
+msgid "Trackers that DuckDuckGo blocks will appear here"
+msgstr "Itt jelennek meg a DuckDuckGo által blokkolt nyomkövetők"
 
 # smartling.placeholder_format=C
 #. Part of the sentence: "<b>Translate</b> us."
