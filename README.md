@@ -163,7 +163,7 @@ Find the locale code for your language in the list below. The file can be found 
 - si_LK: සිංහල
 - sk_SK: Slovenčina (Slovenská republika)
 - sl_SI: Slovenščina (Slovenija)
-- sq_AL: shqip (Shqipëria)
+- sq_AL: shqip (Shqipëri)
 - sr_RS: Српски (Serbia)
 - sv_SE: svenska (Sverige)
 - ta_IN: தமிழ்
