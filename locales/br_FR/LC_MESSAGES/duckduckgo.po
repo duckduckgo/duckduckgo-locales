@@ -31,7 +31,6 @@ msgctxt "Covid 19 module"
 msgid "% Vaccinated"
 msgstr ""
 
-#. The total number of searches that have been made on DuckDuckGo. The placeholder is a number.
 msgctxt "SERP footer content"
 msgid "%s Billion Searches"
 msgstr ""
@@ -56,7 +55,6 @@ msgctxt "tracker_stats"
 msgid "%s attempts"
 msgstr ""
 
-#. A label that indicates a specific search result has been blocked by the safe search filter. The placeholder value is the name of the search result that was blocked.
 msgid "%s blocked by safe search."
 msgstr ""
 
@@ -65,30 +63,33 @@ msgctxt "published dates for organic results"
 msgid "%s days ago"
 msgstr ""
 
-#. An indication that inputted text was detected to be in this language
+#. An indication that inputted text was detected to be in this language. E.g.: Italian detected.
 msgctxt "translations_module"
 msgid "%s detected"
 msgstr ""
+
+#. in https://duckduckgo.com/params. multiple fors
+msgid "%s for %s"
+msgstr "%s evit %s"
 
 #. We realise this is the incorrect way to handle plurals. Sorry, we are working on a fix.
 msgctxt "published dates for organic results"
 msgid "%s hours ago"
 msgstr ""
 
-#. The total amount DuckDuckGo has donated to privacy-related causes. The placeholder value is a number. For example '$1,000,000 in privacy donations!'
 msgctxt "showcase_donations"
 msgid "%s in privacy donations!"
 msgstr ""
 
-#. Distance in kilometers. Placeholder is a number. For example: '100 km'
+#. Places distance in km
 msgid "%s km"
 msgstr ""
 
-#. Distance measured in miles. Placeholder is a number. For example: '100 mi'
+#. Places distance in miles
 msgid "%s mi"
 msgstr ""
 
-#. Label next to a user review. The placeholders are the user name and the review website. For example: 'John on TripAdvisor'
+#. This is used to add attribution to user reviews on websites, e.g. "John Doe on Yelp"
 msgctxt "maps_places"
 msgid "%s on %s"
 msgstr ""
@@ -97,56 +98,46 @@ msgstr ""
 msgid "%s tracking attempts blocked"
 msgstr ""
 
-#. Instructions on which buttons and options the user has to click in order to add the DuckDuckGo extension to their browser.
 msgctxt "install-duckduckgo"
 msgid "%sClick %sAdd%sCheck %sAllow%s, then click %sOkay%s"
 msgstr ""
 
-#. Instructions on what buttons the user has to click in order to add the DuckDuckGo extension to their browser.
 msgctxt "install-duckduckgo"
 msgid "%sClick %sAllow%sClick %sAdd%sCheck %sAllow%s, then click %sOkay%s"
 msgstr ""
 
-#. Instructions on which buttons the user has to click in order to add the DuckDuckGo extension to their browser.
 msgctxt "install-duckduckgo"
 msgid ""
 "%sClick %sContinue To Installation%sClick %sAdd%sCheck %sAllow%s, then click "
 "%sOkay%s"
 msgstr ""
 
-#. A button that reloads search results when an error occurs.
 msgctxt "noresults"
 msgid ""
 "%sClick here%s to try again, if you think there should be results for this "
 "search."
 msgstr ""
 
-#. Header for a page with information about sharing DuckDuckGo.
 msgctxt "frontpage"
 msgid "%sHelp Spread DuckDuckGo!%s"
 msgstr ""
 
-#. Link to more information
 msgctxt "frontpage"
 msgid "%sLearn More%s."
 msgstr "%sGouzout hiroc'h%s."
 
-#. Link to a page with more information about how anonymous location works.
 msgctxt "precise_user_location"
 msgid "%sLearn how we keep your location private%s."
 msgstr ""
 
-#. Prompts the user to reload the webpage.
 msgctxt "precise_user_location"
 msgid "%sReload%s DuckDuckGo, and try again."
 msgstr ""
 
-#. A button that clears any filters that have been applied to search results.
 msgctxt "noresults"
 msgid "%sReset filters %s"
 msgstr ""
 
-#. Tells users where to click in their browser to change the default search engine.
 msgid "%sRight click%s in the search bar"
 msgstr ""
 
@@ -169,7 +160,6 @@ msgstr ""
 msgid "1 tracking attempt blocked"
 msgstr ""
 
-#. Tells users where they can find the DuckDuckGo browser extension file downloaded to their computer.
 msgctxt "install-extension"
 msgid "1. Open %sDownloads%s"
 msgstr ""
@@ -224,7 +214,7 @@ msgctxt "Stocks module"
 msgid "1Y"
 msgstr ""
 
-#. Numbers that indicate the position in a series
+#. Short indicator for the first quarter of an ongoing game, used with the time e.g. 1st • 1:38
 msgctxt "Sports module"
 msgid "1st"
 msgstr ""
@@ -234,12 +224,11 @@ msgctxt "Sports module"
 msgid "1st in Group %s"
 msgstr ""
 
-#. Instructions on how to install the DuckDuckGo browser extension.
 msgctxt "install-extension"
 msgid "2. Double-click %sduckduckgo.safariextz%s"
 msgstr ""
 
-#. Numbers that indicate the position in a series
+#. Short indicator for the second quarter of an ongoing game, used with the time e.g. 2nd • 4:26
 msgctxt "Sports module"
 msgid "2nd"
 msgstr ""
@@ -249,12 +238,12 @@ msgctxt "Sports module"
 msgid "2nd in Group %s"
 msgstr ""
 
-#. Numbers that indicate the position in a series
+#. Short indicator for the third quarter of an ongoing game, used with the time e.g. 3rd • 3:51
 msgctxt "Sports module"
 msgid "3rd"
 msgstr ""
 
-#. Numbers that indicate the position in a series
+#. Short indicator for the fourth quarter of an ongoing game, used with the time e.g. 4th • 8:37
 msgctxt "Sports module"
 msgid "4th"
 msgstr ""
@@ -309,6 +298,10 @@ msgctxt "Sports module"
 msgid "A"
 msgstr ""
 
+#. https://duckduckgo.com/params in the end under " Source:"
+msgid "A string to identify the source."
+msgstr "Un hedad da lakaat un anv war an tarzh."
+
 msgctxt "settings"
 msgid "ATB Dismiss"
 msgstr ""
@@ -317,49 +310,54 @@ msgctxt "settings"
 msgid "ATB related (not displayed on settings page)"
 msgstr ""
 
-#. Link to a page with more information about the company.
+#. In the new DDG website, this token appears as the Tab name for Instant Answers that give general information about a subject. eg. https://duckduckgo.com/?q=Sony
+#. It is not "About DuckDuckGo".
+msgid "About"
+msgstr "A-zivout"
+
+#. This is the side bar "About" link
 msgctxt "static_page"
 msgid "About"
 msgstr "Diwar-benn"
 
-#. Link to a page with more information about the company.
+#. at least in:
+#. * https://duckduckgo.com/about. Appears in the window title when you open the link
+msgid "About DuckDuckGo"
+msgstr "Diwar-benn DuckDuckGo"
+
 msgid "About Us"
 msgstr ""
 
+#. This is an option for a user setting. It refers to showing the URL for a result ABOVE the TITLE of the result -- Example image: https://i.imgur.com/bTm8PCc.png
 msgctxt "settingsvalue"
 msgid "Above Title"
 msgstr ""
 
-#. A label that appears on an advertisement. 'Ad' is an abbreviation for 'Advertisement'
+#. Ad like 'advertisement'
 msgid "Ad"
 msgstr "Bruderezh"
 
-#. Category of problem a user can select on a feedback form.
 msgctxt "feedback form"
 msgid "Ad is annoying"
 msgstr ""
 
-#. Category of problem a user can select on a feedback form.
 msgctxt "feedback form"
 msgid "Ad is inappropriate"
 msgstr ""
 
-#. Category of problem a user can select on a feedback form.
 msgctxt "feedback form"
 msgid "Ad is irrelevant"
 msgstr ""
 
-#. Category of problem a user can select on a feedback form.
 msgctxt "feedback form"
 msgid "Ad is malware"
 msgstr ""
 
-#. Category of problem a user can select on a feedback form.
 msgctxt "feedback form"
 msgid "Ad is suspicious"
 msgstr ""
 
-#. Link to add the DuckDuckGo extension to the user's web browser.
+#. From Home page, options to "Add DuckDuckGo" to browser or set as home page.
 msgid "Add DuckDuckGo"
 msgstr "kaout DuckDuckGo"
 
@@ -371,38 +369,44 @@ msgid ""
 "Add DuckDuckGo Privacy Essentials to your browser for free with one download:"
 msgstr ""
 
-#. Tells users how to add DuckDuckGo to the list of search engines in their browser.
 msgid "Add DuckDuckGo as a search engine"
 msgstr ""
 
-#. Link to add the DuckDuckGo extension to the user's web browser. The placeholder is the name of the browser the user is currently using. For example: 'Add DuckDuckGo to Chrome'
 msgid "Add DuckDuckGo to %s"
 msgstr ""
 
-#. Prompt to add locations on a map in order to get directions.
+#. https://duckduckgo.com/search_box near the top
+#. e.g.: Add a DuckDuckGo search box to your site!
+msgid "Add a %s search box to your site!"
+msgstr "Ouzhpennit ur voestad da glask mod %s d'ho load !"
+
 msgctxt "directions"
 msgid "Add a starting point and destination to find a route."
 msgstr ""
 
-#. Prompt to install the DuckDuckGo browser extension.
 msgctxt "homepage ATB modal"
 msgid "Add our extension to help protect personal data"
 msgstr ""
 
-#. Link to add the DuckDuckGo extension to the user's web browser. The placeholder is the name of the browser the user is currently using. For example: 'Add to Chrome'
+#. In the top menu under Team Duck -- %s will be browser names, like Firefox.
 msgid "Add to %s"
 msgstr "Ouzhpennañ da %s"
 
-#. Button that creates a shortcut to the current page on the home screen of the user's phone.
 msgid "Add to Home Screen"
 msgstr "Ouzhpennañ d'ar pennskramm"
 
-#. Refers to a street address.
+#. In the top menu under Goodies
+msgid "Add-ons"
+msgstr "Askouezhioù"
+
 msgctxt "maps_places"
 msgid "Address"
 msgstr ""
 
-#. Category of feedback a user can select on a feedback form.
+#. https://duckduckgo.com/params near the top under "Privacy Settings"
+msgid "Address bar:"
+msgstr "Barrennad chomlec'h :"
+
 msgctxt "feedback form"
 msgid "Address is incorrect"
 msgstr ""
@@ -411,28 +415,27 @@ msgstr ""
 msgid "Ads"
 msgstr ""
 
-#. Link to a page with resources for advertisers who want to place ads on the search results page.
-msgid "Advertise on Search"
-msgstr ""
-
 msgctxt "feedback form"
 msgid "Advertisements"
 msgstr ""
 
+#. http://i.imgur.com/ZG0Mz3R.png
 msgctxt "settings"
 msgid "Advertisements"
 msgstr "Bruderezhioù"
+
+#. https://duckduckgo.com/params near the top under "Interface Settings"
+msgid "Advertisements:"
+msgstr "Bruderezhioù :"
 
 #. The name of the Afrikaans language
 msgctxt "language_name"
 msgid "Afrikaans"
 msgstr ""
 
-#. Instructions on how to install the DuckDuckGo browser extension after it downloads.
 msgid "After it downloads and opens, click %sInstall%s"
 msgstr "Ur wech pellgarget ha digoret, klikit war %sStaliañ%s"
 
-#. Instructions on how to install the DuckDuckGo browser extension after it downloads.
 msgid ""
 "After it downloads, locate the extension file and double-click it to install"
 msgstr ""
@@ -477,19 +480,16 @@ msgctxt "image-licence"
 msgid "All Licenses"
 msgstr ""
 
-#. Links back to a list of all search results from a page with information on a single result.
 msgid "All Places"
 msgstr ""
 
-#. A filter that shows search results from all countries.
 msgid "All Regions"
 msgstr ""
 
-#. A label that appears above search results.
 msgid "All Results"
 msgstr ""
 
-#. Link that shows all settings.
+#. In the top menu under Settings
 msgid "All Settings"
 msgstr "An holl arventennoù"
 
@@ -507,12 +507,10 @@ msgctxt "image-layout"
 msgid "All layouts"
 msgstr ""
 
-#. A filter that shows search results from all countries.
 msgctxt "settingsvalue"
 msgid "All regions"
 msgstr ""
 
-#. Filters the size of images in search results.
 msgctxt "size"
 msgid "All sizes"
 msgstr ""
@@ -528,7 +526,6 @@ msgid ""
 "Save)"
 msgstr ""
 
-#. A title on a page that let's users know they're almost done with the process of installing DuckDuckGo in their browser
 msgctxt "install-duckduckgo"
 msgid "Almost there!"
 msgstr ""
@@ -537,11 +534,15 @@ msgctxt "homepage onboarding"
 msgid "Already a fan?"
 msgstr ""
 
-#. Explains that DuckDuckGo is available for multiple devices.
 msgctxt "mobile promotion on desktop"
 msgid "Also search privately on your iPad, iPhone, or Android!"
 msgstr ""
 
+#. Instant Answer Tab Name
+msgid "Alternatives"
+msgstr "Dazeiladoù"
+
+#. http://i.imgur.com/89c3nJI.png
 msgctxt "settingsvalue"
 msgid "Always play on DuckDuckGo"
 msgstr "Lenn bewech war DuckDuckGo"
@@ -551,19 +552,24 @@ msgctxt "language_name"
 msgid "Amharic"
 msgstr ""
 
-#. Filters the type of images in search results.
 msgctxt "image-type"
 msgid "Animated GIF"
 msgstr ""
 
-#. Confirmation message after location service is enabled.
 msgctxt "precise_user_location"
 msgid "Anonymous Location Enabled"
 msgstr ""
 
-#. Confirmation message after location service is enabled.
 msgctxt "precise_user_location"
 msgid "Anonymous location enabled"
+msgstr ""
+
+#. Instant Answer tab name
+msgid "Answer"
+msgstr "Respont"
+
+#. Option for the filter-by-date search.
+msgid "Any Time"
 msgstr ""
 
 #. Shown in video filtering. https://duckduckgo.com/?q=videos+of+cats&iax=videos&ia=videos
@@ -593,30 +599,31 @@ msgstr "Arload"
 msgid "App and Extension"
 msgstr ""
 
-#. Header above a list of settings that effect the appearance of the search engine.
 msgid "Appearance"
 msgstr "Arvez"
 
+#. http://i.imgur.com/HWCiPDW.png
 msgctxt "settings"
 msgid "Appearance"
 msgstr "Neuz"
 
-#. Button that applies a filter to search results.
 msgctxt "Custom date range filer"
 msgid "Apply"
 msgstr ""
+
+#. Instant Answer Tab Name
+msgid "Apps"
+msgstr "Arloadoù"
 
 #. The name of the Arabic language
 msgctxt "language_name"
 msgid "Arabic"
 msgstr ""
 
-#. Question on a feedback form.
 msgctxt "feedback form"
 msgid "Are these ads helpful?"
 msgstr ""
 
-#. Question on a feedback form.
 msgctxt "feedback form"
 msgid "Are these links helpful?"
 msgstr ""
@@ -634,7 +641,6 @@ msgctxt "Stocks module"
 msgid "As of"
 msgstr ""
 
-#. Summarizes our privacy policy and describes how the DuckDuckGo extension's privacy features don't send any information to DuckDuckGo.
 msgid ""
 "As per our privacy policy, we do not collect or share any personal "
 "information ourselves. All of this privacy protection happens on your device."
@@ -649,30 +655,28 @@ msgctxt "homepage ATB modal"
 msgid "At DuckDuckGo, we agree."
 msgstr ""
 
+msgid "Audio"
+msgstr "Aodio"
+
 msgid "Australia"
 msgstr ""
 
 msgid "Austria"
 msgstr ""
 
+#. http://i.imgur.com/DIzKQRl.png
 msgctxt "settings"
-msgid "Auto-answer"
-msgstr ""
+msgid "Auto-Suggest"
+msgstr "Aliañ emgefreek"
 
 msgctxt "settings"
 msgid "Autocomplete Suggestions"
 msgstr ""
 
+#. http://i.imgur.com/OZIO1I9.png
 msgctxt "settings"
 msgid "Automatically open relevant Instant Answers"
 msgstr "Digeriñ emgefreek ar respontoù diadaol pouezus"
-
-msgctxt "settings"
-msgid ""
-"Automatically shows DuckAssist for relevant searches. DuckAssist can "
-"anonymously look up and summarize information in response to some searches. "
-"For now, DuckAssist is only available in English regions."
-msgstr ""
 
 #. Used to show the numerical rating, when the user hovers over a visual star-rating. Sorry, this is hard to translate.
 msgctxt "homepage ATB social proof"
@@ -699,19 +703,35 @@ msgctxt "Stocks module"
 msgid "B"
 msgstr ""
 
-#. Button that takes the user to the DuckDuckGo search page.
 msgctxt "homepage onboarding"
 msgid "Back to search"
 msgstr ""
 
+#. http://i.imgur.com/6Eip5h1.png
 msgctxt "settings"
 msgid "Background Color"
 msgstr "Liv an drekleur"
+
+#. https://duckduckgo.com/params under "Color Settings"
+msgid "Background:"
+msgstr "Drekleur :"
 
 #. The name of the Bangla language
 msgctxt "language_name"
 msgid "Bangla"
 msgstr ""
+
+#. This text always refers to the DuckDuckGo bangs function: https://duckduckgo.com/bang
+msgid "Bangs"
+msgstr "Bangoù"
+
+#. Instant Answer tab name
+msgid "Barcode"
+msgstr "Rineg dre varrennoù"
+
+msgctxt "settings"
+msgid "Basic"
+msgstr "Diazez"
 
 msgctxt "theme"
 msgid "Basic"
@@ -726,10 +746,12 @@ msgstr ""
 msgid "Belgium (nl)"
 msgstr ""
 
+#. This is an option for a user setting. It refers to showing the URL for a result BELOW the SNIPPET (description) of the result -- Example image: https://i.imgur.com/lnP77q4.png
 msgctxt "settingsvalue"
 msgid "Below Snippet"
 msgstr ""
 
+#. This is an option for a user setting. It refers to showing the URL for a result BELOW the TITLE of the result -- Example image: https://i.imgur.com/3cb6xx0.png
 msgctxt "settingsvalue"
 msgid "Below Title"
 msgstr ""
@@ -738,20 +760,22 @@ msgctxt "settingsvalue"
 msgid "Best available"
 msgstr ""
 
+#. In the right menu panel of the homepage.
 msgid "Beta"
 msgstr ""
 
-#. Filters the duration of videos in search results.
 msgctxt "video-duration"
 msgid "Between 4 and 20 minutes"
 msgstr ""
 
-#. Filters the color of images in search results.
+#. The color black.
+msgid "Black"
+msgstr "Du"
+
 msgctxt "color"
 msgid "Black"
 msgstr ""
 
-#. Filters the color of images in search results.
 msgctxt "image-color"
 msgid "Black and white"
 msgstr ""
@@ -768,6 +792,18 @@ msgctxt "reasons-to-use-duckduckgo"
 msgid "Block advertising trackers."
 msgstr ""
 
+msgctxt "homepage ATB modal"
+msgid "Block most trackers as you browse."
+msgstr ""
+
+msgctxt "homepage ATB modal"
+msgid "Block trackers and take control of your personal data"
+msgstr ""
+
+msgctxt "homepage ATB modal"
+msgid "Block trackers as you browse."
+msgstr ""
+
 #. Part of a list of what our app can do. The app can: …
 msgctxt "welcome message eu search preference android"
 msgid "Block unsafe trackers"
@@ -782,6 +818,9 @@ msgctxt "welcome message"
 msgid "Blocks trackers on websites you visit"
 msgstr ""
 
+msgid "Blog"
+msgstr ""
+
 #. Description of the daily/hourly weather condition, as returned from the (WeatherKit) API
 msgctxt "Weather IA"
 msgid "Blowing Dust"
@@ -792,12 +831,26 @@ msgctxt "Weather IA"
 msgid "Blowing Snow"
 msgstr ""
 
-#. Filters the color of images in search results.
+#. Description of the daily/hourly weather condition, as returned from the (WeatherKit) API
+msgctxt "Weather IA"
+msgid "Blowing dust"
+msgstr ""
+
+#. Description of the daily/hourly weather condition, as returned from the (WeatherKit) API
+msgctxt "Weather IA"
+msgid "Blowing snow"
+msgstr ""
+
+#. The color blue
+msgid "Blue"
+msgstr "Glas"
+
 msgctxt "color"
 msgid "Blue"
 msgstr ""
 
-#. Label for the URL that saves user's settings.
+#. Click "Show Bookmarklet and Settings Data" - http://i.imgur.com/WyGptiV.png
+#. In the box that opens - http://i.imgur.com/tZAkHF6.png
 msgctxt "settings"
 msgid "Bookmarklet URL:"
 msgstr "URL ar skriptsined :"
@@ -825,7 +878,6 @@ msgctxt "Weather IA"
 msgid "Breezy"
 msgstr ""
 
-#. Filters the color of images in search results.
 msgctxt "color"
 msgid "Brown"
 msgstr ""
@@ -846,17 +898,14 @@ msgid ""
 "%smajor browsers%s."
 msgstr ""
 
-#. Message indicating that the user's current location isn't available.
 msgctxt "precise_user_location"
 msgid "Browser Location Unavailable"
 msgstr ""
 
-#. Label for a menu that lets users select the language for their browser.
 msgctxt "settingsvalue"
 msgid "Browser Preferred Language"
 msgstr ""
 
-#. Label for a menu that lets users select the language for their browser.
 msgctxt "settingsvalue"
 msgid "Browser preferred language"
 msgstr ""
@@ -869,7 +918,8 @@ msgctxt "language_name"
 msgid "Bulgarian"
 msgstr ""
 
-#. Describes how cookies are used to store user settings privately and securely.
+#. Click "Show Bookmarklet and Settings Data" - http://i.imgur.com/NKOWrRl.png
+#. Then - http://i.imgur.com/mo6wsE4.png
 msgctxt "settings"
 msgid ""
 "By default, settings are stored in non-personal browser cookies (in your "
@@ -879,7 +929,10 @@ msgid ""
 "leave your browser."
 msgstr ""
 
-#. Button that calls a listed phone number using the phone app.
+#. Instant Answer tab name
+msgid "Calendar"
+msgstr "Deziataer"
+
 msgctxt "maps_places"
 msgid "Call"
 msgstr ""
@@ -892,6 +945,9 @@ msgstr ""
 
 msgid "Canada (fr)"
 msgstr ""
+
+msgid "Cancel"
+msgstr "Dilezel"
 
 #. A cancel button that can appear in multiple product areas
 msgctxt "Generic cancel button"
@@ -928,95 +984,120 @@ msgstr ""
 msgid "Catalonia"
 msgstr ""
 
+#. In 0-click box -- link to category page.
+msgid "Category"
+msgstr "Rummad"
+
+#. http://i.imgur.com/445XWLs.png
 msgctxt "settings"
 msgid "Center Alignment"
 msgstr "Desteudañ e kreiz"
 
+#. This is the description of a user setting -- Example image: https://i.imgur.com/yihFekW.png
 msgctxt "settings"
 msgid "Changes how result URLs are displayed"
 msgstr ""
 
+#. This is the description of a user setting
 msgctxt "settings"
 msgid "Changes how the header is displayed and its behavior as you scroll"
 msgstr ""
 
+#. http://i.imgur.com/mcZdcaF.png
 msgctxt "settings"
 msgid "Changes search results based on region"
 msgstr ""
 
+#. http://i.imgur.com/OntTi6e.png
 msgctxt "settings"
 msgid "Changes the background color across the entire site"
 msgstr ""
 
+#. This is the description of a user setting
 msgctxt "settings"
 msgid ""
 "Changes the background color of results on hover, modules, and dropdown menus"
 msgstr ""
 
+#. http://i.imgur.com/NdpkbY0.png
+msgctxt "settings"
+msgid "Changes the background color when hovering over a result"
+msgstr "Kemmañ a ra liv an drekleur pa dremener dreist un disoc'h"
+
+#. This is the description of a user setting
 msgctxt "settings"
 msgid "Changes the color of result URLs"
 msgstr ""
 
+#. This is the description of a user setting
 msgctxt "settings"
 msgid "Changes the color of result snippets"
 msgstr ""
 
+#. This is the description of a user setting
 msgctxt "settings"
 msgid "Changes the color of result titles"
 msgstr ""
 
+#. This is the description of a user setting
 msgctxt "settings"
 msgid "Changes the color of titles for results you've visited"
 msgstr ""
 
+#. http://i.imgur.com/kE1ZsM9.png
 msgctxt "settings"
 msgid "Changes the font across the entire site"
 msgstr "Kemmañ a ra an nodrezh evit al load a-bezh"
 
+#. This is the description of a user setting
 msgctxt "settings"
 msgid "Changes the font of result titles"
 msgstr ""
 
+#. http://i.imgur.com/ftpln8q.png
 msgctxt "settings"
 msgid "Changes the font size across the entire site"
 msgstr "Kemmañ a ra ment an nodrezh evit al load a-bezh"
 
+#. http://i.imgur.com/4AG1u9Q.png
+#. Setting to change the color of the top of DuckDuckGo: http://i.imgur.com/A1Nh20m.png
 msgctxt "settings"
 msgid "Changes the header color across the entire site"
 msgstr "Kemmañ liv an talbenn dre al lec'hienn a-bezh"
 
+#. http://i.imgur.com/w4XN6Fj.png
 msgctxt "settings"
 msgid "Changes the language across the entire site"
 msgstr "Kemmañ ar yezh dre al lec'hienn a-bezh"
 
+#. http://i.imgur.com/auITACf.png
 msgctxt "settings"
 msgid "Changes what happens when you click on a video thumbnail"
 msgstr "Kemmañ a ra pezh a zegouezh pa glikit war melvenn ur video"
 
+#. This is the description of a user setting -- Example image: https://i.imgur.com/ALGzzZr.png
 msgctxt "settings"
 msgid "Changes where result URLs are displayed"
 msgstr ""
 
-#. Tells users where in the settings menu they can change their default search engine.
+msgid "Chat"
+msgstr "Flapañ"
+
 msgid "Check %sMake this the current search engine%s"
 msgstr "Kevaskañ %sLakaat da geflusker klask dre ziouer%s"
 
-#. Link to a page with more information about internet privacy.
 msgctxt "SERP footer content"
 msgid "Check out our privacy device guides."
 msgstr ""
 
-#. A link to information about privacy on different kinds of devices, for example, phones, laptops, or tablets.
 msgctxt "showcase_privacy"
 msgid "Check out our privacy device guides."
 msgstr ""
 
-#. A label above a list of other applications DuckDuckGo has made.
 msgctxt "showcase_aria_label"
 msgid "Check out the list of things that we've also made."
 msgstr ""
 
-#. Option in a feedback form for image search results.
 msgctxt "Report image modal"
 msgid "Child sexual abuse"
 msgstr ""
@@ -1041,11 +1122,7 @@ msgstr ""
 msgid "Choose %skeep it%s to continue protecting your privacy."
 msgstr ""
 
-#. A headline letting the user choose between two video player options
-msgid "Choose How You Watch"
-msgstr ""
-
-#. Label for the field where a user sets their passphrase.
+#. http://i.imgur.com/f8Ae6jo.png
 msgctxt "cloudsave"
 msgid "Choose a unique passphrase for your settings."
 msgstr ""
@@ -1054,7 +1131,11 @@ msgctxt "maps_places"
 msgid "Choose service"
 msgstr ""
 
-#. This appears on a button that clears a user's input.
+#. A theme name in the theme menu:
+#. https://duck.co/media/files/theme.png
+msgid "Classic"
+msgstr "Klasel"
+
 msgid "Clear"
 msgstr "Skarzhañ"
 
@@ -1063,12 +1144,10 @@ msgctxt "Weather IA"
 msgid "Clear"
 msgstr ""
 
-#. User clicks this button to clear a saved device location
 msgctxt "precise_user_location"
 msgid "Clear"
 msgstr ""
 
-#. This appears on a button that clears all of a user's settings.
 msgid "Clear All"
 msgstr ""
 
@@ -1077,12 +1156,10 @@ msgctxt "Site filter message"
 msgid "Clear Filter"
 msgstr ""
 
-#. User clicks this button to clear a saved device location
 msgctxt "precise_user_location"
 msgid "Clear Location"
 msgstr ""
 
-#. A button that clears are filters that have been applied to search results.
 msgid "Clear all filters"
 msgstr ""
 
@@ -1101,37 +1178,29 @@ msgctxt "translations_module"
 msgid "Clear source text"
 msgstr ""
 
-#. Asks users if they clear the cookies from their web browser often.
 msgid "Clear your cookies often?"
 msgstr ""
 
-#. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
 msgid "Click %s+%s!"
 msgstr ""
 
-#. Instructions on what button the user has to click in order to add the DuckDuckGo extension to their browser.
 msgctxt "install-duckduckgo"
 msgid "Click %sAdd Extension%s."
 msgstr ""
 
-#. Tells the user where to click in their browser. Part of a list of instructions on how to change the browser's home page.
 msgid "Click %sAdd or change home page...%s"
 msgstr "Klikit war %sOuzhpennañ pe gemmañ ar bennbajenn...%s"
 
-#. Tells users where to click to change their default search engine.
 msgid "Click %sAdd%s"
 msgstr "Klikit war %sOuzhpennañ%s"
 
-#. Instructions on which buttons the user has to click in order to add the DuckDuckGo extension to their browser.
 msgctxt "install-duckduckgo"
 msgid "Click %sAllow%s, then %sAdd%s."
 msgstr ""
 
-#. Tells users where in the settings menu they can change their default search engine.
 msgid "Click %sChange Search Settings%s in the drop down"
 msgstr "Klikit war %sKemmañ arventennoù ar c'hlask%s diwar al lañser dibunañ"
 
-#. Tells users where to click in their browser to find the Preferences menu.
 msgid ""
 "Click %sEdit > Preferences%s (on Windows) %sSeaMonkey > Preferences%s (on "
 "Mac)"
@@ -1139,25 +1208,20 @@ msgstr ""
 "Klikit war %sEmbann > Gwellvezioù%s (war Windows) %sSeaMonkey > Gwellvezioù"
 "%s (war Mac)"
 
-#. Link that makes DuckDuckGo the default search engine in the user's browser.
 msgid "Click %sHere%s to add us as a search engine"
 msgstr "Klikit %sAmañ%s d'hon ouzhpennañ evel keflusker klask"
 
-#. Link to add the DuckDuckGo browser extension to Safari.
 msgid "Click %sHere%s to download the DuckDuckGo extension"
 msgstr "Klikit %sAmañ%s evit pellgargañ askouezh DuckDuckGo"
 
-#. Link to download the DuckDuckGo browser extension.
 msgid "Click %sOpen%s to download and open the DuckDuckGo Safari extension"
 msgstr ""
 "Klikit war %sDigeriñ%s da bellgargañ ha digorit askouezh DuckDuckGo evit "
 "Safari"
 
-#. Tells users how to add DuckDuckGo to the list of search engines in their browser.
 msgid "Click %sPrivacy and Services%s in the left sidebar."
 msgstr ""
 
-#. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
 msgid ""
 "Click %sSafari%s in the top menu (On Windows, click the %sgears icon%s in "
 "the top right)"
@@ -1165,93 +1229,75 @@ msgstr ""
 "Klikit war %sSafari%s war al lañser e lein (War Windows, klikit war %sarlun "
 "ar rod dentek%s e lein war an tu dehou)"
 
-#. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
 msgid "Click %sSettings%s"
 msgstr "Klikit war %sArventennoù%s"
 
-#. Tells users how to add DuckDuckGo to the list of search engines in their browser.
 msgid "Click %sSettings%s in the dropdown."
 msgstr ""
 
-#. Tells the user how to make DuckDuckGo their home page.
 msgid "Click %sUse current pages%s then %sClick OK%s."
 msgstr "Klikit %sUse current pages%s ha neuze %sClick OK%s."
 
-#. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
 msgid "Click %sYes%s"
 msgstr "Klikit war %sYa%s"
 
-#. Tells the user where to click to open their browser's settings menu.
 msgid "Click %ssettings/hamburger icon %s on the Chrome toolbar (top right)."
 msgstr ""
 "Klikit war %sarlun an arventennoù/hamburger %s war varrenn glask Chrome (tu "
 "dehou e lein)."
 
-#. TElls users where to click to change their default search engine.
 msgid "Click OK."
 msgstr "Klikañ war Mat eo"
 
-#. Tells users where to click to change their default search engine.
 msgid "Click add."
 msgstr "Klikañ war ouzhpennañ."
 
-#. Tells users where to click in their browser to change their default search engine.
 msgid "Click on %sBrowser%s in the sidebar"
 msgstr ""
 
-#. Tells users how to add DuckDuckGo to the list of search engines in their browser.
 msgid "Click on %sChange Search Settings%s in the dropdown menu"
 msgstr ""
 
-#. Tells users how to add DuckDuckGo to the list of search engines in their browser.
 msgid "Click on %sSet as Default%s towards the bottom"
 msgstr ""
 
-#. Tells users how to add DuckDuckGo to the list of search engines in their browser.
 msgid "Click on the %sSearch Providers%s under Add-on Types"
 msgstr ""
 
-#. Tells users how to add DuckDuckGo to the list of search engines in their browser.
 msgid "Click on the %sTools icon%s in the top-right of the browser"
 msgstr ""
 
-#. Tells users how to add DuckDuckGo to the list of search engines in their browser.
 msgid "Click on the %smagnifying glass%s in the search bar"
 msgstr ""
 
-#. Tells users what icon to click in their browser to change their default search engine.
 msgid "Click on the magnifying glass in the search box at the top right"
 msgstr "Klikit war ar greskwerenn war ar voestad klask e lein war an tu dehou"
 
-#. Tells users where to click in order to disable the cloud save feature and delete any data backed-up to the cloud.
+#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
+#. In the cloud save box - http://i.imgur.com/FbCoYVE.png
 msgctxt "cloudsave"
 msgid ""
 "Click or tap %sDelete My Data%s. This removes the data from the cloud, but "
 "it remains in your browser until you click/tap %sReset All Settings%s."
 msgstr ""
 
-#. Tells users what icon to click in order to make DuckDuckGo the default search engine in their browser. The placeholder is the icon they need to click.
 msgid "Click the %s icon in the top toolbar"
 msgstr "Klikit war arlun %s war ar varrenn ostilhoù e lein"
 
-#. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
+#. Instructions to add a search engine in Microsoft Edge
 msgid "Click the %s...%s icon at the top right:"
 msgstr ""
 
-#. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
 msgid "Click the %sGeneral%s tab."
 msgstr "Klikit war an ivinell %sHollek%s."
 
-#. Tells users how to add DuckDuckGo to the list of search engines in their browser.
 msgid "Click the %sellipsis icon%s in the toolbar."
 msgstr ""
 
-#. Tells users where to click in their browser to enable location service. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Click the %slock icon%s on the address bar."
 msgstr ""
 
-#. Tells users where to click in their browser to search using DuckDuckGo.
 msgid "Click the Duck icon at the top of your browser to search!"
 msgstr "Klikit war arlun an Houad e lein ho merdeer da sevel klaskoù !"
 
@@ -1261,42 +1307,33 @@ msgstr ""
 msgid "Click the Search Engine Icon in the Address Bar."
 msgstr ""
 
-#. Tells the user where to click in their browser. Part of a list of instructions on how to change the browser's home page.
 msgid "Click the arrow to the right of the %shome icon%s"
 msgstr "Klikit ar saezh war an tu dehou eus %sarlun ar bennbajenn%s"
 
-#. Tells users where to click in their browser to change the default search engine.
 msgid "Click the drop down in the search box"
 msgstr "Klikit war al lañser dibunañ war ar voestad klask"
 
-#. Tells users how to add DuckDuckGo to the list of search engines in their browser.
 msgid ""
 "Click the dropdown menu beside %sSearch engine used in the address bar%s and "
 "select %sDuckDuckGo%s."
 msgstr ""
 
-#. Tells users where to click to change their default search engine.
 msgid "Click the magnifying glass in the search bar"
 msgstr "Klikañ war ar greskwerenn war ar varrenn glask"
 
-#. Tells users what icon to click in order to make DuckDuckGo the default engine in their browser.
 msgid ""
 "Click the magnifying glass in the search box (at the top of the browser)"
 msgstr "Klikit war ar greskwerenn war ar voestad klask (e lein ar merdeer)"
 
-#. Tells users how to add DuckDuckGo to the list of search engines in their browser.
 msgid "Click this button to get started:"
 msgstr ""
 
-#. A button that closes a window.
 msgid "Click to collapse"
 msgstr "Klikit da vihanaat"
 
-#. A button that makes a window larger.
 msgid "Click to expand"
 msgstr "Klikit da astenn"
 
-#. Filters the type of images in search results.
 msgctxt "image-type"
 msgid "Clipart"
 msgstr ""
@@ -1305,19 +1342,16 @@ msgstr ""
 msgid "Close"
 msgstr ""
 
-#. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
 msgid "Close window."
 msgstr "Serriñ ar prenestr."
 
 msgid "Closed"
 msgstr "Serr"
 
-#. Indicates a business is currently closed.
 msgctxt "maps_places"
 msgid "Closed"
 msgstr ""
 
-#. Label for the time a business closes. For example: 'Closes at 10pm'
 msgctxt "maps_places"
 msgid "Closes"
 msgstr ""
@@ -1327,17 +1361,21 @@ msgctxt "maps_places"
 msgid "Closes at %s"
 msgstr ""
 
-#. Indicates a business is closing soon.
 msgctxt "maps_places"
 msgid "Closes soon"
 msgstr ""
 
-#. A place closing in X minutes/hours, for example: 'Closing in 56 mins', 'Closing in 3.5 hours'
+#. A place closing in X minutes, for example: 'Closing in 56 mins'
 msgctxt "maps_places"
 msgid "Closing in %s mins"
 msgstr ""
 
-#. Label for a feature that saves user settings to the cloud.
+#. Title for the bottom part of  the <a href="https://duckduckgo.com/settings.html">main settings page</a> about saving anonymously in the cloud.
+msgid "Cloud Save"
+msgstr "Enrollañ er C'houmoul"
+
+#. Title for the <em>Save Settings</em> form that is displayed when you click on the <em>Save Settings</em> from the <a href="https://duckduckgo.com/settings.html">settings page</a>.
+msgctxt "cloudsave"
 msgid "Cloud Save"
 msgstr "Enrollañ er C'houmoul"
 
@@ -1345,27 +1383,29 @@ msgctxt "settings"
 msgid "Cloud Save"
 msgstr ""
 
-#. Label for the URL that saves user's settings.
+#. Enable cloud save, then click "Show Bookmarklet and Settings Data" - http://i.imgur.com/leUkNoB.png
+#. Then in the box that opens - http://i.imgur.com/8D4DdF8.png
 msgctxt "settings"
 msgid "Cloud Save Bookmarklet URL:"
 msgstr "URL skriptsined enrollañ er c'houmoul"
 
-#. Message indicating that cloud save has been turned on
+#. You need to load cloud save to see the message. http://i.imgur.com/rDsoI7u.png
 msgctxt "cloudsave"
 msgid "Cloud Save Enabled"
 msgstr "Gweredekaet eo an enrollañ er c'houmoul"
 
-#. Title above a list of questions and answers about the cloud save feature. FAQ stands for 'Frequently Asked Questions'
+#. Self informative <em>Cloud Save FAQ</em> title for the FAQ about how your settings data can be stored anonymously.
 msgctxt "cloudsave"
 msgid "Cloud Save FAQ"
 msgstr "FAG Enrollañ er C'houmoul"
 
-#. Link to more information about the cloud save feature.
+#. Expand the Cloud Save box - http://i.imgur.com/1OudbYX.png
+#. At the bottom of the box - http://i.imgur.com/U79ETEb.png
 msgctxt "cloudsave"
 msgid "Cloud Save discussion on duck.co"
 msgstr "Kendiviz a-fet enrollañ er c'houmoul war duck.co"
 
-#. Text explaining the benefits of the cloud save feature.
+#. Introduction of the <em>Cloud Save FAQ</em> <a href="https://duckduckgo.com/settings.html">inside settings page</a>.
 msgctxt "cloudsave"
 msgid ""
 "Cloud Save lets you save your settings more permanently by entering a "
@@ -1382,13 +1422,36 @@ msgstr ""
 msgid "Colombia"
 msgstr ""
 
-#. Filters the color of images in search results.
+#. Instant Answer tab name
+msgid "Color"
+msgstr "Liv"
+
+#. Title for the <em>Color Settings</em> inside <a href="https://duckduckgo.com/params.html">querry parameters page</em>.
+msgid "Color Settings"
+msgstr "Arventennoù al livioù"
+
 msgctxt "image-color"
 msgid "Color only"
 msgstr ""
 
+#. In the top menu under Settings
+msgid "Colors"
+msgstr "Livioù"
+
+msgid "Comics"
+msgstr "Bandennoù treset"
+
+#. When suggesting a !newbang in the <a href="https://duckduckgo.com/newbang.html">!newbang page</a>, last field is a free text one for adding <em>comments</em>. This is the label for this field.
+msgid "Comments"
+msgstr "Askelennoù"
+
+#. Link to duck.co from front page menu
 msgid "Community"
 msgstr "Kevredigezh"
+
+#. Instant Answer Tab Name
+msgid "Concerts"
+msgstr "Sonadegoù"
 
 #. Indicates the Win-Loss record of a team within its conference in e.g. NBA
 msgctxt "Sports module"
@@ -1410,7 +1473,6 @@ msgctxt "Covid 19 module"
 msgid "Confirmed"
 msgstr ""
 
-#. The number of confirmed Covid 19 cases
 msgctxt "Covid 19 module"
 msgid "Confirmed Cases"
 msgstr ""
@@ -1418,20 +1480,28 @@ msgstr ""
 msgid "Congratulations!"
 msgstr ""
 
+#. http://i.imgur.com/epDTyUE.png
 msgctxt "theme"
 msgid "Contrast"
 msgstr "Dargemm"
 
+#. http://i.imgur.com/G36h64l.png
+#. This setting controls the width of the search results:
+#. http://i.imgur.com/CoVquLr.png
+#. http://i.imgur.com/DiQq2Ll.png
 msgctxt "settings"
 msgid "Controls the width of the search box and results"
 msgstr "Reoliañ a ra led boestad ar c'hlaskoù hag an disoc'hoù"
 
-#. Label for information about the cookie that saves the user's settings.
+#. Instant Answer tab name
+msgid "Conversion"
+msgstr "Eiltaladur"
+
+#. http://i.imgur.com/fd7EjAN.png
 msgctxt "settings"
 msgid "Cookie data:"
 msgstr ""
 
-#. Instructions on how to change the default search engine
 msgid "Copy &amp; paste %sabout:preferences#search%s into the address bar"
 msgstr ""
 
@@ -1440,12 +1510,10 @@ msgctxt "translations_module"
 msgid "Copy translation"
 msgstr ""
 
-#. Option in a feedback form for image search results.
 msgctxt "Report image modal"
 msgid "Copyright violation"
 msgstr ""
 
-#. Title of the Covid 19 module
 msgctxt "Covid 19 module"
 msgid "Coronavirus Disease (COVID-19)"
 msgstr ""
@@ -1458,7 +1526,10 @@ msgstr ""
 msgid "Costa Rica"
 msgstr ""
 
-#. Label below a video that's available under the Creative Commons license.
+#. Instant Answer Tab Name
+msgid "Coupons"
+msgstr "Troc'hennoù"
+
 msgctxt "video-license"
 msgid "Creative Commons"
 msgstr ""
@@ -1480,6 +1551,10 @@ msgctxt "Currency module"
 msgid "Currencies swapped"
 msgstr ""
 
+#. Instant Answer tab name
+msgid "Currency"
+msgstr "Moneiz"
+
 #. The title shown when the Currency dropdown is opened on mobile. Example: https://duckduckgo.com/?q=5+gbp+to+usd&ia=currency
 msgctxt "Currency module"
 msgid "Currency"
@@ -1495,17 +1570,25 @@ msgctxt "Sports module"
 msgid "Current Streak"
 msgstr ""
 
-#. Button to enable entering a custom option
+#. http://i.imgur.com/n6W3M3I.png
+msgctxt "settings"
+msgid "Custom"
+msgstr "Personelaet"
+
+#. Custom --> 'customized'
+#. A setting that *you* choose and is not a default.
 msgctxt "settingsvalue"
 msgid "Custom"
 msgstr "Personelaet"
 
-#. Placeholder for a custom option. Can be something like 'Custom Font'.
+msgctxt "settings"
+msgid "Custom %s"
+msgstr ""
+
 msgctxt "settingsvalue"
 msgid "Custom %s"
 msgstr "Personelaat %s"
 
-#. Label for a calendar that lets users select a range of dates.
 msgid "Custom date range"
 msgstr ""
 
@@ -1532,11 +1615,17 @@ msgctxt "language_name"
 msgid "Dari"
 msgstr ""
 
+#. A theme name in the theme menu:
+#. https://duck.co/media/files/theme.png
+msgid "Dark"
+msgstr "Teñval"
+
+#. http://i.imgur.com/07cZIPc.png
 msgctxt "theme"
 msgid "Dark"
 msgstr "Teñval"
 
-#. Attribution text for the sports module. Indicates where our sports data comes from. Note: "Sportradar" is a brand name and should not be translated
+#. Attribution text for the sports module
 msgctxt "Sports module"
 msgid "Data from Sportradar"
 msgstr ""
@@ -1556,10 +1645,14 @@ msgctxt "Stocks module"
 msgid "Data provided by Refinitiv"
 msgstr ""
 
+#. Instant Answer tab name
 msgid "Date"
 msgstr "Deiziad"
 
-#. Category a user can select on a feedback form.
+msgctxt "feedback form"
+msgid "Date Filters"
+msgstr ""
+
 msgctxt "feedback form"
 msgid "Date filters"
 msgstr ""
@@ -1569,16 +1662,27 @@ msgctxt "Covid 19 module"
 msgid "Deaths"
 msgstr ""
 
+#. A theme name in the theme menu:
+#. https://duck.co/media/files/theme.png
+msgid "Default"
+msgstr "Dre ziouer"
+
+#. http://i.imgur.com/BjrIFRp.png
 msgctxt "theme"
 msgid "Default"
 msgstr "Dre ziouer"
+
+#. Instant Answer Tab Name - define a word
+msgid "Definition"
+msgstr "Despizadur"
 
 #. Indicator that a game has been delayed
 msgctxt "Sports module"
 msgid "Delayed"
 msgstr ""
 
-#. Button that deletes settings has backed up to the cloud. 
+#. When anonymous cloud save is enabled, a box is available with a <em>delete your data</em> button at the bottom of <a href="https://duckduckgo.com/settings.html">settings page<a/>.
+#. This token is displayed as a button, so keep it short!
 msgid "Delete My Data"
 msgstr ""
 
@@ -1590,6 +1694,7 @@ msgctxt "translations_module"
 msgid "Detect language"
 msgstr ""
 
+#. in the Homepage( javasript enabled) in the bottom right. By clicking the "More" button. Under "COMMUNITY" header
 msgid "Develop"
 msgstr "Diorren"
 
@@ -1597,21 +1702,28 @@ msgctxt "attribution"
 msgid "Developer"
 msgstr "Paotr an diorren"
 
-#. A link to search results for a different search term. The placeholder value is a term the user may have intended to search for. For example: 'Did you mean pizza?'
+#. In 0-click box -- link to definition.
+msgid "Dictionary"
+msgstr "Geriadur"
+
+#. Used in spelling correction, e.g. <a href="https://duckduckgo.com/?q=testingg">https://duckduckgo.com/?q=testingg</a>
 msgid "Did you mean %s?"
 msgstr "%s a felle deoc'h lavarout ?"
 
-#. Label for directions on a map.
 msgctxt "directions"
 msgid "Directions"
 msgstr ""
 
-#. Label for directions on a map.
+#. Non lle poño "enderezos" pois non se refire aos enderezos se non as instruccións para chegar a un lugar
 msgctxt "maps_places"
 msgid "Directions"
 msgstr ""
 
-#. A button that turns off a feature in the settings menu.
+msgctxt "settings"
+msgid "Directions Source"
+msgstr ""
+
+#. When Cloud Save is enabled, you can disable it in the bottom of the <a href="https://duckduckgo.com/settings.html">settings page</a>. This token is used in a button, so keep it short !
 msgid "Disable"
 msgstr "Diweredekaat"
 
@@ -1619,22 +1731,24 @@ msgctxt "SERP footer content"
 msgid "Discover shortcuts to go to search results on other sites."
 msgstr ""
 
-#. This appears on a button that a user clicks to close a notification.
+#. Button that closes the new messagebox suggesting to add DDG, in the homepage.
 msgid "Dismiss"
 msgstr ""
 
-#. This appears on a button that a user clicks to close a notification, and choose to never see that notification again.
 msgid "Dismiss forever"
 msgstr ""
 
+#. This is the description of a user setting
 msgctxt "settings"
 msgid "Displays a checkmark to the left of results you've visited"
 msgstr ""
 
+#. This is the description of a user setting
 msgctxt "settings"
 msgid "Displays favicons for each result"
 msgstr ""
 
+#. This is the description of a user setting
 msgctxt "settings"
 msgid "Displays results in the center of the page"
 msgstr ""
@@ -1649,11 +1763,15 @@ msgctxt "Sports module"
 msgid "Division Record"
 msgstr ""
 
+#. This is an option for a user setting. It refers to showing only the domain for a website URL (e.g. domain.com) -- Example image: https://i.imgur.com/KkBcFcQ.png
 msgctxt "settingsvalue"
 msgid "Domains Only"
 msgstr ""
 
-#. A setting for the safe search filter that doesn't remove content inappropriate for children.
+msgctxt "SERP footer content"
+msgid "Don't Track Us"
+msgstr ""
+
 msgctxt "safe search"
 msgid "Don't filter adult content"
 msgstr ""
@@ -1663,16 +1781,13 @@ msgctxt "onboarding_slide"
 msgid "Don't let friends get tracked!"
 msgstr ""
 
-#. Link to instructions explaining how to add DuckDuckGo to the list of search engines in your browser.
 msgid "Don't see DuckDuckGo in the list?"
 msgstr ""
 
-#. Link to download a file again if the user can't find it on their computer.
 msgctxt "install-extension"
 msgid "Don't see it? %s%s%sClick here to re-download%s"
 msgstr ""
 
-#. Tells users how to add DuckDuckGo to the list of search engines in their browser.
 msgid "Don't see the checkbox? %sFollow these steps%s."
 msgstr ""
 
@@ -1684,11 +1799,9 @@ msgctxt "precise_user_location"
 msgid "Done"
 msgstr ""
 
-#. Button that downloads a file.
 msgid "Download file"
 msgstr "pellgargañ an diell"
 
-#. Tells the user how to make DuckDuckGo their home page.
 msgid "Drag %sThis Button%s on top of the home icon:"
 msgstr "Riklañ %sAn afell-mañ%s betek lein arlun ar pennbajenn :"
 
@@ -1697,7 +1810,10 @@ msgctxt "Sports module"
 msgid "Draws"
 msgstr ""
 
-#. Label for driving directions on a map.
+#. Instant Answer Tab Name
+msgid "Drinks"
+msgstr "evajoù"
+
 msgctxt "directions"
 msgid "Driving"
 msgstr ""
@@ -1707,17 +1823,43 @@ msgctxt "Weather IA"
 msgid "Drizzle"
 msgstr ""
 
-msgctxt "settings"
-msgid "DuckAssist"
+#. This is the DDG version of "Google it", meaning "search it".
+msgid "Duck it"
 msgstr ""
 
-msgctxt "settings"
-msgid "DuckAssist <sup>BETA</sup>"
+#. this is either the title that gets created by opening https://duckduckgo.com/duckduckbot or the top header in https://duckduckgo.com/duckduckbot
+msgid "DuckDuckGo Bot"
 msgstr ""
 
-#. Title of a page offering customer support.
+#. by opening https://duckduckgo.com/api it shows in the window title
+msgid "DuckDuckGo Instant Answer API"
+msgstr "API Respont Diadaol DuckDuckGo"
+
+#. by opening https://duckduckgo.com/newbang it shows in the window title
+msgid "DuckDuckGo New !Bang"
+msgstr "!Bang nevez DuckDuckGo"
+
+#. Inside your browser title bar or tab title when visiting the <a href="https://duckduckgo.com/privacy.html">privacy page</a>.
+msgid "DuckDuckGo Privacy"
+msgstr "Buhez prevez DuckDuckGo"
+
+#. Inside your browser title bar or tab title when visiting the <a href="https://duckduckgo.com/search_box.html">search box page</a>.
+msgid "DuckDuckGo Search Box"
+msgstr "Boestad klask DuckDuckGo"
+
+#. Inside your browser title bar or tab title when visiting the <a href="https://duckduckgo.com/settings.html">settings page</a>.
+msgid "DuckDuckGo Settings"
+msgstr "Arventennoù DuckDuckGo"
+
+#. Link to the settings help in support center from the cloud save section.
+#. You have to click the "What is this?" link to display the link (that is contained on the bottom of a huge paragraph).
 msgid "DuckDuckGo Support Center"
 msgstr "Kreizenn Skorañ DuckDuckGo"
+
+#. Displayed into your browser's title bar, tab's title, when you visit the <a href="https://duckduckgo.com/params.html">params page</a>.
+#. Bonus : also available through the <head><title>HERE</title></head> tag.
+msgid "DuckDuckGo URL Parameters"
+msgstr "Arventennoù URL DuckDuckGo"
 
 #. An information popup explaining that we block trackers
 msgid ""
@@ -1726,7 +1868,6 @@ msgid ""
 "websites."
 msgstr ""
 
-#. Description of how DuckDuckGo keeps a user's location anonymous while the user searches on a map of their area.
 msgctxt "precise_user_location"
 msgid ""
 "DuckDuckGo is private by design. When you enable location, it is stored on "
@@ -1745,12 +1886,15 @@ msgstr ""
 msgid "DuckDuckGo search"
 msgstr ""
 
+#. Used as a link to your personal settings  into the sentence <em>You can change *DuckDuckGo settings* via URL parameters by adding them after the search query</em>. See the <a href="https://duckduckgo.com/params.html">params page</a>.
+msgid "DuckDuckGo settings"
+msgstr "Arventennoù DuckDuckGo"
+
 #. The name of the Dutch language
 msgctxt "language_name"
 msgid "Dutch"
 msgstr ""
 
-#. Abbreviation for 'East'
 msgctxt "forecast"
 msgid "E"
 msgstr ""
@@ -1764,7 +1908,9 @@ msgctxt "settings"
 msgid "EU Android Welcome Message"
 msgstr ""
 
-#. Text explaining how random passphrases are generated.
+#. Stuff explaining <em>how does passphrase generation work</em>.
+#. From <a href="https://duckduckgo.com/settings.html">settings page</a>.
+#. You have to click the "What is this?" link to display it.
 msgctxt "cloudsave"
 msgid ""
 "Each time you ask for a passphrase suggestion, we receive a long list of "
@@ -1790,38 +1936,34 @@ msgstr ""
 msgid "Ecuador"
 msgstr ""
 
-#. Tells users which setting to change to enable location service.
+#. Form field for your email ;)
+#. From <a href="https://duckduckgo.com/newbang.html ">new !bang page</a> and <a href="https://duckduckgo.com/feedback.html">feedback page</a>.
+msgid "Email"
+msgstr "Postel"
+
 msgctxt "precise_user_location"
 msgid "Enable 'Sites can ask for my location.'"
 msgstr ""
 
-#. Text explaining how to enable the cloud save feature.
+#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
+#. In the cloud save box - http://i.imgur.com/fUS6WAi.png
 msgctxt "cloudsave"
 msgid "Enable Cloud Save by entering your existing passphrase."
 msgstr ""
 
-#. Button that allows a map to access the user's current location.
 msgctxt "precise_user_location"
 msgid "Enable Location"
 msgstr ""
 
-#. Setting that shows a user's most visited sites when they open a new browser tab.
-msgctxt "new tab page"
-msgid "Enable Most Visited Sites"
-msgstr ""
-
-#. Tells users how to enable location service on their device.
 msgid ""
 "Enable anonymous location for more accurate results. You can always change "
 "your mind later."
 msgstr ""
 
-#. Prompt to enable location service so that search results can be displayed near the user's current location.
 msgctxt "precise_user_location"
 msgid "Enable location settings on your device to use anonymous location"
 msgstr ""
 
-#. Prompts users to turn on the location service on their phone.
 msgctxt "precise_user_location"
 msgid "Enable the Location setting on your phone."
 msgstr ""
@@ -1846,53 +1988,46 @@ msgctxt "language_name"
 msgid "English"
 msgstr ""
 
-#. Tells users where to find location settings within the settings menu. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Ensure %s'Allow'%s is selected for the 'Location' setting."
 msgstr ""
 
-#. Tells users to make sure location services are enabled on their device. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Ensure 'Location Services' is %senabled%s."
 msgstr ""
 
-#. Tells users how to enable location service.
 msgctxt "precise_user_location"
 msgid "Ensure 'Location' is set to %sallow%s."
 msgstr ""
 
-#. Tells users to make sure location services are enabled on their device. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Ensure location access is %sallowed%s."
 msgstr ""
 
-#. Tells users how to enable location service.
 msgctxt "precise_user_location"
 msgid "Ensure your browser is allowed %slocation access%s."
 msgstr ""
 
-#. Tells how to enable location service.
 msgctxt "precise_user_location"
 msgid "Ensure your browser is allowed location access."
 msgstr ""
 
-#. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
 msgid "Enter %shttps://duckduckgo.com%s"
 msgstr "Enankit %shttps://duckduckgo.com%s"
 
-#. Tells users how to change their passphrase for the cloud save feature.
+#. Click to expand the Cloud Save box: http://i.imgur.com/1OudbYX.png
+#. then locate the text here: http://i.imgur.com/xisuMjL.png
 msgctxt "cloudsave"
 msgid ""
 "Enter a new passphrase and click/tap %sSave Settings%s. This will save your "
 "data under your new passphrase."
 msgstr ""
 
-#. Label for the field where a user enters their passphrase.
+#. http://i.imgur.com/qo0C6MA.png
 msgctxt "settings"
 msgid "Enter a passphrase"
 msgstr ""
 
-#. Prompt to enter a starting location for driving directions.
 msgctxt "maps_directions"
 msgid "Enter start location"
 msgstr ""
@@ -1902,28 +2037,26 @@ msgctxt "translations_module"
 msgid "Enter text"
 msgstr ""
 
-#. Instructions for how to change the default search engine.
+#. Alias=pseudônimo: pt_pt
 msgid ""
 "Enter the following details: %sName%s: DuckDuckGo%s URL%s: %s Alias%s: d%s"
 msgstr ""
 "Enankit ar munudoù da heul : %sAnv%s : DuckDuckGo%s URL%s : %s Aliaz%s : d%s"
 
-#. Prompt to enter a destination for driving directions.
 msgctxt "maps_directions"
 msgid "Enter your destination"
 msgstr ""
 
-#. Label for an email address field.
 msgctxt "email newsletter"
 msgid "Enter your email address."
 msgstr ""
 
-#. A prompt asking users to enter their passphrase.
+#. Click "Load Settings" - http://i.imgur.com/3czvc4H.png
+#. Then - http://i.imgur.com/K6c3e4L.png
 msgctxt "cloudsave"
 msgid "Enter your passphrase to load your settings."
 msgstr ""
 
-#. Link to a page with information about how other companies use user data to control what their users see online.
 msgctxt "SERP footer content"
 msgid "Escape The Filter Bubble"
 msgstr ""
@@ -1936,7 +2069,6 @@ msgctxt "language_name"
 msgid "Estonian"
 msgstr ""
 
-#. Button that makes a map larger
 msgctxt "mobile expanded map"
 msgid "Expand Map"
 msgstr ""
@@ -1946,16 +2078,13 @@ msgctxt "lyrics_module"
 msgid "Explicit"
 msgstr ""
 
-#. Option in a feedback form for image search results.
 msgctxt "Report image modal"
 msgid "Explicit content"
 msgstr ""
 
-#. Link to a page where users can download the DuckDuckGo browser extension and other products.
 msgid "Extensions & More"
 msgstr "Askouezhioù & Traoù all"
 
-#. Filters the size of images in search results.
 msgctxt "size"
 msgid "Extra Large"
 msgstr ""
@@ -1970,23 +2099,32 @@ msgctxt "Sports module"
 msgid "FT"
 msgstr ""
 
-#. Label for driving directions with the least amount of travel time.
 msgctxt "directions"
 msgid "Fastest route"
 msgstr ""
 
+#. <em>kf</em>'s label into <a href="https://duckduckgo.com/params.html">query parameters documentation page</a>.
+msgid "Favicons:"
+msgstr "Arlunioù gwellañ deuet :"
+
 msgid "Feedback"
 msgstr "Askelennoù"
 
-#. Confirmation message after sending feedback.
 msgctxt "feedback form"
 msgid "Feedback Sent"
 msgstr ""
 
-#. Confirmation message after sending feedback.
 msgctxt "feedback form"
 msgid "Feedback Sent Successfully"
 msgstr ""
+
+#. https://duckduckgo.com/search_box
+msgid ""
+"Feel free to adjust the settings below. Then, just copy and paste the code "
+"into your website."
+msgstr ""
+"Kempennit an arventennoù evel ma plij deoc'h. Neuze, pegit hag eilit ar "
+"voneg e-barzh ho load internet."
 
 #. The name of the Fijian language
 msgctxt "language_name"
@@ -1998,7 +2136,6 @@ msgctxt "language_name"
 msgid "Filipino"
 msgstr ""
 
-#. Tells users how to add DuckDuckGo to the list of search engines in their browser.
 msgid "Fill in the last form field with %s"
 msgstr ""
 
@@ -2018,12 +2155,10 @@ msgctxt "Site filter message"
 msgid "Filter to only see results from %s"
 msgstr ""
 
-#. Category of feedback a user can select on a feedback form.
 msgctxt "feedback form"
 msgid "Filters aren't working"
 msgstr ""
 
-#. Label for the final score of a sporting event.
 msgid "Final"
 msgstr ""
 
@@ -2032,30 +2167,24 @@ msgctxt "Sports module"
 msgid "Final"
 msgstr ""
 
-#. Tells users how to add DuckDuckGo to the list of search engines in their browser.
 msgid "Finally, click %sAdd%s"
 msgstr ""
 
-#. Tells users where to click in their browser to change the default search engine.
 msgid "Find %sDuckDuckGo%s and click%sMake default%s"
 msgstr ""
 
-#. Tells users how to change their default search engine to DuckDuckGo.
 msgid "Find DuckDuckGo in the displayed list and click %sMake Default%s"
 msgstr ""
 "Kavit DuckDuckGo war ar roll skrammet ha klikit war %sLakaat da ziouer%s"
 
-#. Button that searches for results closer to the user's current location.
 msgctxt "precise_user_location"
 msgid "Find results closer to you"
 msgstr ""
 
-#. Button that searches for results closer to the user's current location.
 msgctxt "precise_user_location"
 msgid "Find results closer to you."
 msgstr ""
 
-#. Link to a page with information about how to use advanced web search features.
 msgctxt "SERP footer content"
 msgid "Fine-tune Your Search"
 msgstr ""
@@ -2068,6 +2197,10 @@ msgctxt "language_name"
 msgid "Finnish"
 msgstr ""
 
+#. Instant Answer Tab Name
+msgid "Flights"
+msgstr "nijadenn"
+
 #. Description of the daily/hourly weather condition, as returned from the (WeatherKit) API
 msgctxt "Weather IA"
 msgid "Flurries"
@@ -2078,15 +2211,16 @@ msgctxt "Weather IA"
 msgid "Foggy"
 msgstr ""
 
-#. Link to DuckDuckGo's Twitter profile.
 msgctxt "new user poll"
 msgid "Following us on Twitter"
 msgstr ""
 
+#. http://i.imgur.com/JWnlmmo.png
 msgctxt "settings"
 msgid "Font"
 msgstr "Nodrezh"
 
+#. http://i.imgur.com/rBFnfUF.png
 msgctxt "settings"
 msgid "Font Size"
 msgstr "Ment an nodrezh"
@@ -2129,6 +2263,16 @@ msgctxt "Weather IA"
 msgid "Freezing Rain"
 msgstr ""
 
+#. Description of the daily/hourly weather condition, as returned from the (WeatherKit) API
+msgctxt "Weather IA"
+msgid "Freezing drizzle"
+msgstr ""
+
+#. Description of the daily/hourly weather condition, as returned from the (WeatherKit) API
+msgctxt "Weather IA"
+msgid "Freezing rain"
+msgstr ""
+
 #. The name of the French language
 msgctxt "language_name"
 msgid "French"
@@ -2149,7 +2293,6 @@ msgctxt "maps_places"
 msgid "Fridays"
 msgstr ""
 
-#. Response a user can select in a feedback form, indicating they heard about DuckDuckGo from a friend or family member.
 msgctxt "new user poll"
 msgid "Friend or family"
 msgstr ""
@@ -2159,10 +2302,12 @@ msgctxt "Weather IA"
 msgid "Frigid"
 msgstr ""
 
+#. This is an option for a user setting. It refers to showing the full URL for a website, including the url path, but made to look like the breadcrumbs of a website (e.g. website.com > this > is > the > path) -- Example image: https://i.imgur.com/roiQBYz.png
 msgctxt "settingsvalue"
 msgid "Full URLs (Breadcrumbs)"
 msgstr ""
 
+#. This is an option for a user setting. It refers to showing the full URL for a website, including the url path (e.g. website.com/this/is/this/path) -- Example image: https://i.imgur.com/SxYWf9o.png
 msgctxt "settingsvalue"
 msgid "Full URLs (Slashes)"
 msgstr ""
@@ -2182,6 +2327,7 @@ msgctxt "Sports module"
 msgid "GD"
 msgstr ""
 
+#. http://i.imgur.com/tGau0Vx.png
 msgctxt "settings"
 msgid "GET Requests"
 msgstr ""
@@ -2191,16 +2337,14 @@ msgctxt "Sports module"
 msgid "GF"
 msgstr ""
 
-#. Text indicating the game number
+#. Indicates which game within a series this is, in the context of a tournament such as play-offs. E.g. Game 6
 msgctxt "Sports module"
 msgid "Game %s"
 msgstr ""
 
-#. Indicates that a sporting event has ended
 msgid "Game ended"
 msgstr "C'hoari bet echuet"
 
-#. Label for the number of games that have been played between two sports teams.
 msgid "Games"
 msgstr "C'hoarioù"
 
@@ -2214,10 +2358,10 @@ msgctxt "Sports module"
 msgid "Games Behind"
 msgstr ""
 
-#. Header above a list of search settings.
 msgid "General"
 msgstr "Hollek"
 
+#. http://i.imgur.com/wjw27ik.png
 msgctxt "settings"
 msgid "General"
 msgstr "Hollek"
@@ -2230,23 +2374,24 @@ msgstr ""
 msgid "Germany"
 msgstr ""
 
-#. Button that takes users to the app store page for DuckDuckGo.
+#. app --->  "application" as in an iPhone app
 msgid "Get App"
 msgstr "Kaout Arloadoù"
 
-#. Button that gets directions on a map.
 msgctxt "maps_maps_module"
 msgid "Get Directions"
 msgstr ""
 
-#. Link to a page where users can select the color scheme of their search engine.
 msgctxt "SERP footer content"
 msgid "Get New Themes"
 msgstr ""
 
-#. The title of a page where users can download the DuckDuckGo app or browser extension.
 msgctxt "showcase_app"
 msgid "Get Our App & Extension"
+msgstr ""
+
+msgctxt "showcase_privacy"
+msgid "Get Privacy Tips"
 msgstr ""
 
 msgctxt "SERP footer content"
@@ -2257,12 +2402,13 @@ msgid ""
 "Get seamless privacy protection on your browser for free with one download:"
 msgstr ""
 
-#. Label for links to appropriate local health authorities
 msgctxt "Covid 19 module"
 msgid "Get the latest information:"
 msgstr ""
 
-#. Label for a link to a music streaming platform. For example 'Get this song on: Spotify'
+msgid "Get the non-JS version %s"
+msgstr "Kaout an handelv %s hep JS"
+
 msgctxt "access_song"
 msgid "Get this song on:"
 msgstr "Kaout an ton-mañ digant :"
@@ -2278,16 +2424,13 @@ msgstr ""
 msgid "Ghana"
 msgstr ""
 
-#. Tells users where to find the location settings in the settings menu. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Go to 'Site Settings'."
 msgstr ""
 
-#. Tells users where in the settings menu they can change their default search engine.
 msgid "Go to Options."
 msgstr "Mont d'an dibarzhioù"
 
-#. Tells users where in the settings menu they can change their default search engine.
 msgid "Go to Search Engine."
 msgstr "Mont d'ar c'heflusker klask."
 
@@ -2306,12 +2449,16 @@ msgctxt "Sports module"
 msgid "Goals For"
 msgstr ""
 
+#. Part of the sentence: "<b>Goodies</b> and no tracking." (used for limited browsers, mobile and co.)
+msgctxt "shortbelieve"
+msgid "Goodies"
+msgstr "Bitrakoù mat"
+
 #. Option selected by user to acknowledge understanding of information
 msgctxt "precise_user_location"
 msgid "Got it"
 msgstr ""
 
-#. Filters the color of images in search results.
 msgctxt "color"
 msgid "Gray"
 msgstr ""
@@ -2328,12 +2475,18 @@ msgctxt "language_name"
 msgid "Greek"
 msgstr ""
 
-#. Filters the color of images in search results.
+#. <em>kj</em>'s, <em>ky</em>'s and <em>kx</em>'s labels for the header, highlight and URLs color settings query parameters caption into <a href="https://duckduckgo.com/params.html">query parameters documentation page</a>.
+msgid "Green"
+msgstr "Gwer"
+
 msgctxt "color"
 msgid "Green"
 msgstr ""
 
-#. Explains that the grid mode is disabled for this specific search result type.
+#. Used for various color settings  query parameters values captions into <a href="https://duckduckgo.com/params.html">query parameters documentation page</a>.
+msgid "Grey"
+msgstr "Loued"
+
 msgid "Grid mode disabled for this answer"
 msgstr ""
 
@@ -2362,6 +2515,15 @@ msgctxt "Sports module"
 msgid "HT"
 msgstr ""
 
+#. http://i.imgur.com/LHG4IZQ.png
+msgctxt "settings"
+msgid "HTTPS"
+msgstr ""
+
+#. <em>kh</em>'s label for one of the privacy settings query parameters into <a href="https://duckduckgo.com/params.html">query parameters documentation page</a>.
+msgid "HTTPS:"
+msgstr "HTTPS :"
+
 #. Description of the daily/hourly weather condition, as returned from the (WeatherKit) API
 msgctxt "Weather IA"
 msgid "Hail"
@@ -2383,12 +2545,22 @@ msgid "Haze"
 msgstr ""
 
 msgctxt "settings"
+msgid "Header Appearance"
+msgstr "Neuz an Talbenn"
+
+#. http://i.imgur.com/ug14CSY.png
+msgctxt "settings"
 msgid "Header Behavior"
 msgstr "Emzalc'h an talben"
 
+#. http://i.imgur.com/MwUruEO.png
 msgctxt "settings"
 msgid "Header Color"
 msgstr "Liv an talbennoù"
+
+#. <em>ko</em>'s and <em>kj</em>'s label for one of the color or interface settings query parameters into <a href="https://duckduckgo.com/params.html">query parameters documentation page</a>.
+msgid "Header:"
+msgstr "Talbenn :"
 
 #. Description of the daily/hourly weather condition, as returned from the (WeatherKit) API
 msgctxt "Weather IA"
@@ -2400,11 +2572,22 @@ msgctxt "Weather IA"
 msgid "Heavy Snow"
 msgstr ""
 
+#. Description of the daily/hourly weather condition, as returned from the (WeatherKit) API
+msgctxt "Weather IA"
+msgid "Heavy rain"
+msgstr ""
+
+#. Description of the daily/hourly weather condition, as returned from the (WeatherKit) API
+msgctxt "Weather IA"
+msgid "Heavy snow"
+msgstr ""
+
 #. The name of the Hebrew language
 msgctxt "language_name"
 msgid "Hebrew"
 msgstr ""
 
+#. homepage/ bottom right under More.
 msgid "Help"
 msgstr "Skoazell"
 
@@ -2416,7 +2599,6 @@ msgstr ""
 msgid "Help DuckDuckGo%s Improve This Page"
 msgstr ""
 
-#. Link to a feedback form.
 msgctxt "feedback form"
 msgid "Help DuckDuckGo%s improve searches like this"
 msgstr ""
@@ -2425,7 +2607,6 @@ msgctxt "settings"
 msgid "Help Improve DuckDuckGo"
 msgstr ""
 
-#. Link to a page with information on how to share DuckDuckGo. 'Spread' in this case refers to sharing.
 msgctxt "SERP footer content"
 msgid "Help Spread DuckDuckGo"
 msgstr ""
@@ -2435,11 +2616,13 @@ msgctxt "Mobile footer, homepage tagline"
 msgid "Help Spread DuckDuckGo!"
 msgstr ""
 
-#. Link to a page with information about sharing DuckDuckGo with friends.
 msgid "Help Spread Privacy"
 msgstr ""
 
-#. A subtitle of a page that encourages users to share DuckDuckGo with their friends.
+msgctxt "SERP footer content"
+msgid "Help us raise the standard of trust online."
+msgstr ""
+
 msgctxt "showcase_spread"
 msgid "Help your friends and family join the Duck Side!"
 msgstr ""
@@ -2449,7 +2632,6 @@ msgctxt "footer_card"
 msgid "Help your friends and family take back their privacy!"
 msgstr ""
 
-#. The title of a menu that shows other applications DuckDuckGo has made.
 msgctxt "showcase_aria_dropdown"
 msgid "Here are some things that we made that you might like."
 msgstr ""
@@ -2459,12 +2641,10 @@ msgctxt "welcome message"
 msgid "Here's what it does:"
 msgstr ""
 
-#. Setting that hides a user's most visited sites when they open a new browser tab.
 msgctxt "new tab page"
-msgid "Hide Most Visited Sites"
+msgid "Hide Most-Visited Sites"
 msgstr ""
 
-#. A button that hides a passphrase the user has typed.
 msgctxt "settings"
 msgid "Hide Passphrase"
 msgstr ""
@@ -2498,7 +2678,6 @@ msgctxt "Stocks module"
 msgid "Historical prices not available"
 msgstr ""
 
-#. Tells users how to add DuckDuckGo to the list of search engines in their browser.
 msgid ""
 "Hit %sReturn%s on your keyboard to %ssave DuckDuckGo to the list. %sThen "
 "click %sMake Default%s"
@@ -2532,51 +2711,56 @@ msgctxt "Weather IA"
 msgid "Hot"
 msgstr ""
 
-#. Refers to hours of operation for a business.
 msgctxt "maps_places"
 msgid "Hours"
 msgstr ""
 
-#. Category of feedback a user can select on a feedback form.
 msgctxt "feedback form"
 msgid "Hours are incorrect"
 msgstr ""
 
-#. Category of feedback a user can select on a feedback form.
 msgctxt "feedback form"
 msgid "Hours are missing"
 msgstr ""
 
+#. This is the name of a user setting
 msgctxt "settings"
 msgid "Hover, Module, and Dropdown Background Color"
 msgstr ""
 
-#. Link to a page with information about how DuckDuckGo makes money without sacrificing privacy.
 msgctxt "SERP footer content"
 msgid "How We Are Profitable"
 msgstr ""
 
-#. Header above an explanation of how to change a passphrase.
+#. Title for the stuffs explaining <em>how to change your passphrase</em>.
+#. From <a href="https://duckduckgo.com/settings.html">settings page</a>.
+#. You have to click the "What is this?" link to display it.
 msgctxt "cloudsave"
 msgid "How do I change my passphrase?"
 msgstr "Penaos kemmañ ma frazenn dremen ?"
 
-#. Header above an explanation of how the cloud save feature works.
+#. Title for the stuffs explaining <em>how the cloud save works</em>.
+#. From <a href="https://duckduckgo.com/settings.html">settings page</a>.
+#. You have to click the "What is this?" link to display it.
 msgctxt "cloudsave"
 msgid "How does it work?"
 msgstr "Penaos ez a en-dro ?"
 
-#. Header above an explanation of how passphrases are generated.
+#. Title for the stuffs explaining <em>how does passphrase generation work</em>.
+#. From <a href="https://duckduckgo.com/settings.html">settings page</a>.
+#. You have to click the "What is this?" link to display it.
 msgctxt "cloudsave"
 msgid "How does passphrase generation work?"
 msgstr "Penaos ez a en-dro genel ar frazennoù tremen ?"
 
-#. Header above an explanation of how the cloud save feature keeps user data anonymous.
+#. From <a href="https://duckduckgo.com/settings.html">settings page</a>.
+#. Title for a small paragraph about how DuckDuckGo doesn't store <strong>ANY</strong> personal informations (including your username). How are you BTW for asking this???
+#.
+#. You have to click the "What is this?" link to display it.
 msgctxt "cloudsave"
 msgid "How is it anonymous?"
 msgstr "Penaos eo dianv ?"
 
-#. Refers to humidity in the air, in a weather forecast module.
 msgctxt "forecast"
 msgid "Humidity"
 msgstr ""
@@ -2594,7 +2778,6 @@ msgctxt "Weather IA"
 msgid "Hurricane"
 msgstr ""
 
-#. Category of feedback a user can select on a feedback form.
 msgctxt "feedback form"
 msgid "I don't want this type of result"
 msgstr ""
@@ -2615,12 +2798,13 @@ msgstr ""
 msgid "I don’t want to see my most-visited sites"
 msgstr ""
 
-#. Category of feedback a user can select on a feedback form.
 msgctxt "feedback form"
 msgid "I expected to see results from more sellers"
 msgstr ""
 
-#. Header above text explaining that passwords can't be recovered.
+#. Title for the stuff explaining <em>how DuckDuckGo <strong>REALLY doesn't</strong> track you</em>.
+#. From the <a href="https://duckduckgo.com/settings.html">settings page</a>.
+#. You have to click the "What is this?" link to display it.
 msgctxt "cloudsave"
 msgid "I forgot my passphrase. Can you recover it?"
 msgstr "Ankouaet 'm eus ma frazenn dremen. Hag adtapet e vez ?"
@@ -2630,14 +2814,12 @@ msgctxt "language_name"
 msgid "Icelandic"
 msgstr ""
 
-#. Tells users where to find location settings within the settings menu. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid ""
 "If the browser location remains unavailable, then go to %sSettings > General "
 "> Reset > 'Reset Location & Privacy'%s."
 msgstr ""
 
-#. Tells users where to find the location settings within the settings menu. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid ""
 "If the browser location remains unavailable, then in your browser go to %s⋮ "
@@ -2645,17 +2827,26 @@ msgid ""
 "allowed location access."
 msgstr ""
 
-#. Tells users how to add DuckDuckGo to the list of search engines in their browser.
 msgid ""
 "If you don't see %sDuckDuckGo,%s you will need to add it to the list of "
 "%sOther Search Engines%s"
 msgstr ""
 
+#. http://i.imgur.com/ReKkJtU.png
 msgctxt "settings"
 msgid "If you still want to support us, %shelp spread DuckDuckGo%s"
 msgstr "Mar fell deoc'h reiñ skoazell deomp, %shelp spread DuckDuckGo%s"
 
-#. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
+#. From <a href="https://duckduckgo.com/settings.html">settings page</a>.
+#. Message displayed at the bottom of the page, informing you that you can't use the settings page without Java Script activated into your browser. <em>%s</em> and <em>%s</em> are respectively for (raw) <em>HTML</em> and <em>lite</em> versions.
+#.
+msgid ""
+"If you want to use DuckDuckGo without JavaScript, please use our %s or %s "
+"versions."
+msgstr ""
+"Mar fell deoc'h ober gant DuckDuckGo hep JavaScript, grit gant hor handelvoù "
+"%s pe %s."
+
 msgid ""
 "If you want, select Home Page next to New windows and New tabs (open with)."
 msgstr ""
@@ -2666,16 +2857,16 @@ msgctxt "settingsvalue"
 msgid "Image tiles"
 msgstr ""
 
-#. Label above image search results.
+#. Used in the !bang dropdown.
 msgid "Images"
 msgstr "Skeudennoù"
 
+#. This is the description of a user setting -- Example image: https://i.imgur.com/IqBhHpM.png
 msgctxt "settings"
 msgid ""
 "Improves result legibility with updated URL format, placement, and color"
 msgstr ""
 
-#. A label that appears in front of the name of a company that DuckDuckGo has partnered with. For example, 'In partnership with Wikipedia'
 msgid "In partnership with"
 msgstr "Gant kevelerezh "
 
@@ -2685,11 +2876,12 @@ msgid ""
 "server to prevent search leakage. %sLearn more%s."
 msgstr ""
 
-#. Tells the user where in the settings menu they can change their default search engine.
 msgid "In the drop down select %sDuckDuckGo%s!"
 msgstr "Diwar al lañser dibunañ, diuzit %sDuckDuckGo%s !"
 
-#. Text explaining how the cloud save feature works.
+#. Explanations for <em>how does the settings cloud save works</em> paragraph.
+#. From <a href="https://duckduckgo.com/settings.html">settings page</a>.
+#. You have to click the "What is this?" link to display it.
 msgctxt "cloudsave"
 msgid ""
 "In the interest of transparency, this data is not encrypted: You can see "
@@ -2699,15 +2891,13 @@ msgstr ""
 msgid "In the menu at the top select %sTools%s > %sSettings%s"
 msgstr "Diwar al lañser e lein, diuzit %sOstilhoù%s > %sArventennoù%s"
 
-#. Tells users how to add DuckDuckGo to the list of search engines in their browser.
 msgid "In the popup, check %sMake this my default search provider%s"
 msgstr ""
 
-#. Tells users how to add DuckDuckGo to the list of search engines in their browser.
+#. No emerxente, pulsa %sEngadir%s
 msgid "In the popup, click %sAdd%s"
 msgstr ""
 
-#. Tells the user where in the settings menu they can change their default search engine.
 msgid "In the side menu select %sInternet Search%s"
 msgstr "Diwar al lañser kostez, diuzit %sKlask dre Internet%s"
 
@@ -2729,19 +2919,30 @@ msgctxt "language_name"
 msgid "Indonesian"
 msgstr ""
 
+#. http://i.imgur.com/7VuBXGO.png
+#. This setting used to be called 'Auto-Load'
+#. Please update this translation if it no longer applies
 msgctxt "settings"
 msgid "Infinite Scroll"
 msgstr "Kargañ emgefreek"
+
+#. This setting used to be called 'Auto-Load Images'
+#. Please update this translation if it no longer applies
+msgctxt "settings"
+msgid "Infinite Scroll for Images"
+msgstr ""
+
+msgctxt "settings"
+msgid "Infinite Scroll for Images and Videos"
+msgstr ""
 
 msgctxt "settings"
 msgid "Infinite Scroll for Images, Videos, and Shopping"
 msgstr ""
 
-#. This appears on a button that a user clicks to install a product on their computer.
 msgid "Install"
 msgstr "Staliañ"
 
-#. Button that installs the DuckDuckGo app.
 msgctxt "homepage onboarding"
 msgid "Install DuckDuckGo"
 msgstr ""
@@ -2750,13 +2951,30 @@ msgctxt "settings"
 msgid "Install DuckDuckGo"
 msgstr ""
 
-#. Link to add the DuckDuckGo browser extension to Safari.
+#. On the homepage, after clicking "use in Safari" http://i.imgur.com/rhp7iTI.png
 msgid "Install DuckDuckGo Safari Extension?"
 msgstr "Staliañ askouezh Safari evit DuckDuckGo ?"
 
+#. in https://duckduckgo.com/api/, topmost header
+msgid "Instant Answer API"
+msgstr "API ar Respont Diadaol"
+
+#. http://i.imgur.com/XW6brqX.png
 msgctxt "settings"
 msgid "Instant Answers"
 msgstr "Respontoù diadaol"
+
+#. Used for various color settings  query parameters values captions into <a =href="https://duckduckgo.com/params.html">query parameters documentation page</a>.
+msgid "Intense green"
+msgstr "Gwer splann"
+
+#. Used for various color settings  query parameters values captions into <a =href="https://duckduckgo.com/params.html">query parameters documentation page</a>.
+msgid "Intense red"
+msgstr "Ruz splann"
+
+#. Title for one of the <a href="https://duckduckgo.com/params.html">URL params page section</a>.
+msgid "Interface Settings"
+msgstr "Arventennoù ar c'hetal"
 
 #. Indicator that a game has been interrupted
 msgctxt "Sports module"
@@ -2783,12 +3001,13 @@ msgctxt "language_name"
 msgid "Irish"
 msgstr ""
 
-#. Header above text explaining data deletion policy.
+#. Title for information about this question. The answer is only <strong>YES</strong>.
+#. From <a href="https://duckduckgo.com/settings.html">settings page</a>.
+#. You have to click the "What is this?" link to display it.
 msgctxt "cloudsave"
 msgid "Is deleted data really deleted?"
 msgstr "Diverket da vat eo ar roadennoù diverket ?"
 
-#. Question on a feedback form.
 msgctxt "feedback form"
 msgid "Is this video helpful?"
 msgstr ""
@@ -2796,6 +3015,11 @@ msgstr ""
 #. Description of the daily/hourly weather condition, as returned from the (WeatherKit) API
 msgctxt "Weather IA"
 msgid "Isolated Thunderstorms"
+msgstr ""
+
+#. Description of the daily/hourly weather condition, as returned from the (WeatherKit) API
+msgctxt "Weather IA"
+msgid "Isolated thunderstorms"
 msgstr ""
 
 msgid "Israel"
@@ -2824,7 +3048,7 @@ msgid ""
 "pages and unlike ads, DuckDuckGo is not compensated for these results."
 msgstr ""
 
-#. Text explaining why passphrases use a series of words instead of random numbers and letters.
+#. https://duckduckgo.com/settings near the bottom, under "Cloud Save", by clicking "What's this", under "How does passphrase generation work?"
 msgctxt "cloudsave"
 msgid ""
 "It’s easier to remember 4-5 words than 10 random letters and numbers, and "
@@ -2837,6 +3061,18 @@ msgstr ""
 #. The name of the Japanese language
 msgctxt "language_name"
 msgid "Japanese"
+msgstr ""
+
+#. Instant Answer Tab Name (below the search box, above the results)
+msgid "Jobs"
+msgstr "Labourioù"
+
+msgctxt "SERP footer content"
+msgid "Join Our Team!"
+msgstr ""
+
+msgctxt "showcase_donate"
+msgid "Join our $500,000 Privacy Challenge"
 msgstr ""
 
 #. The name of the Kannada language
@@ -2854,14 +3090,18 @@ msgctxt "tracker_stats"
 msgid "Keep browsing to see how many we block"
 msgstr ""
 
-#. Header above social media links.
 msgid "Keep in Touch"
+msgstr ""
+
+msgctxt "homepage ATB modal"
+msgid "Keep your search history private"
 msgstr ""
 
 msgctxt "reasons-to-use-duckduckgo"
 msgid "Keep your search history private."
 msgstr ""
 
+#. Section heading (for right column).
 msgctxt "settings"
 msgid "Keyboard Shortcuts"
 msgstr "Berradennoù klavier"
@@ -2874,6 +3114,16 @@ msgstr ""
 #. The name of the Klingon language
 msgctxt "language_name"
 msgid "Klingon"
+msgstr ""
+
+#. The name of the Klingon (Latin) language
+msgctxt "language_name"
+msgid "Klingon (Latin)"
+msgstr ""
+
+#. The name of the Klingon (pIqaD) language
+msgctxt "language_name"
+msgid "Klingon (pIqaD)"
 msgstr ""
 
 msgid "Korea"
@@ -2907,6 +3157,8 @@ msgctxt "Sports module"
 msgid "L10"
 msgstr ""
 
+#. http://i.imgur.com/L74c87B.png
+#. Adjusts the displayed language of DuckDuckGo (translations)
 msgctxt "settings"
 msgid "Language"
 msgstr "Yezh"
@@ -2921,20 +3173,34 @@ msgctxt "language_name"
 msgid "Lao"
 msgstr ""
 
+#. http://i.imgur.com/6jwHONe.png
 msgctxt "settingsvalue"
 msgid "Large"
 msgstr "Bras"
 
-#. Filters the size of images in search results.
+#. http://i.imgur.com/N9w4CgT.png
 msgctxt "size"
 msgid "Large"
 msgstr "Bras"
 
+#. http://i.imgur.com/gwulPSF.png
 msgctxt "settingsvalue"
 msgid "Larger"
 msgstr "Brasoc'h"
 
+#. http://i.imgur.com/n8wzFYd.png
+msgctxt "size"
+msgid "Larger"
+msgstr "Brasoc'h"
+
+#. http://i.imgur.com/xdSUFar.png
+#. In the dropdown menu for, "Font Size"
 msgctxt "settingsvalue"
+msgid "Largest"
+msgstr "Brasañ"
+
+#. http://i.imgur.com/AmVRhlP.png
+msgctxt "size"
 msgid "Largest"
 msgstr "Brasañ"
 
@@ -2951,16 +3217,24 @@ msgctxt "language_name"
 msgid "Latvian"
 msgstr ""
 
-#. A button that takes users to another page with additional information.
+#. Button that opens more informations in the new messagebox suggesting to add DDG, in the homepage.
 msgid "Learn %sMore%s"
 msgstr ""
 
-#. Information on DuckDuckGo's search shortcut feature, called 'Bangs'
+#. Coñecer, ter coñecemento...
+#. Option at the bottom of the homepage: http://i.imgur.com/HEtEDYE.png
+#. The second word of this sentence should be wrapped in placeholders, since it is used to insert the new-line, e.g.
+#. Mehr %serfahren%s
+#. If your language has a physically short string for this, feel free to drop the placeholders at the end, e.g.:
+#. 了解更多%s%s
+msgctxt "frontpage"
+msgid "Learn %sMore%s"
+msgstr "Deskiñ %sTraoù all%s"
+
 msgctxt "SERP footer content"
 msgid "Learn About Bangs"
 msgstr ""
 
-#. Link to a page with more information about DuckDuckGo.
 msgctxt "SERP footer content"
 msgid "Learn About DuckDuckGo"
 msgstr ""
@@ -2970,35 +3244,42 @@ msgctxt "homepage ATB modal"
 msgid "Learn More at Firefox Add-Ons"
 msgstr ""
 
+msgctxt "showcase_newsletter"
+msgid "Learn about online privacy right in your inbox."
+msgstr ""
+
 msgctxt "SERP footer content"
 msgid "Learn how to protect your privacy."
 msgstr ""
 
-#. Link to a page with information about how to use advanced web search features.
 msgctxt "SERP footer content"
 msgid "Learn how to search like the pros."
 msgstr ""
 
-#. Link to a page with more information about DuckDuckGo's privacy protections.
 msgctxt "SERP footer content"
 msgid "Learn how we're dedicated to keeping you safe online."
 msgstr ""
 
-#. Link to a page with information about switching from using Google's search engine to DuckDuckgo.
 msgctxt "SERP footer content"
 msgid "Learn how you can free yourself from Google for good."
 msgstr ""
 
-#. A link that takes users to a page where they can learn more about the dangers of online tracking.
+msgctxt "SERP footer content"
+msgid "Learn why reducing online tracking is important."
+msgstr ""
+
 msgctxt "showcase_tracking"
 msgid "Learn why reducing tracking is important."
 msgstr ""
 
-#. A link to legal information.
+#. Discontinued, don't translate
+msgctxt "placement"
+msgid "Left"
+msgstr "A-gleiz"
+
 msgid "Legal"
 msgstr ""
 
-#. Filters the duration of videos in search results.
 msgctxt "video-duration"
 msgid "Less than 4 minutes"
 msgstr ""
@@ -3008,10 +3289,30 @@ msgctxt "welcome message"
 msgid "Lets you search anonymously with DuckDuckGo"
 msgstr ""
 
+#. Discontinued, don't translate
+msgid "Light blue"
+msgstr "Glas sklaer"
+
+#. Discontinued, don't translate
+msgid "Light green"
+msgstr "Gwer sklaer"
+
 #. i.e. a type of image comprised of lines without gradiations in shade or hue
 msgctxt "image-type"
 msgid "Line Drawing"
 msgstr ""
+
+#. https://duckduckgo.com/params under "Look & Feel Settings"
+msgid "Link font:"
+msgstr "Nodrezh an ere :"
+
+#. https://duckduckgo.com/params under "Color Settings"
+msgid "Links:"
+msgstr "Ereoù :"
+
+#. Used in 0-click bot for video results, e.g. <a href="https://duckduckgo.com/?q=blink182+song">https://duckduckgo.com/?q=blink182+song</a>
+msgid "Listen"
+msgstr "Selaou"
 
 msgid "Lithuania"
 msgstr ""
@@ -3021,21 +3322,25 @@ msgctxt "language_name"
 msgid "Lithuanian"
 msgstr ""
 
-#. Button that loads settings.
+#. http://i.imgur.com/1LeciXQ.png
 msgctxt "settings"
 msgid "Load"
 msgstr "Kargañ"
 
-#. Button that loads settings that were backed up using a cloud-save feature.
+#. Discontinued, don't translate
+msgid "Load Cloud Settings"
+msgstr "Kargañ arventennoù ar C'houmoul"
+
+#. After clicking, "Load Settings" this appears as the title of that section: http://i.imgur.com/rJseWa6.png
 msgctxt "cloudsave"
 msgid "Load Cloud Settings"
 msgstr "Kargañ arventennoù ar c'houmoul"
 
-#. A link that loads more content.
+#. In the search results page, when auto-loading is disabled, a button labeled "Load More" is shown to allow loading more results.
 msgid "Load More"
 msgstr "Kargañ muioc'h a draoù"
 
-#. Button that loads previously-saved user settings.
+#. http://i.imgur.com/7hi4hEj.png
 msgid "Load Settings"
 msgstr "Kargañ an arventennoù"
 
@@ -3044,14 +3349,22 @@ msgctxt "Anomaly modal"
 msgid "Loading your search results now."
 msgstr ""
 
-#. Indicates that content is being loaded
 msgid "Loading..."
 msgstr "O kargañ..."
+
+msgctxt "settings"
+msgid "Loads more image and video results when scrolling"
+msgstr ""
+
+msgctxt "settings"
+msgid "Loads more image results when scrolling"
+msgstr ""
 
 msgctxt "settings"
 msgid "Loads more results in Images, Videos, and Shopping when scrolling"
 msgstr ""
 
+#. http://i.imgur.com/WTkvs9I.png
 msgctxt "settings"
 msgid "Loads more results when scrolling"
 msgstr "Kargañ a ra muioc'h a zisoc'hoù pa vez dibunet"
@@ -3065,20 +3378,22 @@ msgctxt "settings"
 msgid "Location"
 msgstr ""
 
-#. Message informing users that location-based search is private.
 msgctxt "precise_user_location"
 msgid "Location information is stored only on your device."
 msgstr ""
 
-#. Category of feedback a user can select on a feedback form.
 msgctxt "feedback form"
 msgid "Location on map is wrong"
 msgstr ""
 
-#. Filters the duration of videos in search results.
 msgctxt "video-duration"
 msgid "Long"
 msgstr ""
+
+#. in https://duckduckgo.com/params
+#. bold header
+msgid "Look & Feel Settings"
+msgstr "Arventennoù an neuz & ar santad"
 
 #. Text indicating the loser of a World Cup game when that team is not yet known
 msgctxt "Sports module"
@@ -3114,18 +3429,15 @@ msgctxt "Sports module"
 msgid "MP"
 msgstr ""
 
-#. A prompt asking users to confirm that they spelled their search term correctly.
 msgctxt "noresults"
 msgid "Make sure all words are spelled correctly."
 msgstr ""
 
-#. Tells users where in the settings menu they can change their default search engine.
 msgid "Make sure to check %s\"Make this my default search provider\"%s"
 msgstr ""
 "Bezit sur hoc'h eus kevasket %s\"Lakaat d'a'm c'heflusker klask dre ziouer"
 "\"%s"
 
-#. Message prompting users to check the spelling of their search term.
 msgctxt "directions"
 msgid "Make sure your search is spelled correctly."
 msgstr ""
@@ -3161,6 +3473,7 @@ msgctxt "language_name"
 msgid "Maori"
 msgstr ""
 
+#. Used in 0-click box for local results, e.g. <a href="http://duckduckgo.com/?q=black+lab+bistro">http://duckduckgo.com/?q=black+lab+bistro</a>
 msgid "Map"
 msgstr "Kartenn"
 
@@ -3168,7 +3481,13 @@ msgctxt "settings"
 msgid "Map Rendering"
 msgstr ""
 
-#. Category a user can select on a feedback form.
+msgid "Maps"
+msgstr ""
+
+msgctxt "feedback form"
+msgid "Maps"
+msgstr ""
+
 msgctxt "feedback form"
 msgid "Maps / location info"
 msgstr ""
@@ -3208,29 +3527,38 @@ msgctxt "Sports module"
 msgid "Matchups"
 msgstr ""
 
-#. Button that dismisses a message.
 msgctxt "precise_user_location"
 msgid "Maybe later"
 msgstr ""
+
+#. In 0-click box -- for disambiguation.
+msgid "Meanings"
+msgstr "Talvoudegezhioù"
 
 msgctxt "settingsvalue"
 msgid "Medium"
 msgstr "Krenn"
 
-#. Filters the size of images in search results.
+#. http://i.imgur.com/Gy9D9Bx.png
 msgctxt "size"
 msgid "Medium"
 msgstr "Etre"
 
-#. Filters the duration of videos in search results.
 msgctxt "video-duration"
 msgid "Medium"
 msgstr ""
 
-#. Refers to the menu of a restaurant.
+#. Header for front page menu
+msgid "Menu"
+msgstr "Lañser"
+
 msgctxt "maps_places"
 msgid "Menu"
 msgstr ""
+
+msgctxt "settingsvalue"
+msgid "Metric (Kilograms, Meters, Celsius)"
+msgstr "Metrek (kilogrammoù, metroù, Celsius)"
 
 msgctxt "settingsvalue"
 msgid "Metric (kilograms, meters, Celsius)"
@@ -3238,6 +3566,11 @@ msgstr ""
 
 msgid "Mexico"
 msgstr ""
+
+#. Discontinued, don't translate
+msgctxt "placement"
+msgid "Middle"
+msgstr "Kreiz"
 
 #. The market capitalization of the currently selected stock
 msgctxt "Stocks module"
@@ -3248,7 +3581,6 @@ msgctxt "settings"
 msgid "Mobile Instructions (not displayed on settings page)"
 msgstr ""
 
-#. A setting for the safe search filter that removes some but not all results.
 msgctxt "safe search"
 msgid "Moderate"
 msgstr ""
@@ -3267,16 +3599,23 @@ msgctxt "maps_places"
 msgid "Mondays"
 msgstr ""
 
-#. A link to more information.
+#. Used to point to additional social networking profiles (in results).
+msgid "More"
+msgstr "Muioc'h"
+
+#. Link to load more page context
 msgctxt "additional"
 msgid "More"
 msgstr "Muioc'h"
 
-#. A link that loads more image search results.
+#. As in Learn More
+msgctxt "frontpage"
+msgid "More"
+msgstr "Muioc'h a draoù"
+
 msgid "More Images"
 msgstr ""
 
-#. A link to a page with more information.
 msgid "More Info"
 msgstr "Muioc'h a ditouroù"
 
@@ -3284,27 +3623,21 @@ msgctxt "Ads GDPR, internal use only. Do not change"
 msgid "More Info"
 msgstr ""
 
-#. A button that loads additional links.
 msgid "More Links"
 msgstr "Muioc'h a ereoù"
 
-#. A link that loads more news search results.
 msgid "More News"
 msgstr ""
 
-#. Links to more search results.
 msgid "More Places"
 msgstr ""
 
-#. A link that loads more product search results.
 msgid "More Products"
 msgstr ""
 
-#. A link that loads more recipe search results.
 msgid "More Recipes"
 msgstr ""
 
-#. A header above links to topics related to the user's search.
 msgid "More Related Topics"
 msgstr "Muioc'h a zanvezioù e darempred ganti"
 
@@ -3313,50 +3646,63 @@ msgctxt "more_reviews_on_external_website"
 msgid "More Reviews on %s "
 msgstr ""
 
-#. Link to additional theme settings.
 msgid "More Themes"
 msgstr "Muioc'h a neuzioù"
 
-#. A link that loads more video search results
 msgid "More Videos"
 msgstr ""
 
-#. A label that appears before a link where more information can be found. For example 'More at Wikipedia'.
+msgid "More about !bangs"
+msgstr ""
+
+#. "More at [link]"
 msgid "More at"
 msgstr "muioc'h war"
 
-#. A link to additional information on a topic. The placeholder is the name of a website. For example 'More at Wikipedia'.
+#. In 0-click box -- %s will be a site name, like Wikipedia.
+msgid "More at %s"
+msgstr "Titouroù all e %s"
+
+#. Instant answer link to source, e.g. "More at Wikipedia"
 msgid "More at %s "
 msgstr "Traoù ouzhpenn e %s"
 
-#. Link to additional infromation.
+#. More from [domain], used in 'site:' search.
+msgid "More from"
+msgstr "Muioc'h a draoù a-berzh"
+
 msgctxt "precise_user_location"
 msgid "More info"
 msgstr ""
 
-#. A link to more information on a topic. The placeholder is the name of a website. For example 'More on Wikipedia'.
 msgid "More on %s "
 msgstr ""
 
-#. A link that loads additional search results.
+#. A link to get more results from a particular domain.
+msgid "More results"
+msgstr "Muioc'h a zisoc'hoù"
+
 msgctxt "additional_info_at"
 msgid "More results"
 msgstr "Muioc'h a zisoc'hoù"
 
-#. Link to statistics tab
 msgctxt "Covid 19 module"
 msgid "More statistics"
 msgstr ""
 
-#. Filters the duration of videos in search results.
 msgctxt "video-duration"
 msgid "More than 20 minutes"
 msgstr ""
 
+#. e.g. More ways to add DuckDuckGo to Firefox
+msgctxt "frontpage"
+msgid "More ways to add DuckDuckGo to %s"
+msgstr "Doareoù all da ouzhpennañ DuckDuckGo e %s"
+
 msgid "Morocco"
 msgstr ""
 
-#. Used when presented as an option in a feedback form
+#. used when presented as an option in a feedback form
 msgctxt "new tab page"
 msgid "Most-visited sites"
 msgstr ""
@@ -3368,47 +3714,61 @@ msgstr ""
 
 #. Description of the daily/hourly weather condition, as returned from the (WeatherKit) API
 msgctxt "Weather IA"
-msgid "Mostly Cloudy"
+msgid "Mostly clear"
 msgstr ""
 
-#. Prompt for users to move the map to their current location.
 msgctxt "precise_user_location"
 msgid "Move map to set current location"
 msgstr ""
 
+#. Instant Answer Tab Name
+msgid "Movies"
+msgstr "filmoù"
+
 msgctxt "settings"
 msgid "Multi-Step Add-to-Browser Onboarding Step"
 msgstr ""
+
+msgid "Music"
+msgstr "Sonerezh"
+
+#. Used for various color settings  query parameters values captions into <a =href="https://duckduckgo.com/params.html">query parameters documentation page</a>.
+msgid "Muted red"
+msgstr "Ruz kemmesk"
 
 #. The name of the Myanmar (Burmese) language
 msgctxt "language_name"
 msgid "Myanmar (Burmese)"
 msgstr ""
 
-#. Abbreviation for 'North'
 msgctxt "forecast"
 msgid "N"
 msgstr ""
 
-#. Abbreviation for 'Northeast'
 msgctxt "forecast"
 msgid "NE"
 msgstr ""
 
-#. Abbreviation for 'Northwest'
+#. NPM = node.js package manager.
+#. e.g. https://duckduckgo.com/?q=npm+packages
+msgid "NPM"
+msgstr ""
+
 msgctxt "forecast"
 msgid "NW"
 msgstr ""
 
-#. Link to open driving directions in a different maps app. The name of the maps app appears after this string. For example: 'Navigate in Apple Maps'
 msgctxt "directions"
 msgid "Navigate in"
 msgstr ""
 
-#. Tells users where to find location settings on their phone. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Navigate to Setting > Apps."
 msgstr ""
+
+#. Used in 0-click box for local results, e.g. <a href="http://duckduckgo.com/?q=black+lab+bistro">http://duckduckgo.com/?q=black+lab+bistro</a>
+msgid "Nearby"
+msgstr "E-kichen"
 
 #. The name of the Nepali language
 msgctxt "language_name"
@@ -3422,6 +3782,7 @@ msgctxt "settings"
 msgid "New Tab Page Most-Visited Sites"
 msgstr ""
 
+#. This is the name of a user setting -- Example image: https://i.imgur.com/LRuNuA8.png
 msgctxt "settings"
 msgid "New URL Style"
 msgstr ""
@@ -3429,28 +3790,27 @@ msgstr ""
 msgid "New Zealand"
 msgstr ""
 
-#. Response a user can select in a feedback form, indicating that they have a new browser or computer.
 msgctxt "new user poll"
 msgid "New browser or computer"
 msgstr ""
 
-#. Question in a feedback form.
 msgctxt "new user poll"
 msgid "New to DuckDuckGo?"
 msgstr ""
 
-#. Label above news search results.
+#. Used in the !bang dropdown menu.
 msgid "News"
 msgstr "Nevezintioù"
 
-#. A label that appears above a list of search results from news sites.
+#. http://i.imgur.com/1QgHl7k.png
 msgid "News Articles"
 msgstr "Pennadoù nevez"
 
+#. Click "Reset All Settings" first on the settings page - http://i.imgur.com/3ucg9el.png
+#. Then - http://i.imgur.com/1wBBIxW.png
 msgid "No"
 msgstr "Ket"
 
-#. Indicates that there were no search results for a user's search. The first placeholder describes the type of result, and the second placeholder is the user's search term. For example: 'No results found for 'restaurants near me''
 msgctxt "noresults"
 msgid "No %s found for %s%s%s."
 msgstr ""
@@ -3460,35 +3820,28 @@ msgctxt "Sports module"
 msgid "No %s games scheduled in %s"
 msgstr ""
 
-#. Indicates that driving directions aren't available between two locations on a map.
 msgctxt "directions"
 msgid "No Available Routes"
 msgstr ""
 
-#. A label at the end of a photo carousel.
 msgid "No More Photos"
 msgstr ""
 
-#. Text describing how DuckDuckGo doesn't track its users.
 msgid "No Tracking. Ever."
 msgstr ""
 
-#. A setting for the safe search filter that removes content inappropriate for children.
 msgctxt "safe search"
 msgid "No adult content"
 msgstr ""
 
-#. Indicates that driving directions aren't available between two locations on a map.
 msgctxt "directions"
 msgid "No available routes between these locations"
 msgstr ""
 
-#. A setting for the safe search filter that removes images and videos inappropriate for children.
 msgctxt "safe search"
 msgid "No explicit images or videos"
 msgstr ""
 
-#. Indicates that there were no more search results for a user's search. The placeholder is the user's search term. For example: 'No more results found for 'restaurants near me''
 msgctxt "noresults"
 msgid "No more results found for %s%s%s."
 msgstr ""
@@ -3501,16 +3854,17 @@ msgstr ""
 msgid "No recent tracking activity"
 msgstr ""
 
-#. Indicates that there were no search results for a user's search.
 msgid "No results"
 msgstr ""
 
-#. Message indicating no search results were found.
+msgctxt "noresults"
+msgid "No results found for %s%s%s."
+msgstr ""
+
 msgctxt "directions"
 msgid "No results found."
 msgstr ""
 
-#. Button that dismisses a feedback form.
 msgctxt "new user poll"
 msgid "No thanks."
 msgstr ""
@@ -3520,24 +3874,27 @@ msgctxt "tracker_stats"
 msgid "No trackers blocked in the last hour"
 msgstr ""
 
-#. Refers to how web searches on DuckDuckGo aren't tracked.
 msgctxt "homepage onboarding"
 msgid "No tracking, no ad targeting, just searching!"
 msgstr ""
 
-#. Refers to how web searches on DuckDuckGo aren't tracked.
 msgctxt "homepage onboarding"
 msgid "No tracking, no ad targeting, just searching."
 msgstr ""
 
-#. Response a user can select in a feedback form, indicating that they've used DuckDuckGo before.
 msgctxt "new user poll"
 msgid "No, old user!"
 msgstr ""
 
+#. http://i.imgur.com/WjSXsiZ.png
 msgctxt "settingsvalue"
 msgid "Normal"
 msgstr "Skoueriek"
+
+#. http://i.imgur.com/i9mDrSN.png
+msgctxt "width"
+msgid "Normal"
+msgstr "Reizh"
 
 msgctxt "Sports module"
 msgid "North"
@@ -3551,7 +3908,6 @@ msgctxt "language_name"
 msgid "Norwegian"
 msgstr ""
 
-#. Asks users if the search results shown on a map aren't close to their actual location.
 msgctxt "precise_user_location"
 msgid "Not getting nearby results?"
 msgstr ""
@@ -3560,7 +3916,6 @@ msgstr ""
 msgid "Not many results contain %s"
 msgstr ""
 
-#. Option in a feedback form for image search results.
 msgctxt "Report image modal"
 msgid "Not relevant"
 msgstr ""
@@ -3569,16 +3924,18 @@ msgctxt "settingsvalue"
 msgid "Not set"
 msgstr ""
 
+#. Instant Answer tab name
+msgid "Nutrition"
+msgstr "Mezhuroniezh"
+
 #. In a soccer match, abbreviation indicating that a player scored this goal on its own team. Example context: Andrés Iniesta 32' OG
 msgctxt "Sports module"
 msgid "OG"
 msgstr ""
 
-#. This appears on a button that a user clicks to confirm an action.
 msgid "OK"
 msgstr "Mat eo"
 
-#. Button that confirms a user has read a message.
 msgctxt "mobile promotion on desktop"
 msgid "OK, got it!"
 msgstr ""
@@ -3598,7 +3955,11 @@ msgctxt "language_name"
 msgid "Odia"
 msgstr ""
 
-#. This is a label for a toggle that turns a setting on and off.
+msgid "Off"
+msgstr "Diweredekaet"
+
+#. in https://duckduckgo.com/params wherever it says %s for Off
+#. previous note: This is common Off from Settings
 msgctxt "setting"
 msgid "Off"
 msgstr "Diweredekaet"
@@ -3607,22 +3968,40 @@ msgctxt "settingsvalue"
 msgid "Off"
 msgstr "Diweredekaet"
 
+#. Used in 0-click box for product results, e.g. <a href="https://duckduckgo.com/?q=9780061353246">https://duckduckgo.com/?q=9780061353246</a>
+msgid "Offers"
+msgstr "Kinnigoù"
+
 #. tooltip text for DuckDuckGo-sourced results
 msgctxt "organic_results"
 msgid "Official site identified by DuckDuckGo"
 msgstr ""
 
+#. http://i.imgur.com/zQWKLIm.png
 msgctxt "settings"
 msgid "Omits objectionable (mostly adult) material"
 msgstr ""
 "Leuskel a ra an dafar tamalladus (peurliesañ evit an dud deuet) a-gostez"
 
-#. This is a label for a toggle that turns a setting on and off.
+msgid "On"
+msgstr "Gweredekaet"
+
+#. https://duckduckgo.com/params in multiple "1 for On"s
 msgctxt "setting"
 msgid "On"
 msgstr "Gweredekaet"
 
-#. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
+#. in https://duckduckgo.com/params under Interface Settings
+#. previous note: Under Settings/ Layout( tab)/ Header
+msgctxt "setting"
+msgid "On & floating"
+msgstr "Gweredekaat & hezilec'h"
+
+#. http://i.imgur.com/TIY3iVP.png
+msgctxt "setting"
+msgid "On & scrolling"
+msgstr "Gweredekaet & dibunadur"
+
 msgid ""
 "On Mac, %sClick Maxthon > Preferences%s, On Windows, %sClick the %s icon > "
 "Settings%s"
@@ -3630,7 +4009,11 @@ msgstr ""
 "War Mac, %sKlikit war Maxthon > Gwellvezioù%s, war Windows, %sklikit war an "
 "%s arlun > Arventennoù%s"
 
-#. Response a user can select in a feedback form, indicating that they heard about DuckDuckGo in an online article.
+#. https://duckduckgo.com/params under "Interface Settings" under "Page #s:"
+msgctxt "setting"
+msgid "On but no numbers"
+msgstr "Gweredekaet, niverenn ebet, 'vat"
+
 msgctxt "new user poll"
 msgid "Online article"
 msgstr ""
@@ -3640,7 +4023,7 @@ msgctxt "Site filter message"
 msgid "Only showing results from %s"
 msgstr ""
 
-#. Text explaining what information gets saved by the cloud save feature.
+#. http://i.imgur.com/1Ri3uHl.png
 msgctxt "cloudsave"
 msgid ""
 "Only the settings that you have changed. They are detailed on the %sURL "
@@ -3661,7 +4044,6 @@ msgctxt "Stocks module"
 msgid "Open"
 msgstr ""
 
-#. Indicates a business is currently open.
 msgctxt "maps_places"
 msgid "Open"
 msgstr ""
@@ -3670,49 +4052,43 @@ msgstr ""
 msgid "Open %s website"
 msgstr ""
 
-#. Instructions on how to change a browser's default search engine to DuckDuckGo.
 msgctxt "mobile homepage banner"
 msgid "Open %sMenu%s"
 msgstr ""
 
-#. Instructions on how to change a browser's default search engine to DuckDuckGo.
 msgctxt "mobile homepage banner"
 msgid "Open %sSettings%s"
 msgstr ""
 
-#. Tells users where to find the location settings in the settings menu. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Open 'Location', and ensure location is %senabled%s."
 msgstr ""
 
-#. Tells user where to find location settings in the settings menu. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Open 'Privacy', then 'Location Services'."
 msgstr ""
 
-#. Indicates a business is open 24 hours a day.
 msgctxt "maps_places"
 msgid "Open 24 hours"
 msgstr ""
 
-#. Button that makes a map larger.
 msgctxt "maps_places"
 msgid "Open Expanded Map"
 msgstr ""
 
+#. http://i.imgur.com/jsSFfAr.png
+#. This setting used to be called 'New Window'
+#. Please update this translation if it no longer applies
 msgctxt "settings"
 msgid "Open Links in a New Tab"
 msgstr "Prenestr nevez"
 
-#. Button that opens a map
 msgid "Open Map"
 msgstr ""
 
-#. A button that opens the settings menu.
 msgid "Open Settings"
 msgstr "Digorit Arventennoù"
 
-#. Prompts users to open a new browser tab or window.
 msgid "Open a new tab or window"
 msgstr "Digeriñ un ivinell pe ur prenestr nevez"
 
@@ -3721,26 +4097,23 @@ msgctxt "welcome message eu search preference android"
 msgid "Open app"
 msgstr ""
 
-#. Button that opens a third party app. Placeholder is the name of the app. For example: 'Open in TripAdvisor'
 msgctxt "open_in_third_party_app"
 msgid "Open in %s"
 msgstr ""
 
+#. http://i.imgur.com/MnvQ0IK.png
 msgctxt "settingsvalue"
 msgid "Open on third-party site"
 msgstr "Digeriñ war un trede load"
 
-#. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Open the %sSettings app%s."
 msgstr ""
 
-#. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Open the %sSettings%s app."
 msgstr ""
 
-#. Label for the time a business opens. For example: 'Opens at 10am'
 msgctxt "maps_places"
 msgid "Opens"
 msgstr ""
@@ -3750,26 +4123,28 @@ msgctxt "maps_places"
 msgid "Opens at %s"
 msgstr ""
 
+#. http://i.imgur.com/iCNwHqR.png
+#. This setting controls how results open when you click on them.
 msgctxt "settings"
 msgid "Opens results in new windows/tabs"
 msgstr "Digeriñ a ra an disoc'hoù gant ur prenestr/ivinell nevez"
 
-#. Indicates a business is openening soon.
 msgctxt "maps_places"
 msgid "Opens soon"
 msgstr ""
 
-#. Label for an option field on a feedback form.
 msgctxt "feedback form"
 msgid "Optional"
 msgstr ""
 
-#. A label that appears next to a suggested search term. For example 'Or did you mean pizza?'
 msgctxt "maps_maps_module"
 msgid "Or did you mean:"
 msgstr ""
 
-#. Filters the color of images in search results.
+#. Used for various color settings  query parameters values captions into <a =href="https://duckduckgo.com/params.html">query parameters documentation page</a>.
+msgid "Orange"
+msgstr "Liv orañjez"
+
 msgctxt "color"
 msgid "Orange"
 msgstr ""
@@ -3789,6 +4164,10 @@ msgid ""
 "browsing mode. We don’t track you &mdash; period."
 msgstr ""
 
+msgctxt "SERP footer content"
+msgid "Our Crash Course"
+msgstr ""
+
 msgctxt "homepage onboarding"
 msgid ""
 "Our privacy policy is simple: we don’t collect or share any of your personal "
@@ -3801,12 +4180,10 @@ msgid ""
 "%s."
 msgstr ""
 
-#. The number of searches performed on DuckDuckGo search engine. The placeholder value is a number.
 msgctxt "showcase_traffic"
 msgid "Over %s Billion anonymous searches."
 msgstr ""
 
-#. The total amount of donations to privacy-related causes DuckDuckGo has made. The placeholder is a number.
 msgctxt "SERP footer content"
 msgid "Over %s in DuckDuckGo privacy donations."
 msgstr ""
@@ -3816,7 +4193,6 @@ msgctxt "Sports module"
 msgid "Overall Record"
 msgstr ""
 
-#. Label above a general description of a business.
 msgctxt "maps_places"
 msgid "Overview"
 msgstr ""
@@ -3851,11 +4227,18 @@ msgctxt "Sports module"
 msgid "PTS"
 msgstr ""
 
+#. Instant Answer Tab Name
+msgid "Packages"
+msgstr "Pakadoù"
+
 msgctxt "settings"
 msgid "Page #'s"
 msgstr "Pajenn #'s"
 
-#. Indicates what page of a document the user is viewing. The placeholder is a number.
+#. in https://duckduckgo.com/params under "Interface Settings" header
+msgid "Page #s:"
+msgstr "Pajennad #s :"
+
 msgid "Page %s"
 msgstr ""
 
@@ -3867,6 +4250,7 @@ msgctxt "settings"
 msgid "Page Break Numbers"
 msgstr ""
 
+#. http://i.imgur.com/nyTQ3ki.png
 msgctxt "settings"
 msgid "Page Width"
 msgstr "Led ar bajenn"
@@ -3876,31 +4260,38 @@ msgctxt "Weather IA"
 msgid "Partly Cloudy"
 msgstr ""
 
+#. Description of the daily/hourly weather condition, as returned from the (WeatherKit) API
+msgctxt "Weather IA"
+msgid "Partly cloudy"
+msgstr ""
+
 #. The name of the Pashto language
 msgctxt "language_name"
 msgid "Pashto"
 msgstr ""
 
-#. An error message indicating that the passphrase the user has entered has already been used by them previously.
 msgctxt "cloudsave"
 msgid "Passphrase is already taken."
 msgstr ""
 
-#. An error message indicating that the passphrase the user has entered isn't long enough.
 msgctxt "cloudsave"
 msgid "Passphrase must be at least 9 characters long."
 msgstr ""
 
-#. Error message indicating that the user's passphrase wasn't recognized.
 msgctxt "cloudsave"
 msgid "Passphrase not found."
 msgstr ""
 
-#. Text explaining that passwords can't be recovered because DuckDuckGo does not have access to them.
+#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
+#. Then in the cloud save box - http://i.imgur.com/tbzpD5S.png
 msgctxt "cloudsave"
 msgid ""
 "Passphrases cannot be recovered as we don't associate your IP address, "
 "browser fingerprint, or any other information with the file."
+msgstr ""
+
+#. Option for the filter-by-date search.
+msgid "Past Day"
 msgstr ""
 
 #. Indicates this is a list of past games for this team
@@ -3913,19 +4304,27 @@ msgctxt "Sports module"
 msgid "Past Matches"
 msgstr ""
 
-#. A label for a filter that shows search results from only the last 24 hours.
+#. Option for the filter-by-date search.
+msgid "Past Month"
+msgstr ""
+
+#. Option for the filter-by-date search.
+msgid "Past Week"
+msgstr ""
+
+#. Option for the filter-by-date search.
+msgid "Past Year"
+msgstr ""
+
 msgid "Past day"
 msgstr ""
 
-#. A label for a filter that shows search results from only the last month.
 msgid "Past month"
 msgstr ""
 
-#. A label for a filter that shows search results from only the last 7 days.
 msgid "Past week"
 msgstr ""
 
-#. A label for a filter that shows search results from only the last year.
 msgid "Past year"
 msgstr ""
 
@@ -3961,44 +4360,47 @@ msgctxt "maps_places"
 msgid "Phone Number"
 msgstr "Niverenn Bellgomz"
 
-#. Category of feedback a user can select on a feedback form.
 msgctxt "feedback form"
 msgid "Phone number is incorrect"
 msgstr ""
 
-#. Category of feedback a user can select on a feedback form.
 msgctxt "feedback form"
 msgid "Phone number is missing"
 msgstr ""
 
-#. Filters the type of images in search results.
 msgctxt "image-type"
 msgid "Photograph"
 msgstr ""
 
-#. A link to additional photos of a business on a reviews site. The placeholder is the name of the reviews site. For example: 'Photos on Tripadvisor'
 msgid "Photos on %s"
 msgstr ""
 
-#. Button that allows users to manually select a location on a map.
 msgctxt "precise_user_location"
 msgid "Pick Custom Location"
 msgstr ""
 
-#. Label for a list of feedback categories on a feedback form.
 msgctxt "feedback form"
 msgid "Pick a category"
 msgstr ""
 
-#. Label for a list of problems on a feedback form.
 msgctxt "feedback form"
 msgid "Pick a specific problem"
 msgstr ""
 
-#. Filters the color of images in search results.
+#. Used for various color settings  query parameters values captions into <a =href="https://duckduckgo.com/params.html">query parameters documentation page</a>.
+msgid "Pink"
+msgstr "Roz"
+
 msgctxt "color"
 msgid "Pink"
 msgstr ""
+
+#. https://duckduckgo.com/params under "Look & Feel Settings"
+msgid "Placement:"
+msgstr "Lec'hiadur :"
+
+msgid "Places"
+msgstr "Lec'hioù"
 
 #. Bot challenge explanation
 msgctxt "Anomaly modal"
@@ -4007,55 +4409,48 @@ msgid ""
 "human."
 msgstr ""
 
-#. A prompt asking users to enter their passphrase.
 msgctxt "cloudsave"
 msgid "Please enter a pass phrase"
 msgstr "Mar plij, enankit ur frazenn dremen"
 
-#. Title on a feedback form.
 msgctxt "feedback form"
 msgid "Please provide feedback"
 msgstr ""
 
-#. Asks users to select an option in a feedback form.
 msgctxt "new user poll"
 msgid "Please select one option."
 msgstr ""
 
-#. Category of feedback a user can select on a feedback form.
 msgctxt "feedback form"
 msgid "Please suggest the correct address"
 msgstr ""
 
-#. Prompt to provide hours of operation for a business on a feedback form.
 msgctxt "feedback form"
 msgid "Please suggest the correct hours of operation"
 msgstr ""
 
-#. Category of feedback a user can select on a feedback form.
 msgctxt "feedback form"
 msgid "Please suggest the correct phone number"
 msgstr ""
 
-#. Prompt to provide a web address on a feedback form.
 msgctxt "feedback form"
 msgid "Please suggest the correct website URL"
 msgstr ""
 
-#. Prompt to provide hours of operation for a business on a feedback form.
 msgctxt "feedback form"
 msgid "Please suggest the hours of operation"
 msgstr ""
 
-#. Category of feedback a user can select on a feedback form.
 msgctxt "feedback form"
 msgid "Please suggest the phone number"
 msgstr ""
 
-#. Prompt to provide a web address on a feedback form.
 msgctxt "feedback form"
 msgid "Please suggest the website URL"
 msgstr ""
+
+msgid "Please try again"
+msgstr "Klaskit en-dro, mar plij"
 
 #. Title of modal shown when user gets bot challenge incorrect
 msgctxt "Anomaly modal"
@@ -4069,6 +4464,10 @@ msgstr ""
 
 msgid "Poland"
 msgstr ""
+
+#. Menu point on the main DuckDuckGo menu, can be seen on all pages. (Links to <a href="https://duckduckgo.com/privacy">privacy</a> page)
+msgid "Policy"
+msgstr "Buhez prevez"
 
 #. The name of the Polish language
 msgctxt "language_name"
@@ -4102,11 +4501,13 @@ msgctxt "settings"
 msgid "Preferred units of measure"
 msgstr "Unanennoù muzuliañ a blij deoc'h ar gwellañ"
 
-#. Tells the user where in the settings menu they can add a DuckDuckGo search shortcut to their phone's homescreen.
+#. Main page under "More"
+msgid "Press"
+msgstr "Gwask"
+
 msgid "Press %sMenu > Add to homescreen > Add%s!"
 msgstr "Pouezit war %sLañser > Ouzhpennañ d'ar pennskramm > Ouzhpennañ %s !"
 
-#. Link to a page with information for journalists.
 msgid "Press Kit"
 msgstr ""
 
@@ -4115,7 +4516,9 @@ msgctxt "Stocks module"
 msgid "Prev Close"
 msgstr ""
 
-#. Label for a video preview.
+msgid "Preview"
+msgstr "Alberz"
+
 msgctxt "video"
 msgid "Preview"
 msgstr "Alberz"
@@ -4124,28 +4527,25 @@ msgctxt "settings"
 msgid "Previous Region"
 msgstr "Bro gent"
 
-#. Category of feedback a user can select on a feedback form.
 msgctxt "feedback form"
 msgid "Price shown doesn't reflect merchant site"
 msgstr ""
 
-#. A button that prints the contents of a page.
 msgid "Print"
 msgstr ""
 
-#. Button that prints out driving directions.
 msgctxt "directions"
 msgid "Print Directions"
 msgstr ""
 
-#. Header above a preview image of content that will be printed.
 msgid "Print Preview"
 msgstr ""
 
-#. Header above a list of privacy-related search settings.
+#. In the top menu under Settings ("More" > "Privacy")
 msgid "Privacy"
 msgstr "Buhez prevez"
 
+#. http://i.imgur.com/squ02on.png
 msgctxt "settings"
 msgid "Privacy"
 msgstr "Buhez prevez"
@@ -4165,11 +4565,9 @@ msgstr ""
 msgid "Privacy Essentials"
 msgstr ""
 
-#. Placeholder is the name of a browser. For example: 'Privacy Essentials for Chrome'
 msgid "Privacy Essentials for %s"
 msgstr ""
 
-#. A link to subscribe to DuckDuckGo's privacy newsletter.
 msgctxt "SERP footer content"
 msgid "Privacy Newsletter"
 msgstr ""
@@ -4182,23 +4580,23 @@ msgctxt "settings"
 msgid "Privacy Newsletters"
 msgstr ""
 
-#. Link to the company's privacy policy.
 msgid "Privacy Policy"
 msgstr ""
 
 msgid "Privacy Protection For Any Device"
 msgstr ""
 
-#. Placeholder is the name of a browser. For example: 'Privacy for Chrome'
+#. https://duckduckgo.com/params. it is a bold header
+msgid "Privacy Settings"
+msgstr "Arventennoù a-fet buhez prevez"
+
 msgid "Privacy for %s"
 msgstr ""
 
-#. Link to a page where users can subscribe to a newsletter.
 msgctxt "SERP footer content"
 msgid "Privacy in Your Inbox"
 msgstr ""
 
-#. A title on the page where users can subscribe to DuckDuckGo's privacy newsletter.
 msgctxt "showcase_newsletter"
 msgid "Privacy in Your Inbox"
 msgstr ""
@@ -4226,25 +4624,23 @@ msgctxt "attribution"
 msgid "Producer"
 msgstr ""
 
-#. Category of feedback a user can select on a feedback form.
 msgctxt "feedback form"
 msgid "Product ad content is deceptive"
 msgstr ""
 
-#. Category of feedback a user can select on a feedback form.
 msgctxt "feedback form"
 msgid "Product ad pricing is misleading"
 msgstr ""
 
-#. Category of feedback a user can select on a feedback form.
 msgctxt "feedback form"
 msgid "Product ads aren't relevant"
 msgstr ""
 
-#. Label above shopping search results.
+#. Instant Answer Tab Name
 msgid "Products"
 msgstr "Kenderc'hadoù"
 
+#. http://i.imgur.com/KT5S1TR.png
 msgctxt "settingsvalue"
 msgid "Prompt me"
 msgstr "Ma fediñ"
@@ -4253,17 +4649,14 @@ msgctxt "settings"
 msgid "Prompt me to use my approximate location to get nearby results."
 msgstr ""
 
-#. Link to a page with information about DuckDuckGo's web browsers and extensions.
 msgctxt "SERP footer content"
 msgid "Protect Your Devices"
 msgstr ""
 
-#. The title of a section with links to download the DuckDuckGo app for different smartphone or computer operating systems.
 msgctxt "showcase_privacy"
 msgid "Protect Your Devices"
 msgstr ""
 
-#. A title above links to download the DuckDuckGo apps.
 msgctxt "showcase_app"
 msgid "Protect your data on every device."
 msgstr ""
@@ -4278,7 +4671,10 @@ msgctxt "language_name"
 msgid "Punjabi"
 msgstr ""
 
-#. Filters the color of images in search results.
+#. Used for various color settings  query parameters values captions into <a =href="https://duckduckgo.com/params.html">query parameters documentation page</a>.
+msgid "Purple"
+msgstr "Limestra"
+
 msgctxt "color"
 msgid "Purple"
 msgstr ""
@@ -4296,7 +4692,13 @@ msgctxt "language_name"
 msgid "Querétaro Otomi"
 msgstr ""
 
-#. Response a user can select in a feedback form, indicating that they heard about DuckDuckGo on the radio or in a podcast.
+#. Instant Answer Tab Name
+msgid "Quotations"
+msgstr "arroudenn"
+
+msgid "Quotes"
+msgstr "Menegoù"
+
 msgctxt "new user poll"
 msgid "Radio or podcast"
 msgstr ""
@@ -4306,16 +4708,17 @@ msgctxt "Weather IA"
 msgid "Rain"
 msgstr ""
 
-#. A button that takes users to another page with additional information.
+#. Placeholder will be a number. This is used to describe extension rating out of 5 stars.
+msgid "Rated %s/5"
+msgstr ""
+
 msgid "Read More"
 msgstr ""
 
-#. Link to a page with information about Google's data collection and ad targeting practices.
 msgctxt "SERP footer content"
 msgid "Read about how Google influences what people click."
 msgstr ""
 
-#. A label that appears above a list of search results from news sites.
 msgid "Recent News"
 msgstr "Keleier Nevesañ"
 
@@ -4323,11 +4726,14 @@ msgctxt "region filter"
 msgid "Recent:"
 msgstr ""
 
-#. Label above recipe search results.
+#. Instant Answer Tab Name
 msgid "Recipes"
 msgstr "Rekipeoù"
 
-#. Filters the color of images in search results.
+#. Used for various color settings  query parameters values captions into <a =href="https://duckduckgo.com/params.html">query parameters documentation page</a>.
+msgid "Red"
+msgstr "Ruz"
+
 msgctxt "color"
 msgid "Red"
 msgstr ""
@@ -4339,24 +4745,29 @@ msgctxt "settings"
 msgid "Redirect (When Necessary)"
 msgstr ""
 
-#. Label for a menu with different countries.
+msgid "Redirect:"
+msgstr "Adhenchañ :"
+
 msgid "Region"
 msgstr "Bro"
 
+#. http://i.imgur.com/G0kt3wS.png
+#. Setting to boost results for your region.
 msgctxt "settings"
 msgid "Region"
 msgstr "Rannvro"
 
-#. Label for today's hours of operation for a business.
+#. in https://duckduckgo.com/params under "Result Settings" .it is the second header
+msgid "Region:"
+msgstr "Rannvro :"
+
 msgctxt "maps_places"
 msgid "Regular Hours Today"
 msgstr ""
 
-#. Label above a list of search terms related to the user's current search.
 msgid "Related Searches"
 msgstr ""
 
-#. A label for a list of search results that are similar to what the user searched for.
 msgid "Related Topics"
 msgstr "Danvezioù kenereet"
 
@@ -4365,26 +4776,13 @@ msgctxt "lyrics_module"
 msgid "Released"
 msgstr ""
 
-#. checkbox label that allows the user to save the setting
-msgid "Remember my choice"
-msgstr ""
-
-#. Button that saves the user's current settings
 msgid "Remember my choice (this can be changed in %s%s%sSettings%s)"
 msgstr "Derc'hel soñj eus ma dibab (kemmet e vez e %s%s%sArventennoù%s)"
 
-msgctxt "settings"
-msgid ""
-"Removes the \"Ask\" button so answers appear automatically in response to "
-"relevant searches. Cached answers always display automatically."
-msgstr ""
-
-#. A button that appears next to an advertisement, allowing a user to send a report for an advertisment they think is spam.
 msgctxt "ads"
 msgid "Report Ad"
 msgstr ""
 
-#. Link to a feedback form for image search results.
 msgctxt "Report image modal"
 msgid "Report this image"
 msgstr ""
@@ -4397,17 +4795,34 @@ msgid ""
 "their services."
 msgstr ""
 
-#. A button that resets a user's settings.
 msgctxt "settings dropdown"
 msgid "Reset"
 msgstr ""
 
-#. A button that resets all settings to their default values.
 msgctxt "cloudsave"
 msgid "Reset All Settings"
 msgstr "Adderaouekaat an holl arventennoù"
 
-#. A label that appears above search results.
+#. http://i.imgur.com/ktBWbzB.png
+#. Resets your configuration
+msgctxt "settings"
+msgid "Reset All Settings"
+msgstr "Adderaouekaat an holl arventennoù"
+
+#. http://i.imgur.com/kqN8dPT.png
+msgctxt "settings"
+msgid "Result Highlight Color"
+msgstr "Liv usskediñ an disoc'hoù"
+
+#. in https://duckduckgo.com/params in the top. it is the first header
+msgid "Result Settings"
+msgstr "Arventennoù an disoc'hoù"
+
+msgctxt "settings"
+msgid "Result Visited Checkmark"
+msgstr ""
+
+#. In the top menu under Settings
 msgid "Results"
 msgstr "Disoc'hoù"
 
@@ -4416,7 +4831,12 @@ msgctxt "precise_user_location"
 msgid "Results near"
 msgstr ""
 
-#. Tells users how to enable location service.
+#. http://i.imgur.com/OODM0bR.png
+#. Selecting "Retro" will change the look and layout of DuckDuckGo to resemble the old site: http://i.imgur.com/toYUxqn.png
+msgctxt "theme"
+msgid "Retro"
+msgstr "Mod kozh"
+
 msgctxt "precise_user_location"
 msgid "Return to duckduckgo.com and allow permission."
 msgstr ""
@@ -4426,7 +4846,10 @@ msgctxt "directions"
 msgid "Reverse origin and destination"
 msgstr ""
 
-#. Label above a list of customer reviews of a business.
+#. Used in 0-click box for product results, e.g. <a href="https://duckduckgo.com/?q=9780061353246">https://duckduckgo.com/?q=9780061353246</a>
+msgid "Reviews"
+msgstr "Priziadurioù"
+
 msgctxt "maps_places"
 msgid "Reviews"
 msgstr ""
@@ -4452,34 +4875,33 @@ msgctxt "language_name"
 msgid "Russian"
 msgstr ""
 
-#. Abbreviation for 'South'
 msgctxt "forecast"
 msgid "S"
 msgstr ""
 
-#. Abbreviation for 'Southeast'
 msgctxt "forecast"
 msgid "SE"
 msgstr ""
 
-#. Abbreviation for 'Southwest'
 msgctxt "forecast"
 msgid "SW"
 msgstr ""
 
-#. A filter that removes search results that may be inappropriate.
 msgid "Safe Search"
 msgstr ""
 
+#. http://i.imgur.com/hcN6sIA.png
 msgctxt "settings"
 msgid "Safe Search"
 msgstr "Klask diarvar"
 
-#. A label above search results that lets the user know the safe search filter blocked some of the results from showing. The placeholder value is the user's search term.
+#. in https://duckduckgo.com/params near the top under "Result Settings" header
+msgid "Safe Search:"
+msgstr "Klask diarvar :"
+
 msgid "Safe search blocked results for %s."
 msgstr ""
 
-#. A label above search results that lets the user know the safe search filter blocked some of the results from showing. The placeholder value is the user's search term.
 msgid "Safe search blocked some results for %s."
 msgstr "Harzet ez eus bet disoc'hoù zo evit %s gant ar c'hlask diarvar."
 
@@ -4497,7 +4919,7 @@ msgctxt "maps_places"
 msgid "Sat"
 msgstr ""
 
-#. Setting that displays a map using satellite imagery
+#. For a button that shows satellite imagery on a map
 msgctxt "map-mode"
 msgid "Satellite"
 msgstr ""
@@ -4510,24 +4932,25 @@ msgstr ""
 msgid "Saudi Arabia"
 msgstr ""
 
-#. A button that saves a user's settings.
+#. Probably bookmarks settings save button?
 msgid "Save"
 msgstr "Enrollañ"
 
-#. Title above the page where settings are saved to the cloud.
+msgctxt "settings"
+msgid "Save"
+msgstr "Enrollañ"
+
 msgctxt "settings"
 msgid "Save Cloud Settings"
 msgstr "Enrollañ arventennoù ar c'houmoul"
 
-#. Button that saves user settings.
 msgid "Save Settings"
 msgstr "Enrollañ an arventennoù"
 
-#. A button that saves a user's settings and closes the settings window.
 msgid "Save and Exit"
 msgstr "Enrollañ ha mont kuit"
 
-#. Prompt to save user settings to the cloud.
+#. http://i.imgur.com/2X1kTSf.png
 msgctxt "settings"
 msgid "Save your settings anonymously to the cloud"
 msgstr "Enrollit hoc'h arventennoù dizanv er c'houmoul"
@@ -4541,7 +4964,7 @@ msgctxt "Sports module"
 msgid "Schedule"
 msgstr ""
 
-#. Label for the current score of a live sporting event.
+#. Needs Context
 msgid "Score"
 msgstr ""
 
@@ -4550,32 +4973,44 @@ msgctxt "Sports module"
 msgid "Scores"
 msgstr ""
 
-#. Tells users where in the settings menu they can change their default search engine.
+#. Instructions to add a search engine in Microsoft Edge
 msgid "Scroll down and click %sView advanced settings%s"
 msgstr ""
 
-#. Tells users how to add DuckDuckGo to the list of search engines in their browser.
 msgid "Scroll down and click %sView advanced settings%s."
 msgstr ""
 
-#. Tells users how to add DuckDuckGo to the list of search engines in their browser.
+msgid ""
+"Scroll down and find %sSearch in the address bar%s. Click on %sChange%s (or "
+"%sAdd new%s)"
+msgstr ""
+
 msgid ""
 "Scroll down and find %sSearch in the address bar%s. Click on %sChange%s (or "
 "%sAdd new%s)."
 msgstr ""
 
-#. Tells users where to find location settings within the settings menu. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Scroll down and locate %syour browser%s in the list."
 msgstr ""
 
-#. Tells users how to add DuckDuckGo to the list of search engines in their browser.
 msgid "Scroll down to the %sServices%s section and click %sAddress bar%s."
 msgstr ""
 
-#. Refers to searching in a web browser.
+#. Context? Is this _a search_ (noun) or the verb _search_?
 msgid "Search"
 msgstr ""
+
+#. e.g., 'Search coffee shop in san diego ca to find results closer to you?' (when the user searched with a local query like 'coffee shop near me')
+msgid "Search %s to find results closer to you?"
+msgstr ""
+
+msgid "Search Anonymously"
+msgstr ""
+
+#. in https://duckduckgo.com/search_box. top header
+msgid "Search Box"
+msgstr "Boestad klask"
 
 msgctxt "settings"
 msgid "Search Button Background"
@@ -4586,20 +5021,20 @@ msgctxt "vertical_map"
 msgid "Search Current Map Area"
 msgstr ""
 
+msgid "Search DuckDuckGo"
+msgstr "Klask dre DuckDuckGo"
+
 #. search for a place near the user's location
 msgctxt "vertical_map"
 msgid "Search Near My Location"
 msgstr ""
 
-#. Header above search settings.
 msgid "Search Options"
 msgstr ""
 
-#. Link to search results.
 msgid "Search Results"
 msgstr ""
 
-#. A button that searches within an area shown on a map.
 msgctxt "map"
 msgid "Search This Area"
 msgstr ""
@@ -4608,16 +5043,14 @@ msgctxt "settings"
 msgid "Search Visibility"
 msgstr ""
 
-#. Message prompting users to download the DuckDuckGo app.
 msgid "Search and browse privately with the DuckDuckGo app."
 msgstr ""
 
-#. Category a user can select on a feedback form.
 msgctxt "feedback form"
 msgid "Search box"
 msgstr ""
 
-#. A button that searches within a specific website. The placeholder value is the name of the website. For example: 'Search domain Wikipedia'
+#. Le terme apparait en survolant le terme "More from ..." sur la page de résultats.
 msgid "Search domain %s"
 msgstr "Domani klask %s"
 
@@ -4626,7 +5059,6 @@ msgctxt "translations_module"
 msgid "Search languages"
 msgstr ""
 
-#. A link to search results for a different search term. The placeholder value is the search term. For example: 'Search only for pizza?'
 msgid "Search only for %s?"
 msgstr ""
 
@@ -4635,6 +5067,7 @@ msgid ""
 "favorite browser, or search directly at %sduckduckgo.com%s."
 msgstr ""
 
+#. http://i.imgur.com/6LZAoqH.png
 msgctxt "settings"
 msgid ""
 "Search queries are included in URL (if off, searches will use POST requests)"
@@ -4642,7 +5075,6 @@ msgstr ""
 "Enkorfet eo goulennoù ar c'hlaskoù en URL (mar diweredekaet e vo arveret an "
 "azgoulennoù mod POST gant ar c'hlaskoù)"
 
-#. Placeholder text for search box.
 msgctxt "search input box"
 msgid "Search the web without being tracked"
 msgstr ""
@@ -4652,7 +5084,13 @@ msgctxt "map"
 msgid "Search this area for..."
 msgstr ""
 
-#. Label above a list of search terms related to the user's current search. The placeholder is the user's current search term.
+#. Message displayed sometimes at top of results (for bang syntax), e.g. <a href="https://duckduckgo.com/?q=twitter+test">https://duckduckgo.com/?q=twitter+test</a>
+msgid "Searches %s using our %s"
+msgstr "Klask a ra %s en ur ober gant %s"
+
+msgid "Searches related to \"%s\""
+msgstr ""
+
 msgid "Searches related to <b>%s</b>"
 msgstr ""
 
@@ -4661,7 +5099,6 @@ msgctxt "Sports module"
 msgid "Season Weeks"
 msgstr ""
 
-#. Category of problem a user can select on a feedback form.
 msgctxt "feedback form"
 msgid "Security issue (opens in new tab)"
 msgstr ""
@@ -4670,121 +5107,104 @@ msgctxt "expand_text"
 msgid "See More"
 msgstr ""
 
-#. A link that loads user-uploaded photos of a location on a map.
 msgid "See Photos"
 msgstr ""
 
+#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
+#. Then at the bottom of the cloud save box - http://i.imgur.com/4Jo3jAf.png
 msgctxt "cloudsave"
 msgid "See also"
 msgstr ""
 
-#. Link to a page with more information about how user settings are stored in a URL.
 msgctxt "settings"
 msgid "See the %sURL Parameter Reference page%s for more details."
 msgstr ""
 
-#. Instructions on how to change a browser's default search engine to DuckDuckGo.
 msgctxt "mobile homepage banner"
 msgid "Select %s%s%s, then %sSearch Engine%s"
 msgstr ""
 
-#. Tells how to find the settings menu in their browser. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Select %s'Setting for this Website...'%s from the Safari menu."
 msgstr ""
 
-#. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
 msgid ""
 "Select %sCustom%s and enter %shttps://duckduckgo.com%s in the input field"
 msgstr ""
 
+#. Instructions to add a search engine in Microsoft Edge
 msgid "Select %sDuckDuckGo%s and click %sAdd as default%s!"
 msgstr ""
 
-#. Tells users how to add DuckDuckGo to the list of search engines in their browser.
+msgid "Select %sDuckDuckGo%s and click %sSet as default%s"
+msgstr ""
+
 msgid "Select %sDuckDuckGo%s and click %sSet as default%s."
 msgstr ""
 
-#. Tells users where in the settings menu they can change their default search engine.
 msgid "Select %sDuckDuckGo%s in the Default Search Engine drop down"
 msgstr ""
 "Diuzit %sDuckDuckGo%s diwar al lañser dibuniñ ar c'heflusker klask dre ziouer"
 
-#. Tells users how to add DuckDuckGo to the list of search engines in their browser.
 msgid "Select %sDuckDuckGo%s in the list of search providers"
 msgstr ""
 
-#. Tells users how to add DuckDuckGo to the list of search engines in their browser.
 msgid "Select %sDuckDuckGo%s under the%sDefault Search Engine%s section"
 msgstr ""
 
-#. Tells the user were in the settings menu they can change their default search engine.
 msgid "Select %sDuckDuckGo%s!"
 msgstr "Diuzit %sDuckDuckGo%s !"
 
-#. Tells users where to click in their browser to change the default search engine.
 msgid "Select %sEdit Search Engines...%sin the dropdown"
 msgstr ""
 
-#. Tells users how to add DuckDuckGo to the list of search engines in their browser.
 msgid "Select %sManage add-ons%s from the dropdown menu"
 msgstr ""
 
-#. Tells users where in the settings menu they can change their default search engine.
 msgid ""
 "Select %sOpera > Preferences%s (on Mac) or %sMenu > Settings%s (on Windows)"
 msgstr ""
 
-#. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
+#. http://i.imgur.com/WU0BbCB.png
 msgid ""
 "Select %sOpera > Preferences%s (on Mac) or %sOpera > Options%s (on Windows)"
 msgstr ""
 "Diuzit %sOpera > Gwellvezioù%s (war Mac) pe %sOpera > Dibarzhioù%s (war "
 "Windows)"
 
-#. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
 msgid "Select %sPreferences%s."
 msgstr "Diuzit %sGwellvezioù%s."
 
-#. Instructions on how to change a browser's default search engine to DuckDuckGo.
 msgctxt "mobile homepage banner"
 msgid "Select %sSearch Engine%s"
 msgstr ""
 
-#. Instructions on how to change a browser's default search engine to DuckDuckGo.
 msgctxt "mobile homepage banner"
 msgid "Select %sSearch engine%s, then %sOthers...%s"
 msgstr ""
 
-#. Tells users to click on the settings menu
 msgid "Select %sSettings%s"
 msgstr "Diuzit %sArventennoù%s"
 
-#. Instructions on how to change a browser's default search engine to DuckDuckGo.
 msgctxt "mobile homepage banner"
 msgid "Select %sSettings%s"
 msgstr ""
 
-#. Tells the user where to click to open their browser's settings menu.
 msgid "Select %sSettings%s from the drop-down menu."
 msgstr "Diuzit %sArventennoù%s diwar al lañser dibunañ."
 
-#. Instructions on how to change a browser's default search engine to DuckDuckGo.
 msgctxt "mobile homepage banner"
 msgid "Select %sSettings%s, then %sAdvanced settings%s"
 msgstr ""
 
-#. Instructions on how to change a browser's default search engine to DuckDuckGo.
 msgctxt "mobile homepage banner"
 msgid "Select %sSettings%s, then %sDefault search engine%s"
 msgstr ""
 
-#. Instructions on how to change a browser's default search engine to DuckDuckGo.
 msgctxt "mobile homepage banner"
 msgid "Select %sSettings%s, then %sSearch Engine%s"
 msgstr ""
 
-#. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
 msgid ""
 "Select %sUse this webpage as your only home page%s (or one of the other "
 "options if you prefer)"
@@ -4792,7 +5212,6 @@ msgstr ""
 "Diuzit %sArverañ ar bennbajenn-mañ evel ho pennbajenn nemeti%s (pe unan eus "
 "an dibarzhioù all mar kavit gwelloc'h)"
 
-#. Tells users to select DuckDuckGo from a dropdown menu.
 msgid "Select DuckDuckGo!"
 msgstr "Diuzit DuckDuckGo !"
 
@@ -4801,9 +5220,13 @@ msgctxt "translations_module"
 msgid "Select Language"
 msgstr ""
 
-#. Tells users where to find the location settings in the settings menu. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Select Settings > Location."
+msgstr ""
+
+#. Bot challenge instructions
+msgctxt "Anomaly modal"
+msgid "Select all squares containing a duck"
 msgstr ""
 
 #. Bot challenge instructions
@@ -4811,7 +5234,6 @@ msgctxt "Anomaly modal"
 msgid "Select all squares containing a duck:"
 msgstr ""
 
-#. Tells users where in the settings menu they can change their default search engine.
 msgid "Selected %sDuckDuckGo%s"
 msgstr "%sDuckDuckGo%s bet diuzet"
 
@@ -4820,12 +5242,14 @@ msgctxt "Sports module"
 msgid "Semi-finals"
 msgstr ""
 
-#. Link to a feedback form.
+#. "Send" button for feedback form.
+msgid "Send"
+msgstr "Kas"
+
 msgctxt "feedback form"
 msgid "Send feedback"
 msgstr ""
 
-#. Label before a list of items a user can send feedback for.
 msgctxt "feedback form"
 msgid "Send feedback for:"
 msgstr ""
@@ -4846,38 +5270,38 @@ msgctxt "language_name"
 msgid "Serbian (Latin)"
 msgstr ""
 
-#. Text prompting users to make DuckDuckGo the default search engine in their browser.
 msgid "Set DuckDuckGo as your %sdefault search engine"
 msgstr "Keflugnit DuckDuckGo evel ho %skeflusker klask dre ziouer"
 
-#. Button that allows users to manually select their current location on a map.
 msgctxt "precise_user_location"
 msgid "Set Manually"
 msgstr ""
 
-#. Text prompting users to make DuckDuckGo the default search engine in their browser.
 msgid "Set as Default Search Engine"
 msgstr "Kefluniañ da geflusker klask dre ziouer"
 
-#. Button that sets the current webpage as the user's homepage in their browser.
+#. On the homepage.
 msgid "Set as Homepage"
 msgstr "Lakaat da bennbajenn"
 
-#. Prompt for the user to indicate their location on a map, to enable more relevant search results.
 msgctxt "precise_user_location"
 msgid "Set your location manually, or ensure Location Services is enabled."
 msgstr ""
+
+#. In the top dropdown menu  ("More" > "Settings")
+msgid "Settings"
+msgstr "Arventennoù"
 
 msgctxt "feedback form"
 msgid "Settings"
 msgstr ""
 
-#. Label for the user's settings in JSON format.
+#. http://i.imgur.com/uzNLMwE.png
+#. Your DuckDuckGo settings as JSON parameters (https://en.wikipedia.org/wiki/JSON)
 msgctxt "settings"
 msgid "Settings in JSON:"
 msgstr "Arventennoù e JSON :"
 
-#. Message indicating the user has changed their browser's settings
 msgid "Settings updated"
 msgstr ""
 
@@ -4885,17 +5309,14 @@ msgctxt "homepage onboarding"
 msgid "Share DuckDuckGo and help friends take their privacy back!"
 msgstr ""
 
-#. Link to a feedback form.
 msgctxt "feedback form"
 msgid "Share Feedback"
 msgstr ""
 
-#. Link to a feedback form.
 msgctxt "feedback form"
 msgid "Share feedback for this result."
 msgstr ""
 
-#. Label for a text field where users can enter feedback.
 msgctxt "feedback form"
 msgid "Share feedback on your search results."
 msgstr ""
@@ -4908,16 +5329,13 @@ msgctxt "feedback form"
 msgid "Share positive feedback"
 msgstr ""
 
-#. Label above shopping search results.
 msgid "Shopping"
 msgstr "Prenañ"
 
-#. Filters the duration of videos in search results.
 msgctxt "video-duration"
 msgid "Short"
 msgstr ""
 
-#. Description of an autocomplete function in the search bar.
 msgid "Shortcuts to other sites to search off DuckDuckGo"
 msgstr ""
 
@@ -4931,32 +5349,38 @@ msgctxt "shopping_vertical"
 msgid "Show 1 more"
 msgstr ""
 
-#. Button that displays more information about saved settings.
+#. http://i.imgur.com/msbR8Xk.png
+#. Clicking will show you your Settings as a URL and JSON like this http://i.imgur.com/59sqEFU.png
 msgctxt "setting"
 msgid "Show Bookmarklet and Settings Data"
 msgstr "Diskouez ar sined ha roadennoù an arventennoù"
 
-#. Button that shows more details.
 msgctxt "mobile expanded map"
 msgid "Show Detail"
 msgstr ""
 
-#. Button that shows less content.
 msgctxt "expand_text"
 msgid "Show Less"
 msgstr "diskouez neubeutoc'h"
 
-#. Button that displays a list of search results
 msgctxt "mobile expanded map"
 msgid "Show List"
 msgstr ""
 
-#. Button that shows more content.
 msgctxt "expand_text"
 msgid "Show More"
 msgstr "diskouez muioc'h"
 
-#. A button that shows a passphrase the user has typed.
+msgctxt "load_more"
+msgid "Show More"
+msgstr "diskouez muioc'h"
+
+msgctxt "new tab page"
+msgid "Show Most-Visited Sites"
+msgstr ""
+
+#. Click "Load Settings" - http://i.imgur.com/cii6KqL.png
+#. Then - http://i.imgur.com/nOvjdKb.png
 msgctxt "settings"
 msgid "Show Passphrase"
 msgstr ""
@@ -4966,12 +5390,10 @@ msgctxt "directions"
 msgid "Show Steps"
 msgstr ""
 
-#. A button that loads search results.
 msgctxt "noresults"
 msgid "Show Web Results"
 msgstr ""
 
-#. Button that shows search results on a map.
 msgctxt "directions"
 msgid "Show map"
 msgstr ""
@@ -4980,11 +5402,11 @@ msgstr ""
 msgid "Show recent activity"
 msgstr ""
 
-#. Filters the duration of videos in search results.
 msgctxt "video-duration"
 msgid "Show videos of any length"
 msgstr ""
 
+#. In the Instant Answers box -> viewing images -> the sentence over the first image. Eg. https://duckduckgo.com/?q=duckduckgo&ia=images
 msgctxt "visible"
 msgid "Showing"
 msgstr "O tiskouez"
@@ -4994,6 +5416,13 @@ msgstr ""
 
 msgid "Showing results from"
 msgstr ""
+
+msgid "Showing results without %s."
+msgstr ""
+
+#. Instant Answer Tab Name
+msgid "Shows"
+msgstr "diskouez"
 
 msgctxt "settings"
 msgid "Shows horizontal lines at result page breaks"
@@ -5028,6 +5457,7 @@ msgctxt "settings"
 msgid "Shows sign-up form for the DuckDuckGo privacy newsletters"
 msgstr ""
 
+#. http://i.imgur.com/94erFcS.png
 msgctxt "settings"
 msgid "Shows suggestions under the search box as you type"
 msgstr ""
@@ -5036,13 +5466,22 @@ msgctxt "settings"
 msgid "Shows the privacy benefits of using DuckDuckGo on the homepage"
 msgstr ""
 
+#. Discontinued, don't translate
 msgctxt "settings"
 msgid "Shows the search button background"
 msgstr "Diskouez a ra drekleur afell ar c'hlask"
 
 msgctxt "settings"
+msgid "Shows welcome message on top of the search results page"
+msgstr ""
+
+msgctxt "settings"
 msgid "Shows welcome message to EU Android preference menu users"
 msgstr ""
+
+#. Used in 0-click box for product results, e.g. <a href="https://duckduckgo.com/?q=9780061353246">https://duckduckgo.com/?q=9780061353246</a>
+msgid "Similar"
+msgstr "Heñvel"
 
 msgid "Singapore"
 msgstr ""
@@ -5051,7 +5490,7 @@ msgctxt "settings"
 msgid "Site Icons"
 msgstr "Arlunioù al load"
 
-#. Label indicating the size of a downloadable file. For example: 'Size: 5MB'
+#. https://duckduckgo.com/params under Look & Feel Settings. It is a header
 msgid "Size:"
 msgstr "Ment :"
 
@@ -5076,11 +5515,12 @@ msgctxt "language_name"
 msgid "Slovenian"
 msgstr ""
 
+#. http://i.imgur.com/JDDRzkk.png
 msgctxt "settingsvalue"
 msgid "Small"
 msgstr "Bihan"
 
-#. Filters the size of images in search results.
+#. http://i.imgur.com/wG6ioeG.png
 msgctxt "size"
 msgid "Small"
 msgstr "Bihan"
@@ -5090,6 +5530,7 @@ msgctxt "Weather IA"
 msgid "Smoky"
 msgstr ""
 
+#. This is the name of a user setting
 msgctxt "settings"
 msgid "Snippet Color"
 msgstr ""
@@ -5099,23 +5540,20 @@ msgctxt "Weather IA"
 msgid "Snow"
 msgstr ""
 
-#. Error message indicating that the user's settings weren't able to be saved.
+msgid "Social"
+msgstr "Kevredadel"
+
+msgid "Software"
+msgstr "Meziant"
+
 msgctxt "cloudsave"
 msgid "Something went wrong saving to the server, please try again."
 msgstr ""
 "Degouezhet ez eus bet un dra a-dreuz pa oa oc'h enrollañ en dafariad, "
 "klaskit en-dro, mar plij."
 
-#. Indicates that there were no search results for a user's search.
 msgid "Sorry, no results here."
 msgstr "Digarezit, disoc'h ebet amañ."
-
-#. Inform the users that "something" went wrong and that they could try to refresh the page to resolve the error. Placeholders are for markup, please ignore.
-msgctxt "noresults"
-msgid ""
-"Sorry, we ran into an error displaying these results. %sClick here%s to try "
-"again."
-msgstr ""
 
 #. The main message for when the feedback form failed to send. For example, if the user lost connectivity.
 msgctxt "feedback form"
@@ -5131,6 +5569,10 @@ msgstr ""
 msgctxt "translations_module"
 msgid "Source text cleared"
 msgstr ""
+
+#. https://duckduckgo.com/params under Interface Settings.in the end. It is a header
+msgid "Source:"
+msgstr "Tarzh :"
 
 msgctxt "Sports module"
 msgid "South"
@@ -5150,12 +5592,10 @@ msgctxt "language_name"
 msgid "Spanish"
 msgstr ""
 
-#. A title of a page that encourages users to share DuckDuckGo with their friends. 'Spread' in this case means 'share'.
 msgctxt "showcase_spread"
 msgid "Spread DuckDuckGo"
 msgstr ""
 
-#. Filters the shape of images in search results.
 msgctxt "image-layout"
 msgid "Square"
 msgstr ""
@@ -5175,7 +5615,6 @@ msgctxt "Sports module"
 msgid "Standings"
 msgstr ""
 
-#. A prompt to start a new web search.
 msgid "Start searching!"
 msgstr ""
 
@@ -5184,26 +5623,34 @@ msgctxt "Covid 19 module"
 msgid "Statistics"
 msgstr ""
 
-#. Link to a page where the user can subscribe to a newsletter.
 msgctxt "SERP footer content"
 msgid "Stay Informed"
 msgstr ""
 
-#. Prompt to subscribe to a newsletter.
 msgctxt "SERP footer content"
 msgid "Stay protected and informed with our privacy newsletters."
 msgstr ""
 
-#. Text on the page where users can subscribe to DuckDuckGo's privacy newsletter
 msgctxt "showcase_newsletter"
 msgid "Stay protected and informed with our privacy newsletters."
+msgstr ""
+
+#. Instant Answer tab name - eg. https://duckduckgo.com/?q=Energy+Transfer+Equity&ia=stock
+msgid "Stock"
+msgstr "Kadavad"
+
+msgctxt "homepage ATB modal"
+msgid "Stop hidden trackers lurking on other websites."
+msgstr ""
+
+msgctxt "homepage ATB modal"
+msgid "Stop most hidden trackers lurking on other websites."
 msgstr ""
 
 msgctxt "settings"
 msgid "Stores the previous region that was set"
 msgstr "Gwarediñ a ra ar rannvro gent a oa kefluniet"
 
-#. A setting for the safe search filter that removes the most results.
 msgctxt "safe search"
 msgid "Strict"
 msgstr ""
@@ -5222,26 +5669,28 @@ msgctxt "Weather IA"
 msgid "Strong Storms"
 msgstr ""
 
-#. Button that submits feedback.
+#. Description of the daily/hourly weather condition, as returned from the (WeatherKit) API
+msgctxt "Weather IA"
+msgid "Strong storms"
+msgstr ""
+
+#. in https://duckduckgo.com/feedback in the end. It is a button
 msgid "Submit"
 msgstr "Kas"
 
-#. Button that subscribes the user to an email newsletter.
 msgctxt "email newsletter"
 msgid "Subscribe"
 msgstr ""
 
-#. Button that suggests a random passphrase for the user.
 msgctxt "settings"
 msgid "Suggest Different Passphrase"
 msgstr ""
 
-#. Button that suggests a random passphrase for the user.
+#. http://i.imgur.com/BMM6X3h.png
 msgctxt "settings"
 msgid "Suggest a Passphrase"
 msgstr ""
 
-#. Label for suggested alternative search terms, when the user is suspected of having made a typo or entered a search term incorrectly.
 msgctxt "directions"
 msgid "Suggestions:"
 msgstr ""
@@ -5275,9 +5724,18 @@ msgctxt "Weather IA"
 msgid "Sunshowers"
 msgstr ""
 
+#. http://i.imgur.com/FczLkAL.png
 msgctxt "settingsvalue"
 msgid "Super Wide"
 msgstr "Dreistledan"
+
+#. http://i.imgur.com/hAG8srI.png
+msgctxt "width"
+msgid "Super wide"
+msgstr "Ledan ledan"
+
+msgid "Support"
+msgstr "Skor"
 
 #. Indicator that a game has been suspended
 msgctxt "Sports module"
@@ -5316,7 +5774,6 @@ msgctxt "homepage onboarding"
 msgid "Switch to DuckDuckGo and take back your privacy!"
 msgstr ""
 
-#. Text prompting  users to switch their current search engine to the DuckDuckGo private search engine.
 msgid "Switch to the search engine that doesn't track you. Ever."
 msgstr ""
 
@@ -5337,7 +5794,7 @@ msgctxt "Covid 19 module"
 msgid "Symptoms"
 msgstr ""
 
-#. Abbreviation indicating this is the total score for a game
+#. Indicates this is the number of ties for this team
 msgctxt "Sports module"
 msgid "T"
 msgstr ""
@@ -5352,6 +5809,9 @@ msgctxt "Sports module"
 msgid "TBD"
 msgstr ""
 
+msgid "TV"
+msgstr "Skinwel"
+
 #. The name of the Tahitian language
 msgctxt "language_name"
 msgid "Tahitian"
@@ -5360,8 +5820,12 @@ msgstr ""
 msgid "Taiwan"
 msgstr ""
 
-#. Header on a page prompting users to switch to the DuckDuckGo private search engine.
+#. Recupera Tu Privacidad!
 msgid "Take Back Your Privacy!"
+msgstr ""
+
+msgctxt "homepage ATB modal"
+msgid "Take control of your personal data"
 msgstr ""
 
 msgctxt "homepage ATB modal"
@@ -5372,7 +5836,6 @@ msgctxt "reasons-to-use-duckduckgo"
 msgid "Take control of your personal data."
 msgstr ""
 
-#. Filters the shape of images in search results.
 msgctxt "image-layout"
 msgid "Tall"
 msgstr ""
@@ -5382,17 +5845,18 @@ msgctxt "language_name"
 msgid "Tamil"
 msgstr ""
 
-#. Tells users which icon to press in their browser. Part of a list of instructions on how to enable location service.
+#. It's a color, if you are confused. See <a href="http://en.wikipedia.org/wiki/Tan_(color)">http://en.wikipedia.org/wiki/Tan_(color)</a>
+msgid "Tan"
+msgstr "Liv douar Sienna"
+
 msgctxt "precise_user_location"
 msgid "Tap the %slock icon%s on the address bar."
 msgstr ""
 
-#. Tells users which icon to press in their browser. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Tap the vertical dots in the DuckDuckGo app."
 msgstr ""
 
-#. Filters the color of images in search results.
 msgctxt "color"
 msgid "Teal"
 msgstr ""
@@ -5407,6 +5871,8 @@ msgctxt "language_name"
 msgid "Telugu"
 msgstr ""
 
+#. An option under "Theme" http://i.imgur.com/fFIMtgl.png
+#. changes the look of DuckDuckGo to a Terminal, like this: http://i.imgur.com/BDN8Tfm.png
 msgctxt "theme"
 msgid "Terminal"
 msgstr "Termenell"
@@ -5415,6 +5881,13 @@ msgstr "Termenell"
 msgctxt "translations_module"
 msgid "Text exceeds %s character limit"
 msgstr ""
+
+#. in https://duckduckgo.com/params under "Look & Feel Settings" header
+msgid "Text font:"
+msgstr "Nodrezh an destenn :"
+
+msgid "Text:"
+msgstr "Testenn :"
 
 #. The name of the Thai language
 msgctxt "language_name"
@@ -5431,7 +5904,6 @@ msgctxt "homepage onboarding"
 msgid "Thank you."
 msgstr ""
 
-#. Message indicating that the open lock icon in the address bar means that a website is not secure.
 msgctxt "Lock icon next to HTTP search result"
 msgid ""
 "That means information sent between your device and the webpage behind this "
@@ -5439,7 +5911,8 @@ msgid ""
 "cases this includes passwords, or payment details."
 msgstr ""
 
-#. Text explaining how the cloud save feature works.
+#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
+#. Then in the cloud save box - http://i.imgur.com/elru00b.png
 msgctxt "cloudsave"
 msgid ""
 "The Cloud Save bookmarklet allows any changes you make to your settings to "
@@ -5450,24 +5923,31 @@ msgctxt "settings"
 msgid "The rendering method to use for interactive maps"
 msgstr ""
 
-#. 'Collect-it-all' refers to the practice of data collection by companies such as Google.
 msgctxt "SERP footer content"
 msgid "The world needs an alternative to the collect-it-all business model."
 msgstr ""
 
+#. Title for the theme menu:
+#. https://duck.co/media/files/theme.png
+msgid "Theme"
+msgstr "Neuz"
+
+#. http://i.imgur.com/LpFhb1e.png
 msgctxt "settings"
 msgid "Theme"
 msgstr "Dodenn"
 
-#. Message indicating the user has changed their browser's theme.
+#. சூழல் மாற்றப்பட்டது
 msgid "Theme Changed"
 msgstr "Neuz kemmet"
 
-#. Header above settings that change the color scheme of the search engine.
 msgid "Themes"
 msgstr "Neuzioù"
 
-#. Describes why the DuckDuckGo extension needs permission to block trackers and enable other features.
+#. Instant Answer Tab Name
+msgid "Thesaurus"
+msgstr "Geriadur an heñvelsterioù"
+
 msgid ""
 "These browser permissions are used to add privacy protection on websites you "
 "visit by blocking hidden trackers, encrypting connections where possible, "
@@ -5479,12 +5959,12 @@ msgctxt "Sports module"
 msgid "Third place"
 msgstr ""
 
-#. Appears below a type of search results called 'Instant Answers'
 msgctxt "attribution"
 msgid "This Instant Answer was made by the %sDuckDuckHack%s Community."
 msgstr ""
 
-#. Header above a list of benefits of the cloud save feature.
+#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
+#. Then in the cloud save box - http://i.imgur.com/d2RxxQ8.png
 msgctxt "cloudsave"
 msgid "This has a few benefits:"
 msgstr "Spletoù ez eus gant an dra-se :"
@@ -5493,12 +5973,14 @@ msgstr "Spletoù ez eus gant an dra-se :"
 msgid "This information isn’t useful"
 msgstr ""
 
-#. Category of feedback a user can select on a feedback form.
+#. Discontinued, don't translate
+msgid "This page requires Javascript to function."
+msgstr "Javascript zo azgoulennet gant ar bajennad-mañ da vont en-dro."
+
 msgctxt "feedback form"
 msgid "This place is permanently closed"
 msgstr ""
 
-#. Category of feedback a user can select on a feedback form.
 msgctxt "feedback form"
 msgid "This place is too far away"
 msgstr ""
@@ -5518,21 +6000,18 @@ msgctxt "translations_module"
 msgid "This translation is wrong"
 msgstr ""
 
-#. Label indicating that the video can't be played on the current page, and only on the website that owns the vide. The placeholder is the name of the website that owns the video.
 msgid "This video is not yet able to be watched here. You can watch it on %s."
 msgstr ""
 
-#. Message indicating that a website is not using an encrypted connection and is not secure.
 msgctxt "Lock icon next to HTTP search result"
 msgid "This webpage does not use a secure, encrypted, connection (HTTPS)."
 msgstr ""
 
-#. Confirmation message asking if the user is sure they want to reset all of their settings.
+#. In spanish: Esto borrará todos los ajustes. ¿Desea continuar?
 msgctxt "settings"
 msgid "This will erase all settings. Continue?"
 msgstr "Diverket e vo an holl arventennoù. Kenderc'hel ganti ?"
 
-#. Confirmation message asking if the user is sure they want to reset all of their settings.
 msgctxt "settings"
 msgid "This will reset your saved settings to default values. Continue?"
 msgstr ""
@@ -5564,12 +6043,12 @@ msgctxt "language_name"
 msgid "Tigrinya"
 msgstr ""
 
-#. Text that tells in which time zone the game times are displayed. The time zone will be displayed in a tooltip that appears when hovering over the words
+#. Text that tells in which time zone the game times are displayed'
 msgctxt "Sports module"
 msgid "Times are in your %slocal time zone%s"
 msgstr ""
 
-#. Text that tells in which time zone the game times are displayed
+#. Text that tells in which time zone the game times are displayed'
 msgctxt "Sports module"
 msgid "Times are in your local time zone"
 msgstr ""
@@ -5582,19 +6061,21 @@ msgstr ""
 msgid "Tired of being tracked online? %sWe can help.%s"
 msgstr ""
 
+#. This is the name of a user setting
 msgctxt "settings"
 msgid "Title Color"
 msgstr ""
 
+#. This is the name of a user setting
 msgctxt "settings"
 msgid "Title Font"
 msgstr ""
 
+#. This is the name of a user setting
 msgctxt "settings"
 msgid "Title Underline"
 msgstr ""
 
-#. Instructions for how to print driving directions.
 msgctxt "directions"
 msgid ""
 "To print directions:%sGo back to the map.%sSelect the route you want to "
@@ -5617,6 +6098,10 @@ msgctxt "language_name"
 msgid "Tongan"
 msgstr ""
 
+#. Used in headings on Category pages, e.g. <a href="https://duckduckgo.com/?q=simpsons+characters">https://duckduckgo.com/?q=simpsons+characters</a>
+msgid "Top"
+msgstr "Pep gwellañ"
+
 #. Indicates this is the total score for a game
 msgctxt "Sports module"
 msgid "Total"
@@ -5635,7 +6120,11 @@ msgstr ""
 msgid "Tour"
 msgstr "Troiad"
 
-#. Header above a list of trackers (or tracking companies) that have been blocked in the past hour.
+msgctxt "frontpage"
+msgid "Tour"
+msgstr "Troiad"
+
+#. Heading above the list of trackers/companies
 msgctxt "tracker_stats"
 msgid "Trackers blocked in the last hour"
 msgstr ""
@@ -5644,6 +6133,11 @@ msgstr ""
 msgctxt "tracker_stats"
 msgid "Trackers that DuckDuckGo blocks will appear here"
 msgstr ""
+
+#. Part of the sentence: "<b>Translate</b> us."
+msgctxt "translateus"
+msgid "Translate"
+msgstr "Treiñ "
 
 #. Placeholder text for a region that will display translated text.
 msgctxt "translations_module"
@@ -5655,7 +6149,6 @@ msgctxt "translations_module"
 msgid "Translation copied"
 msgstr ""
 
-#. Filters the type of images in search results.
 msgctxt "image-type"
 msgid "Transparent"
 msgstr ""
@@ -5663,6 +6156,11 @@ msgstr ""
 #. Description of the daily/hourly weather condition, as returned from the (WeatherKit) API
 msgctxt "Weather IA"
 msgid "Tropical Storm"
+msgstr ""
+
+#. Description of the daily/hourly weather condition, as returned from the (WeatherKit) API
+msgctxt "Weather IA"
+msgid "Tropical storm"
 msgstr ""
 
 msgid "Trusted by tens of millions worldwide!"
@@ -5673,45 +6171,48 @@ msgctxt "Anomaly modal"
 msgid "Try Again"
 msgstr ""
 
-#. Message prompting users to add more information to their search term.
+#. Alternate header text for front page
+msgid "Try a search!"
+msgstr "kas ur c'hlask"
+
 msgctxt "directions"
 msgid "Try adding a city, state, or postal code."
 msgstr ""
 
-#. A prompt asking users to try searching with different words.
 msgctxt "noresults"
 msgid "Try different keywords."
 msgstr ""
 
-#. Prompt to enable location access in order to get search results closer to the user's actual location.
 msgctxt "precise_user_location"
 msgid "Try enabling anonymous location for more accurate results."
 msgstr ""
 
-#. A prompt asking users to try searching with fewer words.
 msgctxt "noresults"
 msgid "Try fewer keywords."
 msgstr ""
 
-#. A prompt asking users to try searching with words that are less specific.
 msgctxt "noresults"
 msgid "Try more general keywords."
 msgstr ""
 
-#. Link to a version of the DuckDuckGo homepage that doesn't show any promotional messages.
 msgid "Try our homepage that never shows these messages:"
 msgstr ""
 
-#. Prompt for the user to indicate their location on a map, to enable more relevant search results.
+#. e.g., 'Try search for Mozart' (when the user searched for 'Mozar')
+msgid "Try searching for %s"
+msgstr ""
+
 msgctxt "precise_user_location"
 msgid "Try setting your location manually."
 msgstr ""
 
-#. Link to a page where users can download the DuckDuckGo app for iOS or Android.
 msgid "Try the DuckDuckGo app"
 msgstr ""
 
-#. Response a user can select in a feedback form, indicating that they're trying DuckDuckGo again.
+#. Message displayed sometimes at top of results (for bang syntax), e.g. <a href="https://duckduckgo.com/?q=twitter+test">https://duckduckgo.com/?q=twitter+test</a>
+msgid "Try: %s"
+msgstr "Klask : %s"
+
 msgctxt "new user poll"
 msgid "Trying DuckDuckGo again"
 msgstr ""
@@ -5737,48 +6238,53 @@ msgctxt "language_name"
 msgid "Turkish"
 msgstr ""
 
-#. A button that turns off a setting.
+#. For safe search, "Turn off: [temporarily] [permanently]"
 msgid "Turn off:"
 msgstr "lazañ"
 
 msgid "Twitter"
 msgstr ""
 
-#. Tells users how to add DuckDuckGo to the list of search engines in their browser.
 msgid "Type %sDuckDuckGo%s in the first %sform field"
 msgstr ""
 
-#. Tells users how to add DuckDuckGo to the list of search engines in their browser.
 msgid "Type %sduckduckgo.com%s in the %ssecond form field"
 msgstr ""
 
-msgctxt "settings"
-msgid ""
-"Types out DuckAssist answers as they're generated. Turning this off may "
-"result in a short delay between a search and the answer being displayed."
-msgstr ""
-
-msgctxt "settings"
-msgid "Typing Animation"
-msgstr ""
-
+#. This is the name of a user setting
 msgctxt "settings"
 msgid "URL Color"
 msgstr ""
 
+#. This is the name of a user setting -- Example image: https://i.imgur.com/icuYX4J.png
 msgctxt "settings"
 msgid "URL Format"
 msgstr ""
 
+#. 1. in https://duckduckgo.com/settings near the bottom by clicking "Bookmarklet and settings data" under "Your settings as a URL parameter bookmarklet:" in the sentence "see the URL Parameters page for detailed descriptions"
+#. 2. in https://duckduckgo.com/settings near the bottom under "Cloud Save" by clicking "What's this" under "What information gets saved?". It is a link
+#. 3. in https://duckduckgo.com/params in the top. It is a header
+msgid "URL Parameters"
+msgstr "Arventennoù an URL"
+
+#. This is the name of a user setting -- Example image: https://i.imgur.com/0tyrveK.png
 msgctxt "settings"
 msgid "URL Placement"
 msgstr ""
+
+#. https://duckduckgo.com/params under "Color Settings"
+msgid "URLs:"
+msgstr "URLioù :"
 
 msgid "US (English)"
 msgstr ""
 
 msgid "US (Spanish)"
 msgstr ""
+
+msgctxt "settingsvalue"
+msgid "US based (Pounds, Feet, Fahrenheit)"
+msgstr "diazezet war ar Stadoù Unanet (Levrioù, Treid, Fahrenheit)"
 
 msgctxt "settingsvalue"
 msgid "US-based (pounds, feet, Fahrenheit)"
@@ -5797,7 +6303,7 @@ msgctxt "feedback form"
 msgid "Unable To Send Feedback"
 msgstr ""
 
-#. Tells the user where in the settings menu they can change their browser's home page.
+#. I haven't Translated the links under %s because that will come from Chrome Browser...
 msgid ""
 "Under %sOn startup%s, click %sOpen a specific page%s then click %sSet Pages"
 "%s."
@@ -5805,44 +6311,43 @@ msgstr ""
 "Dindan %sOn startup%s, klikit %sOpen a specific page%s ha neuze klikit war "
 "%sSet Pages%s."
 
-#. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
 msgid ""
 "Under %sOn startup%s, select %sHomepage%s and enter: https://duckduckgo.com"
 msgstr ""
 "Dindan %sE-pad al loc'hañ%s, diuzit %sPennbajenn%s hag enankit : https://"
 "duckduckgo.com"
 
-#. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
+#. Instructions to add a search engine in Microsoft Edge
 msgid "Under %sOpen with%s select %sA specific page or pages%s"
 msgstr ""
 
-#. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
 msgid "Under %sSTARTUP > Homepage%s enter: https://duckduckgo.com"
 msgstr "Dindan %sLoc'hañ > Pennbajenn%s, enankit : https://duckduckgo.com"
 
-#. Tells users where in the settings menu they can change their default search engine.
 msgid "Under %sSearch Settings%s select %sDuckDuckGo%s"
 msgstr ""
 
-#. Tells users where in the settings menu they can change their default search engine.
+#. Instructions to add a search engine in Microsoft Edge
 msgid "Under %sSearch in the address bar with%s select %sAdd New%s"
 msgstr ""
 
-#. Tells users where in the settings menu they can change their default search engine.
 msgid "Under %sSearch%s section, click %sManage search engines...%s"
 msgstr ""
 "Dindan ar gevrenn %sKlask%s, klikit war %sArdeiñ ar c'hefluskerioù klask...%s"
 
-#. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
 msgid "Under On startup select %sOpen a specific page or set of pages%s"
 msgstr ""
 "Dindan E-pad al loc'hañ, diuzit %sDigeriñ ur bajenn spesadel pe ur spletad "
 "pajennoù%s"
 
-#. Tells users where in the settings menu they can change their default search engine
 msgid "Under Search click the drop down and select %sDuckDuckGo%s"
 msgstr "Dindan Klask, klikit war al lañser dibunañ ha diuzit %sDuckDuckGo%s"
 
+#. https://duckduckgo.com/params under "Look & Feel Settings" header
+msgid "Underline:"
+msgstr "Islinennañ :"
+
+#. This is the description of a user setting
 msgctxt "settings"
 msgid "Underlines result titles"
 msgstr ""
@@ -5850,6 +6355,10 @@ msgstr ""
 #. Title of modal shown when we believe a user to be a bot
 msgctxt "Anomaly modal"
 msgid "Unfortunately, bots use DuckDuckGo too."
+msgstr ""
+
+#. Instant Answer tab name
+msgid "Unicode"
 msgstr ""
 
 msgid "United Kingdom"
@@ -5868,7 +6377,6 @@ msgctxt "precise_user_location"
 msgid "Update"
 msgstr ""
 
-#. Button that updates the user's current location on a map.
 msgctxt "precise_user_location"
 msgid "Update Location"
 msgstr ""
@@ -5878,7 +6386,6 @@ msgctxt "precise_user_location"
 msgid "Updating location..."
 msgstr ""
 
-#. Response a user can select in a feedback form, indicating that they want to use DuckDuckGo as their primary search engine.
 msgctxt "new user poll"
 msgid "Upgrading to full-time user"
 msgstr ""
@@ -5891,20 +6398,18 @@ msgstr ""
 msgid "Uruguay"
 msgstr ""
 
+#. This is a verb and will be concatenated with a noun in dropdown boxes, e.g. "Use xyz". The text was previously "Using".
 msgid "Use"
 msgstr ""
 
-#. Button that allows search results to be shown near the user's current location.
 msgctxt "precise_user_location"
 msgid "Use Anonymous Location"
 msgstr ""
 
-#. Header above instructions on how to change a browser's default search engine to DuckDuckGo.
 msgctxt "mobile homepage"
 msgid "Use DuckDuckGo Private Search"
 msgstr ""
 
-#. Explains that DuckDuckGo is available for multiple devices.
 msgctxt "mobile promotion on desktop"
 msgid "Use DuckDuckGo private search on your iPad, iPhone, or Android!"
 msgstr ""
@@ -5914,11 +6419,9 @@ msgctxt "precise_user_location"
 msgid "Use Location"
 msgstr ""
 
-#. Link to download the DuckDuckGo extension for the Firefox browser.
 msgid "Use in Firefox"
 msgstr ""
 
-#. Link to download the DuckDuckGo extension for the Safari browser.
 msgid "Use in Safari"
 msgstr "Arverañ e Safari"
 
@@ -5927,16 +6430,16 @@ msgctxt "Covid 19 module"
 msgid "Vaccines"
 msgstr ""
 
-#. Indicates the main road that will be traveled on in driving directions. For example: 'Via the highway'
 msgctxt "directions"
 msgid "Via"
 msgstr ""
 
+#. http://i.imgur.com/BF3gZsZ.png
 msgctxt "settings"
 msgid "Video Playback"
 msgstr "Lennadur ar videoioù"
 
-#. Label above video search results.
+#. Instant Answer Tab Name
 msgid "Videos"
 msgstr "Videoioù"
 
@@ -5948,15 +6451,12 @@ msgctxt "language_name"
 msgid "Vietnamese"
 msgstr ""
 
-#. Button that shows the contents of a file.
 msgid "View File"
 msgstr ""
 
-#. A link that appears next to videos in search results that takes users to the website that hosts the video. The placeholder is the name of the video website. For example: View on YouTube.'
 msgid "View on %s"
 msgstr ""
 
-#. Button that shows a location on a map.
 msgctxt "maps_maps_module"
 msgid "View on Map"
 msgstr ""
@@ -5967,7 +6467,6 @@ msgid ""
 "Microsoft's ad network"
 msgstr ""
 
-#. Prompt to visit DuckDuckGo on another device.
 msgctxt "mobile promotion on desktop"
 msgid ""
 "Visit %sDuckDuckGo.com%s on your tablet or phone and follow the provided "
@@ -5978,16 +6477,20 @@ msgctxt "settings"
 msgid "Visited Checkmark"
 msgstr ""
 
+#. This is the name of a user setting
 msgctxt "settings"
 msgid "Visited Title Color"
 msgstr ""
+
+#. https://duckduckgo.com/params under "Color Settings" header
+msgid "Visited links:"
+msgstr "Ereoù gweladennet :"
 
 #. Indicates this is the number of wins for this team
 msgctxt "Sports module"
 msgid "W"
 msgstr ""
 
-#. Abbreviation for 'West'
 msgctxt "forecast"
 msgid "W"
 msgstr ""
@@ -6015,40 +6518,25 @@ msgstr ""
 msgid "Wales"
 msgstr ""
 
-#. Label for walking directions on a map.
 msgctxt "directions"
 msgid "Walking"
 msgstr ""
 
-#. Filters the size of images in search results.
 msgctxt "size"
 msgid "Wallpaper"
 msgstr ""
 
-#. Question on a feedback form.
 msgctxt "feedback form"
 msgid "Want to tell us a bit more?"
 msgstr ""
 
-#. A button that plays a video on the current page.
+#. e.g. Video search viewing options: http://i.imgur.com/ofZeLRn.png
 msgid "Watch Here"
 msgstr "Sellout amañ"
 
-#. This is a button that lets the user play a video in our custom video player
-msgid "Watch in Duck Player"
-msgstr ""
-
-#. Explains the benefits of using our custom video player, the Duck Player
-msgid ""
-"Watch in Duck Player to block personalized ads on YouTube and prevent your "
-"viewing activity from influencing YouTube recommendations."
-msgstr ""
-
-#. A button that takes a user to another site in order to watch a video. The placeholder is the name of the video site. For example: 'Watch on Vimeo'
 msgid "Watch on %s"
 msgstr ""
 
-#. A button that takes a user to YouTube in order to watch a video.
 msgid "Watch on YouTube"
 msgstr "Gwelout dre You Tube"
 
@@ -6056,7 +6544,6 @@ msgctxt "SERP footer content"
 msgid "We Protect Your Privacy"
 msgstr ""
 
-#. Explains how location service is used to show users search results near their current location.
 msgctxt "precise_user_location"
 msgid "We can use your anonymous%s location%s to show you nearby results."
 msgstr ""
@@ -6069,7 +6556,8 @@ msgctxt "SERP footer content"
 msgid "We don't save your search history or follow you around the web."
 msgstr ""
 
-#. Text explaining how the cloud save feature works.
+#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
+#. Then in the cloud save box - http://i.imgur.com/pZ0pyIJ.png
 msgctxt "cloudsave"
 msgid "We don't store usernames or any personally identifiable information."
 msgstr ""
@@ -6095,14 +6583,12 @@ msgctxt "SERP footer content"
 msgid "We don't track you, but others do."
 msgstr ""
 
-#. Message prompting users to fill out a feedback form.
 msgctxt "new user poll"
 msgid ""
 "We don't track you, so we could use your help telling us what brought you "
 "back today:"
 msgstr ""
 
-#. Message prompting users to fill out a feedback form.
 msgctxt "new user poll"
 msgid ""
 "We don't track you, so we could use your help telling us what convinced you "
@@ -6135,7 +6621,10 @@ msgctxt "SERP footer content"
 msgid "We get a ton of searches, and all of them are anonymous."
 msgstr ""
 
-#. Message describing how DuckDuckGo users location access anonymously to provide better search results.
+msgctxt "homepage ATB modal"
+msgid "We keep your search history private"
+msgstr ""
+
 msgctxt "precise_user_location"
 msgid ""
 "We only use your anonymous location to deliver better results, closer to "
@@ -6146,7 +6635,6 @@ msgctxt "homepage ATB modal"
 msgid "We stop anyone from getting your search history, including us."
 msgstr ""
 
-#. Message that appears after submitting a feedback form.
 msgctxt "feedback form"
 msgid "We use feedback like this to improve DuckDuckGo."
 msgstr ""
@@ -6163,12 +6651,14 @@ msgctxt "homepage ATB modal"
 msgid "We'll block trackers trying to collect your data as you browse."
 msgstr ""
 
-#. Header for a feedback form for new users.
 msgctxt "new user poll"
 msgid "We're honored to have you on the Duck Side"
 msgstr ""
 
-#. Category a user can select on a feedback form.
+#. Instant Answer Tab Name
+msgid "Weather"
+msgstr "Amzer"
+
 msgctxt "feedback form"
 msgid "Web Links"
 msgstr ""
@@ -6177,12 +6667,10 @@ msgctxt "maps_places"
 msgid "Website"
 msgstr ""
 
-#. Category of feedback a user can select on a feedback form.
 msgctxt "feedback form"
 msgid "Website is incorrect"
 msgstr ""
 
-#. Category of feedback a user can select on a feedback form.
 msgctxt "feedback form"
 msgid "Website is missing"
 msgstr ""
@@ -6202,7 +6690,10 @@ msgctxt "Sports module"
 msgid "Week"
 msgstr ""
 
-#. Welcome message for new DuckDuckGo users.
+msgctxt "settings"
+msgid "Welcome Message"
+msgstr ""
+
 msgctxt "homepage onboarding"
 msgid "Welcome to the Duck Side!"
 msgstr ""
@@ -6226,81 +6717,89 @@ msgctxt "Sports module"
 msgid "Western Conference"
 msgstr ""
 
-#. Question in a feedback form.
 msgctxt "new user poll"
 msgid "What brought you back today?"
 msgstr ""
 
-#. Question on a feedback form.
 msgctxt "feedback form"
 msgid "What could be better?"
 msgstr ""
 
-#. Question on a feedback form.
 msgctxt "feedback form"
 msgid "What did you like?"
 msgstr ""
 
-#. Question on a feedback form.
 msgctxt "feedback form"
 msgid "What do you think of the information shown?"
 msgstr ""
 
-#. Header above a list of types of information that gets saved by the cloud save feature.
+#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
+#. Then in the cloud save box - http://i.imgur.com/ta4V0Xy.png
 msgctxt "cloudsave"
 msgid "What information gets saved?"
 msgstr "Peseurt stlennoù a vez enrollet ?"
 
-#. Text explaining how the cloud save feature works.
+#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
+#. Then in the cloud save box - http://i.imgur.com/YrfhzTL.png
 msgctxt "cloudsave"
 msgid ""
 "What is the Cloud Save bookmarklet and how does it differ from the URL "
 "parameter bookmarklet?"
 msgstr ""
 
-#. Link to a page with additional information.
+#. http://i.imgur.com/fDEZ8XN.png
 msgid "What is this?"
 msgstr "Petra eo an dra-se ?"
 
-#. Question in a feedback form for new users.
 msgctxt "new user poll"
 msgid "What led you to DuckDuckGo?"
 msgstr ""
 
-#. Label that appears next to quotes from user reviews of businesses.
 msgctxt "maps_places"
 msgid "What people say"
 msgstr ""
 
-#. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
+msgctxt "maps_places"
+msgid "What people say:"
+msgstr ""
+
 msgid "Where it says Homepage click %sSet to Current Page%s."
 msgstr ""
 "War al lec'h ma vez lâret Pennbajenn, klikit war %sArventennañ gant ar "
 "bajenn vremanel%s."
 
-#. Filters the color of images in search results.
+#. https://duckduckgo.com/params under "Color Settings" under "Header: " and under "Background: "
+msgid "White"
+msgstr "Gwenn"
+
 msgctxt "color"
 msgid "White"
 msgstr ""
 
-#. Link to an about us page.
 msgid "Who We Are"
 msgstr ""
 
-#. Header above a collection of privacy-related links.
 msgid "Why Privacy"
 msgstr ""
 
-#. Filters the shape of images in search results.
 msgctxt "image-layout"
 msgid "Wide"
 msgstr ""
 
+#. http://i.imgur.com/twR2utt.png
 msgctxt "settingsvalue"
 msgid "Wide"
 msgstr "Ledan"
 
-#. Category a user can select on a feedback form.
+#. http://i.imgur.com/SOkVdkM.png
+msgctxt "width"
+msgid "Wide"
+msgstr "Ledan"
+
+#. https://duckduckgo.com/params under "Look & Feel Settings"
+msgid "Width:"
+msgstr "Led :"
+
 msgctxt "feedback form"
 msgid "Wikipedia info"
 msgstr ""
@@ -6320,7 +6819,6 @@ msgctxt "Sports module"
 msgid "Win/Loss Record"
 msgstr ""
 
-#. Indicates that there's wind in the weather forecast.
 msgctxt "forecast"
 msgid "Wind"
 msgstr ""
@@ -6350,12 +6848,15 @@ msgctxt "Weather IA"
 msgid "Wintry Mix"
 msgstr ""
 
-#. Label for the global number of confirmed Covid 19 cases
+#. Description of the daily/hourly weather condition, as returned from the (WeatherKit) API
+msgctxt "Weather IA"
+msgid "Wintry mix"
+msgstr ""
+
 msgctxt "Covid 19 module"
 msgid "World"
 msgstr ""
 
-#. Link to map
 msgctxt "Covid 19 module"
 msgid "Worldwide Coverage Map"
 msgstr ""
@@ -6365,7 +6866,6 @@ msgctxt "lyrics_module"
 msgid "Written by"
 msgstr ""
 
-#. Category of feedback a user can select on a feedback form.
 msgctxt "feedback form"
 msgid "Wrong place is shown"
 msgstr ""
@@ -6375,29 +6875,34 @@ msgctxt "Stocks module"
 msgid "YTD"
 msgstr ""
 
-#. Filters the color of images in search results.
+#. https://duckduckgo.com/params under "Color Settings" under "Highlight: "
+msgid "Yellow"
+msgstr "Melen"
+
 msgctxt "color"
 msgid "Yellow"
 msgstr ""
 
+#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
+#. Then at the bottom of the cloud save box - http://i.imgur.com/U73iTqu.png
 msgid "Yes"
 msgstr "Ya"
 
-#. Response a user can select in a feedback form, indicating that they're new to DuckDuckGo.
 msgctxt "new user poll"
 msgid "Yes, new user!"
 msgstr ""
 
-#. Text explaining that deleted data is deleted permanently and cannot be recovered.
 msgctxt "cloudsave"
 msgid ""
 "Yes, we throw away data when you’re done with it, and it cannot be recovered."
 msgstr ""
 
+#. Option for the filter-by-date search.
 msgid "Yesterday"
 msgstr "Dec'h"
 
-#. Text explaning how to change a passphrase.
+#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
+#. In the cloud save box - http://i.imgur.com/bGPC1Pf.png
 msgctxt "cloudsave"
 msgid ""
 "You can do this by saving your settings under a different passphrase, "
@@ -6406,17 +6911,20 @@ msgstr ""
 "Graet e vez an dra-mañ en ur enrollañ hoc'h arventennoù dre ur frazenn "
 "dremen disheñvel, mar fell deoc'h e vo dilamet an hini gent bet arventennet.."
 
-#. Text explaining the benefits of the cloud save feature.
+#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
+#. In the cloud save box - http://i.imgur.com/pVjCXmw.png
 msgctxt "cloudsave"
 msgid "You can restore your settings after deleting cookies."
 msgstr ""
 
-#. Text explaining the benefits of the cloud save feature.
+#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
+#. In the cloud save box -http://i.imgur.com/tABFqCY.png
 msgctxt "cloudsave"
 msgid "You can share your settings among computers and browsers."
 msgstr "Rannet e vez hoc'h arventennoù e-touez urzhiataerioù ha merdeerioù."
 
-#. Text explaining the benefits of the cloud save feature.
+#. Click "What is this?" - http://i.imgur.com/KhmRHth.png
+#. In the cloud save box - http://i.imgur.com/u2XeiaU.png
 msgctxt "cloudsave"
 msgid "You can store several sets of settings for different purposes."
 msgstr "Kadavet e vez meur a spletad arventennoù evit palioù disheñvel."
@@ -6431,12 +6939,10 @@ msgctxt "Anomaly modal"
 msgid "You have 1 attempt left."
 msgstr ""
 
-#. Welcome message that appears after the DuckDuckGo extension is installed.
 msgctxt "welcome message"
 msgid "You now have the DuckDuckGo extension!"
 msgstr ""
 
-#. Link to a page where users can select the color scheme and other settings of their search engine.
 msgctxt "SERP footer content"
 msgid "You're in control. Customize the look-and-feel of DuckDuckGo."
 msgstr ""
@@ -6448,17 +6954,14 @@ msgid ""
 "browse privately too. It’s already installed and can:"
 msgstr ""
 
-#. Confirmation message that appears after the DuckDuckGo browser extension is installed.
 msgid "You're now searching with privacy!"
 msgstr ""
 
-#. Confirmation message that appears after the DuckDuckGo browser extension is installed.
 msgid ""
 "You're now searching with privacy. %sGet tips to reduce your footprint even "
 "more."
 msgstr ""
 
-#. A privacy disclaimer that appears above YouTube videos.
 msgid ""
 "YouTube (owned by Google) does not let you watch videos anonymously. As "
 "such, watching YouTube videos here will be tracked by YouTube/Google."
@@ -6466,11 +6969,9 @@ msgstr ""
 " YouTube (perc'hentiezh eus Google) ne aotre ket sellout videos disanv. Setu "
 "en ur sellout ur video YouTube vefet euliet gantYouTube/Google."
 
-#. Label for a privacy disclaimer related to YouTube videos
 msgid "YouTube Privacy Warning"
 msgstr "Evezhiadennoù a-fet buhez prevez gant YouTube"
 
-#. Label below a video that's available under the YouTube license.
 msgctxt "video-license"
 msgid "YouTube Standard"
 msgstr ""
@@ -6479,9 +6980,13 @@ msgctxt "homepage ATB modal"
 msgid "Your DuckDuckGo search history is private"
 msgstr ""
 
-#. Label on a map indicating the user's current location.
 msgctxt "directions"
 msgid "Your Location"
+msgstr ""
+
+#. Disclaimer telling users their location remains private.
+msgctxt "local_query_rewrite_experiment"
+msgid "Your actual location remains"
 msgstr ""
 
 #. Disclaimer telling users their precise geolocation remains private. More at https://help.duckduckgo.com/duckduckgo-help-pages/privacy/anonymous-localized-results/
@@ -6489,6 +6994,7 @@ msgctxt "maps_places"
 msgid "Your actual location remains private"
 msgstr ""
 
+#. Floating text over a tick next to search results which indicates if a link has been visited.
 msgid "Your browser indicates if you've visited this link"
 msgstr "Menegiñ a ra ho merdeer hag-eñ eo bet gweladennet an ere"
 
@@ -6502,14 +7008,12 @@ msgctxt "homepage ATB modal"
 msgid "Your data shouldn’t be for sale."
 msgstr ""
 
-#. Disclaimer below an email address field explaining that the user's email address will only be used for their newsletter subscription.
 msgctxt "newsletter email collection"
 msgid ""
 "Your email address will not be shared, %sor associated with anonymous "
 "searches. [%sExample message%s]"
 msgstr ""
 
-#. Text explaining how the cloud save feature works.
 msgctxt "cloudsave"
 msgid ""
 "Your passphrase generates a 512-bit key by using the Secure Hash Algorithm "
@@ -6518,9 +7022,12 @@ msgid ""
 "never knows your passphrase."
 msgstr ""
 
-#. Message on a feedback form.
 msgctxt "new user poll"
 msgid "Your response is 100% anonymous."
+msgstr ""
+
+msgctxt "homepage ATB modal"
+msgid "You’re Searching Privately with DuckDuckGo."
 msgstr ""
 
 #. The name of the Yucatec Maya language
@@ -6528,7 +7035,14 @@ msgctxt "language_name"
 msgid "Yucatec Maya"
 msgstr ""
 
-#. Label indicating something is made by a specific brand. The placeholder value is a brand name. For example 'by Microsoft'
+#. From the guide in the Feedback page.
+msgid "advertising"
+msgstr "bruderezh"
+
+#. Used in 0-click box for product results, e.g. <a href="https://duckduckgo.com/?q=9780061353246">https://duckduckgo.com/?q=9780061353246</a>
+msgid "by %s"
+msgstr "gant %s"
+
 msgctxt "made_by"
 msgid "by %s"
 msgstr "gant %s"
@@ -6538,6 +7052,16 @@ msgctxt "published date for videos"
 msgid "d"
 msgstr ""
 
+#. https://duckduckgo.com/params under "Color Settings" under all
+#. under "Look & Feel Settings"  under "Size:" and "Text link: "
+msgctxt "setting"
+msgid "default"
+msgstr "dre ziouer"
+
+msgid "email"
+msgstr "postel"
+
+#. Can somebody provide the context?
 msgid "for"
 msgstr "evit"
 
@@ -6545,6 +7069,10 @@ msgstr "evit"
 msgctxt "published date for videos"
 msgid "h"
 msgstr ""
+
+msgctxt "nonjsversion"
+msgid "here"
+msgstr "amañ"
 
 #. Appearing next to SPORTS_STATUS_GAME_WITHIN_SERIES, indicates that an upcoming game of a series only be played if necessary E.g. Game 6 (if necessary)
 msgctxt "Sports module"
@@ -6571,22 +7099,73 @@ msgctxt "published date for videos"
 msgid "mo"
 msgstr ""
 
+#. https://duckduckgo.com/50x.html?e=2
+#. p.s.(tsester): i found it out by searching "  "
+msgid "no search"
+msgstr "klask ebet"
+
+msgid "not %s encoding"
+msgstr "%s n'eo ket bet erineget"
+
+#. Used for the <em>color settings</em> into the <a href="https://duckduckgo.com/params.html">URL params page</a> as the last available value for the color parameter.
+#. <em>%s</em> is for a hexadecimal color code as <em>#395323</em>, but it has to be safe encoded, and as <em>#</em> seems not safe, <em>%23</em> must be used in place of the sharp symbol, but they are the same for your browser.
+msgid ""
+"or write out the color code you want, e.g. %s (%s is an encoded %s char)."
+msgstr ""
+"pe viziatait boneg al liv a fell deoc'h, d.l.e. %s (%s a dalv d'un arouezenn "
+"%s envoneget)."
+
+#. in https://duckduckgo.com/params under "Look & Feel Settings" under both "Link font: " and "Link font: "
+msgid "or write out the font you want"
+msgstr "pe skrivit an nodrezh a fell deoc'h"
+
+#. Message displayed sometimes at top of results -- in the context of safe search.
 msgid "permanently"
 msgstr "ent drebadek"
+
+#. End of message telling users their precise geolocation remains private. Links to https://help.duckduckgo.com/duckduckgo-help-pages/privacy/anonymous-localized-results/
+msgctxt "local_query_rewrite_experiment"
+msgid "private"
+msgstr ""
 
 msgid "private search"
 msgstr ""
 
+#. The English version is not capitalized...
+msgid "search too long"
+msgstr "re hir eo ar c'hlask"
+
 msgid "site encryption"
 msgstr ""
 
+#. Message displayed sometimes at top of results -- in the context of safe search.
 msgid "temporarily"
 msgstr "ent padennek"
+
+msgid "there was an error."
+msgstr "ur fazi a oa."
+
+msgctxt "moreinfo"
+msgid "this help page"
+msgstr "pajennad ar skoazell-mañ"
 
 #. A place open/closed till [HOUR], for example: 'Open till 7 PM'
 msgctxt "maps_places"
 msgid "till %s"
 msgstr ""
+
+msgid "too many search terms"
+msgstr ""
+
+#. Link on the homepage in the context of the No Tracking and donttrack.us
+msgctxt "donttrackus"
+msgid "track"
+msgstr "heuliañ"
+
+#. Used in 0-click box for product results, e.g. <a href="https://duckduckgo.com/?q=superbad+dvd">https://duckduckgo.com/?q=superbad+dvd</a>
+msgctxt "zci-product"
+msgid "track"
+msgstr "loabr"
 
 msgid "tracker blocking"
 msgstr ""
@@ -6600,564 +7179,3 @@ msgstr ""
 msgctxt "published date for videos"
 msgid "yr"
 msgstr ""
-
-#~ msgid "%s for %s"
-#~ msgstr "%s evit %s"
-
-#~ msgid "A string to identify the source."
-#~ msgstr "Un hedad da lakaat un anv war an tarzh."
-
-#~ msgid "About"
-#~ msgstr "A-zivout"
-
-#~ msgid "About DuckDuckGo"
-#~ msgstr "Diwar-benn DuckDuckGo"
-
-#~ msgid "Add a %s search box to your site!"
-#~ msgstr "Ouzhpennit ur voestad da glask mod %s d'ho load !"
-
-#~ msgid "Add-ons"
-#~ msgstr "Askouezhioù"
-
-#~ msgid "Address bar:"
-#~ msgstr "Barrennad chomlec'h :"
-
-#~ msgid "Advertisements:"
-#~ msgstr "Bruderezhioù :"
-
-#~ msgid "Alternatives"
-#~ msgstr "Dazeiladoù"
-
-#~ msgid "Answer"
-#~ msgstr "Respont"
-
-#~ msgid "Apps"
-#~ msgstr "Arloadoù"
-
-#~ msgid "Audio"
-#~ msgstr "Aodio"
-
-#~ msgctxt "settings"
-#~ msgid "Auto-Suggest"
-#~ msgstr "Aliañ emgefreek"
-
-#~ msgid "Background:"
-#~ msgstr "Drekleur :"
-
-#~ msgid "Bangs"
-#~ msgstr "Bangoù"
-
-#~ msgid "Barcode"
-#~ msgstr "Rineg dre varrennoù"
-
-#~ msgctxt "settings"
-#~ msgid "Basic"
-#~ msgstr "Diazez"
-
-#~ msgid "Black"
-#~ msgstr "Du"
-
-#~ msgid "Blue"
-#~ msgstr "Glas"
-
-#~ msgid "Calendar"
-#~ msgstr "Deziataer"
-
-#~ msgid "Cancel"
-#~ msgstr "Dilezel"
-
-#~ msgid "Category"
-#~ msgstr "Rummad"
-
-#~ msgctxt "settings"
-#~ msgid "Changes the background color when hovering over a result"
-#~ msgstr "Kemmañ a ra liv an drekleur pa dremener dreist un disoc'h"
-
-#~ msgid "Chat"
-#~ msgstr "Flapañ"
-
-#~ msgid "Classic"
-#~ msgstr "Klasel"
-
-#~ msgctxt "cloudsave"
-#~ msgid "Cloud Save"
-#~ msgstr "Enrollañ er C'houmoul"
-
-#~ msgid "Color"
-#~ msgstr "Liv"
-
-#~ msgid "Color Settings"
-#~ msgstr "Arventennoù al livioù"
-
-#~ msgid "Colors"
-#~ msgstr "Livioù"
-
-#~ msgid "Comics"
-#~ msgstr "Bandennoù treset"
-
-#~ msgid "Comments"
-#~ msgstr "Askelennoù"
-
-#~ msgid "Concerts"
-#~ msgstr "Sonadegoù"
-
-#~ msgid "Conversion"
-#~ msgstr "Eiltaladur"
-
-#~ msgid "Coupons"
-#~ msgstr "Troc'hennoù"
-
-#~ msgid "Currency"
-#~ msgstr "Moneiz"
-
-#~ msgctxt "settings"
-#~ msgid "Custom"
-#~ msgstr "Personelaet"
-
-#~ msgid "Dark"
-#~ msgstr "Teñval"
-
-#~ msgid "Default"
-#~ msgstr "Dre ziouer"
-
-#~ msgid "Definition"
-#~ msgstr "Despizadur"
-
-#~ msgid "Dictionary"
-#~ msgstr "Geriadur"
-
-#~ msgid "Drinks"
-#~ msgstr "evajoù"
-
-#~ msgid "DuckDuckGo Instant Answer API"
-#~ msgstr "API Respont Diadaol DuckDuckGo"
-
-#~ msgid "DuckDuckGo New !Bang"
-#~ msgstr "!Bang nevez DuckDuckGo"
-
-#~ msgid "DuckDuckGo Privacy"
-#~ msgstr "Buhez prevez DuckDuckGo"
-
-#~ msgid "DuckDuckGo Search Box"
-#~ msgstr "Boestad klask DuckDuckGo"
-
-#~ msgid "DuckDuckGo Settings"
-#~ msgstr "Arventennoù DuckDuckGo"
-
-#~ msgid "DuckDuckGo URL Parameters"
-#~ msgstr "Arventennoù URL DuckDuckGo"
-
-#~ msgid "DuckDuckGo settings"
-#~ msgstr "Arventennoù DuckDuckGo"
-
-#~ msgid "Email"
-#~ msgstr "Postel"
-
-#~ msgid "Favicons:"
-#~ msgstr "Arlunioù gwellañ deuet :"
-
-#~ msgid ""
-#~ "Feel free to adjust the settings below. Then, just copy and paste the "
-#~ "code into your website."
-#~ msgstr ""
-#~ "Kempennit an arventennoù evel ma plij deoc'h. Neuze, pegit hag eilit ar "
-#~ "voneg e-barzh ho load internet."
-
-#~ msgid "Flights"
-#~ msgstr "nijadenn"
-
-#~ msgid "Get the non-JS version %s"
-#~ msgstr "Kaout an handelv %s hep JS"
-
-#~ msgctxt "shortbelieve"
-#~ msgid "Goodies"
-#~ msgstr "Bitrakoù mat"
-
-#~ msgid "Green"
-#~ msgstr "Gwer"
-
-#~ msgid "Grey"
-#~ msgstr "Loued"
-
-#~ msgid "HTTPS:"
-#~ msgstr "HTTPS :"
-
-#~ msgctxt "settings"
-#~ msgid "Header Appearance"
-#~ msgstr "Neuz an Talbenn"
-
-#~ msgid "Header:"
-#~ msgstr "Talbenn :"
-
-#~ msgid ""
-#~ "If you want to use DuckDuckGo without JavaScript, please use our %s or %s "
-#~ "versions."
-#~ msgstr ""
-#~ "Mar fell deoc'h ober gant DuckDuckGo hep JavaScript, grit gant hor "
-#~ "handelvoù %s pe %s."
-
-#~ msgid "Instant Answer API"
-#~ msgstr "API ar Respont Diadaol"
-
-#~ msgid "Intense green"
-#~ msgstr "Gwer splann"
-
-#~ msgid "Intense red"
-#~ msgstr "Ruz splann"
-
-#~ msgid "Interface Settings"
-#~ msgstr "Arventennoù ar c'hetal"
-
-#~ msgid "Jobs"
-#~ msgstr "Labourioù"
-
-#~ msgctxt "size"
-#~ msgid "Larger"
-#~ msgstr "Brasoc'h"
-
-#~ msgctxt "size"
-#~ msgid "Largest"
-#~ msgstr "Brasañ"
-
-#~ msgctxt "frontpage"
-#~ msgid "Learn %sMore%s"
-#~ msgstr "Deskiñ %sTraoù all%s"
-
-#~ msgctxt "placement"
-#~ msgid "Left"
-#~ msgstr "A-gleiz"
-
-#~ msgid "Light blue"
-#~ msgstr "Glas sklaer"
-
-#~ msgid "Light green"
-#~ msgstr "Gwer sklaer"
-
-#~ msgid "Link font:"
-#~ msgstr "Nodrezh an ere :"
-
-#~ msgid "Links:"
-#~ msgstr "Ereoù :"
-
-#~ msgid "Listen"
-#~ msgstr "Selaou"
-
-#~ msgid "Load Cloud Settings"
-#~ msgstr "Kargañ arventennoù ar C'houmoul"
-
-#~ msgid "Look & Feel Settings"
-#~ msgstr "Arventennoù an neuz & ar santad"
-
-#~ msgid "Meanings"
-#~ msgstr "Talvoudegezhioù"
-
-#~ msgid "Menu"
-#~ msgstr "Lañser"
-
-#~ msgctxt "settingsvalue"
-#~ msgid "Metric (Kilograms, Meters, Celsius)"
-#~ msgstr "Metrek (kilogrammoù, metroù, Celsius)"
-
-#~ msgctxt "placement"
-#~ msgid "Middle"
-#~ msgstr "Kreiz"
-
-#~ msgid "More"
-#~ msgstr "Muioc'h"
-
-#~ msgctxt "frontpage"
-#~ msgid "More"
-#~ msgstr "Muioc'h a draoù"
-
-#~ msgid "More at %s"
-#~ msgstr "Titouroù all e %s"
-
-#~ msgid "More from"
-#~ msgstr "Muioc'h a draoù a-berzh"
-
-#~ msgid "More results"
-#~ msgstr "Muioc'h a zisoc'hoù"
-
-#~ msgctxt "frontpage"
-#~ msgid "More ways to add DuckDuckGo to %s"
-#~ msgstr "Doareoù all da ouzhpennañ DuckDuckGo e %s"
-
-#~ msgid "Movies"
-#~ msgstr "filmoù"
-
-#~ msgid "Music"
-#~ msgstr "Sonerezh"
-
-#~ msgid "Muted red"
-#~ msgstr "Ruz kemmesk"
-
-#~ msgid "Nearby"
-#~ msgstr "E-kichen"
-
-#~ msgctxt "width"
-#~ msgid "Normal"
-#~ msgstr "Reizh"
-
-#~ msgid "Nutrition"
-#~ msgstr "Mezhuroniezh"
-
-#~ msgid "Off"
-#~ msgstr "Diweredekaet"
-
-#~ msgid "Offers"
-#~ msgstr "Kinnigoù"
-
-#~ msgid "On"
-#~ msgstr "Gweredekaet"
-
-#~ msgctxt "setting"
-#~ msgid "On & floating"
-#~ msgstr "Gweredekaat & hezilec'h"
-
-#~ msgctxt "setting"
-#~ msgid "On & scrolling"
-#~ msgstr "Gweredekaet & dibunadur"
-
-#~ msgctxt "setting"
-#~ msgid "On but no numbers"
-#~ msgstr "Gweredekaet, niverenn ebet, 'vat"
-
-#~ msgid "Orange"
-#~ msgstr "Liv orañjez"
-
-#~ msgid "Packages"
-#~ msgstr "Pakadoù"
-
-#~ msgid "Page #s:"
-#~ msgstr "Pajennad #s :"
-
-#~ msgid "Pink"
-#~ msgstr "Roz"
-
-#~ msgid "Placement:"
-#~ msgstr "Lec'hiadur :"
-
-#~ msgid "Places"
-#~ msgstr "Lec'hioù"
-
-#~ msgid "Please try again"
-#~ msgstr "Klaskit en-dro, mar plij"
-
-#~ msgid "Policy"
-#~ msgstr "Buhez prevez"
-
-#~ msgid "Press"
-#~ msgstr "Gwask"
-
-#~ msgid "Preview"
-#~ msgstr "Alberz"
-
-#~ msgid "Privacy Settings"
-#~ msgstr "Arventennoù a-fet buhez prevez"
-
-#~ msgid "Purple"
-#~ msgstr "Limestra"
-
-#~ msgid "Quotations"
-#~ msgstr "arroudenn"
-
-#~ msgid "Quotes"
-#~ msgstr "Menegoù"
-
-#~ msgid "Red"
-#~ msgstr "Ruz"
-
-#~ msgid "Redirect:"
-#~ msgstr "Adhenchañ :"
-
-#~ msgid "Region:"
-#~ msgstr "Rannvro :"
-
-#~ msgctxt "settings"
-#~ msgid "Reset All Settings"
-#~ msgstr "Adderaouekaat an holl arventennoù"
-
-#~ msgctxt "settings"
-#~ msgid "Result Highlight Color"
-#~ msgstr "Liv usskediñ an disoc'hoù"
-
-#~ msgid "Result Settings"
-#~ msgstr "Arventennoù an disoc'hoù"
-
-#~ msgctxt "theme"
-#~ msgid "Retro"
-#~ msgstr "Mod kozh"
-
-#~ msgid "Reviews"
-#~ msgstr "Priziadurioù"
-
-#~ msgid "Safe Search:"
-#~ msgstr "Klask diarvar :"
-
-#~ msgctxt "settings"
-#~ msgid "Save"
-#~ msgstr "Enrollañ"
-
-#~ msgid "Search Box"
-#~ msgstr "Boestad klask"
-
-#~ msgid "Search DuckDuckGo"
-#~ msgstr "Klask dre DuckDuckGo"
-
-#~ msgid "Searches %s using our %s"
-#~ msgstr "Klask a ra %s en ur ober gant %s"
-
-#~ msgid "Send"
-#~ msgstr "Kas"
-
-#~ msgid "Settings"
-#~ msgstr "Arventennoù"
-
-#~ msgctxt "load_more"
-#~ msgid "Show More"
-#~ msgstr "diskouez muioc'h"
-
-#~ msgid "Shows"
-#~ msgstr "diskouez"
-
-#~ msgid "Similar"
-#~ msgstr "Heñvel"
-
-#~ msgid "Social"
-#~ msgstr "Kevredadel"
-
-#~ msgid "Software"
-#~ msgstr "Meziant"
-
-#~ msgid "Source:"
-#~ msgstr "Tarzh :"
-
-#~ msgid "Stock"
-#~ msgstr "Kadavad"
-
-#~ msgctxt "width"
-#~ msgid "Super wide"
-#~ msgstr "Ledan ledan"
-
-#~ msgid "Support"
-#~ msgstr "Skor"
-
-#~ msgid "TV"
-#~ msgstr "Skinwel"
-
-#~ msgid "Tan"
-#~ msgstr "Liv douar Sienna"
-
-#~ msgid "Text font:"
-#~ msgstr "Nodrezh an destenn :"
-
-#~ msgid "Text:"
-#~ msgstr "Testenn :"
-
-#~ msgid "Theme"
-#~ msgstr "Neuz"
-
-#~ msgid "Thesaurus"
-#~ msgstr "Geriadur an heñvelsterioù"
-
-#~ msgid "This page requires Javascript to function."
-#~ msgstr "Javascript zo azgoulennet gant ar bajennad-mañ da vont en-dro."
-
-#~ msgid "Top"
-#~ msgstr "Pep gwellañ"
-
-#~ msgctxt "frontpage"
-#~ msgid "Tour"
-#~ msgstr "Troiad"
-
-#~ msgctxt "translateus"
-#~ msgid "Translate"
-#~ msgstr "Treiñ "
-
-#~ msgid "Try a search!"
-#~ msgstr "kas ur c'hlask"
-
-#~ msgid "Try: %s"
-#~ msgstr "Klask : %s"
-
-#~ msgid "URL Parameters"
-#~ msgstr "Arventennoù an URL"
-
-#~ msgid "URLs:"
-#~ msgstr "URLioù :"
-
-#~ msgctxt "settingsvalue"
-#~ msgid "US based (Pounds, Feet, Fahrenheit)"
-#~ msgstr "diazezet war ar Stadoù Unanet (Levrioù, Treid, Fahrenheit)"
-
-#~ msgid "Underline:"
-#~ msgstr "Islinennañ :"
-
-#~ msgid "Visited links:"
-#~ msgstr "Ereoù gweladennet :"
-
-#~ msgid "Weather"
-#~ msgstr "Amzer"
-
-#~ msgid "White"
-#~ msgstr "Gwenn"
-
-#~ msgctxt "width"
-#~ msgid "Wide"
-#~ msgstr "Ledan"
-
-#~ msgid "Width:"
-#~ msgstr "Led :"
-
-#~ msgid "Yellow"
-#~ msgstr "Melen"
-
-#~ msgid "advertising"
-#~ msgstr "bruderezh"
-
-#~ msgid "by %s"
-#~ msgstr "gant %s"
-
-#~ msgctxt "setting"
-#~ msgid "default"
-#~ msgstr "dre ziouer"
-
-#~ msgid "email"
-#~ msgstr "postel"
-
-#~ msgctxt "nonjsversion"
-#~ msgid "here"
-#~ msgstr "amañ"
-
-#~ msgid "no search"
-#~ msgstr "klask ebet"
-
-#~ msgid "not %s encoding"
-#~ msgstr "%s n'eo ket bet erineget"
-
-#~ msgid ""
-#~ "or write out the color code you want, e.g. %s (%s is an encoded %s char)."
-#~ msgstr ""
-#~ "pe viziatait boneg al liv a fell deoc'h, d.l.e. %s (%s a dalv d'un "
-#~ "arouezenn %s envoneget)."
-
-#~ msgid "or write out the font you want"
-#~ msgstr "pe skrivit an nodrezh a fell deoc'h"
-
-#~ msgid "search too long"
-#~ msgstr "re hir eo ar c'hlask"
-
-#~ msgid "there was an error."
-#~ msgstr "ur fazi a oa."
-
-#~ msgctxt "moreinfo"
-#~ msgid "this help page"
-#~ msgstr "pajennad ar skoazell-mañ"
-
-#~ msgctxt "donttrackus"
-#~ msgid "track"
-#~ msgstr "heuliañ"
-
-#~ msgctxt "zci-product"
-#~ msgid "track"
-#~ msgstr "loabr"
