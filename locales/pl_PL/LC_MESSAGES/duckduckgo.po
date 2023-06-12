@@ -2,17 +2,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DuckDuckGo-1.0\n"
-"POT-Creation-Date: 2019-01-16 23:42-0500\n"
-"PO-Revision-Date: 2019-01-16 23:42-0500\n"
 "Last-Translator: Community\n"
 "Language-Team: DuckDuckGo Community <community@duckduckgo.com>\n"
+"POT-Creation-Date: 2019-01-16 23:42-0500\n"
+"PO-Revision-Date: 2019-01-16 23:42-0500\n"
 "Language: pl_PL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
+# smartling.gettext_line_width = normalized : 79
 # smartling.placeholder_format=C
 msgid "!Bang Search Shortcuts"
 msgstr "Poznaj !Bangs"
@@ -36,10 +36,16 @@ msgid "%s Billion Searches"
 msgstr "%1$s miliardów zapytań"
 
 # smartling.placeholder_format=C
+#. In the context of an NHL (hockey) game, indicates in which intermission (break between game periods) an in-progress game is currently in. The number is in ordinal form (e.g. 1st), localized separately. The combination results in e.g. 1st Intermission, 4th Intermission
+msgctxt "Sports module"
+msgid "%s Intermission"
+msgstr "Przerwa: %1$s"
+
+# smartling.placeholder_format=C
 #. Indicates the number of players who are out in Baseball, e.g. '3 Out'
 msgctxt "Sports module"
 msgid "%s Out"
-msgstr "%1$s out"
+msgstr "Auty: %1$s"
 
 # smartling.placeholder_format=C
 #. Used to indicate the season year, e.g. '2020 Season'
@@ -51,7 +57,7 @@ msgstr "Sezon %1$s"
 #. Message that appears above the search results encouraging them to filter results by domain. The placeholder string would include a the name of a website. E.g. 'Reddit appears in some of the top results for this search.'
 msgctxt "Site filter message"
 msgid "%s appears in some of the top results for this search."
-msgstr "%1$s pojawia się u góry wyników tego wyszukiwania."
+msgstr "%1$s pojawia się w niektórych z najlepszych wyników tego wyszukiwania."
 
 # smartling.placeholder_format=C
 #. Number of tracking attempts blocked, when there is more than 1. Eg: '2 attempts' or '302 attempts'
@@ -118,18 +124,14 @@ msgstr "%1$s – tyle prób śledzenia zablokowano"
 #. Instructions on which buttons and options the user has to click in order to add the DuckDuckGo extension to their browser.
 msgctxt "install-duckduckgo"
 msgid "%sClick %sAdd%sCheck %sAllow%s, then click %sOkay%s"
-msgstr ""
-"%1$sKliknij %2$sDodaj%3$sZaznacz %4$sZezwól%5$s, a następnie kliknij %6$sOK"
-"%7$s"
+msgstr "%1$sKliknij %2$sDodaj%3$sZaznacz %4$sZezwól%5$s, a następnie kliknij %6$sOK%7$s"
 
 # Firefox, obsolete
 # smartling.placeholder_format=C
 #. Instructions on what buttons the user has to click in order to add the DuckDuckGo extension to their browser.
 msgctxt "install-duckduckgo"
 msgid "%sClick %sAllow%sClick %sAdd%sCheck %sAllow%s, then click %sOkay%s"
-msgstr ""
-"%1$sKliknij %2$sZezwól%3$sKliknij %4$sDodaj%5$sZaznacz %6$sZezwól%7$s, a "
-"następnie kliknij %8$sOK%9$s"
+msgstr "%1$sKliknij %2$sZezwól%3$sKliknij %4$sDodaj%5$sZaznacz %6$sZezwól%7$s, a następnie kliknij %8$sOK%9$s"
 
 # Firefox
 # smartling.placeholder_format=C
@@ -138,9 +140,7 @@ msgctxt "install-duckduckgo"
 msgid ""
 "%sClick %sContinue To Installation%sClick %sAdd%sCheck %sAllow%s, then click "
 "%sOkay%s"
-msgstr ""
-"%1$sKliknij %2$sKontynuuj instalację%3$sKliknij %4$sDodaj%5$sZaznacz "
-"%6$sZezwól%7$s, a następnie kliknij %8$sOK%9$s"
+msgstr "%1$sKliknij %2$sKontynuuj instalację%3$sKliknij %4$sDodaj%5$sZaznacz %6$sZezwól%7$s, a następnie kliknij %8$sOK%9$s"
 
 # smartling.placeholder_format=C
 #. A button that reloads search results when an error occurs.
@@ -148,9 +148,7 @@ msgctxt "noresults"
 msgid ""
 "%sClick here%s to try again, if you think there should be results for this "
 "search."
-msgstr ""
-"%1$sKliknij tutaj%2$s, by spróbować ponownie, jeżeli uważasz, że powinny "
-"istnieć wyniki dla tego zapytania."
+msgstr "%1$sKliknij tutaj%2$s, by spróbować ponownie, jeżeli uważasz, że powinny istnieć wyniki dla tego zapytania."
 
 # smartling.placeholder_format=C
 #. Header for a page with information about sharing DuckDuckGo.
@@ -385,6 +383,24 @@ msgid "A string to identify the source."
 msgstr "Ciąg znaków do identyfikacji źródła."
 
 # smartling.placeholder_format=C
+#. Abbreviation for 'American League Championship Series', the title of the divisional championship series for the American League division of Major League Baseball
+msgctxt "Sports module"
+msgid "ALCS"
+msgstr "ALCS"
+
+# smartling.placeholder_format=C
+#. Abbreviation for 'American League Division Series', the title of the divisional semi-final series for the American League division of Major League Baseball
+msgctxt "Sports module"
+msgid "ALDS"
+msgstr "ALDS"
+
+# smartling.placeholder_format=C
+#. Abbreviation for 'American League Wild Card Series', the title of the divisional runner-up series for the American League Division in Major League Baseball.
+msgctxt "Sports module"
+msgid "ALWC"
+msgstr "ALWC"
+
+# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "ATB Dismiss"
 msgstr "Odrzucenie ATB"
@@ -471,9 +487,7 @@ msgstr "Dodaj rozszerzenie DuckDuckGo"
 # smartling.placeholder_format=C
 msgid ""
 "Add DuckDuckGo Privacy Essentials to your browser for free with one download:"
-msgstr ""
-"Bezpłatnie dodaj DuckDuckGo Privacy Essentials do przeglądarki za jednym "
-"pobraniem:"
+msgstr "Bezpłatnie dodaj DuckDuckGo Privacy Essentials do przeglądarki za jednym pobraniem:"
 
 #  IE default search engine instruction
 # smartling.placeholder_format=C
@@ -544,7 +558,7 @@ msgstr "Reklamy"
 # smartling.placeholder_format=C
 #. Link to a page with resources for advertisers who want to place ads on the search results page.
 msgid "Advertise on Search"
-msgstr ""
+msgstr "Reklamuj się w wyszukiwarce"
 
 # smartling.placeholder_format=C
 msgctxt "feedback form"
@@ -577,8 +591,7 @@ msgstr "Po pobraniu i otwarciu, kliknij %1$sInstaluj%2$s"
 #. Instructions on how to install the DuckDuckGo browser extension after it downloads.
 msgid ""
 "After it downloads, locate the extension file and double-click it to install"
-msgstr ""
-"Po ukończeniu pobierania odszukaj plik i kliknij dwukrotnie, aby zainstalować"
+msgstr "Po ukończeniu pobierania odszukaj plik i kliknij dwukrotnie, aby zainstalować"
 
 # smartling.placeholder_format=C
 #. The name of the Albanian language
@@ -686,9 +699,7 @@ msgctxt "settings"
 msgid ""
 "Allows Cloud Save key to be stored locally on device (required to use Cloud "
 "Save)"
-msgstr ""
-"Umożliwia przechowywanie klucza Cloud Save lokalnie na urządzeniu (wymagane "
-"do korzystania z Cloud Save)"
+msgstr "Umożliwia przechowywanie klucza Cloud Save lokalnie na urządzeniu (wymagane do korzystania z Cloud Save)"
 
 # smartling.placeholder_format=C
 #. A title on a page that let's users know they're almost done with the process of installing DuckDuckGo in their browser
@@ -705,9 +716,7 @@ msgstr "Jesteś już fanem?"
 #. Explains that DuckDuckGo is available for multiple devices.
 msgctxt "mobile promotion on desktop"
 msgid "Also search privately on your iPad, iPhone, or Android!"
-msgstr ""
-"Możesz też wyszukiwać bez śledzenia na swoim iPadzie, iPhonie oraz "
-"Androidzie!"
+msgstr "Możesz też wyszukiwać bez śledzenia na swoim iPadzie, iPhonie oraz Androidzie!"
 
 # smartling.placeholder_format=C
 #. Instant Answer Tab Name
@@ -719,6 +728,24 @@ msgstr "Alternatywy"
 msgctxt "settingsvalue"
 msgid "Always play on DuckDuckGo"
 msgstr "Zawsze odtwarzaj w DuckDuckGo"
+
+# smartling.placeholder_format=C
+#. Title of the divisional championship series for the American League division of Major League Baseball
+msgctxt "Sports module"
+msgid "American League Championship Series"
+msgstr "American League Championship Series"
+
+# smartling.placeholder_format=C
+#. Title of the divisional semi-final series for the American League division of Major League Baseball
+msgctxt "Sports module"
+msgid "American League Division Series"
+msgstr "American League Division Series"
+
+# smartling.placeholder_format=C
+#. Title of the divisional runner-up series for the American League Division in Major League Baseball.
+msgctxt "Sports module"
+msgid "American League Wild Card Series"
+msgstr "American League Wild Card Series"
 
 # smartling.placeholder_format=C
 #. The name of the Amharic language
@@ -849,10 +876,7 @@ msgstr "Stan na"
 msgid ""
 "As per our privacy policy, we do not collect or share any personal "
 "information ourselves. All of this privacy protection happens on your device."
-msgstr ""
-"Zgodnie z naszą polityką prywatności, nie zbieramy ani nie udostępniamy "
-"prywatnych informacji. Cała ochrona prywatności wchodzi w życie na Twoim "
-"urządzeniu."
+msgstr "Zgodnie z naszą polityką prywatności, nie zbieramy ani nie udostępniamy prywatnych informacji. Cała ochrona prywatności wchodzi w życie na Twoim urządzeniu."
 
 # smartling.placeholder_format=C
 #. The name of the Assamese language
@@ -864,6 +888,12 @@ msgstr "Asamski"
 msgctxt "homepage ATB modal"
 msgid "At DuckDuckGo, we agree."
 msgstr "W DuckDuckGo w pełni się z tym zgadzamy."
+
+# smartling.placeholder_format=C
+#. In the context of the National Hockey League (NHL), label for teams belonging to the Atlantic division
+msgctxt "Sports module"
+msgid "Atlantic"
+msgstr "Atlantycka"
 
 # smartling.placeholder_format=C
 msgid "Audio"
@@ -886,7 +916,7 @@ msgstr "Automatyczna sugestia"
 # smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Auto-answer"
-msgstr ""
+msgstr "Automatyczna odpowiedź"
 
 # smartling.placeholder_format=C
 msgctxt "settings"
@@ -905,7 +935,8 @@ msgid ""
 "Automatically shows DuckAssist for relevant searches. DuckAssist can "
 "anonymously look up and summarize information in response to some searches. "
 "For now, DuckAssist is only available in English regions."
-msgstr ""
+msgstr "Automatycznie wyświetla DuckAssist w przypadku odpowiednich wyszukiwanych fraz. DuckAssist może anonimowo wyszukiwać i systematyzować informacje w odpowiedzi"
+" na niektóre wyszukiwane frazy. Obecnie DuckAssist jest dostępny tylko w regionach anglojęzycznych."
 
 # smartling.placeholder_format=C
 #. Used to show the numerical rating, when the user hovers over a visual star-rating. Sorry, this is hard to translate.
@@ -1060,8 +1091,7 @@ msgstr "Blokowanie większości skryptów śledzących podczas przeglądania."
 # smartling.placeholder_format=C
 msgctxt "homepage ATB modal"
 msgid "Block trackers and take control of your personal data"
-msgstr ""
-"Zablokuj skrypty śledzące i przejmij kontrolę nad swoimi danymi osobowymi"
+msgstr "Zablokuj skrypty śledzące i przejmij kontrolę nad swoimi danymi osobowymi"
 
 # smartling.placeholder_format=C
 msgctxt "homepage ATB modal"
@@ -1073,6 +1103,18 @@ msgstr "Blokowanie skryptów śledzących podczas przeglądania."
 msgctxt "welcome message eu search preference android"
 msgid "Block unsafe trackers"
 msgstr "Blokować niebezpieczne skrypty śledzące"
+
+# smartling.placeholder_format=C
+#. Header above a list of trackers (or tracking companies) that have been blocked in the past 24 hours.
+msgctxt "tracker_stats"
+msgid "Blocked by DuckDuckGo in the last 24 hours"
+msgstr "Zablokowane przez DuckDuckGo w ciągu ostatnich 24 godzin"
+
+# smartling.placeholder_format=C
+#. Header above a list of trackers (or tracking companies) that have been blocked in the past hour.
+msgctxt "tracker_stats"
+msgid "Blocked by DuckDuckGo in the last hour"
+msgstr "Zablokowane przez DuckDuckGo w ciągu ostatniej godziny"
 
 # smartling.placeholder_format=C
 #. Given as an option to select when providing feedback
@@ -1170,30 +1212,23 @@ msgstr "Brązowy"
 msgid ""
 "Browse as usual while we add privacy protection. We bundled our search "
 "engine, tracker blocker, and encryption enforcer into one %s%s Extension%s."
-msgstr ""
-"Przeglądaj tak, jak zawsze, a my dodamy ochronę prywatności. Połączyliśmy "
-"naszą wyszukiwarkę, blokadę skryptów śledzących i wtyczkę wymuszającą "
-"szyfrowanie w jedno rozszerzenie %1$s%2$s .%3$s"
+msgstr "Przeglądaj tak, jak zawsze, a my dodamy ochronę prywatności. Połączyliśmy naszą wyszukiwarkę, blokadę skryptów śledzących i wtyczkę wymuszającą szyfrowanie"
+" w jedno rozszerzenie %1$s%2$s .%3$s"
 
 # smartling.placeholder_format=C
 msgid ""
 "Browse as usual, and we'll take care of the rest. We bundled our search "
 "engine, tracker blocker, and encryption enforcer into one %s%s Extension%s."
-msgstr ""
-"Przeglądaj tak, jak zawsze, a my zajmiemy się resztą. Połączyliśmy naszą "
-"wyszukiwarkę, blokadę skryptów śledzących i wtyczkę wymuszającą szyfrowanie "
-"w jedno %1$srozszerzenie %2$s%3$s."
+msgstr "Przeglądaj tak, jak zawsze, a my zajmiemy się resztą. Połączyliśmy naszą wyszukiwarkę, blokadę skryptów śledzących i wtyczkę wymuszającą szyfrowanie w"
+" jedno %1$srozszerzenie %2$s%3$s."
 
 # smartling.placeholder_format=C
 msgid ""
 "Browse as usual, and we’ll take care of the rest. Get bundled private "
 "search, tracker blocking, and site encryption, all in one download, for "
 "%smajor browsers%s."
-msgstr ""
-"Przeglądaj tak, jak zawsze, a my zajmiemy się resztą. Otrzymaj w pakiecie "
-"funkcję prywatnego wyszukiwania, blokowania skryptów śledzących i "
-"szyfrowania witryn — w jednym pliku do pobrania dla %1$sgłównych przeglądarek"
-"%2$s."
+msgstr "Przeglądaj tak, jak zawsze, a my zajmiemy się resztą. Otrzymaj w pakiecie funkcję prywatnego wyszukiwania, blokowania skryptów śledzących i szyfrowania"
+" witryn — w jednym pliku do pobrania dla %1$sgłównych przeglądarek%2$s."
 
 # smartling.placeholder_format=C
 #. Message indicating that the user's current location isn't available.
@@ -1206,6 +1241,11 @@ msgstr "Lokalizacja przeglądarki jest niedostępna"
 msgctxt "settingsvalue"
 msgid "Browser Preferred Language"
 msgstr "Zgodny z ustawieniami przeglądarki"
+
+# smartling.placeholder_format=C
+msgctxt "settings"
+msgid "Browser Promo Dismissed"
+msgstr "Odrzucona promocja przeglądarki"
 
 # smartling.placeholder_format=C
 #. Label for a menu that lets users select the language for their browser.
@@ -1234,12 +1274,9 @@ msgid ""
 "permanent way (on a remote server in the cloud). No personally identifiable "
 "information will be stored in the cloud, and your passphrase will never "
 "leave your browser."
-msgstr ""
-"Domyślnie ustawienia są przechowywane w nieprywatnych plikach cookie "
-"przeglądarki (w Twojej przeglądarce). Możesz również skorzystać z "
-"anonimowego magazynu w chmurze, by trwale przechowywać te dane (na zdalnym "
-"serwerze w chmurze). Żadne dane osobowe nie będą przechowywane w chmurze, a "
-"Twoje hasło nigdy nie wyjdzie poza ramy Twojej przeglądarki."
+msgstr "Domyślnie ustawienia są przechowywane w nieprywatnych plikach cookie przeglądarki (w Twojej przeglądarce). Możesz również skorzystać z anonimowego magazynu"
+" w chmurze, by trwale przechowywać te dane (na zdalnym serwerze w chmurze). Żadne dane osobowe nie będą przechowywane w chmurze, a Twoje hasło nigdy nie"
+" wyjdzie poza ramy Twojej przeglądarki."
 
 # smartling.placeholder_format=C
 #. Instant Answer tab name
@@ -1323,6 +1360,12 @@ msgid "Center Alignment"
 msgstr "Wyrównaj do środka"
 
 # smartling.placeholder_format=C
+#. In the context of the National Hockey League (NHL), label for teams belonging to the Central division
+msgctxt "Sports module"
+msgid "Central"
+msgstr "Centralna"
+
+# smartling.placeholder_format=C
 #. This is the description of a user setting -- Example image: https://i.imgur.com/yihFekW.png
 msgctxt "settings"
 msgid "Changes how result URLs are displayed"
@@ -1332,8 +1375,7 @@ msgstr "Zmienia sposób wyświetlania adresów URL wyników"
 #. This is the description of a user setting
 msgctxt "settings"
 msgid "Changes how the header is displayed and its behavior as you scroll"
-msgstr ""
-"Zmienia sposób wyświetlania nagłówka i jego zachowanie podczas przewijania"
+msgstr "Zmienia sposób wyświetlania nagłówka i jego zachowanie podczas przewijania"
 
 # smartling.placeholder_format=C
 #. http://i.imgur.com/mcZdcaF.png
@@ -1352,8 +1394,7 @@ msgstr "Zmienia kolor tła w całej witrynie"
 msgctxt "settings"
 msgid ""
 "Changes the background color of results on hover, modules, and dropdown menus"
-msgstr ""
-"Zmienia kolor tła wyników po najechaniu kursorem, modułów i rozwijanych menu"
+msgstr "Zmienia kolor tła wyników po najechaniu kursorem, modułów i rozwijanych menu"
 
 # smartling.placeholder_format=C
 #. http://i.imgur.com/NdpkbY0.png
@@ -1489,7 +1530,7 @@ msgstr "Wybierz opcję %1$szachowaj%2$s, aby nadal chronić swoją prywatność.
 # smartling.placeholder_format=C
 #. A headline letting the user choose between two video player options
 msgid "Choose How You Watch"
-msgstr ""
+msgstr "Zdecyduj, jak chcesz oglądać"
 
 # smartling.placeholder_format=C
 #. Label for the field where a user sets their passphrase.
@@ -1609,9 +1650,7 @@ msgstr "Kliknij %1$szmień opcje wyszukiwania%2$s w rozwijanym menu"
 msgid ""
 "Click %sEdit > Preferences%s (on Windows) %sSeaMonkey > Preferences%s (on "
 "Mac)"
-msgstr ""
-"Kliknij %1$sEdytuj > Preferencje%2$s (Windows) %3$sSeaMonkey > Preferecje "
-"%4$s (MacOS)"
+msgstr "Kliknij %1$sEdytuj > Preferencje%2$s (Windows) %3$sSeaMonkey > Preferecje %4$s (MacOS)"
 
 #  Chrome 36 on macOS, 27 on Windows
 # smartling.placeholder_format=C
@@ -1627,9 +1666,7 @@ msgstr "Kluknij %1$stutaj%2$s, by pobrać rozszerzenie DuckDuckGo"
 # smartling.placeholder_format=C
 #. Link to download the DuckDuckGo browser extension.
 msgid "Click %sOpen%s to download and open the DuckDuckGo Safari extension"
-msgstr ""
-"Kliknij %1$sOtwórz%2$s, aby pobrać i zainstalować rozszerzenie DuckDuckGo "
-"dla przeglądarki Safari"
+msgstr "Kliknij %1$sOtwórz%2$s, aby pobrać i zainstalować rozszerzenie DuckDuckGo dla przeglądarki Safari"
 
 #  Edge default search engine instruction
 # smartling.placeholder_format=C
@@ -1643,9 +1680,7 @@ msgstr "Kliknij %1$sPrywatność i usługi%2$s na lewym pasku bocznym."
 msgid ""
 "Click %sSafari%s in the top menu (On Windows, click the %sgears icon%s in "
 "the top right)"
-msgstr ""
-"Kliknij %1$sSafari%2$s w górnym menu (w Windowsie kliknij %3$sikonę koła "
-"zębatego%4$s w prawym górnym rogu)"
+msgstr "Kliknij %1$sSafari%2$s w górnym menu (w Windowsie kliknij %3$sikonę koła zębatego%4$s w prawym górnym rogu)"
 
 # smartling.placeholder_format=C
 #. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
@@ -1662,8 +1697,7 @@ msgstr "Kliknij %1$sUstawienia%2$s w rozwijanym menu."
 # smartling.placeholder_format=C
 #. Tells the user how to make DuckDuckGo their home page.
 msgid "Click %sUse current pages%s then %sClick OK%s."
-msgstr ""
-"Kliknij na %1$sUżywaj obecnych stron%2$s, a następnie %3$sKliknij OK%4$s."
+msgstr "Kliknij na %1$sUżywaj obecnych stron%2$s, a następnie %3$sKliknij OK%4$s."
 
 #  Firefox 33 / SeaMonkey homepage instruction
 # smartling.placeholder_format=C
@@ -1675,9 +1709,7 @@ msgstr "Kliknij %1$sTak%2$s"
 # smartling.placeholder_format=C
 #. Tells the user where to click to open their browser's settings menu.
 msgid "Click %ssettings/hamburger icon %s on the Chrome toolbar (top right)."
-msgstr ""
-"Kliknij %1$sikonę ustawień %2$s na pasku narzędziowym Chrome'a (prawy górny "
-"róg)."
+msgstr "Kliknij %1$sikonę ustawień %2$s na pasku narzędziowym Chrome'a (prawy górny róg)."
 
 #  Maxthon default search engine instruction
 # smartling.placeholder_format=C
@@ -1740,10 +1772,8 @@ msgctxt "cloudsave"
 msgid ""
 "Click or tap %sDelete My Data%s. This removes the data from the cloud, but "
 "it remains in your browser until you click/tap %sReset All Settings%s."
-msgstr ""
-"Kliknij lub naciśnij pozycję %1$sUsuń moje dane%2$s. Spowoduje to usunięcie "
-"wszystkich danych z chmury, ale pozostaną one w przeglądarce do czasu "
-"kliknięcia/naciśnięcia pozycji %3$sResetuj wszystkie ustawienia%4$s."
+msgstr "Kliknij lub naciśnij pozycję %1$sUsuń moje dane%2$s. Spowoduje to usunięcie wszystkich danych z chmury, ale pozostaną one w przeglądarce do czasu kliknięcia/naciśnięcia"
+" pozycji %3$sResetuj wszystkie ustawienia%4$s."
 
 #  Chrome 36 on macOS, 27 on Windows
 # smartling.placeholder_format=C
@@ -1777,9 +1807,7 @@ msgstr "Kliknij %1$sikonę kłódki%2$s na pasku adresu."
 # smartling.placeholder_format=C
 #. Tells users where to click in their browser to search using DuckDuckGo.
 msgid "Click the Duck icon at the top of your browser to search!"
-msgstr ""
-"Kliknij w ikonę Kaczki na górze Twojej przeglądarki, aby rozpocząć "
-"wyszukiwanie!"
+msgstr "Kliknij w ikonę Kaczki na górze Twojej przeglądarki, aby rozpocząć wyszukiwanie!"
 
 #  UC Browser on Android
 # smartling.placeholder_format=C
@@ -1807,9 +1835,7 @@ msgstr "Kliknij w rozwijane menu w polu wyszukiwania"
 msgid ""
 "Click the dropdown menu beside %sSearch engine used in the address bar%s and "
 "select %sDuckDuckGo%s."
-msgstr ""
-"Kliknij menu rozwijane obok %1$sużywanej wyszukiwarki na pasku adresu%2$s i "
-"wybierz %3$sDuckDuckGo%4$s."
+msgstr "Kliknij menu rozwijane obok %1$sużywanej wyszukiwarki na pasku adresu%2$s i wybierz %3$sDuckDuckGo%4$s."
 
 #  Safari default search engine instruction
 # smartling.placeholder_format=C
@@ -1941,10 +1967,7 @@ msgctxt "cloudsave"
 msgid ""
 "Cloud Save lets you save your settings more permanently by entering a "
 "passphrase. It is entirely optional."
-msgstr ""
-"Zapis w chmurze pozwala na trwałe zapamiętanie Twoich ustawień. Będziesz "
-"mieć do nich dostęp po podaniu hasła. Opcja zapisu w chmurze nie jest "
-"obowiązkowa."
+msgstr "Zapis w chmurze pozwala na trwałe zapamiętanie Twoich ustawień. Będziesz mieć do nich dostęp po podaniu hasła. Opcja zapisu w chmurze nie jest obowiązkowa."
 
 # smartling.placeholder_format=C
 #. Description of the daily/hourly weather condition, as returned from the (WeatherKit) API
@@ -2481,12 +2504,12 @@ msgstr "Szukaj"
 # smartling.placeholder_format=C
 msgctxt "settings"
 msgid "DuckAssist"
-msgstr ""
+msgstr "DuckAssist"
 
 # smartling.placeholder_format=C
 msgctxt "settings"
 msgid "DuckAssist <sup>BETA</sup>"
-msgstr ""
+msgstr "DuckAssist <sup>BETA</sup>"
 
 # smartling.placeholder_format=C
 #. this is either the title that gets created by opening https://duckduckgo.com/duckduckbot or the top header in https://duckduckgo.com/duckduckbot
@@ -2536,10 +2559,8 @@ msgid ""
 "DuckDuckGo blocks trackers on websites you visit, including trackers from "
 "companies like Google and Facebook, who often try to track you on other "
 "websites."
-msgstr ""
-"DuckDuckGo blokuje trackery na stronach internetowych, które odwiedzasz, w "
-"tym trackery firm takich jak Google i Facebook, które często próbują śledzić "
-"Cię na innych stronach."
+msgstr "DuckDuckGo blokuje trackery na stronach internetowych, które odwiedzasz, w tym trackery firm takich jak Google i Facebook, które często próbują śledzić"
+" Cię na innych stronach."
 
 # smartling.placeholder_format=C
 #. Description of how DuckDuckGo keeps a user's location anonymous while the user searches on a map of their area.
@@ -2550,24 +2571,17 @@ msgid ""
 "use it to improve results for that search, and then we promptly throw it "
 "away, such that you remain anonymous. %sLearn more about how we designed "
 "this technology to protect your privacy%s."
-msgstr ""
-"Wyszukiwarka DuckDuckGo została zaprojektowana z myślą o prywatności. Po "
-"włączeniu lokalizacji jest ona przechowywana tylko na Twoim urządzeniu "
-"lokalnym. Kiedy przeprowadzasz wyszukiwanie, Twoje urządzenie wysyła "
-"informacje do nas, my wykorzystujemy je do ulepszania wyników tego "
-"wyszukiwania, a następnie niezwłocznie je kasujemy, zachowując anonimowość "
-"użytkownika. %1$sDowiedz się więcej, jak zaprojektowaliśmy technologię "
-"chroniącą prywatność użytkowników%2$s."
+msgstr "Wyszukiwarka DuckDuckGo została zaprojektowana z myślą o prywatności. Po włączeniu lokalizacji jest ona przechowywana tylko na Twoim urządzeniu lokalnym."
+" Kiedy przeprowadzasz wyszukiwanie, Twoje urządzenie wysyła informacje do nas, my wykorzystujemy je do ulepszania wyników tego wyszukiwania, a następnie"
+" niezwłocznie je kasujemy, zachowując anonimowość użytkownika. %1$sDowiedz się więcej, jak zaprojektowaliśmy technologię chroniącą prywatność użytkowników%2$s."
 
 # smartling.placeholder_format=C
 msgctxt "settings"
 msgid ""
 "DuckDuckGo only uses your approximate location. That's all we need to "
 "deliver better results, closer to you. %sLearn more%s."
-msgstr ""
-"DuckDuckGo używa tylko Twojej przybliżonej lokalizacji. To wszystko, czego "
-"potrzebujemy, aby zapewnić lepsze wyniki bliżej użytkownika. %1$sDowiedz się "
-"więcej%2$s."
+msgstr "DuckDuckGo używa tylko Twojej przybliżonej lokalizacji. To wszystko, czego potrzebujemy, aby zapewnić lepsze wyniki bliżej użytkownika. %1$sDowiedz się"
+" więcej%2$s."
 
 # smartling.placeholder_format=C
 msgid "DuckDuckGo search"
@@ -2611,10 +2625,8 @@ msgid ""
 "random words from the DuckDuckGo servers. In the browser, we then select 4-5 "
 "random words from that list, ensuring that the passphrase is at least 18-20 "
 "characters long."
-msgstr ""
-"Za każdym razem, gdy żądasz wygenerowania hasła, losujemy z serwerów "
-"DuckDuckGo obszerną listę słów. Następnie, już na poziomie przeglądarki, "
-"losujemy z tej listy 4–5 słów o długości co najmniej 18–20 znaków."
+msgstr "Za każdym razem, gdy żądasz wygenerowania hasła, losujemy z serwerów DuckDuckGo obszerną listę słów. Następnie, już na poziomie przeglądarki, losujemy"
+" z tej listy 4–5 słów o długości co najmniej 18–20 znaków."
 
 # smartling.placeholder_format=C
 msgctxt "Sports module"
@@ -2665,30 +2677,26 @@ msgstr "Włącz lokalizację"
 #. Setting that shows a user's most visited sites when they open a new browser tab.
 msgctxt "new tab page"
 msgid "Enable Most Visited Sites"
-msgstr ""
+msgstr "Włącz opcję Najczęściej odwiedzane witryny"
 
 # smartling.placeholder_format=C
 #. Setting that shows a user's most visited sites when they open a new browser tab.
 msgctxt "new tab page"
 msgid "Enable Most-Visited Sites"
-msgstr ""
+msgstr "Włącz opcję Najczęściej odwiedzane witryny"
 
 # smartling.placeholder_format=C
 #. Tells users how to enable location service on their device.
 msgid ""
 "Enable anonymous location for more accurate results. You can always change "
 "your mind later."
-msgstr ""
-"Włącz anonimową lokalizację, aby uzyskać dokładniejsze wyniki. Zawsze możesz "
-"później zmienić zdanie."
+msgstr "Włącz anonimową lokalizację, aby uzyskać dokładniejsze wyniki. Zawsze możesz później zmienić zdanie."
 
 # smartling.placeholder_format=C
 #. Prompt to enable location service so that search results can be displayed near the user's current location.
 msgctxt "precise_user_location"
 msgid "Enable location settings on your device to use anonymous location"
-msgstr ""
-"Włącz ustawienia lokalizacji na swoim urządzeniu, aby korzystać z anonimowej "
-"lokalizacji"
+msgstr "Włącz ustawienia lokalizacji na swoim urządzeniu, aby korzystać z anonimowej lokalizacji"
 
 # smartling.placeholder_format=C
 #. Prompts users to turn on the location service on their phone.
@@ -2712,6 +2720,12 @@ msgid "Encrypts connections when possible"
 msgstr "Szyfruje połączenia, jeśli to możliwe"
 
 # smartling.placeholder_format=C
+#. In the context of the clock of a sports game, indicates that a game period is over and we are on a break. E.g. 'End of 1st', 'End of OT' where 1st would be 1st period, and OT would be an overtime period
+msgctxt "Sports module"
+msgid "End of %s"
+msgstr "Koniec: %1$s"
+
+# smartling.placeholder_format=C
 msgid "England"
 msgstr "Anglia"
 
@@ -2725,9 +2739,7 @@ msgstr "Angielski"
 #. Tells users where to find location settings within the settings menu. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Ensure %s'Allow'%s is selected for the 'Location' setting."
-msgstr ""
-"Upewnij się, że w ustawieniu „Lokalizacja” jest wybrana opcja "
-"%1$s„Zezwalaj”%2$s."
+msgstr "Upewnij się, że w ustawieniu „Lokalizacja” jest wybrana opcja %1$s„Zezwalaj”%2$s."
 
 # smartling.placeholder_format=C
 #. Tells users to make sure location services are enabled on their device. Part of a list of instructions on how to enable location service.
@@ -2739,8 +2751,7 @@ msgstr "Upewnij się, że „Usługi lokalizacyjne” są %1$swłączone%2$s."
 #. Tells users how to enable location service.
 msgctxt "precise_user_location"
 msgid "Ensure 'Location' is set to %sallow%s."
-msgstr ""
-"Upewnij się, że opcja „Lokalizacja” jest ustawiona na %1$szezwalaj%2$s."
+msgstr "Upewnij się, że opcja „Lokalizacja” jest ustawiona na %1$szezwalaj%2$s."
 
 # smartling.placeholder_format=C
 #. Tells users to make sure location services are enabled on their device. Part of a list of instructions on how to enable location service.
@@ -2752,9 +2763,7 @@ msgstr "Upewnij się, że dostęp do lokalizacji jest %1$sdozwolony%2$s."
 #. Tells users how to enable location service.
 msgctxt "precise_user_location"
 msgid "Ensure your browser is allowed %slocation access%s."
-msgstr ""
-"Upewnij się, że Twoja przeglądarka ma zezwolenie na %1$sdostęp do lokalizacji"
-"%2$s."
+msgstr "Upewnij się, że Twoja przeglądarka ma zezwolenie na %1$sdostęp do lokalizacji%2$s."
 
 # smartling.placeholder_format=C
 #. Tells how to enable location service.
@@ -2774,9 +2783,7 @@ msgctxt "cloudsave"
 msgid ""
 "Enter a new passphrase and click/tap %sSave Settings%s. This will save your "
 "data under your new passphrase."
-msgstr ""
-"Wprowadź nowe hasło i kliknij/naciśnij pozycję %1$sZapisz ustawienia%2$s. "
-"Spowoduje to zapisanie danych pod nowym hasłem."
+msgstr "Wprowadź nowe hasło i kliknij/naciśnij pozycję %1$sZapisz ustawienia%2$s. Spowoduje to zapisanie danych pod nowym hasłem."
 
 # smartling.placeholder_format=C
 #. Label for the field where a user enters their passphrase.
@@ -2801,9 +2808,7 @@ msgstr "Wprowadź tekst"
 #. Instructions for how to change the default search engine.
 msgid ""
 "Enter the following details: %sName%s: DuckDuckGo%s URL%s: %s Alias%s: d%s"
-msgstr ""
-"Wprowadź następujące dane: %1$sNazwa%2$s: DuckDuckGo%3$s URL%4$s: %5$s Alias"
-"%6$s:%7$s"
+msgstr "Wprowadź następujące dane: %1$sNazwa%2$s: DuckDuckGo%3$s URL%4$s: %5$s Alias%6$s:%7$s"
 
 # smartling.placeholder_format=C
 #. Prompt to enter a destination for driving directions.
@@ -2811,6 +2816,7 @@ msgctxt "maps_directions"
 msgid "Enter your destination"
 msgstr "Wpisz miejsce docelowe"
 
+# smartling.placeholder_format=C
 #. Label for an email address field.
 msgctxt "email newsletter"
 msgid "Enter your email address."
@@ -2912,9 +2918,7 @@ msgstr "Opinia wysłana pomyślnie"
 msgid ""
 "Feel free to adjust the settings below. Then, just copy and paste the code "
 "into your website."
-msgstr ""
-"Dostosuj poniższe parametry do swoich potrzeb. Następnie skopiuj i wklej kod "
-"do swojej strony."
+msgstr "Dostosuj poniższe parametry do swoich potrzeb. Następnie skopiuj i wklej kod do swojej strony."
 
 # smartling.placeholder_format=C
 #. The name of the Fijian language
@@ -2987,9 +2991,7 @@ msgstr "Znajdź %1$sDuckDuckGo%2$s i kliknij %3$sUstaw jako domyślną%4$s"
 # smartling.placeholder_format=C
 #. Tells users how to change their default search engine to DuckDuckGo.
 msgid "Find DuckDuckGo in the displayed list and click %sMake Default%s"
-msgstr ""
-"Znajdź DuckDuckGo na wyświetlonej liście i zatwierdź wybór klikając "
-"%1$sUstaw jako domyślną%2$s"
+msgstr "Znajdź DuckDuckGo na wyświetlonej liście i zatwierdź wybór klikając %1$sUstaw jako domyślną%2$s"
 
 # smartling.placeholder_format=C
 #. Button that searches for results closer to the user's current location.
@@ -3179,6 +3181,12 @@ msgid "GF"
 msgstr "GZ"
 
 # smartling.placeholder_format=C
+#. In the context of a standings table for NHL (hockey), column title that abbreviates 'Games Played' (the number of games lost during overtime of this team)
+msgctxt "Sports module"
+msgid "GP"
+msgstr "Rozegrane mecze"
+
+# smartling.placeholder_format=C
 #. Text indicating the game number
 msgctxt "Sports module"
 msgid "Game %s"
@@ -3205,6 +3213,12 @@ msgstr "Mecze"
 msgctxt "Sports module"
 msgid "Games Behind"
 msgstr "Przewaga (games behind)"
+
+# smartling.placeholder_format=C
+#. In the context of a standings table for NHL (hockey), indicates the total number of games a team has played in total
+msgctxt "Sports module"
+msgid "Games Played"
+msgstr "Rozegrane mecze"
 
 # smartling.placeholder_format=C
 #. Header above a list of search settings.
@@ -3285,9 +3299,7 @@ msgstr "Zdobądź ten utwór na:"
 # smartling.placeholder_format=C
 msgctxt "SERP footer content"
 msgid "Get to DuckDuckGo faster. Share duck.com with your friends."
-msgstr ""
-"Skorzystaj z szybkiej wyszukiwarki DuckDuckGo. Udostępnij witrynę duck.com "
-"znajomym."
+msgstr "Skorzystaj z szybkiej wyszukiwarki DuckDuckGo. Udostępnij witrynę duck.com znajomym."
 
 # smartling.placeholder_format=C
 msgctxt "spread_badge"
@@ -3506,7 +3518,7 @@ msgstr "Pomoc"
 # smartling.placeholder_format=C
 #. The main heading in the feedback form modal. Shown when a user has requested to share feedback with us. The placeholder is a line break. Please use good judgement to break the string appropriately.
 msgid "Help DuckDuckGo%s Improve This Page"
-msgstr "Pomóż DuckDuckGo%1$s ulepszyć tę stronę"
+msgstr "Pomóż DuckDuckGo %1$s ulepszyć tę stronę"
 
 # smartling.placeholder_format=C
 #. Link to a feedback form.
@@ -3545,8 +3557,7 @@ msgstr "Pomóż nam podnieść poziom zaufania w internecie."
 #. A subtitle of a page that encourages users to share DuckDuckGo with their friends.
 msgctxt "showcase_spread"
 msgid "Help your friends and family join the Duck Side!"
-msgstr ""
-"Pomóż swoim przyjaciołom oraz rodzinie dołączyć do Społeczności DuckDuckGo!"
+msgstr "Pomóż swoim przyjaciołom oraz rodzinie dołączyć do Społeczności DuckDuckGo!"
 
 # smartling.placeholder_format=C
 #. Text description for the Spread card in the SERP footer
@@ -3619,9 +3630,7 @@ msgstr "Ceny historyczne niedostępne"
 msgid ""
 "Hit %sReturn%s on your keyboard to %ssave DuckDuckGo to the list. %sThen "
 "click %sMake Default%s"
-msgstr ""
-"Wciśnij %1$sEnter%2$s na Twojej klawiaturze, aby %3$sdodać DuckDuckGo do "
-"listy. %4$sNastępnie wciśnij %5$sUstaw jako domyślną%6$s"
+msgstr "Wciśnij %1$sEnter%2$s na Twojej klawiaturze, aby %3$sdodać DuckDuckGo do listy. %4$sNastępnie wciśnij %5$sUstaw jako domyślną%6$s"
 
 # smartling.placeholder_format=C
 #. The name of the Hmong Daw language
@@ -3634,9 +3643,7 @@ msgstr "Hmong Daw"
 msgid ""
 "Hold on! Changing it back will disable the DuckDuckGo extension and you'll "
 "lose our privacy protection."
-msgstr ""
-"Czekaj! Zmiana spowoduje wyłączenie rozszerzenia przeglądarki DuckDuckGo i "
-"utratę naszej ochrony prywatności."
+msgstr "Czekaj! Zmiana spowoduje wyłączenie rozszerzenia przeglądarki DuckDuckGo i utratę naszej ochrony prywatności."
 
 # smartling.placeholder_format=C
 #. Indicates the Win-Loss record of a team when playing home
@@ -3759,7 +3766,7 @@ msgstr "Nie chcę widzieć żadnych informacji z DuckDuckGo na tej stronie"
 # smartling.placeholder_format=C
 #. Given as an option to select when providing feedback
 msgid "I don’t want to see my most-visited sites"
-msgstr "Nie chcę widzieć moich najczęściej odwiedzanych stron"
+msgstr "Nie chcę widzieć moich najczęściej odwiedzanych witryn"
 
 # smartling.placeholder_format=C
 #. Category of feedback a user can select on a feedback form.
@@ -3785,9 +3792,7 @@ msgctxt "precise_user_location"
 msgid ""
 "If the browser location remains unavailable, then go to %sSettings > General "
 "> Reset > 'Reset Location & Privacy'%s."
-msgstr ""
-"Jeśli lokalizacja przeglądarki pozostaje niedostępna, przejdź do opcji "
-"%1$sUstawienia > Ogólne > Resetuj > „Resetuj lokalizację i prywatność”%2$s."
+msgstr "Jeśli lokalizacja przeglądarki pozostaje niedostępna, przejdź do opcji %1$sUstawienia > Ogólne > Resetuj > „Resetuj lokalizację i prywatność”%2$s."
 
 # smartling.placeholder_format=C
 #. Tells users where to find the location settings within the settings menu. Part of a list of instructions on how to enable location service.
@@ -3796,10 +3801,8 @@ msgid ""
 "If the browser location remains unavailable, then in your browser go to %s⋮ "
 "> Menu > Settings > Site settings > Location%s, and ensure DuckDuckGo is "
 "allowed location access."
-msgstr ""
-"Jeśli lokalizacja przeglądarki pozostaje niedostępna, w przeglądarce przejdź "
-"do %1$s⋮ > Menu > Ustawienia > Ustawienia witryny > Lokalizacja%2$s i "
-"upewnij się, że DuckDuckGo ma dostęp do lokalizacji."
+msgstr "Jeśli lokalizacja przeglądarki pozostaje niedostępna, w przeglądarce przejdź do %1$s⋮ > Menu > Ustawienia > Ustawienia witryny > Lokalizacja%2$s i upewnij"
+" się, że DuckDuckGo ma dostęp do lokalizacji."
 
 #  Chrome default search engine instruction
 # smartling.placeholder_format=C
@@ -3807,9 +3810,7 @@ msgstr ""
 msgid ""
 "If you don't see %sDuckDuckGo,%s you will need to add it to the list of "
 "%sOther Search Engines%s"
-msgstr ""
-"Jeżeli nie widzisz %1$sDuckDuckGo,%2$s musisz dodać go do listy %3$sInne "
-"wyszukiwarki%4$s"
+msgstr "Jeżeli nie widzisz %1$sDuckDuckGo,%2$s musisz dodać go do listy %3$sInne wyszukiwarki%4$s"
 
 # smartling.placeholder_format=C
 #. http://i.imgur.com/ReKkJtU.png
@@ -3824,17 +3825,14 @@ msgstr "Jeśli chcesz nas wesprzeć, %1$spomóż nam rozpowszechnić DuckDuckGo%
 msgid ""
 "If you want to use DuckDuckGo without JavaScript, please use our %s or %s "
 "versions."
-msgstr ""
-"Jeśli chcesz używać DuckDuckGo bez JavaScript, użyj wersji %1$s lub %2$s."
+msgstr "Jeśli chcesz używać DuckDuckGo bez JavaScript, użyj wersji %1$s lub %2$s."
 
 #  Safari homepage instruction
 # smartling.placeholder_format=C
 #. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
 msgid ""
 "If you want, select Home Page next to New windows and New tabs (open with)."
-msgstr ""
-"Jeśli chcesz, wybierz Strona domowa obok opcji Nowe okna i zakładki (otwórz "
-"za pomocą)"
+msgstr "Jeśli chcesz, wybierz Strona domowa obok opcji Nowe okna i zakładki (otwórz za pomocą)"
 
 # smartling.placeholder_format=C
 msgctxt "settingsvalue"
@@ -3851,9 +3849,7 @@ msgstr "Grafika"
 msgctxt "settings"
 msgid ""
 "Improves result legibility with updated URL format, placement, and color"
-msgstr ""
-"Poprawia czytelność wyników za pomocą zaktualizowanego formatu, "
-"umiejscowienia i koloru adresu URL"
+msgstr "Poprawia czytelność wyników za pomocą zaktualizowanego formatu, umiejscowienia i koloru adresu URL"
 
 # smartling.placeholder_format=C
 #. A label that appears in front of the name of a company that DuckDuckGo has partnered with. For example, 'In partnership with Wikipedia'
@@ -3865,10 +3861,7 @@ msgctxt "settings"
 msgid ""
 "In some older browsers, it's necessary to redirect your clicks through our "
 "server to prevent search leakage. %sLearn more%s."
-msgstr ""
-"W niektórych starszych przeglądarkach konieczne jest przekierowanie kliknięć "
-"przez nasz serwer, aby zapobiec wyciekowi wyszukiwania. %1$sDowiedz się "
-"więcej%2$s."
+msgstr "W niektórych starszych przeglądarkach konieczne jest przekierowanie kliknięć przez nasz serwer, aby zapobiec wyciekowi wyszukiwania. %1$sDowiedz się więcej%2$s."
 
 #  SeaMonkey default search engine instruction
 # smartling.placeholder_format=C
@@ -3882,9 +3875,7 @@ msgctxt "cloudsave"
 msgid ""
 "In the interest of transparency, this data is not encrypted: You can see "
 "exactly what information we store."
-msgstr ""
-"Aby zachować przejrzystość, dane nie są szyfrowane: możesz samodzielnie "
-"sprawdzić, jakie informacje gromadzimy."
+msgstr "Aby zachować przejrzystość, dane nie są szyfrowane: możesz samodzielnie sprawdzić, jakie informacje gromadzimy."
 
 # smartling.placeholder_format=C
 msgid "In the menu at the top select %sTools%s > %sSettings%s"
@@ -3894,8 +3885,7 @@ msgstr "W menu na górze ekranu wybierz %1$sNarzędzia%2$s > %3$sUstawienia%4$s"
 # smartling.placeholder_format=C
 #. Tells users how to add DuckDuckGo to the list of search engines in their browser.
 msgid "In the popup, check %sMake this my default search provider%s"
-msgstr ""
-"W wyskakującym okienku zaznacz %1$sUstaw jako domyślną wyszukiwarkę%2$s"
+msgstr "W wyskakującym okienku zaznacz %1$sUstaw jako domyślną wyszukiwarkę%2$s"
 
 #  IE 11 default search engine instruction
 # smartling.placeholder_format=C
@@ -4060,8 +4050,7 @@ msgstr "Izrael"
 msgctxt "settings"
 msgid ""
 "It's okay to (very infrequently) ask me about my experience using DuckDuckGo"
-msgstr ""
-"Zgadzam się na (bardzo rzadkie) pytania o moje doświadczenia z DuckDuckGo"
+msgstr "Zgadzam się na (bardzo rzadkie) pytania o moje doświadczenia z DuckDuckGo"
 
 # smartling.placeholder_format=C
 #. The name of the Italian language
@@ -4083,11 +4072,8 @@ msgid ""
 "Items are ranked based on relevance to your search terms and are delivered "
 "through Microsoft's Ad Network. Clicks lead directly to merchant landing "
 "pages and unlike ads, DuckDuckGo is not compensated for these results."
-msgstr ""
-"Pozycje są klasyfikowane na podstawie trafności wyszukiwanych haseł i są "
-"dostarczane za pośrednictwem sieci reklamowej Microsoft. Kliknięcia prowadzą "
-"bezpośrednio do stron docelowych sprzedawców i w odróżnieniu od reklam, "
-"DuckDuckGo nie otrzymuje wynagrodzenia za te wyniki."
+msgstr "Pozycje są klasyfikowane na podstawie trafności wyszukiwanych haseł i są dostarczane za pośrednictwem sieci reklamowej Microsoft. Kliknięcia prowadzą bezpośrednio"
+" do stron docelowych sprzedawców i w odróżnieniu od reklam, DuckDuckGo nie otrzymuje wynagrodzenia za te wyniki."
 
 # smartling.placeholder_format=C
 #. Text explaining why passphrases use a series of words instead of random numbers and letters.
@@ -4095,9 +4081,7 @@ msgctxt "cloudsave"
 msgid ""
 "It’s easier to remember 4-5 words than 10 random letters and numbers, and "
 "far more secure."
-msgstr ""
-"Łatwiej i o wiele bezpieczniej jest zapamiętać 4–5 słów niż 10 losowych "
-"liter i cyfr."
+msgstr "Łatwiej i o wiele bezpieczniej jest zapamiętać 4–5 słów niż 10 losowych liter i cyfr."
 
 # smartling.placeholder_format=C
 msgid "Japan"
@@ -4333,8 +4317,7 @@ msgstr "Dowiedz się więcej o dodatkach do przeglądarki Firefox"
 # smartling.placeholder_format=C
 msgctxt "showcase_newsletter"
 msgid "Learn about online privacy right in your inbox."
-msgstr ""
-"Ucz się o prywatności w internecie bezpośrednio w swojej skrzynce odbiorczej."
+msgstr "Ucz się o prywatności w internecie bezpośrednio w swojej skrzynce odbiorczej."
 
 # smartling.placeholder_format=C
 msgctxt "SERP footer content"
@@ -4480,8 +4463,7 @@ msgstr "Ładuj więcej obrazów podczas przewijania"
 # smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Loads more results in Images, Videos, and Shopping when scrolling"
-msgstr ""
-"Automatycznie ładuje więcej obrazów, filmów i zakupów podczas przewijania"
+msgstr "Automatycznie ładuje więcej obrazów, filmów i zakupów podczas przewijania"
 
 # smartling.placeholder_format=C
 #. http://i.imgur.com/WTkvs9I.png
@@ -4574,8 +4556,7 @@ msgstr "Upewnij się, że wszystkie słowa wpisano prawidłowo."
 # smartling.placeholder_format=C
 #. Tells users where in the settings menu they can change their default search engine.
 msgid "Make sure to check %s\"Make this my default search provider\"%s"
-msgstr ""
-"Upewnij się, że zaznaczyłeś %1$s\"Ustaw jako domyślną wyszukiwarkę\"%2$s"
+msgstr "Upewnij się, że zaznaczyłeś %1$s\"Ustaw jako domyślną wyszukiwarkę\"%2$s"
 
 # smartling.placeholder_format=C
 #. Message prompting users to check the spelling of their search term.
@@ -4738,6 +4719,12 @@ msgid "Metric (kilograms, meters, Celsius)"
 msgstr "Metryczne (kilogramy, metry, stopnie Celsjusza)"
 
 # smartling.placeholder_format=C
+#. In the context of the National Hockey League (NHL), label for teams belonging to the Metropolitan division
+msgctxt "Sports module"
+msgid "Metropolitan"
+msgstr "Metropolitalna"
+
+# smartling.placeholder_format=C
 msgid "Mexico"
 msgstr "Meksyk"
 
@@ -4806,7 +4793,7 @@ msgstr "Więcej obrazów"
 # smartling.placeholder_format=C
 #. A link to a page with more information.
 msgid "More Info"
-msgstr "Więcej informacji"
+msgstr "więcej informacji"
 
 # smartling.placeholder_format=C
 msgctxt "Ads GDPR, internal use only. Do not change"
@@ -4943,7 +4930,7 @@ msgstr "Przeważnie słonecznie"
 #. Description of the daily/hourly weather condition, as returned from the (WeatherKit) API
 msgctxt "Weather IA"
 msgid "Mostly Cloudy"
-msgstr ""
+msgstr "Przeważnie pochmurno"
 
 # smartling.placeholder_format=C
 #. Prompt for users to move the map to their current location.
@@ -4989,6 +4976,24 @@ msgid "NE"
 msgstr "NE"
 
 # smartling.placeholder_format=C
+#. Abbreviation for 'National League Championship Series', the title of the divisional championship series for the National League division of Major League Baseball
+msgctxt "Sports module"
+msgid "NLCS"
+msgstr "NLCS"
+
+# smartling.placeholder_format=C
+#. Abbreviation for 'National League Division Series', the title of the divisional semi-final series for the National League division of Major League Baseball
+msgctxt "Sports module"
+msgid "NLDS"
+msgstr "NLDS"
+
+# smartling.placeholder_format=C
+#. Abbreviation for 'National League Wild Card Series', the title of the divisional runner-up series for the National League Division in Major League Baseball.
+msgctxt "Sports module"
+msgid "NLWC"
+msgstr "NLWC"
+
+# smartling.placeholder_format=C
 #. NPM = node.js package manager.
 #. e.g. https://duckduckgo.com/?q=npm+packages
 msgid "NPM"
@@ -4999,6 +5004,24 @@ msgstr "NPM"
 msgctxt "forecast"
 msgid "NW"
 msgstr "NW"
+
+# smartling.placeholder_format=C
+#. Title of the divisional championship series for the National League division of Major League Baseball
+msgctxt "Sports module"
+msgid "National League Championship Series"
+msgstr "National League Championship Series"
+
+# smartling.placeholder_format=C
+#. Title of the divisional semi-final series for the National League division of Major League Baseball
+msgctxt "Sports module"
+msgid "National League Division Series"
+msgstr "National League Division Series"
+
+# smartling.placeholder_format=C
+#. Title of the divisional runner-up series for the National League Division in Major League Baseball.
+msgctxt "Sports module"
+msgid "National League Wild Card Series"
+msgstr "National League Wild Card Series"
 
 # smartling.placeholder_format=C
 #. Link to open driving directions in a different maps app. The name of the maps app appears after this string. For example: 'Navigate in Apple Maps'
@@ -5078,7 +5101,7 @@ msgstr "Nie znaleziono %1$s dla %2$s%3$s%4$s."
 #. This message describes that no games are scheduled for a particular sports league. The placeholder value is the name of the league e.g. 'No America East games scheduled'
 msgctxt "Sports module"
 msgid "No %s games scheduled"
-msgstr ""
+msgstr "Brak zaplanowanych meczów ligi %1$s"
 
 # smartling.placeholder_format=C
 #. Empty state message to indicate that there are no games for a particular conference/division in a particular period e.g. 'No FBS games scheduled in Week 14'
@@ -5135,7 +5158,7 @@ msgstr "Brak wyboru (domyślne)"
 #. This message describes that no games in a sports league have been played recently. The placeholder value is the name of the league e.g. 'No recent America East games'
 msgctxt "Sports module"
 msgid "No recent %s games"
-msgstr ""
+msgstr "Brak ostatnich meczów ligi %1$s"
 
 # smartling.placeholder_format=C
 #. Placeholder to indicate that nothing was blocked in the last hour
@@ -5163,6 +5186,12 @@ msgstr "Nie znaleziono wyników."
 msgctxt "new user poll"
 msgid "No thanks."
 msgstr "Nie, dziękuję."
+
+# smartling.placeholder_format=C
+#. Heading for the tracker/companies list when we have observed trackers, but none in the last 24 hours
+msgctxt "tracker_stats"
+msgid "No trackers blocked in the last 24 hours"
+msgstr "Brak trackerów zablokowanych w ciągu ostatnich 24 godzin"
 
 # smartling.placeholder_format=C
 #. Heading for the tracker/companies list when we have observed trackers, but none in the last hour
@@ -5272,6 +5301,12 @@ msgid "OT%s"
 msgstr "OT%1$s"
 
 # smartling.placeholder_format=C
+#. In the context of a standings table for NHL (hockey), column title that abbreviates 'Overtime Losses' (the number of games lost during overtime of this team)
+msgctxt "Sports module"
+msgid "OTL"
+msgstr "Przegrane w dogrywce"
+
+# smartling.placeholder_format=C
 #. The name of the Odia language
 msgctxt "language_name"
 msgid "Odia"
@@ -5338,9 +5373,7 @@ msgstr "Włączone i przewijane"
 msgid ""
 "On Mac, %sClick Maxthon > Preferences%s, On Windows, %sClick the %s icon > "
 "Settings%s"
-msgstr ""
-"W Mac OS, %1$sKliknij Maxthon > Preferencje%2$s, W Windows, %3$sKliknij "
-"ikonę %4$s > Ustawienia%5$s"
+msgstr "W Mac OS, %1$sKliknij Maxthon > Preferencje%2$s, W Windows, %3$sKliknij ikonę %4$s > Ustawienia%5$s"
 
 # smartling.placeholder_format=C
 #. https://duckduckgo.com/params under "Interface Settings" under "Page #s:"
@@ -5366,9 +5399,7 @@ msgctxt "cloudsave"
 msgid ""
 "Only the settings that you have changed. They are detailed on the %sURL "
 "Parameters%s page."
-msgstr ""
-"Wyłącznie ustawienia, które zmieniasz. Są wyszczegółowione na stronie "
-"%1$sParametry URL%2$s."
+msgstr "Wyłącznie ustawienia, które zmieniasz. Są wyszczegółowione na stronie %1$sParametry URL%2$s."
 
 # smartling.placeholder_format=C
 #. Message displayed if there is an error during translation
@@ -5376,9 +5407,7 @@ msgctxt "translations_module"
 msgid ""
 "Oops! An unexpected error occurred while translating this text. Please try "
 "again later."
-msgstr ""
-"Ups! Wystąpił nieoczekiwany błąd podczas tłumaczenia tego tekstu. Spróbuj "
-"ponownie później."
+msgstr "Ups! Wystąpił nieoczekiwany błąd podczas tłumaczenia tego tekstu. Spróbuj ponownie później."
 
 # smartling.placeholder_format=C
 #. The price the markets opens at
@@ -5415,9 +5444,7 @@ msgstr "Otwórz %1$sUstawienia%2$s"
 #. Tells users where to find the location settings in the settings menu. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Open 'Location', and ensure location is %senabled%s."
-msgstr ""
-"Otwórz opcję „Lokalizacja” i upewnij się, że lokalizacja jest %1$swłączona"
-"%2$s."
+msgstr "Otwórz opcję „Lokalizacja” i upewnij się, że lokalizacja jest %1$swłączona%2$s."
 
 # smartling.placeholder_format=C
 #. Tells user where to find location settings in the settings menu. Part of a list of instructions on how to enable location service.
@@ -5543,7 +5570,7 @@ msgstr "Pomarańczowy"
 #. Shown after the user has swapped origin and destination in a Maps `Direction` feature.
 msgctxt "directions"
 msgid "Origin and destination reversed"
-msgstr "Zamieniono punkt początkowy i miejsce docelowe"
+msgstr "Odwrócone miejsce pochodzenia i przeznaczenia"
 
 # smartling.placeholder_format=C
 msgctxt "feedback form"
@@ -5555,9 +5582,7 @@ msgctxt "homepage onboarding"
 msgid ""
 "Other search engines track your searches even when you’re in private "
 "browsing mode. We don’t track you &mdash; period."
-msgstr ""
-"Inne wyszukiwarki śledzą Twoje wyszukiwania nawet, gdy jesteś w trybie "
-"incognito. My nie - i kropka."
+msgstr "Inne wyszukiwarki śledzą Twoje wyszukiwania nawet, gdy jesteś w trybie incognito. My nie - i kropka."
 
 # smartling.placeholder_format=C
 msgctxt "SERP footer content"
@@ -5569,19 +5594,15 @@ msgctxt "homepage onboarding"
 msgid ""
 "Our privacy policy is simple: we don’t collect or share any of your personal "
 "information."
-msgstr ""
-"Nasza polityka prywatności jest prosta: nie gromadzimy oraz nie udostępniamy "
-"żadnych informacji o naszych użytkownikach."
+msgstr "Nasza polityka prywatności jest prosta: nie gromadzimy oraz nie udostępniamy żadnych informacji o naszych użytkownikach."
 
 # smartling.placeholder_format=C
 msgid ""
 "Our private browser for mobile comes equipped with our search engine, "
 "tracker blocker, encryption enforcer, and more. Available on %siOS & Android"
 "%s."
-msgstr ""
-"Nasza prywatna przeglądarka dla urządzeń mobilnych jest wyposażona w naszą "
-"wyszukiwarkę, blokowanie skryptów śledzących, wtyczkę wymuszającą "
-"szyfrowanie i wiele więcej. Dostępne dla systemu %1$siOS i Android%2$s."
+msgstr "Nasza prywatna przeglądarka dla urządzeń mobilnych jest wyposażona w naszą wyszukiwarkę, blokowanie skryptów śledzących, wtyczkę wymuszającą szyfrowanie"
+" i wiele więcej. Dostępne dla systemu %1$siOS i Android%2$s."
 
 # smartling.placeholder_format=C
 #. The number of searches performed on DuckDuckGo search engine. The placeholder value is a number.
@@ -5600,6 +5621,12 @@ msgstr "Ponad %1$s dotacji na prywatność DuckDuckGo."
 msgctxt "Sports module"
 msgid "Overall Record"
 msgstr "Bramki"
+
+# smartling.placeholder_format=C
+#. In the context of a standings table for NHL (hockey), indicates the number of games lost during overtime of this team
+msgctxt "Sports module"
+msgid "Overtime Losses"
+msgstr "Przegrane w dogrywce"
 
 # smartling.placeholder_format=C
 #. Label above a general description of a business.
@@ -5642,6 +5669,12 @@ msgstr "PF"
 msgctxt "Sports module"
 msgid "PTS"
 msgstr "PKT"
+
+# smartling.placeholder_format=C
+#. In the context of the National Hockey League (NHL), label for teams belonging to the Pacific division
+msgctxt "Sports module"
+msgid "Pacific"
+msgstr "Pacyficzna"
 
 # smartling.placeholder_format=C
 #. Instant Answer Tab Name
@@ -5715,9 +5748,7 @@ msgctxt "cloudsave"
 msgid ""
 "Passphrases cannot be recovered as we don't associate your IP address, "
 "browser fingerprint, or any other information with the file."
-msgstr ""
-"Nie można odzyskać haseł, ponieważ nie kojarzymy Twojego adresu IP, odcisku "
-"palca przeglądarki ani żadnych innych informacji z plikiem."
+msgstr "Nie można odzyskać haseł, ponieważ nie kojarzymy Twojego adresu IP, odcisku palca przeglądarki ani żadnych innych informacji z plikiem."
 
 # smartling.placeholder_format=C
 #. Option for the filter-by-date search.
@@ -5878,9 +5909,7 @@ msgctxt "Anomaly modal"
 msgid ""
 "Please complete the following challenge to confirm this search was made by a "
 "human."
-msgstr ""
-"Rozwiąż następujący test, aby potwierdzić, że wyszukiwanie zostało wykonane "
-"przez człowieka."
+msgstr "Rozwiąż następujący test, aby potwierdzić, że wyszukiwanie zostało wykonane przez człowieka."
 
 # smartling.placeholder_format=C
 #. A prompt asking users to enter their passphrase.
@@ -6210,9 +6239,7 @@ msgstr "Zapytaj"
 # smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Prompt me to use my approximate location to get nearby results."
-msgstr ""
-"Monituj o użycie mojej przybliżonej lokalizacji, aby uzyskać wyniki w "
-"pobliżu."
+msgstr "Monituj o użycie mojej przybliżonej lokalizacji, aby uzyskać wyniki w pobliżu."
 
 # smartling.placeholder_format=C
 #. Link to a page with information about DuckDuckGo's web browsers and extensions.
@@ -6231,6 +6258,12 @@ msgstr "Chroń swoje urządzenia"
 msgctxt "showcase_app"
 msgid "Protect your data on every device."
 msgstr "Chroń swoje dane na wszystkich urządzeniach."
+
+# smartling.placeholder_format=C
+#. In the context of a standings table for NHL (hockey), column title that abbreviates 'Total Points' (the total points of this team)
+msgctxt "Sports module"
+msgid "Pts"
+msgstr "PKT"
 
 # smartling.placeholder_format=C
 #. a filter for images with the CC0 usage license
@@ -6389,7 +6422,7 @@ msgstr "Wydany"
 # smartling.placeholder_format=C
 #. checkbox label that allows the user to save the setting
 msgid "Remember my choice"
-msgstr ""
+msgstr "Zapamiętaj mój wybór"
 
 # smartling.placeholder_format=C
 #. Button that saves the user's current settings
@@ -6401,7 +6434,8 @@ msgctxt "settings"
 msgid ""
 "Removes the \"Ask\" button so answers appear automatically in response to "
 "relevant searches. Cached answers always display automatically."
-msgstr ""
+msgstr "Sprawia, że przycisk „Pytaj” znika, a odpowiedzi pojawiają się automatycznie w odpowiedzi na wyszukiwaną frazę. Odpowiedzi z pamięci podręcznej zawsze"
+" wyświetlają się automatycznie."
 
 # smartling.placeholder_format=C
 #. A button that appears next to an advertisement, allowing a user to send a report for an advertisment they think is spam.
@@ -6422,10 +6456,8 @@ msgid ""
 "Reports are anonymous and sent to DuckDuckGo to help improve our search "
 "service. Your anonymous feedback is also shared with %s to help improve "
 "their services."
-msgstr ""
-"Zgłoszenia są anonimowe i wysyłane do DuckDuckGo w celu ulepszenia usługi "
-"wyszukiwania. Anonimowa opinia jest również udostępniana serwisowi %1$s w "
-"celu ulepszenia jego usług."
+msgstr "Zgłoszenia są anonimowe i wysyłane do DuckDuckGo w celu ulepszenia usługi wyszukiwania. Anonimowa opinia jest również udostępniana serwisowi %1$s w celu"
+" ulepszenia jego usług."
 
 # smartling.placeholder_format=C
 #. A button that resets a user's settings.
@@ -6491,7 +6523,7 @@ msgstr "Wróć do witryny duckduckgo.com i wydaj pozwolenie."
 #. Tooltip over the button that allows to swap origin and destination in a Maps `Direction` feature
 msgctxt "directions"
 msgid "Reverse origin and destination"
-msgstr "Zamień punkt początkowy i miejsce docelowe"
+msgstr "Odwrotne pochodzenie i miejsce przeznaczenia"
 
 # smartling.placeholder_format=C
 #. Used in 0-click box for product results, e.g. <a href="https://duckduckgo.com/?q=9780061353246">https://duckduckgo.com/?q=9780061353246</a>
@@ -6541,6 +6573,17 @@ msgstr "S"
 msgctxt "forecast"
 msgid "SE"
 msgstr "SE"
+
+# smartling.placeholder_format=C
+msgctxt "settings"
+msgid "SERP promotion for desktop browsers has been dismissed"
+msgstr "Odrzucono promocję SERP dla przeglądarki na komputer"
+
+# smartling.placeholder_format=C
+#. Abbreviation indicating that a game is in shootouts, e.g. in NHL (hockey)
+msgctxt "Sports module"
+msgid "SO"
+msgstr "SO"
 
 # smartling.placeholder_format=C
 #. Abbreviation for 'Southwest'
@@ -6661,6 +6704,7 @@ msgctxt "Sports module"
 msgid "Scores"
 msgstr "Wyniki"
 
+#  Edge Legacy default search engine instruction
 # smartling.placeholder_format=C
 #. Tells users where in the settings menu they can change their default search engine.
 msgid "Scroll down and click %sView advanced settings%s"
@@ -6677,9 +6721,7 @@ msgstr "Przewiń w dół i kliknij %1$sWyświetl ustawienia zaawansowane%2$s."
 msgid ""
 "Scroll down and find %sSearch in the address bar%s. Click on %sChange%s (or "
 "%sAdd new%s)"
-msgstr ""
-"Przewiń w dół aż do %1$sWyszukaj w pasku adresu%2$s. Kliknij na %3$sZmień"
-"%4$s (lub %5$sDodaj nową%6$s)"
+msgstr "Przewiń w dół aż do %1$sWyszukaj w pasku adresu%2$s. Kliknij na %3$sZmień%4$s (lub %5$sDodaj nową%6$s)"
 
 #  Edge Legacy default search engine instruction
 # smartling.placeholder_format=C
@@ -6687,9 +6729,7 @@ msgstr ""
 msgid ""
 "Scroll down and find %sSearch in the address bar%s. Click on %sChange%s (or "
 "%sAdd new%s)."
-msgstr ""
-"Przewiń w dół do sekcji %1$sWyszukaj na pasku adresu%2$s. Kliknij %3$sZmień"
-"%4$s (lub %5$sDodaj nowe%6$s)."
+msgstr "Przewiń w dół do sekcji %1$sWyszukaj na pasku adresu%2$s. Kliknij %3$sZmień%4$s (lub %5$sDodaj nowe%6$s)."
 
 # smartling.placeholder_format=C
 #. Tells users where to find location settings within the settings menu. Part of a list of instructions on how to enable location service.
@@ -6795,19 +6835,15 @@ msgstr "Wyszukać tylko %1$s?"
 msgid ""
 "Search privately with our app or extension, add private web search to your "
 "favorite browser, or search directly at %sduckduckgo.com%s."
-msgstr ""
-"Wyszukuj prywatnie za pomocą naszej aplikacji lub rozszerzenia, dodaj "
-"prywatne wyszukiwanie w sieci do ulubionej przeglądarki lub szukaj "
-"bezpośrednio na %1$sduckduckgo.com%2$s."
+msgstr "Wyszukuj prywatnie za pomocą naszej aplikacji lub rozszerzenia, dodaj prywatne wyszukiwanie w sieci do ulubionej przeglądarki lub szukaj bezpośrednio na"
+" %1$sduckduckgo.com%2$s."
 
 # smartling.placeholder_format=C
 #. http://i.imgur.com/6LZAoqH.png
 msgctxt "settings"
 msgid ""
 "Search queries are included in URL (if off, searches will use POST requests)"
-msgstr ""
-"Zapytania wyszukiwań są zawarte w URL (jeśli opcja jest wyłączona, "
-"wyszukiwarka użyje metody POST)"
+msgstr "Zapytania wyszukiwań są zawarte w URL (jeśli opcja jest wyłączona, wyszukiwarka użyje metody POST)"
 
 # smartling.placeholder_format=C
 #. Placeholder text for search box.
@@ -6868,9 +6904,7 @@ msgstr "Sprawdź także"
 #. Link to a page with more information about how user settings are stored in a URL.
 msgctxt "settings"
 msgid "See the %sURL Parameter Reference page%s for more details."
-msgstr ""
-"Zobacz %1$sstronę odniesienia parametrów adresu URL%2$s, aby wyświetlić "
-"więcej informacji."
+msgstr "Zobacz %1$sstronę odniesienia parametrów adresu URL%2$s, aby wyświetlić więcej informacji."
 
 #  Safari on iOS
 # smartling.placeholder_format=C
@@ -6883,17 +6917,13 @@ msgstr "Wybierz %1$s%2$s%3$s, a następnie %4$sWyszukiwarki%5$s"
 #. Tells how to find the settings menu in their browser. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Select %s'Setting for this Website...'%s from the Safari menu."
-msgstr ""
-"Wybierz z menu przeglądarki Safari opcję %1$s„Ustawienia dla tej "
-"witryny…”%2$s."
+msgstr "Wybierz z menu przeglądarki Safari opcję %1$s„Ustawienia dla tej witryny…”%2$s."
 
 # smartling.placeholder_format=C
 #. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
 msgid ""
 "Select %sCustom%s and enter %shttps://duckduckgo.com%s in the input field"
-msgstr ""
-"Wybierz %1$sNiestandardowy%2$s i wpisz %3$shttps://duckduckgo.com%4$s w "
-"odpowiednim polu"
+msgstr "Wybierz %1$sNiestandardowy%2$s i wpisz %3$shttps://duckduckgo.com%4$s w odpowiednim polu"
 
 # smartling.placeholder_format=C
 #. Instructions to add a search engine in Microsoft Edge
@@ -6915,8 +6945,7 @@ msgstr "Wybierz %1$sDuckDuckGo%2$s i kliknij %3$sUstaw jako domyślną%4$s."
 # smartling.placeholder_format=C
 #. Tells users where in the settings menu they can change their default search engine.
 msgid "Select %sDuckDuckGo%s in the Default Search Engine drop down"
-msgstr ""
-"Wybierz %1$sDuckDuckGo%2$s w rozwijanym menu jako domyślną wyszukiwarkę"
+msgstr "Wybierz %1$sDuckDuckGo%2$s w rozwijanym menu jako domyślną wyszukiwarkę"
 
 #  IE 11 default search engine instruction
 # smartling.placeholder_format=C
@@ -6952,18 +6981,14 @@ msgstr "Wybierz %1$sZarządzaj Dodatkami%2$s z rozwijanego menu"
 #. Tells users where in the settings menu they can change their default search engine.
 msgid ""
 "Select %sOpera > Preferences%s (on Mac) or %sMenu > Settings%s (on Windows)"
-msgstr ""
-"Wybierz %1$sOpera > Preferencje%2$s (na Macu) lub %3$sMenu > Ustawienia%4$s "
-"(na Windows)"
+msgstr "Wybierz %1$sOpera > Preferencje%2$s (na Macu) lub %3$sMenu > Ustawienia%4$s (na Windows)"
 
 #  Opera homepage instruction
 # smartling.placeholder_format=C
 #. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
 msgid ""
 "Select %sOpera > Preferences%s (on Mac) or %sOpera > Options%s (on Windows)"
-msgstr ""
-"Wybierz %1$sOpera > Preferencje%2$s (na Macu) lub %3$sOpera > Ustawienia%4$s "
-"(na Windowsie)"
+msgstr "Wybierz %1$sOpera > Preferencje%2$s (na Macu) lub %3$sOpera > Ustawienia%4$s (na Windowsie)"
 
 #  Safari homepage instruction
 # smartling.placeholder_format=C
@@ -7007,8 +7032,7 @@ msgstr "Wybierz %1$sUstawienia%2$s z rozwijanego menu."
 #. Instructions on how to change a browser's default search engine to DuckDuckGo.
 msgctxt "mobile homepage banner"
 msgid "Select %sSettings%s, then %sAdvanced settings%s"
-msgstr ""
-"Wybierz %1$sUstawienia%2$s, a następnie %3$sUstawienia zaawansowane%4$s"
+msgstr "Wybierz %1$sUstawienia%2$s, a następnie %3$sUstawienia zaawansowane%4$s"
 
 # smartling.placeholder_format=C
 #. Instructions on how to change a browser's default search engine to DuckDuckGo.
@@ -7028,9 +7052,7 @@ msgstr "Wybierz %1$sUstawienia%2$s, potem %3$sWyszukiwarka%4$s"
 msgid ""
 "Select %sUse this webpage as your only home page%s (or one of the other "
 "options if you prefer)"
-msgstr ""
-"Wybierz %1$sUżyj tej strony jako jedynej strony domowej%2$s (lub, jeśli "
-"wolisz, jedną z pozostałych opcji)"
+msgstr "Wybierz %1$sUżyj tej strony jako jedynej strony domowej%2$s (lub, jeśli wolisz, jedną z pozostałych opcji)"
 
 #  Safari default search engine instruction
 # smartling.placeholder_format=C
@@ -7129,9 +7151,7 @@ msgstr "Ustaw jako stronę startową"
 #. Prompt for the user to indicate their location on a map, to enable more relevant search results.
 msgctxt "precise_user_location"
 msgid "Set your location manually, or ensure Location Services is enabled."
-msgstr ""
-"Ustaw lokalizację ręcznie lub upewnij się, że usługi lokalizacyjne są "
-"włączone."
+msgstr "Ustaw lokalizację ręcznie lub upewnij się, że usługi lokalizacyjne są włączone."
 
 # smartling.placeholder_format=C
 #. In the top dropdown menu  ("More" > "Settings")
@@ -7157,8 +7177,7 @@ msgstr "Ustawienia zostały zaktualizowane"
 # smartling.placeholder_format=C
 msgctxt "homepage onboarding"
 msgid "Share DuckDuckGo and help friends take their privacy back!"
-msgstr ""
-"Udostępniaj informacje o DuckDuckGo i pomóż znajomym odzyskać prywatność!"
+msgstr "Udostępniaj informacje o DuckDuckGo i pomóż znajomym odzyskać prywatność!"
 
 # smartling.placeholder_format=C
 #. Link to a feedback form.
@@ -7322,8 +7341,7 @@ msgstr "Wyświetla poziome linie pomiędzy stronami z wynikami wyszukiwania"
 # smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Shows links to instructions for how to add DuckDuckGo to your browser"
-msgstr ""
-"Wyświetla łącza do instrukcji dodawania DuckDuckGo do Twojej przeglądarki"
+msgstr "Wyświetla łącza do instrukcji dodawania DuckDuckGo do Twojej przeglądarki"
 
 # smartling.placeholder_format=C
 msgctxt "settings"
@@ -7333,8 +7351,7 @@ msgstr "Wyświetla najczęściej odwiedzane łącza na stronie nowej karty"
 # smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Shows occasional reminders to add DuckDuckGo to your browser"
-msgstr ""
-"Wyświetla sporadyczne przypomnienia o dodaniu DuckDuckGo do przeglądarki"
+msgstr "Wyświetla sporadyczne przypomnienia o dodaniu DuckDuckGo do przeglądarki"
 
 # smartling.placeholder_format=C
 msgctxt "settings"
@@ -7345,9 +7362,7 @@ msgstr "Wyświetla sporadyczne przypomnienia o dodaniu DuckDuckGo do urządzeń"
 msgctxt "settings"
 msgid ""
 "Shows occasional reminders to sign up for the DuckDuckGo privacy newsletters"
-msgstr ""
-"Wyświetla sporadyczne przypomnienia zachęcające do subskrypcji newsletterów "
-"DuckDuckGo o prywatności"
+msgstr "Wyświetla sporadyczne przypomnienia zachęcające do subskrypcji newsletterów DuckDuckGo o prywatności"
 
 # smartling.placeholder_format=C
 msgctxt "settings"
@@ -7368,9 +7383,7 @@ msgstr "Wyświetla sugestie pod polem wyszukiwania podczas wpisywania"
 # smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Shows the privacy benefits of using DuckDuckGo on the homepage"
-msgstr ""
-"Wyświetla na stronie głównej korzyści dla prywatności wynikające z używania "
-"DuckDuckGo"
+msgstr "Wyświetla na stronie głównej korzyści dla prywatności wynikające z używania DuckDuckGo"
 
 # smartling.placeholder_format=C
 msgctxt "settings"
@@ -7385,9 +7398,7 @@ msgstr "Wyświetla wiadomość powitalną u góry strony wyników wyszukiwania"
 # smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Shows welcome message to EU Android preference menu users"
-msgstr ""
-"Wyświetla wiadomość powitalną użytkownikom menu preferencji systemu Android "
-"w UE"
+msgstr "Wyświetla wiadomość powitalną użytkownikom menu preferencji systemu Android w UE"
 
 # smartling.placeholder_format=C
 #. Used in 0-click box for product results, e.g. <a href="https://duckduckgo.com/?q=9780061353246">https://duckduckgo.com/?q=9780061353246</a>
@@ -7397,6 +7408,11 @@ msgstr "Podobne"
 # smartling.placeholder_format=C
 msgid "Singapore"
 msgstr "Singapur"
+
+# smartling.placeholder_format=C
+#. Refers to a feature of the DuckDuckGo web browser, which uses encrypted connections to websites to protect user privacy.
+msgid "Site Encryption"
+msgstr "szyfrowanie strony"
 
 # smartling.placeholder_format=C
 msgctxt "settings"
@@ -7489,13 +7505,13 @@ msgctxt "noresults"
 msgid ""
 "Sorry, we ran into an error displaying these results. %sClick here%s to try "
 "again."
-msgstr ""
+msgstr "Niestety, wystąpił błąd podczas wyświetlania tych wyników. %1$sKliknij tutaj%2$s, aby spróbować ponownie."
 
 # smartling.placeholder_format=C
 #. The main message for when the feedback form failed to send. For example, if the user lost connectivity.
 msgctxt "feedback form"
 msgid "Sorry, we weren’t able to submit your feedback. Please try again later."
-msgstr "Niestety nie można przesłać Twojej opinii. Spróbuj ponownie później."
+msgstr "Przepraszamy, nie mogliśmy przesłać Twojej opinii. Spróbuj ponownie później."
 
 # smartling.placeholder_format=C
 #. The source of a piece of information, e.g. Wikipedia
@@ -7588,15 +7604,13 @@ msgstr "Bądź na bieżąco"
 #. Prompt to subscribe to a newsletter.
 msgctxt "SERP footer content"
 msgid "Stay protected and informed with our privacy newsletters."
-msgstr ""
-"Dbaj o ochronę i informacje dzięki naszym biuletynom dotyczącym prywatności."
+msgstr "Dbaj o ochronę i informacje dzięki naszym biuletynom dotyczącym prywatności."
 
 # smartling.placeholder_format=C
 #. Text on the page where users can subscribe to DuckDuckGo's privacy newsletter
 msgctxt "showcase_newsletter"
 msgid "Stay protected and informed with our privacy newsletters."
-msgstr ""
-"Dbaj o ochronę i informacje dzięki naszym biuletynom dotyczącym prywatności."
+msgstr "Dbaj o ochronę i informacje dzięki naszym biuletynom dotyczącym prywatności."
 
 # smartling.placeholder_format=C
 #. Instant Answer tab name - eg. https://duckduckgo.com/?q=Energy+Transfer+Equity&ia=stock
@@ -7606,15 +7620,12 @@ msgstr "Giełda"
 # smartling.placeholder_format=C
 msgctxt "homepage ATB modal"
 msgid "Stop hidden trackers lurking on other websites."
-msgstr ""
-"Blokowanie modułów śledzących ukrytych na innych stronach internetowych."
+msgstr "Blokowanie modułów śledzących ukrytych na innych stronach internetowych."
 
 # smartling.placeholder_format=C
 msgctxt "homepage ATB modal"
 msgid "Stop most hidden trackers lurking on other websites."
-msgstr ""
-"Blokowanie większości modułów śledzących ukrytych na innych stronach "
-"internetowych."
+msgstr "Blokowanie większości modułów śledzących ukrytych na innych stronach internetowych."
 
 # smartling.placeholder_format=C
 msgctxt "settings"
@@ -7947,10 +7958,8 @@ msgid ""
 "That means information sent between your device and the webpage behind this "
 "link is at increased risk of being intercepted by a third party. In rare "
 "cases this includes passwords, or payment details."
-msgstr ""
-"Oznacza to, że informacje przesyłane między urządzeniem a stroną internetową "
-"powiązaną z tym łączem są bardziej narażone na przechwycenie przez stronę "
-"trzecią. W rzadkich przypadkach obejmuje to hasła lub szczegóły płatności."
+msgstr "Oznacza to, że informacje przesyłane między urządzeniem a stroną internetową powiązaną z tym łączem są bardziej narażone na przechwycenie przez stronę"
+" trzecią. W rzadkich przypadkach obejmuje to hasła lub szczegóły płatności."
 
 # smartling.placeholder_format=C
 #. Text explaining how the cloud save feature works.
@@ -7958,9 +7967,7 @@ msgctxt "cloudsave"
 msgid ""
 "The Cloud Save bookmarklet allows any changes you make to your settings to "
 "automatically save in the cloud."
-msgstr ""
-"Skryptozakładka Cloud Save umożliwia automatyczne zapisywanie wszelkich "
-"zmian w ustawieniach w chmurze."
+msgstr "Skryptozakładka Cloud Save umożliwia automatyczne zapisywanie wszelkich zmian w ustawieniach w chmurze."
 
 # smartling.placeholder_format=C
 msgctxt "settings"
@@ -7971,8 +7978,7 @@ msgstr "Metoda renderowania używana w przypadku map interaktywnych"
 #. 'Collect-it-all' refers to the practice of data collection by companies such as Google.
 msgctxt "SERP footer content"
 msgid "The world needs an alternative to the collect-it-all business model."
-msgstr ""
-"Świat potrzebuje alternatywy dla modelu biznesowego „zbieraj wszystko”."
+msgstr "Świat potrzebuje alternatywy dla modelu biznesowego „zbieraj wszystko”."
 
 # smartling.placeholder_format=C
 #. Title for the theme menu:
@@ -8007,11 +8013,8 @@ msgid ""
 "These browser permissions are used to add privacy protection on websites you "
 "visit by blocking hidden trackers, encrypting connections where possible, "
 "and by making DuckDuckGo your default search engine."
-msgstr ""
-"Uprawnienia przeglądarki są użyte w celu ochrony prywatności na stronach, "
-"które odwiedzasz przez blokowanie ukrytych obiektów śledzączych, szyfrowaniu "
-"połączenia, kiedy to możliwe, oraz ustawienia DuckDuckGo jako domyślną "
-"wyszukiwarkę."
+msgstr "Uprawnienia przeglądarki są użyte w celu ochrony prywatności na stronach, które odwiedzasz przez blokowanie ukrytych obiektów śledzączych, szyfrowaniu"
+" połączenia, kiedy to możliwe, oraz ustawienia DuckDuckGo jako domyślną wyszukiwarkę."
 
 # smartling.placeholder_format=C
 #. Label for the game to determine the 3rd place in e.g. the soccer World Cup
@@ -8023,9 +8026,7 @@ msgstr "Trzecie miejsce"
 #. Appears below a type of search results called 'Instant Answers'
 msgctxt "attribution"
 msgid "This Instant Answer was made by the %sDuckDuckHack%s Community."
-msgstr ""
-"Ta natychmiastowa odpowiedź została utworzona przez społeczność "
-"%1$sDuckDuckHack%2$s."
+msgstr "Ta natychmiastowa odpowiedź została utworzona przez społeczność %1$sDuckDuckHack%2$s."
 
 # smartling.placeholder_format=C
 #. Header above a list of benefits of the cloud save feature.
@@ -8036,7 +8037,7 @@ msgstr "To ma kilka zalet:"
 # smartling.placeholder_format=C
 #. Given as an option to select when providing feedback
 msgid "This information isn’t useful"
-msgstr "Te informacje nie są przydatne"
+msgstr "Ta informacja nie jest przydatna"
 
 # smartling.placeholder_format=C
 msgid "This page requires Javascript to function."
@@ -8075,17 +8076,13 @@ msgstr "To tłumaczenie jest błędne"
 # smartling.placeholder_format=C
 #. Label indicating that the video can't be played on the current page, and only on the website that owns the vide. The placeholder is the name of the website that owns the video.
 msgid "This video is not yet able to be watched here. You can watch it on %s."
-msgstr ""
-"Tego filmu nie można jeszcze oglądać tutaj. Możesz go obejrzeć na platformie "
-"%1$s."
+msgstr "Tego filmu nie można jeszcze oglądać tutaj. Możesz go obejrzeć na platformie %1$s."
 
 # smartling.placeholder_format=C
 #. Message indicating that a website is not using an encrypted connection and is not secure.
 msgctxt "Lock icon next to HTTP search result"
 msgid "This webpage does not use a secure, encrypted, connection (HTTPS)."
-msgstr ""
-"Ta strona internetowa nie korzysta z bezpiecznego, szyfrowanego połączenia "
-"(HTTPS)."
+msgstr "Ta strona internetowa nie korzysta z bezpiecznego, szyfrowanego połączenia (HTTPS)."
 
 # smartling.placeholder_format=C
 #. Confirmation message asking if the user is sure they want to reset all of their settings.
@@ -8175,9 +8172,7 @@ msgctxt "directions"
 msgid ""
 "To print directions:%sGo back to the map.%sSelect the route you want to "
 "print.%sClick the print icon.%s"
-msgstr ""
-"Aby wydrukować wskazówki:%1$sWróć do mapy.%2$sWybierz trasę, którą chcesz "
-"wydrukować.%3$sKliknij ikonę drukowania.%4$s"
+msgstr "Aby wydrukować wskazówki:%1$sWróć do mapy.%2$sWybierz trasę, którą chcesz wydrukować.%3$sKliknij ikonę drukowania.%4$s"
 
 # smartling.placeholder_format=C
 msgid "Today"
@@ -8211,6 +8206,12 @@ msgid "Total"
 msgstr "Łącznie"
 
 # smartling.placeholder_format=C
+#. In the context of a standings table for NHL (hockey), indicates these are the total points of this team
+msgctxt "Sports module"
+msgid "Total Points"
+msgstr "Łączna liczba punktów"
+
+# smartling.placeholder_format=C
 #. Indicates this is the total points scored against this team
 msgctxt "Sports module"
 msgid "Total Points Against"
@@ -8232,6 +8233,11 @@ msgid "Tour"
 msgstr "Wprowadzenie"
 
 # smartling.placeholder_format=C
+#. Refers to the feature of the DuckDuckGo web browser, which blocks websites from tracking users.
+msgid "Tracker Blocking"
+msgstr "Blokowanie mechanizmów śledzących"
+
+# smartling.placeholder_format=C
 #. Header above a list of trackers (or tracking companies) that have been blocked in the past hour.
 msgctxt "tracker_stats"
 msgid "Trackers blocked in the last hour"
@@ -8242,6 +8248,12 @@ msgstr "Trackery zablokowane w ciągu ostatniej godziny"
 msgctxt "tracker_stats"
 msgid "Trackers that DuckDuckGo blocks will appear here"
 msgstr "Tutaj pojawią się trackery blokowane przez DuckDuckGo"
+
+# smartling.placeholder_format=C
+#. Placeholder for when we cannot report any blocked trackers yet
+msgctxt "tracker_stats"
+msgid "Tracking attempts blocked by DuckDuckGo will appear here"
+msgstr "Tutaj wyświetlą się próby śledzenia zablokowane przez DuckDuckGo"
 
 # smartling.placeholder_format=C
 #. Part of the sentence: "<b>Translate</b> us."
@@ -8304,8 +8316,7 @@ msgstr "Spróbuj innych słów kluczowych."
 #. Prompt to enable location access in order to get search results closer to the user's actual location.
 msgctxt "precise_user_location"
 msgid "Try enabling anonymous location for more accurate results."
-msgstr ""
-"Spróbuj włączyć anonimową lokalizację, aby uzyskać dokładniejsze wyniki."
+msgstr "Spróbuj włączyć anonimową lokalizację, aby uzyskać dokładniejsze wyniki."
 
 # smartling.placeholder_format=C
 #. A prompt asking users to try searching with fewer words.
@@ -8322,9 +8333,7 @@ msgstr "Spróbuj bardziej ogólnych słów kluczowych."
 # smartling.placeholder_format=C
 #. Link to a version of the DuckDuckGo homepage that doesn't show any promotional messages.
 msgid "Try our homepage that never shows these messages:"
-msgstr ""
-"Wypróbuj naszą stronę domową, która nigdy nie wyświetla poniższych "
-"komunikatów:"
+msgstr "Wypróbuj naszą stronę domową, która nigdy nie wyświetla poniższych komunikatów:"
 
 # smartling.placeholder_format=C
 #. e.g., 'Try search for Mozart' (when the user searched for 'Mozar')
@@ -8405,12 +8414,12 @@ msgctxt "settings"
 msgid ""
 "Types out DuckAssist answers as they're generated. Turning this off may "
 "result in a short delay between a search and the answer being displayed."
-msgstr ""
+msgstr "Wpisuje odpowiedzi DuckAssist podczas ich generowania. Wyłączenie tej funkcji może spowodować krótkie opóźnienie między wyszukiwaniem a wyświetleniem odpowiedzi."
 
 # smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Typing Animation"
-msgstr ""
+msgstr "Animacja pisania na klawiaturze"
 
 # smartling.placeholder_format=C
 #. This is the name of a user setting
@@ -8482,24 +8491,19 @@ msgstr "Nie można wysłać opinii"
 msgid ""
 "Under %sOn startup%s, click %sOpen a specific page%s then click %sSet Pages"
 "%s."
-msgstr ""
-"W opcji %1$sPrzy uruchomieniu%2$s, kliknij na %3$sOtwórz wybraną stronę%4$s, "
-"a następnie wybierz %5$sUstaw strony%6$s."
+msgstr "W opcji %1$sPrzy uruchomieniu%2$s, kliknij na %3$sOtwórz wybraną stronę%4$s, a następnie wybierz %5$sUstaw strony%6$s."
 
 #  Maxthon homepage instruction
 # smartling.placeholder_format=C
 #. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
 msgid ""
 "Under %sOn startup%s, select %sHomepage%s and enter: https://duckduckgo.com"
-msgstr ""
-"W kategorii %1$sPrzy uruchomieniu%2$s, wybierz %3$sStrona główna%4$s i "
-"wprowadź: https://duckduckgo.com"
+msgstr "W kategorii %1$sPrzy uruchomieniu%2$s, wybierz %3$sStrona główna%4$s i wprowadź: https://duckduckgo.com"
 
 # smartling.placeholder_format=C
 #. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
 msgid "Under %sOpen with%s select %sA specific page or pages%s"
-msgstr ""
-"Pod %1$sOtwórz za pomocą%2$s wybierz %3$sKonkretna strona lub strony%4$s"
+msgstr "Pod %1$sOtwórz za pomocą%2$s wybierz %3$sKonkretna strona lub strony%4$s"
 
 # smartling.placeholder_format=C
 #. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
@@ -8514,23 +8518,19 @@ msgstr "Pod %1$sUstawienia wyszukiwania%2$s wybierz %3$sDuckDuckGo%4$s"
 # smartling.placeholder_format=C
 #. Tells users where in the settings menu they can change their default search engine.
 msgid "Under %sSearch in the address bar with%s select %sAdd New%s"
-msgstr ""
-"Pod %1$sWyszukaj w pasku adresu za pomocą%2$s wybierz %3$sDodaj nową%4$s"
+msgstr "Pod %1$sWyszukaj w pasku adresu za pomocą%2$s wybierz %3$sDodaj nową%4$s"
 
 #  Chrome 36 on macOS, 27 on Windows
 # smartling.placeholder_format=C
 #. Tells users where in the settings menu they can change their default search engine.
 msgid "Under %sSearch%s section, click %sManage search engines...%s"
-msgstr ""
-"W dziale %1$sWyszukiwanie%2$s kliknij w %3$sZarządzaj wyszukiwarkami...%4$s"
+msgstr "W dziale %1$sWyszukiwanie%2$s kliknij w %3$sZarządzaj wyszukiwarkami...%4$s"
 
 #  Opera homepage instruction
 # smartling.placeholder_format=C
 #. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
 msgid "Under On startup select %sOpen a specific page or set of pages%s"
-msgstr ""
-"W kategorii \"Po uruchomieniu\" wybierz %1$sOtwórz wybraną stronę lub zestaw "
-"stron%2$s"
+msgstr "W kategorii \"Po uruchomieniu\" wybierz %1$sOtwórz wybraną stronę lub zestaw stron%2$s"
 
 #  Opera default search engine instruction
 # smartling.placeholder_format=C
@@ -8629,9 +8629,7 @@ msgstr "Użyj Prywatnych Wyszukiwań DuckDuckGo"
 #. Explains that DuckDuckGo is available for multiple devices.
 msgctxt "mobile promotion on desktop"
 msgid "Use DuckDuckGo private search on your iPad, iPhone, or Android!"
-msgstr ""
-"Używaj prywatnego wyszukiwania DuckDuckGo na swoim iPadzie, iPhonie oraz "
-"Androidzie!"
+msgstr "Używaj prywatnego wyszukiwania DuckDuckGo na swoim iPadzie, iPhonie oraz Androidzie!"
 
 # smartling.placeholder_format=C
 #. User clicks this button to share their device's location
@@ -8703,9 +8701,7 @@ msgctxt "Ads GDPR, internal use only. Do not change"
 msgid ""
 "Viewing ads is privacy protected by DuckDuckGo. Ad clicks are managed by "
 "Microsoft's ad network"
-msgstr ""
-"DuckDuckGo chroni prywatność użytkowników przeglądających reklamy. Klikanie "
-"reklam zarządzane jest przez sieć reklamową Microsoft"
+msgstr "DuckDuckGo chroni prywatność użytkowników przeglądających reklamy. Klikanie reklam zarządzane jest przez sieć reklamową Microsoft"
 
 # smartling.placeholder_format=C
 #. Prompt to visit DuckDuckGo on another device.
@@ -8713,9 +8709,7 @@ msgctxt "mobile promotion on desktop"
 msgid ""
 "Visit %sDuckDuckGo.com%s on your tablet or phone and follow the provided "
 "instructions."
-msgstr ""
-"Odwiedź %1$sDuckDuckGo.com%2$s na swoim tablecie lub telefonie a następnie "
-"zastosuj się do instrukcji."
+msgstr "Odwiedź %1$sDuckDuckGo.com%2$s na swoim tablecie lub telefonie a następnie zastosuj się do instrukcji."
 
 # smartling.placeholder_format=C
 msgctxt "settings"
@@ -8764,6 +8758,12 @@ msgid "WCGB"
 msgstr "WCGB"
 
 # smartling.placeholder_format=C
+#. Abbreviation for 'World Series', the title of the annual championship series of Major League Baseball (MLB)
+msgctxt "Sports module"
+msgid "WS"
+msgstr "WS"
+
+# smartling.placeholder_format=C
 #. Waiting for the device location sensor to return data
 msgctxt "precise_user_location"
 msgid "Waiting for Location..."
@@ -8799,14 +8799,14 @@ msgstr "Obejrzyj tutaj"
 # smartling.placeholder_format=C
 #. This is a button that lets the user play a video in our custom video player
 msgid "Watch in Duck Player"
-msgstr ""
+msgstr "Oglądaj w Duck Player"
 
 # smartling.placeholder_format=C
 #. Explains the benefits of using our custom video player, the Duck Player
 msgid ""
 "Watch in Duck Player to block personalized ads on YouTube and prevent your "
 "viewing activity from influencing YouTube recommendations."
-msgstr ""
+msgstr "Oglądaj w Duck Player, aby zablokować spersonalizowane reklamy z serwisu YouTube i zapobiec dostosowywaniu rekomendacji z serwisu YouTube do Twojej aktywności."
 
 # smartling.placeholder_format=C
 #. A button that takes a user to another site in order to watch a video. The placeholder is the name of the video site. For example: 'Watch on Vimeo'
@@ -8819,6 +8819,16 @@ msgid "Watch on YouTube"
 msgstr "Obejrzyj na YouTube"
 
 # smartling.placeholder_format=C
+#. A privacy disclaimer that appears above YouTube videos.
+msgid ""
+"Watching a video here means the website where it is hosted can track you "
+"because we have to stream the content from there. DuckDuckGo is an "
+"independent company and has no relationship with YouTube, where most videos "
+"are hosted."
+msgstr "Jeśli oglądasz tutaj materiał wideo, witryna, w której jest on przechowywany, może Cię śledzić, ponieważ musimy stamtąd przesyłać strumieniowo treści."
+" DuckDuckGo jest niezależną firmą i nie ma żadnych powiązań z serwisem YouTube, w którym przechowywana jest większość filmów."
+
+# smartling.placeholder_format=C
 msgctxt "SERP footer content"
 msgid "We Protect Your Privacy"
 msgstr "Chronimy Twoją prywatność"
@@ -8827,9 +8837,7 @@ msgstr "Chronimy Twoją prywatność"
 #. Explains how location service is used to show users search results near their current location.
 msgctxt "precise_user_location"
 msgid "We can use your anonymous%s location%s to show you nearby results."
-msgstr ""
-"Możemy użyć Twojej anonimowej%1$s lokalizacji%2$s, aby wyświetlić wyniki w "
-"pobliżu."
+msgstr "Możemy użyć Twojej anonimowej%1$s lokalizacji%2$s, aby wyświetlić wyniki w pobliżu."
 
 # smartling.placeholder_format=C
 msgctxt "reasons-to-use-duckduckgo"
@@ -8839,22 +8847,18 @@ msgstr "Reklamy nie podążają za Tobą."
 # smartling.placeholder_format=C
 msgctxt "SERP footer content"
 msgid "We don't save your search history or follow you around the web."
-msgstr ""
-"Nie zapisujemy Twojej historii wyszukiwania ani nie obserwujemy Cię w sieci."
+msgstr "Nie zapisujemy Twojej historii wyszukiwania ani nie obserwujemy Cię w sieci."
 
 # smartling.placeholder_format=C
 #. Text explaining how the cloud save feature works.
 msgctxt "cloudsave"
 msgid "We don't store usernames or any personally identifiable information."
-msgstr ""
-"Nie gromadzimy nazw użytkowników ani żadnych danych mogących jednoznacznie "
-"ich zidentyfikować."
+msgstr "Nie gromadzimy nazw użytkowników ani żadnych danych mogących jednoznacznie ich zidentyfikować."
 
 # smartling.placeholder_format=C
 msgctxt "homepage onboarding"
 msgid "We don't store your personal info or track you. Ever."
-msgstr ""
-"Nie przechowujemy informacji na Twój temat ani Cię nie śledzimy. Nigdy."
+msgstr "Nie przechowujemy informacji na Twój temat ani Cię nie śledzimy. Nigdy."
 
 # smartling.placeholder_format=C
 msgctxt "reasons-to-use-duckduckgo"
@@ -8865,9 +8869,7 @@ msgstr "Nie przechowujemy Twoich danych prywatnych."
 msgid ""
 "We don't store your personal info. We don't follow you around with ads. We "
 "don't track you. Ever."
-msgstr ""
-"Nie przechowujemy Twoich danych osobowych. Nie chodzimy za Tobą z reklamami. "
-"Nie śledzimy Cię. Nigdy."
+msgstr "Nie przechowujemy Twoich danych osobowych. Nie chodzimy za Tobą z reklamami. Nie śledzimy Cię. Nigdy."
 
 # smartling.placeholder_format=C
 msgctxt "reasons-to-use-duckduckgo"
@@ -8885,9 +8887,7 @@ msgctxt "new user poll"
 msgid ""
 "We don't track you, so we could use your help telling us what brought you "
 "back today:"
-msgstr ""
-"Nie śledzimy Cię, więc przydałaby nam się od Ciebie informacja co Cię do nas "
-"sprowadziło:"
+msgstr "Nie śledzimy Cię, więc przydałaby nam się od Ciebie informacja co Cię do nas sprowadziło:"
 
 # smartling.placeholder_format=C
 #. Message prompting users to fill out a feedback form.
@@ -8895,9 +8895,7 @@ msgctxt "new user poll"
 msgid ""
 "We don't track you, so we could use your help telling us what convinced you "
 "to try us out today:"
-msgstr ""
-"Nie śledzimy Cię, więc bylibyśmy wdzięczni za informację co przekonało Cię "
-"do wypróbowania naszych usług:"
+msgstr "Nie śledzimy Cię, więc bylibyśmy wdzięczni za informację co przekonało Cię do wypróbowania naszych usług:"
 
 # smartling.placeholder_format=C
 msgctxt "reasons-to-use-duckduckgo"
@@ -8919,15 +8917,12 @@ msgctxt "homepage onboarding"
 msgid ""
 "We don’t store your search history. We therefore have nothing to sell to "
 "advertisers that track you across the Internet."
-msgstr ""
-"Nie przechowujemy Twojej historii wyszukiwania. W związku z tym nie mamy nic "
-"do zaoferowania dostawcom reklam, którzy śledzą Cię w Internecie."
+msgstr "Nie przechowujemy Twojej historii wyszukiwania. W związku z tym nie mamy nic do zaoferowania dostawcom reklam, którzy śledzą Cię w Internecie."
 
 # smartling.placeholder_format=C
 msgctxt "homepage onboarding"
 msgid "We don’t track you in or out of private browsing mode."
-msgstr ""
-"Nie śledzimy Cię niezależnie od tego czy używasz trybu incognito, czy nie."
+msgstr "Nie śledzimy Cię niezależnie od tego czy używasz trybu incognito, czy nie."
 
 # smartling.placeholder_format=C
 msgctxt "SERP footer content"
@@ -8945,16 +8940,12 @@ msgctxt "precise_user_location"
 msgid ""
 "We only use your anonymous location to deliver better results, closer to "
 "you. You can always change your mind later."
-msgstr ""
-"Używamy Twojej anonimowej lokalizacji tylko po to, aby zapewnić lepsze "
-"wyniki, bliżej Ciebie. Zawsze możesz później zmienić zdanie."
+msgstr "Używamy Twojej anonimowej lokalizacji tylko po to, aby zapewnić lepsze wyniki, bliżej Ciebie. Zawsze możesz później zmienić zdanie."
 
 # smartling.placeholder_format=C
 msgctxt "homepage ATB modal"
 msgid "We stop anyone from getting your search history, including us."
-msgstr ""
-"Robimy wszystko, aby nikt – nawet my – nie miał dostępu do Twojej historii "
-"wyszukiwania."
+msgstr "Robimy wszystko, aby nikt – nawet my – nie miał dostępu do Twojej historii wyszukiwania."
 
 # smartling.placeholder_format=C
 #. Message that appears after submitting a feedback form.
@@ -8969,16 +8960,12 @@ msgid ""
 "We use feedback like this to improve DuckDuckGo. Suggestions will be "
 "incorporated at the discretion of %s. Corrections may not show up in results "
 "right away."
-msgstr ""
-"Używamy tych opinii do ulepszania DuckDuckGo. Sugestie zostaną uwzględnione "
-"według uznania %1$s. Poprawki mogą nie pojawić się od razu w wynikach."
+msgstr "Używamy tych opinii do ulepszania DuckDuckGo. Sugestie zostaną uwzględnione według uznania %1$s. Poprawki mogą nie pojawić się od razu w wynikach."
 
 # smartling.placeholder_format=C
 msgctxt "homepage ATB modal"
 msgid "We'll block trackers trying to collect your data as you browse."
-msgstr ""
-"Będziemy blokować trackery próbujące gromadzić Twoje dane, gdy przeglądasz "
-"internet."
+msgstr "Będziemy blokować trackery próbujące gromadzić Twoje dane, gdy przeglądasz internet."
 
 # smartling.placeholder_format=C
 #. Header for a feedback form for new users.
@@ -9102,9 +9089,7 @@ msgctxt "cloudsave"
 msgid ""
 "What is the Cloud Save bookmarklet and how does it differ from the URL "
 "parameter bookmarklet?"
-msgstr ""
-"Czym jest skryptozakładka zapisu w chmurze i czym różni się od "
-"skryptozakładki URL?"
+msgstr "Czym jest skryptozakładka zapisu w chmurze i czym różni się od skryptozakładki URL?"
 
 # smartling.placeholder_format=C
 #. Link to a page with additional information.
@@ -9188,13 +9173,19 @@ msgstr "Informacje z Wikipedii"
 #. Title of a tab that displays a list of wild card standings for a sports league (https://en.wikipedia.org/wiki/Wild_card_(sports)#Major_League_Baseball)
 msgctxt "Sports module"
 msgid "Wild Card"
-msgstr "Dzika karta (wild card)"
+msgstr "Dzika karta"
 
 # smartling.placeholder_format=C
 #. Indicates this is the gap between a leading team and another team in the Wild Card View (https://en.wikipedia.org/wiki/Games_behind#Wild_card_race)
 msgctxt "Sports module"
 msgid "Wild Card Games Behind"
-msgstr "Dzika karta (wild card) – przewaga (games behind)"
+msgstr "Gry z dziką kartą za plecami"
+
+# smartling.placeholder_format=C
+#. In the context of the National Hockey League (NHL), title for a table of teams ordered based on their classification towards winning a Wild Card slot into playoffs
+msgctxt "Sports module"
+msgid "Wild Card Teams"
+msgstr "Drużyny z dziką kartą"
 
 # smartling.placeholder_format=C
 #. Element title explaining this is the win loss record for team, e.g. 10-5
@@ -9243,6 +9234,12 @@ msgstr "Zimowa pogoda"
 msgctxt "Covid 19 module"
 msgid "World"
 msgstr "Świat"
+
+# smartling.placeholder_format=C
+#. Title of the annual championship series of Major League Baseball (MLB)
+msgctxt "Sports module"
+msgid "World Series"
+msgstr "World Series"
 
 # smartling.placeholder_format=C
 #. Link to map
@@ -9307,9 +9304,7 @@ msgctxt "cloudsave"
 msgid ""
 "You can do this by saving your settings under a different passphrase, "
 "optionally deleting the first set."
-msgstr ""
-"Możesz to zrobić zapisując swoje ustawienia pod innym hasłem lub usuwając "
-"dotychczasowe ustawienia."
+msgstr "Możesz to zrobić zapisując swoje ustawienia pod innym hasłem lub usuwając dotychczasowe ustawienia."
 
 # smartling.placeholder_format=C
 #. Text explaining the benefits of the cloud save feature.
@@ -9321,8 +9316,7 @@ msgstr "Można przywrócić swoje ustawienia po usunięciu plików cookie."
 #. Text explaining the benefits of the cloud save feature.
 msgctxt "cloudsave"
 msgid "You can share your settings among computers and browsers."
-msgstr ""
-"Możesz używać tych samych ustawień na różnych komputerach i przeglądarkach."
+msgstr "Możesz używać tych samych ustawień na różnych komputerach i przeglądarkach."
 
 # smartling.placeholder_format=C
 #. Text explaining the benefits of the cloud save feature.
@@ -9352,9 +9346,7 @@ msgstr "Masz teraz rozszerzenie DuckDuckGo!"
 #. Link to a page where users can select the color scheme and other settings of their search engine.
 msgctxt "SERP footer content"
 msgid "You're in control. Customize the look-and-feel of DuckDuckGo."
-msgstr ""
-"Masz kontrolę nad wyglądem i działaniem DuckDuckGo, dostosuj ustawienia do "
-"swoich potrzeb."
+msgstr "Masz kontrolę nad wyglądem i działaniem DuckDuckGo, dostosuj ustawienia do swoich potrzeb."
 
 # smartling.placeholder_format=C
 #. shown when DDG is selected after eu preference menu on android
@@ -9362,10 +9354,7 @@ msgctxt "welcome message eu search preference android"
 msgid ""
 "You're now searching privately in Chrome. Use our app instead of Chrome to "
 "browse privately too. It’s already installed and can:"
-msgstr ""
-"Korzystasz teraz z wyszukiwania prywatnego w przeglądarce Chrome. Zamiast "
-"Chrome szukaj prywatnie używając naszej aplikacji. Jest już zainstalowana i "
-"może:"
+msgstr "Korzystasz teraz z wyszukiwania prywatnego w przeglądarce Chrome. Zamiast Chrome szukaj prywatnie używając naszej aplikacji. Jest już zainstalowana i może:"
 
 # smartling.placeholder_format=C
 #. Confirmation message that appears after the DuckDuckGo browser extension is installed.
@@ -9377,18 +9366,14 @@ msgstr "Szukasz teraz prywatnie!"
 msgid ""
 "You're now searching with privacy. %sGet tips to reduce your footprint even "
 "more."
-msgstr ""
-"Wyszukujesz teraz w trybie prywatnym. %1$sPobierz wskazówki jak zmniejszyć "
-"zostawiane ślady jeszcze bardziej."
+msgstr "Wyszukujesz teraz w trybie prywatnym. %1$sPobierz wskazówki jak zmniejszyć zostawiane ślady jeszcze bardziej."
 
 # smartling.placeholder_format=C
 #. A privacy disclaimer that appears above YouTube videos.
 msgid ""
 "YouTube (owned by Google) does not let you watch videos anonymously. As "
 "such, watching YouTube videos here will be tracked by YouTube/Google."
-msgstr ""
-"YouTube (własność Google) nie pozwala oglądać filmów bez logowania. "
-"Oglądanie tutaj będzie śledzone przez YouTube/Google."
+msgstr "YouTube (własność Google) nie pozwala oglądać filmów bez logowania. Oglądanie tutaj będzie śledzone przez YouTube/Google."
 
 # smartling.placeholder_format=C
 #. Label for a privacy disclaimer related to YouTube videos
@@ -9428,9 +9413,7 @@ msgctxt "new tab page"
 msgid ""
 "Your browser provides the list of most-visited sites. DuckDuckGo never has "
 "access to this data."
-msgstr ""
-"Twoja przeglądarka wyświetla listę najczęściej odwiedzanych witryn. "
-"DuckDuckGo nigdy nie ma dostępu do tych danych."
+msgstr "Twoja przeglądarka wyświetla listę najczęściej odwiedzanych witryn. DuckDuckGo nigdy nie ma dostępu do tych danych."
 
 # smartling.placeholder_format=C
 msgctxt "homepage ATB modal"
@@ -9443,9 +9426,7 @@ msgctxt "newsletter email collection"
 msgid ""
 "Your email address will not be shared, %sor associated with anonymous "
 "searches. [%sExample message%s]"
-msgstr ""
-"Twój adres email nie będzie udostępniany, %1$sani nie będzie można go "
-"powiązać z anonimowym wyszukiwaniem. [%2$sPrzykładowa wiadomość%3$s]"
+msgstr "Twój adres email nie będzie udostępniany, %1$sani nie będzie można go powiązać z anonimowym wyszukiwaniem. [%2$sPrzykładowa wiadomość%3$s]"
 
 # smartling.placeholder_format=C
 #. Text explaining how the cloud save feature works.
@@ -9455,11 +9436,8 @@ msgid ""
 "known as %sSHA-2%s. Only the key and associated settings file leave your "
 "browser. We save the settings file using the key as the name. DuckDuckGo "
 "never knows your passphrase."
-msgstr ""
-"Twoje hasło generuje 512-bitowy klucz przy użyciu bezpiecznego algorytmu "
-"wyznaczania wartości skrótu znanego jako %1$sSHA-2%2$s. Tylko klucz i "
-"powiązany plik ustawień wychodzą z przeglądarki. Zapisujemy plik ustawień, "
-"używając klucza jako nazwy. DuckDuckGo nie zna Twojego hasła."
+msgstr "Twoje hasło generuje 512-bitowy klucz przy użyciu bezpiecznego algorytmu wyznaczania wartości skrótu znanego jako %1$sSHA-2%2$s. Tylko klucz i powiązany"
+" plik ustawień wychodzą z przeglądarki. Zapisujemy plik ustawień, używając klucza jako nazwy. DuckDuckGo nie zna Twojego hasła."
 
 # smartling.placeholder_format=C
 #. Message on a feedback form.
@@ -9486,7 +9464,7 @@ msgstr "reklama"
 # smartling.placeholder_format=C
 #. Used in 0-click box for product results, e.g. <a href="https://duckduckgo.com/?q=9780061353246">https://duckduckgo.com/?q=9780061353246</a>
 msgid "by %s"
-msgstr "przez %1$s"
+msgstr "autorstwa %1$s"
 
 # smartling.placeholder_format=C
 #. Label indicating something is made by a specific brand. The placeholder value is a brand name. For example 'by Microsoft'
@@ -9658,67 +9636,3 @@ msgstr "kontra"
 msgctxt "published date for videos"
 msgid "yr"
 msgstr "rok"
-
-# smartling.placeholder_format=C
-#~ msgctxt "Weather IA"
-#~ msgid "Freezing drizzle"
-#~ msgstr "Marznąca mżawka"
-
-# smartling.placeholder_format=C
-#~ msgctxt "Weather IA"
-#~ msgid "Freezing rain"
-#~ msgstr "Marznący deszcz"
-
-# smartling.placeholder_format=C
-#~ msgctxt "Weather IA"
-#~ msgid "Heavy rain"
-#~ msgstr "Ulewny deszcz"
-
-# smartling.placeholder_format=C
-#~ msgctxt "Weather IA"
-#~ msgid "Heavy snow"
-#~ msgstr "Silne opady śniegu"
-
-# smartling.placeholder_format=C
-#~ msgctxt "Weather IA"
-#~ msgid "Isolated thunderstorms"
-#~ msgstr "Pojedyncze burze"
-
-# smartling.placeholder_format=C
-#~ msgid "Load Cloud Settings"
-#~ msgstr "Wczytaj ustawienia z chmury"
-
-# smartling.placeholder_format=C
-#~ msgctxt "Weather IA"
-#~ msgid "Mostly clear"
-#~ msgstr "Przeważnie słonecznie"
-
-# smartling.placeholder_format=C
-#~ msgctxt "Weather IA"
-#~ msgid "Partly cloudy"
-#~ msgstr "Częściowo pochmurno"
-
-# smartling.placeholder_format=C
-#~ msgctxt "Anomaly modal"
-#~ msgid "Select all squares containing a duck"
-#~ msgstr "Zaznacz wszystkie kwadraty zawierające kaczkę"
-
-# smartling.placeholder_format=C
-#~ msgctxt "Weather IA"
-#~ msgid "Strong storms"
-#~ msgstr "Silne burze"
-
-# smartling.placeholder_format=C
-#~ msgctxt "Weather IA"
-#~ msgid "Tropical storm"
-#~ msgstr "Burza tropikalna"
-
-# smartling.placeholder_format=C
-#~ msgctxt "Weather IA"
-#~ msgid "Wintry mix"
-#~ msgstr "Zimowa pogoda"
-
-# smartling.placeholder_format=C
-#~ msgctxt "local_query_rewrite_experiment"
-#~ msgid "Your actual location remains"
-#~ msgstr "Twoja bieżąca lokalizacja pozostaje"
