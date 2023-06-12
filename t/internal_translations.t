@@ -15,7 +15,7 @@ use vars qw/*name *dir *prune %european_languages/;
 
 %european_languages = (
     af_ZA => {
-      more_info => "Nog Inligting",
+      more_info => "Meer inligting",
       ad_badge => "Jou privaatheid word deur DuckDuckGo beskerm as jy na advertensies kyk. Advertensie-klikke word deur Microsoft se advertensienetwerk bestuur"
     },
     be_BY => {
@@ -27,7 +27,7 @@ use vars qw/*name *dir *prune %european_languages/;
       ad_badge => "Вашата поверителност при гледане на реклами е защитена от DuckDuckGo. Рекламните кликове се управляват от рекламната мрежа на Microsoft"
     },
     cs_CZ => {
-      more_info => "více informací",
+      more_info => "Více informací",
       ad_badge => "Při zobrazení reklam společnost DuckDuckGo chrání vaše soukromí. Kliknutí na reklamy jsou spravována reklamní sítí společnosti Microsoft"
     },
     da_DK => {
@@ -123,7 +123,7 @@ use vars qw/*name *dir *prune %european_languages/;
       ad_badge => "Vizualizarea reclamelor este protejată de confidențialitatea DuckDuckGo. Clicurile pe reclame  sunt gestionate de rețeaua publicitară Microsoft"
     },
     ru_RU => {
-      more_info => "Подробнее",
+      more_info => "подробнее",
       ad_badge => "DuckDuckGo обеспечивает защиту конфиденциальности пользователей при просмотре рекламных объявлений. Управление переходами по рекламным объявлениям осуществляется рекламной сетью Майкрософт"
     },
     si_LK => {
