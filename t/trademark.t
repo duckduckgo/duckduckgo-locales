@@ -18,7 +18,7 @@ sub wanted;
 sub trademark_check {
     my ( $msgid, $msgstr ) = map { s/^"//r =~ s/"$//r } @_;
     return 1 unless $msgid && $msgstr;
-    $msgstr =~ /DuckDuckGo/;
+    $msgstr =~ /DuckDuckG[oó]/;
 }
 
 File::Find::find({wanted => \&wanted}, 'locales');
