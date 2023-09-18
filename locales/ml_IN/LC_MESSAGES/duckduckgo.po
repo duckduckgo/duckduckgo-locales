@@ -66,6 +66,11 @@ msgid "%s attempts"
 msgstr "%1$s ശ്രമങ്ങൾ"
 
 # smartling.placeholder_format=C
+#. A summary description of how many tracking attempts where blocked, when there was more than 1. Eg: '1,028 attempts blocked by DuckDuckGo in the last 24 hours'
+msgid "%s attempts blocked by DuckDuckGo in the last 24 hours"
+msgstr "കഴിഞ്ഞ 24 മണിക്കൂറിനുള്ളിൽ %1$s ശ്രമങ്ങൾ DuckDuckGo തടഞ്ഞു"
+
+# smartling.placeholder_format=C
 #. A label that indicates a specific search result has been blocked by the safe search filter. The placeholder value is the name of the search result that was blocked.
 msgid "%s blocked by safe search."
 msgstr "%1$s സുരക്ഷിത തിരയലിനാൽ തടയപ്പെട്ടു."
@@ -202,6 +207,11 @@ msgstr "തിരയൽ ബാറിൽ %1$sവലത് ക്ലിക്ക�
 msgctxt "tracker_stats"
 msgid "1 attempt"
 msgstr "1 ശ്രമം"
+
+# smartling.placeholder_format=C
+#. A summary description of how many tracking attempts where blocked, when only one exists.
+msgid "1 attempt blocked by DuckDuckGo in the last 24 hours"
+msgstr "കഴിഞ്ഞ 24 മണിക്കൂറിനുള്ളിൽ DuckDuckGo 1 ശ്രമം തടഞ്ഞു"
 
 # smartling.placeholder_format=C
 #. We realise this is the incorrect way to handle plurals. Sorry, we are working on a fix.
@@ -1139,6 +1149,12 @@ msgstr "നിങ്ങൾ ബ്രൗസ് ചെയ്യുമ്പോൾ 
 msgctxt "welcome message eu search preference android"
 msgid "Block unsafe trackers"
 msgstr "സുരക്ഷിതമല്ലാത്ത ട്രാക്കറുകൾ തടയുക"
+
+# smartling.placeholder_format=C
+#. Used as a toggle label in a page customization menu
+msgctxt "customizer_menu"
+msgid "Blocked Tracking Attempts"
+msgstr "തടയപ്പെട്ട ട്രാക്കിംഗ് ശ്രമങ്ങൾ"
 
 # smartling.placeholder_format=C
 #. Header above a list of trackers (or tracking companies) that have been blocked in the past 24 hours.
@@ -2282,6 +2298,16 @@ msgid "Custom date range"
 msgstr "ഇഷ്‌ടാനുസൃത തീയതി ശ്രേണി"
 
 # smartling.placeholder_format=C
+#. The heading of a modal that's shown to a user when they ask to customize the page's components. The 'New Tab Page' is the page shown when a user opens a new empty tab in their browser.
+msgid "Customize New Tab Page"
+msgstr "പുതിയ ടാബ് പേജ് ഇഷ്ടാനുസൃതമാക്കുക"
+
+# smartling.placeholder_format=C
+#. The help text shown to users to indicate that there's a menu that can be used to customize the layout of the page
+msgid "Customize this page"
+msgstr "ഈ പേജ് ഇഷ്ടാനുസൃതമാക്കുക"
+
+# smartling.placeholder_format=C
 #. The name of the Czech language
 msgctxt "language_name"
 msgid "Czech"
@@ -2533,6 +2559,12 @@ msgid "Don't see the checkbox? %sFollow these steps%s."
 msgstr "ചെക്ക്ബോക്സ് കാണുന്നില്ലേ? %1$sഈ ഘട്ടങ്ങൾ പിൻപറ്റുക%2$s ."
 
 # smartling.placeholder_format=C
+#. Setting that hides a user's most visited sites when they open a new browser tab.
+msgctxt "new tab page"
+msgid "Don't show"
+msgstr "കാണിക്കരുത്"
+
+# smartling.placeholder_format=C
 msgctxt "precise_user_location"
 msgid "Done"
 msgstr "പൂർത്തിയായി"
@@ -2666,6 +2698,11 @@ msgstr ""
 "ഉപയോഗിക്കുന്നു, തുടർന്ന് നിങ്ങൾ അജ്ഞാതമായി തുടരുന്ന തരത്തിൽ ഞങ്ങൾ അത് ഉടനടി "
 "ഉപേക്ഷിച്ചുകളയുന്നു. %1$sനിങ്ങളുടെ സ്വകാര്യത പരിരക്ഷിക്കുന്നതിന് ഞങ്ങൾ ഈ "
 "സാങ്കേതികവിദ്യ രൂപകൽപ്പന ചെയ്തത് എങ്ങനെയെന്ന് കൂടുതൽ അറിയുക%2$s."
+
+# smartling.placeholder_format=C
+msgctxt "new tab page"
+msgid "DuckDuckGo never has access to this data."
+msgstr "DuckDuckGo-യ്ക്ക് ഒരിക്കലും ഈ ഡാറ്റയിലേക്ക് ആക്സസ് ഇല്ല."
 
 # smartling.placeholder_format=C
 msgctxt "settings"
@@ -5099,6 +5136,12 @@ msgid "Morocco"
 msgstr "മൊറോക്കൊ"
 
 # smartling.placeholder_format=C
+#. Used as a toggle label in a page customization menu
+msgctxt "new tab page"
+msgid "Most-Visited Sites"
+msgstr "ഏറ്റവും കൂടുതൽ സന്ദർശിച്ച സൈറ്റുകൾ"
+
+# smartling.placeholder_format=C
 #. Used when presented as an option in a feedback form
 msgctxt "new tab page"
 msgid "Most-visited sites"
@@ -6716,6 +6759,12 @@ msgid "Reset All Settings"
 msgstr "എല്ലാ ക്രമീകരണവും പുനഃക്രമീകരിക്കുക"
 
 # smartling.placeholder_format=C
+#. Label on the button for restoring all previous website data.
+msgctxt "new tab page"
+msgid "Restore all"
+msgstr "എല്ലാം പുനഃസ്ഥാപിക്കുക"
+
+# smartling.placeholder_format=C
 #. http://i.imgur.com/kqN8dPT.png
 msgctxt "settings"
 msgid "Result Highlight Color"
@@ -7500,6 +7549,12 @@ msgstr "ഹ്രസ്വം"
 #. Description of an autocomplete function in the search bar.
 msgid "Shortcuts to other sites to search off DuckDuckGo"
 msgstr "DuckDuckGo തിരയാൻ മറ്റ് സൈറ്റുകളിലേക്കുള്ള കുറുക്കുവഴികൾ"
+
+# smartling.placeholder_format=C
+#. It's a verb on a button.
+msgctxt "visible"
+msgid "Show"
+msgstr "കാണിക്കുക"
 
 # smartling.placeholder_format=C
 #. button to show X>1 more options in a list
@@ -8560,6 +8615,16 @@ msgstr "DuckDuckGo തടയുന്ന ട്രാക്കറുകൾ ഇ�
 # smartling.placeholder_format=C
 #. Placeholder for when we cannot report any blocked trackers yet
 msgctxt "tracker_stats"
+msgid ""
+"Tracking attempts blocked by DuckDuckGo appear here. Keep browsing to see "
+"how many we block."
+msgstr ""
+"DuckDuckGo തടഞ്ഞ ട്രാക്കിംഗ് ശ്രമങ്ങൾ ഇവിടെ ദൃശ്യമാകും. ഞങ്ങൾ എത്രയെണ്ണം "
+"ബ്ലോക്ക് ചെയ്യുന്നു എന്നറിയാൻ ബ്രൗസ് ചെയ്യുന്നത് തുടരുക."
+
+# smartling.placeholder_format=C
+#. Placeholder for when we cannot report any blocked trackers yet
+msgctxt "tracker_stats"
 msgid "Tracking attempts blocked by DuckDuckGo will appear here"
 msgstr "DuckDuckGo തടഞ്ഞ ട്രാക്കിംഗ് ശ്രമങ്ങൾ ഇവിടെ ദൃശ്യമാകും"
 
@@ -8875,6 +8940,12 @@ msgstr "അടിവര:"
 msgctxt "settings"
 msgid "Underlines result titles"
 msgstr "ഫലങ്ങളിലെ ശീർഷകങ്ങൾക്ക് അടിവരയിടുന്നു"
+
+# smartling.placeholder_format=C
+#. Label on the button that allows the previous action to be undone. For example, after removing a website this is shown.
+msgctxt "new tab page"
+msgid "Undo"
+msgstr "പഴയപടിയാക്കുക"
 
 # smartling.placeholder_format=C
 #. Title of modal shown when we believe a user to be a bot
@@ -9376,6 +9447,12 @@ msgid "Website is missing"
 msgstr "വെബ്‌സൈറ്റ് കാണുന്നില്ല"
 
 # smartling.placeholder_format=C
+#. Shown as confirmation that a website link was removed from a list.
+msgctxt "new tab page"
+msgid "Website removed"
+msgstr "വെബ്സൈറ്റ് നീക്കം ചെയ്തു"
+
+# smartling.placeholder_format=C
 #. Weekday abbreviation (short for 'Wednesday')
 msgctxt "maps_places"
 msgid "Wed"
@@ -9798,6 +9875,23 @@ msgstr "നിങ്ങളുടെ യഥാർത്ഥ ലൊക്കേഷ�
 #. Floating text over a tick next to search results which indicates if a link has been visited.
 msgid "Your browser indicates if you've visited this link"
 msgstr "നിങ്ങൾ ഈ ലിങ്ക് സന്ദർശിച്ചോ എന്ന് നിങ്ങളുടെ ബ്രൗസർ സൂചിപ്പിക്കുന്നു"
+
+# smartling.placeholder_format=C
+msgctxt "new tab page"
+msgid "Your browser provides a list of your most-visited sites."
+msgstr ""
+"നിങ്ങൾ ഏറ്റവും കൂടുതൽ സന്ദർശിച്ച സൈറ്റുകളുടെ ഒരു ലിസ്റ്റ് നിങ്ങളുടെ ബ്രൗസർ "
+"നൽകുന്നു."
+
+# smartling.placeholder_format=C
+#. Used as a description in a menu
+msgctxt "new tab page"
+msgid ""
+"Your browser provides a list of your most-visited sites. DuckDuckGo never "
+"has access to this data."
+msgstr ""
+"നിങ്ങൾ ഏറ്റവും കൂടുതൽ സന്ദർശിച്ച സൈറ്റുകളുടെ ഒരു ലിസ്റ്റ് നിങ്ങളുടെ ബ്രൗസർ "
+"നൽകുന്നു. DuckDuckGo-യ്ക്ക് ഒരിക്കലും ഈ ഡാറ്റയിലേക്ക് ആക്സസ് ഇല്ല."
 
 # smartling.placeholder_format=C
 msgctxt "new tab page"
