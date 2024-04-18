@@ -48,10 +48,21 @@ msgid "%s Out"
 msgstr "%1$s個出局"
 
 # smartling.placeholder_format=C
+#. Displaying the number of reviews in plural for a website
+msgid "%s Reviews"
+msgstr "%1$s 評論"
+
+# smartling.placeholder_format=C
 #. Used to indicate the season year, e.g. '2020 Season'
 msgctxt "Sports module"
 msgid "%s Season"
 msgstr "%1$s年賽季"
+
+# smartling.placeholder_format=C
+#. Text describing available AI models when onboarding. Example: 'GPT-3.5 and Claude AI models'
+msgctxt "Onboarding welcome screen feature"
+msgid "%s and %s AI models"
+msgstr "%1$s 與 %2$s AI 模型"
 
 # smartling.placeholder_format=C
 #. Message that appears above the search results encouraging them to filter results by domain. The placeholder string would include a the name of a website. E.g. 'Reddit appears in some of the top results for this search.'
@@ -105,9 +116,23 @@ msgid "%s in privacy donations!"
 msgstr "%1$s的隱私公益捐款！"
 
 # smartling.placeholder_format=C
+#. Displayed when an AI chat model is temporarily unavailable. Example: 'GPT 3.5 Turbo is temporarily unavailable. Please switch to a different model or try again later.'
+msgctxt "Error message for model unavailability"
+msgid ""
+"%s is temporarily unavailable. Please switch to a different model or try "
+"again later."
+msgstr "%1$s暫時無法使用。 請切換至其他模型或請稍後再試。"
+
+# smartling.placeholder_format=C
 #. Distance in kilometers. Placeholder is a number. For example: '100 km'
 msgid "%s km"
 msgstr "%1$s公里"
+
+# smartling.placeholder_format=C
+#. Disclaimer text shown bellow chat input on mobile, avoid long text if possible. Example: 'GPT-3 may display inaccurate or offensive information.'
+msgctxt "Disclaimer bellow chat input - mobile"
+msgid "%s may display inaccurate or offensive information."
+msgstr "%1$s 可能會顯示不正確或令人反感的資訊。"
 
 # smartling.placeholder_format=C
 #. Distance measured in miles. Placeholder is a number. For example: '100 mi'
@@ -196,6 +221,11 @@ msgstr "%1$s重設篩選條件%2$s"
 #. Tells users where to click in their browser to change the default search engine.
 msgid "%sRight click%s in the search bar"
 msgstr "在搜尋列中%1$s按右鍵%2$s"
+
+# smartling.placeholder_format=C
+#. Displaying 1 review for a website
+msgid "1 Review"
+msgstr "1 則評論"
 
 # smartling.placeholder_format=C
 #. Number of tracking attempts blocked, when there's only 1
@@ -462,6 +492,18 @@ msgid "Above Title"
 msgstr "標題上方"
 
 # smartling.placeholder_format=C
+#. Label for a menu item for the active privacy protection feature.
+msgctxt "Menu item label"
+msgid "Active Privacy Protection"
+msgstr "主動隱私權保護"
+
+# smartling.placeholder_format=C
+#. Title of the modal about the active privacy protection.
+msgctxt "Modal title for privacy"
+msgid "Active Privacy Protection"
+msgstr "主動隱私權保護"
+
+# smartling.placeholder_format=C
 #. A label that appears on an advertisement. 'Ad' is an abbreviation for 'Advertisement'
 msgid "Ad"
 msgstr "廣告"
@@ -717,6 +759,12 @@ msgid "All types"
 msgstr "所有類型"
 
 # smartling.placeholder_format=C
+#. Tells users which icon to press in their browser. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Allow DuckDuckGo to use your location."
+msgstr "允許 DuckDuckGo 使用您的位置。"
+
+# smartling.placeholder_format=C
 msgctxt "settings"
 msgid ""
 "Allows Cloud Save key to be stored locally on device (required to use Cloud "
@@ -876,6 +924,12 @@ msgstr "這些廣告有用嗎？"
 msgctxt "feedback form"
 msgid "Are these links helpful?"
 msgstr "這些連結有用嗎？"
+
+# smartling.placeholder_format=C
+#. Body text of the modal that asks the user if they want to clear the conversation.
+msgctxt "Modal body for clearing conversation"
+msgid "Are you sure you want to clear this conversation and start a new one?"
+msgstr "您確定要清除此對話並開始全新對話嗎？"
 
 # smartling.placeholder_format=C
 msgid "Argentina"
@@ -1343,6 +1397,12 @@ msgid "Cameroon"
 msgstr "喀麥隆"
 
 # smartling.placeholder_format=C
+#. Text for a prompt suggestion for creating a few simple recipes using chicken, broccoli, and rice.
+msgctxt "Full sentence for crafting a recipe"
+msgid "Can you create a few simple recipes using chicken, broccoli, and rice?"
+msgstr "您能用雞肉、花椰菜與米製作幾道簡單的食譜嗎？"
+
+# smartling.placeholder_format=C
 msgid "Canada"
 msgstr "加拿大"
 
@@ -1357,6 +1417,18 @@ msgstr "取消"
 # smartling.placeholder_format=C
 #. A cancel button that can appear in multiple product areas
 msgctxt "Generic cancel button"
+msgid "Cancel"
+msgstr "取消"
+
+# smartling.placeholder_format=C
+#. Text of the secondary button in the modal that cancels the action of clearing the conversation.
+msgctxt "Modal secondary button for clearing conversation"
+msgid "Cancel"
+msgstr "取消"
+
+# smartling.placeholder_format=C
+#. Text displayed on the secondary button in the modal that cancels the action when clicked.
+msgctxt "Modal secondary button text"
 msgid "Cancel"
 msgstr "取消"
 
@@ -1443,6 +1515,12 @@ msgstr "置中對齊"
 msgctxt "Sports module"
 msgid "Central"
 msgstr "中區"
+
+# smartling.placeholder_format=C
+#. Tooltip text for the button that allows the user to change the default AI model.
+msgctxt "Tooltip for model selection"
+msgid "Change default model"
+msgstr "變更預設模型"
 
 # smartling.placeholder_format=C
 #. This is the description of a user setting -- Example image: https://i.imgur.com/yihFekW.png
@@ -1589,6 +1667,48 @@ msgid "Chat"
 msgstr "聊天"
 
 # smartling.placeholder_format=C
+#. Option for feedback when the user wants to complain that the chat does not save the user's conversations.
+msgctxt "Feedback option for chat not saving conversations"
+msgid "Chat does not save my conversations"
+msgstr "聊天不會儲存我的對話"
+
+# smartling.placeholder_format=C
+#. Option for feedback when the user finds the chat is lacking features.
+msgctxt "Feedback option for chat lacking features"
+msgid "Chat is lacking features"
+msgstr "聊天缺乏功能"
+
+# smartling.placeholder_format=C
+#. Option for feedback when the user finds the chat is slow.
+msgctxt "Feedback option for slow chat"
+msgid "Chat is slow"
+msgstr "聊天速度太慢"
+
+# smartling.placeholder_format=C
+#. Option for feedback when the chat response is below expectations.
+msgctxt "Feedback option for chat response below expectations"
+msgid "Chat response is below expectations"
+msgstr "聊天回覆未達預期"
+
+# smartling.placeholder_format=C
+#. Option for feedback when the chat response is inaccurate.
+msgctxt "Feedback option for inaccurate chat response"
+msgid "Chat response is inaccurate"
+msgstr "聊天回覆不準確"
+
+# smartling.placeholder_format=C
+#. Option for feedback when the chat response is offensive.
+msgctxt "Feedback option for offensive chat response"
+msgid "Chat response is offensive"
+msgstr "聊天回覆令人反感"
+
+# smartling.placeholder_format=C
+#. Placeholder text used in chat input for user’s messages. Example: 'Chat with GPT-3'
+msgctxt "Placeholder text user’s chat input"
+msgid "Chat with %s"
+msgstr "與 %1$s 聊天"
+
+# smartling.placeholder_format=C
 #. Message shown when we have no data from upstream to display
 msgctxt "Single Place Hotel Offers Module"
 msgid "Check %s for rates and availability."
@@ -1681,6 +1801,12 @@ msgid "Clear All"
 msgstr "清除所有"
 
 # smartling.placeholder_format=C
+#. Text of the primary button in the modal that clears the conversation.
+msgctxt "Modal primary button for clearing conversation"
+msgid "Clear Conversation"
+msgstr "清除對話"
+
+# smartling.placeholder_format=C
 #. A button to clear the currently applied site filter.
 msgctxt "Site filter message"
 msgid "Clear Filter"
@@ -1696,6 +1822,18 @@ msgstr "清除位置"
 #. A button that clears are filters that have been applied to search results.
 msgid "Clear all filters"
 msgstr "清除所有篩選條件"
+
+# smartling.placeholder_format=C
+#. Text in a button to clear a chat conversation, also used as a tooltip text.
+msgctxt "Clear Conversation button text and tooltip label text"
+msgid "Clear conversation"
+msgstr "清除對話"
+
+# smartling.placeholder_format=C
+#. Title of the modal that asks the user if they want to clear the conversation.
+msgctxt "Modal title for clearing conversation"
+msgid "Clear conversation?"
+msgstr "清除對話？"
 
 # smartling.placeholder_format=C
 #. Part of a list of what our app can do. The app can: …
@@ -2123,6 +2261,12 @@ msgid "Community"
 msgstr "社群"
 
 # smartling.placeholder_format=C
+#. Short string representing a prompt suggestion for composing a card.
+msgctxt "Brief for composing a card"
+msgid "Compose a card"
+msgstr "撰寫卡片"
+
+# smartling.placeholder_format=C
 #. Instant Answer Tab Name
 msgid "Concerts"
 msgstr "演唱會"
@@ -2189,9 +2333,27 @@ msgid "Cookie data:"
 msgstr "Cookie資料："
 
 # smartling.placeholder_format=C
+#. Text of a tooltip displayed when the user has copied the text content after pressing a button
+msgctxt "Text for a button after copying content to the clipboard"
+msgid "Copied"
+msgstr "已複製"
+
+# smartling.placeholder_format=C
 #. Instructions on how to change the default search engine
 msgid "Copy &amp; paste %sabout:preferences#search%s into the address bar"
 msgstr "複製%1$sabout:preferences#search%2$s並在網址列貼上"
+
+# smartling.placeholder_format=C
+#. Text for a button that copies the content from a block of programming code. Please keep the text as short as possible.
+msgctxt "Text for a button for copying preformatted code block content"
+msgid "Copy Code"
+msgstr "複製代碼"
+
+# smartling.placeholder_format=C
+#. Tooltip text for the button that copies the chat response content to the clipboard.
+msgctxt "Tooltip for copy action"
+msgid "Copy to Clipboard"
+msgstr "複製至剪貼簿"
 
 # smartling.placeholder_format=C
 #. Descriptive text for a button that allows users to copy text that has been translated.
@@ -2227,10 +2389,22 @@ msgid "Coupons"
 msgstr "優惠券"
 
 # smartling.placeholder_format=C
+#. Short string representing a prompt suggestion for crafting a recipe.
+msgctxt "Brief for crafting a recipe"
+msgid "Craft a recipe"
+msgstr "製作食譜"
+
+# smartling.placeholder_format=C
 #. Label below a video that's available under the Creative Commons license.
 msgctxt "video-license"
 msgid "Creative Commons"
 msgstr "創用CC"
+
+# smartling.placeholder_format=C
+#. Short string representing a prompt suggestion for critiquing writing.
+msgctxt "Brief for critiquing writing"
+msgid "Critique your writing"
+msgstr "批評您的寫作"
 
 # smartling.placeholder_format=C
 msgid "Croatia"
@@ -2421,6 +2595,12 @@ msgid "Default"
 msgstr "預設"
 
 # smartling.placeholder_format=C
+#. Short string representing a prompt suggestion for defining a term.
+msgctxt "Brief for defining a term"
+msgid "Define a term"
+msgstr "定義術語"
+
+# smartling.placeholder_format=C
 #. Instant Answer Tab Name - define a word
 msgid "Definition"
 msgstr "定義"
@@ -2590,6 +2770,12 @@ msgid "Done"
 msgstr "完成"
 
 # smartling.placeholder_format=C
+#. Text of a button that will download a file (e.g. Browser installer)
+msgctxt "SERP footer content"
+msgid "Download"
+msgstr "下載"
+
+# smartling.placeholder_format=C
 #. Text of a button that will install the DuckDuckGo browser when clicked
 msgctxt "Browser Promo Popover"
 msgid "Download Browser"
@@ -2605,6 +2791,36 @@ msgstr "下載 DuckDuckGo 瀏覽器"
 #. Button that downloads a file.
 msgid "Download file"
 msgstr "下載檔案"
+
+# smartling.placeholder_format=C
+#. Text for a prompt suggestion for drafting an email to a vendor requesting a quote for ceiling fan repair services.
+msgctxt "Full sentence for writing an email"
+msgid ""
+"Draft a concise and detailed email to a vendor requesting a quote for "
+"ceiling fan repair services."
+msgstr "撰寫一封簡明扼要的供應商電子郵件，要求提供吊扇維修服務的報價。"
+
+# smartling.placeholder_format=C
+#. Text for a prompt suggestion for drafting a social media post inviting people to an upcoming party.
+msgctxt "Full sentence for drafting a social media post"
+msgid ""
+"Draft a few options for a social media post inviting people to my upcoming "
+"party."
+msgstr "撰寫一些社群媒體貼文選項，邀請人們參加我即將舉行的聚會。"
+
+# smartling.placeholder_format=C
+#. Text for a prompt suggestion for drafting a few options for a blog post title about strategies to increase team collaboration.
+msgctxt "Full sentence for suggesting a blog post title"
+msgid ""
+"Draft a few options for a title of a post I’m writing about strategies to "
+"increase team collaboration."
+msgstr "為我正在撰寫的一篇關於增加團隊協作的策略的貼文的標題起草幾個選項。"
+
+# smartling.placeholder_format=C
+#. Short string representing a prompt suggestion for drafting a social media post.
+msgctxt "Brief for drafting a social media post"
+msgid "Draft a social media post"
+msgstr "起草社交媒體貼文"
 
 #  Firefox 33 / SeaMonkey homepage instruction
 # smartling.placeholder_format=C
@@ -2649,6 +2865,52 @@ msgstr "DuckAssist"
 msgctxt "settings"
 msgid "DuckAssist <sup>BETA</sup>"
 msgstr "DuckAssist <sup>測試版</sup>"
+
+# smartling.placeholder_format=C
+#. Displayed when the chat service has reached the maximum number of messages for one day.
+msgctxt "Error message for service limit"
+msgid ""
+"DuckDuckGo AI Chat has reached the maximum number of messages for one day. "
+"Please continue this chat tomorrow."
+msgstr "DuckDuckGo AI Chat 已達每日訊息數目上限。請於明天再繼續聊天。"
+
+# smartling.placeholder_format=C
+#. Body text of the modal that provides information about the AI chat service and supported AI models. Example: 'DuckDuckGo AI Chat is a private AI-powered chat service that currently supports OpenAI’s GPT-3.5 and Anthropic’s Claude chat models.'
+msgctxt "Modal body for information"
+msgid ""
+"DuckDuckGo AI Chat is a private AI-powered chat service that currently "
+"supports %s’s %s and %s’s %s chat models."
+msgstr "DuckDuckGo AI Chat 是一款私密 AI 驅動的聊天服務，目前支援 %1$s 的 %2$s 與 %3$s 的 %4$s 聊天模型。"
+
+# smartling.placeholder_format=C
+#. Subtitle displayed on the welcome screen of the onboarding. Example: 'DuckDuckGo AI Chat is a private AI-powered chat service that currently supports OpenAI’s GPT-3.5 and Anthropic’s Claude chat models.'
+msgctxt "Onboarding welcome screen subtitle"
+msgid ""
+"DuckDuckGo AI Chat is a private AI-powered chat service that currently "
+"supports %s’s %s and %s’s %s chat models."
+msgstr "DuckDuckGo AI Chat 是一款私密 AI 驅動的聊天服務，目前支援 %1$s 的 %2$s 與 %3$s 的 %4$s 聊天模型。"
+
+# smartling.placeholder_format=C
+#. Text displayed at the bottom of a feedback form giving a disclaimer regarding DuckDuckGo AI Chat.
+msgctxt "Disclaimer text at the bottom of the feedback form."
+msgid ""
+"DuckDuckGo AI Chat is in Beta, it may display inaccurate or offensive "
+"information."
+msgstr "DuckDuckGo AI Chat 處於測試階段，可能會顯示不準確或令人反感的資訊。"
+
+# smartling.placeholder_format=C
+#. Displayed when there is an error in the chat and ask the user to refresh the page and try again.
+msgctxt "Error message for VQD error"
+msgid ""
+"DuckDuckGo AI Chat is temporarily unavailable. Please refresh the page and "
+"try again."
+msgstr "DuckDuckGo AI Chat 暫時無法使用。 請重新整理頁面，接著再試一次。"
+
+# smartling.placeholder_format=C
+#. Displayed when the AI chat service is temporarily unavailable.
+msgctxt "Error message for service unavailability"
+msgid "DuckDuckGo AI Chat is temporarily unavailable. Please try again later."
+msgstr "DuckDuckGo AI Chat 暫時無法使用。 請稍後再試。"
 
 # smartling.placeholder_format=C
 #. this is either the title that gets created by opening https://duckduckgo.com/duckduckbot or the top header in https://duckduckgo.com/duckduckbot
@@ -3013,6 +3275,13 @@ msgid "Expand Map"
 msgstr "展開地圖"
 
 # smartling.placeholder_format=C
+#. Text for a prompt suggestion for explaining the fundamental concepts of black holes at a high-school level.
+msgctxt "Full sentence for understanding a topic"
+msgid ""
+"Explain the fundamental concepts of black holes to me at a high-school level."
+msgstr "向我解釋高中等級黑洞的基本概念。"
+
+# smartling.placeholder_format=C
 #. Label to show if song lyrics contain explicit content
 msgctxt "lyrics_module"
 msgid "Explicit"
@@ -3184,6 +3453,12 @@ msgstr "找到%1$sDuckDuckGo%2$s並按%3$s設定為預設%4$s"
 #. Tells users how to change their default search engine to DuckDuckGo.
 msgid "Find DuckDuckGo in the displayed list and click %sMake Default%s"
 msgstr "在顯示出的清單中選擇DuckDuckGo並按%1$s設定為預設%2$s"
+
+# smartling.placeholder_format=C
+#. Short string representing a prompt suggestion for finding a better word.
+msgctxt "Brief for finding a better word"
+msgid "Find a better word"
+msgstr "尋找更好的字詞"
 
 # smartling.placeholder_format=C
 #. Button that searches for results closer to the user's current location.
@@ -3464,6 +3739,18 @@ msgid "General"
 msgstr "一般"
 
 # smartling.placeholder_format=C
+#. Text with short description for an AI Model.
+msgctxt "Label copy with short description of AI Model"
+msgid "General Purpose"
+msgstr "一般用途"
+
+# smartling.placeholder_format=C
+#. Placeholder text displayed while the AI assistant is generating a response.
+msgctxt "Assistant response placeholder"
+msgid "Generating response..."
+msgstr "產生回應......"
+
+# smartling.placeholder_format=C
 #. The name of the German language
 msgctxt "language_name"
 msgid "German"
@@ -3497,15 +3784,39 @@ msgid "Get Our Browser"
 msgstr "取得我們的瀏覽器"
 
 # smartling.placeholder_format=C
+#. 'Get' refers to downloading our free browser app
+msgctxt "SERP footer content"
+msgid "Get Our Mac Browser"
+msgstr "取得我們的 Mac 瀏覽器"
+
+# smartling.placeholder_format=C
+#. 'Get' refers to downloading our free browser app
+msgctxt "SERP footer content"
+msgid "Get Our Windows Browser"
+msgstr "取得我們的 Windows 瀏覽器"
+
+# smartling.placeholder_format=C
 msgctxt "showcase_privacy"
 msgid "Get Privacy Tips"
 msgstr "取得隱私提示"
+
+# smartling.placeholder_format=C
+#. Text displayed on the button of the onboarding welcome screen.
+msgctxt "Onboarding welcome screen button text"
+msgid "Get Started"
+msgstr "開始使用"
 
 # smartling.placeholder_format=C
 #. Find answers to common problems in our help documentation
 msgctxt "SERP footer content"
 msgid "Get answers at DuckDuckGo Help."
 msgstr "在 DuckDuckGo 說明中取得解答。"
+
+# smartling.placeholder_format=C
+#. Short string representing a prompt suggestion for getting computer help.
+msgctxt "Brief for getting computer help"
+msgid "Get computer help"
+msgstr "取得電腦協助"
 
 # smartling.placeholder_format=C
 msgid ""
@@ -3543,6 +3854,22 @@ msgstr "邀請你的朋友使用DuckDuckGo，並幫助我們成長！"
 # smartling.placeholder_format=C
 msgid "Ghana"
 msgstr "迦納"
+
+# smartling.placeholder_format=C
+#. Tells users where to find the location settings in the settings menu. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid ""
+"Go to %sSettings > Privacy & Security > Location Services%s, and make sure "
+"“Location Services” is turned on."
+msgstr "前往 %1$s 設定 > 隱私權和安全性 > 位置服務 %2$s，並確定「位置服務」已開啟。"
+
+# smartling.placeholder_format=C
+#. Prompts users to turn on the location service on their phone.
+msgctxt "precise_user_location"
+msgid ""
+"Go to %sSettings > Privacy > Permission manager > Location%s and scroll down "
+"to %sDuckDuckGo%s."
+msgstr "前往%1$s設定>隱私權>權限管理>位置%2$s ，接著往下捲動至 %3$sDuckDuckGo%4$s。"
 
 # smartling.placeholder_format=C
 #. Tells users where to find the location settings in the settings menu. Part of a list of instructions on how to enable location service.
@@ -3591,6 +3918,12 @@ msgstr "好功能"
 msgctxt "precise_user_location"
 msgid "Got it"
 msgstr "瞭解了"
+
+# smartling.placeholder_format=C
+#. Text of the primary button in the modal that acknowledges the information.
+msgctxt "Modal primary button for closing information modal."
+msgid "Got it!"
+msgstr "瞭解了！"
 
 # smartling.placeholder_format=C
 #. Filters the color of images in search results.
@@ -3645,6 +3978,12 @@ msgstr "%1$s群組"
 msgctxt "Sports module"
 msgid "Groups"
 msgstr "群組"
+
+# smartling.placeholder_format=C
+#. Text for a prompt suggestion for guiding through the basic steps of replacing a window wiper.
+msgctxt "Full sentence for learning a new skill"
+msgid "Guide me through the basic steps of replacing a window wiper."
+msgstr "引導我完成更換車窗雨刷的基本步驟。"
 
 # smartling.placeholder_format=C
 #. The name of the Gujarati language
@@ -3791,6 +4130,12 @@ msgstr "協助推廣DuckDuckGo！"
 #. Link to a page with information about sharing DuckDuckGo with friends.
 msgid "Help Spread Privacy"
 msgstr "協助推廣隱私保護"
+
+# smartling.placeholder_format=C
+#. Title for a feedback form modal.
+msgctxt "Title of feedback form"
+msgid "Help us make AI Chat better"
+msgstr "協助我們改善 AI Chat"
 
 # smartling.placeholder_format=C
 msgctxt "SERP footer content"
@@ -3941,6 +4286,12 @@ msgid "Hover, Module, and Dropdown Background Color"
 msgstr "游標移入、模組、下拉選單背景顏色"
 
 # smartling.placeholder_format=C
+#. Text for a prompt suggestion for saving an email as a PDF.
+msgctxt "Full sentence for getting computer help"
+msgid "How can I save an email as a PDF?"
+msgstr "如何將電子郵件另存為 PDF 檔？"
+
+# smartling.placeholder_format=C
 #. Header above an explanation of how to change a passphrase.
 msgctxt "cloudsave"
 msgid "How do I change my passphrase?"
@@ -3965,6 +4316,14 @@ msgid "How is it anonymous?"
 msgstr "如何保持匿名？"
 
 # smartling.placeholder_format=C
+#. Text for a prompt suggestion for preparing to approach a colleague about their constant pencil tapping.
+msgctxt "Full sentence for preparing for a conversation"
+msgid ""
+"How should I tactfully approach a colleague about their constant pencil "
+"tapping and what should I say?"
+msgstr "對於同事不斷敲擊鉛筆的狀況，我該如何委婉地與他們溝通？我該說些什麼？"
+
+# smartling.placeholder_format=C
 #. Refers to humidity in the air, in a weather forecast module.
 msgctxt "forecast"
 msgid "Humidity"
@@ -3985,6 +4344,12 @@ msgstr "匈牙利"
 msgctxt "Weather IA"
 msgid "Hurricane"
 msgstr "颶風"
+
+# smartling.placeholder_format=C
+#. Text displayed on the button on the screen of the onboarding where the user agrees to the Terms of Use and Privacy Policy.
+msgctxt "Onboarding terms screen button text"
+msgid "I Agree"
+msgstr "我同意"
 
 # smartling.placeholder_format=C
 #. Category of feedback a user can select on a feedback form.
@@ -4025,10 +4390,36 @@ msgid "I forgot my passphrase. Can you recover it?"
 msgstr "我忘記了通關密語，你能否幫我找回？"
 
 # smartling.placeholder_format=C
+#. Option for feedback when the user hits a chat limit.
+msgctxt "Feedback option for hitting chat limit"
+msgid "I hit a chat limit"
+msgstr "我已達聊天上限"
+
+# smartling.placeholder_format=C
+#. Text for a prompt suggestion for recommending books similar to 'Name of the Wind'.
+msgctxt "Full sentence for recommending a book"
+msgid ""
+"I like the book Name of the Wind. What are some other good books/series most "
+"like it and why?"
+msgstr "我喜歡《風之名》這本書。 還有哪些其他類似的優質書籍/系列，為什麼？"
+
+# smartling.placeholder_format=C
+#. Option for feedback when the user needs more help or information on how to use the chat.
+msgctxt "Feedback option for difficulty in using chat"
+msgid "I need more help/info on how to use Chat"
+msgstr "我需要更多與如何使用 Chat 的相關協助/資訊"
+
+# smartling.placeholder_format=C
 #. The name of the Icelandic language
 msgctxt "language_name"
 msgid "Icelandic"
 msgstr "冰島語"
+
+# smartling.placeholder_format=C
+#. Short string representing a prompt suggestion for identifying product brands.
+msgctxt "Brief for identifying product brands"
+msgid "Identify product brands"
+msgstr "辨識產品品牌"
 
 # smartling.placeholder_format=C
 #. Tells users where to find location settings within the settings menu. Part of a list of instructions on how to enable location service.
@@ -4056,6 +4447,14 @@ msgid ""
 "If you don't see %sDuckDuckGo,%s you will need to add it to the list of "
 "%sOther Search Engines%s"
 msgstr "如果你沒看見%1$sDuckDuckGo，%2$s必須先將其新增至%3$s其他搜尋引擎%4$s的清單中"
+
+# smartling.placeholder_format=C
+#. Text displayed at the bottom of a feedback form giving a disclaimer regarding the AI model providers and links to their support pages. Example: 'If you have concerns about our chat providers or any particular chat response, you can also reach out directly to OpenAI and Anthropic support pages.'
+msgctxt "Disclaimer text at the bottom of the feedback form."
+msgid ""
+"If you have concerns about our chat providers or any particular chat "
+"response, you can also reach out directly to %s and %s support pages."
+msgstr "若您對我們的聊天供應商或任何特定的聊天回覆有任何疑問，也能夠直接聯絡 %1$s 與 %2$s 支援頁面。"
 
 # smartling.placeholder_format=C
 #. http://i.imgur.com/ReKkJtU.png
@@ -4093,6 +4492,12 @@ msgstr "圖像"
 #. Title for the section that showcases the image results for a certain query, ex. Images for <b>beach</b>
 msgid "Images for %s%s%s"
 msgstr "%1$s %2$s %3$s 的圖片"
+
+# smartling.placeholder_format=C
+#. Short string representing a prompt suggestion for improving arguments.
+msgctxt "Brief for improving arguments"
+msgid "Improve your arguments"
+msgstr "改善您的論點"
 
 # smartling.placeholder_format=C
 #. This is the description of a user setting -- Example image: https://i.imgur.com/IqBhHpM.png
@@ -4548,6 +4953,12 @@ msgid "Last 10"
 msgstr "前十場戰績"
 
 # smartling.placeholder_format=C
+#. Date of last update of the Privacy Policy & Terms of Use page.
+msgctxt "Date of last update of the Privacy Policy & Terms of Use page."
+msgid "Last updated April 3, 2024"
+msgstr "最後更新時間：2024 年 4 月 3 日"
+
+# smartling.placeholder_format=C
 msgid "Latvia"
 msgstr "拉脫維亞"
 
@@ -4579,9 +4990,21 @@ msgid "Learn More at Firefox Add-Ons"
 msgstr "在Firefox附加元件中瞭解更多資訊"
 
 # smartling.placeholder_format=C
+#. Short string representing a prompt suggestion for learning a new skill.
+msgctxt "Brief for learning a new skill"
+msgid "Learn a new skill"
+msgstr "學習一項全新技能"
+
+# smartling.placeholder_format=C
 msgctxt "showcase_newsletter"
 msgid "Learn about online privacy right in your inbox."
 msgstr "就在收件匣內瞭解線上隱私。"
+
+# smartling.placeholder_format=C
+#. Description of a page with more information about how anonymous location works.
+msgctxt "precise_user_location"
+msgid "Learn how we keep your location private"
+msgstr "瞭解我們如何保護你的位置隱私。"
 
 # smartling.placeholder_format=C
 msgctxt "SERP footer content"
@@ -4752,6 +5175,12 @@ msgstr "長"
 #. bold header
 msgid "Look & Feel Settings"
 msgstr "設定外觀與體驗"
+
+# smartling.placeholder_format=C
+#. Short string representing a prompt suggestion for looking up basic facts.
+msgctxt "Brief for looking up basic facts"
+msgid "Lookup basic facts"
+msgstr "查詢基本事實"
 
 # smartling.placeholder_format=C
 #. Text indicating the loser of a World Cup game when that team is not yet known
@@ -5358,6 +5787,12 @@ msgid "News for %s%s%s"
 msgstr "%1$s %2$s %3$s 的最新消息"
 
 # smartling.placeholder_format=C
+#. Text displayed on a button to proceed to the next onboarding step.
+msgctxt "Onboarding pick a chat model screen button text"
+msgid "Next"
+msgstr "下一頁"
+
+# smartling.placeholder_format=C
 msgid "Nigeria"
 msgstr "奈及利亞"
 
@@ -5382,6 +5817,12 @@ msgstr "沒有 %1$s 比賽安排"
 msgctxt "Sports module"
 msgid "No %s games scheduled in %s"
 msgstr "第%2$s週沒有%1$s比賽安排"
+
+# smartling.placeholder_format=C
+#. Text describing feature highlighted on the welcome screen of the onboarding.
+msgctxt "Onboarding welcome screen feature"
+msgid "No AI training on your conversations"
+msgstr "您的對話不會被用來訓練 AI 模型"
 
 # smartling.placeholder_format=C
 #. Indicates that driving directions aren't available between two locations on a map.
@@ -6164,6 +6605,18 @@ msgid "Pick a category"
 msgstr "選擇種類"
 
 # smartling.placeholder_format=C
+#. Text displayed in the header of the modal that allows the user to pick an AI chat model.
+msgctxt "Modal header text"
+msgid "Pick a chat model"
+msgstr "選擇聊天模型"
+
+# smartling.placeholder_format=C
+#. Title displayed on the screen of the onboarding where the user picks an AI chat model.
+msgctxt "Onboarding pick a chat model screen title"
+msgid "Pick a chat model"
+msgstr "選擇聊天模型"
+
+# smartling.placeholder_format=C
 #. Label for a list of problems on a feedback form.
 msgctxt "feedback form"
 msgid "Pick a specific problem"
@@ -6190,6 +6643,12 @@ msgid "Places"
 msgstr "地方"
 
 # smartling.placeholder_format=C
+#. Short string representing a prompt suggestion for planning a trip.
+msgctxt "Brief for planning a trip"
+msgid "Plan a trip"
+msgstr "計劃行程"
+
+# smartling.placeholder_format=C
 #. Bot challenge explanation
 msgctxt "Anomaly modal"
 msgid ""
@@ -6204,10 +6663,24 @@ msgid "Please enter a pass phrase"
 msgstr "請輸入一個通關密語"
 
 # smartling.placeholder_format=C
+#. Disclaimer text displayed in a modal that informs the user that starting a new chat with any AI model will delete their current chat session.
+msgctxt "Modal disclaimer text"
+msgid ""
+"Please note: starting a new chat with any model will delete your current "
+"chat session."
+msgstr "請注意：以任何模型開始全新聊天將會刪除您目前的聊天對話。"
+
+# smartling.placeholder_format=C
 #. Title on a feedback form.
 msgctxt "feedback form"
 msgid "Please provide feedback"
 msgstr "請提供意見回饋"
+
+# smartling.placeholder_format=C
+#. Short subtitle text instructing the user to pick up a category of feedback from a list.
+msgctxt "Subtitle of feedback form"
+msgid "Please select a category of your feedback"
+msgstr "請選擇您的意見反映類別"
 
 # smartling.placeholder_format=C
 #. Asks users to select an option in a feedback form.
@@ -6256,6 +6729,12 @@ msgstr "請提供電話號碼"
 msgctxt "feedback form"
 msgid "Please suggest the website URL"
 msgstr "請提供網址"
+
+# smartling.placeholder_format=C
+#. Error message displayed when the user's input exceeds the character limit.
+msgctxt "Error message when input exceeds character limit"
+msgid "Please try a shorter message."
+msgstr "請嘗試較短的訊息。"
 
 #  https://duckduckgo.com/?e=1
 # smartling.placeholder_format=C
@@ -6333,6 +6812,18 @@ msgstr "順延"
 msgctxt "settings"
 msgid "Preferred units of measure"
 msgstr "計量單位偏好"
+
+# smartling.placeholder_format=C
+#. Short string representing a prompt suggestion for preparing for a conversation.
+msgctxt "Brief for preparing for a conversation"
+msgid "Prepare for a conversation"
+msgstr "準備對話"
+
+# smartling.placeholder_format=C
+#. Short string representing a prompt suggestion for preparing for a purchase.
+msgctxt "Brief for preparing for a purchase"
+msgid "Prepare for a purchase"
+msgstr "準備購買"
 
 # smartling.placeholder_format=C
 #. Main page under "More"
@@ -6451,6 +6942,24 @@ msgid "Privacy Policy"
 msgstr "隱私政策"
 
 # smartling.placeholder_format=C
+#. Text used in other strings to link to the Privacy Policy content.
+msgctxt "Copy used to compose link in sentences"
+msgid "Privacy Policy"
+msgstr "隱私政策"
+
+# smartling.placeholder_format=C
+#. Text on link to the Privacy Policy & Terms of Use page.
+msgctxt "Text on link to the Privacy Policy & Terms of Use page."
+msgid "Privacy Policy & Terms of Use"
+msgstr "隱私權政策與使用條款"
+
+# smartling.placeholder_format=C
+#. Title displayed on the screen of the onboarding where the user agrees to the Terms of Use and Privacy Policy.
+msgctxt "Onboarding terms screen title"
+msgid "Privacy Policy and Terms of Use"
+msgstr "隱私權政策和使用條款"
+
+# smartling.placeholder_format=C
 msgid "Privacy Protection For Any Device"
 msgstr "在所有裝置上保護私隱"
 
@@ -6499,6 +7008,12 @@ msgstr "私密搜尋"
 # smartling.placeholder_format=C
 msgid "Private Search Engine"
 msgstr "Private Search引擎"
+
+# smartling.placeholder_format=C
+#. Text describing feature highlighted on the welcome screen of the onboarding.
+msgctxt "Onboarding welcome screen feature"
+msgid "Private chats, never saved by us"
+msgstr "我們從未儲存私密聊天記錄"
 
 # smartling.placeholder_format=C
 #. The device location shared is is not logged by us
@@ -6557,6 +7072,14 @@ msgstr "在搜尋和瀏覽時保護您的資料。"
 msgctxt "showcase_app"
 msgid "Protect your data on every device."
 msgstr "保護你在每台裝置上的資料。"
+
+# smartling.placeholder_format=C
+#. Text for a prompt suggestion for providing suggestions to make a text more concise.
+msgctxt "Full sentence for critiquing writing"
+msgid ""
+"Provide a few suggestions to make the following text more concise. [Insert "
+"your own text here.]"
+msgstr "提供一些建議，讓下列文字更簡潔有力。 [插入您個人的文字。]"
 
 # smartling.placeholder_format=C
 #. In the context of a standings table for NHL (hockey), column title that abbreviates 'Total Points' (the total points of this team)
@@ -6661,6 +7184,12 @@ msgid "Recipes for %s%s%s"
 msgstr "%1$s %2$s %3$s 的食譜"
 
 # smartling.placeholder_format=C
+#. Short string representing a prompt suggestion for recommending a book.
+msgctxt "Brief for recommending a book"
+msgid "Recommend a book"
+msgstr "推薦一本書"
+
+# smartling.placeholder_format=C
 #. Used for various color settings  query parameters values captions into <a =href="https://duckduckgo.com/params.html">query parameters documentation page</a>.
 msgid "Red"
 msgstr "紅色"
@@ -6683,6 +7212,12 @@ msgstr "重新導向（當有必要時）"
 # smartling.placeholder_format=C
 msgid "Redirect:"
 msgstr "重新導向："
+
+# smartling.placeholder_format=C
+#. Tooltip text for the button that retries the assistant's response.
+msgctxt "Tooltip for redo action"
+msgid "Redo"
+msgstr "重做"
 
 # smartling.placeholder_format=C
 #. Label for a menu with different countries.
@@ -6997,6 +7532,12 @@ msgid "Save your settings anonymously to the cloud"
 msgstr "以匿名方式將你的設定儲存至雲端"
 
 # smartling.placeholder_format=C
+#. Title displayed on the welcome screen of the onboarding.
+msgctxt "Onboarding welcome screen title"
+msgid "Say hello to DuckDuckGo AI Chat!"
+msgstr "向 DuckDuckGo AI Chat 打聲招呼！"
+
+# smartling.placeholder_format=C
 #. Title of a tab that displays a list of the season schedule for a team
 msgctxt "Sports module"
 msgid "Schedule"
@@ -7049,6 +7590,12 @@ msgstr "往下捲動並找到%1$s在網址列搜尋%2$s。按%3$s修改%4$s（�
 msgctxt "precise_user_location"
 msgid "Scroll down and locate %syour browser%s in the list."
 msgstr "向下捲動，在清單中找到%1$s你的瀏覽器%2$s。"
+
+# smartling.placeholder_format=C
+#. Tells users which setting to change to enable location service.
+msgctxt "precise_user_location"
+msgid "Scroll down to %sDuckDuckGo%s and allow it to use your location."
+msgstr "往下捲動至%1$s DuckDuckGo %2$s並允許其使用你的位置。"
 
 #  Edge default search engine instruction
 # smartling.placeholder_format=C
@@ -7212,6 +7759,12 @@ msgid "See Photos"
 msgstr "查看照片"
 
 # smartling.placeholder_format=C
+#. Text of the secondary button in the modal that allows the user to open the terms and privacy policy page.
+msgctxt "Modal secondary button for privacy"
+msgid "See Terms and Privacy Policy"
+msgstr "查看條款和隱私權政策"
+
+# smartling.placeholder_format=C
 #. Links to a page that provides a list of DuckDuckGo product updates
 msgctxt "SERP footer content"
 msgid "See What's New"
@@ -7223,6 +7776,11 @@ msgstr "查看最新消息"
 msgctxt "cloudsave"
 msgid "See also"
 msgstr "另見"
+
+# smartling.placeholder_format=C
+#. Text for tooltip shown on hover when displaying the number of reviews the merchant has on an ad
+msgid "See merchant reviews on bing.com"
+msgstr "查看商家對 bing.com 的評論"
 
 # smartling.placeholder_format=C
 #. Link to a page with more information about how user settings are stored in a URL.
@@ -7419,6 +7977,12 @@ msgid "Send"
 msgstr "寄送"
 
 # smartling.placeholder_format=C
+#. Text in a tooltip of a button that sends a user message to the chat.
+msgctxt "Send user prompt"
+msgid "Send"
+msgstr "寄送"
+
+# smartling.placeholder_format=C
 #. Link to a feedback form.
 msgctxt "feedback form"
 msgid "Send feedback"
@@ -7454,6 +8018,12 @@ msgstr "塞爾維亞語（拉丁文）"
 #. Text prompting users to make DuckDuckGo the default search engine in their browser.
 msgid "Set DuckDuckGo as your %sdefault search engine"
 msgstr "將DuckDuckGo設為%1$s預設搜尋引擎"
+
+# smartling.placeholder_format=C
+#. Button that allows users to manually select a location on a map.
+msgctxt "precise_user_location"
+msgid "Set Location on Map"
+msgstr "在地圖上設定位置"
 
 # smartling.placeholder_format=C
 #. Button that allows users to manually select their current location on a map.
@@ -7502,6 +8072,12 @@ msgstr "設定已更新"
 msgctxt "homepage onboarding"
 msgid "Share DuckDuckGo and help friends take their privacy back!"
 msgstr "分享DuckDuckGo，幫助朋友們重奪隱私！"
+
+# smartling.placeholder_format=C
+#. Text displayed on a button that opens a feedback modal when clicked.
+msgctxt "Share Feedback button text"
+msgid "Share Feedback"
+msgstr "分享回饋意見"
 
 # smartling.placeholder_format=C
 #. Link to a feedback form.
@@ -7937,6 +8513,12 @@ msgid "Standings"
 msgstr "戰績"
 
 # smartling.placeholder_format=C
+#. Text displayed on the primary button in the modal that starts a new chat when clicked.
+msgctxt "Modal primary button text"
+msgid "Start New Chat"
+msgstr "開始全新聊天"
+
+# smartling.placeholder_format=C
 #. A prompt to start a new web search.
 msgid "Start searching!"
 msgstr "開始搜尋！"
@@ -7969,6 +8551,12 @@ msgstr "訂閱隱私電子報，隨時保護隱私並掌握相關資訊。"
 #. Instant Answer tab name - eg. https://duckduckgo.com/?q=Energy+Transfer+Equity&ia=stock
 msgid "Stock"
 msgstr "股票"
+
+# smartling.placeholder_format=C
+#. Text in a tooltip of a button that stops an ongoing streaming response from the AI chat.
+msgctxt "Stop ongoing streaming response from AI chat"
+msgid "Stop"
+msgstr "停止"
 
 # smartling.placeholder_format=C
 msgctxt "homepage ATB modal"
@@ -8036,6 +8624,20 @@ msgstr "建議其他通關密語"
 msgctxt "settings"
 msgid "Suggest a Passphrase"
 msgstr "建議一個通關密語"
+
+# smartling.placeholder_format=C
+#. Text for a prompt suggestion for suggesting a phrase to write on a get-well card for someone recovering from a surgery.
+msgctxt "Full sentence for composing a card"
+msgid ""
+"Suggest a phrase to write on a get-well card for someone recovering from a "
+"surgery?"
+msgstr "為經歷手術後的患者撰寫一段康復卡上的短句？"
+
+# smartling.placeholder_format=C
+#. Short string representing a prompt suggestion for asking for a suggestion of a blog post title.
+msgctxt "Brief for suggesting a blog post title"
+msgid "Suggest a title for a blog post"
+msgstr "建議部落格文章的標題"
 
 # smartling.placeholder_format=C
 #. Label for suggested alternative search terms, when the user is suspected of having made a typo or entered a search term incorrectly.
@@ -8273,6 +8875,12 @@ msgid "Terms"
 msgstr "條款"
 
 # smartling.placeholder_format=C
+msgid "Terms of Service"
+msgstr "服務條款"
+
+# smartling.placeholder_format=C
+#. Text used in other strings to link to the Terms of Service content.
+msgctxt "Copy used to compose link in sentences"
 msgid "Terms of Service"
 msgstr "服務條款"
 
@@ -8532,6 +9140,13 @@ msgid "Title Underline"
 msgstr "標題底線"
 
 # smartling.placeholder_format=C
+#. Text stating agreement to AI Chat Privacy Policy and Terms of Service. Variables used to link to the Privacy Policy and Terms of Service content. Example: 'To continue, you must agree to DuckDuckGo AI Chat’s Privacy Policy and Terms of Service'
+msgctxt ""
+"Copy stating agreement to AI Chat Privacy Policy and Terms of Service."
+msgid "To continue, you must agree to DuckDuckGo AI Chat’s %s and %s"
+msgstr "欲繼續下一步，您必須同意 DuckDuckGo AI Chat 的%1$s與%2$s"
+
+# smartling.placeholder_format=C
 #. Instructions for how to print driving directions.
 msgctxt "directions"
 msgid ""
@@ -8629,6 +9244,20 @@ msgid "Tracking attempts blocked by DuckDuckGo will appear here"
 msgstr "被 DuckDuckGo 封鎖的追蹤嘗試將顯示在此"
 
 # smartling.placeholder_format=C
+#. Short string representing a prompt suggestion for translating text.
+msgctxt "Brief for translating text"
+msgid "Translate text"
+msgstr "翻譯文字"
+
+# smartling.placeholder_format=C
+#. Text for a prompt suggestion for translating an English sentence into French.
+msgctxt "Full sentence for translating text"
+msgid ""
+"Translate this English sentence into French: “How do I get to the nearest "
+"movie theatre?”"
+msgstr "將這段英文句子翻譯成法語：“How do I get to the nearest movie theatre？”"
+
+# smartling.placeholder_format=C
 #. Placeholder text for a region that will display translated text.
 msgctxt "translations_module"
 msgid "Translation"
@@ -8692,6 +9321,13 @@ msgid "Try enabling anonymous location for more accurate results."
 msgstr "嘗試啟用匿名位置功能來取得更精確的結果。"
 
 # smartling.placeholder_format=C
+#. Subtitle displayed on the screen of the onboarding where the user picks a chat model.
+msgctxt "Onboarding pick a chat model screen subtitle"
+msgid ""
+"Try experimenting with each model — they will provide different responses."
+msgstr "嘗試試每個模型 — 它們將提供不同的回覆。"
+
+# smartling.placeholder_format=C
 #. A prompt asking users to try searching with fewer words.
 msgctxt "noresults"
 msgid "Try fewer keywords."
@@ -8729,6 +9365,12 @@ msgstr "嘗試使用 %1$s DuckDuckGo 瀏覽器。%2$s 快速。免費。保密�
 #. Link to a page where users can download the DuckDuckGo app for iOS or Android.
 msgid "Try the DuckDuckGo app"
 msgstr "試用DuckDuckGo應用程式"
+
+# smartling.placeholder_format=C
+#. Message displayed to suggest the user to try the provided prompts or enter their own.
+msgctxt "Prompt suggestion message"
+msgid "Try these prompts to get started or enter your own prompt below"
+msgstr "嘗試這些提示開始使用或在下方輸入您個人的提示"
 
 # smartling.placeholder_format=C
 #. Message displayed sometimes at top of results (for bang syntax), e.g. <a href="https://duckduckgo.com/?q=twitter+test">https://duckduckgo.com/?q=twitter+test</a>
@@ -8771,6 +9413,18 @@ msgstr "土耳其語"
 #. A button that turns off a setting.
 msgid "Turn off:"
 msgstr "關閉："
+
+# smartling.placeholder_format=C
+#. Tells users which setting to change to enable location service.
+msgctxt "precise_user_location"
+msgid "Turn on “Precise Location” for more accurate results."
+msgstr "開啟「精確位置」獲取更精確的結果。"
+
+# smartling.placeholder_format=C
+#. Tells users where to find the location settings in the settings menu. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Turn on “Use precise location” for more accurate results."
+msgstr "開啟「使用精確位置」獲取更精確的結果。"
 
 # smartling.placeholder_format=C
 msgid "Twitter"
@@ -8864,6 +9518,12 @@ msgctxt "feedback form"
 msgid "Unable To Send Feedback"
 msgstr "無法傳送意見回饋"
 
+# smartling.placeholder_format=C
+#. Short string representing a prompt suggestion for uncovering pros and cons.
+msgctxt "Brief for uncovering pros and cons"
+msgid "Uncover pros and cons"
+msgstr "揭露優點與缺點"
+
 #  Chrome 36 on macOS, 27 on Windows
 # smartling.placeholder_format=C
 #. Tells the user where in the settings menu they can change their browser's home page.
@@ -8927,6 +9587,12 @@ msgstr "底線："
 msgctxt "settings"
 msgid "Underlines result titles"
 msgstr "為搜尋結果標題加上底線"
+
+# smartling.placeholder_format=C
+#. Short string representing a prompt suggestion for understanding a topic.
+msgctxt "Brief for understanding a topic"
+msgid "Understand a topic"
+msgstr "瞭解主題"
 
 # smartling.placeholder_format=C
 #. Label on the button that allows the previous action to be undone. For example, after removing a website this is shown.
@@ -9104,6 +9770,11 @@ msgstr "越南語"
 #. Button that shows the contents of a file.
 msgid "View File"
 msgstr "檢視檔案"
+
+# smartling.placeholder_format=C
+#. Heading for a dropdown that toggles more items
+msgid "View more items"
+msgstr "查看更多項目"
 
 # smartling.placeholder_format=C
 #. A link that appears next to videos in search results that takes users to the website that hosts the video. The placeholder is the name of the video website. For example: View on YouTube.'
@@ -9438,6 +10109,17 @@ msgid "Welcome Message"
 msgstr "歡迎訊息"
 
 # smartling.placeholder_format=C
+#. Welcome message displayed when the chat is opened. Example: 'Welcome to DuckDuckGo AI Chat! This chat session is powered by OpenAI’s GPT-3. All of your chats here are private, and are never stored by DuckDuckGo or used to train AI models.'
+msgctxt "Welcome message in chat"
+msgid ""
+"Welcome to DuckDuckGo AI Chat! This chat session is powered by %s’s %s. All "
+"of your chats here are private, and are never stored by DuckDuckGo or used "
+"to train AI models."
+msgstr ""
+"歡迎來到 DuckDuckGo AI Chat！此聊天會話由 %1$s 的 %2$s 提供技術支援。 您在這裡的所有聊天內容都是私密的，且永遠不會被 "
+"DuckDuckGo 儲存或用來訓練 AI 模型。"
+
+# smartling.placeholder_format=C
 #. Welcome message for new DuckDuckGo users.
 msgctxt "homepage onboarding"
 msgid "Welcome to the Duck Side!"
@@ -9467,6 +10149,40 @@ msgid "Western Conference"
 msgstr "西區聯盟"
 
 # smartling.placeholder_format=C
+#. Text for a prompt suggestion for providing arguments, counter-arguments, and rebuttals to the concept of a plant-based diet.
+msgctxt "Full sentence for improving arguments"
+msgid ""
+"What are some arguments, counter-arguments, and rebuttals to the concept of "
+"a plant-based diet?"
+msgstr "對植物性飲食的概念有哪些論點、反論證與反駁？"
+
+# smartling.placeholder_format=C
+#. Text for a prompt suggestion for considering factors when purchasing a computer monitor.
+msgctxt "Full sentence for preparing for a purchase"
+msgid "What are some factors to consider when purchasing a computer monitor?"
+msgstr "購買電腦顯示器時需要考慮哪些因素？"
+
+# smartling.placeholder_format=C
+#. Text for a prompt suggestion for asking about must-see attractions in Paris for a first-time visitor.
+msgctxt "Full sentence for planning a trip"
+msgid "What are some must-see attractions in Paris for a first-time visitor?"
+msgstr "首次造訪巴黎有哪些必訪景點？"
+
+# smartling.placeholder_format=C
+#. Text for a prompt suggestion for finding options for the word 'better' in a specific context.
+msgctxt "Full sentence for finding a better word"
+msgid ""
+"What are some options for the word ‘better’ in the context of “We really "
+"need to do better.”"
+msgstr "在「我們確實需要做更好」的背景下，「更好」一詞有哪些選項。"
+
+# smartling.placeholder_format=C
+#. Text for a prompt suggestion for uncovering pros and cons of annuities.
+msgctxt "Full sentence for uncovering pros and cons"
+msgid "What are some pros and cons of annuities?"
+msgstr "年金的優缺點是？"
+
+# smartling.placeholder_format=C
 #. Question in a feedback form.
 msgctxt "new user poll"
 msgid "What brought you back today?"
@@ -9491,6 +10207,12 @@ msgid "What do you think of the information shown?"
 msgstr "你對顯示的資訊評價如何？"
 
 # smartling.placeholder_format=C
+#. Text for a prompt suggestion for defining the term 'atria' in the context of a medical article.
+msgctxt "Full sentence for defining a term"
+msgid "What does atria mean in the context of a medical article?"
+msgstr "在醫學文章中，心房一詞的含義是？"
+
+# smartling.placeholder_format=C
 #. Header above a list of types of information that gets saved by the cloud save feature.
 msgctxt "cloudsave"
 msgid "What information gets saved?"
@@ -9503,6 +10225,12 @@ msgid ""
 "What is the Cloud Save bookmarklet and how does it differ from the URL "
 "parameter bookmarklet?"
 msgstr "甚麼是Cloud Save書籤小工具，以及它跟網址參數書籤小工具有何不同？"
+
+# smartling.placeholder_format=C
+#. Text for a prompt suggestion for looking up the capital city of Albania.
+msgctxt "Full sentence for looking up basic facts"
+msgid "What is the capital city of Albania?"
+msgstr "阿爾巴尼亞的首都是哪座城市？"
 
 # smartling.placeholder_format=C
 #. Link to a page with additional information.
@@ -9530,6 +10258,14 @@ msgstr "評論："
 #. Link to a page featuring the most recent updates from DuckDuckGo.
 msgid "What’s New"
 msgstr "最新消息"
+
+# smartling.placeholder_format=C
+#. Text for a prompt suggestion for identifying top product brands when buying an electric guitar for a beginner.
+msgctxt "Full sentence for identifying product brands"
+msgid ""
+"When buying an electric guitar for a beginner, what are the top product "
+"brands I should consider?"
+msgstr "在為初學者購買電吉他時，我應該考量哪些頂級產品品牌？"
 
 # smartling.placeholder_format=C
 #. Text of a button that performs a search for the available streaming services that show a particular movie or tv show
@@ -9684,6 +10420,24 @@ msgid "Worldwide Coverage Map"
 msgstr "全球涵蓋範圍地圖"
 
 # smartling.placeholder_format=C
+#. Text for a prompt suggestion for writing code with a basic loop structure in Python.
+msgctxt "Full sentence for writing code"
+msgid "Write a basic loop structure in Python for me."
+msgstr "用 Python 為我編寫一套基本的循環結構。"
+
+# smartling.placeholder_format=C
+#. Short string representing a prompt suggestion for writing an email.
+msgctxt "Brief for writing an email"
+msgid "Write an email"
+msgstr "撰寫一封電子郵件"
+
+# smartling.placeholder_format=C
+#. Short string representing a prompt suggestion for writing code.
+msgctxt "Brief for writing code"
+msgid "Write code"
+msgstr "編寫程式碼"
+
+# smartling.placeholder_format=C
 #. Label for the list of song writers name e.g. 'Written by: Freddy Mercury'
 msgctxt "lyrics_module"
 msgid "Written by"
@@ -9733,6 +10487,14 @@ msgstr "沒錯，當你使用完資料後，我們就會立即丟棄，資料一
 #. Option for the filter-by-date search.
 msgid "Yesterday"
 msgstr "昨天"
+
+# smartling.placeholder_format=C
+#. Disclaimer text shown bellow chat input. Example: 'You are chatting with GPT-3. AI chats may display inaccurate or offensive information.'
+msgctxt "Disclaimer bellow chat input - desktop"
+msgid ""
+"You are chatting with %s. AI chats may display inaccurate or offensive "
+"information."
+msgstr "你正在與%1$s聊天。AI chat 可能會顯示不準確或令人反感的訊息。"
 
 # smartling.placeholder_format=C
 #. Text explaning how to change a passphrase.
@@ -9873,6 +10635,20 @@ msgid ""
 msgstr "你的瀏覽器會提供最常造訪網站清單。DuckDuckGo從不存取這些資料。"
 
 # smartling.placeholder_format=C
+#. Text for a menu item that describes the privacy protection feature.
+msgctxt "Menu item description"
+msgid ""
+"Your chats are private, never saved by us, and not used to train AI models."
+msgstr "您的聊天內容是私密的，我們永遠不會儲存，也不會用來訓練人工智慧模型。"
+
+# smartling.placeholder_format=C
+#. Body text of the modal that provides information about the active privacy protection.
+msgctxt "Modal body for privacy"
+msgid ""
+"Your chats are private, never saved by us, and not used to train AI models."
+msgstr "您的聊天內容是私密的，我們永遠不會儲存，也不會用來訓練人工智慧模型。"
+
+# smartling.placeholder_format=C
 msgctxt "homepage ATB modal"
 msgid "Your data shouldn’t be for sale."
 msgstr "你的資料不該被販售。"
@@ -9907,6 +10683,30 @@ msgid "You’re Searching Privately with DuckDuckGo."
 msgstr "你正在使用DuckDuckGo進行私密搜尋。"
 
 # smartling.placeholder_format=C
+#. Displayed when the user has exceeded the maximum message size.
+msgctxt "Error message for input limit"
+msgid ""
+"You’ve exceeded the maximum message size. Please shorten your message and "
+"try again."
+msgstr "您已超過郵件大小上限。 請簡化您的訊息並再試一次。"
+
+# smartling.placeholder_format=C
+#. Displayed when the user has reached the maximum chat length in a conversation.
+msgctxt "Error message for conversation limit"
+msgid ""
+"You’ve reached the maximum chat length in this conversation. Clear this "
+"conversation with the Fire Button to continue."
+msgstr "您已達到此對話的最長聊天長度。 使用「Fire Button」按鈕清除此對話以繼續。"
+
+# smartling.placeholder_format=C
+#. Displayed when the user has reached the maximum number of messages for one day.
+msgctxt "Error message for user limit"
+msgid ""
+"You’ve reached the maximum number of messages for one day. Please continue "
+"this chat tomorrow."
+msgstr "您已達到每日訊息上限。 請於明天再繼續聊天。"
+
+# smartling.placeholder_format=C
 #. The name of the Yucatec Maya language
 msgctxt "language_name"
 msgid "Yucatec Maya"
@@ -9923,6 +10723,12 @@ msgstr "廣告"
 
 # smartling.placeholder_format=C
 #. Used in 0-click box for product results, e.g. <a href="https://duckduckgo.com/?q=9780061353246">https://duckduckgo.com/?q=9780061353246</a>
+msgid "by %s"
+msgstr "由%1$s製作"
+
+# smartling.placeholder_format=C
+#. Label of which AI provider the current AI Model comes from. Example: 'by OpenAI'
+msgctxt "AI provider label in the side menu item"
 msgid "by %s"
 msgstr "由%1$s製作"
 
