@@ -5,7 +5,7 @@ on: push
 jobs:
   run_tests:
     name: Run Tests
-    runs-on: ubuntu-16.04
+    runs-on: ubuntu-latest
     container:
       image: perl:5.28.1
     steps:
