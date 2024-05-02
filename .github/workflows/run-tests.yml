@@ -10,10 +10,12 @@ jobs:
       image: perl:5.28.1
     steps:
       - uses: actions/checkout@v3
-      - name: Install dependencies
+      - name: Install system dependencies
         run: |
           echo "deb http://archive.debian.org/debian stretch main contrib non-free" > /etc/apt/sources.list
           apt update -y
           apt install gettext -y
+      - name: Install Perl dependencies
+        run: carton install
       - name: Run tests
         run: prove -r t
