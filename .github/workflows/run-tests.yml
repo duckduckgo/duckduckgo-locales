@@ -16,6 +16,6 @@ jobs:
           apt update -y
           apt install gettext -y
       - name: Install Perl dependencies
-        run: carton install
+        run: cpanm --installdeps .
       - name: Run tests
         run: prove -r t
