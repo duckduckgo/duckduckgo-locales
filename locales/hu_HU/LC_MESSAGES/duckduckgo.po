@@ -2,10 +2,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DuckDuckGo-1.0\n"
-"Last-Translator: Community\n"
-"Language-Team: DuckDuckGo Community <community@duckduckgo.com>\n"
 "POT-Creation-Date: 2019-01-16 23:42-0500\n"
 "PO-Revision-Date: 2019-01-16 23:42-0500\n"
+"Last-Translator: Community\n"
+"Language-Team: DuckDuckGo Community <community@duckduckgo.com>\n"
 "Language: hu_HU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -104,6 +104,11 @@ msgid "%s for %s"
 msgstr "%1$s %2$s-ért."
 
 # smartling.placeholder_format=C
+#. States the title of an article and the website on which the article appears. The placeholder values are the title of the article and the name of the website. Example: 'How to Wash a Car from wikihow.com'
+msgid "%s from %s"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. We realise this is the incorrect way to handle plurals. Sorry, we are working on a fix.
 msgctxt "published dates for organic results"
 msgid "%s hours ago"
@@ -172,9 +177,9 @@ msgstr ""
 msgctxt "install-duckduckgo"
 msgid "%sClick %sAllow%sClick %sAdd%sCheck %sAllow%s, then click %sOkay%s"
 msgstr ""
-"%1$sKattints az %2$sEngedélyezés gombra%3$sKattints a %4$sHozzáadás "
-"gombra%5$sEllenőrizd az %6$sEngedélyezés%7$s elemet, majd kattints az "
-"%8$sOké gombra%9$s"
+"%1$sKattints az %2$sEngedélyezés gombra%3$sKattints a %4$sHozzáadás gombra"
+"%5$sEllenőrizd az %6$sEngedélyezés%7$s elemet, majd kattints az %8$sOké "
+"gombra%9$s"
 
 # Firefox
 # smartling.placeholder_format=C
@@ -214,7 +219,20 @@ msgstr "%1$sTudj meg többet%2$s"
 #. Link to a page with more information about how anonymous location works.
 msgctxt "precise_user_location"
 msgid "%sLearn how we keep your location private%s."
-msgstr "%1$sTudd meg, hogyan őrizzük meg a tartózkodási helyed bizalmasságát%2$s."
+msgstr ""
+"%1$sTudd meg, hogyan őrizzük meg a tartózkodási helyed bizalmasságát%2$s."
+
+# smartling.placeholder_format=C
+#. Tells the user to press and hold the DuckDuckGo app icon. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "%sLong-press%s the DuckDuckGo app icon on the home screen"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Prompts the user to reload the webpage.
+msgctxt "precise_user_location"
+msgid "%sReload%s DuckDuckGo, and try again"
+msgstr ""
 
 # smartling.placeholder_format=C
 #. Prompts the user to reload the webpage.
@@ -467,9 +485,8 @@ msgstr ""
 "Az AI Chat segítségével névtelen beszélgetéseket folytathatsz harmadik felek "
 "mesterséges intelligencián alapuló csevegési modelljeivel. Ennek "
 "kikapcsolása elrejti az AI Chat funkciót a DuckDuckGo Search "
-"szolgáltatásban. Ha a beállítás ki van kapcsolva, a "
-"%1$sduckduckgo.com/aichat%2$s oldalra látogatva továbbra is elérheted az AI "
-"Chatet."
+"szolgáltatásban. Ha a beállítás ki van kapcsolva, a %1$sduckduckgo.com/aichat"
+"%2$s oldalra látogatva továbbra is elérheted az AI Chatet."
 
 # smartling.placeholder_format=C
 #. A label for a setting that appears on a menu, used to control global AI features settings.
@@ -521,6 +538,12 @@ msgstr "További információ"
 msgctxt "static_page"
 msgid "About"
 msgstr "További információ"
+
+# smartling.placeholder_format=C
+#. A link to a page that provides information about the DuckDuckGo Browser (https://duckduckgo.com/app/)
+msgctxt "SERP footer content"
+msgid "About Browser"
+msgstr ""
 
 # smartling.placeholder_format=C
 #. at least in:
@@ -905,6 +928,12 @@ msgid "Animated GIF"
 msgstr "Animált GIF"
 
 # smartling.placeholder_format=C
+#. Tells the user the location being used to show search results. e.g. Anonymizing your location in London, UK.
+msgctxt "precise_user_location"
+msgid "Anonymizing your location in"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Confirmation message after location service is enabled.
 msgctxt "precise_user_location"
 msgid "Anonymous Location Enabled"
@@ -1261,7 +1290,8 @@ msgstr "Blokkold a legtöbb nyomkövetőt böngészés közben."
 # smartling.placeholder_format=C
 msgctxt "homepage ATB modal"
 msgid "Block trackers and take control of your personal data"
-msgstr "Blokkold a nyomkövetőket, és vedd át az irányítást a személyes adataid felett"
+msgstr ""
+"Blokkold a nyomkövetőket, és vedd át az irányítást a személyes adataid felett"
 
 # smartling.placeholder_format=C
 msgctxt "homepage ATB modal"
@@ -1626,7 +1656,8 @@ msgstr "Módosítja az eredmények URL-jeinek megjelenítési módját"
 #. This is the description of a user setting
 msgctxt "settings"
 msgid "Changes how the header is displayed and its behavior as you scroll"
-msgstr "Módosítja a fejléc megjelenítési módját és viselkedését görgetés közben."
+msgstr ""
+"Módosítja a fejléc megjelenítési módját és viselkedését görgetés közben."
 
 # smartling.placeholder_format=C
 #. http://i.imgur.com/mcZdcaF.png
@@ -1851,8 +1882,8 @@ msgstr "kínai (hagyományos)"
 #. As in 'Choose to keep DuckDuckGo as your default search engine'. Placeholders are for markup, you can ignore them.
 msgid "Choose %skeep it%s to continue protecting your privacy."
 msgstr ""
-"Ha továbbra is védeni szeretnéd a személyes adataid, válaszd a "
-"%1$smegtartás%2$s lehetőséget."
+"Ha továbbra is védeni szeretnéd a személyes adataid, válaszd a %1$smegtartás"
+"%2$s lehetőséget."
 
 # smartling.placeholder_format=C
 #. A headline letting the user choose between two video player options
@@ -1892,6 +1923,12 @@ msgstr "Derült"
 msgctxt "precise_user_location"
 msgid "Clear"
 msgstr "Törlés"
+
+# smartling.placeholder_format=C
+#. User clicks this button to clear a saved device location and disable precise user location
+msgctxt "precise_user_location"
+msgid "Clear & Disable"
+msgstr ""
 
 # smartling.placeholder_format=C
 #. This appears on a button that clears all of a user's settings.
@@ -1981,13 +2018,15 @@ msgstr "Kattints a %1$sHozzáadás%2$s lehetőségre"
 #. Instructions on which buttons the user has to click in order to add the DuckDuckGo extension to their browser.
 msgctxt "install-duckduckgo"
 msgid "Click %sAllow%s, then %sAdd%s."
-msgstr "Kattints az %1$sEngedélyezés%2$slehetőségre, majd a %3$sHozzáadás%4$s gombra."
+msgstr ""
+"Kattints az %1$sEngedélyezés%2$slehetőségre, majd a %3$sHozzáadás%4$s gombra."
 
 #  Firefox 33
 # smartling.placeholder_format=C
 #. Tells users where in the settings menu they can change their default search engine.
 msgid "Click %sChange Search Settings%s in the drop down"
-msgstr "Kattints a %1$sKeresési beállítások módosítása%2$s sorra a lenyíló menüben"
+msgstr ""
+"Kattints a %1$sKeresési beállítások módosítása%2$s sorra a lenyíló menüben"
 
 #  SeaMonkey default search engine instruction
 # smartling.placeholder_format=C
@@ -2021,7 +2060,8 @@ msgstr ""
 # smartling.placeholder_format=C
 #. Tells users how to add DuckDuckGo to the list of search engines in their browser.
 msgid "Click %sPrivacy and Services%s in the left sidebar."
-msgstr "Kattints a bal oldali sáv %1$sAdatvédelem és szolgáltatások%2$s elemére."
+msgstr ""
+"Kattints a bal oldali sáv %1$sAdatvédelem és szolgáltatások%2$s elemére."
 
 #  Safari homepage instruction
 # smartling.placeholder_format=C
@@ -2102,7 +2142,8 @@ msgstr "Kattints a %1$sBeállítás alapértelmezettként%2$s lehetőségre lent
 # smartling.placeholder_format=C
 #. Tells users how to add DuckDuckGo to the list of search engines in their browser.
 msgid "Click on the %sSearch Providers%s under Add-on Types"
-msgstr "Kattints a %1$sKeresőszolgáltatók%2$s lehetőségre a bővítménytípusoknál"
+msgstr ""
+"Kattints a %1$sKeresőszolgáltatók%2$s lehetőségre a bővítménytípusoknál"
 
 #  IE 11 default search engine instruction
 # smartling.placeholder_format=C
@@ -2174,6 +2215,12 @@ msgstr "Kattints a %1$shárom pont ikonra%2$s az eszköztárban."
 msgctxt "precise_user_location"
 msgid "Click the %slock icon%s on the address bar."
 msgstr "Kattints a %1$slakat ikonra%2$s a címsávban."
+
+# smartling.placeholder_format=C
+#. Tells users where to click in their browser to enable location service. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Click the %spermissions icon%s in the address bar"
+msgstr ""
 
 # smartling.placeholder_format=C
 #. Tells users where to click in their browser to search using DuckDuckGo.
@@ -2401,6 +2448,12 @@ msgid "Compare Privacy"
 msgstr "Adatvédelem összehasonlítása"
 
 # smartling.placeholder_format=C
+#. A link to a page that compares privacy features across different browsers and extensions (https://duckduckgo.com/compare-privacy/)
+msgctxt "SERP footer content"
+msgid "Compare Privacy"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Short string representing a prompt suggestion for composing a card.
 msgctxt "Brief for composing a card"
 msgid "Compose a card"
@@ -2481,7 +2534,8 @@ msgstr "Másolva"
 # smartling.placeholder_format=C
 #. Instructions on how to change the default search engine
 msgid "Copy &amp; paste %sabout:preferences#search%s into the address bar"
-msgstr "Másold ki és illeszd be az %1$sabout:preferences#search%2$s címet a címsorba"
+msgstr ""
+"Másold ki és illeszd be az %1$sabout:preferences#search%2$s címet a címsorba"
 
 # smartling.placeholder_format=C
 #. Text for a button that copies the content from a block of programming code. Please keep the text as short as possible.
@@ -3131,7 +3185,8 @@ msgstr ""
 #. Displayed when the AI chat service is temporarily unavailable.
 msgctxt "Error message for service unavailability"
 msgid "DuckDuckGo AI Chat is temporarily unavailable. Please try again later."
-msgstr "A DuckDuckGo AI Chat átmenetileg nem érhető el. Próbálkozz újra később."
+msgstr ""
+"A DuckDuckGo AI Chat átmenetileg nem érhető el. Próbálkozz újra később."
 
 # smartling.placeholder_format=C
 #. this is either the title that gets created by opening https://duckduckgo.com/duckduckbot or the top header in https://duckduckgo.com/duckduckbot
@@ -3322,10 +3377,17 @@ msgid "Email Protection"
 msgstr "E-mail védelem"
 
 # smartling.placeholder_format=C
+#. A link that takes the user to the Email Protection product page (https://duckduckgo.com/email/)
+msgctxt "SERP footer content"
+msgid "Email Protection"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Tells users which setting to change to enable location service.
 msgctxt "precise_user_location"
 msgid "Enable 'Sites can ask for my location.'"
-msgstr "Engedélyezd a „Webhelyek kérhetik a tartózkodási helyemet” lehetőséget."
+msgstr ""
+"Engedélyezd a „Webhelyek kérhetik a tartózkodási helyemet” lehetőséget."
 
 # smartling.placeholder_format=C
 #. Text explaining how to enable the cloud save feature.
@@ -3364,7 +3426,8 @@ msgstr ""
 #. Prompt to enable location service so that search results can be displayed near the user's current location.
 msgctxt "precise_user_location"
 msgid "Enable location settings on your device to use anonymous location"
-msgstr "Az anonim hely használatához engedélyezd a készülékeden a helymeghatározást"
+msgstr ""
+"Az anonim hely használatához engedélyezd a készülékeden a helymeghatározást"
 
 # smartling.placeholder_format=C
 #. Prompts users to turn on the location service on their phone.
@@ -3415,7 +3478,14 @@ msgstr ""
 #. Tells users to make sure location services are enabled on their device. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Ensure 'Location Services' is %senabled%s."
-msgstr "Győződj meg arról, hogy a „Helyszolgáltatások” %1$sengedélyezve vannak%2$s."
+msgstr ""
+"Győződj meg arról, hogy a „Helyszolgáltatások” %1$sengedélyezve vannak%2$s."
+
+# smartling.placeholder_format=C
+#. Tells users how to enable location service. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Ensure 'Location' is set to %sallow%s"
+msgstr ""
 
 # smartling.placeholder_format=C
 #. Tells users how to enable location service.
@@ -3426,24 +3496,49 @@ msgstr ""
 "állítva."
 
 # smartling.placeholder_format=C
+#. Tells users where to find the location settings in the settings menu. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Ensure Location is set to %sAllow%s"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Tells users to make sure location services are enabled on their device. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Ensure location access is %sallowed%s"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Tells users to make sure location services are enabled on their device. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Ensure location access is %sallowed%s."
 msgstr "Győződj meg arról, hogy a hely hozzáférés %1$sengedélyezve van%2$s."
 
 # smartling.placeholder_format=C
+#. Tells users how to enable location service. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Ensure your browser is allowed %slocation access%s"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Tells users how to enable location service.
 msgctxt "precise_user_location"
 msgid "Ensure your browser is allowed %slocation access%s."
 msgstr ""
-"Győződj meg arról, hogy böngésződben engedélyezve van a "
-"%1$shelyhozzáférés%2$s."
+"Győződj meg arról, hogy böngésződben engedélyezve van a %1$shelyhozzáférés"
+"%2$s."
+
+# smartling.placeholder_format=C
+#. Tells how to enable location service. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Ensure your browser is allowed location access"
+msgstr ""
 
 # smartling.placeholder_format=C
 #. Tells how to enable location service.
 msgctxt "precise_user_location"
 msgid "Ensure your browser is allowed location access."
-msgstr "Győződj meg arról, hogy böngésződben engedélyezve van a helyhozzáférés."
+msgstr ""
+"Győződj meg arról, hogy böngésződben engedélyezve van a helyhozzáférés."
 
 #  Opera homepage instruction
 # smartling.placeholder_format=C
@@ -3485,8 +3580,8 @@ msgstr "Írd be a szöveget"
 msgid ""
 "Enter the following details: %sName%s: DuckDuckGo%s URL%s: %s Alias%s: d%s"
 msgstr ""
-"Add meg a következőket: %1$sNév%2$s: DuckDuckGo%3$s Cím%4$s: %5$s "
-"Elnevezés%6$s: d%7$s"
+"Add meg a következőket: %1$sNév%2$s: DuckDuckGo%3$s Cím%4$s: %5$s Elnevezés"
+"%6$s: d%7$s"
 
 # smartling.placeholder_format=C
 #. Prompt to enter a destination for driving directions.
@@ -3560,6 +3655,12 @@ msgstr "Fedezd fel a DuckDuckGo legújabb termék- és funkciófrissítéseit."
 msgctxt "SERP footer content"
 msgid "Explore DuckDuckGo's latest product updates."
 msgstr "Fedezd fel a DuckDuckGo legújabb termékfrissítéseit."
+
+# smartling.placeholder_format=C
+#. A link to a page that provides the latest updates on DuckDuckGo products. (https://duckduckgo.com/updates/)
+msgctxt "SERP footer content"
+msgid "Explore DuckDuckGo’s latest product updates."
+msgstr ""
 
 #  seen on Opera 9.52, Firefox 33 and Chrome 27 besides homepage instructions; link to e.g. https://help.duckduckgo.com/desktop/opera/
 # smartling.placeholder_format=C
@@ -4040,6 +4141,12 @@ msgid "Get Directions"
 msgstr "Útvonaltervezés"
 
 # smartling.placeholder_format=C
+#. Heading for Get More column containing list of links to DuckDuckGo Links
+msgctxt "SERP footer content"
+msgid "Get More"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. The title of a page where users can download the DuckDuckGo app or browser extension.
 msgctxt "showcase_app"
 msgid "Get Our App & Extension"
@@ -4073,6 +4180,12 @@ msgstr "Adatvédelmi ötletek"
 msgctxt "Onboarding welcome screen button text"
 msgid "Get Started"
 msgstr "Első lépések"
+
+# smartling.placeholder_format=C
+#. Promotional message explaining that a VPN and two additional privacy protections are included in the Privacy Pro subscription.
+msgctxt "SERP footer content"
+msgid "Get a VPN + two more protections in one easy subscription."
+msgstr ""
 
 # smartling.placeholder_format=C
 #. Find answers to common problems in our help documentation
@@ -4126,15 +4239,21 @@ msgid "Ghana"
 msgstr "Ghána"
 
 # smartling.placeholder_format=C
+#. Tells user where to find location settings in the settings menu. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Go to %sPrivacy & Security > Location Services%s"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Tells users where to find the location settings in the settings menu. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid ""
 "Go to %sSettings > Privacy & Security > Location Services%s, and make sure "
 "“Location Services” is turned on."
 msgstr ""
-"Lépj a %1$sBeállítások > Adatvédelem és biztonság > "
-"Helymeghatározás%2$smenüpontra, és győződj meg arról, hogy a "
-"„Helymeghatározás” be van kapcsolva."
+"Lépj a %1$sBeállítások > Adatvédelem és biztonság > Helymeghatározás"
+"%2$smenüpontra, és győződj meg arról, hogy a „Helymeghatározás” be van "
+"kapcsolva."
 
 # smartling.placeholder_format=C
 #. Prompts users to turn on the location service on their phone.
@@ -4187,6 +4306,12 @@ msgstr "Szerzett gólok"
 msgctxt "shortbelieve"
 msgid "Goodies"
 msgstr "Előnyök"
+
+# smartling.placeholder_format=C
+#. Option selected by user to acknowledge understanding of information
+msgctxt "precise_user_location"
+msgid "Got It"
+msgstr ""
 
 # smartling.placeholder_format=C
 #. Option selected by user to acknowledge understanding of information
@@ -4578,6 +4703,12 @@ msgid "Hover, Module, and Dropdown Background Color"
 msgstr "Fölévitt egér, modul és legördülő menü háttérszíne"
 
 # smartling.placeholder_format=C
+#. Description of a page with more information about how anonymous location works in title case.
+msgctxt "precise_user_location"
+msgid "How We Keep Your Location Private"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Text for a prompt suggestion for saving an email as a PDF.
 msgctxt "Full sentence for getting computer help"
 msgid "How can I save an email as a PDF?"
@@ -4768,7 +4899,8 @@ msgstr ""
 #. http://i.imgur.com/ReKkJtU.png
 msgctxt "settings"
 msgid "If you still want to support us, %shelp spread DuckDuckGo%s"
-msgstr "Ha támogatni szeretnél minket, segíts a %1$sDuckDuckGo terjesztésében%2$s"
+msgstr ""
+"Ha támogatni szeretnél minket, segíts a %1$sDuckDuckGo terjesztésében%2$s"
 
 # smartling.placeholder_format=C
 #. From <a href="https://duckduckgo.com/settings.html">settings page</a>.
@@ -4853,15 +4985,16 @@ msgstr ""
 
 # smartling.placeholder_format=C
 msgid "In the menu at the top select %sTools%s > %sSettings%s"
-msgstr "A fenti menüben válaszd az %1$sEszközök%2$s > %3$sBeállítások%4$s lehetőséget"
+msgstr ""
+"A fenti menüben válaszd az %1$sEszközök%2$s > %3$sBeállítások%4$s lehetőséget"
 
 #  IE < 11 default search engine instruction
 # smartling.placeholder_format=C
 #. Tells users how to add DuckDuckGo to the list of search engines in their browser.
 msgid "In the popup, check %sMake this my default search provider%s"
 msgstr ""
-"A felugró menüben jelöld ki a %1$sLegyen az alapértelmezett "
-"keresőeszközöm%2$s menüpontot"
+"A felugró menüben jelöld ki a %1$sLegyen az alapértelmezett keresőeszközöm"
+"%2$s menüpontot"
 
 #  IE 11 default search engine instruction
 # smartling.placeholder_format=C
@@ -5578,7 +5711,8 @@ msgstr "Ügyelj rá, hogy minden szó helyesen legyen írva."
 # smartling.placeholder_format=C
 #. Tells users where in the settings menu they can change their default search engine.
 msgid "Make sure to check %s\"Make this my default search provider\"%s"
-msgstr "Ne felejtse el bejelölni, hogy %1$s„Legyen ez az alapértelmezett keresőm”%2$s"
+msgstr ""
+"Ne felejtse el bejelölni, hogy %1$s„Legyen ez az alapértelmezett keresőm”%2$s"
 
 # smartling.placeholder_format=C
 #. Message prompting users to check the spelling of their search term.
@@ -5909,6 +6043,11 @@ msgid "More from"
 msgstr "További találatok itt"
 
 # smartling.placeholder_format=C
+#. Text that appears before a list of website links that contain additional information on an answer provided in search results.
+msgid "More in %s"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Link to additional infromation.
 msgctxt "precise_user_location"
 msgid "More info"
@@ -6099,6 +6238,12 @@ msgstr "Navigálj itt:"
 # smartling.placeholder_format=C
 #. Tells users where to find location settings on their phone. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
+msgid "Navigate to %sSetting > Apps%s"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Tells users where to find location settings on their phone. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
 msgid "Navigate to Setting > Apps."
 msgstr "Lépj a Beállítás > Alkalmazások elemre."
 
@@ -6158,6 +6303,12 @@ msgstr "Hírek a következőhöz: %1$s%2$s%3$s"
 #. Refers to the Privacy Newsletter (shortened version).
 msgid "Newsletter"
 msgstr "Hírlevél"
+
+# smartling.placeholder_format=C
+#. A link to the Newsletter subscription page (https://duckduckgo.com/newsletter/)
+msgctxt "SERP footer content"
+msgid "Newsletter"
+msgstr ""
 
 # smartling.placeholder_format=C
 #. Text displayed on a button to proceed to the next onboarding step.
@@ -6503,7 +6654,8 @@ msgctxt "translations_module"
 msgid ""
 "Oops! An unexpected error occurred while translating this text. Please try "
 "again later."
-msgstr "Hoppá! Váratlan hiba történt a szöveg fordítása közben. Próbáld újra később."
+msgstr ""
+"Hoppá! Váratlan hiba történt a szöveg fordítása közben. Próbáld újra később."
 
 # smartling.placeholder_format=C
 #. The price the markets opens at
@@ -6521,6 +6673,12 @@ msgstr "Megnyitás"
 #. The placeholder is a business name, e.g. 'Open Ikea website'.
 msgid "Open %s website"
 msgstr "%1$s webhelyének megnyitása"
+
+# smartling.placeholder_format=C
+#. Tells users where to find the location settings in the settings menu. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Open %sLocation%s, and ensure location is %senabled%s"
+msgstr ""
 
 #  Chrome/Firefox on Android/iOS
 # smartling.placeholder_format=C
@@ -6610,16 +6768,34 @@ msgid "Open on third-party site"
 msgstr "Megnyitás külső webhelyen"
 
 # smartling.placeholder_format=C
+#. Tells users to open the setting application. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Open the %sSettings app%s"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Open the %sSettings app%s."
 msgstr "Nyisd meg a %1$sBeállítások alkalmazást%2$s."
 
 # smartling.placeholder_format=C
+#. Tells users to open the setting application. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Open the %sSettings%s app"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Open the %sSettings%s app."
 msgstr "Nyisd meg a %1$sBeállítások%2$s alkalmazást."
+
+# smartling.placeholder_format=C
+#. Tells how to find the settings menu in their browser. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Open the Safari menu and select %sSettings for DuckDuckGo...%s"
+msgstr ""
 
 # smartling.placeholder_format=C
 #. Label for the time a business opens. For example: 'Opens at 10am'
@@ -6714,9 +6890,9 @@ msgid ""
 "tracker blocker, encryption enforcer, and more. Available on %siOS & Android"
 "%s."
 msgstr ""
-"Mobiltelefonos böngészőnk keresőmotorunkat, követésvédelmünket, "
-"titkosítás-végrehajtónkat stb. magában foglalva áll rendelkezésedre. %1$siOS "
-"és Android%2$s rendszerhez is elérhető."
+"Mobiltelefonos böngészőnk keresőmotorunkat, követésvédelmünket, titkosítás-"
+"végrehajtónkat stb. magában foglalva áll rendelkezésedre. %1$siOS és Android"
+"%2$s rendszerhez is elérhető."
 
 # smartling.placeholder_format=C
 #. The number of searches performed on DuckDuckGo search engine. The placeholder value is a number.
@@ -7059,7 +7235,8 @@ msgctxt "Anomaly modal"
 msgid ""
 "Please complete the following challenge to confirm this search was made by a "
 "human."
-msgstr "A következő feladat elvégzésével igazold, hogy a keresést ember végezte."
+msgstr ""
+"A következő feladat elvégzésével igazold, hogy a keresést ember végezte."
 
 # smartling.placeholder_format=C
 #. A prompt asking users to enter their passphrase.
@@ -7367,6 +7544,12 @@ msgid "Privacy Policy and Terms of Use"
 msgstr "Adatvédelmi szabályzat és használati feltételek"
 
 # smartling.placeholder_format=C
+#. A link to the Privacy Pro product page (https://duckduckgo.com/pro/)
+msgctxt "SERP footer content"
+msgid "Privacy Pro"
+msgstr ""
+
+# smartling.placeholder_format=C
 msgid "Privacy Protection For Any Device"
 msgstr "Adatvédelem bármilyen eszközhöz"
 
@@ -7401,6 +7584,11 @@ msgstr "Adatvédelem, leegyszerűsítve"
 # smartling.placeholder_format=C
 msgid "Privacy, simplified."
 msgstr "Adatvédelem, leegyszerűsítve."
+
+# smartling.placeholder_format=C
+#. Refers to the DuckDuckGo search engine, on which your searches are always private. This is the shorter version, shown on smaller screens
+msgid "Private"
+msgstr ""
 
 # smartling.placeholder_format=C
 msgid "Private Search"
@@ -7631,6 +7819,12 @@ msgid "Redo"
 msgstr "Ismétlés"
 
 # smartling.placeholder_format=C
+#. Button that refreshes the user's current location on a map. 
+msgctxt "precise_user_location"
+msgid "Refresh Location"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Label for a menu with different countries.
 msgid "Region"
 msgstr "Terület"
@@ -7677,7 +7871,8 @@ msgstr "Választott beállítás megjegyzése"
 # smartling.placeholder_format=C
 #. Button that saves the user's current settings
 msgid "Remember my choice (this can be changed in %s%s%sSettings%s)"
-msgstr "Jegyezze meg a választásomat (módosítható a %1$s%2$s%3$sBeállításokban%4$s)"
+msgstr ""
+"Jegyezze meg a választásomat (módosítható a %1$s%2$s%3$sBeállításokban%4$s)"
 
 # smartling.placeholder_format=C
 msgctxt "settings"
@@ -8030,6 +8225,12 @@ msgstr ""
 # smartling.placeholder_format=C
 #. Tells users where to find location settings within the settings menu. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
+msgid "Scroll down and locate %syour browser%s in the list"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Tells users where to find location settings within the settings menu. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
 msgid "Scroll down and locate %syour browser%s in the list."
 msgstr "Görgess lefelé, és keresd meg a %1$sböngésződet%2$s a listában."
 
@@ -8057,7 +8258,8 @@ msgstr "Keresés"
 # smartling.placeholder_format=C
 #. e.g., 'Search coffee shop in san diego ca to find results closer to you?' (when the user searched with a local query like 'coffee shop near me')
 msgid "Search %s to find results closer to you?"
-msgstr "A helyileg közelebbi találatokhoz a keresési kifejezés legyen inkább „%1$s”?"
+msgstr ""
+"A helyileg közelebbi találatokhoz a keresési kifejezés legyen inkább „%1$s”?"
 
 # smartling.placeholder_format=C
 msgid "Search Anonymously"
@@ -8104,6 +8306,12 @@ msgstr "Keresési eredmények"
 msgctxt "settings pages title"
 msgid "Search Settings"
 msgstr "Keresési beállítások"
+
+# smartling.placeholder_format=C
+#. A link to a page that explains Search Shortcuts (aka bangs) (https://duckduckgo.com/bangs/)
+msgctxt "SERP footer content"
+msgid "Search Shortcuts"
+msgstr ""
 
 # smartling.placeholder_format=C
 #. A button that searches within an area shown on a map.
@@ -8228,6 +8436,12 @@ msgid "See What's New"
 msgstr "Újdonságok megtekintése"
 
 # smartling.placeholder_format=C
+#. A link to a page that provides the latest updates on DuckDuckGo products.
+msgctxt "SERP footer content"
+msgid "See What’s New"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Click "What is this?" - http://i.imgur.com/KhmRHth.png
 #. Then at the bottom of the cloud save box - http://i.imgur.com/4Jo3jAf.png
 msgctxt "cloudsave"
@@ -8244,8 +8458,8 @@ msgstr "Kereskedői értékelések megtekintése a bing.com webhelyen"
 msgctxt "settings"
 msgid "See the %sURL Parameter Reference page%s for more details."
 msgstr ""
-"További információkért látogass el az %1$sURL-paraméter "
-"referenciaoldalra%2$s."
+"További információkért látogass el az %1$sURL-paraméter referenciaoldalra"
+"%2$s."
 
 #  Safari on iOS
 # smartling.placeholder_format=C
@@ -8267,8 +8481,8 @@ msgstr ""
 msgid ""
 "Select %sCustom%s and enter %shttps://duckduckgo.com%s in the input field"
 msgstr ""
-"Válaszd az %1$sEgyéni%2$s lehetőséget, és írd be a "
-"%3$shttps://duckduckgo.com%4$s címet a beviteli mezőbe"
+"Válaszd az %1$sEgyéni%2$s lehetőséget, és írd be a %3$shttps://duckduckgo.com"
+"%4$s címet a beviteli mezőbe"
 
 # smartling.placeholder_format=C
 #. Instructions to add a search engine in Microsoft Edge
@@ -8298,6 +8512,12 @@ msgstr ""
 msgid "Select %sDuckDuckGo%s in the Default Search Engine drop down"
 msgstr "Válassza a %1$sDuckDuckGót%2$s az alapértelmezett kereső listában"
 
+# smartling.placeholder_format=C
+#. Tells users which setting to change to enable location service. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Select %sDuckDuckGo%s in the list and %sallow%s location access"
+msgstr ""
+
 #  IE 11 default search engine instruction
 # smartling.placeholder_format=C
 #. Tells users how to add DuckDuckGo to the list of search engines in their browser.
@@ -8308,7 +8528,8 @@ msgstr "Válaszd a %1$sDuckDuckGót%2$s a keresőszolgáltatók listáján"
 # smartling.placeholder_format=C
 #. Tells users how to add DuckDuckGo to the list of search engines in their browser.
 msgid "Select %sDuckDuckGo%s under the%sDefault Search Engine%s section"
-msgstr "Válaszd a %1$sDuckDuckGót%2$s az %3$sAlapértelmezett keresőmotor%4$s menüben"
+msgstr ""
+"Válaszd a %1$sDuckDuckGót%2$s az %3$sAlapértelmezett keresőmotor%4$s menüben"
 
 # smartling.placeholder_format=C
 #. Tells the user were in the settings menu they can change their default search engine.
@@ -8319,7 +8540,8 @@ msgstr "Válaszd a %1$sDuckDuckGo%2$s lehetőséget."
 # smartling.placeholder_format=C
 #. Tells users where to click in their browser to change the default search engine.
 msgid "Select %sEdit Search Engines...%sin the dropdown"
-msgstr "Válaszd a %1$sKeresőmotorok szerkesztése%2$s menüpontot a legördülő menüben"
+msgstr ""
+"Válaszd a %1$sKeresőmotorok szerkesztése%2$s menüpontot a legördülő menüben"
 
 #  IE 11 default search engine instruction
 # smartling.placeholder_format=C
@@ -8362,7 +8584,8 @@ msgstr "Válaszd ki a %1$sKeresőmotor%2$s lehetőséget"
 #. Instructions on how to change a browser's default search engine to DuckDuckGo.
 msgctxt "mobile homepage banner"
 msgid "Select %sSearch engine%s, then %sOthers...%s"
-msgstr "Válaszd a %1$sKeresőmotor%2$s lehetőséget, majd az %3$sEgyéb...%4$s opciót"
+msgstr ""
+"Válaszd a %1$sKeresőmotor%2$s lehetőséget, majd az %3$sEgyéb...%4$s opciót"
 
 #  Chrome 36 on macOS, 27 on Windows
 # smartling.placeholder_format=C
@@ -8387,7 +8610,8 @@ msgstr "Válaszd ki a %1$sBeállítások%2$s opciót a legördülő menüből."
 #. Instructions on how to change a browser's default search engine to DuckDuckGo.
 msgctxt "mobile homepage banner"
 msgid "Select %sSettings%s, then %sAdvanced settings%s"
-msgstr "Válaszd a %1$sBeállítások%2$s, majd a %3$sHaladó beállítások%4$s lehetőséget"
+msgstr ""
+"Válaszd a %1$sBeállítások%2$s, majd a %3$sHaladó beállítások%4$s lehetőséget"
 
 # smartling.placeholder_format=C
 #. Instructions on how to change a browser's default search engine to DuckDuckGo.
@@ -8415,6 +8639,12 @@ msgstr ""
 "Válaszd a %1$sLegyen ez az egyetlen kezdőlap%2$s lehetőséget (vagy egy másik "
 "lehetőséget, ha szeretnéd)"
 
+# smartling.placeholder_format=C
+#. Tells users to make sure location services are enabled for thier browser. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Select %syour browser%s in the list and %sallow%s location access"
+msgstr ""
+
 #  Safari default search engine instruction
 # smartling.placeholder_format=C
 #. Tells users to select DuckDuckGo from a dropdown menu.
@@ -8438,6 +8668,12 @@ msgstr "Válaszd a Beállítások> Tartózkodási hely lehetőséget."
 msgctxt "Anomaly modal"
 msgid "Select all squares containing a duck:"
 msgstr "Jelöld ki az összes kacsát tartalmazó négyzetet:"
+
+# smartling.placeholder_format=C
+#. Tells users which setting to change to enable location service. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Select an option to %sallow%s location access"
+msgstr ""
 
 # smartling.placeholder_format=C
 #. Tells users where in the settings menu they can change their default search engine.
@@ -8511,6 +8747,12 @@ msgid "Set Manually"
 msgstr "Beállítás manuálisan"
 
 # smartling.placeholder_format=C
+#. Button that allows users to manually select a new location on a map.
+msgctxt "precise_user_location"
+msgid "Set New Location on Map"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Text prompting users to make DuckDuckGo the default search engine in their browser.
 msgid "Set as Default Search Engine"
 msgstr "Beállítás alapértelmezett keresőként"
@@ -8552,7 +8794,8 @@ msgstr "Beállítások frissítve"
 # smartling.placeholder_format=C
 msgctxt "homepage onboarding"
 msgid "Share DuckDuckGo and help friends take their privacy back!"
-msgstr "Terjeszd a DuckDuckGót, és segíts a barátaidnak megvédeni az adataikat!"
+msgstr ""
+"Terjeszd a DuckDuckGót, és segíts a barátaidnak megvédeni az adataikat!"
 
 # smartling.placeholder_format=C
 #. Text displayed on a button that opens a feedback modal when clicked.
@@ -8767,12 +9010,14 @@ msgstr "A legtöbbször meglátogatott hivatkozások megjelenítése új lapon"
 # smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Shows occasional reminders to add DuckDuckGo to your browser"
-msgstr "Alkalmi emlékeztetők megjelenítése a DuckDuckGo hozzáadására a böngésződhöz"
+msgstr ""
+"Alkalmi emlékeztetők megjelenítése a DuckDuckGo hozzáadására a böngésződhöz"
 
 # smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Shows occasional reminders to add DuckDuckGo to your devices"
-msgstr "Alkalmi emlékeztetők megjelenítése a DuckDuckGo hozzáadására az eszközeidhez"
+msgstr ""
+"Alkalmi emlékeztetők megjelenítése a DuckDuckGo hozzáadására az eszközeidhez"
 
 # smartling.placeholder_format=C
 msgctxt "settings"
@@ -8790,7 +9035,8 @@ msgstr "Oldalszám megjelenítése a találati oldalak töréseinél"
 # smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Shows sign-up form for the DuckDuckGo privacy newsletters"
-msgstr "A DuckDuckGo adatvédelmi hírleveleire való feliratkozási űrlap megjelenítése"
+msgstr ""
+"A DuckDuckGo adatvédelmi hírleveleire való feliratkozási űrlap megjelenítése"
 
 # smartling.placeholder_format=C
 #. http://i.imgur.com/94erFcS.png
@@ -8818,7 +9064,8 @@ msgstr "Üdvözlőüzenet megjelenítése a keresési találati oldal tetején"
 # smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Shows welcome message to EU Android preference menu users"
-msgstr "Üdvözlő üzenet megjelenítése az EU-s Android-preferencia menü felhasználóinak"
+msgstr ""
+"Üdvözlő üzenet megjelenítése az EU-s Android-preferencia menü felhasználóinak"
 
 # smartling.placeholder_format=C
 #. Used in 0-click box for product results, e.g. <a href="https://duckduckgo.com/?q=9780061353246">https://duckduckgo.com/?q=9780061353246</a>
@@ -8967,6 +9214,12 @@ msgstr "Forrásszöveg törölve"
 #. https://duckduckgo.com/params under Interface Settings.in the end. It is a header
 msgid "Source:"
 msgstr "Forrás:"
+
+# smartling.placeholder_format=C
+#. Instant Answer attribution to original data source e.g. 'Source: Wikipedia'
+msgctxt "Instant Answer attribution"
+msgid "Source: %s%s%s"
+msgstr ""
 
 # smartling.placeholder_format=C
 msgctxt "Sports module"
@@ -9344,6 +9597,18 @@ msgid "Tan"
 msgstr "Világosbarna"
 
 # smartling.placeholder_format=C
+#. Tells users where to find the location settings in the settings menu. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Tap %sPermissions > Location%s"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Tells users to select the app info. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Tap the %sapp info icon%s"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Tells users which icon to press in their browser. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Tap the %slock icon%s on the address bar."
@@ -9352,8 +9617,15 @@ msgstr "Érintsd meg a %1$slakat ikont%2$s a címsávban."
 # smartling.placeholder_format=C
 #. Tells users which icon to press in their browser. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
+msgid "Tap the %spermissions icon%s in the address bar"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Tells users which icon to press in their browser. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
 msgid "Tap the vertical dots in the DuckDuckGo app."
-msgstr "Koppints a függőlegesen elhelyezkedő pontokra a DuckDuckGo alkalmazásban."
+msgstr ""
+"Koppints a függőlegesen elhelyezkedő pontokra a DuckDuckGo alkalmazásban."
 
 # smartling.placeholder_format=C
 #. Filters the color of images in search results.
@@ -9578,7 +9850,8 @@ msgstr "Ez a videó még nem tekinthető meg itt. Megnézheted itt: %1$s."
 #. Message indicating that a website is not using an encrypted connection and is not secure.
 msgctxt "Lock icon next to HTTP search result"
 msgid "This webpage does not use a secure, encrypted, connection (HTTPS)."
-msgstr "Ez a weboldal nem használ biztonságos, titkosított kapcsolatot (HTTPS)."
+msgstr ""
+"Ez a weboldal nem használ biztonságos, titkosított kapcsolatot (HTTPS)."
 
 # smartling.placeholder_format=C
 #. Confirmation message asking if the user is sure they want to reset all of their settings.
@@ -9861,14 +10134,16 @@ msgstr "Próbálj más kulcsszavakat."
 #. Prompt to enable location access in order to get search results closer to the user's actual location.
 msgctxt "precise_user_location"
 msgid "Try enabling anonymous location for more accurate results."
-msgstr "A pontosabb eredmények érdekében próbálkozz az anonim hely engedélyezésével."
+msgstr ""
+"A pontosabb eredmények érdekében próbálkozz az anonim hely engedélyezésével."
 
 # smartling.placeholder_format=C
 #. Subtitle displayed on the screen of the onboarding where the user picks a chat model.
 msgctxt "Onboarding pick a chat model screen subtitle"
 msgid ""
 "Try experimenting with each model — they will provide different responses."
-msgstr "Próbálj kísérletezni az egyes modellekkel – különböző válaszokat generálnak."
+msgstr ""
+"Próbálj kísérletezni az egyes modellekkel – különböző válaszokat generálnak."
 
 # smartling.placeholder_format=C
 #. A prompt asking users to try searching with fewer words.
@@ -9890,7 +10165,8 @@ msgstr "Próbálkozz általánosabb kulcsszavakkal."
 # smartling.placeholder_format=C
 #. Link to a version of the DuckDuckGo homepage that doesn't show any promotional messages.
 msgid "Try our homepage that never shows these messages:"
-msgstr "Próbáld ki a kezdőoldalunkat, ahol soha nem mutatjuk ezeket az üzeneteket:"
+msgstr ""
+"Próbáld ki a kezdőoldalunkat, ahol soha nem mutatjuk ezeket az üzeneteket:"
 
 # smartling.placeholder_format=C
 #. e.g., 'Try search for Mozart' (when the user searched for 'Mozar')
@@ -9965,6 +10241,12 @@ msgid "Turn off:"
 msgstr "Kikapcsolás:"
 
 # smartling.placeholder_format=C
+#. Tells users which setting to change to enable location service. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Turn on %sPrecise Location%s for more accurate results"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Tells users which setting to change to enable location service.
 msgctxt "precise_user_location"
 msgid "Turn on “Precise Location” for more accurate results."
@@ -10010,6 +10292,11 @@ msgstr ""
 msgctxt "settings"
 msgid "Typing Animation"
 msgstr "Gépelési animáció"
+
+# smartling.placeholder_format=C
+#. Shortened form referring to the United Kingdom
+msgid "UK"
+msgstr ""
 
 # smartling.placeholder_format=C
 #. This is the name of a user setting
@@ -10115,7 +10402,8 @@ msgstr "Az %1$sÁltalános > Kezdőlap%2$s alatt írd be: https://duckduckgo.com
 # smartling.placeholder_format=C
 #. Tells users where in the settings menu they can change their default search engine.
 msgid "Under %sSearch Settings%s select %sDuckDuckGo%s"
-msgstr "A %1$sKeresési beállítások%2$s alatt válaszd a %3$sDuckDuckGo%4$s lehetőséget"
+msgstr ""
+"A %1$sKeresési beállítások%2$s alatt válaszd a %3$sDuckDuckGo%4$s lehetőséget"
 
 # smartling.placeholder_format=C
 #. Tells users where in the settings menu they can change their default search engine.
@@ -10187,6 +10475,10 @@ msgid "United Kingdom"
 msgstr "Egyesült Királyság"
 
 # smartling.placeholder_format=C
+msgid "United States"
+msgstr ""
+
+# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Units of Measure"
 msgstr "Mértékegység"
@@ -10219,6 +10511,12 @@ msgstr "Böngésző frissítése"
 msgctxt "precise_user_location"
 msgid "Updating location..."
 msgstr "Hely frissítése..."
+
+# smartling.placeholder_format=C
+#. Promotional message asking users to upgrade to the Privacy Pro subscription service.
+msgctxt "SERP footer content"
+msgid "Upgrade to Privacy Pro"
+msgstr ""
 
 # smartling.placeholder_format=C
 #. Heading in a promotion for a desktop web browser
@@ -10479,9 +10777,8 @@ msgid ""
 "Watch in Duck Player to block personalized ads on YouTube and prevent your "
 "viewing activity from influencing YouTube recommendations."
 msgstr ""
-"Nézd a tartalmat Duck Playerrel, hogy blokkold a személyre szabott "
-"YouTube-hirdetéseket, és a megtekintéseid ne befolyásolják a YouTube "
-"ajánlásait."
+"Nézd a tartalmat Duck Playerrel, hogy blokkold a személyre szabott YouTube-"
+"hirdetéseket, és a megtekintéseid ne befolyásolják a YouTube ajánlásait."
 
 # smartling.placeholder_format=C
 #. A button that takes a user to another site in order to watch a video. The placeholder is the name of the video site. For example: 'Watch on Vimeo'
@@ -10509,8 +10806,15 @@ msgstr ""
 # smartling.placeholder_format=C
 #. Explains how location service is used to show users search results near their current location.
 msgctxt "precise_user_location"
+msgid "We can anonymize%s your location%s to show you more accurate results."
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Explains how location service is used to show users search results near their current location.
+msgctxt "precise_user_location"
 msgid "We can use your anonymous%s location%s to show you nearby results."
-msgstr "Anonim%1$s helyed%2$s felhasználásával közeli eredményeket mutathatunk neked."
+msgstr ""
+"Anonim%1$s helyed%2$s felhasználásával közeli eredményeket mutathatunk neked."
 
 # smartling.placeholder_format=C
 msgctxt "reasons-to-use-duckduckgo"
@@ -10552,7 +10856,8 @@ msgctxt "new user poll"
 msgid ""
 "We don't track you, so we could use your help telling us what brought you "
 "back today:"
-msgstr "Nem követünk téged, ezért tőled kell megkérdeznünk, hogy mi járatban vagy:"
+msgstr ""
+"Nem követünk téged, ezért tőled kell megkérdeznünk, hogy mi járatban vagy:"
 
 # smartling.placeholder_format=C
 #. Message prompting users to fill out a feedback form.
@@ -10636,7 +10941,8 @@ msgstr ""
 # smartling.placeholder_format=C
 msgctxt "homepage ATB modal"
 msgid "We'll block trackers trying to collect your data as you browse."
-msgstr "Blokkoljuk a böngészés közben adataid gyűjtésével próbálkozó nyomkövetőket."
+msgstr ""
+"Blokkoljuk a böngészés közben adataid gyűjtésével próbálkozó nyomkövetőket."
 
 # smartling.placeholder_format=C
 #. Header for a feedback form for new users.
@@ -10711,8 +11017,8 @@ msgid ""
 msgstr ""
 "Üdvözöl a DuckDuckGo AI Chat! A csevegést a(z) %1$s %2$s technológiája "
 "szolgáltatja. Minden itt folytatott beszélgetésed privát, melyeket a "
-"DuckDuckGo soha nem tárol, és nem használ fel a "
-"mesterségesintelligencia-modellek tanítására."
+"DuckDuckGo soha nem tárol, és nem használ fel a mesterségesintelligencia-"
+"modellek tanítására."
 
 # smartling.placeholder_format=C
 #. Welcome message for new DuckDuckGo users.
@@ -10765,7 +11071,8 @@ msgstr ""
 #. Text for a prompt suggestion for asking about must-see attractions in Paris for a first-time visitor.
 msgctxt "Full sentence for planning a trip"
 msgid "What are some must-see attractions in Paris for a first-time visitor?"
-msgstr "Milyen látnivalókat érdemes megnézni Párizsban annak, aki először jár ott?"
+msgstr ""
+"Milyen látnivalókat érdemes megnézni Párizsban annak, aki először jár ott?"
 
 # smartling.placeholder_format=C
 #. Text for a prompt suggestion for finding options for the word 'better' in a specific context.
@@ -10858,6 +11165,12 @@ msgid "What people say:"
 msgstr "Ezt mondják az emberek:"
 
 # smartling.placeholder_format=C
+#. A link to a page that provides the latest updates on DuckDuckGo products. (https://duckduckgo.com/updates/)
+msgctxt "SERP footer content"
+msgid "What's New"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Link to a page featuring the most recent updates from DuckDuckGo.
 msgid "What’s New"
 msgstr "Újdonságok"
@@ -10888,7 +11201,8 @@ msgstr "Hol nézhető meg a(z) <strong>%1$s</strong>?"
 # smartling.placeholder_format=C
 #. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
 msgid "Where it says Homepage click %sSet to Current Page%s."
-msgstr "A kezdőoldalon kattints a %1$sJelenlegi oldal beállítása%2$s lehetőségre."
+msgstr ""
+"A kezdőoldalon kattints a %1$sJelenlegi oldal beállítása%2$s lehetőségre."
 
 # smartling.placeholder_format=C
 #. Heading of a module showing what streaming services are showing a movie or series, e.g. Where to Watch The Matrix
@@ -11352,7 +11666,8 @@ msgctxt "Error message for user limit"
 msgid ""
 "You’ve reached the maximum number of messages for one day. Please continue "
 "this chat tomorrow."
-msgstr "Elérted a napi üzenetek maximális számát. Holnap folytasd ezt a csevegést."
+msgstr ""
+"Elérted a napi üzenetek maximális számát. Holnap folytasd ezt a csevegést."
 
 # smartling.placeholder_format=C
 #. The name of the Yucatec Maya language
@@ -11490,8 +11805,8 @@ msgstr "hivatalos webhely"
 msgid ""
 "or write out the color code you want, e.g. %s (%s is an encoded %s char)."
 msgstr ""
-"vagy írd ki a választott szín kódját, pl. %1$s (%2$s egy kódolt "
-"%3$s-karakter)."
+"vagy írd ki a választott szín kódját, pl. %1$s (%2$s egy kódolt %3$s-"
+"karakter)."
 
 # smartling.placeholder_format=C
 #. in https://duckduckgo.com/params under "Look & Feel Settings" under both "Link font: " and "Link font: "
