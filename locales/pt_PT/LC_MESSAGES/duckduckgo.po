@@ -2,10 +2,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DuckDuckGo-1.0\n"
-"Last-Translator: Community\n"
-"Language-Team: DuckDuckGo Community <community@duckduckgo.com>\n"
 "POT-Creation-Date: 2019-01-16 23:42-0500\n"
 "PO-Revision-Date: 2019-01-16 23:42-0500\n"
+"Last-Translator: Community\n"
+"Language-Team: DuckDuckGo Community <community@duckduckgo.com>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -104,6 +104,11 @@ msgid "%s for %s"
 msgstr "%1$s para %2$s"
 
 # smartling.placeholder_format=C
+#. States the title of an article and the website on which the article appears. The placeholder values are the title of the article and the name of the website. Example: 'How to Wash a Car from wikihow.com'
+msgid "%s from %s"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. We realise this is the incorrect way to handle plurals. Sorry, we are working on a fix.
 msgctxt "published dates for organic results"
 msgid "%s hours ago"
@@ -172,8 +177,8 @@ msgstr ""
 msgctxt "install-duckduckgo"
 msgid "%sClick %sAllow%sClick %sAdd%sCheck %sAllow%s, then click %sOkay%s"
 msgstr ""
-"%1$sClica em %2$sPermitir%3$sClica em %4$sAdicionar%5$sMarca "
-"%6$sPermitir%7$s e, depois, clica em %8$sOK%9$s"
+"%1$sClica em %2$sPermitir%3$sClica em %4$sAdicionar%5$sMarca %6$sPermitir"
+"%7$s e, depois, clica em %8$sOK%9$s"
 
 # Firefox
 # smartling.placeholder_format=C
@@ -183,8 +188,8 @@ msgid ""
 "%sClick %sContinue To Installation%sClick %sAdd%sCheck %sAllow%s, then click "
 "%sOkay%s"
 msgstr ""
-"%1$sClica em %2$sContinuar para a Instalação%3$sClica em "
-"%4$sAdicionar%5$sMarca %6$sPermitir%7$s e, depois, clica em %8$sOK%9$s"
+"%1$sClica em %2$sContinuar para a Instalação%3$sClica em %4$sAdicionar"
+"%5$sMarca %6$sPermitir%7$s e, depois, clica em %8$sOK%9$s"
 
 # smartling.placeholder_format=C
 #. A button that reloads search results when an error occurs.
@@ -213,6 +218,18 @@ msgstr "%1$sSabe mais%2$s."
 msgctxt "precise_user_location"
 msgid "%sLearn how we keep your location private%s."
 msgstr "%1$sAprende como mantemos a tua localização privada%2$s."
+
+# smartling.placeholder_format=C
+#. Tells the user to press and hold the DuckDuckGo app icon. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "%sLong-press%s the DuckDuckGo app icon on the home screen"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Prompts the user to reload the webpage.
+msgctxt "precise_user_location"
+msgid "%sReload%s DuckDuckGo, and try again"
+msgstr ""
 
 # smartling.placeholder_format=C
 #. Prompts the user to reload the webpage.
@@ -899,6 +916,12 @@ msgstr "Navegador para Android"
 msgctxt "image-type"
 msgid "Animated GIF"
 msgstr "GIF animado"
+
+# smartling.placeholder_format=C
+#. Tells the user the location being used to show search results. e.g. Anonymizing your location in London, UK.
+msgctxt "precise_user_location"
+msgid "Anonymizing your location in"
+msgstr ""
 
 # smartling.placeholder_format=C
 #. Confirmation message after location service is enabled.
@@ -1640,7 +1663,8 @@ msgstr "Modifica a cor de fundo em todo o site"
 msgctxt "settings"
 msgid ""
 "Changes the background color of results on hover, modules, and dropdown menus"
-msgstr "Altera a cor de fundo dos resultados em menus suspensos, hovers e módulos"
+msgstr ""
+"Altera a cor de fundo dos resultados em menus suspensos, hovers e módulos"
 
 # smartling.placeholder_format=C
 #. http://i.imgur.com/NdpkbY0.png
@@ -1885,6 +1909,12 @@ msgid "Clear"
 msgstr "Limpar"
 
 # smartling.placeholder_format=C
+#. User clicks this button to clear a saved device location and disable precise user location
+msgctxt "precise_user_location"
+msgid "Clear & Disable"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. This appears on a button that clears all of a user's settings.
 msgid "Clear All"
 msgstr "Limpar tudo"
@@ -2095,7 +2125,8 @@ msgstr "Clica em %1$sFornecedores de Pesquisa%2$s em tipos de Add-on"
 # smartling.placeholder_format=C
 #. Tells users how to add DuckDuckGo to the list of search engines in their browser.
 msgid "Click on the %sTools icon%s in the top-right of the browser"
-msgstr "No canto superior direito do navegador, clica no %1$sícone de Ferramentas%2$s"
+msgstr ""
+"No canto superior direito do navegador, clica no %1$sícone de Ferramentas%2$s"
 
 #  Firefox default search engine instruction
 # smartling.placeholder_format=C
@@ -2160,6 +2191,12 @@ msgstr "Clique no %1$sícone de reticências%2$s na barra de ferramentas."
 msgctxt "precise_user_location"
 msgid "Click the %slock icon%s on the address bar."
 msgstr "Clica no %1$sícone de bloqueio%2$s na barra de endereço."
+
+# smartling.placeholder_format=C
+#. Tells users where to click in their browser to enable location service. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Click the %spermissions icon%s in the address bar"
+msgstr ""
 
 # smartling.placeholder_format=C
 #. Tells users where to click in their browser to search using DuckDuckGo.
@@ -3223,8 +3260,8 @@ msgid ""
 "deliver better results, closer to you. %sLearn more%s."
 msgstr ""
 "O DuckDuckGo apenas utiliza a tua localização aproximada. É tudo o que "
-"precisamos para obter melhores resultados, mais perto de ti. %1$sSabe "
-"mais%2$s."
+"precisamos para obter melhores resultados, mais perto de ti. %1$sSabe mais"
+"%2$s."
 
 # smartling.placeholder_format=C
 msgid "DuckDuckGo search"
@@ -3402,19 +3439,45 @@ msgstr ""
 #. Tells users to make sure location services are enabled on their device. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Ensure 'Location Services' is %senabled%s."
-msgstr "Certifica-te de que os \"Serviços de Localização\" estão %1$sativos%2$s."
+msgstr ""
+"Certifica-te de que os \"Serviços de Localização\" estão %1$sativos%2$s."
+
+# smartling.placeholder_format=C
+#. Tells users how to enable location service. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Ensure 'Location' is set to %sallow%s"
+msgstr ""
 
 # smartling.placeholder_format=C
 #. Tells users how to enable location service.
 msgctxt "precise_user_location"
 msgid "Ensure 'Location' is set to %sallow%s."
-msgstr "Certifica-te de que a \"Localização\" está definida para %1$spermitir%2$s."
+msgstr ""
+"Certifica-te de que a \"Localização\" está definida para %1$spermitir%2$s."
+
+# smartling.placeholder_format=C
+#. Tells users where to find location settings within the settings menu. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Ensure Location is set to %sAllow%s"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Tells users to make sure location services are enabled on their device. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Ensure location access is %sallowed%s"
+msgstr ""
 
 # smartling.placeholder_format=C
 #. Tells users to make sure location services are enabled on their device. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Ensure location access is %sallowed%s."
 msgstr "Certifica-te de que o acesso à localização é %1$spermitido%2$s."
+
+# smartling.placeholder_format=C
+#. Tells users how to enable location service. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Ensure your browser is allowed %slocation access%s"
+msgstr ""
 
 # smartling.placeholder_format=C
 #. Tells users how to enable location service.
@@ -3425,10 +3488,17 @@ msgstr ""
 "%1$slocalização%2$s."
 
 # smartling.placeholder_format=C
+#. Tells how to enable location service. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Ensure your browser is allowed location access"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Tells how to enable location service.
 msgctxt "precise_user_location"
 msgid "Ensure your browser is allowed location access."
-msgstr "Certifica-te de que o teu navegador tem permissão para aceder à localização."
+msgstr ""
+"Certifica-te de que o teu navegador tem permissão para aceder à localização."
 
 #  Opera homepage instruction
 # smartling.placeholder_format=C
@@ -3514,6 +3584,18 @@ msgstr "Estónio"
 msgctxt "mobile expanded map"
 msgid "Expand Map"
 msgstr "Expandir o mapa"
+
+# smartling.placeholder_format=C
+#. Promotional text that appears in a merchant ad extension dropdown, meaning that a product promotion expires in X days. The placeholder is the number of days until the promotion expires. Example: 'Expires in 5 days'
+msgctxt "merchant promotion product ad extension"
+msgid "Expires in %s days"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Promotional text that appears in a merchant ad extension dropdown, meaning that a product promotion expires in 1 day.
+msgctxt "merchant promotion product ad extension"
+msgid "Expires in 1 day"
+msgstr ""
 
 # smartling.placeholder_format=C
 #. Text for a prompt suggestion for explaining the fundamental concepts of black holes at a high-school level.
@@ -4111,15 +4193,20 @@ msgid "Ghana"
 msgstr "Gana"
 
 # smartling.placeholder_format=C
+#. Tells user where to find location settings in the settings menu. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Go to %sPrivacy & Security > Location Services%s"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Tells users where to find the location settings in the settings menu. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid ""
 "Go to %sSettings > Privacy & Security > Location Services%s, and make sure "
 "“Location Services” is turned on."
 msgstr ""
-"Acede a %1$sDefinições > Privacidade e segurança > Serviços de "
-"localização%2$s e certifica-te de que a opção \"Serviços de localização\" "
-"está ativada."
+"Acede a %1$sDefinições > Privacidade e segurança > Serviços de localização"
+"%2$s e certifica-te de que a opção \"Serviços de localização\" está ativada."
 
 # smartling.placeholder_format=C
 #. Prompts users to turn on the location service on their phone.
@@ -4128,8 +4215,8 @@ msgid ""
 "Go to %sSettings > Privacy > Permission manager > Location%s and scroll down "
 "to %sDuckDuckGo%s."
 msgstr ""
-"Acede a %1$sDefinições > Privacidade > Gestor de autorizações > "
-"Localização%2$s e desce até %3$sDuckDuckGo%4$s."
+"Acede a %1$sDefinições > Privacidade > Gestor de autorizações > Localização"
+"%2$s e desce até %3$sDuckDuckGo%4$s."
 
 # smartling.placeholder_format=C
 #. Tells users where to find the location settings in the settings menu. Part of a list of instructions on how to enable location service.
@@ -4172,6 +4259,12 @@ msgstr "Golos a favor"
 msgctxt "shortbelieve"
 msgid "Goodies"
 msgstr "Benefícios"
+
+# smartling.placeholder_format=C
+#. Option selected by user to acknowledge understanding of information
+msgctxt "precise_user_location"
+msgid "Got It"
+msgstr ""
 
 # smartling.placeholder_format=C
 #. Option selected by user to acknowledge understanding of information
@@ -4561,6 +4654,12 @@ msgid "Hover, Module, and Dropdown Background Color"
 msgstr "Cor de fundo do hover, do módulo e do menu suspenso"
 
 # smartling.placeholder_format=C
+#. Description of a page with more information about how anonymous location works in title case.
+msgctxt "precise_user_location"
+msgid "How We Keep Your Location Private"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Text for a prompt suggestion for saving an email as a PDF.
 msgctxt "Full sentence for getting computer help"
 msgid "How can I save an email as a PDF?"
@@ -4601,6 +4700,11 @@ msgstr ""
 "mesa? O que devo dizer?"
 
 # smartling.placeholder_format=C
+#. The title for a feedback prompt that includes thumbs up and thumbs down buttons
+msgid "How was this answer?"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Refers to humidity in the air, in a weather forecast module.
 msgctxt "forecast"
 msgid "Humidity"
@@ -4627,6 +4731,11 @@ msgstr "Furacão"
 msgctxt "Onboarding terms screen button text"
 msgid "I Agree"
 msgstr "Concordo"
+
+# smartling.placeholder_format=C
+#. Feedback option for when customer dislikes AI
+msgid "I dislike AI"
+msgstr ""
 
 # smartling.placeholder_format=C
 #. Category of feedback a user can select on a feedback form.
@@ -4811,8 +4920,8 @@ msgid ""
 "server to prevent search leakage. %sLearn more%s."
 msgstr ""
 "Em alguns navegadores mais antigos, é necessário redirecionar os teus "
-"cliques pelo nosso servidor para prevenir fuga de pesquisas. %1$sSabe "
-"mais%2$s."
+"cliques pelo nosso servidor para prevenir fuga de pesquisas. %1$sSabe mais"
+"%2$s."
 
 #  SeaMonkey default search engine instruction
 # smartling.placeholder_format=C
@@ -4898,6 +5007,26 @@ msgstr "Scroll infinito para imagens e vídeos"
 msgctxt "settings"
 msgid "Infinite Scroll for Images, Videos, and Shopping"
 msgstr "Scroll infinito para imagens, vídeos e compras"
+
+# smartling.placeholder_format=C
+#. Feedback option when AI response is accurate
+msgid "Information is accurate"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Feedback option when AI response is not accurate
+msgid "Information is inaccurate"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Feedback option when AI response is not up to date
+msgid "Information is outdated"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Feedback option when AI response is up-to-date
+msgid "Information is up-to-date"
+msgstr ""
 
 # smartling.placeholder_format=C
 #. This appears on a button that a user clicks to install a product on their computer.
@@ -5033,7 +5162,8 @@ msgstr "Israel"
 msgctxt "settings"
 msgid ""
 "It's okay to (very infrequently) ask me about my experience using DuckDuckGo"
-msgstr "Inquéritos (pouco frequentes) acerca da minha experiência com o DuckDuckGo"
+msgstr ""
+"Inquéritos (pouco frequentes) acerca da minha experiência com o DuckDuckGo"
 
 # smartling.placeholder_format=C
 #. The name of the Italian language
@@ -5306,7 +5436,8 @@ msgstr "Aprender um novo talento"
 # smartling.placeholder_format=C
 msgctxt "showcase_newsletter"
 msgid "Learn about online privacy right in your inbox."
-msgstr "Sabe mais sobre privacidade online diretamente na tua caixa de entrada."
+msgstr ""
+"Sabe mais sobre privacidade online diretamente na tua caixa de entrada."
 
 # smartling.placeholder_format=C
 #. Description of a page with more information about how anonymous location works.
@@ -5551,8 +5682,8 @@ msgstr "Certifica-te de que todas as palavras estão escritas corretamente."
 #. Tells users where in the settings menu they can change their default search engine.
 msgid "Make sure to check %s\"Make this my default search provider\"%s"
 msgstr ""
-"Certifica-te de marcar %1$s\"Tornar este no meu motor de buscar "
-"pré-definido\"%2$s"
+"Certifica-te de marcar %1$s\"Tornar este no meu motor de buscar pré-definido"
+"\"%2$s"
 
 # smartling.placeholder_format=C
 #. Message prompting users to check the spelling of their search term.
@@ -5750,7 +5881,8 @@ msgstr "Capitalização do mercado"
 # smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Mobile Instructions (not displayed on settings page)"
-msgstr "Instruções para dispositivos móveis (não disponível na página de definições)"
+msgstr ""
+"Instruções para dispositivos móveis (não disponível na página de definições)"
 
 # smartling.placeholder_format=C
 #. A setting for the safe search filter that removes some but not all results.
@@ -5881,6 +6013,11 @@ msgstr "Mais em %1$s "
 #. More from [domain], used in 'site:' search.
 msgid "More from"
 msgstr "Mais de"
+
+# smartling.placeholder_format=C
+#. Text that appears before a list of website links that contain additional information on an answer provided in search results.
+msgid "More in %s"
+msgstr ""
 
 # smartling.placeholder_format=C
 #. Link to additional infromation.
@@ -6067,6 +6204,12 @@ msgstr "National League Wild Card Series"
 msgctxt "directions"
 msgid "Navigate in"
 msgstr "Navega em"
+
+# smartling.placeholder_format=C
+#. Tells users where to find location settings on their phone. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Navigate to %sSetting > Apps%s"
+msgstr ""
 
 # smartling.placeholder_format=C
 #. Tells users where to find location settings on their phone. Part of a list of instructions on how to enable location service.
@@ -6496,6 +6639,12 @@ msgstr "Aberto"
 msgid "Open %s website"
 msgstr "Abrir website da %1$s"
 
+# smartling.placeholder_format=C
+#. Tells users where to find the location settings in the settings menu. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Open %sLocation%s, and ensure location is %senabled%s"
+msgstr ""
+
 #  Chrome/Firefox on Android/iOS
 # smartling.placeholder_format=C
 #. Instructions on how to change a browser's default search engine to DuckDuckGo.
@@ -6584,16 +6733,34 @@ msgid "Open on third-party site"
 msgstr "Abrir num site terceiro"
 
 # smartling.placeholder_format=C
+#. Tells users to open the setting application. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Open the %sSettings app%s"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Open the %sSettings app%s."
 msgstr "Abre a %1$saplicação Definições%2$s."
 
 # smartling.placeholder_format=C
+#. Tells users to open the setting application. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Open the %sSettings%s app"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Open the %sSettings%s app."
 msgstr "Abre a aplicação %1$sDefinições%2$s."
+
+# smartling.placeholder_format=C
+#. Tells how to find the settings menu in their browser. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Open the Safari menu and select %sSettings for DuckDuckGo...%s"
+msgstr ""
 
 # smartling.placeholder_format=C
 #. Label for the time a business opens. For example: 'Opens at 10am'
@@ -7380,6 +7547,11 @@ msgid "Privacy, simplified."
 msgstr "Privacidade, simplificada."
 
 # smartling.placeholder_format=C
+#. Refers to the DuckDuckGo search engine, on which your searches are always private. This is the shorter version, shown on smaller screens
+msgid "Private"
+msgstr ""
+
+# smartling.placeholder_format=C
 msgid "Private Search"
 msgstr "Private Search"
 
@@ -7608,6 +7780,12 @@ msgid "Redo"
 msgstr "Refazer"
 
 # smartling.placeholder_format=C
+#. Button that refreshes the user's current location on a map. 
+msgctxt "precise_user_location"
+msgid "Refresh Location"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Label for a menu with different countries.
 msgid "Region"
 msgstr "Região"
@@ -7654,7 +7832,8 @@ msgstr "Memorizar a minha opção"
 # smartling.placeholder_format=C
 #. Button that saves the user's current settings
 msgid "Remember my choice (this can be changed in %s%s%sSettings%s)"
-msgstr "Lembrar escolha (isto pode ser alterado nas %1$s%2$s%3$sDefinições%4$s)"
+msgstr ""
+"Lembrar escolha (isto pode ser alterado nas %1$s%2$s%3$sDefinições%4$s)"
 
 # smartling.placeholder_format=C
 msgctxt "settings"
@@ -7730,6 +7909,21 @@ msgstr "Restaurar todas as definições"
 msgctxt "settings"
 msgid "Reset All Settings"
 msgstr "Restaurar todas as definições"
+
+# smartling.placeholder_format=C
+#. Feedback option when AI response is helpful
+msgid "Response is helpful"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Feedback option when AI response is midleading
+msgid "Response is misleading"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Feedback option when AI response is not helpful
+msgid "Response is not helpful"
+msgstr ""
 
 # smartling.placeholder_format=C
 #. Label on the button for restoring all previous website data.
@@ -8004,6 +8198,12 @@ msgstr ""
 # smartling.placeholder_format=C
 #. Tells users where to find location settings within the settings menu. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
+msgid "Scroll down and locate %syour browser%s in the list"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Tells users where to find location settings within the settings menu. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
 msgid "Scroll down and locate %syour browser%s in the list."
 msgstr "Desce na página e localiza %1$so teu navegador%2$s na lista."
 
@@ -8011,7 +8211,8 @@ msgstr "Desce na página e localiza %1$so teu navegador%2$s na lista."
 #. Tells users which setting to change to enable location service.
 msgctxt "precise_user_location"
 msgid "Scroll down to %sDuckDuckGo%s and allow it to use your location."
-msgstr "Desce até %1$sDuckDuckGo%2$s e autoriza a utilização da tua localização."
+msgstr ""
+"Desce até %1$sDuckDuckGo%2$s e autoriza a utilização da tua localização."
 
 #  Edge default search engine instruction
 # smartling.placeholder_format=C
@@ -8212,6 +8413,12 @@ msgid "See merchant reviews on bing.com"
 msgstr "Vê avaliações de comerciantes em bing.com"
 
 # smartling.placeholder_format=C
+#. Text for tooltip shown on hover when displaying the number of reviews the product has on an ad, indicating that users can see more ratings on bing.com
+msgctxt "ratings on product or text ad extension"
+msgid "See product ratings on bing.com"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Link to a page with more information about how user settings are stored in a URL.
 msgctxt "settings"
 msgid "See the %sURL Parameter Reference page%s for more details."
@@ -8243,7 +8450,8 @@ msgstr ""
 # smartling.placeholder_format=C
 #. Instructions to add a search engine in Microsoft Edge
 msgid "Select %sDuckDuckGo%s and click %sAdd as default%s!"
-msgstr "Seleciona %1$sDuckDuckGo%2$s e clica em %3$sAdicionar como predefinido%4$s!"
+msgstr ""
+"Seleciona %1$sDuckDuckGo%2$s e clica em %3$sAdicionar como predefinido%4$s!"
 
 #  Edge Legacy default search engine instruction
 # smartling.placeholder_format=C
@@ -8260,7 +8468,14 @@ msgstr "Seleciona %1$sDuckDuckGo%2$s e clica em %3$sPredefinir%4$s."
 # smartling.placeholder_format=C
 #. Tells users where in the settings menu they can change their default search engine.
 msgid "Select %sDuckDuckGo%s in the Default Search Engine drop down"
-msgstr "Seleciona %1$sDuckDuckGo%2$s no menu suspenso de motor de busca predefinido"
+msgstr ""
+"Seleciona %1$sDuckDuckGo%2$s no menu suspenso de motor de busca predefinido"
+
+# smartling.placeholder_format=C
+#. Tells users which setting to change to enable location service. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Select %sDuckDuckGo%s in the list and %sallow%s location access"
+msgstr ""
 
 #  IE 11 default search engine instruction
 # smartling.placeholder_format=C
@@ -8272,7 +8487,8 @@ msgstr "Seleciona %1$sDuckDuckGo%2$s na lista de fornecedores de pesquisa"
 # smartling.placeholder_format=C
 #. Tells users how to add DuckDuckGo to the list of search engines in their browser.
 msgid "Select %sDuckDuckGo%s under the%sDefault Search Engine%s section"
-msgstr "Seleciona %1$sDuckDuckGo%2$s na secção%3$sMotor de busca predefinido%4$s"
+msgstr ""
+"Seleciona %1$sDuckDuckGo%2$s na secção%3$sMotor de busca predefinido%4$s"
 
 # smartling.placeholder_format=C
 #. Tells the user were in the settings menu they can change their default search engine.
@@ -8357,7 +8573,8 @@ msgstr "Seleciona %1$sDefinições%2$s e depois %3$sDefinições Avançadas%4$s"
 #. Instructions on how to change a browser's default search engine to DuckDuckGo.
 msgctxt "mobile homepage banner"
 msgid "Select %sSettings%s, then %sDefault search engine%s"
-msgstr "Seleciona %1$sDefinições%2$s e depois %3$sMotor de busca predefinido%4$s"
+msgstr ""
+"Seleciona %1$sDefinições%2$s e depois %3$sMotor de busca predefinido%4$s"
 
 #  Chrome/Firefox on Android
 # smartling.placeholder_format=C
@@ -8374,6 +8591,12 @@ msgid ""
 msgstr ""
 "Seleciona %1$sUtilizar esta página como a única página inicial%2$s (ou uma "
 "das outras opções, se preferires)"
+
+# smartling.placeholder_format=C
+#. Tells users to make sure location services are enabled for thier browser. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Select %syour browser%s in the list and %sallow%s location access"
+msgstr ""
 
 #  Safari default search engine instruction
 # smartling.placeholder_format=C
@@ -8398,6 +8621,12 @@ msgstr "Seleciona Definições > Localização."
 msgctxt "Anomaly modal"
 msgid "Select all squares containing a duck:"
 msgstr "Seleciona todos os quadrados que contêm um pato:"
+
+# smartling.placeholder_format=C
+#. Tells users which setting to change to enable location service. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Select an option to %sallow%s location access"
+msgstr ""
 
 # smartling.placeholder_format=C
 #. Tells users where in the settings menu they can change their default search engine.
@@ -8471,6 +8700,12 @@ msgid "Set Manually"
 msgstr "Definir manualmente"
 
 # smartling.placeholder_format=C
+#. Button that allows users to manually select a new location on a map.
+msgctxt "precise_user_location"
+msgid "Set New Location on Map"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Text prompting users to make DuckDuckGo the default search engine in their browser.
 msgid "Set as Default Search Engine"
 msgstr "Definir como motor de busca predefinido"
@@ -8512,7 +8747,8 @@ msgstr "Definições atualizadas"
 # smartling.placeholder_format=C
 msgctxt "homepage onboarding"
 msgid "Share DuckDuckGo and help friends take their privacy back!"
-msgstr "Partilha o DuckDuckGo e ajuda os teus amigos a recuperar a sua privacidade!"
+msgstr ""
+"Partilha o DuckDuckGo e ajuda os teus amigos a recuperar a sua privacidade!"
 
 # smartling.placeholder_format=C
 #. Text displayed on a button that opens a feedback modal when clicked.
@@ -8553,6 +8789,12 @@ msgstr "Partilhar comentário negativo"
 msgctxt "feedback form"
 msgid "Share positive feedback"
 msgstr "Partilhar comentário positivo"
+
+# smartling.placeholder_format=C
+#. Call to action button that appears in a merchant ad extension dropdown and on clicking takes the user to an external product page
+msgctxt "merchant promotion product ad extension"
+msgid "Shop"
+msgstr ""
 
 # smartling.placeholder_format=C
 #. Label above shopping search results.
@@ -8714,7 +8956,8 @@ msgstr "Mostrar linhas horizontais nas quebras de página de resultados"
 # smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Shows links to instructions for how to add DuckDuckGo to your browser"
-msgstr "Mostra links para instruções de como adicionar o DuckDuckGo ao teu navegador"
+msgstr ""
+"Mostra links para instruções de como adicionar o DuckDuckGo ao teu navegador"
 
 # smartling.placeholder_format=C
 msgctxt "settings"
@@ -8724,12 +8967,14 @@ msgstr "Mostra os links mais visitados na página de um novo separador"
 # smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Shows occasional reminders to add DuckDuckGo to your browser"
-msgstr "Mostra lembretes ocasionais para adicionar o DuckDuckGo ao teu navegador"
+msgstr ""
+"Mostra lembretes ocasionais para adicionar o DuckDuckGo ao teu navegador"
 
 # smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Shows occasional reminders to add DuckDuckGo to your devices"
-msgstr "Mostra lembretes ocasionais para adicionar o DuckDuckGo aos teus dispositivos"
+msgstr ""
+"Mostra lembretes ocasionais para adicionar o DuckDuckGo aos teus dispositivos"
 
 # smartling.placeholder_format=C
 msgctxt "settings"
@@ -8760,7 +9005,8 @@ msgstr "Mostra sugestões na caixa de pesquisa enquanto digitas"
 # smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Shows the privacy benefits of using DuckDuckGo on the homepage"
-msgstr "Mostra os benefícios de privacidade do uso do DuckDuckGo na página inicial"
+msgstr ""
+"Mostra os benefícios de privacidade do uso do DuckDuckGo na página inicial"
 
 # smartling.placeholder_format=C
 msgctxt "settings"
@@ -8770,7 +9016,8 @@ msgstr "Mostra o fundo do botão de pesquisa"
 # smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Shows welcome message on top of the search results page"
-msgstr "Mostra a mensagem de boas-vindas no topo da página dos resultados de pesquisa"
+msgstr ""
+"Mostra a mensagem de boas-vindas no topo da página dos resultados de pesquisa"
 
 # smartling.placeholder_format=C
 msgctxt "settings"
@@ -8921,6 +9168,16 @@ msgid "Source"
 msgstr "Fonte"
 
 # smartling.placeholder_format=C
+#. Feedback option when AI response has a trustworthy source
+msgid "Source is not trustworthy"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Feedback option when AI response has a trustworthy source
+msgid "Source is trustworthy"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Text of a tooltip displayed when the user has cleared source text
 msgctxt "translations_module"
 msgid "Source text cleared"
@@ -8930,6 +9187,12 @@ msgstr "Texto de origem limpo"
 #. https://duckduckgo.com/params under Interface Settings.in the end. It is a header
 msgid "Source:"
 msgstr "Fonte:"
+
+# smartling.placeholder_format=C
+#. Instant Answer attribution to original data source e.g. 'Source: Wikipedia'
+msgctxt "Instant Answer attribution"
+msgid "Source: %s%s%s"
+msgstr ""
 
 # smartling.placeholder_format=C
 msgctxt "Sports module"
@@ -9005,19 +9268,22 @@ msgstr "Estatísticas"
 #. Prompt to subscribe to a newsletter.
 msgctxt "SERP footer content"
 msgid "Stay protected and informed with our privacy newsletter."
-msgstr "Mantém-te protegido e informado com a nossa newsletter sobre privacidade."
+msgstr ""
+"Mantém-te protegido e informado com a nossa newsletter sobre privacidade."
 
 # smartling.placeholder_format=C
 #. Prompt to subscribe to a newsletter.
 msgctxt "SERP footer content"
 msgid "Stay protected and informed with our privacy newsletters."
-msgstr "Mantém-te protegido e informado com as nossas newsletters sobre privacidade."
+msgstr ""
+"Mantém-te protegido e informado com as nossas newsletters sobre privacidade."
 
 # smartling.placeholder_format=C
 #. Text on the page where users can subscribe to DuckDuckGo's privacy newsletter
 msgctxt "showcase_newsletter"
 msgid "Stay protected and informed with our privacy newsletters."
-msgstr "Mantém-te protegido e informado com as nossas newsletters sobre privacidade."
+msgstr ""
+"Mantém-te protegido e informado com as nossas newsletters sobre privacidade."
 
 # smartling.placeholder_format=C
 #. Instant Answer tab name - eg. https://duckduckgo.com/?q=Energy+Transfer+Equity&ia=stock
@@ -9038,7 +9304,8 @@ msgstr "Bloqueia os rastreadores ocultos que se escondem noutros sites."
 # smartling.placeholder_format=C
 msgctxt "homepage ATB modal"
 msgid "Stop most hidden trackers lurking on other websites."
-msgstr "Bloqueia a maioria dos rastreadores ocultos que se escondem noutros sites."
+msgstr ""
+"Bloqueia a maioria dos rastreadores ocultos que se escondem noutros sites."
 
 # smartling.placeholder_format=C
 msgctxt "settings"
@@ -9307,10 +9574,28 @@ msgid "Tan"
 msgstr "Castanho Claro"
 
 # smartling.placeholder_format=C
+#. Tells users where to find the location settings in the settings menu. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Tap %sPermissions > Location%s"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Tells users to select the app info. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Tap the %sapp info icon%s"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Tells users which icon to press in their browser. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Tap the %slock icon%s on the address bar."
 msgstr "Clica no %1$sícone de bloqueio%2$s na barra de endereço."
+
+# smartling.placeholder_format=C
+#. Tells users which icon to press in their browser. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Tap the %spermissions icon%s in the address bar"
+msgstr ""
 
 # smartling.placeholder_format=C
 #. Tells users which icon to press in their browser. Part of a list of instructions on how to enable location service.
@@ -9484,7 +9769,8 @@ msgstr "Terceiro lugar"
 #. Appears below a type of search results called 'Instant Answers'
 msgctxt "attribution"
 msgid "This Instant Answer was made by the %sDuckDuckHack%s Community."
-msgstr "Esta resposta instantânea foi dada pela Comunidade %1$sDuckDuckHack%2$s."
+msgstr ""
+"Esta resposta instantânea foi dada pela Comunidade %1$sDuckDuckHack%2$s."
 
 # smartling.placeholder_format=C
 #. Header above a list of benefits of the cloud save feature.
@@ -9534,7 +9820,8 @@ msgstr "Esta tradução está errada"
 # smartling.placeholder_format=C
 #. Label indicating that the video can't be played on the current page, and only on the website that owns the vide. The placeholder is the name of the website that owns the video.
 msgid "This video is not yet able to be watched here. You can watch it on %s."
-msgstr "Ainda não é possível visualizar este vídeo aqui. Podes visualizá-lo em %1$s."
+msgstr ""
+"Ainda não é possível visualizar este vídeo aqui. Podes visualizá-lo em %1$s."
 
 # smartling.placeholder_format=C
 #. Message indicating that a website is not using an encrypted connection and is not secure.
@@ -9631,7 +9918,8 @@ msgstr "Sublinhado do título"
 msgctxt ""
 "Copy stating agreement to AI Chat Privacy Policy and Terms of Service."
 msgid "To continue, you must agree to DuckDuckGo AI Chat’s %s and %s"
-msgstr "Para continuar, tens de concordar com a %1$s e os %2$s do DuckDuckGo AI Chat"
+msgstr ""
+"Para continuar, tens de concordar com a %1$s e os %2$s do DuckDuckGo AI Chat"
 
 # smartling.placeholder_format=C
 #. Instructions for how to print driving directions.
@@ -9821,7 +10109,8 @@ msgstr "Experimenta palavras-chave diferentes."
 #. Prompt to enable location access in order to get search results closer to the user's actual location.
 msgctxt "precise_user_location"
 msgid "Try enabling anonymous location for more accurate results."
-msgstr "Tenta permitir a localização anónima para obter resultados mais específicos."
+msgstr ""
+"Tenta permitir a localização anónima para obter resultados mais específicos."
 
 # smartling.placeholder_format=C
 #. Subtitle displayed on the screen of the onboarding where the user picks a chat model.
@@ -9925,6 +10214,12 @@ msgid "Turn off:"
 msgstr "Desligar:"
 
 # smartling.placeholder_format=C
+#. Tells users which setting to change to enable location service. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Turn on %sPrecise Location%s for more accurate results"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Tells users which setting to change to enable location service.
 msgctxt "precise_user_location"
 msgid "Turn on “Precise Location” for more accurate results."
@@ -9966,6 +10261,11 @@ msgstr ""
 msgctxt "settings"
 msgid "Typing Animation"
 msgstr "Animação de escrita"
+
+# smartling.placeholder_format=C
+#. Shortened form referring to the United Kingdom
+msgid "UK"
+msgstr ""
 
 # smartling.placeholder_format=C
 #. This is the name of a user setting
@@ -10059,12 +10359,14 @@ msgstr ""
 # smartling.placeholder_format=C
 #. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
 msgid "Under %sOpen with%s select %sA specific page or pages%s"
-msgstr "Em %1$s\"Abrir com\"%2$s, seleciona %3$sUma página específica ou várias%4$s"
+msgstr ""
+"Em %1$s\"Abrir com\"%2$s, seleciona %3$sUma página específica ou várias%4$s"
 
 # smartling.placeholder_format=C
 #. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
 msgid "Under %sSTARTUP > Homepage%s enter: https://duckduckgo.com"
-msgstr "Em %1$sNo arranque > Página inicial%2$s, introduz: https://duckduckgo.com"
+msgstr ""
+"Em %1$sNo arranque > Página inicial%2$s, introduz: https://duckduckgo.com"
 
 # smartling.placeholder_format=C
 #. Tells users where in the settings menu they can change their default search engine.
@@ -10135,6 +10437,10 @@ msgstr "Unicode"
 # smartling.placeholder_format=C
 msgid "United Kingdom"
 msgstr "Reino Unido"
+
+# smartling.placeholder_format=C
+msgid "United States"
+msgstr ""
 
 # smartling.placeholder_format=C
 msgctxt "settings"
@@ -10323,7 +10629,8 @@ msgctxt "mobile promotion on desktop"
 msgid ""
 "Visit %sDuckDuckGo.com%s on your tablet or phone and follow the provided "
 "instructions."
-msgstr "Vai a %1$sDuckDuckGo.com%2$s no tablet ou smartphone e segue as instruções."
+msgstr ""
+"Vai a %1$sDuckDuckGo.com%2$s no tablet ou smartphone e segue as instruções."
 
 # smartling.placeholder_format=C
 msgctxt "settings"
@@ -10453,6 +10760,12 @@ msgstr ""
 "porque temos de transmitir o conteúdo a partir do YouTube. O DuckDuckGo é "
 "uma empresa independente e não tem qualquer relação com o YouTube, onde a "
 "maioria dos vídeos estão hospedados."
+
+# smartling.placeholder_format=C
+#. Explains how location service is used to show users search results near their current location.
+msgctxt "precise_user_location"
+msgid "We can anonymize%s your location%s to show you more accurate results."
+msgstr ""
 
 # smartling.placeholder_format=C
 #. Explains how location service is used to show users search results near their current location.
@@ -10712,13 +11025,15 @@ msgstr ""
 #. Text for a prompt suggestion for considering factors when purchasing a computer monitor.
 msgctxt "Full sentence for preparing for a purchase"
 msgid "What are some factors to consider when purchasing a computer monitor?"
-msgstr "Quais são alguns fatores a considerar ao comprar um monitor de computador?"
+msgstr ""
+"Quais são alguns fatores a considerar ao comprar um monitor de computador?"
 
 # smartling.placeholder_format=C
 #. Text for a prompt suggestion for asking about must-see attractions in Paris for a first-time visitor.
 msgctxt "Full sentence for planning a trip"
 msgid "What are some must-see attractions in Paris for a first-time visitor?"
-msgstr "Quais são algumas das atrações imperdíveis em Paris para a primeira visita?"
+msgstr ""
+"Quais são algumas das atrações imperdíveis em Paris para a primeira visita?"
 
 # smartling.placeholder_format=C
 #. Text for a prompt suggestion for finding options for the word 'better' in a specific context.
@@ -10778,7 +11093,8 @@ msgctxt "cloudsave"
 msgid ""
 "What is the Cloud Save bookmarklet and how does it differ from the URL "
 "parameter bookmarklet?"
-msgstr "O que é o marcador Cloud Save e como é que difere do de parâmetros de URL?"
+msgstr ""
+"O que é o marcador Cloud Save e como é que difere do de parâmetros de URL?"
 
 # smartling.placeholder_format=C
 #. Text for a prompt suggestion for looking up the capital city of Albania.
@@ -11303,7 +11619,8 @@ msgctxt "Error message for user limit"
 msgid ""
 "You’ve reached the maximum number of messages for one day. Please continue "
 "this chat tomorrow."
-msgstr "Atingiste o número máximo de mensagens para um dia. Continua o chat amanhã."
+msgstr ""
+"Atingiste o número máximo de mensagens para um dia. Continua o chat amanhã."
 
 # smartling.placeholder_format=C
 #. The name of the Yucatec Maya language
