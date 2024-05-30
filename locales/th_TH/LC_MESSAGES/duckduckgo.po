@@ -104,6 +104,11 @@ msgid "%s for %s"
 msgstr "%1$s สำหรับ %2$s"
 
 # smartling.placeholder_format=C
+#. States the title of an article and the website on which the article appears. The placeholder values are the title of the article and the name of the website. Example: 'How to Wash a Car from wikihow.com'
+msgid "%s from %s"
+msgstr "%1$s จาก %2$s"
+
+# smartling.placeholder_format=C
 #. We realise this is the incorrect way to handle plurals. Sorry, we are working on a fix.
 msgctxt "published dates for organic results"
 msgid "%s hours ago"
@@ -209,6 +214,18 @@ msgstr "%1$sดูข้อมูลเพิ่มเติม%2$s"
 msgctxt "precise_user_location"
 msgid "%sLearn how we keep your location private%s."
 msgstr "%1$sเรียนรู้วิธีที่เรารักษาความเป็นส่วนตัวให้กับข้อมูลตำแหน่งที่ตั้งของคุณ%2$s"
+
+# smartling.placeholder_format=C
+#. Tells the user to press and hold the DuckDuckGo app icon. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "%sLong-press%s the DuckDuckGo app icon on the home screen"
+msgstr "%1$sกด%2$s ไอคอนแอป DuckDuckGo บนหน้าจอหลักค้างไว้"
+
+# smartling.placeholder_format=C
+#. Prompts the user to reload the webpage.
+msgctxt "precise_user_location"
+msgid "%sReload%s DuckDuckGo, and try again"
+msgstr "%1$sโหลด%2$s DuckDuckGo ใหม่แล้วลองอีกครั้ง"
 
 # smartling.placeholder_format=C
 #. Prompts the user to reload the webpage.
@@ -513,6 +530,12 @@ msgstr "เกี่ยวกับเรา"
 msgctxt "static_page"
 msgid "About"
 msgstr "เกี่ยวกับเรา"
+
+# smartling.placeholder_format=C
+#. A link to a page that provides information about the DuckDuckGo Browser (https://duckduckgo.com/app/)
+msgctxt "SERP footer content"
+msgid "About Browser"
+msgstr "เกี่ยวกับเบราว์เซอร์"
 
 # smartling.placeholder_format=C
 #. at least in:
@@ -893,6 +916,12 @@ msgstr "เบราว์เซอร์ Android"
 msgctxt "image-type"
 msgid "Animated GIF"
 msgstr "GIF แบบเคลื่อนไหว"
+
+# smartling.placeholder_format=C
+#. Tells the user the location being used to show search results. e.g. Anonymizing your location in London, UK.
+msgctxt "precise_user_location"
+msgid "Anonymizing your location in"
+msgstr "การเปิดใช้ตำแหน่งที่ตั้งแบบไม่ระบุตัวตนใน"
 
 # smartling.placeholder_format=C
 #. Confirmation message after location service is enabled.
@@ -1877,6 +1906,12 @@ msgid "Clear"
 msgstr "ล้าง"
 
 # smartling.placeholder_format=C
+#. User clicks this button to clear a saved device location and disable precise user location
+msgctxt "precise_user_location"
+msgid "Clear & Disable"
+msgstr "ล้าง & ปิดการใช้งาน"
+
+# smartling.placeholder_format=C
 #. This appears on a button that clears all of a user's settings.
 msgid "Clear All"
 msgstr "ล้างทั้งหมด"
@@ -2149,6 +2184,12 @@ msgid "Click the %slock icon%s on the address bar."
 msgstr "คลิก%1$sไอคอนล็อก%2$sในแถบที่อยู่"
 
 # smartling.placeholder_format=C
+#. Tells users where to click in their browser to enable location service. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Click the %spermissions icon%s in the address bar"
+msgstr "คลิก %1$sไอคอนการอนุญาต%2$s ในแถบที่อยู่"
+
+# smartling.placeholder_format=C
 #. Tells users where to click in their browser to search using DuckDuckGo.
 msgid "Click the Duck icon at the top of your browser to search!"
 msgstr "คลิกไอคอนรูปเป็ดที่ด้านบนของเบราว์เซอร์ของคุณเพื่อค้นหา"
@@ -2370,6 +2411,12 @@ msgstr "ชุมชน"
 
 # smartling.placeholder_format=C
 #. Refers to the DuckDuckGo page for comparing privacy features across browsers and extensions. (https://duckduckgo.com/compare-privacy/)
+msgid "Compare Privacy"
+msgstr "เปรียบเทียบความเป็นส่วนตัว"
+
+# smartling.placeholder_format=C
+#. A link to a page that compares privacy features across different browsers and extensions (https://duckduckgo.com/compare-privacy/)
+msgctxt "SERP footer content"
 msgid "Compare Privacy"
 msgstr "เปรียบเทียบความเป็นส่วนตัว"
 
@@ -3285,6 +3332,12 @@ msgid "Email Protection"
 msgstr "การปกป้องอีเมล"
 
 # smartling.placeholder_format=C
+#. A link that takes the user to the Email Protection product page (https://duckduckgo.com/email/)
+msgctxt "SERP footer content"
+msgid "Email Protection"
+msgstr "การปกป้องอีเมล"
+
+# smartling.placeholder_format=C
 #. Tells users which setting to change to enable location service.
 msgctxt "precise_user_location"
 msgid "Enable 'Sites can ask for my location.'"
@@ -3379,10 +3432,28 @@ msgid "Ensure 'Location Services' is %senabled%s."
 msgstr "ตรวจสอบว่า \"บริการตำแหน่งที่ตั้ง\" %1$sเปิดใช้อยู่%2$s"
 
 # smartling.placeholder_format=C
+#. Tells users how to enable location service. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Ensure 'Location' is set to %sallow%s"
+msgstr "ตรวจสอบให้แน่ใจว่า 'ตำแหน่งที่ตั้ง' มีการตั้งค่าเป็น %1$sอนุญาต%2$s"
+
+# smartling.placeholder_format=C
 #. Tells users how to enable location service.
 msgctxt "precise_user_location"
 msgid "Ensure 'Location' is set to %sallow%s."
 msgstr "ตรวจสอบว่า \"ตำแหน่งที่ตั้ง\" มีการตั้งค่าเป็น%1$sอนุญาต%2$s"
+
+# smartling.placeholder_format=C
+#. Tells users where to find the location settings in the settings menu. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Ensure Location is set to %sAllow%s"
+msgstr "ตรวจสอบให้แน่ใจว่าตำแหน่งถูกตั้งค่าเป็น %1$sอนุญาต%2$s"
+
+# smartling.placeholder_format=C
+#. Tells users to make sure location services are enabled on their device. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Ensure location access is %sallowed%s"
+msgstr "ตรวจสอบให้แน่ใจว่าการเข้าถึงตำแหน่งที่ตั้ง %1$sได้รับอนุญาต%2$s"
 
 # smartling.placeholder_format=C
 #. Tells users to make sure location services are enabled on their device. Part of a list of instructions on how to enable location service.
@@ -3391,10 +3462,22 @@ msgid "Ensure location access is %sallowed%s."
 msgstr "ตรวจสอบว่าการเข้าถึงตำแหน่งที่ตั้ง%1$sได้รับอนุญาต%2$s"
 
 # smartling.placeholder_format=C
+#. Tells users how to enable location service. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Ensure your browser is allowed %slocation access%s"
+msgstr "ตรวจสอบว่าเบราว์เซอร์ของคุณได้รับอนุญาตให้ %1$sเข้าถึงตำแหน่งที่ตั้ง%2$s"
+
+# smartling.placeholder_format=C
 #. Tells users how to enable location service.
 msgctxt "precise_user_location"
 msgid "Ensure your browser is allowed %slocation access%s."
 msgstr "ตรวจสอบว่าเบราว์เซอร์ของคุณได้รับอนุญาตให้%1$sเข้าถึงตำแหน่งที่ตั้ง%2$s"
+
+# smartling.placeholder_format=C
+#. Tells how to enable location service. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Ensure your browser is allowed location access"
+msgstr "เบราว์เซอร์ของคุณต้องได้รับอนุญาตให้เข้าถึงตำแหน่งที่ตั้ง"
 
 # smartling.placeholder_format=C
 #. Tells how to enable location service.
@@ -3514,6 +3597,12 @@ msgstr "สำรวจผลิตภัณฑ์และฟีเจอร์
 #. Links to a page that provides a list of DuckDuckGo product updates
 msgctxt "SERP footer content"
 msgid "Explore DuckDuckGo's latest product updates."
+msgstr "สำรวจการอัปเดตผลิตภัณฑ์ล่าสุดของ DuckDuckGo"
+
+# smartling.placeholder_format=C
+#. A link to a page that provides the latest updates on DuckDuckGo products. (https://duckduckgo.com/updates/)
+msgctxt "SERP footer content"
+msgid "Explore DuckDuckGo’s latest product updates."
 msgstr "สำรวจการอัปเดตผลิตภัณฑ์ล่าสุดของ DuckDuckGo"
 
 #  seen on Opera 9.52, Firefox 33 and Chrome 27 besides homepage instructions; link to e.g. https://help.duckduckgo.com/desktop/opera/
@@ -3991,6 +4080,12 @@ msgid "Get Directions"
 msgstr "รับเส้นทาง"
 
 # smartling.placeholder_format=C
+#. Heading for Get More column containing list of links to DuckDuckGo Links
+msgctxt "SERP footer content"
+msgid "Get More"
+msgstr "รับข้อมูลเพิ่มเติม"
+
+# smartling.placeholder_format=C
 #. The title of a page where users can download the DuckDuckGo app or browser extension.
 msgctxt "showcase_app"
 msgid "Get Our App & Extension"
@@ -4024,6 +4119,14 @@ msgstr "รับคำแนะนำเกี่ยวกับความเ
 msgctxt "Onboarding welcome screen button text"
 msgid "Get Started"
 msgstr "เริ่ม"
+
+# smartling.placeholder_format=C
+#. Promotional message explaining that a VPN and two additional privacy protections are included in the Privacy Pro subscription.
+msgctxt "SERP footer content"
+msgid "Get a VPN + two more protections in one easy subscription."
+msgstr ""
+"รับ VPN + การป้องกันเพิ่มเติมอีกสองรายการในการสมัครสมาชิกง่ายๆ "
+"เพียงครั้งเดียว"
 
 # smartling.placeholder_format=C
 #. Find answers to common problems in our help documentation
@@ -4073,6 +4176,12 @@ msgstr "แนะนำเราให้เพื่อนของคุณ"
 # smartling.placeholder_format=C
 msgid "Ghana"
 msgstr "กานา"
+
+# smartling.placeholder_format=C
+#. Tells user where to find location settings in the settings menu. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Go to %sPrivacy & Security > Location Services%s"
+msgstr "ไปที่ %1$sความเป็นส่วนตัวและความปลอดภัย > บริการระบุตำแหน่ง%2$s"
 
 # smartling.placeholder_format=C
 #. Tells users where to find the location settings in the settings menu. Part of a list of instructions on how to enable location service.
@@ -4136,6 +4245,12 @@ msgstr "ทำประตูสําหรับ"
 msgctxt "shortbelieve"
 msgid "Goodies"
 msgstr "เครื่องมือต่างๆ"
+
+# smartling.placeholder_format=C
+#. Option selected by user to acknowledge understanding of information
+msgctxt "precise_user_location"
+msgid "Got It"
+msgstr "เข้าใจแล้ว"
 
 # smartling.placeholder_format=C
 #. Option selected by user to acknowledge understanding of information
@@ -4523,6 +4638,12 @@ msgstr "ชั่วโมงหายไป"
 msgctxt "settings"
 msgid "Hover, Module, and Dropdown Background Color"
 msgstr "สีของโฮเวอร์ โมดูล และพื้นหลังแบบดรอปดาวน์"
+
+# smartling.placeholder_format=C
+#. Description of a page with more information about how anonymous location works in title case.
+msgctxt "precise_user_location"
+msgid "How We Keep Your Location Private"
+msgstr "เรียนรู้วิธีที่เรารักษาความเป็นส่วนตัวให้กับข้อมูลตำแหน่งที่ตั้งของคุณ"
 
 # smartling.placeholder_format=C
 #. Text for a prompt suggestion for saving an email as a PDF.
@@ -5846,6 +5967,11 @@ msgid "More from"
 msgstr "อื่นๆ จาก"
 
 # smartling.placeholder_format=C
+#. Text that appears before a list of website links that contain additional information on an answer provided in search results.
+msgid "More in %s"
+msgstr "เพิ่มเติมใน %1$s"
+
+# smartling.placeholder_format=C
 #. Link to additional infromation.
 msgctxt "precise_user_location"
 msgid "More info"
@@ -6034,6 +6160,12 @@ msgstr "นำทางใน"
 # smartling.placeholder_format=C
 #. Tells users where to find location settings on their phone. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
+msgid "Navigate to %sSetting > Apps%s"
+msgstr "ไปที่ %1$sการตั้งค่า > แอป%2$s"
+
+# smartling.placeholder_format=C
+#. Tells users where to find location settings on their phone. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
 msgid "Navigate to Setting > Apps."
 msgstr "ไปที่ \"การตั้งค่า > แอป\""
 
@@ -6091,6 +6223,12 @@ msgstr "ข่าวสําหรับ %1$s%2$s%3$s"
 
 # smartling.placeholder_format=C
 #. Refers to the Privacy Newsletter (shortened version).
+msgid "Newsletter"
+msgstr "จดหมายข่าว"
+
+# smartling.placeholder_format=C
+#. A link to the Newsletter subscription page (https://duckduckgo.com/newsletter/)
+msgctxt "SERP footer content"
 msgid "Newsletter"
 msgstr "จดหมายข่าว"
 
@@ -6457,6 +6595,12 @@ msgstr "เปิด"
 msgid "Open %s website"
 msgstr "เปิดเว็บไซต์ %1$s"
 
+# smartling.placeholder_format=C
+#. Tells users where to find the location settings in the settings menu. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Open %sLocation%s, and ensure location is %senabled%s"
+msgstr "เปิด %1$sตำแหน่ง%2$s และตรวจสอบให้แน่ใจว่าตำแหน่ง %3$sเปิดใช้งาน%4$s"
+
 #  Chrome/Firefox on Android/iOS
 # smartling.placeholder_format=C
 #. Instructions on how to change a browser's default search engine to DuckDuckGo.
@@ -6543,16 +6687,34 @@ msgid "Open on third-party site"
 msgstr "เปิดบนเว็บไซต์บุคคลที่สาม"
 
 # smartling.placeholder_format=C
+#. Tells users to open the setting application. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Open the %sSettings app%s"
+msgstr "เปิด %1$sแอปการตั้งค่า%2$s"
+
+# smartling.placeholder_format=C
 #. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Open the %sSettings app%s."
 msgstr "เปิด%1$sแอปการตั้งค่า%2$s"
 
 # smartling.placeholder_format=C
+#. Tells users to open the setting application. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Open the %sSettings%s app"
+msgstr "เปิดแอป %1$sการตั้งค่า%2$s"
+
+# smartling.placeholder_format=C
 #. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Open the %sSettings%s app."
 msgstr "เปิดแอป%1$sการตั้งค่า%2$s"
+
+# smartling.placeholder_format=C
+#. Tells how to find the settings menu in their browser. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Open the Safari menu and select %sSettings for DuckDuckGo...%s"
+msgstr "เปิดเมนู Safari และเลือก %1$sการตั้งค่าสำหรับ DuckDuckGo...%2$s"
 
 # smartling.placeholder_format=C
 #. Label for the time a business opens. For example: 'Opens at 10am'
@@ -7299,6 +7461,12 @@ msgid "Privacy Policy and Terms of Use"
 msgstr "นโยบายความเป็นส่วนตัวและข้อกำหนดการใช้งาน"
 
 # smartling.placeholder_format=C
+#. A link to the Privacy Pro product page (https://duckduckgo.com/pro/)
+msgctxt "SERP footer content"
+msgid "Privacy Pro"
+msgstr "Privacy Pro"
+
+# smartling.placeholder_format=C
 msgid "Privacy Protection For Any Device"
 msgstr "การปกป้องความเป็นส่วนตัวสำหรับทุกอุปกรณ์"
 
@@ -7333,6 +7501,11 @@ msgstr "ความเป็นส่วนตัวแบบเรียบง
 # smartling.placeholder_format=C
 msgid "Privacy, simplified."
 msgstr "ความเป็นส่วนตัวแบบเรียบง่าย"
+
+# smartling.placeholder_format=C
+#. Refers to the DuckDuckGo search engine, on which your searches are always private. This is the shorter version, shown on smaller screens
+msgid "Private"
+msgstr "ส่วนตัว"
 
 # smartling.placeholder_format=C
 msgid "Private Search"
@@ -7559,6 +7732,12 @@ msgstr "เปลี่ยนเส้นทาง:"
 msgctxt "Tooltip for redo action"
 msgid "Redo"
 msgstr "ทำซ้ำ"
+
+# smartling.placeholder_format=C
+#. Button that refreshes the user's current location on a map. 
+msgctxt "precise_user_location"
+msgid "Refresh Location"
+msgstr "ตำแหน่งที่ตั้ง"
 
 # smartling.placeholder_format=C
 #. Label for a menu with different countries.
@@ -7955,6 +8134,12 @@ msgstr ""
 # smartling.placeholder_format=C
 #. Tells users where to find location settings within the settings menu. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
+msgid "Scroll down and locate %syour browser%s in the list"
+msgstr "เลื่อนลงและค้นหา %1$sเบราว์เซอร์ของคุณ%2$s ในรายการ"
+
+# smartling.placeholder_format=C
+#. Tells users where to find location settings within the settings menu. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
 msgid "Scroll down and locate %syour browser%s in the list."
 msgstr "เลื่อนลงและค้นหา%1$sเบราว์เซอร์ของคุณ%2$sในรายการ"
 
@@ -8025,6 +8210,12 @@ msgstr "ผลการค้นหา"
 msgctxt "settings pages title"
 msgid "Search Settings"
 msgstr "การตั้งค่าการค้นหา"
+
+# smartling.placeholder_format=C
+#. A link to a page that explains Search Shortcuts (aka bangs) (https://duckduckgo.com/bangs/)
+msgctxt "SERP footer content"
+msgid "Search Shortcuts"
+msgstr "ทางลัดค้นหา"
 
 # smartling.placeholder_format=C
 #. A button that searches within an area shown on a map.
@@ -8147,6 +8338,12 @@ msgid "See What's New"
 msgstr "ดูว่ามีอะไรใหม่"
 
 # smartling.placeholder_format=C
+#. A link to a page that provides the latest updates on DuckDuckGo products.
+msgctxt "SERP footer content"
+msgid "See What’s New"
+msgstr "ดูว่ามีอะไรใหม่"
+
+# smartling.placeholder_format=C
 #. Click "What is this?" - http://i.imgur.com/KhmRHth.png
 #. Then at the bottom of the cloud save box - http://i.imgur.com/4Jo3jAf.png
 msgctxt "cloudsave"
@@ -8206,6 +8403,12 @@ msgstr "เลือก %1$sDuckDuckGo%2$s และคลิก%3$sตั้ง
 #. Tells users where in the settings menu they can change their default search engine.
 msgid "Select %sDuckDuckGo%s in the Default Search Engine drop down"
 msgstr "เลือก %1$sDuckDuckGo%2$s ในเมนูดรอปดาวน์เครื่องมือค้นหาเริ่มต้น"
+
+# smartling.placeholder_format=C
+#. Tells users which setting to change to enable location service. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Select %sDuckDuckGo%s in the list and %sallow%s location access"
+msgstr "เลือก %1$sDuckDuckGo%2$s ในรายการและ %3$sอนุญาต%4$sการเข้าถึงตำแหน่ง"
 
 #  IE 11 default search engine instruction
 # smartling.placeholder_format=C
@@ -8320,6 +8523,12 @@ msgstr ""
 "เลือก%1$sใช้หน้าเว็บนี้เป็นหน้าหลักเดียวของคุณ%2$s (หรือหนึ่งในตัวเลือกอื่นๆ "
 "ตามต้องการ)"
 
+# smartling.placeholder_format=C
+#. Tells users to make sure location services are enabled for thier browser. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Select %syour browser%s in the list and %sallow%s location access"
+msgstr "เลือก %1$sเบราว์เซอร์ของคุณ%2$s ในรายการ และ อนุญาต%3$sการเข้าถึงตำแหน่ง%4$s"
+
 #  Safari default search engine instruction
 # smartling.placeholder_format=C
 #. Tells users to select DuckDuckGo from a dropdown menu.
@@ -8343,6 +8552,12 @@ msgstr "เลือก \"การตั้งค่า > ตำแหน่ง
 msgctxt "Anomaly modal"
 msgid "Select all squares containing a duck:"
 msgstr "เลือกทุกช่องที่มีเป็ด:"
+
+# smartling.placeholder_format=C
+#. Tells users which setting to change to enable location service. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Select an option to %sallow%s location access"
+msgstr "เลือกตัวเลือกเพื่อ %1$sอนุญาต%2$s การเข้าถึงตำแหน่ง"
 
 # smartling.placeholder_format=C
 #. Tells users where in the settings menu they can change their default search engine.
@@ -8414,6 +8629,12 @@ msgstr "กำหนดตำแหน่งบนแผนที่"
 msgctxt "precise_user_location"
 msgid "Set Manually"
 msgstr "ตั้งค่าด้วยตนเอง"
+
+# smartling.placeholder_format=C
+#. Button that allows users to manually select a new location on a map.
+msgctxt "precise_user_location"
+msgid "Set New Location on Map"
+msgstr "กำหนดตำแหน่งใหม่บนแผนที่"
 
 # smartling.placeholder_format=C
 #. Text prompting users to make DuckDuckGo the default search engine in their browser.
@@ -8869,6 +9090,12 @@ msgid "Source:"
 msgstr "แหล่งที่มา:"
 
 # smartling.placeholder_format=C
+#. Instant Answer attribution to original data source e.g. 'Source: Wikipedia'
+msgctxt "Instant Answer attribution"
+msgid "Source: %s%s%s"
+msgstr "ที่มา: %1$s%2$s%3$s"
+
+# smartling.placeholder_format=C
 msgctxt "Sports module"
 msgid "South"
 msgstr "ทิศใต้"
@@ -9244,10 +9471,28 @@ msgid "Tan"
 msgstr "สีน้ำตาล"
 
 # smartling.placeholder_format=C
+#. Tells users where to find the location settings in the settings menu. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Tap %sPermissions > Location%s"
+msgstr "แตะ %1$sสิทธิ์ > ตำแหน่ง%2$s"
+
+# smartling.placeholder_format=C
+#. Tells users to select the app info. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Tap the %sapp info icon%s"
+msgstr "แตะ %1$sไอคอนข้อมูลแอป%2$s"
+
+# smartling.placeholder_format=C
 #. Tells users which icon to press in their browser. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Tap the %slock icon%s on the address bar."
 msgstr "แตะ%1$sไอคอนล็อก%2$sในแถบที่อยู่"
+
+# smartling.placeholder_format=C
+#. Tells users which icon to press in their browser. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Tap the %spermissions icon%s in the address bar"
+msgstr "แตะ %1$sไอคอนการอนุญาต%2$s ในแถบที่อยู่"
 
 # smartling.placeholder_format=C
 #. Tells users which icon to press in their browser. Part of a list of instructions on how to enable location service.
@@ -9856,6 +10101,12 @@ msgid "Turn off:"
 msgstr "ปิด"
 
 # smartling.placeholder_format=C
+#. Tells users which setting to change to enable location service. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Turn on %sPrecise Location%s for more accurate results"
+msgstr "เปิด %1$sตำแหน่งที่แม่นยำ%2$s เพื่อให้ได้ผลลัพธ์ที่แม่นยำยิ่งขึ้น"
+
+# smartling.placeholder_format=C
 #. Tells users which setting to change to enable location service.
 msgctxt "precise_user_location"
 msgid "Turn on “Precise Location” for more accurate results."
@@ -9896,6 +10147,11 @@ msgstr ""
 msgctxt "settings"
 msgid "Typing Animation"
 msgstr "แอนิเมชั่นการพิมพ์"
+
+# smartling.placeholder_format=C
+#. Shortened form referring to the United Kingdom
+msgid "UK"
+msgstr "สหราชอาณาจักร"
 
 # smartling.placeholder_format=C
 #. This is the name of a user setting
@@ -10063,6 +10319,10 @@ msgid "United Kingdom"
 msgstr "สหราชอาณาจักร"
 
 # smartling.placeholder_format=C
+msgid "United States"
+msgstr "สหรัฐอเมริกา"
+
+# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Units of Measure"
 msgstr "หน่วยวัด"
@@ -10095,6 +10355,12 @@ msgstr "อัปเดตเบราว์เซอร์ของคุณ"
 msgctxt "precise_user_location"
 msgid "Updating location..."
 msgstr "อัปเดตตำแหน่งที่ตั้ง..."
+
+# smartling.placeholder_format=C
+#. Promotional message asking users to upgrade to the Privacy Pro subscription service.
+msgctxt "SERP footer content"
+msgid "Upgrade to Privacy Pro"
+msgstr "อัพเกรดเป็น Privacy Pro"
 
 # smartling.placeholder_format=C
 #. Heading in a promotion for a desktop web browser
@@ -10378,6 +10644,14 @@ msgstr ""
 "เพราะเราต้องสตรีมเนื้อหาจากที่นั่น DuckDuckGo "
 "เป็นบริษัทอิสระและไม่มีความสัมพันธ์กับ YouTube "
 "ซึ่งวิดีโอส่วนใหญ่โฮสต์อยู่ที่นั่น"
+
+# smartling.placeholder_format=C
+#. Explains how location service is used to show users search results near their current location.
+msgctxt "precise_user_location"
+msgid "We can anonymize%s your location%s to show you more accurate results."
+msgstr ""
+"เราสามารถเปิดใช้%1$s ตำแหน่งของคุณ%2$s "
+"แบบไม่ระบุตัวตนเพื่อแสดงผลลัพธ์ที่แม่นยำยิ่งขึ้น"
 
 # smartling.placeholder_format=C
 #. Explains how location service is used to show users search results near their current location.
@@ -10724,6 +10998,12 @@ msgstr "ความเห็นของผู้ใช้"
 msgctxt "maps_places"
 msgid "What people say:"
 msgstr "ความคิดเห็นของผู้ใช้:"
+
+# smartling.placeholder_format=C
+#. A link to a page that provides the latest updates on DuckDuckGo products. (https://duckduckgo.com/updates/)
+msgctxt "SERP footer content"
+msgid "What's New"
+msgstr "มีอะไรใหม่"
 
 # smartling.placeholder_format=C
 #. Link to a page featuring the most recent updates from DuckDuckGo.

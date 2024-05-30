@@ -104,6 +104,11 @@ msgid "%s for %s"
 msgstr "%1$s: %2$s"
 
 # smartling.placeholder_format=C
+#. States the title of an article and the website on which the article appears. The placeholder values are the title of the article and the name of the website. Example: 'How to Wash a Car from wikihow.com'
+msgid "%s from %s"
+msgstr "%2$s에서 가져온 %1$s"
+
+# smartling.placeholder_format=C
 #. We realise this is the incorrect way to handle plurals. Sorry, we are working on a fix.
 msgctxt "published dates for organic results"
 msgid "%s hours ago"
@@ -207,6 +212,18 @@ msgstr "%1$s더 알아보기%2$s."
 msgctxt "precise_user_location"
 msgid "%sLearn how we keep your location private%s."
 msgstr "%1$sDuckDuckGo가 사용자의 위치 정보를 어떻게 보호하는지 알아보세요%2$s."
+
+# smartling.placeholder_format=C
+#. Tells the user to press and hold the DuckDuckGo app icon. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "%sLong-press%s the DuckDuckGo app icon on the home screen"
+msgstr "홈 화면에서 DuckDuckGo 앱 아이콘을 %1$s길게 누릅니다%2$s"
+
+# smartling.placeholder_format=C
+#. Prompts the user to reload the webpage.
+msgctxt "precise_user_location"
+msgid "%sReload%s DuckDuckGo, and try again"
+msgstr "DuckDuckGo를 %1$s다시 로드%2$s하고 다시 시도하세요"
 
 # smartling.placeholder_format=C
 #. Prompts the user to reload the webpage.
@@ -510,6 +527,12 @@ msgstr "정보"
 msgctxt "static_page"
 msgid "About"
 msgstr "정보"
+
+# smartling.placeholder_format=C
+#. A link to a page that provides information about the DuckDuckGo Browser (https://duckduckgo.com/app/)
+msgctxt "SERP footer content"
+msgid "About Browser"
+msgstr "브라우저 정보"
 
 # smartling.placeholder_format=C
 #. at least in:
@@ -886,6 +909,12 @@ msgstr "Android 브라우저"
 msgctxt "image-type"
 msgid "Animated GIF"
 msgstr "GIF 애니메이션"
+
+# smartling.placeholder_format=C
+#. Tells the user the location being used to show search results. e.g. Anonymizing your location in London, UK.
+msgctxt "precise_user_location"
+msgid "Anonymizing your location in"
+msgstr "내 위치 익명화 중 / 현재 위치:"
 
 # smartling.placeholder_format=C
 #. Confirmation message after location service is enabled.
@@ -1863,6 +1892,12 @@ msgid "Clear"
 msgstr "지우기"
 
 # smartling.placeholder_format=C
+#. User clicks this button to clear a saved device location and disable precise user location
+msgctxt "precise_user_location"
+msgid "Clear & Disable"
+msgstr "지우기 및 비활성화"
+
+# smartling.placeholder_format=C
 #. This appears on a button that clears all of a user's settings.
 msgid "Clear All"
 msgstr "모두 지우기"
@@ -2130,6 +2165,12 @@ msgid "Click the %slock icon%s on the address bar."
 msgstr "주소 표시줄에서 %1$s자물쇠 아이콘%2$s을 클릭하세요."
 
 # smartling.placeholder_format=C
+#. Tells users where to click in their browser to enable location service. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Click the %spermissions icon%s in the address bar"
+msgstr "주소 표시줄에서 %1$s권한 아이콘%2$s을 클릭하세요"
+
+# smartling.placeholder_format=C
 #. Tells users where to click in their browser to search using DuckDuckGo.
 msgid "Click the Duck icon at the top of your browser to search!"
 msgstr "브라우저 상단에 있는 오리 아이콘을 클릭하여 검색하세요!"
@@ -2346,6 +2387,12 @@ msgstr "커뮤니티"
 
 # smartling.placeholder_format=C
 #. Refers to the DuckDuckGo page for comparing privacy features across browsers and extensions. (https://duckduckgo.com/compare-privacy/)
+msgid "Compare Privacy"
+msgstr "개인정보 보호 비교"
+
+# smartling.placeholder_format=C
+#. A link to a page that compares privacy features across different browsers and extensions (https://duckduckgo.com/compare-privacy/)
+msgctxt "SERP footer content"
 msgid "Compare Privacy"
 msgstr "개인정보 보호 비교"
 
@@ -3240,6 +3287,12 @@ msgid "Email Protection"
 msgstr "이메일 보호"
 
 # smartling.placeholder_format=C
+#. A link that takes the user to the Email Protection product page (https://duckduckgo.com/email/)
+msgctxt "SERP footer content"
+msgid "Email Protection"
+msgstr "이메일 보호"
+
+# smartling.placeholder_format=C
 #. Tells users which setting to change to enable location service.
 msgctxt "precise_user_location"
 msgid "Enable 'Sites can ask for my location.'"
@@ -3332,10 +3385,28 @@ msgid "Ensure 'Location Services' is %senabled%s."
 msgstr "'위치 서비스'가 %1$s활성화%2$s되어 있어야 합니다."
 
 # smartling.placeholder_format=C
+#. Tells users how to enable location service. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Ensure 'Location' is set to %sallow%s"
+msgstr "'위치'가 %1$s허용%2$s으로 설정되어 있어야 합니다"
+
+# smartling.placeholder_format=C
 #. Tells users how to enable location service.
 msgctxt "precise_user_location"
 msgid "Ensure 'Location' is set to %sallow%s."
 msgstr "'위치'가 %1$s허용%2$s으로 설정되어 있어야 합니다."
+
+# smartling.placeholder_format=C
+#. Tells users where to find the location settings in the settings menu. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Ensure Location is set to %sAllow%s"
+msgstr "'위치'가 %1$s허용%2$s으로 설정되어 있어야 합니다"
+
+# smartling.placeholder_format=C
+#. Tells users to make sure location services are enabled on their device. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Ensure location access is %sallowed%s"
+msgstr "위치 접근이 %1$s허용%2$s으로 설정되어 있어야 합니다"
 
 # smartling.placeholder_format=C
 #. Tells users to make sure location services are enabled on their device. Part of a list of instructions on how to enable location service.
@@ -3344,10 +3415,22 @@ msgid "Ensure location access is %sallowed%s."
 msgstr "위치 접근이 %1$s허용%2$s으로 설정되어 있어야 합니다."
 
 # smartling.placeholder_format=C
+#. Tells users how to enable location service. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Ensure your browser is allowed %slocation access%s"
+msgstr "브라우저에서 %1$s위치 접근%2$s이 허용되어 있어야 합니다"
+
+# smartling.placeholder_format=C
 #. Tells users how to enable location service.
 msgctxt "precise_user_location"
 msgid "Ensure your browser is allowed %slocation access%s."
 msgstr "브라우저에서 %1$s위치 접근%2$s이 허용되어 있어야 합니다."
+
+# smartling.placeholder_format=C
+#. Tells how to enable location service. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Ensure your browser is allowed location access"
+msgstr "브라우저에서 위치 접근이 허용되어 있어야 합니다"
 
 # smartling.placeholder_format=C
 #. Tells how to enable location service.
@@ -3463,6 +3546,12 @@ msgstr "DuckDuckGo의 최신 기술 및 기능 업데이트를 확인해 보세�
 #. Links to a page that provides a list of DuckDuckGo product updates
 msgctxt "SERP footer content"
 msgid "Explore DuckDuckGo's latest product updates."
+msgstr "DuckDuckGo의 최신 업데이트를 확인해 보세요."
+
+# smartling.placeholder_format=C
+#. A link to a page that provides the latest updates on DuckDuckGo products. (https://duckduckgo.com/updates/)
+msgctxt "SERP footer content"
+msgid "Explore DuckDuckGo’s latest product updates."
 msgstr "DuckDuckGo의 최신 업데이트를 확인해 보세요."
 
 #  seen on Opera 9.52, Firefox 33 and Chrome 27 besides homepage instructions; link to e.g. https://help.duckduckgo.com/desktop/opera/
@@ -3937,6 +4026,12 @@ msgid "Get Directions"
 msgstr "길 찾기"
 
 # smartling.placeholder_format=C
+#. Heading for Get More column containing list of links to DuckDuckGo Links
+msgctxt "SERP footer content"
+msgid "Get More"
+msgstr "더 알아보기"
+
+# smartling.placeholder_format=C
 #. The title of a page where users can download the DuckDuckGo app or browser extension.
 msgctxt "showcase_app"
 msgid "Get Our App & Extension"
@@ -3970,6 +4065,12 @@ msgstr "개인정보 보호 팁 얻기"
 msgctxt "Onboarding welcome screen button text"
 msgid "Get Started"
 msgstr "시작하기"
+
+# smartling.placeholder_format=C
+#. Promotional message explaining that a VPN and two additional privacy protections are included in the Privacy Pro subscription.
+msgctxt "SERP footer content"
+msgid "Get a VPN + two more protections in one easy subscription."
+msgstr "간편한 구독 한번으로 VPN과 두 가지 추가 보호를 받으세요."
 
 # smartling.placeholder_format=C
 #. Find answers to common problems in our help documentation
@@ -4019,6 +4120,12 @@ msgstr "더 많은 사람들에게 추천해서 DuckDuckGo의 성장을 도와�
 # smartling.placeholder_format=C
 msgid "Ghana"
 msgstr "가나"
+
+# smartling.placeholder_format=C
+#. Tells user where to find location settings in the settings menu. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Go to %sPrivacy & Security > Location Services%s"
+msgstr "%1$s개인정보 보호 & 보안 > 위치 서비스%2$s로 이동합니다"
 
 # smartling.placeholder_format=C
 #. Tells users where to find the location settings in the settings menu. Part of a list of instructions on how to enable location service.
@@ -4077,6 +4184,12 @@ msgstr "득점"
 msgctxt "shortbelieve"
 msgid "Goodies"
 msgstr "기능들"
+
+# smartling.placeholder_format=C
+#. Option selected by user to acknowledge understanding of information
+msgctxt "precise_user_location"
+msgid "Got It"
+msgstr "이해했습니다."
 
 # smartling.placeholder_format=C
 #. Option selected by user to acknowledge understanding of information
@@ -4462,6 +4575,12 @@ msgstr "영업 시간이 입력되지 않았습니다."
 msgctxt "settings"
 msgid "Hover, Module, and Dropdown Background Color"
 msgstr "마우스 커서를 가져갔을 때 배경 색상 및 모듈과 드롭다운 배경 색상"
+
+# smartling.placeholder_format=C
+#. Description of a page with more information about how anonymous location works in title case.
+msgctxt "precise_user_location"
+msgid "How We Keep Your Location Private"
+msgstr "DuckDuckGo의 사용자 위치 정보 보호 방법"
 
 # smartling.placeholder_format=C
 #. Text for a prompt suggestion for saving an email as a PDF.
@@ -5759,6 +5878,11 @@ msgid "More from"
 msgstr "더 보기 대상:"
 
 # smartling.placeholder_format=C
+#. Text that appears before a list of website links that contain additional information on an answer provided in search results.
+msgid "More in %s"
+msgstr "%1$s에서 더 보기"
+
+# smartling.placeholder_format=C
 #. Link to additional infromation.
 msgctxt "precise_user_location"
 msgid "More info"
@@ -5947,6 +6071,12 @@ msgstr "내비게이션 제공:"
 # smartling.placeholder_format=C
 #. Tells users where to find location settings on their phone. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
+msgid "Navigate to %sSetting > Apps%s"
+msgstr "%1$s설정 > 앱%2$s으로 이동합니다"
+
+# smartling.placeholder_format=C
+#. Tells users where to find location settings on their phone. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
 msgid "Navigate to Setting > Apps."
 msgstr "설정 > 앱으로 이동하세요."
 
@@ -6004,6 +6134,12 @@ msgstr "%1$s%2$s%3$s 뉴스"
 
 # smartling.placeholder_format=C
 #. Refers to the Privacy Newsletter (shortened version).
+msgid "Newsletter"
+msgstr "뉴스레터"
+
+# smartling.placeholder_format=C
+#. A link to the Newsletter subscription page (https://duckduckgo.com/newsletter/)
+msgctxt "SERP footer content"
 msgid "Newsletter"
 msgstr "뉴스레터"
 
@@ -6366,6 +6502,12 @@ msgstr "영업 중"
 msgid "Open %s website"
 msgstr "%1$s 웹사이트 열기"
 
+# smartling.placeholder_format=C
+#. Tells users where to find the location settings in the settings menu. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Open %sLocation%s, and ensure location is %senabled%s"
+msgstr "%1$s위치%2$s를 열고 위치가 %3$s활성화%4$s되어 있는지 확인하세요"
+
 #  Chrome/Firefox on Android/iOS
 # smartling.placeholder_format=C
 #. Instructions on how to change a browser's default search engine to DuckDuckGo.
@@ -6452,16 +6594,34 @@ msgid "Open on third-party site"
 msgstr "타사 사이트에서 열기"
 
 # smartling.placeholder_format=C
+#. Tells users to open the setting application. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Open the %sSettings app%s"
+msgstr "%1$s설정 앱%2$s을 여세요"
+
+# smartling.placeholder_format=C
 #. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Open the %sSettings app%s."
 msgstr "%1$s설정 앱%2$s을 여세요."
 
 # smartling.placeholder_format=C
+#. Tells users to open the setting application. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Open the %sSettings%s app"
+msgstr "%1$s설정%2$s 앱을 여세요"
+
+# smartling.placeholder_format=C
 #. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Open the %sSettings%s app."
 msgstr "%1$s설정%2$s 앱을 여세요."
+
+# smartling.placeholder_format=C
+#. Tells how to find the settings menu in their browser. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Open the Safari menu and select %sSettings for DuckDuckGo...%s"
+msgstr "Safari 메뉴를 열고 %1$sDuckDuckGo 설정...%2$s을 선택합니다."
 
 # smartling.placeholder_format=C
 #. Label for the time a business opens. For example: 'Opens at 10am'
@@ -7198,6 +7358,12 @@ msgid "Privacy Policy and Terms of Use"
 msgstr "개인정보 보호정책 및 이용 약관"
 
 # smartling.placeholder_format=C
+#. A link to the Privacy Pro product page (https://duckduckgo.com/pro/)
+msgctxt "SERP footer content"
+msgid "Privacy Pro"
+msgstr "Privacy Pro"
+
+# smartling.placeholder_format=C
 msgid "Privacy Protection For Any Device"
 msgstr "모든 기기에서 개인정보 보호"
 
@@ -7232,6 +7398,11 @@ msgstr "개인정보 보호, 간단합니다."
 # smartling.placeholder_format=C
 msgid "Privacy, simplified."
 msgstr "개인정보 보호, 간단합니다."
+
+# smartling.placeholder_format=C
+#. Refers to the DuckDuckGo search engine, on which your searches are always private. This is the shorter version, shown on smaller screens
+msgid "Private"
+msgstr "비공개 상태로 유지됩니다."
 
 # smartling.placeholder_format=C
 msgid "Private Search"
@@ -7456,6 +7627,12 @@ msgstr "리디렉션:"
 msgctxt "Tooltip for redo action"
 msgid "Redo"
 msgstr "다시 실행"
+
+# smartling.placeholder_format=C
+#. Button that refreshes the user's current location on a map. 
+msgctxt "precise_user_location"
+msgid "Refresh Location"
+msgstr "위치 새로 고침"
 
 # smartling.placeholder_format=C
 #. Label for a menu with different countries.
@@ -7841,6 +8018,12 @@ msgstr "아래로 스크롤하여 %1$s주소 표시줄에서 검색%2$s을 찾�
 # smartling.placeholder_format=C
 #. Tells users where to find location settings within the settings menu. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
+msgid "Scroll down and locate %syour browser%s in the list"
+msgstr "아래로 스크롤하여 목록에서 %1$s사용 중인 브라우저%2$s를 찾으세요"
+
+# smartling.placeholder_format=C
+#. Tells users where to find location settings within the settings menu. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
 msgid "Scroll down and locate %syour browser%s in the list."
 msgstr "아래로 스크롤하여 목록에서 %1$s사용 중인 브라우저%2$s를 찾으세요."
 
@@ -7911,6 +8094,12 @@ msgstr "검색 결과"
 msgctxt "settings pages title"
 msgid "Search Settings"
 msgstr "검색 설정"
+
+# smartling.placeholder_format=C
+#. A link to a page that explains Search Shortcuts (aka bangs) (https://duckduckgo.com/bangs/)
+msgctxt "SERP footer content"
+msgid "Search Shortcuts"
+msgstr "검색 바로 가기"
 
 # smartling.placeholder_format=C
 #. A button that searches within an area shown on a map.
@@ -8032,6 +8221,12 @@ msgid "See What's New"
 msgstr "새로운 기능 보기"
 
 # smartling.placeholder_format=C
+#. A link to a page that provides the latest updates on DuckDuckGo products.
+msgctxt "SERP footer content"
+msgid "See What’s New"
+msgstr "새로운 기능 보기"
+
+# smartling.placeholder_format=C
 #. Click "What is this?" - http://i.imgur.com/KhmRHth.png
 #. Then at the bottom of the cloud save box - http://i.imgur.com/4Jo3jAf.png
 msgctxt "cloudsave"
@@ -8089,6 +8284,12 @@ msgstr "%1$sDuckDuckGo%2$s를 선택하고 %3$s기본값으로 설정%4$s을 클
 #. Tells users where in the settings menu they can change their default search engine.
 msgid "Select %sDuckDuckGo%s in the Default Search Engine drop down"
 msgstr "기본 검색 엔진 드롭다운에서 %1$sDuckDuckGo%2$s를 선택하세요."
+
+# smartling.placeholder_format=C
+#. Tells users which setting to change to enable location service. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Select %sDuckDuckGo%s in the list and %sallow%s location access"
+msgstr "목록에서 %1$sDuckDuckGo%2$s를 선택하고 위치 접근을 %3$s허용%4$s하세요"
 
 #  IE 11 default search engine instruction
 # smartling.placeholder_format=C
@@ -8197,6 +8398,12 @@ msgid ""
 "options if you prefer)"
 msgstr "%1$s이 웹페이지를 홈 화면으로 사용%2$s을 선택하세요(다른 옵션도 선택 가능)."
 
+# smartling.placeholder_format=C
+#. Tells users to make sure location services are enabled for thier browser. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Select %syour browser%s in the list and %sallow%s location access"
+msgstr "목록에서 %1$s내 브라우저%2$s를 선택하고 위치 접근을 %3$s허용%4$s하세요"
+
 #  Safari default search engine instruction
 # smartling.placeholder_format=C
 #. Tells users to select DuckDuckGo from a dropdown menu.
@@ -8220,6 +8427,12 @@ msgstr "설정 > 위치를 선택하세요."
 msgctxt "Anomaly modal"
 msgid "Select all squares containing a duck:"
 msgstr "오리가 있는 사각형 전부 선택하기"
+
+# smartling.placeholder_format=C
+#. Tells users which setting to change to enable location service. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Select an option to %sallow%s location access"
+msgstr "위치 접근 %1$s허용%2$s 옵션을 선택하세요"
 
 # smartling.placeholder_format=C
 #. Tells users where in the settings menu they can change their default search engine.
@@ -8291,6 +8504,12 @@ msgstr "지도에 위치 설정"
 msgctxt "precise_user_location"
 msgid "Set Manually"
 msgstr "수동으로 설정"
+
+# smartling.placeholder_format=C
+#. Button that allows users to manually select a new location on a map.
+msgctxt "precise_user_location"
+msgid "Set New Location on Map"
+msgstr "지도에서 새 위치 설정"
 
 # smartling.placeholder_format=C
 #. Text prompting users to make DuckDuckGo the default search engine in their browser.
@@ -8740,6 +8959,12 @@ msgid "Source:"
 msgstr "출처:"
 
 # smartling.placeholder_format=C
+#. Instant Answer attribution to original data source e.g. 'Source: Wikipedia'
+msgctxt "Instant Answer attribution"
+msgid "Source: %s%s%s"
+msgstr "출처: %1$s%2$s%3$s"
+
+# smartling.placeholder_format=C
 msgctxt "Sports module"
 msgid "South"
 msgstr "남부"
@@ -9113,10 +9338,28 @@ msgid "Tan"
 msgstr "황갈색"
 
 # smartling.placeholder_format=C
+#. Tells users where to find the location settings in the settings menu. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Tap %sPermissions > Location%s"
+msgstr "%1$s권한 > 위치%2$s를 누르세요"
+
+# smartling.placeholder_format=C
+#. Tells users to select the app info. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Tap the %sapp info icon%s"
+msgstr "%1$s앱 정보 아이콘%2$s을 누르세요"
+
+# smartling.placeholder_format=C
 #. Tells users which icon to press in their browser. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Tap the %slock icon%s on the address bar."
 msgstr "주소 창에서 %1$s자물쇠 아이콘%2$s을 누르세요."
+
+# smartling.placeholder_format=C
+#. Tells users which icon to press in their browser. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Tap the %spermissions icon%s in the address bar"
+msgstr "주소 창에서 %1$s권한 아이콘%2$s을 누르세요"
 
 # smartling.placeholder_format=C
 #. Tells users which icon to press in their browser. Part of a list of instructions on how to enable location service.
@@ -9712,6 +9955,12 @@ msgid "Turn off:"
 msgstr "해제:"
 
 # smartling.placeholder_format=C
+#. Tells users which setting to change to enable location service. Part of a list of instructions on how to enable location service.
+msgctxt "precise_user_location"
+msgid "Turn on %sPrecise Location%s for more accurate results"
+msgstr "결과의 정확도를 높이기 위해 %1$s정확한 위치%2$s를 활성화하세요"
+
+# smartling.placeholder_format=C
 #. Tells users which setting to change to enable location service.
 msgctxt "precise_user_location"
 msgid "Turn on “Precise Location” for more accurate results."
@@ -9750,6 +9999,11 @@ msgstr "DuckAssist 답변이 생성되는 대로 입력합니다. 이 기능을 
 msgctxt "settings"
 msgid "Typing Animation"
 msgstr "입력 애니메이션"
+
+# smartling.placeholder_format=C
+#. Shortened form referring to the United Kingdom
+msgid "UK"
+msgstr "영국"
 
 # smartling.placeholder_format=C
 #. This is the name of a user setting
@@ -9913,6 +10167,10 @@ msgid "United Kingdom"
 msgstr "영국"
 
 # smartling.placeholder_format=C
+msgid "United States"
+msgstr "미국"
+
+# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Units of Measure"
 msgstr "측정 단위"
@@ -9945,6 +10203,12 @@ msgstr "브라우저 업데이트"
 msgctxt "precise_user_location"
 msgid "Updating location..."
 msgstr "위치 업데이트 중..."
+
+# smartling.placeholder_format=C
+#. Promotional message asking users to upgrade to the Privacy Pro subscription service.
+msgctxt "SERP footer content"
+msgid "Upgrade to Privacy Pro"
+msgstr "Privacy Pro로 업그레이드"
 
 # smartling.placeholder_format=C
 #. Heading in a promotion for a desktop web browser
@@ -10222,6 +10486,12 @@ msgid ""
 msgstr ""
 "여기서 영상을 시청하면 콘텐츠를 스트리밍해야 하기 때문에 해당 영상을 호스팅하는 웹사이트에서 사용자를 추적할 수 있습니다. "
 "DuckDuckGo는 동영상 대부분을 호스팅하는 YouTube와 무관한 독립적인 기업입니다."
+
+# smartling.placeholder_format=C
+#. Explains how location service is used to show users search results near their current location.
+msgctxt "precise_user_location"
+msgid "We can anonymize%s your location%s to show you more accurate results."
+msgstr "더 정확한 결과를 보여드리기 위해 %1$s사용자의 위치%2$s를 익명화할 수 있습니다."
 
 # smartling.placeholder_format=C
 #. Explains how location service is used to show users search results near their current location.
@@ -10556,6 +10826,12 @@ msgstr "사용자 리뷰"
 msgctxt "maps_places"
 msgid "What people say:"
 msgstr "방문자 리뷰"
+
+# smartling.placeholder_format=C
+#. A link to a page that provides the latest updates on DuckDuckGo products. (https://duckduckgo.com/updates/)
+msgctxt "SERP footer content"
+msgid "What's New"
+msgstr "업데이트 소식"
 
 # smartling.placeholder_format=C
 #. Link to a page featuring the most recent updates from DuckDuckGo.
