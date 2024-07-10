@@ -2,9 +2,6 @@ name: Run Tests
 
 on: pull_request
 
-env:
-  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
-
 jobs:
   run_tests:
     name: Run Tests
@@ -14,6 +11,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Install system dependencies
+        env:
+          ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
         run: |
           echo "deb http://archive.debian.org/debian stretch main contrib non-free" > /etc/apt/sources.list
           apt update -y
