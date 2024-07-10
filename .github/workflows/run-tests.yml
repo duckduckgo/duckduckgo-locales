@@ -2,6 +2,10 @@ name: Run Tests
 
 on: pull_request
 
+# https://github.com/actions/checkout/issues/1809#issuecomment-2215390787
+env:
+  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
+
 jobs:
   run_tests:
     name: Run Tests
