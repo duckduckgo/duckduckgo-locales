@@ -2,16 +2,12 @@ name: Run Tests
 
 on: pull_request
 
-env:
-  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
-  ACTIONS_RUNNER_FORCE_ACTIONS_NODE_VERSION: node16
-
 jobs:
   run_tests:
     name: Run Tests
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     container:
-      image: perl:5.28.1
+      image: perl:5.40.0
     steps:
       - uses: actions/checkout@v3
       - name: Install system dependencies
