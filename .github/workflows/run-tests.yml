@@ -5,6 +5,7 @@ on: pull_request
 jobs:
   run_tests:
     name: Run Tests
+    # Becomes ubuntu-latest soon, required to run node20 actions.
     runs-on: ubuntu-24.04
     container:
       image: perl:5.40.0
