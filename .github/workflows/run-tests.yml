@@ -10,7 +10,7 @@ jobs:
     container:
       image: perl:5.40.0
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Install system dependencies
         run: |
           echo "deb http://archive.debian.org/debian stretch main contrib non-free" > /etc/apt/sources.list
