@@ -2,17 +2,15 @@ name: Run Tests
 
 on: pull_request
 
-env:
-  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
-
 jobs:
   run_tests:
     name: Run Tests
-    runs-on: ubuntu-latest
+    # Becomes ubuntu-latest soon, required to run node20 actions.
+    runs-on: ubuntu-24.04
     container:
-      image: perl:5.28.1
+      image: perl:5.40.0
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Install system dependencies
         run: |
           echo "deb http://archive.debian.org/debian stretch main contrib non-free" > /etc/apt/sources.list
