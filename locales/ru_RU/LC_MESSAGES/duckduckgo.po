@@ -1333,7 +1333,7 @@ msgstr "Ассистент"
 # smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Assist"
-msgstr "Ассистент"
+msgstr "Assist"
 
 # smartling.placeholder_format=C
 msgctxt "settings"
@@ -1346,15 +1346,14 @@ msgid ""
 "(shows more frequently on a wider range of searches). For now, AI-assisted "
 "answers are only available in the U.S. (English) region."
 msgstr ""
-"Функция Assist способна анонимно генерировать ответы на некоторые поисковые "
-"запросы, опираясь на информацию из интернета, обобщенную при помощи "
-"искусственного интеллекта. Вы можете самостоятельно проконтролировать, как "
-"часто будут появляться ответы от Assist: «никогда» (интерфейс Assist "
-"полностью исключается из поисковых запросов), «по запросу» (ответы от ИИ "
-"отображаются при нажатии кнопки «Ассистент»), «иногда» (только при высокой "
-"релевантности) или «часто» (чаще и в отношении более широкого спектра "
-"запросов). Пока что ответы на базе ИИ предоставляются только на территории "
-"США (на английском языке)."
+"Функция Assist анонимно генерирует ответы на некоторые поисковые запросы, "
+"опираясь на информацию из интернета, обобщенную при помощи искусственного "
+"интеллекта. Вы можете самостоятельно проконтролировать, как часто будут "
+"появляться ответы Assist: «никогда» (интерфейс Assist полностью исключается "
+"из поисковых запросов), «по запросу» (ответы ИИ отображаются при нажатии "
+"кнопки «Ассистент»), «иногда» (только при высокой релевантности) или «часто» "
+"(чаще и в отношении более широкого спектра запросов). Пока что ответы на "
+"базе ИИ предоставляются только на территории США (на английском языке)."
 
 # smartling.placeholder_format=C
 #. First paragraph of a section inviting users to learn more about the Assist instant answer (based on generative AI)
@@ -2433,6 +2432,12 @@ msgid "Check %sMake this the current search engine%s"
 msgstr "Нажмите %1$sСделать текущей поисковой системой%2$s"
 
 # smartling.placeholder_format=C
+#. Displayed during an outage as a link to Reddit so folks can check on the status of the outage and get updates.
+msgctxt "noresults"
+msgid "Check Outage Status"
+msgstr "Проверьте на перебой в работе"
+
+# smartling.placeholder_format=C
 #. Form label for selecting a check in date for a hotel stay.
 msgctxt "Single Place Hotel Offers Module"
 msgid "Check in"
@@ -2449,6 +2454,12 @@ msgstr "Выезд"
 msgctxt "showcase_aria_label"
 msgid "Check out the list of things that we've also made."
 msgstr "Посмотреть список приложений, которые мы разработали."
+
+# smartling.placeholder_format=C
+#. Displayed during an outage indicating where users can find information about the outage and watch for updates
+msgctxt "noresults"
+msgid "Check the DuckDuckGo subreddit for updates on this outage."
+msgstr "Последнюю информацию по этому сбою можно отследить в сабреддите DuckDuckGo."
 
 # smartling.placeholder_format=C
 #. Option in a feedback form for image search results.
@@ -6169,6 +6180,12 @@ msgstr ""
 "«Меню» > «Настройки» > «Настройки сайта» > «Геолокация»%2$s и убедитесь, что "
 "у DuckDuckGo есть доступ к вашей геопозиции."
 
+# smartling.placeholder_format=C
+#. Inform the user we're still having errors and that we will investigate the issue
+msgctxt "noresults"
+msgid "If you continue to see this error, please reach out to %s."
+msgstr "Если ошибка не исчезнет, обратитесь сюда: %1$s."
+
 #  Chrome default search engine instruction
 # smartling.placeholder_format=C
 #. Tells users how to add DuckDuckGo to the list of search engines in their browser.
@@ -6881,6 +6898,12 @@ msgstr "Узнать %1$sБольше%2$s"
 msgctxt "frontpage"
 msgid "Learn %sMore%s"
 msgstr "Узнать %1$sБольше%2$s"
+
+# smartling.placeholder_format=C
+#. Displayed during an outage as a link to see all of the bangs DuckDuckGo has available.
+msgctxt "noresults"
+msgid "Learn More"
+msgstr "Узнать больше"
 
 # smartling.placeholder_format=C
 #. A link to the DuckDuckGo browser extension on the Firefox Add-ons Store
@@ -8827,6 +8850,12 @@ msgid "Or did you mean:"
 msgstr "Или вы имели в виду:"
 
 # smartling.placeholder_format=C
+#. Displays when both AI chat and other otions are displayed for users to get what they need when we are having an outage. Sits between AI chat and other options
+msgctxt "noresults"
+msgid "Or:"
+msgstr "Либо:"
+
+# smartling.placeholder_format=C
 #. Used for various color settings  query parameters values captions into <a =href="https://duckduckgo.com/params.html">query parameters documentation page</a>.
 msgid "Orange"
 msgstr "Оранжевый"
@@ -9237,7 +9266,7 @@ msgstr ""
 "Формулировка поискового запроса в виде полного вопросительного предложения "
 "повышает вероятность автоматического отображения функции Assist и часто "
 "позволяет получить более качественные ответы. Отключить эту функцию и скрыть "
-"кнопку «Ассистент» можно в «%1$sНастройках поиска%2$s»."
+"кнопку Assist можно в «%1$sНастройках поиска%2$s»."
 
 # smartling.placeholder_format=C
 #. Third paragraph of a section inviting users to learn more about the duckassist instant answer (based on generative AI)
@@ -10725,6 +10754,17 @@ msgstr "Язык поиска"
 #. A link to search results for a different search term. The placeholder value is the search term. For example: 'Search only for pizza?'
 msgid "Search only for %s?"
 msgstr "Искать только %1$s?"
+
+# smartling.placeholder_format=C
+#. Provide users with the ability to retry their search on a different search engine. Placeholder is a URL to the !bangs page: https://duckduckgo.com/bangs.
+msgctxt "noresults"
+msgid ""
+"Search other sites with %s shortcuts: a search for ”!w ducks” will search "
+"for “ducks” directly on Wikipedia."
+msgstr ""
+"Поищите нужную информацию на других сайтах с помощью символа «!» %1$s. "
+"Например, при вводе «!w ducks» будет совершен поиск статей про уток "
+"непосредственно в «Википедии»."
 
 # smartling.placeholder_format=C
 #. Item in a list of features of a desktop web browser
@@ -12309,6 +12349,12 @@ msgstr "Благодарим вас за отзыв!"
 # smartling.placeholder_format=C
 #. Inform the users that "something" went wrong and we are unable to show any results.
 msgctxt "noresults"
+msgid "Thanks for your patience while we get our ducks in a row!"
+msgstr "Похоже, у нас что-то крякнуло. Благодарим за терпение."
+
+# smartling.placeholder_format=C
+#. Inform the users that "something" went wrong and we are unable to show any results.
+msgctxt "noresults"
 msgid "Thanks for your patience while we get our ducks in a row."
 msgstr "Похоже, у нас что-то крякнуло. Благодарим за терпение."
 
@@ -12343,6 +12389,12 @@ msgstr "Гамбия"
 msgctxt "settings"
 msgid "The rendering method to use for interactive maps"
 msgstr "Способ отрисовки для интерактивных карт"
+
+# smartling.placeholder_format=C
+#. Inform the users that "something" went wrong and we are unable to show any results.
+msgctxt "noresults"
+msgid "The server encountered an error and could not complete your request."
+msgstr "Сервер столкнулся с ошибкой и не смог выполнить ваш запрос."
 
 # smartling.placeholder_format=C
 #. Title for the theme menu:
@@ -12864,8 +12916,18 @@ msgid "Try %s to stop seeing messages like this."
 msgstr "Чтобы не получать подобные сообщения, попробуйте %1$s."
 
 # smartling.placeholder_format=C
+msgid "Try %sDuck.ai%s, our private AI chat service:"
+msgstr "Попробуйте %1$sDuck.ai%2$s — приватный чат с искусственным интеллектом:"
+
+# smartling.placeholder_format=C
 #. Text of button allowing users to try the bot challenge again
 msgctxt "Anomaly modal"
+msgid "Try Again"
+msgstr "Повторите попытку"
+
+# smartling.placeholder_format=C
+#. A link that will allow users to reload the page, show when no search results loaded due to an error
+msgctxt "noresults"
 msgid "Try Again"
 msgstr "Повторите попытку"
 
@@ -13152,6 +13214,12 @@ msgstr "США"
 # smartling.placeholder_format=C
 msgid "Uganda"
 msgstr "Уганда"
+
+# smartling.placeholder_format=C
+#. Inform the user that we retried but still did not succeed
+msgctxt "noresults"
+msgid "Ugh, it happened again!"
+msgstr "Ну вот, опять!"
 
 # smartling.placeholder_format=C
 msgid "Ukraine"
@@ -13905,6 +13973,16 @@ msgid "We'll block trackers trying to collect your data as you browse."
 msgstr "Пока вы гуляете по Интернету, мы не даем трекерам собирать ваши данные."
 
 # smartling.placeholder_format=C
+#. Inform the user we're still having errors and that we will investigate the issue
+msgctxt "noresults"
+msgid ""
+"We're aware of this issue and are currently working to resolve it. Sometimes "
+"clearing your browser's cache can help."
+msgstr ""
+"Мы уже в курсе этой проблемы и работаем над ее решением. Иногда помогает "
+"очистка кэша браузера."
+
+# smartling.placeholder_format=C
 #. Header for a feedback form for new users.
 msgctxt "new user poll"
 msgid "We're honored to have you on the Duck Side"
@@ -14039,6 +14117,12 @@ msgstr "Западная конференция"
 msgctxt "noresults"
 msgid "We’re currently experiencing an issue with DuckDuckGo Search."
 msgstr "Сервис DuckDuckGo Search столкнулся с проблемой."
+
+# smartling.placeholder_format=C
+#. Inform the users that "something" went wrong and we are unable to show any results.
+msgctxt "noresults"
+msgid "We’re experiencing an outage."
+msgstr "У нас произошел сбой."
 
 # smartling.placeholder_format=C
 #. Text for a prompt suggestion for providing arguments, counter-arguments, and rebuttals to the concept of a plant-based diet.
