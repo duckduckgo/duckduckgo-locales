@@ -172,7 +172,7 @@ sub translation_check {
     my $locale = (split "/", $name)[1];
 
     if ( exists( $european_languages{$locale} )) {
-        my $which_msg = ( $msgid =~ /More\sInfo/ ) ? "more_info" : "ad_badge";
+        my $which_msg = ( $msgid =~ /More\sinfo/ ) ? "more_info" : "ad_badge";
         my $msg_expected = $european_languages{$locale}{$which_msg};
         return 1 if $msgstr eq $msg_expected;
     } else {
