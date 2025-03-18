@@ -23,7 +23,7 @@ use vars qw/*name *dir *prune %european_languages/;
       ad_badge => "Прыватнасць прагляду рэкламы абараняецца DuckDuckGo. Націсканні на рэкламныя аб'явы кіруюцца сеткай Microsoft"
     },
     bg_BG => {
-      more_info => "повече информация",
+      more_info => "Повече информация",
       ad_badge => "Вашата поверителност при гледане на реклами е защитена от DuckDuckGo. Рекламните кликове се управляват от рекламната мрежа на Microsoft"
     },
     cs_CZ => {
@@ -71,15 +71,15 @@ use vars qw/*name *dir *prune %european_languages/;
       ad_badge => "A hirdetéseket a DuckDuckGo adatvédelme keretében tekintheted meg. A hirdetéskattintásokat a Microsoft hirdetési hálózata kezeli"
     },
     id_ID => {
-      more_info => "Info Lebih Banyak",
+      more_info => "Info lebih banyak",
       ad_badge => "Melihat iklan adalah privasi yang dilindungi oleh DuckDuckGo. Klik iklan dikelola oleh jaringan iklan Microsoft"
     },
     is_IS => {
-      more_info => "frekari upplýsingar",
+      more_info => "Frekari upplýsingar",
       ad_badge => "Að skoða auglýsingar fellur undir persónuvernd frá DuckDuckGo. Auglýsingasmellum er stjórnað af auglýsinganeti Microsoft"
     },
     it_IT => {
-      more_info => "Maggiori Informazioni",
+      more_info => "Maggiori informazioni",
       ad_badge => "La privacy della visualizzazione degli annunci è protetta da DuckDuckGo. I clic sugli annunci sono gestiti dalla rete pubblicitaria di Microsoft"
     },
     ja_JP => {
@@ -111,7 +111,7 @@ use vars qw/*name *dir *prune %european_languages/;
       ad_badge => "De weergave van advertenties wordt beschermd door DuckDuckGo. Advertentieklikken worden beheerd door het advertentienetwerk van Microsoft"
     },
     pl_PL => {
-      more_info => "więcej informacji",
+      more_info => "Więcej informacji",
       ad_badge => "DuckDuckGo chroni prywatność użytkowników przeglądających reklamy. Klikanie reklam zarządzane jest przez sieć reklamową Microsoft"
     },
     pt_PT => {
@@ -147,7 +147,7 @@ use vars qw/*name *dir *prune %european_languages/;
       ad_badge => "การดูโฆษณาได้รับการปกป้องความเป็นส่วนตัวโดย DuckDuckGo การคลิกโฆษณาได้รับการจัดการโดยเครือข่ายโฆษณาของ Microsoft"
     },
     tr_TR => {
-      more_info => "Daha Fazla Bilgi",
+      more_info => "Daha fazla bilgi",
       ad_badge => "Reklam görüntüleme, DuckDuckGo’nun gizlilik koruması altındadır. Reklam tıklamaları, Microsoft’un reklam ağı tarafından yönetilir"
     },
     uk_UA => {
@@ -172,7 +172,7 @@ sub translation_check {
     my $locale = (split "/", $name)[1];
 
     if ( exists( $european_languages{$locale} )) {
-        my $which_msg = ( $msgid =~ /More\sInfo/ ) ? "more_info" : "ad_badge";
+        my $which_msg = ( $msgid =~ /More\sinfo/ ) ? "more_info" : "ad_badge";
         my $msg_expected = $european_languages{$locale}{$which_msg};
         return 1 if $msgstr eq $msg_expected;
     } else {
