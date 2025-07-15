@@ -151,6 +151,21 @@ msgid "%s in the Olympics %s"
 msgstr "%1$s在 %2$s年奥运会上"
 
 # smartling.placeholder_format=C
+#. Displayed when an AI (Artificial Intelligence) chat model is temporarily unavailable. Example: 'GPT 4o is only available with a DuckDuckGo subscription.'
+msgctxt "Error message for model unavailability"
+msgid "%s is only available with a DuckDuckGo subscription."
+msgstr "%1$s仅限 DuckDuckGo 订阅用户使用。"
+
+# smartling.placeholder_format=C
+#. Text for the disclaimer message that appears when a model is not available to the user without a subscription. This is part of a sentence containing also the model name. Example: GPT-4.1 is only available with a DuckDuckGo subscription. Activate your subscription in this browser again to continue the chat, or switch to a free model.
+msgctxt "Text for the model not available without a subscription disclaimer"
+msgid ""
+"%s is only available with a DuckDuckGo subscription. Activate your "
+"subscription in this browser again to continue the chat, or switch to a free "
+"model."
+msgstr "%1$s 仅限 DuckDuckGo 订阅用户使用。在这个浏览器中重新激活你的订阅以继续聊天，或切换到免费模式。"
+
+# smartling.placeholder_format=C
 #. Displayed when an AI chat model is temporarily unavailable. Example: 'GPT 3.5 Turbo is temporarily unavailable. Please switch to a different model or try again later.'
 msgctxt "Error message for model unavailability"
 msgid ""
@@ -608,6 +623,16 @@ msgid "AI Features"
 msgstr "人工智能功能"
 
 # smartling.placeholder_format=C
+#. Title for filter to hide or include AI-generated images in image results
+msgid "AI images"
+msgstr "AI图像"
+
+# smartling.placeholder_format=C
+#. Title for filter to hide or include AI-generated images in image results
+msgid "AI images:"
+msgstr "AI 图像："
+
+# smartling.placeholder_format=C
 #. The title for the learn more modal about AI-Assisted Answers.
 msgctxt "duckassist"
 msgid "AI-Assisted Answers"
@@ -715,6 +740,28 @@ msgstr "准确"
 msgctxt "Label for assistant role selection"
 msgid "Act like"
 msgstr "表现得像"
+
+# smartling.placeholder_format=C
+#. Text for the button that opens the subscription modal.
+msgctxt "Button on the model not available disclaimer"
+msgid "Activate Subscription"
+msgstr "激活订阅"
+
+# smartling.placeholder_format=C
+#. Will be used in the sentence, 'Activate your DuckDuckGo subscription in this browser again to continue the chat, or switch to a free model.' but needs to be a separate token so we can make DuckDuckGo subscription a link
+msgctxt ""
+"Error message informing the user they need to activate their subscription to "
+"keep using the same AI model"
+msgid ""
+"Activate your %s in this browser again to continue the chat, or switch to a "
+"free model."
+msgstr "在这个浏览器中重新激活你的 %1$s以继续聊天，或切换到免费模式。"
+
+# smartling.placeholder_format=C
+#. Label indicating that the user has an active DuckDuckGo subscription.
+msgctxt "Text for the active subscription label on the settings modal"
+msgid "Active"
+msgstr "活跃"
 
 # smartling.placeholder_format=C
 #. Label for a menu item for the active privacy protection feature.
@@ -855,6 +902,18 @@ msgstr "地址有误"
 #. as in multiple advertisements
 msgid "Ads"
 msgstr "广告"
+
+# smartling.placeholder_format=C
+#. Title for the welcome modal displayed after the user subscribes to DuckDuckGo.
+msgctxt "Title for the subscription welcome modal"
+msgid "Advanced AI models unlocked!"
+msgstr "已解锁高级人工智能模型！"
+
+# smartling.placeholder_format=C
+#. Text displayed on the models list as a title for the advanced AI (Artificial Intelligence) models section.
+msgctxt "Label for the advanced AI models"
+msgid "Advanced Models"
+msgstr "高级模型"
 
 # smartling.placeholder_format=C
 #. Link to a page with resources for advertisers who want to place ads on the search results page.
@@ -1490,6 +1549,11 @@ msgid ""
 msgstr "根据所列资料来源自动生成。回复内容可能存在错误。"
 
 # smartling.placeholder_format=C
+#. Disclaimer for the duckassist instant answer (based on generative AI) on mobile
+msgid "Auto-generated from sources. May be inaccurate."
+msgstr "从来源自动生成。可能不准确。"
+
+# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Autocomplete Suggestions"
 msgstr "搜索建议"
@@ -1620,6 +1684,12 @@ msgid "Basic"
 msgstr "普通"
 
 # smartling.placeholder_format=C
+#. Text displayed on the models list as a title for the basic AI (Artificial Intelligence) models section.
+msgctxt "Label for the basic AI models"
+msgid "Basic Models"
+msgstr "基础模型"
+
+# smartling.placeholder_format=C
 #. The name of the Basque language
 msgctxt "language_name"
 msgid "Basque"
@@ -1731,6 +1801,11 @@ msgstr "屏蔽烦人的 Cookie 弹出窗口"
 msgctxt "SERP footer content"
 msgid "Block email trackers and hide your address."
 msgstr "屏蔽电子邮件跟踪程序并隐藏你的地址。"
+
+# smartling.placeholder_format=C
+#. A disclaimer about AI-generated images in search results
+msgid "Block list is not exhaustive and may contain inaccuracies."
+msgstr "阻止列表并不详尽，可能包含不准确之处。"
 
 # smartling.placeholder_format=C
 msgctxt "homepage ATB modal"
@@ -2183,6 +2258,12 @@ msgstr "能告诉我们更多细节吗？"
 msgctxt "Assistant role option label for Career counselor"
 msgid "Career counselor"
 msgstr "职业咨询师"
+
+# smartling.placeholder_format=C
+#. Label for the option prompting the AI assistant to adopt a role of a career strategist in its responses.
+msgctxt "Assistant role option label for Career strategist"
+msgid "Career strategist"
+msgstr "职业规划师"
 
 # smartling.placeholder_format=C
 msgid "Careers"
@@ -3514,6 +3595,12 @@ msgid "Customize New Tab Page"
 msgstr "自定义新标签页"
 
 # smartling.placeholder_format=C
+#. Label for the button that opens a modal that allows users to customize the AI assistant conversation context, e.g. tone and length of responses, the role and name of AI assistant, etc.
+msgctxt "Label for customizing Duck.ai"
+msgid "Customize Responses"
+msgstr "自定义回复"
+
+# smartling.placeholder_format=C
 #. The help text shown to users to indicate that there's a menu that can be used to customize the layout of the page
 msgid "Customize this page"
 msgstr "自定义此页面"
@@ -4328,6 +4415,19 @@ msgid "DuckDuckGo Subscription"
 msgstr "DuckDuckGo 订阅"
 
 # smartling.placeholder_format=C
+#. Title for the subscription setting when users are subscribed to DuckDuckGo.
+msgctxt ""
+"Title of the DuckDuckGo subscription setting located on the settings modal"
+msgid "DuckDuckGo Subscription"
+msgstr "DuckDuckGo 订阅"
+
+# smartling.placeholder_format=C
+#. A button that takes the user to the subscription FAQs.
+msgctxt "Button on the subscription welcome modal"
+msgid "DuckDuckGo Subscription FAQs"
+msgstr "DuckDuckGo 订阅常见问题解答"
+
+# smartling.placeholder_format=C
 #. Link to the settings help in support center from the cloud save section.
 #. You have to click the "What is this?" link to display the link (that is contained on the bottom of a huge paragraph).
 msgid "DuckDuckGo Support Center"
@@ -4387,6 +4487,29 @@ msgstr "DuckDuckGo 搜索"
 #. Used as a link to your personal settings  into the sentence <em>You can change *DuckDuckGo settings* via URL parameters by adding them after the search query</em>. See the <a href="https://duckduckgo.com/params.html">params page</a>.
 msgid "DuckDuckGo settings"
 msgstr "DuckDuckGo 设置"
+
+# smartling.placeholder_format=C
+#. Will be used in the sentence, 'Activate your DuckDuckGo subscription in this browser again to continue the chat, or switch to a free model.'
+msgctxt ""
+"Link part of the error message that informs the user they need to activate "
+"their subscription to keep using the same AI model. It opens the "
+"subscription modal"
+msgid "DuckDuckGo subscription"
+msgstr "DuckDuckGo 订阅"
+
+# smartling.placeholder_format=C
+#. Will be used in the sentence 'Unlock advanced AI models with a DuckDuckGo subscription' and open sthe subscription modal when clicked
+msgctxt "Link text used within sentences to open the subscription modal"
+msgid "DuckDuckGo subscription"
+msgstr "DuckDuckGo 订阅"
+
+# smartling.placeholder_format=C
+#. Description for the subscription setting when subscriptions to DuckDuckGo are not available in the user region.
+msgctxt ""
+"Description of the DuckDuckGo subscription setting when it is not available "
+"in the user region"
+msgid "DuckDuckGo subscriptions are not available to purchase in this region."
+msgstr "无法在该地区购买 DuckDuckGo 订阅。"
 
 # smartling.placeholder_format=C
 #. Label for the option prompting the AI assistant to use 'ducky' tone in its responses. When this option is selected, the AI assistant speaks like a duck.
@@ -4810,6 +4933,12 @@ msgid "Expand Map"
 msgstr "展开地图"
 
 # smartling.placeholder_format=C
+#. Label indicating that the user has an expired DuckDuckGo subscription.
+msgctxt "Text for the expired subscription label on the settings modal"
+msgid "Expired"
+msgstr "已过期"
+
+# smartling.placeholder_format=C
 #. Promotional text that appears in a merchant ad extension dropdown, meaning that a product promotion expires in X days. The placeholder is the number of days until the promotion expires. Example: 'Expires in 5 days'
 msgctxt "merchant promotion product ad extension"
 msgid "Expires in %s days"
@@ -4917,6 +5046,12 @@ msgstr "国际足联世界杯"
 msgctxt "Sports module"
 msgid "FPV"
 msgstr "FPV"
+
+# smartling.placeholder_format=C
+#. Text for the badge displayed to indicate that the user does not have a subscription to DuckDuckGo. Free here refers to price (as in free of charge).
+msgctxt "Text for the free badge"
+msgid "FREE"
+msgstr "免费"
 
 # smartling.placeholder_format=C
 #. Full-time (match has ended) indicator in a soccer match
@@ -5046,6 +5181,11 @@ msgid "Filters not effective"
 msgstr "筛选条件无效"
 
 # smartling.placeholder_format=C
+msgctxt "settings"
+msgid "Filters out AI-generated images from image search results"
+msgstr "从图像搜索结果中过滤掉 AI 生成的图像"
+
+# smartling.placeholder_format=C
 #. Label for the final score of a sporting event.
 msgid "Final"
 msgstr "最终比分"
@@ -5122,6 +5262,12 @@ msgid "First Place Votes"
 msgstr "第一名票数"
 
 # smartling.placeholder_format=C
+#. Label for the option prompting the AI assistant to adopt a role of a fitness guru in its responses.
+msgctxt "Assistant role option label for Fitness guru"
+msgid "Fitness guru"
+msgstr "健身达人"
+
+# smartling.placeholder_format=C
 #. Instant Answer Tab Name
 msgid "Flights"
 msgstr "航班"
@@ -5144,6 +5290,11 @@ msgid ""
 "Follow the instructions for turning off the ad blocker for DuckDuckGo. You "
 "may have to select a menu option or click a button."
 msgstr "按照说明关闭 DuckDuckGo 的广告拦截器。可能需要选择菜单选项或点击按钮。"
+
+# smartling.placeholder_format=C
+#. A placeholder for the AI Chat prompt input when used in the context of asking follow-up questions based on a DuckAssist reponse on mobile
+msgid "Follow-up question"
+msgstr "后续问题"
 
 # smartling.placeholder_format=C
 #. Link to DuckDuckGo's Twitter profile.
@@ -5452,6 +5603,11 @@ msgid "Generate"
 msgstr "生成"
 
 # smartling.placeholder_format=C
+#. Text for the button that generates more of an answer from duckassist when the answer has come from a collapsed state
+msgid "Generate More"
+msgstr "生成更多内容"
+
+# smartling.placeholder_format=C
 #. Tab tooltip text for a navigation tab that takes the user to duckassist instant answer - a generative AI feature that generates a short answer based on relevant content on the web. Do not use the word AI or artificial inteligence in the translation.
 msgid "Generate a short answer from the web"
 msgstr "根据网络相关内容生成简短答案"
@@ -5563,6 +5719,24 @@ msgstr "只需订阅一次，即可轻松享用 VPN 和其他两种保护功能�
 msgctxt "SERP footer content"
 msgid "Get a VPN + two more protections. Try it for free!"
 msgstr "获取 VPN 和另外两项保护。免费试试看！"
+
+# smartling.placeholder_format=C
+#. Description for the subscription modal where users can update their subscription to DuckDuckGo.
+msgctxt "Description of the modal to upgrade the DuckDuckGo subscription"
+msgid ""
+"Get access to advanced AI models in Duck.ai by subscribing to DuckDuckGo, "
+"which also includes our VPN and other premium privacy protections."
+msgstr "订阅 DuckDuckGo 即可使用 Duck.ai 的高级人工智能模型，同时还包括我们的 VPN 和其他高级隐私保护功能。"
+
+# smartling.placeholder_format=C
+#. Description for the subscription setting where users can subscribe to DuckDuckGo.
+msgctxt ""
+"Description of the upgrade with subscription setting located on the settings "
+"modal"
+msgid ""
+"Get access to advanced AI models in Duck.ai with a DuckDuckGo subscription, "
+"which also includes our VPN and other premium privacy protections."
+msgstr "通过 DuckDuckGo 订阅使用 Duck.ai 的高级人工智能模型，其中还包括我们的 VPN 和其他高级隐私保护功能。"
 
 # smartling.placeholder_format=C
 #. Find answers to common problems in our help documentation
@@ -5706,6 +5880,12 @@ msgstr "良好的隐私政策"
 msgctxt "shortbelieve"
 msgid "Goodies"
 msgstr "高级功能"
+
+# smartling.placeholder_format=C
+#. A button that closes the welcome modal.
+msgctxt "Button on the subscription welcome modal"
+msgid "Got It"
+msgstr "明白了"
 
 # smartling.placeholder_format=C
 #. Option selected by user to acknowledge understanding of information
@@ -5889,6 +6069,12 @@ msgid "Haze"
 msgstr "阴霾"
 
 # smartling.placeholder_format=C
+#. Label for the option prompting the AI assistant to adopt a role of a head chef in its responses.
+msgctxt "Assistant role option label for Head chef"
+msgid "Head chef"
+msgstr "主厨"
+
+# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Header Appearance"
 msgstr "搜索栏外观"
@@ -6052,6 +6238,22 @@ msgstr "你可能会喜欢我们的这些功能。"
 msgctxt "welcome message"
 msgid "Here's what it does:"
 msgstr "此扩展的功能："
+
+# smartling.placeholder_format=C
+#. A filter option to hide AI-generated images in search results
+msgid "Hide"
+msgstr "隐藏"
+
+# smartling.placeholder_format=C
+#. A setting to hide AI-generated images in search results
+msgctxt "Settings"
+msgid "Hide AI images"
+msgstr "隐藏 AI 图片"
+
+# smartling.placeholder_format=C
+msgctxt "settings"
+msgid "Hide AI-Generated Images"
+msgstr "隐藏 AI 生成的图像"
 
 # smartling.placeholder_format=C
 #. Setting that hides a user's most visited sites when they open a new browser tab.
@@ -6330,6 +6532,18 @@ msgstr "飓风"
 msgctxt "Onboarding terms screen button text"
 msgid "I Agree"
 msgstr "我同意"
+
+# smartling.placeholder_format=C
+#. Text for the button that takes the user to the login subscription page.
+msgctxt "Text for the I have a subscription button"
+msgid "I Have a Subscription"
+msgstr "我有一个订阅"
+
+# smartling.placeholder_format=C
+#. Text for the link that takes the user to the login subscription page.
+msgctxt "Text for the I already have a subscription link"
+msgid "I already have a subscription"
+msgstr "我已经有一个订阅"
 
 # smartling.placeholder_format=C
 #. Feedback option for when customer dislikes AI
@@ -7191,6 +7405,12 @@ msgid "Learn how we keep your location private"
 msgstr "了解我们如何保密你的定位"
 
 # smartling.placeholder_format=C
+#. A label in a sentence that takes users to another page with additional information.
+msgctxt "Learn more used in a sentence"
+msgid "Learn more"
+msgstr "了解详情"
+
+# smartling.placeholder_format=C
 #. Text for a link to the help page that explain how DuckDuckGo uses the user location.
 msgctxt "Link to learn more about how DuckDuckGo uses the user location"
 msgid "Learn more"
@@ -7586,6 +7806,20 @@ msgstr "恶意软件"
 #. Text for generic link to send the user to a page to manage their settings.
 msgid "Manage"
 msgstr "管理"
+
+# smartling.placeholder_format=C
+#. Text for the button that takes the user to the page where they can manage their DuckDuckGo subscription.
+msgctxt "Text for the manage subscription button on the settings modal"
+msgid "Manage"
+msgstr "管理"
+
+# smartling.placeholder_format=C
+#. Text for the button that takes the user to the Manage your subscription page when clicked.
+msgctxt ""
+"Text for the manage subscription button on the AI (Artificial Intelligence) "
+"models modal"
+msgid "Manage Your Subscription"
+msgstr "管理你的订阅"
 
 # smartling.placeholder_format=C
 #. The name of the Maori language
@@ -10904,6 +11138,12 @@ msgid "Restore all"
 msgstr "全部还原"
 
 # smartling.placeholder_format=C
+#. Text for the button that takes the user to the page where they can resubscribe to DuckDuckGo.
+msgctxt "Text for the resubscribe button on the settings modal"
+msgid "Resubscribe"
+msgstr "重新订阅"
+
+# smartling.placeholder_format=C
 #. http://i.imgur.com/kqN8dPT.png
 msgctxt "settings"
 msgid "Result Highlight Color"
@@ -11031,6 +11271,12 @@ msgstr "桌面浏览器的 SERP 促销已取消"
 msgctxt "Sports module"
 msgid "SO"
 msgstr "点球决胜"
+
+# smartling.placeholder_format=C
+#. Text for the badge displayed to indicate that the user has a subscription to DuckDuckGo.
+msgctxt "Text for the subscriber badge"
+msgid "SUBSCRIBER"
+msgstr "订阅者"
 
 # smartling.placeholder_format=C
 #. Abbreviation for 'Southwest'
@@ -11787,6 +12033,15 @@ msgstr "意见反馈"
 msgctxt "feedback form"
 msgid "Send feedback for:"
 msgstr "反馈搜索结果："
+
+# smartling.placeholder_format=C
+#. A description of customization functionality show to users when they open a modal with all customization settings.
+msgctxt "A description of customizing Duck.ai"
+msgid ""
+"Sends a prompt to AI models with your messages with instructions on how to "
+"respond. These instructions will apply to all of your conversations going "
+"forward."
+msgstr "向人工智能模型发送包含你的消息的提示，并附带回复说明。这些说明将适用于你今后的所有对话。"
 
 # smartling.placeholder_format=C
 msgid "Senegal"
@@ -12690,6 +12945,12 @@ msgid "Subscribe"
 msgstr "订阅"
 
 # smartling.placeholder_format=C
+#. Text for the button that takes the user to the sign up page to get a DuckDuckGo subscription.
+msgctxt "Text for the subscribe button"
+msgid "Subscribe to DuckDuckGo"
+msgstr "订阅 DuckDuckGo"
+
+# smartling.placeholder_format=C
 #. Indicates that this streaming service requires a subscription
 msgctxt "Where to watch instant answer"
 msgid "Subscription"
@@ -12837,6 +13098,12 @@ msgstr "瑞典"
 msgctxt "language_name"
 msgid "Swedish"
 msgstr "瑞典语"
+
+# smartling.placeholder_format=C
+#. Text for the button that allows the user to switch to a different model.
+msgctxt "Button to switch to a different model"
+msgid "Switch Model"
+msgstr "切换模型"
 
 # smartling.placeholder_format=C
 #. In the context of an AI Chat, tooltip text for the button that allows the user to switch to a different AI model.
@@ -14191,6 +14458,27 @@ msgid "Units swapped"
 msgstr "已切换单位"
 
 # smartling.placeholder_format=C
+#. Text for the button that allows the user to unlock an AI model with a DuckDuckGo subscription when clicked.
+msgctxt ""
+"Text for the unlock with subscription button on the AI (Artificial "
+"Intelligence) models modal"
+msgid "Unlock With a DuckDuckGo Subscription"
+msgstr "通过 DuckDuckGo 订阅解锁"
+
+# smartling.placeholder_format=C
+#. Text informing the user that advanced AI models can be unlocked with a subscription. The variable is used to insert a link that opens the subscription modal. Example: Unlock advanced AI models with a DuckDuckGo subscription.
+msgctxt ""
+"Text that shows users they can unlock advanced AI models with a subscription."
+msgid "Unlock advanced AI models with a %s"
+msgstr "通过 %1$s解锁高级人工智能模型"
+
+# smartling.placeholder_format=C
+#. Tooltip text shown when the user hovers over the free badge telling the user that they can unlock advanced AI (Artificial Intelligence) models with a DuckDuckGo subscription.
+msgctxt "Tooltip for the free badge"
+msgid "Unlock advanced AI models with a DuckDuckGo subscription"
+msgstr "通过 DuckDuckGo 订阅解锁高级 AI 模型"
+
+# smartling.placeholder_format=C
 #. Text explaining the limit on the number of recent chats that can be stored. Example: 'Up to 30 of your most recent chats can be saved at a time.'
 msgctxt "Information about the limit of recent chats that can be saved"
 msgid "Up to %s of your most recent chats can be saved at a time."
@@ -14235,6 +14523,19 @@ msgstr "更新于 %1$s"
 msgctxt "precise_user_location"
 msgid "Updating location..."
 msgstr "正在更新定位..."
+
+# smartling.placeholder_format=C
+#. Title for the subscription setting where users can subscribe to DuckDuckGo.
+msgctxt ""
+"Title of the upgrade with subscription setting located on the settings modal"
+msgid "Upgrade Duck.ai with a DuckDuckGo Subscription"
+msgstr "通过 DuckDuckGo 订阅升级 Duck.ai 服务"
+
+# smartling.placeholder_format=C
+#. Title for the subscription modal where users can update their subscription to DuckDuckGo.
+msgctxt "Title of the modal to upgrade the DuckDuckGo subscription"
+msgid "Upgrade Duck.ai with a DuckDuckGo subscription"
+msgstr "通过 DuckDuckGo 订阅升级 Duck.ai 服务"
 
 # smartling.placeholder_format=C
 #. Promotional message asking users to upgrade to the Privacy Pro subscription service.
@@ -14304,6 +14605,12 @@ msgstr "使用 %1$s 可以更快到达这里"
 msgctxt "precise_user_location"
 msgid "Use Anonymous Location"
 msgstr "使用匿名定位"
+
+# smartling.placeholder_format=C
+#. Text for the switch label that enables or disables the Approximate Location feature, a feature that helps improve Assistant responses by using the user's general location.
+msgctxt "Label for enabling Approximate Location feature"
+msgid "Use Approximate Location"
+msgstr "使用大致位置"
 
 # smartling.placeholder_format=C
 #. Text for the switch label that enables or disables the Approximately Location feature, a feature that helps improve Assistant responses by using the user's general location.
@@ -15628,6 +15935,14 @@ msgid "You have 1 attempt left."
 msgstr "你还可以再试 1 次。"
 
 # smartling.placeholder_format=C
+#. Description text for the welcome modal displayed after the user subscribes to DuckDuckGo.
+msgctxt "Description text for the subscription welcome modal"
+msgid ""
+"You now have access to advanced AI models. You can access the VPN and other "
+"DuckDuckGo subscription protections in the DuckDuckGo browser."
+msgstr "现在可以使用高级人工智能模型。可以在 DuckDuckGo 浏览器中使用 VPN 和其他 DuckDuckGo 订阅保护功能。"
+
+# smartling.placeholder_format=C
 #. Welcome message that appears after the DuckDuckGo extension is installed.
 msgctxt "welcome message"
 msgid "You now have the DuckDuckGo extension!"
@@ -15676,6 +15991,14 @@ msgstr "你是最棒的！"
 msgctxt "Update browser banner"
 msgid "You're using an outdated version of DuckDuckGo for Mac."
 msgstr "你使用的 Mac 版 DuckDuckGo 已过时。"
+
+# smartling.placeholder_format=C
+#. Displayed when the user has reached the maximum number of messages for a given moment, and should try again later when they might be able to send more messages again.
+msgctxt "Error message for user limit"
+msgid ""
+"You've reached the maximum number of messages for the moment. Please try "
+"again later."
+msgstr "你已达到当前的消息量上限。请稍后重试。"
 
 # smartling.placeholder_format=C
 #. A privacy disclaimer that appears above YouTube videos.
