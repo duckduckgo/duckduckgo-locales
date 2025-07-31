@@ -1444,6 +1444,18 @@ msgid "Ask"
 msgstr "Rákérdezés"
 
 # smartling.placeholder_format=C
+#. Placeholder text used in chat input for user’s messages. Example: 'Chat with GPT-3'
+msgctxt "Placeholder text user’s chat input"
+msgid "Ask %s"
+msgstr "Kérdezd őt: %1$s"
+
+# smartling.placeholder_format=C
+#. Short version of the placeholder text used in chat input for user’s messages.
+msgctxt "Placeholder text user’s chat input"
+msgid "Ask AI"
+msgstr "Kérdezd az MI-t"
+
+# smartling.placeholder_format=C
 #. Label for a button that opens a DuckDuckGo AI chat session
 msgid "Ask AI Chat"
 msgstr "Kérdezd az AI Chatet"
@@ -1452,6 +1464,12 @@ msgstr "Kérdezd az AI Chatet"
 #. A placeholder for the AI Chat prompt input
 msgid "Ask AI Chat anything"
 msgstr "Kérdezz bármit az AI Chattől"
+
+# smartling.placeholder_format=C
+#. Will be used as tooltip for a navigation tab that takes the user to an AI Chat bot feature similar to ChatGPT.
+msgctxt "Tooltip text in duckbar tab"
+msgid "Ask AI privately"
+msgstr "Kérdezd privátban a mesterséges intelligenciát"
 
 # smartling.placeholder_format=C
 #. A placeholder for the Duck.ai prompt input
@@ -3477,7 +3495,7 @@ msgstr "Teljesen kikapcsolja az Assist szolgáltatást"
 #. An option that completely disables the Search Assist feature.
 msgctxt "duckassist"
 msgid "Completely disables Search Assist"
-msgstr "Teljesen kikapcsolja a keresési asszisztenst"
+msgstr "Teljesen kikapcsolja a Search Assist funkciót"
 
 # smartling.placeholder_format=C
 #. Short string representing a prompt suggestion for composing a card.
@@ -11698,8 +11716,8 @@ msgstr ""
 "A válaszok kizárólag tájékoztatási célokat szolgálnak, és nem minősülnek "
 "orvosi, jogi, pénzügyi, befektetési vagy egyéb szakmai tanácsnak. Ezeket "
 "webes tartalmak alapján generálja a rendszer, és pontatlanságokat "
-"tartalmazhatnak. A keresési asszisztens a %1$sSzolgáltatási feltételek%2$s "
-"hatálya alá esik."
+"tartalmazhatnak. A Search Assist a %1$sSzolgáltatási feltételek%2$s hatálya "
+"alá esik."
 
 # smartling.placeholder_format=C
 #. Label on the button for restoring all previous website data.
@@ -12123,7 +12141,7 @@ msgstr "Névtelen kesesés"
 # smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Search Assist"
-msgstr "Keresési asszisztens"
+msgstr "Search Assist"
 
 # smartling.placeholder_format=C
 msgctxt "settings"
@@ -12135,13 +12153,12 @@ msgid ""
 "(on a wide range of searches). For now, Search Assist is only available in a "
 "subset of English speaking regions."
 msgstr ""
-"A keresési asszisztens névtelen módon generál válaszokat a keresési "
-"lekérdezésekre. Ehhez a weben rákeres a releváns tartalmakra, majd az AI "
-"segítségével generál egy rövid választ. Kiválaszthatod, hogy milyen gyakran "
-"jelenjen meg: Soha, Igény szerint (csak az Asszisztens gombra kattintáskor), "
-"Néha (ha nagyon releváns), vagy Gyakran (szélesebb körű keresések esetén). A "
-"keresési asszisztens egyelőre csak az angol nyelvű régiók egy részében "
-"érhető el."
+"A Search Assist névtelen módon generál válaszokat a keresési lekérdezésekre. "
+"Ehhez a weben rákeres a releváns tartalmakra, majd az AI segítségével "
+"generál egy rövid választ. Kiválaszthatod, hogy milyen gyakran jelenjen meg: "
+"Soha, Igény szerint (csak az Asszisztens gombra kattintáskor), Néha (ha "
+"nagyon releváns), vagy Gyakran (szélesebb körű keresések esetén). A Searh "
+"Assist egyelőre csak az angol nyelvű régiók egy részében érhető el."
 
 # smartling.placeholder_format=C
 #. First paragraph of a section inviting users to learn more about the Assist instant answer (based on generative AI)
@@ -12150,7 +12167,7 @@ msgid ""
 "search queries. To do this, it %sscans the web%s for relevant content and "
 "then uses AI to generate a brief answer based on information found."
 msgstr ""
-"A keresési asszisztens egy opcionális funkció, amely névtelen módon generál "
+"A Search Assist egy opcionális funkció, amely névtelen módon generál "
 "válaszokat a keresési lekérdezésekre. Ehhez a %1$sweben rákeres%2$s a "
 "releváns tartalmakra, majd az AI segítségével a talált információk alapján "
 "generál egy rövid választ."
@@ -13455,6 +13472,15 @@ msgstr "A forrás megbízható"
 msgctxt "translations_module"
 msgid "Source text cleared"
 msgstr "Forrásszöveg törölve"
+
+# smartling.placeholder_format=C
+#. Displayed when the user attempts to summarize a text selection that exceeds the maximum message size.
+msgctxt "Error message for summary selection input limit"
+msgid ""
+"Source text is too long to summarize. Try again with a shorter selection."
+msgstr ""
+"A forrásszöveg túl hosszú ahhoz, hogy összefoglalható legyen. Próbáld újra "
+"úgy, hogy egy rövidebb szöveget jelölsz ki."
 
 # smartling.placeholder_format=C
 #. https://duckduckgo.com/params under Interface Settings.in the end. It is a header
@@ -16823,9 +16849,8 @@ msgid ""
 "You can change how frequently you see Search Assist, or turn it off "
 "entirely, in %sSearch Settings%s."
 msgstr ""
-"A keresési asszisztens megjelenésének gyakoriságát a %1$sKeresési "
-"beállítások%2$s oldalon bármikor beállíthatod, vagy a funkciót teljesen ki "
-"is kapcsolhatod."
+"A Search Assist megjelenésének gyakoriságát a %1$sKeresési beállítások%2$s "
+"oldalon bármikor beállíthatod, vagy a funkciót teljesen ki is kapcsolhatod."
 
 # smartling.placeholder_format=C
 #. A label shown after the user enables the remember setting toggle that lets them know they change change it, and links to the appropriate setting
