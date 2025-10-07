@@ -309,6 +309,10 @@ msgctxt "settings"
 msgid "'Always protected' Reminder"
 msgstr ""
 
+msgctxt "settings"
+msgid "'Protected' Reminder"
+msgstr ""
+
 #. A suffix on a filter option indicating it is the one that is in effect if no other filter is chosen
 msgid "(Default)"
 msgstr ""
@@ -588,6 +592,11 @@ msgctxt "duckassist"
 msgid "AI-assisted answers have been turned off!"
 msgstr ""
 
+#. Negative feedback suggestion for when user dislikes AI-generated content
+msgctxt "Feedback prompt"
+msgid "AI-generated"
+msgstr ""
+
 #. A feedback suggestion
 msgctxt "Feedback prompt"
 msgid "AI-generated recipe"
@@ -802,6 +811,11 @@ msgstr ""
 #. as in multiple advertisements
 msgid "Ads"
 msgstr "Quảng cáo"
+
+#. A call-to-action to subscribe to unlock access to advanced AI models. Please keep translations to 50 characters or less.
+msgctxt "Text promotion"
+msgid "Advanced AI in DuckDuckGo subscription!"
+msgstr ""
 
 #. Text for a promotional card that encourages DuckDuckGo Subscription users to try the advanced AI models that the subscription unlocks.
 msgctxt "Promotional text for advanced AI models for subscribed Duck.ai users"
@@ -1185,6 +1199,13 @@ msgctxt "Body text for delete chat confirmation modal"
 msgid "Are you sure you want to delete this chat? This cannot be undone."
 msgstr ""
 
+#. Text asking the user to confirm if they want to disable chat history, with a warning that it will also delete currently saved chats including pinned chats.
+msgctxt "Body text for disable chat history confirmation modal"
+msgid ""
+"Are you sure you want to disable history? This will delete all chats, "
+"including pinned chats."
+msgstr ""
+
 #. Text asking the user to confirm if they want to disable recent chats, with a warning that it will also delete currently saved chats.
 msgctxt "Body text for disable recent chats confirmation modal"
 msgid ""
@@ -1339,6 +1360,11 @@ msgstr ""
 #. Accessible text of a button that adds an image to the current AI chat message being composed.
 msgctxt "Add an image to be uploaded to the AI chat conversation"
 msgid "Attach image"
+msgstr ""
+
+#. Accessible text of a button that toggles attaching page context to the current AI chat message being composed.
+msgctxt "Add page context from the current tab to the AI chat message"
+msgid "Attach page context"
 msgstr ""
 
 #. Alternative text that is used both for accessibility and export purposes when an image has been uploaded alongside an AI chat conversation. Placeholder is for the image number. E.g. 'Attached image 1'
@@ -2209,6 +2235,11 @@ msgid ""
 "off by visiting %shttps://duck.ai%s directly."
 msgstr ""
 
+#. Text for the switch label that enables or disables the Chat History feature, a feature that stores the user's chats.
+msgctxt "Label for chat history setting"
+msgid "Chat History"
+msgstr ""
+
 #. Option for feedback when the user wants to complain that the chat does not save the user's conversations.
 msgctxt "Feedback option for chat not saving conversations"
 msgid "Chat does not save my conversations"
@@ -2257,6 +2288,13 @@ msgstr ""
 #. Placeholder text used in chat input for user’s messages. Example: 'Chat with GPT-3'
 msgctxt "Placeholder text user’s chat input"
 msgid "Chat with %s"
+msgstr ""
+
+#. Text explaining that the Chat History feature stores the user's chats locally to their device, and not in other remote servers. Also explains that disabling chat history will delete pinned chats.
+msgctxt "Description for Chat History feature"
+msgid ""
+"Chats are stored locally on your device instead of on DuckDuckGo servers or "
+"remote servers. Disabling chat history will delete pinned chats."
 msgstr ""
 
 #. Message shown when we have no data from upstream to display
@@ -2377,6 +2415,11 @@ msgstr "Cổ điển"
 #. This appears on a button that clears a user's input.
 msgid "Clear"
 msgstr "Xoá"
+
+#. Text for a button that clears and deletes a chat.
+msgctxt "Button text for clearing a chat"
+msgid "Clear"
+msgstr ""
 
 #. Description of the daily/hourly weather condition, as returned from the (WeatherKit) API
 msgctxt "Weather IA"
@@ -2728,6 +2771,13 @@ msgstr ""
 
 msgctxt "Label for X button that closes side menu"
 msgid "Close menu"
+msgstr ""
+
+#. Aria label for the button that closes the pinned chats on boarding in the pinned chats section
+msgctxt ""
+"Aria label for the button that closes the pinned chats on boarding in the "
+"pinned chats section"
+msgid "Close pinned chats onboarding"
 msgstr ""
 
 #. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
@@ -3309,10 +3359,25 @@ msgctxt "Primary button text in delete chat modal"
 msgid "Delete Chat"
 msgstr ""
 
+#. Text for a button that clears all recent chats.
+msgctxt "Primary button text in mobile chat history modal"
+msgid "Delete Chats"
+msgstr ""
+
 #. Button that deletes settings has backed up to the cloud.
 #. This token is displayed as a button, so keep it short!
 msgid "Delete My Data"
 msgstr "Xóa dữ liệu của tôi"
+
+#. Tooltip text for a button that deleted all recent chat sessions.
+msgctxt "Tooltip text for the button that deletes all recent chats"
+msgid "Delete chats"
+msgstr ""
+
+#. Title of a modal that asks the user if they want to delete all recent chats.
+msgctxt "Modal header for deleting all recent chats confirmation"
+msgid "Delete recent chats?"
+msgstr ""
 
 #. Title of the modal that asks the user if they want to delete their current chat.
 msgctxt "Modal header for deleting a chat"
@@ -3380,9 +3445,19 @@ msgctxt "Images IA"
 msgid "Disable AI Images Filter"
 msgstr ""
 
+#. Text for a button in the modal that confirms the deletion of chat history and disables the feature.
+msgctxt "Primary button text in disable chat history modal"
+msgid "Disable Chat History"
+msgstr ""
+
 #. Text for a button where the user can click to disable the Duck.ai product.
 msgctxt "Onboarding welcome screen button text"
 msgid "Disable Duck.ai"
+msgstr ""
+
+#. Title of a modal that asks the user if they want to turn off the chat history feature.
+msgctxt "Modal header for disabling chat history confirmation"
+msgid "Disable chat history?"
 msgstr ""
 
 #. Title of a modal that asks the user if they want to turn off recent chats.
@@ -3426,6 +3501,11 @@ msgstr ""
 #. This appears on a button that a user clicks to close a notification, and choose to never see that notification again.
 msgid "Dismiss forever"
 msgstr "Hủy bỏ vĩnh viễn"
+
+#. Label for the select dropdown to changing display language
+msgctxt "Display language selector"
+msgid "Display Language"
+msgstr ""
 
 #. Name of a setting that controls the language of the user interface.
 msgctxt "settings"
@@ -3512,6 +3592,11 @@ msgctxt "precise_user_location"
 msgid "Done"
 msgstr "Đã xong"
 
+#. Text for a button that downloads a chat, as in it will it will create a file with the chat to be downloaded.
+msgctxt "Button for downloading a chat"
+msgid "Download"
+msgstr ""
+
 #. Text of a button that will download a file (e.g. Browser installer)
 msgctxt "SERP footer content"
 msgid "Download"
@@ -3535,6 +3620,11 @@ msgstr ""
 #. Button that downloads a file.
 msgid "Download file"
 msgstr "Tải file"
+
+#. Call to action to invite users to download the image generated by an AI model.
+msgctxt "Tooltip for an action button"
+msgid "Download image"
+msgstr ""
 
 #. Sidebar heading displayed above links to DuckDuckGo apps (our 'browser') on platforms such as iOS, Android, Windows, MacOS, and more.
 msgid "Downloads"
@@ -4567,6 +4657,11 @@ msgctxt "Assistant role option label for Fitness trainer"
 msgid "Fitness trainer"
 msgstr ""
 
+#. A feedback menu option to flag an AI-generated image.
+msgctxt "Feedback context menu"
+msgid "Flag AI-generated image"
+msgstr ""
+
 #. Instant Answer Tab Name
 msgid "Flights"
 msgstr "Chuyến bay"
@@ -4637,6 +4732,11 @@ msgstr ""
 #. Text describing that chats are free, private and anonymized by us. Chats in this context are chats with AI (Artificial Intelligence) models, like GPT.
 msgctxt "Onboarding welcome screen private claim"
 msgid "Free and private chats, anonymized by us"
+msgstr ""
+
+#. Text describing that chats are free, private and anonymized by us. Chats in this context are chats with AI (Artificial Intelligence) models, like GPT.
+msgctxt "Onboarding welcome screen private claim"
+msgid "Free and private chats, anonymized by us. No account required."
 msgstr ""
 
 #. a filter for images with the CC BY-NC usage license
@@ -4863,6 +4963,16 @@ msgstr ""
 
 #. Copy to invite the user to ask duckassist (an instant answer based on generative AI) for an answer
 msgid "Generate an answer from relevant content on the web."
+msgstr ""
+
+#. Title text shown for an assistant response that contains a generated image. Shown to internal users only
+msgctxt "Assistant response title"
+msgid "Generated image. Cost %s (internal only)"
+msgstr ""
+
+#. Placeholder text displayed while the AI assistant is generating an image.
+msgctxt "Assistant response placeholder"
+msgid "Generating image..."
 msgstr ""
 
 #. Placeholder text displayed while the AI assistant is generating a response.
@@ -5390,6 +5500,11 @@ msgctxt "welcome message"
 msgid "Here's what it does:"
 msgstr "Đây là những gì có thể làm được:"
 
+#. Text displayed before search results in Duck.ai to provide context for the list of search results shown
+msgctxt "Lead in text when showing search results in Duck.ai"
+msgid "Here’s what I found:"
+msgstr ""
+
 #. A filter option to hide AI-generated images in search results
 msgid "Hide"
 msgstr ""
@@ -5814,6 +5929,10 @@ msgstr ""
 msgid "Images blocked by safe search."
 msgstr ""
 
+#. Tooltip title for the section that showcases the image results for a certain query, ex. Images for beach
+msgid "Images for %s"
+msgstr ""
+
 #. A label that indicates a specific search result for images has been blocked by the safe search filter. The placeholder value is the name of the search result that was blocked.
 msgid "Images for %s blocked by safe search"
 msgstr ""
@@ -5906,6 +6025,11 @@ msgstr ""
 #. A feedback suggestion
 msgctxt "Feedback prompt"
 msgid "Inaccurate translation"
+msgstr ""
+
+#. Category of problem a user can select on a feedback form.
+msgctxt "feedback form"
+msgid "Inappropriate"
 msgstr ""
 
 #. e.g., 'Including results for Mozart' (when the user searched for 'Mozar')
@@ -6814,6 +6938,12 @@ msgstr ""
 msgid "Mauritius"
 msgstr ""
 
+#. Text for a button that indicates that the user has reached the maximum number of pinned chats.
+msgctxt ""
+"Button text for when the user has reached the maximum number of pinned chats"
+msgid "Max Pins Reached"
+msgstr ""
+
 #. Name of a setting managing the length of search result snippet text.
 msgctxt "settings"
 msgid "Max Snippet Length"
@@ -7489,6 +7619,11 @@ msgctxt "Onboarding welcome screen feature"
 msgid "No AI training on your conversations"
 msgstr ""
 
+#. Text describing feature highlighted on the welcome screen of the onboarding.
+msgctxt "Onboarding welcome screen feature"
+msgid "No AI training on your conversations."
+msgstr ""
+
 #. Indicates that driving directions aren't available between two locations on a map.
 msgctxt "directions"
 msgid "No Available Routes"
@@ -8046,6 +8181,11 @@ msgctxt "maps_places"
 msgid "Open 24 hours"
 msgstr "Mở 24 giờ"
 
+#. Opens the Duck.ai settings screen in the DuckDuckGo app
+msgctxt "setting"
+msgid "Open Duck.ai Settings"
+msgstr ""
+
 #. Button that makes a map larger.
 msgctxt "maps_places"
 msgid "Open Expanded Map"
@@ -8315,6 +8455,11 @@ msgctxt "settings"
 msgid "Page Break Numbers"
 msgstr "Số ngắt trang"
 
+#. A short title for a message that includes page context from the current tab.
+msgctxt "Title for the page context message"
+msgid "Page Content"
+msgstr ""
+
 #. http://i.imgur.com/nyTQ3ki.png
 msgctxt "settings"
 msgid "Page Width"
@@ -8570,6 +8715,16 @@ msgid ""
 "Pick your ad blocker and follow the instructions to allow ads on DuckDuckGo."
 msgstr ""
 
+#. Text for a button that pins a chat, as in it will it will add the chat to the pinned chats list.
+msgctxt "Button for pinning a chat"
+msgid "Pin"
+msgstr ""
+
+#. Text explaining how to pin chats, placeholders are for an icon and the word 'menu' wrapped in <strong> tags. Example: 'Pin chats here from the [three-dots-icon] <strong>menu</strong>'
+msgctxt "Pinned chats education row in Duck.ai"
+msgid "Pin chats here from the %s %s"
+msgstr ""
+
 #. Used for various color settings  query parameters values captions into <a =href="https://duckduckgo.com/params.html">query parameters documentation page</a>.
 msgid "Pink"
 msgstr "Hồng"
@@ -8578,6 +8733,11 @@ msgstr "Hồng"
 msgctxt "color"
 msgid "Pink"
 msgstr "Hồng"
+
+#. Title for the pinned chats section. In this section, users can pin chats that are not deleted when clearing all chats. The section is shown above the recent chats section.
+msgctxt "Title for the pinned chats section"
+msgid "Pinned"
+msgstr ""
 
 #. https://duckduckgo.com/params under "Look & Feel Settings"
 msgid "Placement:"
@@ -8736,6 +8896,11 @@ msgstr "Tiếng Ba Lan"
 #. A negative feedback suggestion about the responses provided by the AI (Artificial Intelligence) chat bot having poor text formatting
 msgctxt "Feedback prompt"
 msgid "Poor formatting"
+msgstr ""
+
+#. Text when onboarding users, describing that Duck.ai supports last AI models. Example: 'Popular AI models from: GPT, Claude, Mistral, Llama'
+msgctxt "Onboarding welcome screen feature"
+msgid "Popular AI models from:"
 msgstr ""
 
 #. Popular hours of a place on a given weekday, for example: 'Popular hours on Mondays'
@@ -9239,6 +9404,11 @@ msgctxt "Label copy with short description of AI Model"
 msgid "Reasoning AI with medium built-in moderation"
 msgstr ""
 
+#. Title for the recent chats section.
+msgctxt "Title for the recent chats section"
+msgid "Recent"
+msgstr ""
+
 #. Title displayed at the top of the Recent Chats list. This is a feature that stores the user's most recent AI chats.
 msgctxt "Title of the Recent Chats modal"
 msgid "Recent Chats"
@@ -9432,6 +9602,11 @@ msgctxt "Old app version banner component in Duck.ai"
 msgid "Remind Me Later"
 msgstr ""
 
+#. Text for a button that removes a pin from a chat, as in it will it will remove the chat from the pinned chats list.
+msgctxt "Button for removing a pin from a chat"
+msgid "Remove Pin"
+msgstr ""
+
 #. A prompt asking users to try searching without any punctuation to get more results.
 msgctxt "noresults"
 msgid "Remove unnecessary punctuation"
@@ -9462,6 +9637,11 @@ msgstr "Báo cáo quảng cáo"
 #. A call to action to report a security issue.
 msgctxt "Feedback prompt"
 msgid "Report Security Issue "
+msgstr ""
+
+#. A feedback menu option to report an inappropriate image.
+msgctxt "Feedback context menu"
+msgid "Report inappropriate image"
 msgstr ""
 
 #. Link to a feedback form for image search results.
@@ -10442,6 +10622,11 @@ msgstr ""
 
 #. Menu option to share feedback about a result
 msgctxt "Organic result context menu"
+msgid "Share feedback about this image"
+msgstr ""
+
+#. Menu option to share feedback about a result
+msgctxt "Organic result context menu"
 msgid "Share feedback about this site"
 msgstr ""
 
@@ -10553,6 +10738,11 @@ msgctxt "duckassist_optin"
 msgid "Show DuckAssist more often. (You can also completely %sturn it off%s.)"
 msgstr ""
 
+#. Text displayed on a button to show more of the list of search results from within the Duck.ai interface when a web search has been conducted
+msgctxt "Button label for showing more search result links in Duck.ai"
+msgid "Show Less"
+msgstr ""
+
 #. Button that shows less content.
 msgctxt "expand_text"
 msgid "Show Less"
@@ -10569,6 +10759,11 @@ msgid "Show List"
 msgstr "Hiện danh sách"
 
 #. Text for the button that shows more of an answer from duckassist
+msgid "Show More"
+msgstr ""
+
+#. Text displayed on a button to show more of the list of search results from within the Duck.ai interface when a web search has been conducted
+msgctxt "Button label for showing more search result links in Duck.ai"
 msgid "Show More"
 msgstr ""
 
@@ -11718,6 +11913,13 @@ msgctxt "Lock icon next to HTTP search result"
 msgid "This webpage does not use a secure, encrypted, connection (HTTPS)."
 msgstr "Trang web này không sử dụng kết nối bảo mật, mã hóa (HTTPS)."
 
+#. Text asking the user to confirm if they want to clear all recentchats, with a warning that this action cannot be undone.
+msgctxt "Body text for clear all recent chats confirmation modal"
+msgid ""
+"This will delete all your recent chats, unless they're pinned. This cannot "
+"be undone."
+msgstr ""
+
 #. Confirmation message asking if the user is sure they want to reset all of their settings.
 msgctxt "settings"
 msgid "This will erase all settings. Continue?"
@@ -12166,6 +12368,11 @@ msgctxt "Promotional text for new AI model"
 msgid "Try the new %s open-source model"
 msgstr ""
 
+#. Alternative text for a promotional card that encourages users to try the recently added AI model.
+msgctxt "Alternative promotional text for a single new AI model"
+msgid "Try the new model from OpenAI"
+msgstr ""
+
 #. Text for a promotional card that encourages users to try the recently added open-source AI models. The placeholders are the names of AI models like 'Try the recently added open-source Llama 3.1 and Mistral.'
 msgctxt "Promotional text for new AI models"
 msgid "Try the recently added open-source %s and %s"
@@ -12472,6 +12679,11 @@ msgctxt "Tooltip for the free badge"
 msgid "Unlock advanced AI models with a DuckDuckGo subscription"
 msgstr ""
 
+#. A link to a blog post explaining the new AI benefits to a subscription. Please keep translations to 50 characters or less.
+msgctxt "Text promotion"
+msgid "Unlock advanced AI with your subscription!"
+msgstr ""
+
 #. Text explaining the limit on the number of recent chats that can be stored. Example: 'Up to 30 of your most recent chats can be saved at a time.'
 msgctxt "Information about the limit of recent chats that can be saved"
 msgid "Up to %s of your most recent chats can be saved at a time."
@@ -12647,6 +12859,10 @@ msgid "Vaccines"
 msgstr ""
 
 msgid "Vanuatu"
+msgstr ""
+
+#. A title for a set of auto ads
+msgid "Vehicles for sale"
 msgstr ""
 
 msgid "Venezuela"
@@ -13221,6 +13437,11 @@ msgstr "Bạn nghĩ gì về thông tin hiển thị?"
 
 msgctxt "Feedback prompt"
 msgid "What do you think of these results?"
+msgstr ""
+
+#. An invitation for users to leave feedback on an image displayed on the DuckDuckGo search engine
+msgctxt "Feedback prompt"
+msgid "What do you think of this image?"
 msgstr ""
 
 #. An invitation for users to leave feedback on a response displayed on the DuckDuckGo search engine
@@ -14164,6 +14385,11 @@ msgstr "p"
 
 #. Aria label for the button that opens the menu in the mobile variant.
 msgctxt "Aria label for the menu button"
+msgid "menu"
+msgstr ""
+
+#. The word 'menu' used in the pinned chats education text
+msgctxt "Pinned chats education row in Duck.ai"
 msgid "menu"
 msgstr ""
 
