@@ -708,6 +708,12 @@ msgid "AI may display inaccurate or offensive information."
 msgstr "Yapay zekâ yanlış veya rahatsız edici bilgiler görüntüleyebilir."
 
 # smartling.placeholder_format=C
+#. Disclaimer text displayed at the bottom of the voice chat dialog informing the user that the AI (Artificial Intelligence) may provide inaccurate or offensive information.
+msgctxt "voice chat"
+msgid "AI may provide inaccurate or offensive information."
+msgstr "Yapay zekâ yanlış veya rahatsız edici bilgiler verebilir."
+
+# smartling.placeholder_format=C
 #. Label for the input field where user can specify how the AI assistant should refer to itself. Example: 'AI nickname (is): Fred'
 msgctxt "Label for assistant name input"
 msgid "AI nickname"
@@ -1252,6 +1258,15 @@ msgid "All types"
 msgstr "Tüm biçimler"
 
 # smartling.placeholder_format=C
+#. Message shown to the user when microphone access is denied.
+msgctxt "voice chat"
+msgid ""
+"Allow DuckDuckGo microphone access in System Settings to use voice chat."
+msgstr ""
+"Sesli sohbeti kullanmak için Sistem Ayarları'nda DuckDuckGo mikrofon "
+"erişimine izin verin."
+
+# smartling.placeholder_format=C
 #. Tells users which icon to press in their browser. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Allow DuckDuckGo to use your location."
@@ -1523,6 +1538,12 @@ msgid "Are these links helpful?"
 msgstr "Bu bağlantılar yararlı oldu mu?"
 
 # smartling.placeholder_format=C
+#. Message shown when the user has been inactive/idle for a while during voice chat, and show this message to indicate they have not been active in the chat for a while.
+msgctxt "voice chat"
+msgid "Are you still there?"
+msgstr "Hâlâ orada mısınız?"
+
+# smartling.placeholder_format=C
 #. Text asking the user to confirm if they want to clear all chats, with a warning that this action cannot be undone.
 msgctxt "Body text for clear all chats confirmation modal"
 msgid ""
@@ -1658,6 +1679,12 @@ msgid "Ask a follow-up with Duck.ai"
 msgstr "Duck.ai'a takip sorusu sor"
 
 # smartling.placeholder_format=C
+#. Title for the modal displayed to first-time sidebar users explaining the page context feature.
+msgctxt "Title for the page context onboarding modal"
+msgid "Ask about this page"
+msgstr "Bu sayfa hakkında soru sorun"
+
+# smartling.placeholder_format=C
 #. Label indicating the option to ask clarifying questions. Once this is selected, the AI assistant will be prompted to ask more questions.
 msgctxt "Label for the switch to ask clarifying questions"
 msgid "Ask clarifying questions"
@@ -1790,6 +1817,12 @@ msgstr "%1$s görseli eklendi"
 # smartling.placeholder_format=C
 msgid "Audio"
 msgstr "Ses"
+
+# smartling.placeholder_format=C
+#. Description in consent disclaimer informing that audio from the voice chat session is not stored by us or by OpenAI after the voice chat ends.
+msgctxt "voice chat"
+msgid "Audio is not stored by us or by OpenAI after the chat ends."
+msgstr "Sohbet sona erdikten sonra ses tarafımızdan veya OpenAI tarafından saklanmaz."
 
 # smartling.placeholder_format=C
 msgid "Australia"
@@ -2454,6 +2487,17 @@ msgstr ""
 "saklanmaz ve parolanız hiçbir zaman tarayıcınızdan ayrılmaz."
 
 # smartling.placeholder_format=C
+#. Description for the 'enable voice chat' section of the voice chat consent modal. Placeholder for the voice chat help page link and text. Example: 'By enabling voice chat, you consent to your voice data being sent to OpenAI for the use of this feature. See our voice chat help page before getting started.'
+msgctxt "voice chat"
+msgid ""
+"By enabling voice chat, you consent to your voice data being sent to OpenAI "
+"for the use of this feature. See our %s before getting started."
+msgstr ""
+"Sesli sohbeti etkinleştirerek, ses verilerinizin bu özelliğin kullanımı için "
+"OpenAI'ye gönderilmesine onay vermiş oluyorsunuz. Başlamadan önce %1$s "
+"sayfamıza göz atın."
+
+# smartling.placeholder_format=C
 msgid "Cabo Verde"
 msgstr "Yeşil Burun Adaları"
 
@@ -2905,6 +2949,12 @@ msgstr "Sohbet Koruması"
 msgctxt "Feedback option for chat not saving conversations"
 msgid "Chat does not save my conversations"
 msgstr "Sohbet konuşmalarımı kaydetmiyor"
+
+# smartling.placeholder_format=C
+#. Status label shown as a warning when the voice chat session is about to end.
+msgctxt "voice chat"
+msgid "Chat ends soon"
+msgstr "Sohbet yakında sona eriyor"
 
 # smartling.placeholder_format=C
 #. Option for feedback when the user finds the chat is lacking features.
@@ -3632,6 +3682,12 @@ msgid "Close"
 msgstr "Kapat"
 
 # smartling.placeholder_format=C
+#. Aria label for the close button in the image lightbox.
+msgctxt "Aria label for image lightbox close button"
+msgid "Close"
+msgstr "Kapat"
+
+# smartling.placeholder_format=C
 msgctxt "Label for X button that closes side menu"
 msgid "Close menu"
 msgstr "Menüyü kapat"
@@ -3895,6 +3951,12 @@ msgid "Congratulations!"
 msgstr "Tebrikler!"
 
 # smartling.placeholder_format=C
+#. Status label shown while connecting to the voice chat session.
+msgctxt "voice chat"
+msgid "Connecting"
+msgstr "Bağlanıyor"
+
+# smartling.placeholder_format=C
 #. Message to display during outages for users who do not have AI enabled to encourage them to enable AI features. Example: 'Consider trying Duck.ai, our private AI chat service:'
 msgctxt "noresults"
 msgid "Consider trying %s, our private AI chat service:"
@@ -3964,6 +4026,12 @@ msgstr "Çerez verileri:"
 msgctxt "Text for a button after copying content to the clipboard"
 msgid "Copied"
 msgstr "Kopyalandı"
+
+# smartling.placeholder_format=C
+#. Button text to copy the generation prompt (shown as the modal description) to the clipboard.
+msgctxt "Button label for image info modal"
+msgid "Copy"
+msgstr "Kopyala"
 
 # smartling.placeholder_format=C
 #. Instructions on how to change the default search engine
@@ -4399,16 +4467,40 @@ msgid "Delete Chats"
 msgstr "Sohbetleri Sil"
 
 # smartling.placeholder_format=C
+#. Button text to confirm deletion of an image.
+msgctxt "Button label in delete image modal"
+msgid "Delete Image"
+msgstr "Görseli Sil"
+
+# smartling.placeholder_format=C
 #. Button that deletes settings has backed up to the cloud.
 #. This token is displayed as a button, so keep it short!
 msgid "Delete My Data"
 msgstr "Verilerimi Sil"
 
 # smartling.placeholder_format=C
+#. Button text to delete a voice chat transcript.
+msgctxt "voice chat transcript"
+msgid "Delete Transcript"
+msgstr "Deşifreyi silin"
+
+# smartling.placeholder_format=C
 #. Tooltip text for a button that deleted all recent chat sessions.
 msgctxt "Tooltip text for the button that deletes all recent chats"
 msgid "Delete chats"
 msgstr "Sohbetleri sil"
+
+# smartling.placeholder_format=C
+#. Call to action to invite users to delete a single generated image from the conversation.
+msgctxt "Tooltip for an action button"
+msgid "Delete image"
+msgstr "Görseli sil"
+
+# smartling.placeholder_format=C
+#. Modal title asking users to confirm deletion of a generated image.
+msgctxt "Title for delete image confirmation modal"
+msgid "Delete image?"
+msgstr "Görsel silinsin mi?"
 
 # smartling.placeholder_format=C
 #. Title of a modal that asks the user if they want to delete all recent chats.
@@ -4911,6 +5003,18 @@ msgstr "Duck.ai Hizmet Şartları"
 msgctxt "duckai_seo"
 msgid "Duck.ai by DuckDuckGo. Private AI chat. Free."
 msgstr "DuckDuckGo tarafından Duck.ai. Gizli AI sohbeti. Ücretsiz."
+
+# smartling.placeholder_format=C
+#. Description explaining how the page context feature works in Duck.ai sidebar.
+msgctxt "Description text for the page context onboarding modal"
+msgid ""
+"Duck.ai can now help answer questions about the page you're viewing. Page "
+"content is only included when you attach it, unless you choose to attach "
+"pages automatically in Settings."
+msgstr ""
+"Duck.ai artık görüntülediğiniz sayfayla ilgili soruları yanıtlamanıza "
+"yardımcı olabilir. Sayfa içeriği, Ayarlar'da sayfaları otomatik olarak "
+"eklemeyi seçmediğiniz sürece, yalnızca eklediğinizde dâhil edilir."
 
 # smartling.placeholder_format=C
 #. Displayed when the chat service has reached the maximum number of messages for one day.
@@ -5553,6 +5657,18 @@ msgid "Enable Recent Chats"
 msgstr "Son Sohbetleri Etkinleştir"
 
 # smartling.placeholder_format=C
+#. Title for the enable voice chat section in the voice chat consent modal.
+msgctxt "voice chat"
+msgid "Enable Voice Chat"
+msgstr "Sesli Sohbeti Etkinleştirin"
+
+# smartling.placeholder_format=C
+#. Text for button where the user consents to and enables the voice chat feature.
+msgctxt "voice chat button"
+msgid "Enable Voice Chat"
+msgstr "Sesli Sohbeti Etkinleştirin"
+
+# smartling.placeholder_format=C
 #. Tells users how to enable location service on their device.
 msgid ""
 "Enable anonymous location for more accurate results. You can always change "
@@ -5609,6 +5725,12 @@ msgstr "Şifrelenmiş Depolama"
 msgctxt "welcome message"
 msgid "Encrypts connections when possible"
 msgstr "Mümkün olduğunda bağlantıları şifreler"
+
+# smartling.placeholder_format=C
+#. Tooltip/label for the button to end the voice chat session.
+msgctxt "voice chat"
+msgid "End chat"
+msgstr "Sohbeti sonlandırın"
 
 # smartling.placeholder_format=C
 #. In the context of the clock of a sports game, indicates that a game period is over and we are on a break. E.g. 'End of 1st', 'End of OT' where 1st would be 1st period, and OT would be an overtime period
@@ -5915,6 +6037,12 @@ msgstr "Sohbeti dışa aktar"
 msgctxt "AI Chat - Tooltip for export chat action"
 msgid "Export conversation"
 msgstr "Sohbeti dışa aktar"
+
+# smartling.placeholder_format=C
+#. In the context of an AI Chat, tooltip text for the button that exports the whole voice chat transcript to a text file.
+msgctxt "AI Chat - Tooltip for export chat action"
+msgid "Export transcript"
+msgstr "Deşifreyi dışa aktarın"
 
 #  seen on Opera 9.52, Firefox 33 and Chrome 27 besides homepage instructions; link to e.g. https://help.duckduckgo.com/desktop/opera/
 # smartling.placeholder_format=C
@@ -6598,10 +6726,22 @@ msgid "Generate answer for <strong>%s</strong>"
 msgstr "<strong>%1$s</strong> için yanıt oluştur"
 
 # smartling.placeholder_format=C
+#. Aria label for a successfully generated image thumbnail.
+msgctxt "Aria label for generated image thumbnail"
+msgid "Generated image"
+msgstr "Üretilmiş görsel"
+
+# smartling.placeholder_format=C
 #. Title text shown for an assistant response that contains a generated image. Shown to internal users only
 msgctxt "Assistant response title"
 msgid "Generated image. Cost %s (internal only)"
 msgstr "Üretilmiş görsel. Maliyet %1$s (sadece dahili kullanım için)"
+
+# smartling.placeholder_format=C
+#. Aria label for the carousel (list of generated images) in the image generation mode.
+msgctxt "Aria label for generated images carousel"
+msgid "Generated images"
+msgstr "Üretilmiş görseller"
 
 # smartling.placeholder_format=C
 #. Loading message shown while duckassist is generating an answer
@@ -6922,6 +7062,12 @@ msgstr "Anladım"
 msgctxt "Button text to dismiss the popover"
 msgid "Got It!"
 msgstr "Anladım!"
+
+# smartling.placeholder_format=C
+#. A button that closes the page context onboarding modal.
+msgctxt "Button on the page context onboarding modal"
+msgid "Got it"
+msgstr "Anladım"
 
 # smartling.placeholder_format=C
 #. Acknowledge button label in error modal.
@@ -7360,6 +7506,12 @@ msgid "Hide site from these results"
 msgstr "Siteyi bu sonuçlardan gizleyin"
 
 # smartling.placeholder_format=C
+#. Tooltip/label for the button to hide the voice chat transcript.
+msgctxt "voice chat"
+msgid "Hide transcript"
+msgstr "Deşifreyi gizleyin"
+
+# smartling.placeholder_format=C
 #. Item in a list of features of a desktop web browser
 msgctxt "Browser Promo Popover"
 msgid "Hide your email address"
@@ -7563,6 +7715,12 @@ msgstr "Nasıl anonim oluyor?"
 # smartling.placeholder_format=C
 #. Text for the link that takes the user to the a model with more information about a feature.
 msgctxt "Link text for the settings modal"
+msgid "How it works"
+msgstr "Nasıl Çalışır?"
+
+# smartling.placeholder_format=C
+#. Link text to visit the voice chat help page.
+msgctxt "voice chat settings"
 msgid "How it works"
 msgstr "Nasıl Çalışır?"
 
@@ -7809,6 +7967,18 @@ msgid "Image"
 msgstr "Görsel"
 
 # smartling.placeholder_format=C
+#. Aria label for a thumbnail that failed to generate.
+msgctxt "Aria label for error thumbnail"
+msgid "Image generation failed"
+msgstr "Görsel oluşturma başarısız oldu"
+
+# smartling.placeholder_format=C
+#. Call to action to invite users to view information about a generated image.
+msgctxt "Tooltip for an action button"
+msgid "Image info"
+msgstr "Görsel bilgisi"
+
+# smartling.placeholder_format=C
 #. Disclaimer text shown at the bottom of the Image Generation mode, reminding users that prompts must comply with Terms of Service. Reads: 'Image prompts must comply with the Duck.aiTerms of Service'
 msgctxt "Disclaimer text for Image Generation mode"
 msgid "Image prompts must comply with the %s"
@@ -7824,6 +7994,12 @@ msgstr "Görsel kutucukları"
 msgctxt "duck.ai model card"
 msgid "Image upload"
 msgstr "Resim yükleme"
+
+# smartling.placeholder_format=C
+#. Aria label for the image lightbox dialog.
+msgctxt "Aria label for image lightbox dialog"
+msgid "Image viewer"
+msgstr "Görsel görüntüleyici"
 
 # smartling.placeholder_format=C
 #. Label above image search results.
@@ -8755,6 +8931,12 @@ msgid "Listen"
 msgstr "Dinle"
 
 # smartling.placeholder_format=C
+#. Status label shown when the AI is listening to the user.
+msgctxt "voice chat"
+msgid "Listening"
+msgstr "Dinliyor"
+
+# smartling.placeholder_format=C
 msgid "Lithuania"
 msgstr "Litvanya"
 
@@ -8785,6 +8967,12 @@ msgstr "Daha Fazlasını Yükle"
 #. Button that loads previously-saved user settings.
 msgid "Load Settings"
 msgstr "Ayarları Yükle"
+
+# smartling.placeholder_format=C
+#. Aria label for a thumbnail that is loading.
+msgctxt "Aria label for loading thumbnail"
+msgid "Loading image"
+msgstr "Görsel yükleniyor"
 
 # smartling.placeholder_format=C
 #. Instructions for user once they've passed the bot challenge
@@ -9747,6 +9935,18 @@ msgid "Music"
 msgstr "Müzik"
 
 # smartling.placeholder_format=C
+#. Tooltip/label for the button to mute the microphone.
+msgctxt "voice chat"
+msgid "Mute microphone"
+msgstr "Mikrofonu sessize alın"
+
+# smartling.placeholder_format=C
+#. Status label shown when the user's microphone is muted.
+msgctxt "voice chat"
+msgid "Muted"
+msgstr "Sessiz"
+
+# smartling.placeholder_format=C
 #. Used for various color settings  query parameters values captions into <a =href="https://duckduckgo.com/params.html">query parameters documentation page</a>.
 msgid "Muted red"
 msgstr "Yumuşak kırmızı"
@@ -9938,6 +10138,12 @@ msgid "New URL Style"
 msgstr "Yeni URL Stili"
 
 # smartling.placeholder_format=C
+#. Button text to start a new voice chat session.
+msgctxt "voice chat"
+msgid "New Voice Chat"
+msgstr "Yeni Sesli Sohbet"
+
+# smartling.placeholder_format=C
 msgid "New Zealand"
 msgstr "Yeni Zelanda"
 
@@ -9990,6 +10196,12 @@ msgstr "Haber Bülteni"
 msgctxt "Onboarding pick a chat model screen button text"
 msgid "Next"
 msgstr "Sonraki"
+
+# smartling.placeholder_format=C
+#. Aria label for the next image navigation button on the image lightbox.
+msgctxt "Aria label for next image button"
+msgid "Next image"
+msgstr "Sonraki görsel"
 
 # smartling.placeholder_format=C
 msgid "Nicaragua"
@@ -10076,6 +10288,18 @@ msgstr "Takip yok. Hem de asla."
 msgctxt "safe search"
 msgid "No adult content"
 msgstr "Yetişkinlere yönelik içerik olmasın"
+
+# smartling.placeholder_format=C
+#. Title for the section explaining that audio from the voice chat are not stored.
+msgctxt "voice chat"
+msgid "No audio gets stored"
+msgstr "Hiçbir ses kaydedilmez"
+
+# smartling.placeholder_format=C
+#. Title for the section explaining that we do not use the user's voice to identify them.
+msgctxt "voice chat"
+msgid "No audio identification"
+msgstr "Ses tanımlaması yok"
 
 # smartling.placeholder_format=C
 #. Indicates that driving directions aren't available between two locations on a map.
@@ -10633,6 +10857,12 @@ msgid "On but no numbers"
 msgstr "Açık ama numarasız"
 
 # smartling.placeholder_format=C
+#. Message shown to the user while they are waiting for a connection to a new voice chat session to be established.
+msgctxt "voice chat"
+msgid "One moment please..."
+msgstr "Lütfen bekleyin..."
+
+# smartling.placeholder_format=C
 #. Response a user can select in a feedback form, indicating that they heard about DuckDuckGo in an online article.
 msgctxt "new user poll"
 msgid "Online article"
@@ -11125,6 +11355,12 @@ msgstr "Sayfa İçeriği"
 msgctxt "Subtitle for the page context message"
 msgid "Page content from %s"
 msgstr "%1$s adresinden Sayfa İçeriği"
+
+# smartling.placeholder_format=C
+#. Title shown when user needs to refresh the page after migration.
+msgctxt "duckai_migration"
+msgid "Page refresh required"
+msgstr "Sayfanın yenilenmesi gerekiyor"
 
 # smartling.placeholder_format=C
 #. A feedback suggestion
@@ -11892,6 +12128,12 @@ msgid "Previous Region"
 msgstr "Önceki Bölge"
 
 # smartling.placeholder_format=C
+#. Aria label for the previous image navigation button on the image lightbox.
+msgctxt "Aria label for previous image button"
+msgid "Previous image"
+msgstr "Önceki görsel"
+
+# smartling.placeholder_format=C
 #. Label that's displayed next to a price below a web search result.
 msgctxt "Rich Facts label"
 msgid "Price"
@@ -12068,6 +12310,12 @@ msgid "Private Search Engine"
 msgstr "Private Search Motoru"
 
 # smartling.placeholder_format=C
+#. Title for the privacy respecting description section of the voice chat consent modal.
+msgctxt "voice chat"
+msgid "Private by design"
+msgstr "Gizililik için tasarlanmış"
+
+# smartling.placeholder_format=C
 #. Text describing that chats are private and anonymized by us.
 msgctxt "Onboarding welcome screen private claim"
 msgid "Private chats, anonymized by us"
@@ -12131,6 +12379,12 @@ msgstr "Profesyonel"
 msgctxt "User role option for programmer role"
 msgid "Programmer"
 msgstr "Programcı"
+
+# smartling.placeholder_format=C
+#. Title shown at the top of the modal that displays the generation prompt for an AI-generated image.
+msgctxt "Title for image info modal"
+msgid "Prompt"
+msgstr "İstem"
 
 # smartling.placeholder_format=C
 #. http://i.imgur.com/KT5S1TR.png
@@ -12489,6 +12743,12 @@ msgstr "Konumu Yenile"
 msgctxt "Primary button text in refresh page modal"
 msgid "Refresh Page"
 msgstr "Sayfayı Yenile"
+
+# smartling.placeholder_format=C
+#. Button label to refresh the page.
+msgctxt "duckai_migration"
+msgid "Refresh now"
+msgstr "Şimdi yenileyin"
 
 # smartling.placeholder_format=C
 msgid "Refugee Olympic Team"
@@ -13857,6 +14117,12 @@ msgid "Selected Text from %s"
 msgstr "%1$s içinden seçilen metin"
 
 # smartling.placeholder_format=C
+#. Aria label for the main generated image that can be opened in a lightbox.
+msgctxt "Aria label for main generated image"
+msgid "Selected generated image"
+msgstr "Seçilen oluşturulmuş görsel"
+
+# smartling.placeholder_format=C
 #. A subheading for the summarize message. The placeholder will contain a link to the original source of the text.
 msgctxt "Subtitle for the summarize message"
 msgid "Selected text from %s"
@@ -13933,6 +14199,12 @@ msgstr "Sırpça (Kiril)"
 msgctxt "language_name"
 msgid "Serbian (Latin)"
 msgstr "Sırpça (Latin)"
+
+# smartling.placeholder_format=C
+#. Status label shown when the voice chat session has ended.
+msgctxt "voice chat"
+msgid "Session ended"
+msgstr "Oturum sona erdi"
 
 # smartling.placeholder_format=C
 #. Text prompting users to make DuckDuckGo the default search engine in their browser.
@@ -14352,6 +14624,12 @@ msgid "Show sidebar"
 msgstr "Kenar çubuğunu göster"
 
 # smartling.placeholder_format=C
+#. Tooltip/label for the button to show the voice chat transcript.
+msgctxt "voice chat"
+msgid "Show transcript"
+msgstr "Deşifreyi gösterin"
+
+# smartling.placeholder_format=C
 #. Filters the duration of videos in search results.
 msgctxt "video-duration"
 msgid "Show videos of any length"
@@ -14706,6 +14984,11 @@ msgid "Sorry, Search Assist is currently unavailable."
 msgstr "Üzgünüz, Search Assist şu anda kullanılamıyor."
 
 # smartling.placeholder_format=C
+#. Error message for explore more questions when a non-retryable error occurs (server, invalid response, etc.)
+msgid "Sorry, an unexpected error occurred."
+msgstr "Üzgünüz, beklenmedik bir hata oluştu."
+
+# smartling.placeholder_format=C
 #. Error message for the duckassist instant answer (based on generative AI)
 msgid "Sorry, no relevant information was found in our search."
 msgstr "Üzgünüz, aramamızda ilgili bir bilgi bulunamadı."
@@ -14849,6 +15132,18 @@ msgstr "Spam"
 msgctxt "language_name"
 msgid "Spanish"
 msgstr "İspanyolca"
+
+# smartling.placeholder_format=C
+#. Description for the voice chat setting in the settings modal.
+msgctxt "voice chat settings"
+msgid "Speak with Duck.ai using your voice."
+msgstr "Sesinizi kullanarak Duck.ai ile konuşun."
+
+# smartling.placeholder_format=C
+#. Label for the voice chat character when the AI is speaking/responding.
+msgctxt "voice chat"
+msgid "Speaking"
+msgstr "Konuşuyor"
 
 # smartling.placeholder_format=C
 #. A title of a page that encourages users to share DuckDuckGo with their friends. 'Spread' in this case means 'share'.
@@ -15359,6 +15654,12 @@ msgid "Take control of your personal data!"
 msgstr "Kişisel verilerinizin kontrolünü elinize alın!"
 
 # smartling.placeholder_format=C
+#. Status label shown when the AI is speaking and the user can interrupt it by talking.
+msgctxt "voice chat"
+msgid "Talk to interrupt"
+msgstr "Sözü kesmek için konuşun"
+
+# smartling.placeholder_format=C
 #. Filters the shape of images in search results.
 msgctxt "image-layout"
 msgid "Tall"
@@ -15635,6 +15936,11 @@ msgstr ""
 "lütfen birkaç dakika bekleyin."
 
 # smartling.placeholder_format=C
+#. Error message for explore more questions when a retryable error occurs (timeout, network)
+msgid "There's been an issue loading this answer. Please try again."
+msgstr "Bu yanıt yüklenirken bir sorun oluştu. Lütfen tekrar deneyin."
+
+# smartling.placeholder_format=C
 #. Instant Answer Tab Name
 msgid "Thesaurus"
 msgstr "Eş ve Zıt Anlamlılar Sözlüğü"
@@ -15709,6 +16015,16 @@ msgstr ""
 "Bu konuşma, birden fazla sohbet modeli kullanılarak Duck.ai (%1$s) ile "
 "oluşturulmuştur. Yapay zeka sohbetleri yanlış veya rahatsız edici bilgiler "
 "gösterebilir (daha fazla bilgi için bkz. %2$s)."
+
+# smartling.placeholder_format=C
+#. When a user exports a transcript of a voice chat they had with the AI. This text goes at the very top of the downloaded file as a header. Placeholders are for links. Example: 'This conversation was generated with Duck.ai voice chat (https://duck.ai). AI may provide inaccurate or offensive information. (see https://duckduckgo.com/duckai/privacy-terms for more info).'
+msgctxt "Export chat feature in AI Chat"
+msgid ""
+"This conversation was generated with Duck.ai voice chat (%s). AI may provide "
+"inaccurate or offensive information. (see %s for more info)."
+msgstr ""
+"Bu konuşma Duck.ai sesli sohbeti ile oluşturuldu (%1$s). Yapay zekâ yanlış "
+"veya rahatsız edici bilgiler verebilir. (daha fazla bilgi için bkz. %2$s)."
 
 # smartling.placeholder_format=C
 #. When a user exports a chat they had with an AI model, this text goes at the very top of the downloaded file as a header. Example: 'This conversation was generated with DuckDuckGo AI Chat (https://duck.ai) using OpenAI's GPT-4 Model. AI chats may display inaccurate or offensive information (see https://duckduckgo.com/aichat/privacy-terms for more info).'
@@ -15835,6 +16151,12 @@ msgid ""
 "This will delete all your recent chats, unless they're pinned. This cannot "
 "be undone."
 msgstr "Bu işlem, sabitlenmemiş tüm son sohbetlerinizi siler. Bu işlem geri alınamaz."
+
+# smartling.placeholder_format=C
+#. Message explaining what will happen when the user deletes an image.
+msgctxt "Confirmation message in delete image modal"
+msgid "This will delete your selected image. This cannot be undone."
+msgstr "Bu işlem seçtiğiniz görseli silecek. Bu işlem geri alınamaz."
 
 # smartling.placeholder_format=C
 #. Confirmation message asking if the user is sure they want to reset all of their settings.
@@ -16247,6 +16569,11 @@ msgid "Try %sDuck.ai%s, our private AI chat service:"
 msgstr "%1$sDuck.ai%2$s'ı deneyin, özel yapay zeka sohbet hizmetimiz:"
 
 # smartling.placeholder_format=C
+#. Button text to retry loading an explore more question that failed
+msgid "Try Again"
+msgstr "Tekrar Dene"
+
+# smartling.placeholder_format=C
 #. Text of button allowing users to try the bot challenge again
 msgctxt "Anomaly modal"
 msgid "Try Again"
@@ -16650,6 +16977,18 @@ msgid "Unable To Send Feedback"
 msgstr "Geri Bildirim Gönderilemedi"
 
 # smartling.placeholder_format=C
+#. Message shown to the user when the voice chat failed to establish a connection, and they should try again later.
+msgctxt "voice chat"
+msgid "Unable to connect to voice chat, please try again later."
+msgstr "Sesli sohbete bağlanılamıyor, lütfen daha sonra tekrar deneyin."
+
+# smartling.placeholder_format=C
+#. Message shown to the user when there was an issue connecting to their microphone.
+msgctxt "voice chat"
+msgid "Unable to connect to your mic. Please try again."
+msgstr "Mikrofonunuza bağlanılamıyor. Lütfen tekrar deneyin."
+
+# smartling.placeholder_format=C
 #. Error message for explore more questions when answer fails to load
 msgid "Unable to load answer. Please try again."
 msgstr "Cevap yüklenemiyor. Lütfen tekrar deneyin."
@@ -16805,6 +17144,15 @@ msgid "Unlock With a DuckDuckGo Subscription"
 msgstr "DuckDuckGo Aboneliğiyle Kilidini Açın"
 
 # smartling.placeholder_format=C
+#. Upsell message shown in the voice chat limit modal for free users.
+msgctxt "voice chat limit modal"
+msgid ""
+"Unlock advanced AI models and higher limits with a DuckDuckGo Subscription"
+msgstr ""
+"DuckDuckGo aboneliği ile gelişmiş yapay zekâ modellerinin ve daha yüksek "
+"limitlerin kilidini açın."
+
+# smartling.placeholder_format=C
 #. Text informing the user that advanced AI models can be unlocked with a subscription. The variable is used to insert a link that opens the subscription modal. Example: Unlock advanced AI models with a DuckDuckGo subscription.
 msgctxt ""
 "Text that shows users they can unlock advanced AI models with a subscription."
@@ -16822,6 +17170,18 @@ msgstr "DuckDuckGo aboneliğiyle gelişmiş yapay zeka modellerinin kilidini aç
 msgctxt "Text promotion"
 msgid "Unlock advanced AI with your subscription!"
 msgstr "Abone olarak gelişmiş yapay zeka özelliklerine erişin!"
+
+# smartling.placeholder_format=C
+#. Upsell message shown in the voice chat duration limit modal for free users.
+msgctxt "voice chat duration limit modal"
+msgid "Unlock longer voice chats with a DuckDuckGo Subscription"
+msgstr "DuckDuckGo aboneliği ile daha uzun sesli sohbetlerin kilidini açın."
+
+# smartling.placeholder_format=C
+#. Tooltip/label for the button to unmute the microphone.
+msgctxt "voice chat"
+msgid "Unmute"
+msgstr "Sesini açın"
 
 # smartling.placeholder_format=C
 #. Text explaining the limit on the number of recent chats that can be stored. Example: 'Up to 30 of your most recent chats can be saved at a time.'
@@ -16914,6 +17274,13 @@ msgstr "Güncelleniyor..."
 msgctxt "Upgrade subscription sidebar action button"
 msgid "Upgrade"
 msgstr "Güncelle"
+
+# smartling.placeholder_format=C
+#. Title for the subscription setting where users can subscribe to DuckDuckGo.
+msgctxt ""
+"Title of the upgrade with subscription setting located on the settings modal"
+msgid "Upgrade Duck.ai With a DuckDuckGo Subscription"
+msgstr "DuckDuckGo Aboneliği ile Duck.ai'a Yükseltme Yapın"
 
 # smartling.placeholder_format=C
 #. Title for the subscription setting where users can subscribe to DuckDuckGo.
@@ -17147,6 +17514,12 @@ msgid "View File"
 msgstr "Dosyayı Görüntüle"
 
 # smartling.placeholder_format=C
+#. A button that opens the settings modal from the page context onboarding modal.
+msgctxt "Button on the page context onboarding modal"
+msgid "View Settings"
+msgstr "Ayarları Göster"
+
+# smartling.placeholder_format=C
 #. Heading for a dropdown that toggles more items
 msgid "View more items"
 msgstr "Daha fazlasını görüntüle"
@@ -17252,6 +17625,50 @@ msgstr "Ziyaret Edildi Başlık Rengi"
 #. https://duckduckgo.com/params under "Color Settings" header
 msgid "Visited links:"
 msgstr "Ziyaret edilen bağlantılar:"
+
+# smartling.placeholder_format=C
+#. Title for the Voice Chat feature.
+msgctxt "voice chat"
+msgid "Voice Chat"
+msgstr "Sesli Sohbet"
+
+# smartling.placeholder_format=C
+#. Aria label for the voice chat overlay dialog.
+msgctxt "voice chat"
+msgid "Voice chat"
+msgstr "Sesli sohbet"
+
+# smartling.placeholder_format=C
+#. Title of the modal shown when the user has reached the maximum duration for a voice chat session.
+msgctxt "voice chat duration limit modal"
+msgid "Voice chat duration reached"
+msgstr "Sesli sohbet süresi doldu"
+
+# smartling.placeholder_format=C
+#. Message shown to the user indicating the voice chat session has ended.
+msgctxt "voice chat"
+msgid "Voice chat ended"
+msgstr "Sesli sohbet sona erdi"
+
+# smartling.placeholder_format=C
+#. Description in consent disclaimer informing that voice chats with the AI (Artificial Intelligence) are anonymized by us, and are never used to train AI models.
+msgctxt "voice chat"
+msgid "Voice chat is anonymized by us, and never used to train AI models."
+msgstr ""
+"Sesli sohbetler tarafımızca anonimleştirilir ve asla yapay zekâ modellerini "
+"eğitmek için kullanılmaz."
+
+# smartling.placeholder_format=C
+#. Title of the modal shown when the user has reached their daily voice chat limit.
+msgctxt "voice chat limit modal"
+msgid "Voice chat limit reached"
+msgstr "Sesli sohbet limitine ulaşıldı"
+
+# smartling.placeholder_format=C
+#. Title of the voice chat privacy disclaimer and consent modal.
+msgctxt "voice chat"
+msgid "Voice chat with Duck.ai"
+msgstr "Duck.ai ile sesli sohbet"
 
 # smartling.placeholder_format=C
 #. Indicates this is the number of wins for this team
@@ -17459,6 +17876,12 @@ msgstr ""
 msgctxt "reasons-to-use-duckduckgo"
 msgid "We don't track you. Ever."
 msgstr "Sizi takip etmiyoruz. Hem de asla."
+
+# smartling.placeholder_format=C
+#. Description in consent disclaimer informing that we do not use the user's voice from the voice chat session to identify them.
+msgctxt "voice chat"
+msgid "We don't use your voice to identify you."
+msgstr "Sesinizi sizi tanımlamak için kullanmıyoruz."
 
 # smartling.placeholder_format=C
 msgctxt "homepage onboarding"
@@ -18665,6 +19088,12 @@ msgid "You've reached the image creation limit"
 msgstr "Görsel oluşturma sınırına ulaştınız"
 
 # smartling.placeholder_format=C
+#. Title shown when a user has reached their image generation edit limit.
+msgctxt "Title for image generation edit limit reached message"
+msgid "You've reached the maximum number of edits for this image"
+msgstr "Bu görsel için maksimum düzenleme sayısına ulaştınız"
+
+# smartling.placeholder_format=C
 #. Displayed when the user has reached the maximum number of messages for a given moment, and should try again later when they might be able to send more messages again.
 msgctxt "Error message for user limit"
 msgid ""
@@ -18673,6 +19102,19 @@ msgid ""
 msgstr ""
 "Şu an için maksimum mesaj sayısına ulaştınız. Lütfen daha sonra tekrar "
 "deneyin."
+
+# smartling.placeholder_format=C
+#. Description shown when the user has reached the maximum voice chat duration.
+msgctxt "voice chat duration limit modal"
+msgid "You've reached the maximum voice chat duration for a single session."
+msgstr "Tek bir oturum için maksimum sesli sohbet süresine ulaştınız."
+
+# smartling.placeholder_format=C
+#. Description shown when the user has reached the daily voice chat limit.
+msgctxt "voice chat limit modal"
+msgid ""
+"You've reached the voice chat limit for today. Please try again tomorrow."
+msgstr "Bugünlük sesli sohbet limitinize ulaştınız. Lütfen yarın tekrar deneyin."
 
 # smartling.placeholder_format=C
 #. A privacy disclaimer that appears above YouTube videos.
@@ -18978,6 +19420,12 @@ msgstr ""
 "devam edin."
 
 # smartling.placeholder_format=C
+#. Description shown when a subscribed user has reached their voice chat limit for now, and should try to come back again later.
+msgctxt "voice chat limit modal"
+msgid "You’ve reached the voice chat limit for now. Please try again later."
+msgstr "Şimdilik sesli sohbet limitinize ulaştınız. Lütfen daha sonra tekrar deneyin."
+
+# smartling.placeholder_format=C
 #. The name of the Yucatec Maya language
 msgctxt "language_name"
 msgid "Yucatec Maya"
@@ -19094,6 +19542,12 @@ msgstr "sa"
 msgctxt "nonjsversion"
 msgid "here"
 msgstr "buraya"
+
+# smartling.placeholder_format=C
+#. Initial greeting message shown when a voice chat session starts.
+msgctxt "voice chat"
+msgid "hi, how can I help you today?"
+msgstr "Merhaba, bugün size nasıl yardımcı olabilirim?"
 
 # smartling.placeholder_format=C
 #. Describing a unit of time in the context of a period ago, e.g. "1 *hour* ago"
@@ -19330,6 +19784,12 @@ msgstr "Daha sonra tekrar deneyebilir"
 msgctxt "noresults"
 msgid "try your search again"
 msgstr "Aramanızı tekrarlayabilir"
+
+# smartling.placeholder_format=C
+#. Link text for the voice chat help page. Will be used wrapped in a link in the placeholder of another sentence. Example: 'See our <a>voice chat help page</a> before getting started.'
+msgctxt "voice chat"
+msgid "voice chat help page"
+msgstr "sesli sohbet yardım sayfası"
 
 # smartling.placeholder_format=C
 #. Used to indicate a matchup between teams, e.g. Team A vs Team B

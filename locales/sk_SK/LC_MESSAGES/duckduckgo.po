@@ -697,6 +697,12 @@ msgid "AI may display inaccurate or offensive information."
 msgstr "AI môže zobrazovať nepresné alebo urážlivé informácie."
 
 # smartling.placeholder_format=C
+#. Disclaimer text displayed at the bottom of the voice chat dialog informing the user that the AI (Artificial Intelligence) may provide inaccurate or offensive information.
+msgctxt "voice chat"
+msgid "AI may provide inaccurate or offensive information."
+msgstr "AI môže zobrazovať nepresné alebo urážlivé informácie."
+
+# smartling.placeholder_format=C
 #. Label for the input field where user can specify how the AI assistant should refer to itself. Example: 'AI nickname (is): Fred'
 msgctxt "Label for assistant name input"
 msgid "AI nickname"
@@ -1243,6 +1249,15 @@ msgid "All types"
 msgstr "Všetky typy"
 
 # smartling.placeholder_format=C
+#. Message shown to the user when microphone access is denied.
+msgctxt "voice chat"
+msgid ""
+"Allow DuckDuckGo microphone access in System Settings to use voice chat."
+msgstr ""
+"Ak chceš používať hlasový čet, povoľ v systémových nastaveniach prístup "
+"k mikrofónu aplikácie DuckDuckGo."
+
+# smartling.placeholder_format=C
 #. Tells users which icon to press in their browser. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Allow DuckDuckGo to use your location."
@@ -1514,6 +1529,12 @@ msgid "Are these links helpful?"
 msgstr "Sú tieto odkazy užitočné?"
 
 # smartling.placeholder_format=C
+#. Message shown when the user has been inactive/idle for a while during voice chat, and show this message to indicate they have not been active in the chat for a while.
+msgctxt "voice chat"
+msgid "Are you still there?"
+msgstr "Si ešte tu?"
+
+# smartling.placeholder_format=C
 #. Text asking the user to confirm if they want to clear all chats, with a warning that this action cannot be undone.
 msgctxt "Body text for clear all chats confirmation modal"
 msgid ""
@@ -1645,6 +1666,12 @@ msgstr "Opýtaj sa doplňujúcu otázku"
 #. A placeholder for the AI Chat prompt input when used in the context of asking follow-up questions based on a DuckAssist reponse
 msgid "Ask a follow-up with Duck.ai"
 msgstr "Požiadaj Duck.ai o následnú komunikáciu"
+
+# smartling.placeholder_format=C
+#. Title for the modal displayed to first-time sidebar users explaining the page context feature.
+msgctxt "Title for the page context onboarding modal"
+msgid "Ask about this page"
+msgstr "Opýtaj sa na túto stránku"
 
 # smartling.placeholder_format=C
 #. Label indicating the option to ask clarifying questions. Once this is selected, the AI assistant will be prompted to ask more questions.
@@ -1780,6 +1807,12 @@ msgstr "Priložený obrázok %1$s"
 # smartling.placeholder_format=C
 msgid "Audio"
 msgstr "Zvuk"
+
+# smartling.placeholder_format=C
+#. Description in consent disclaimer informing that audio from the voice chat session is not stored by us or by OpenAI after the voice chat ends.
+msgctxt "voice chat"
+msgid "Audio is not stored by us or by OpenAI after the chat ends."
+msgstr "Zvuk po skončení čet neukladáme my ani spoločnosť OpenAI."
 
 # smartling.placeholder_format=C
 msgid "Australia"
@@ -2446,6 +2479,17 @@ msgstr ""
 "neopustí váš prehliadač."
 
 # smartling.placeholder_format=C
+#. Description for the 'enable voice chat' section of the voice chat consent modal. Placeholder for the voice chat help page link and text. Example: 'By enabling voice chat, you consent to your voice data being sent to OpenAI for the use of this feature. See our voice chat help page before getting started.'
+msgctxt "voice chat"
+msgid ""
+"By enabling voice chat, you consent to your voice data being sent to OpenAI "
+"for the use of this feature. See our %s before getting started."
+msgstr ""
+"Povolením hlasového četu súhlasíš s odosielaním tvojich hlasových údajov "
+"do OpenAI na účely používania tejto funkcie. Predtým, ako začneš, pozri si "
+"našu %1$s."
+
+# smartling.placeholder_format=C
 msgid "Cabo Verde"
 msgstr "Kapverdy"
 
@@ -2897,6 +2941,12 @@ msgstr "Ochrana četu"
 msgctxt "Feedback option for chat not saving conversations"
 msgid "Chat does not save my conversations"
 msgstr "Chat neukladá moje konverzácie"
+
+# smartling.placeholder_format=C
+#. Status label shown as a warning when the voice chat session is about to end.
+msgctxt "voice chat"
+msgid "Chat ends soon"
+msgstr "Čet sa čoskoro skončí"
 
 # smartling.placeholder_format=C
 #. Option for feedback when the user finds the chat is lacking features.
@@ -3619,6 +3669,12 @@ msgid "Close"
 msgstr "Zatvoriť"
 
 # smartling.placeholder_format=C
+#. Aria label for the close button in the image lightbox.
+msgctxt "Aria label for image lightbox close button"
+msgid "Close"
+msgstr "Zatvoriť"
+
+# smartling.placeholder_format=C
 msgctxt "Label for X button that closes side menu"
 msgid "Close menu"
 msgstr "Zatvoriť ponuku"
@@ -3882,6 +3938,12 @@ msgid "Congratulations!"
 msgstr "Blahoželáme!"
 
 # smartling.placeholder_format=C
+#. Status label shown while connecting to the voice chat session.
+msgctxt "voice chat"
+msgid "Connecting"
+msgstr "Pripojenie"
+
+# smartling.placeholder_format=C
 #. Message to display during outages for users who do not have AI enabled to encourage them to enable AI features. Example: 'Consider trying Duck.ai, our private AI chat service:'
 msgctxt "noresults"
 msgid "Consider trying %s, our private AI chat service:"
@@ -3951,6 +4013,12 @@ msgstr "Údaje súborov cookie:"
 msgctxt "Text for a button after copying content to the clipboard"
 msgid "Copied"
 msgstr "Skopírované"
+
+# smartling.placeholder_format=C
+#. Button text to copy the generation prompt (shown as the modal description) to the clipboard.
+msgctxt "Button label for image info modal"
+msgid "Copy"
+msgstr "Kopírovať"
 
 # smartling.placeholder_format=C
 #. Instructions on how to change the default search engine
@@ -4384,16 +4452,40 @@ msgid "Delete Chats"
 msgstr "Zmazať chaty"
 
 # smartling.placeholder_format=C
+#. Button text to confirm deletion of an image.
+msgctxt "Button label in delete image modal"
+msgid "Delete Image"
+msgstr "Odstrániť obrázok"
+
+# smartling.placeholder_format=C
 #. Button that deletes settings has backed up to the cloud.
 #. This token is displayed as a button, so keep it short!
 msgid "Delete My Data"
 msgstr "Odstrániť moje údaje"
 
 # smartling.placeholder_format=C
+#. Button text to delete a voice chat transcript.
+msgctxt "voice chat transcript"
+msgid "Delete Transcript"
+msgstr "Vymazať prepis"
+
+# smartling.placeholder_format=C
 #. Tooltip text for a button that deleted all recent chat sessions.
 msgctxt "Tooltip text for the button that deletes all recent chats"
 msgid "Delete chats"
 msgstr "Odstrániť chaty"
+
+# smartling.placeholder_format=C
+#. Call to action to invite users to delete a single generated image from the conversation.
+msgctxt "Tooltip for an action button"
+msgid "Delete image"
+msgstr "Odstrániť obrázok"
+
+# smartling.placeholder_format=C
+#. Modal title asking users to confirm deletion of a generated image.
+msgctxt "Title for delete image confirmation modal"
+msgid "Delete image?"
+msgstr "Vymazať obrázok?"
 
 # smartling.placeholder_format=C
 #. Title of a modal that asks the user if they want to delete all recent chats.
@@ -4896,6 +4988,18 @@ msgstr "Duck.ai Podmienky používania"
 msgctxt "duckai_seo"
 msgid "Duck.ai by DuckDuckGo. Private AI chat. Free."
 msgstr "Duck.ai od DuckDuckGo. Súkromný AI chat. Zadarmo."
+
+# smartling.placeholder_format=C
+#. Description explaining how the page context feature works in Duck.ai sidebar.
+msgctxt "Description text for the page context onboarding modal"
+msgid ""
+"Duck.ai can now help answer questions about the page you're viewing. Page "
+"content is only included when you attach it, unless you choose to attach "
+"pages automatically in Settings."
+msgstr ""
+"Duck.ai ti teraz môže pomôcť odpovedať na otázky týkajúce sa stránky, ktorú "
+"si prezeráš. Obsah stránky sa zahrnie iba po jej priložení, pokiaľ "
+"v Nastaveniach nevyberieš automatické pripájanie stránok."
 
 # smartling.placeholder_format=C
 #. Displayed when the chat service has reached the maximum number of messages for one day.
@@ -5531,6 +5635,18 @@ msgid "Enable Recent Chats"
 msgstr "Povoliť nedávne chaty"
 
 # smartling.placeholder_format=C
+#. Title for the enable voice chat section in the voice chat consent modal.
+msgctxt "voice chat"
+msgid "Enable Voice Chat"
+msgstr "Povoliť hlasový chat"
+
+# smartling.placeholder_format=C
+#. Text for button where the user consents to and enables the voice chat feature.
+msgctxt "voice chat button"
+msgid "Enable Voice Chat"
+msgstr "Povoľ hlasový chat"
+
+# smartling.placeholder_format=C
 #. Tells users how to enable location service on their device.
 msgid ""
 "Enable anonymous location for more accurate results. You can always change "
@@ -5589,6 +5705,12 @@ msgstr "Šifrované úložisko"
 msgctxt "welcome message"
 msgid "Encrypts connections when possible"
 msgstr "Šifrovať pripojenia, keď je to možné"
+
+# smartling.placeholder_format=C
+#. Tooltip/label for the button to end the voice chat session.
+msgctxt "voice chat"
+msgid "End chat"
+msgstr "Ukončiť čet"
 
 # smartling.placeholder_format=C
 #. In the context of the clock of a sports game, indicates that a game period is over and we are on a break. E.g. 'End of 1st', 'End of OT' where 1st would be 1st period, and OT would be an overtime period
@@ -5897,6 +6019,12 @@ msgstr "Exportovať chat"
 msgctxt "AI Chat - Tooltip for export chat action"
 msgid "Export conversation"
 msgstr "Konverzácia o exporte"
+
+# smartling.placeholder_format=C
+#. In the context of an AI Chat, tooltip text for the button that exports the whole voice chat transcript to a text file.
+msgctxt "AI Chat - Tooltip for export chat action"
+msgid "Export transcript"
+msgstr "Exportovať prepis"
 
 #  seen on Opera 9.52, Firefox 33 and Chrome 27 besides homepage instructions; link to e.g. https://help.duckduckgo.com/desktop/opera/
 # smartling.placeholder_format=C
@@ -6584,10 +6712,22 @@ msgid "Generate answer for <strong>%s</strong>"
 msgstr "Vygenerovať odpoveď na otázku <strong>%1$s</strong>"
 
 # smartling.placeholder_format=C
+#. Aria label for a successfully generated image thumbnail.
+msgctxt "Aria label for generated image thumbnail"
+msgid "Generated image"
+msgstr "Vygenerovaný obrázok"
+
+# smartling.placeholder_format=C
 #. Title text shown for an assistant response that contains a generated image. Shown to internal users only
 msgctxt "Assistant response title"
 msgid "Generated image. Cost %s (internal only)"
 msgstr "Vygenerovaný obrázok. Cena %1$s (iba pre interné použitie)"
+
+# smartling.placeholder_format=C
+#. Aria label for the carousel (list of generated images) in the image generation mode.
+msgctxt "Aria label for generated images carousel"
+msgid "Generated images"
+msgstr "Vygenerované obrázky"
 
 # smartling.placeholder_format=C
 #. Loading message shown while duckassist is generating an answer
@@ -6908,6 +7048,12 @@ msgstr "Rozumiem"
 msgctxt "Button text to dismiss the popover"
 msgid "Got It!"
 msgstr "Mám to!"
+
+# smartling.placeholder_format=C
+#. A button that closes the page context onboarding modal.
+msgctxt "Button on the page context onboarding modal"
+msgid "Got it"
+msgstr "Rozumiem"
 
 # smartling.placeholder_format=C
 #. Acknowledge button label in error modal.
@@ -7346,6 +7492,12 @@ msgid "Hide site from these results"
 msgstr "Skryť lokalitu z týchto výsledkov"
 
 # smartling.placeholder_format=C
+#. Tooltip/label for the button to hide the voice chat transcript.
+msgctxt "voice chat"
+msgid "Hide transcript"
+msgstr "Skryť prepis"
+
+# smartling.placeholder_format=C
 #. Item in a list of features of a desktop web browser
 msgctxt "Browser Promo Popover"
 msgid "Hide your email address"
@@ -7549,6 +7701,12 @@ msgstr "Ako sa zabezpečuje anonymita?"
 # smartling.placeholder_format=C
 #. Text for the link that takes the user to the a model with more information about a feature.
 msgctxt "Link text for the settings modal"
+msgid "How it works"
+msgstr "Ako to funguje"
+
+# smartling.placeholder_format=C
+#. Link text to visit the voice chat help page.
+msgctxt "voice chat settings"
 msgid "How it works"
 msgstr "Ako to funguje"
 
@@ -7795,6 +7953,18 @@ msgid "Image"
 msgstr "Obrázok"
 
 # smartling.placeholder_format=C
+#. Aria label for a thumbnail that failed to generate.
+msgctxt "Aria label for error thumbnail"
+msgid "Image generation failed"
+msgstr "Generovanie obrázku zlyhalo"
+
+# smartling.placeholder_format=C
+#. Call to action to invite users to view information about a generated image.
+msgctxt "Tooltip for an action button"
+msgid "Image info"
+msgstr "Informácie obobrázku"
+
+# smartling.placeholder_format=C
 #. Disclaimer text shown at the bottom of the Image Generation mode, reminding users that prompts must comply with Terms of Service. Reads: 'Image prompts must comply with the Duck.aiTerms of Service'
 msgctxt "Disclaimer text for Image Generation mode"
 msgid "Image prompts must comply with the %s"
@@ -7810,6 +7980,12 @@ msgstr "Obrázkové dlaždice"
 msgctxt "duck.ai model card"
 msgid "Image upload"
 msgstr "Nahrávanie obrázka"
+
+# smartling.placeholder_format=C
+#. Aria label for the image lightbox dialog.
+msgctxt "Aria label for image lightbox dialog"
+msgid "Image viewer"
+msgstr "Prehliadač obrázkov"
 
 # smartling.placeholder_format=C
 #. Label above image search results.
@@ -8741,6 +8917,12 @@ msgid "Listen"
 msgstr "Vypočujte si"
 
 # smartling.placeholder_format=C
+#. Status label shown when the AI is listening to the user.
+msgctxt "voice chat"
+msgid "Listening"
+msgstr "Počúvanie"
+
+# smartling.placeholder_format=C
 msgid "Lithuania"
 msgstr "Litva"
 
@@ -8771,6 +8953,12 @@ msgstr "Načítať viac"
 #. Button that loads previously-saved user settings.
 msgid "Load Settings"
 msgstr "Načítať nastavenia"
+
+# smartling.placeholder_format=C
+#. Aria label for a thumbnail that is loading.
+msgctxt "Aria label for loading thumbnail"
+msgid "Loading image"
+msgstr "Načítanie obrázka"
 
 # smartling.placeholder_format=C
 #. Instructions for user once they've passed the bot challenge
@@ -9731,6 +9919,18 @@ msgid "Music"
 msgstr "Hudba"
 
 # smartling.placeholder_format=C
+#. Tooltip/label for the button to mute the microphone.
+msgctxt "voice chat"
+msgid "Mute microphone"
+msgstr "Stlmiť mikrofón"
+
+# smartling.placeholder_format=C
+#. Status label shown when the user's microphone is muted.
+msgctxt "voice chat"
+msgid "Muted"
+msgstr "Stlmené"
+
+# smartling.placeholder_format=C
 #. Used for various color settings  query parameters values captions into <a =href="https://duckduckgo.com/params.html">query parameters documentation page</a>.
 msgid "Muted red"
 msgstr "Tlmená červená"
@@ -9922,6 +10122,12 @@ msgid "New URL Style"
 msgstr "Nový štýl URL adries"
 
 # smartling.placeholder_format=C
+#. Button text to start a new voice chat session.
+msgctxt "voice chat"
+msgid "New Voice Chat"
+msgstr "Nový hlasový čet"
+
+# smartling.placeholder_format=C
 msgid "New Zealand"
 msgstr "Nový Zéland"
 
@@ -9974,6 +10180,12 @@ msgstr "Newsletter"
 msgctxt "Onboarding pick a chat model screen button text"
 msgid "Next"
 msgstr "Ďalšie"
+
+# smartling.placeholder_format=C
+#. Aria label for the next image navigation button on the image lightbox.
+msgctxt "Aria label for next image button"
+msgid "Next image"
+msgstr "Ďalší obrázok"
 
 # smartling.placeholder_format=C
 msgid "Nicaragua"
@@ -10060,6 +10272,18 @@ msgstr "Žiadne sledovanie. Nikdy."
 msgctxt "safe search"
 msgid "No adult content"
 msgstr "Žiadny obsah pre dospelých"
+
+# smartling.placeholder_format=C
+#. Title for the section explaining that audio from the voice chat are not stored.
+msgctxt "voice chat"
+msgid "No audio gets stored"
+msgstr "Neukladá sa žiadny zvuk"
+
+# smartling.placeholder_format=C
+#. Title for the section explaining that we do not use the user's voice to identify them.
+msgctxt "voice chat"
+msgid "No audio identification"
+msgstr "Žiadna zvuková identifikácia"
 
 # smartling.placeholder_format=C
 #. Indicates that driving directions aren't available between two locations on a map.
@@ -10617,6 +10841,12 @@ msgid "On but no numbers"
 msgstr "Zapnuté, bez čísel"
 
 # smartling.placeholder_format=C
+#. Message shown to the user while they are waiting for a connection to a new voice chat session to be established.
+msgctxt "voice chat"
+msgid "One moment please..."
+msgstr "Moment, prosím..."
+
+# smartling.placeholder_format=C
 #. Response a user can select in a feedback form, indicating that they heard about DuckDuckGo in an online article.
 msgctxt "new user poll"
 msgid "Online article"
@@ -11107,6 +11337,12 @@ msgstr "Obsah stránky"
 msgctxt "Subtitle for the page context message"
 msgid "Page content from %s"
 msgstr "Obsah stránky z %1$s"
+
+# smartling.placeholder_format=C
+#. Title shown when user needs to refresh the page after migration.
+msgctxt "duckai_migration"
+msgid "Page refresh required"
+msgstr "Vyžaduje sa obnovenie stránky"
 
 # smartling.placeholder_format=C
 #. A feedback suggestion
@@ -11875,6 +12111,12 @@ msgid "Previous Region"
 msgstr "Predchádzajúci región"
 
 # smartling.placeholder_format=C
+#. Aria label for the previous image navigation button on the image lightbox.
+msgctxt "Aria label for previous image button"
+msgid "Previous image"
+msgstr "Predchádzajúci obrázok"
+
+# smartling.placeholder_format=C
 #. Label that's displayed next to a price below a web search result.
 msgctxt "Rich Facts label"
 msgid "Price"
@@ -12051,6 +12293,12 @@ msgid "Private Search Engine"
 msgstr "Vyhľadávač Private Search"
 
 # smartling.placeholder_format=C
+#. Title for the privacy respecting description section of the voice chat consent modal.
+msgctxt "voice chat"
+msgid "Private by design"
+msgstr "Navrhnuté na ochranu súkromia"
+
+# smartling.placeholder_format=C
 #. Text describing that chats are private and anonymized by us.
 msgctxt "Onboarding welcome screen private claim"
 msgid "Private chats, anonymized by us"
@@ -12114,6 +12362,12 @@ msgstr "Profesionál"
 msgctxt "User role option for programmer role"
 msgid "Programmer"
 msgstr "Programátor"
+
+# smartling.placeholder_format=C
+#. Title shown at the top of the modal that displays the generation prompt for an AI-generated image.
+msgctxt "Title for image info modal"
+msgid "Prompt"
+msgstr "Výzva"
 
 # smartling.placeholder_format=C
 #. http://i.imgur.com/KT5S1TR.png
@@ -12473,6 +12727,12 @@ msgstr "Obnoviť polohu"
 msgctxt "Primary button text in refresh page modal"
 msgid "Refresh Page"
 msgstr "Obnoviť stránku"
+
+# smartling.placeholder_format=C
+#. Button label to refresh the page.
+msgctxt "duckai_migration"
+msgid "Refresh now"
+msgstr "Obnoviť teraz"
 
 # smartling.placeholder_format=C
 msgid "Refugee Olympic Team"
@@ -13830,6 +14090,12 @@ msgid "Selected Text from %s"
 msgstr "Vybraný text z %1$s."
 
 # smartling.placeholder_format=C
+#. Aria label for the main generated image that can be opened in a lightbox.
+msgctxt "Aria label for main generated image"
+msgid "Selected generated image"
+msgstr "Vybraný vygenerovaný obrázok"
+
+# smartling.placeholder_format=C
 #. A subheading for the summarize message. The placeholder will contain a link to the original source of the text.
 msgctxt "Subtitle for the summarize message"
 msgid "Selected text from %s"
@@ -13905,6 +14171,12 @@ msgstr "Srbčina (cyrilika)"
 msgctxt "language_name"
 msgid "Serbian (Latin)"
 msgstr "Srbčina (latinka)"
+
+# smartling.placeholder_format=C
+#. Status label shown when the voice chat session has ended.
+msgctxt "voice chat"
+msgid "Session ended"
+msgstr "Relácia bola ukončená"
 
 # smartling.placeholder_format=C
 #. Text prompting users to make DuckDuckGo the default search engine in their browser.
@@ -14322,6 +14594,12 @@ msgid "Show sidebar"
 msgstr "Zobraziť bočný panel"
 
 # smartling.placeholder_format=C
+#. Tooltip/label for the button to show the voice chat transcript.
+msgctxt "voice chat"
+msgid "Show transcript"
+msgstr "Zobraziť prepis"
+
+# smartling.placeholder_format=C
 #. Filters the duration of videos in search results.
 msgctxt "video-duration"
 msgid "Show videos of any length"
@@ -14677,6 +14955,11 @@ msgid "Sorry, Search Assist is currently unavailable."
 msgstr "Je nám to ľúto, ale Search Assist momentálne nie je k dispozícii."
 
 # smartling.placeholder_format=C
+#. Error message for explore more questions when a non-retryable error occurs (server, invalid response, etc.)
+msgid "Sorry, an unexpected error occurred."
+msgstr "Vyskytla sa neočakávaná chyba."
+
+# smartling.placeholder_format=C
 #. Error message for the duckassist instant answer (based on generative AI)
 msgid "Sorry, no relevant information was found in our search."
 msgstr "Ľutujeme, v našom vyhľadávaní sa nenašli žiadne relevantné informácie."
@@ -14820,6 +15103,18 @@ msgstr "Spam"
 msgctxt "language_name"
 msgid "Spanish"
 msgstr "Španielčina"
+
+# smartling.placeholder_format=C
+#. Description for the voice chat setting in the settings modal.
+msgctxt "voice chat settings"
+msgid "Speak with Duck.ai using your voice."
+msgstr "Hovor s Duck.ai pomocou hlasu."
+
+# smartling.placeholder_format=C
+#. Label for the voice chat character when the AI is speaking/responding.
+msgctxt "voice chat"
+msgid "Speaking"
+msgstr "Rozprávanie"
 
 # smartling.placeholder_format=C
 #. A title of a page that encourages users to share DuckDuckGo with their friends. 'Spread' in this case means 'share'.
@@ -15336,6 +15631,12 @@ msgid "Take control of your personal data!"
 msgstr "Získajte späť kontrolu nad svojimi osobnými údajmi!"
 
 # smartling.placeholder_format=C
+#. Status label shown when the AI is speaking and the user can interrupt it by talking.
+msgctxt "voice chat"
+msgid "Talk to interrupt"
+msgstr "Na prerušenie prehovor"
+
+# smartling.placeholder_format=C
 #. Filters the shape of images in search results.
 msgctxt "image-layout"
 msgid "Tall"
@@ -15609,6 +15910,11 @@ msgstr ""
 "ďalším pokusom počkajte niekoľko minút."
 
 # smartling.placeholder_format=C
+#. Error message for explore more questions when a retryable error occurs (timeout, network)
+msgid "There's been an issue loading this answer. Please try again."
+msgstr "Pri načítaní tejto odpovede sa vyskytol problém. Skús to znova."
+
+# smartling.placeholder_format=C
 #. Instant Answer Tab Name
 msgid "Thesaurus"
 msgstr "Tezaurus"
@@ -15682,6 +15988,17 @@ msgstr ""
 "Táto konverzácia bola vygenerovaná pomocou Duck.ai (%1$s) s využitím "
 "viacerých chatovacích modelov. Konverzácie s využitím AI môžu zobrazovať "
 "nepresné alebo urážlivé informácie (viac informácií nájdeš v časti %2$s)."
+
+# smartling.placeholder_format=C
+#. When a user exports a transcript of a voice chat they had with the AI. This text goes at the very top of the downloaded file as a header. Placeholders are for links. Example: 'This conversation was generated with Duck.ai voice chat (https://duck.ai). AI may provide inaccurate or offensive information. (see https://duckduckgo.com/duckai/privacy-terms for more info).'
+msgctxt "Export chat feature in AI Chat"
+msgid ""
+"This conversation was generated with Duck.ai voice chat (%s). AI may provide "
+"inaccurate or offensive information. (see %s for more info)."
+msgstr ""
+"Táto konverzácia bola vytvorená hlasovým četom Duck.ai (%1$s). AI môže "
+"zobrazovať nepresné alebo urážlivé informácie. (ďalšie informácie nájdeš "
+"v %2$s )."
 
 # smartling.placeholder_format=C
 #. When a user exports a chat they had with an AI model, this text goes at the very top of the downloaded file as a header. Example: 'This conversation was generated with DuckDuckGo AI Chat (https://duck.ai) using OpenAI's GPT-4 Model. AI chats may display inaccurate or offensive information (see https://duckduckgo.com/aichat/privacy-terms for more info).'
@@ -15810,6 +16127,12 @@ msgid ""
 msgstr ""
 "Týmto sa odstránia všetky tvoje posledné chaty, pokiaľ nie sú pripnuté. "
 "Nebude sa to dať vrátiť späť."
+
+# smartling.placeholder_format=C
+#. Message explaining what will happen when the user deletes an image.
+msgctxt "Confirmation message in delete image modal"
+msgid "This will delete your selected image. This cannot be undone."
+msgstr "Týmto sa vymaže vybraný obrázok. Nebude sa to dať vrátiť späť."
 
 # smartling.placeholder_format=C
 #. Confirmation message asking if the user is sure they want to reset all of their settings.
@@ -16226,6 +16549,11 @@ msgid "Try %sDuck.ai%s, our private AI chat service:"
 msgstr "Vyskúšaj %1$sDuck.ai%2$s, našu súkromná AI chatovacia služba:"
 
 # smartling.placeholder_format=C
+#. Button text to retry loading an explore more question that failed
+msgid "Try Again"
+msgstr "Skúsiť znova"
+
+# smartling.placeholder_format=C
 #. Text of button allowing users to try the bot challenge again
 msgctxt "Anomaly modal"
 msgid "Try Again"
@@ -16627,6 +16955,18 @@ msgid "Unable To Send Feedback"
 msgstr "Nie je možné odoslať spätnú väzbu"
 
 # smartling.placeholder_format=C
+#. Message shown to the user when the voice chat failed to establish a connection, and they should try again later.
+msgctxt "voice chat"
+msgid "Unable to connect to voice chat, please try again later."
+msgstr "Nepodarilo sa pripojiť k hlasovému četu, skús to neskôr znova."
+
+# smartling.placeholder_format=C
+#. Message shown to the user when there was an issue connecting to their microphone.
+msgctxt "voice chat"
+msgid "Unable to connect to your mic. Please try again."
+msgstr "Nepodarilo sa pripojiť k tvojmu mikrofónu. Skús to znova."
+
+# smartling.placeholder_format=C
 #. Error message for explore more questions when answer fails to load
 msgid "Unable to load answer. Please try again."
 msgstr "Nepodarilo sa načítať odpoveď. Skús to znova."
@@ -16780,6 +17120,15 @@ msgid "Unlock With a DuckDuckGo Subscription"
 msgstr "Odomkni pomocou predplatného DuckDuckGo"
 
 # smartling.placeholder_format=C
+#. Upsell message shown in the voice chat limit modal for free users.
+msgctxt "voice chat limit modal"
+msgid ""
+"Unlock advanced AI models and higher limits with a DuckDuckGo Subscription"
+msgstr ""
+"Odomkni pokročilé modely umelej inteligencie a vyššie limity s predplatným "
+"DuckDuckGo"
+
+# smartling.placeholder_format=C
 #. Text informing the user that advanced AI models can be unlocked with a subscription. The variable is used to insert a link that opens the subscription modal. Example: Unlock advanced AI models with a DuckDuckGo subscription.
 msgctxt ""
 "Text that shows users they can unlock advanced AI models with a subscription."
@@ -16797,6 +17146,18 @@ msgstr "Odomkni pokročilé modely AI s predplatným DuckDuckGo."
 msgctxt "Text promotion"
 msgid "Unlock advanced AI with your subscription!"
 msgstr "Odomkni s tvojím predplatným pokročilú AI!"
+
+# smartling.placeholder_format=C
+#. Upsell message shown in the voice chat duration limit modal for free users.
+msgctxt "voice chat duration limit modal"
+msgid "Unlock longer voice chats with a DuckDuckGo Subscription"
+msgstr "Odomkni dlhšie hlasové čety s predplatným DuckDuckGo"
+
+# smartling.placeholder_format=C
+#. Tooltip/label for the button to unmute the microphone.
+msgctxt "voice chat"
+msgid "Unmute"
+msgstr "Odtlmiť"
 
 # smartling.placeholder_format=C
 #. Text explaining the limit on the number of recent chats that can be stored. Example: 'Up to 30 of your most recent chats can be saved at a time.'
@@ -16889,6 +17250,13 @@ msgstr "Aktualizuje sa..."
 msgctxt "Upgrade subscription sidebar action button"
 msgid "Upgrade"
 msgstr "Aktualizovať"
+
+# smartling.placeholder_format=C
+#. Title for the subscription setting where users can subscribe to DuckDuckGo.
+msgctxt ""
+"Title of the upgrade with subscription setting located on the settings modal"
+msgid "Upgrade Duck.ai With a DuckDuckGo Subscription"
+msgstr "Prejdi na vyšší Duck.ai s predplatným DuckDuckGo"
 
 # smartling.placeholder_format=C
 #. Title for the subscription setting where users can subscribe to DuckDuckGo.
@@ -17124,6 +17492,12 @@ msgid "View File"
 msgstr "Zobraziť súbor"
 
 # smartling.placeholder_format=C
+#. A button that opens the settings modal from the page context onboarding modal.
+msgctxt "Button on the page context onboarding modal"
+msgid "View Settings"
+msgstr "Zobraziť nastavenia"
+
+# smartling.placeholder_format=C
 #. Heading for a dropdown that toggles more items
 msgid "View more items"
 msgstr "Zobraziť viac položiek"
@@ -17229,6 +17603,50 @@ msgstr "Farba názvu navštíveného výsledku"
 #. https://duckduckgo.com/params under "Color Settings" header
 msgid "Visited links:"
 msgstr "Navštívené odkazy:"
+
+# smartling.placeholder_format=C
+#. Title for the Voice Chat feature.
+msgctxt "voice chat"
+msgid "Voice Chat"
+msgstr "Hlasový čet"
+
+# smartling.placeholder_format=C
+#. Aria label for the voice chat overlay dialog.
+msgctxt "voice chat"
+msgid "Voice chat"
+msgstr "Hlasový čet"
+
+# smartling.placeholder_format=C
+#. Title of the modal shown when the user has reached the maximum duration for a voice chat session.
+msgctxt "voice chat duration limit modal"
+msgid "Voice chat duration reached"
+msgstr "Bolo dosiahnuté trvanie hlasového četu"
+
+# smartling.placeholder_format=C
+#. Message shown to the user indicating the voice chat session has ended.
+msgctxt "voice chat"
+msgid "Voice chat ended"
+msgstr "Hlasový čet sa skončil"
+
+# smartling.placeholder_format=C
+#. Description in consent disclaimer informing that voice chats with the AI (Artificial Intelligence) are anonymized by us, and are never used to train AI models.
+msgctxt "voice chat"
+msgid "Voice chat is anonymized by us, and never used to train AI models."
+msgstr ""
+"Hlasový čet je nami anonymizovaný a nikdy sa nepoužíva na trénovanie modelov "
+"AI."
+
+# smartling.placeholder_format=C
+#. Title of the modal shown when the user has reached their daily voice chat limit.
+msgctxt "voice chat limit modal"
+msgid "Voice chat limit reached"
+msgstr "Bol dosiahnutý maximálny čas hlasového četu"
+
+# smartling.placeholder_format=C
+#. Title of the voice chat privacy disclaimer and consent modal.
+msgctxt "voice chat"
+msgid "Voice chat with Duck.ai"
+msgstr "Hlasový čet s Duck.ai"
 
 # smartling.placeholder_format=C
 #. Indicates this is the number of wins for this team
@@ -17435,6 +17853,12 @@ msgstr ""
 msgctxt "reasons-to-use-duckduckgo"
 msgid "We don't track you. Ever."
 msgstr "Nesledujeme vás. Nikdy."
+
+# smartling.placeholder_format=C
+#. Description in consent disclaimer informing that we do not use the user's voice from the voice chat session to identify them.
+msgctxt "voice chat"
+msgid "We don't use your voice to identify you."
+msgstr "Nepoužívame tvoj hlas na tvoju identifikáciu."
 
 # smartling.placeholder_format=C
 msgctxt "homepage onboarding"
@@ -18638,6 +19062,12 @@ msgid "You've reached the image creation limit"
 msgstr "Bol dosiahnutý limit na vytváranie obrázkov"
 
 # smartling.placeholder_format=C
+#. Title shown when a user has reached their image generation edit limit.
+msgctxt "Title for image generation edit limit reached message"
+msgid "You've reached the maximum number of edits for this image"
+msgstr "Pre tento obrázok bol dosiahnutý maximálny počet úprav."
+
+# smartling.placeholder_format=C
 #. Displayed when the user has reached the maximum number of messages for a given moment, and should try again later when they might be able to send more messages again.
 msgctxt "Error message for user limit"
 msgid ""
@@ -18646,6 +19076,19 @@ msgid ""
 msgstr ""
 "Pre daný moment bol dosiahnutý maximálny počet správ. Skús to neskôr znova, "
 "prosím."
+
+# smartling.placeholder_format=C
+#. Description shown when the user has reached the maximum voice chat duration.
+msgctxt "voice chat duration limit modal"
+msgid "You've reached the maximum voice chat duration for a single session."
+msgstr "Dosiahol si maximálny čas trvania hlasového chatu pre jednu reláciu."
+
+# smartling.placeholder_format=C
+#. Description shown when the user has reached the daily voice chat limit.
+msgctxt "voice chat limit modal"
+msgid ""
+"You've reached the voice chat limit for today. Please try again tomorrow."
+msgstr "Dosiahol si dnešný limit hlasového chatu. Skús to opäť zajtra."
 
 # smartling.placeholder_format=C
 #. A privacy disclaimer that appears above YouTube videos.
@@ -18949,6 +19392,12 @@ msgstr ""
 "rozhovore zajtra."
 
 # smartling.placeholder_format=C
+#. Description shown when a subscribed user has reached their voice chat limit for now, and should try to come back again later.
+msgctxt "voice chat limit modal"
+msgid "You’ve reached the voice chat limit for now. Please try again later."
+msgstr "Nateraz bol dosiahnutý limit hlasového chatu. Skús to znova neskôr."
+
+# smartling.placeholder_format=C
 #. The name of the Yucatec Maya language
 msgctxt "language_name"
 msgid "Yucatec Maya"
@@ -19065,6 +19514,12 @@ msgstr "h"
 msgctxt "nonjsversion"
 msgid "here"
 msgstr "tu"
+
+# smartling.placeholder_format=C
+#. Initial greeting message shown when a voice chat session starts.
+msgctxt "voice chat"
+msgid "hi, how can I help you today?"
+msgstr "ahoj, ako ti dnes môžem pomôcť?"
 
 # smartling.placeholder_format=C
 #. Describing a unit of time in the context of a period ago, e.g. "1 *hour* ago"
@@ -19299,6 +19754,12 @@ msgstr "Prosím, skúste to opäť neskôr."
 msgctxt "noresults"
 msgid "try your search again"
 msgstr "Skúste vyhľadávať znova"
+
+# smartling.placeholder_format=C
+#. Link text for the voice chat help page. Will be used wrapped in a link in the placeholder of another sentence. Example: 'See our <a>voice chat help page</a> before getting started.'
+msgctxt "voice chat"
+msgid "voice chat help page"
+msgstr "stránka s hlasovým četom"
 
 # smartling.placeholder_format=C
 #. Used to indicate a matchup between teams, e.g. Team A vs Team B

@@ -692,6 +692,12 @@ msgid "AI may display inaccurate or offensive information."
 msgstr "AI가 부정확하거나 불쾌한 정보를 표시할 수 있습니다."
 
 # smartling.placeholder_format=C
+#. Disclaimer text displayed at the bottom of the voice chat dialog informing the user that the AI (Artificial Intelligence) may provide inaccurate or offensive information.
+msgctxt "voice chat"
+msgid "AI may provide inaccurate or offensive information."
+msgstr "AI가 부정확하거나 불쾌한 정보를 제공할 수 있습니다."
+
+# smartling.placeholder_format=C
 #. Label for the input field where user can specify how the AI assistant should refer to itself. Example: 'AI nickname (is): Fred'
 msgctxt "Label for assistant name input"
 msgid "AI nickname"
@@ -1226,6 +1232,13 @@ msgid "All types"
 msgstr "모든 종류"
 
 # smartling.placeholder_format=C
+#. Message shown to the user when microphone access is denied.
+msgctxt "voice chat"
+msgid ""
+"Allow DuckDuckGo microphone access in System Settings to use voice chat."
+msgstr "음성 채팅을 사용하려면 시스템 설정에서 DuckDuckGo 마이크 접근을 허용하세요."
+
+# smartling.placeholder_format=C
 #. Tells users which icon to press in their browser. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Allow DuckDuckGo to use your location."
@@ -1489,6 +1502,12 @@ msgid "Are these links helpful?"
 msgstr "이 링크가 도움이 되었나요?"
 
 # smartling.placeholder_format=C
+#. Message shown when the user has been inactive/idle for a while during voice chat, and show this message to indicate they have not been active in the chat for a while.
+msgctxt "voice chat"
+msgid "Are you still there?"
+msgstr "너 아직 거기 있어?"
+
+# smartling.placeholder_format=C
 #. Text asking the user to confirm if they want to clear all chats, with a warning that this action cannot be undone.
 msgctxt "Body text for clear all chats confirmation modal"
 msgid ""
@@ -1617,6 +1636,12 @@ msgid "Ask a follow-up with Duck.ai"
 msgstr "Duck.ai로 후속 질문하기"
 
 # smartling.placeholder_format=C
+#. Title for the modal displayed to first-time sidebar users explaining the page context feature.
+msgctxt "Title for the page context onboarding modal"
+msgid "Ask about this page"
+msgstr "이 페이지에 대해 물어봐"
+
+# smartling.placeholder_format=C
 #. Label indicating the option to ask clarifying questions. Once this is selected, the AI assistant will be prompted to ask more questions.
 msgctxt "Label for the switch to ask clarifying questions"
 msgid "Ask clarifying questions"
@@ -1741,6 +1766,12 @@ msgstr "첨부된 이미지 %1$s"
 # smartling.placeholder_format=C
 msgid "Audio"
 msgstr "오디오"
+
+# smartling.placeholder_format=C
+#. Description in consent disclaimer informing that audio from the voice chat session is not stored by us or by OpenAI after the voice chat ends.
+msgctxt "voice chat"
+msgid "Audio is not stored by us or by OpenAI after the chat ends."
+msgstr "DuckDuckGo와 OpenAI는 채팅 종료 후 음성을 저장하지 않습니다."
 
 # smartling.placeholder_format=C
 msgid "Australia"
@@ -2394,6 +2425,16 @@ msgstr ""
 "않습니다."
 
 # smartling.placeholder_format=C
+#. Description for the 'enable voice chat' section of the voice chat consent modal. Placeholder for the voice chat help page link and text. Example: 'By enabling voice chat, you consent to your voice data being sent to OpenAI for the use of this feature. See our voice chat help page before getting started.'
+msgctxt "voice chat"
+msgid ""
+"By enabling voice chat, you consent to your voice data being sent to OpenAI "
+"for the use of this feature. See our %s before getting started."
+msgstr ""
+"음성 채팅을 활성화함으로써, 이 기능을 사용하기 위해 본인의 음성 데이터가 OpenAI로 전송되는 것에 동의합니다. 시작하기 전에 "
+"%1$s 페이지를 확인하세요."
+
+# smartling.placeholder_format=C
 msgid "Cabo Verde"
 msgstr "카보베르데"
 
@@ -2838,6 +2879,12 @@ msgstr "채팅 보호"
 msgctxt "Feedback option for chat not saving conversations"
 msgid "Chat does not save my conversations"
 msgstr "채팅은 내 대화를 저장하지 않습니다."
+
+# smartling.placeholder_format=C
+#. Status label shown as a warning when the voice chat session is about to end.
+msgctxt "voice chat"
+msgid "Chat ends soon"
+msgstr "채팅이 곧 종료됩니다"
 
 # smartling.placeholder_format=C
 #. Option for feedback when the user finds the chat is lacking features.
@@ -3535,6 +3582,12 @@ msgid "Close"
 msgstr "닫기"
 
 # smartling.placeholder_format=C
+#. Aria label for the close button in the image lightbox.
+msgctxt "Aria label for image lightbox close button"
+msgid "Close"
+msgstr "닫기"
+
+# smartling.placeholder_format=C
 msgctxt "Label for X button that closes side menu"
 msgid "Close menu"
 msgstr "메뉴 닫기"
@@ -3796,6 +3849,12 @@ msgid "Congratulations!"
 msgstr "축하합니다!"
 
 # smartling.placeholder_format=C
+#. Status label shown while connecting to the voice chat session.
+msgctxt "voice chat"
+msgid "Connecting"
+msgstr "연결 중"
+
+# smartling.placeholder_format=C
 #. Message to display during outages for users who do not have AI enabled to encourage them to enable AI features. Example: 'Consider trying Duck.ai, our private AI chat service:'
 msgctxt "noresults"
 msgid "Consider trying %s, our private AI chat service:"
@@ -3865,6 +3924,12 @@ msgstr "쿠키 데이터:"
 msgctxt "Text for a button after copying content to the clipboard"
 msgid "Copied"
 msgstr "복사됨"
+
+# smartling.placeholder_format=C
+#. Button text to copy the generation prompt (shown as the modal description) to the clipboard.
+msgctxt "Button label for image info modal"
+msgid "Copy"
+msgstr "복사"
 
 # smartling.placeholder_format=C
 #. Instructions on how to change the default search engine
@@ -4298,16 +4363,40 @@ msgid "Delete Chats"
 msgstr "채팅 삭제"
 
 # smartling.placeholder_format=C
+#. Button text to confirm deletion of an image.
+msgctxt "Button label in delete image modal"
+msgid "Delete Image"
+msgstr "이미지 삭제"
+
+# smartling.placeholder_format=C
 #. Button that deletes settings has backed up to the cloud.
 #. This token is displayed as a button, so keep it short!
 msgid "Delete My Data"
 msgstr "내 데이터 삭제"
 
 # smartling.placeholder_format=C
+#. Button text to delete a voice chat transcript.
+msgctxt "voice chat transcript"
+msgid "Delete Transcript"
+msgstr "녹취록 삭제"
+
+# smartling.placeholder_format=C
 #. Tooltip text for a button that deleted all recent chat sessions.
 msgctxt "Tooltip text for the button that deletes all recent chats"
 msgid "Delete chats"
 msgstr "채팅 삭제"
+
+# smartling.placeholder_format=C
+#. Call to action to invite users to delete a single generated image from the conversation.
+msgctxt "Tooltip for an action button"
+msgid "Delete image"
+msgstr "이미지 삭제"
+
+# smartling.placeholder_format=C
+#. Modal title asking users to confirm deletion of a generated image.
+msgctxt "Title for delete image confirmation modal"
+msgid "Delete image?"
+msgstr "이미지를 삭제할래?"
 
 # smartling.placeholder_format=C
 #. Title of a modal that asks the user if they want to delete all recent chats.
@@ -4802,6 +4891,17 @@ msgstr "Duck.ai 서비스 약관"
 msgctxt "duckai_seo"
 msgid "Duck.ai by DuckDuckGo. Private AI chat. Free."
 msgstr "Duck.ai - DuckDuckGo가 선보이는 비공개 무료 AI 채팅"
+
+# smartling.placeholder_format=C
+#. Description explaining how the page context feature works in Duck.ai sidebar.
+msgctxt "Description text for the page context onboarding modal"
+msgid ""
+"Duck.ai can now help answer questions about the page you're viewing. Page "
+"content is only included when you attach it, unless you choose to attach "
+"pages automatically in Settings."
+msgstr ""
+"이제 내가 보고있는 페이지에 대해 궁금한 점이 있을 때 Duck.ai가 답해드릴 수 있습니다. 페이지 내용은 사용자가 첨부할 때만 "
+"포함됩니다. 또는 설정에서 페이지 자동 첨부를 선택하세요."
 
 # smartling.placeholder_format=C
 #. Displayed when the chat service has reached the maximum number of messages for one day.
@@ -5395,6 +5495,18 @@ msgid "Enable Recent Chats"
 msgstr "최근 채팅 활성화"
 
 # smartling.placeholder_format=C
+#. Title for the enable voice chat section in the voice chat consent modal.
+msgctxt "voice chat"
+msgid "Enable Voice Chat"
+msgstr "음성 채팅 활성화"
+
+# smartling.placeholder_format=C
+#. Text for button where the user consents to and enables the voice chat feature.
+msgctxt "voice chat button"
+msgid "Enable Voice Chat"
+msgstr "음성 채팅 활성화"
+
+# smartling.placeholder_format=C
 #. Tells users how to enable location service on their device.
 msgid ""
 "Enable anonymous location for more accurate results. You can always change "
@@ -5447,6 +5559,12 @@ msgstr "암호화된 저장소"
 msgctxt "welcome message"
 msgid "Encrypts connections when possible"
 msgstr "가능한 경우 연결 암호화"
+
+# smartling.placeholder_format=C
+#. Tooltip/label for the button to end the voice chat session.
+msgctxt "voice chat"
+msgid "End chat"
+msgstr "채팅 종료"
 
 # smartling.placeholder_format=C
 #. In the context of the clock of a sports game, indicates that a game period is over and we are on a break. E.g. 'End of 1st', 'End of OT' where 1st would be 1st period, and OT would be an overtime period
@@ -5749,6 +5867,12 @@ msgstr "채팅 내보내기"
 msgctxt "AI Chat - Tooltip for export chat action"
 msgid "Export conversation"
 msgstr "대화 내보내기"
+
+# smartling.placeholder_format=C
+#. In the context of an AI Chat, tooltip text for the button that exports the whole voice chat transcript to a text file.
+msgctxt "AI Chat - Tooltip for export chat action"
+msgid "Export transcript"
+msgstr "녹취록 내보내기"
 
 #  seen on Opera 9.52, Firefox 33 and Chrome 27 besides homepage instructions; link to e.g. https://help.duckduckgo.com/desktop/opera/
 # smartling.placeholder_format=C
@@ -6416,10 +6540,22 @@ msgid "Generate answer for <strong>%s</strong>"
 msgstr "<strong>%1$s</strong>에 대한 답변 생성"
 
 # smartling.placeholder_format=C
+#. Aria label for a successfully generated image thumbnail.
+msgctxt "Aria label for generated image thumbnail"
+msgid "Generated image"
+msgstr "생성된 이미지"
+
+# smartling.placeholder_format=C
 #. Title text shown for an assistant response that contains a generated image. Shown to internal users only
 msgctxt "Assistant response title"
 msgid "Generated image. Cost %s (internal only)"
 msgstr "생성된 이미지. %1$s 비용 발생(내부 전용)"
+
+# smartling.placeholder_format=C
+#. Aria label for the carousel (list of generated images) in the image generation mode.
+msgctxt "Aria label for generated images carousel"
+msgid "Generated images"
+msgstr "생성된 이미지"
 
 # smartling.placeholder_format=C
 #. Loading message shown while duckassist is generating an answer
@@ -6730,6 +6866,12 @@ msgstr "이해했습니다."
 msgctxt "Button text to dismiss the popover"
 msgid "Got It!"
 msgstr "알겠습니다!"
+
+# smartling.placeholder_format=C
+#. A button that closes the page context onboarding modal.
+msgctxt "Button on the page context onboarding modal"
+msgid "Got it"
+msgstr "이해했습니다."
 
 # smartling.placeholder_format=C
 #. Acknowledge button label in error modal.
@@ -7168,6 +7310,12 @@ msgid "Hide site from these results"
 msgstr "이 결과에서 사이트 숨기기"
 
 # smartling.placeholder_format=C
+#. Tooltip/label for the button to hide the voice chat transcript.
+msgctxt "voice chat"
+msgid "Hide transcript"
+msgstr "대본 숨기기"
+
+# smartling.placeholder_format=C
 #. Item in a list of features of a desktop web browser
 msgctxt "Browser Promo Popover"
 msgid "Hide your email address"
@@ -7367,6 +7515,12 @@ msgstr "사용자 데이터가 어떻게 익명으로 유지되나요?"
 # smartling.placeholder_format=C
 #. Text for the link that takes the user to the a model with more information about a feature.
 msgctxt "Link text for the settings modal"
+msgid "How it works"
+msgstr "주요 기능 소개"
+
+# smartling.placeholder_format=C
+#. Link text to visit the voice chat help page.
+msgctxt "voice chat settings"
 msgid "How it works"
 msgstr "주요 기능 소개"
 
@@ -7595,6 +7749,18 @@ msgid "Image"
 msgstr "이미지"
 
 # smartling.placeholder_format=C
+#. Aria label for a thumbnail that failed to generate.
+msgctxt "Aria label for error thumbnail"
+msgid "Image generation failed"
+msgstr "이미지 생성 실패"
+
+# smartling.placeholder_format=C
+#. Call to action to invite users to view information about a generated image.
+msgctxt "Tooltip for an action button"
+msgid "Image info"
+msgstr "이미지 정보"
+
+# smartling.placeholder_format=C
 #. Disclaimer text shown at the bottom of the Image Generation mode, reminding users that prompts must comply with Terms of Service. Reads: 'Image prompts must comply with the Duck.aiTerms of Service'
 msgctxt "Disclaimer text for Image Generation mode"
 msgid "Image prompts must comply with the %s"
@@ -7610,6 +7776,12 @@ msgstr "이미지 타일"
 msgctxt "duck.ai model card"
 msgid "Image upload"
 msgstr "이미지 업로드"
+
+# smartling.placeholder_format=C
+#. Aria label for the image lightbox dialog.
+msgctxt "Aria label for image lightbox dialog"
+msgid "Image viewer"
+msgstr "이미지 뷰어"
 
 # smartling.placeholder_format=C
 #. Label above image search results.
@@ -8529,6 +8701,12 @@ msgid "Listen"
 msgstr "듣기"
 
 # smartling.placeholder_format=C
+#. Status label shown when the AI is listening to the user.
+msgctxt "voice chat"
+msgid "Listening"
+msgstr "듣기"
+
+# smartling.placeholder_format=C
 msgid "Lithuania"
 msgstr "리투아니아"
 
@@ -8559,6 +8737,12 @@ msgstr "더 많은 결과 표시"
 #. Button that loads previously-saved user settings.
 msgid "Load Settings"
 msgstr "설정 불러오기"
+
+# smartling.placeholder_format=C
+#. Aria label for a thumbnail that is loading.
+msgctxt "Aria label for loading thumbnail"
+msgid "Loading image"
+msgstr "이미지 불러오는 중"
 
 # smartling.placeholder_format=C
 #. Instructions for user once they've passed the bot challenge
@@ -9517,6 +9701,18 @@ msgid "Music"
 msgstr "음악"
 
 # smartling.placeholder_format=C
+#. Tooltip/label for the button to mute the microphone.
+msgctxt "voice chat"
+msgid "Mute microphone"
+msgstr "마이크 음소거"
+
+# smartling.placeholder_format=C
+#. Status label shown when the user's microphone is muted.
+msgctxt "voice chat"
+msgid "Muted"
+msgstr "음소거됨"
+
+# smartling.placeholder_format=C
 #. Used for various color settings  query parameters values captions into <a =href="https://duckduckgo.com/params.html">query parameters documentation page</a>.
 msgid "Muted red"
 msgstr "톤 다운된 빨간색"
@@ -9708,6 +9904,12 @@ msgid "New URL Style"
 msgstr "새 URL 스타일"
 
 # smartling.placeholder_format=C
+#. Button text to start a new voice chat session.
+msgctxt "voice chat"
+msgid "New Voice Chat"
+msgstr "새로운 음성 채팅"
+
+# smartling.placeholder_format=C
 msgid "New Zealand"
 msgstr "뉴질랜드"
 
@@ -9760,6 +9962,12 @@ msgstr "뉴스레터"
 msgctxt "Onboarding pick a chat model screen button text"
 msgid "Next"
 msgstr "다음"
+
+# smartling.placeholder_format=C
+#. Aria label for the next image navigation button on the image lightbox.
+msgctxt "Aria label for next image button"
+msgid "Next image"
+msgstr "다음 이미지"
 
 # smartling.placeholder_format=C
 msgid "Nicaragua"
@@ -9846,6 +10054,18 @@ msgstr "절대. 추적하지 않습니다."
 msgctxt "safe search"
 msgid "No adult content"
 msgstr "성인용 콘텐츠 금지"
+
+# smartling.placeholder_format=C
+#. Title for the section explaining that audio from the voice chat are not stored.
+msgctxt "voice chat"
+msgid "No audio gets stored"
+msgstr "음성이 저장되지 않습니다"
+
+# smartling.placeholder_format=C
+#. Title for the section explaining that we do not use the user's voice to identify them.
+msgctxt "voice chat"
+msgid "No audio identification"
+msgstr "식별된 음성 없음"
 
 # smartling.placeholder_format=C
 #. Indicates that driving directions aren't available between two locations on a map.
@@ -10401,6 +10621,12 @@ msgid "On but no numbers"
 msgstr "설정(단, 번호 없음)"
 
 # smartling.placeholder_format=C
+#. Message shown to the user while they are waiting for a connection to a new voice chat session to be established.
+msgctxt "voice chat"
+msgid "One moment please..."
+msgstr "잠시만 기다려주세요..."
+
+# smartling.placeholder_format=C
 #. Response a user can select in a feedback form, indicating that they heard about DuckDuckGo in an online article.
 msgctxt "new user poll"
 msgid "Online article"
@@ -10884,6 +11110,12 @@ msgstr "페이지 내용"
 msgctxt "Subtitle for the page context message"
 msgid "Page content from %s"
 msgstr "%1$s의 페이지 내용"
+
+# smartling.placeholder_format=C
+#. Title shown when user needs to refresh the page after migration.
+msgctxt "duckai_migration"
+msgid "Page refresh required"
+msgstr "페이지 새로 고침 필요"
 
 # smartling.placeholder_format=C
 #. A feedback suggestion
@@ -11630,6 +11862,12 @@ msgid "Previous Region"
 msgstr "이전 지역"
 
 # smartling.placeholder_format=C
+#. Aria label for the previous image navigation button on the image lightbox.
+msgctxt "Aria label for previous image button"
+msgid "Previous image"
+msgstr "이전 이미지"
+
+# smartling.placeholder_format=C
 #. Label that's displayed next to a price below a web search result.
 msgctxt "Rich Facts label"
 msgid "Price"
@@ -11806,6 +12044,12 @@ msgid "Private Search Engine"
 msgstr "Private Search 엔진"
 
 # smartling.placeholder_format=C
+#. Title for the privacy respecting description section of the voice chat consent modal.
+msgctxt "voice chat"
+msgid "Private by design"
+msgstr "계획적인 개인 정보 보호"
+
+# smartling.placeholder_format=C
 #. Text describing that chats are private and anonymized by us.
 msgctxt "Onboarding welcome screen private claim"
 msgid "Private chats, anonymized by us"
@@ -11869,6 +12113,12 @@ msgstr "전문적인"
 msgctxt "User role option for programmer role"
 msgid "Programmer"
 msgstr "프로그래머"
+
+# smartling.placeholder_format=C
+#. Title shown at the top of the modal that displays the generation prompt for an AI-generated image.
+msgctxt "Title for image info modal"
+msgid "Prompt"
+msgstr "프롬프트"
 
 # smartling.placeholder_format=C
 #. http://i.imgur.com/KT5S1TR.png
@@ -12217,6 +12467,12 @@ msgstr "위치 새로 고침"
 msgctxt "Primary button text in refresh page modal"
 msgid "Refresh Page"
 msgstr "페이지 새로 고침"
+
+# smartling.placeholder_format=C
+#. Button label to refresh the page.
+msgctxt "duckai_migration"
+msgid "Refresh now"
+msgstr "지금 새로 고침하기"
 
 # smartling.placeholder_format=C
 msgid "Refugee Olympic Team"
@@ -13518,6 +13774,12 @@ msgid "Selected Text from %s"
 msgstr "%1$s에서 텍스트 선택"
 
 # smartling.placeholder_format=C
+#. Aria label for the main generated image that can be opened in a lightbox.
+msgctxt "Aria label for main generated image"
+msgid "Selected generated image"
+msgstr "선택된 생성 이미지"
+
+# smartling.placeholder_format=C
 #. A subheading for the summarize message. The placeholder will contain a link to the original source of the text.
 msgctxt "Subtitle for the summarize message"
 msgid "Selected text from %s"
@@ -13591,6 +13853,12 @@ msgstr "세르비아어(키릴)"
 msgctxt "language_name"
 msgid "Serbian (Latin)"
 msgstr "세르비아어(라틴)"
+
+# smartling.placeholder_format=C
+#. Status label shown when the voice chat session has ended.
+msgctxt "voice chat"
+msgid "Session ended"
+msgstr "세션 종료됨"
 
 # smartling.placeholder_format=C
 #. Text prompting users to make DuckDuckGo the default search engine in their browser.
@@ -14005,6 +14273,12 @@ msgid "Show sidebar"
 msgstr "사이드바 표시"
 
 # smartling.placeholder_format=C
+#. Tooltip/label for the button to show the voice chat transcript.
+msgctxt "voice chat"
+msgid "Show transcript"
+msgstr "대본 보기"
+
+# smartling.placeholder_format=C
 #. Filters the duration of videos in search results.
 msgctxt "video-duration"
 msgid "Show videos of any length"
@@ -14350,6 +14624,11 @@ msgid "Sorry, Search Assist is currently unavailable."
 msgstr "죄송합니다. 현재 Search Assist를 사용할 수 없습니다."
 
 # smartling.placeholder_format=C
+#. Error message for explore more questions when a non-retryable error occurs (server, invalid response, etc.)
+msgid "Sorry, an unexpected error occurred."
+msgstr "죄송합니다. 예기치 않은 오류가 생겼습니다."
+
+# smartling.placeholder_format=C
 #. Error message for the duckassist instant answer (based on generative AI)
 msgid "Sorry, no relevant information was found in our search."
 msgstr "죄송합니다. 검색에서 관련 정보를 찾을 수 없습니다."
@@ -14489,6 +14768,18 @@ msgstr "스팸"
 msgctxt "language_name"
 msgid "Spanish"
 msgstr "스페인어"
+
+# smartling.placeholder_format=C
+#. Description for the voice chat setting in the settings modal.
+msgctxt "voice chat settings"
+msgid "Speak with Duck.ai using your voice."
+msgstr "Duck.ai와 음성으로 대화하세요."
+
+# smartling.placeholder_format=C
+#. Label for the voice chat character when the AI is speaking/responding.
+msgctxt "voice chat"
+msgid "Speaking"
+msgstr "말하기"
 
 # smartling.placeholder_format=C
 #. A title of a page that encourages users to share DuckDuckGo with their friends. 'Spread' in this case means 'share'.
@@ -14997,6 +15288,12 @@ msgid "Take control of your personal data!"
 msgstr "개인정보를 원하는 대로 관리하세요!"
 
 # smartling.placeholder_format=C
+#. Status label shown when the AI is speaking and the user can interrupt it by talking.
+msgctxt "voice chat"
+msgid "Talk to interrupt"
+msgstr "말 걸어서 대답 끊기"
+
+# smartling.placeholder_format=C
 #. Filters the shape of images in search results.
 msgctxt "image-layout"
 msgid "Tall"
@@ -15262,6 +15559,11 @@ msgid ""
 msgstr "검색 결과를 표시하는 중에 오류가 발생했습니다. 몇 분 후 다시 시도해 주세요."
 
 # smartling.placeholder_format=C
+#. Error message for explore more questions when a retryable error occurs (timeout, network)
+msgid "There's been an issue loading this answer. Please try again."
+msgstr "이 답변을 불러오는 중 문제가 생겼습니다. 다시 시도해 주세요."
+
+# smartling.placeholder_format=C
 #. Instant Answer Tab Name
 msgid "Thesaurus"
 msgstr "유의어"
@@ -15329,6 +15631,16 @@ msgid ""
 msgstr ""
 "이 대화는 여러 채팅 모델을 사용하여 Duck.ai(%1$s)로 생성되었습니다. AI 채팅은 부정확하거나 공격적인 정보를 보여줄 수 "
 "있습니다(자세한 내용은 %2$s 참조)."
+
+# smartling.placeholder_format=C
+#. When a user exports a transcript of a voice chat they had with the AI. This text goes at the very top of the downloaded file as a header. Placeholders are for links. Example: 'This conversation was generated with Duck.ai voice chat (https://duck.ai). AI may provide inaccurate or offensive information. (see https://duckduckgo.com/duckai/privacy-terms for more info).'
+msgctxt "Export chat feature in AI Chat"
+msgid ""
+"This conversation was generated with Duck.ai voice chat (%s). AI may provide "
+"inaccurate or offensive information. (see %s for more info)."
+msgstr ""
+"이 대화는 Duck.ai 음성 채팅(%1$s)으로 생성되었습니다. AI가 부정확하거나 불쾌한 정보를 제공할 수 있습니다(자세한 내용은 "
+"%2$s 참고)."
 
 # smartling.placeholder_format=C
 #. When a user exports a chat they had with an AI model, this text goes at the very top of the downloaded file as a header. Example: 'This conversation was generated with DuckDuckGo AI Chat (https://duck.ai) using OpenAI's GPT-4 Model. AI chats may display inaccurate or offensive information (see https://duckduckgo.com/aichat/privacy-terms for more info).'
@@ -15448,6 +15760,12 @@ msgid ""
 "This will delete all your recent chats, unless they're pinned. This cannot "
 "be undone."
 msgstr "이렇게 하면 고정된 채팅을 제외한 최근 채팅이 전부 삭제됩니다. 이 작업은 되돌릴 수 없습니다."
+
+# smartling.placeholder_format=C
+#. Message explaining what will happen when the user deletes an image.
+msgctxt "Confirmation message in delete image modal"
+msgid "This will delete your selected image. This cannot be undone."
+msgstr "선택하신 이미지가 삭제됩니다. 이 작업은 되돌릴 수 없습니다."
 
 # smartling.placeholder_format=C
 #. Confirmation message asking if the user is sure they want to reset all of their settings.
@@ -15848,6 +16166,11 @@ msgid "Try %sDuck.ai%s, our private AI chat service:"
 msgstr "DuckDuckGo의 비공개 AI 채팅 서비스 %1$sDuck.ai%2$s를 이용해 보세요."
 
 # smartling.placeholder_format=C
+#. Button text to retry loading an explore more question that failed
+msgid "Try Again"
+msgstr "다시 시도"
+
+# smartling.placeholder_format=C
 #. Text of button allowing users to try the bot challenge again
 msgctxt "Anomaly modal"
 msgid "Try Again"
@@ -16245,6 +16568,18 @@ msgid "Unable To Send Feedback"
 msgstr "피드백을 전송할 수 없습니다."
 
 # smartling.placeholder_format=C
+#. Message shown to the user when the voice chat failed to establish a connection, and they should try again later.
+msgctxt "voice chat"
+msgid "Unable to connect to voice chat, please try again later."
+msgstr "음성 채팅에 연결할 수 없습니다. 잠시 후 다시 시도하세요."
+
+# smartling.placeholder_format=C
+#. Message shown to the user when there was an issue connecting to their microphone.
+msgctxt "voice chat"
+msgid "Unable to connect to your mic. Please try again."
+msgstr "마이크에 연결할 수 없습니다. 다시 시도해 주세요."
+
+# smartling.placeholder_format=C
 #. Error message for explore more questions when answer fails to load
 msgid "Unable to load answer. Please try again."
 msgstr "답변을 불러올 수 없습니다. 다시 시도해 주세요."
@@ -16386,6 +16721,13 @@ msgid "Unlock With a DuckDuckGo Subscription"
 msgstr "DuckDuckGo 구독으로 잠금 해제"
 
 # smartling.placeholder_format=C
+#. Upsell message shown in the voice chat limit modal for free users.
+msgctxt "voice chat limit modal"
+msgid ""
+"Unlock advanced AI models and higher limits with a DuckDuckGo Subscription"
+msgstr "DuckDuckGo를 구독해서 고급 AI 모델을 활용하고 한도를 높이세요"
+
+# smartling.placeholder_format=C
 #. Text informing the user that advanced AI models can be unlocked with a subscription. The variable is used to insert a link that opens the subscription modal. Example: Unlock advanced AI models with a DuckDuckGo subscription.
 msgctxt ""
 "Text that shows users they can unlock advanced AI models with a subscription."
@@ -16403,6 +16745,18 @@ msgstr "DuckDuckGo 구독으로 고급 AI 모델을 잠금 해제하세요"
 msgctxt "Text promotion"
 msgid "Unlock advanced AI with your subscription!"
 msgstr "구독을 통해 고급 AI를 이용하세요!"
+
+# smartling.placeholder_format=C
+#. Upsell message shown in the voice chat duration limit modal for free users.
+msgctxt "voice chat duration limit modal"
+msgid "Unlock longer voice chats with a DuckDuckGo Subscription"
+msgstr "DuckDuckGo를 구독해 음성 채팅을 더 길게 이용하세요"
+
+# smartling.placeholder_format=C
+#. Tooltip/label for the button to unmute the microphone.
+msgctxt "voice chat"
+msgid "Unmute"
+msgstr "음소거 해제"
 
 # smartling.placeholder_format=C
 #. Text explaining the limit on the number of recent chats that can be stored. Example: 'Up to 30 of your most recent chats can be saved at a time.'
@@ -16493,6 +16847,13 @@ msgstr "업데이트 중입니다..."
 msgctxt "Upgrade subscription sidebar action button"
 msgid "Upgrade"
 msgstr "업그레이드"
+
+# smartling.placeholder_format=C
+#. Title for the subscription setting where users can subscribe to DuckDuckGo.
+msgctxt ""
+"Title of the upgrade with subscription setting located on the settings modal"
+msgid "Upgrade Duck.ai With a DuckDuckGo Subscription"
+msgstr "DuckDuckGo 구독으로 Duck.ai 업그레이드"
 
 # smartling.placeholder_format=C
 #. Title for the subscription setting where users can subscribe to DuckDuckGo.
@@ -16725,6 +17086,12 @@ msgid "View File"
 msgstr "파일 보기"
 
 # smartling.placeholder_format=C
+#. A button that opens the settings modal from the page context onboarding modal.
+msgctxt "Button on the page context onboarding modal"
+msgid "View Settings"
+msgstr "설정 보기"
+
+# smartling.placeholder_format=C
 #. Heading for a dropdown that toggles more items
 msgid "View more items"
 msgstr "더 많은 상품 보기"
@@ -16820,6 +17187,48 @@ msgstr "방문 제목 색상"
 #. https://duckduckgo.com/params under "Color Settings" header
 msgid "Visited links:"
 msgstr "방문한 링크:"
+
+# smartling.placeholder_format=C
+#. Title for the Voice Chat feature.
+msgctxt "voice chat"
+msgid "Voice Chat"
+msgstr "음성 채팅"
+
+# smartling.placeholder_format=C
+#. Aria label for the voice chat overlay dialog.
+msgctxt "voice chat"
+msgid "Voice chat"
+msgstr "음성 채팅"
+
+# smartling.placeholder_format=C
+#. Title of the modal shown when the user has reached the maximum duration for a voice chat session.
+msgctxt "voice chat duration limit modal"
+msgid "Voice chat duration reached"
+msgstr "음성 채팅 시간 도달"
+
+# smartling.placeholder_format=C
+#. Message shown to the user indicating the voice chat session has ended.
+msgctxt "voice chat"
+msgid "Voice chat ended"
+msgstr "음성 채팅이 끝났습니다"
+
+# smartling.placeholder_format=C
+#. Description in consent disclaimer informing that voice chats with the AI (Artificial Intelligence) are anonymized by us, and are never used to train AI models.
+msgctxt "voice chat"
+msgid "Voice chat is anonymized by us, and never used to train AI models."
+msgstr "당사는 음성 채팅 내용을 익명화하며, AI 모델 학습에 절대 사용하지 않습니다."
+
+# smartling.placeholder_format=C
+#. Title of the modal shown when the user has reached their daily voice chat limit.
+msgctxt "voice chat limit modal"
+msgid "Voice chat limit reached"
+msgstr "음성 채팅 한도 도달"
+
+# smartling.placeholder_format=C
+#. Title of the voice chat privacy disclaimer and consent modal.
+msgctxt "voice chat"
+msgid "Voice chat with Duck.ai"
+msgstr "Duck.ai로 음성 채팅하기"
 
 # smartling.placeholder_format=C
 #. Indicates this is the number of wins for this team
@@ -17013,6 +17422,12 @@ msgstr "DuckDuckGo는 사용자를 추적하지 않습니다. 따라서 오늘 �
 msgctxt "reasons-to-use-duckduckgo"
 msgid "We don't track you. Ever."
 msgstr "DuckDuckGo는 절대로 사용자를 추적하지 않습니다."
+
+# smartling.placeholder_format=C
+#. Description in consent disclaimer informing that we do not use the user's voice from the voice chat session to identify them.
+msgctxt "voice chat"
+msgid "We don't use your voice to identify you."
+msgstr "Duck.ai는 목소리를 통해 사용자를 식별하지 않습니다."
 
 # smartling.placeholder_format=C
 msgctxt "homepage onboarding"
@@ -18161,12 +18576,31 @@ msgid "You've reached the image creation limit"
 msgstr "이미지 생성 한도에 도달했습니다"
 
 # smartling.placeholder_format=C
+#. Title shown when a user has reached their image generation edit limit.
+msgctxt "Title for image generation edit limit reached message"
+msgid "You've reached the maximum number of edits for this image"
+msgstr "이 이미지에 대한 편집 횟수 한도에 도달했습니다."
+
+# smartling.placeholder_format=C
 #. Displayed when the user has reached the maximum number of messages for a given moment, and should try again later when they might be able to send more messages again.
 msgctxt "Error message for user limit"
 msgid ""
 "You've reached the maximum number of messages for the moment. Please try "
 "again later."
 msgstr "현재 메시지 개수 한도에 도달했습니다. 잠시 후 다시 시도하세요."
+
+# smartling.placeholder_format=C
+#. Description shown when the user has reached the maximum voice chat duration.
+msgctxt "voice chat duration limit modal"
+msgid "You've reached the maximum voice chat duration for a single session."
+msgstr "단일 세션의 음성 채팅 시간 한도에 도달했습니다."
+
+# smartling.placeholder_format=C
+#. Description shown when the user has reached the daily voice chat limit.
+msgctxt "voice chat limit modal"
+msgid ""
+"You've reached the voice chat limit for today. Please try again tomorrow."
+msgstr "오늘의 음성 채팅 한도에 도달했습니다. 내일 다시 시도하세요."
 
 # smartling.placeholder_format=C
 #. A privacy disclaimer that appears above YouTube videos.
@@ -18441,6 +18875,12 @@ msgid ""
 msgstr "하루에 보낼 수 있는 메시지 개수 한도에 도달했습니다. 이 채팅은 내일 계속하세요."
 
 # smartling.placeholder_format=C
+#. Description shown when a subscribed user has reached their voice chat limit for now, and should try to come back again later.
+msgctxt "voice chat limit modal"
+msgid "You’ve reached the voice chat limit for now. Please try again later."
+msgstr "현재 음성 채팅 한도에 도달했습니다. 잠시 후 다시 시도하세요."
+
+# smartling.placeholder_format=C
 #. The name of the Yucatec Maya language
 msgctxt "language_name"
 msgid "Yucatec Maya"
@@ -18557,6 +18997,12 @@ msgstr "시간"
 msgctxt "nonjsversion"
 msgid "here"
 msgstr "여기"
+
+# smartling.placeholder_format=C
+#. Initial greeting message shown when a voice chat session starts.
+msgctxt "voice chat"
+msgid "hi, how can I help you today?"
+msgstr "안녕하세요? 오늘은 무엇을 도와드릴까요?"
 
 # smartling.placeholder_format=C
 #. Describing a unit of time in the context of a period ago, e.g. "1 *hour* ago"
@@ -18791,6 +19237,12 @@ msgstr "잠시 후 다시 시도하세요"
 msgctxt "noresults"
 msgid "try your search again"
 msgstr "다시 검색해 보세요"
+
+# smartling.placeholder_format=C
+#. Link text for the voice chat help page. Will be used wrapped in a link in the placeholder of another sentence. Example: 'See our <a>voice chat help page</a> before getting started.'
+msgctxt "voice chat"
+msgid "voice chat help page"
+msgstr "음성 채팅 도움말 페이지"
 
 # smartling.placeholder_format=C
 #. Used to indicate a matchup between teams, e.g. Team A vs Team B
