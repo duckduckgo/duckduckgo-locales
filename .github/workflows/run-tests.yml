@@ -1,0 +1,22 @@
+name: Run Tests
+
+on: pull_request
+
+jobs:
+  run_tests:
+    name: Run Tests
+    # Becomes ubuntu-latest soon, required to run node20 actions.
+    runs-on: ubuntu-24.04
+    container:
+      image: perl:5.40.0
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install system dependencies
+        run: |
+          echo "deb http://archive.debian.org/debian stretch main contrib non-free" > /etc/apt/sources.list
+          apt update -y
+          apt install gettext -y
+      - name: Install Perl dependencies
+        run: cpanm --installdeps .
+      - name: Run tests
+        run: prove -r t
