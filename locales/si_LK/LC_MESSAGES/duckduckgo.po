@@ -635,6 +635,15 @@ msgid "A"
 msgstr "ඒ"
 
 # smartling.placeholder_format=C
+#. Error message for the duckassist instant answer (based on generative AI) whenever there is a network issue.
+msgid ""
+"A network issue is preventing Search Assist from generating an answer. "
+"Please check your connection and try again."
+msgstr ""
+"ජාල ගැටලුවක් හේතුවෙන් Search Assist මගින් පිළිතුරක් ජනනය කිරීම වැළකී ඇත. "
+"කරුණාකර ඔබේ සම්බන්ධතාව පරීක්ෂා කර නැවත උත්සාහ කරන්න."
+
+# smartling.placeholder_format=C
 #. Text informing the user that a new version of AI Chat is available and they need to refresh the page.
 msgctxt "Body text for new version available modal"
 msgid ""
@@ -819,6 +828,18 @@ msgstr "ගැන"
 msgctxt "SERP footer content"
 msgid "About Browser"
 msgstr "අපගේ බ්‍රවුසරය ගැන"
+
+# smartling.placeholder_format=C
+#. Title of the modal that provides information about Chat History, shown when the user clicks 'How it works'.
+msgctxt "Modal header for chat history information"
+msgid "About Chat History"
+msgstr "කතාබස් ඉතිහාසය ගැන"
+
+# smartling.placeholder_format=C
+#. Title of the modal that provides information about Chat History when Sync & Backup is enabled.
+msgctxt "Modal header for chat history with sync information"
+msgid "About Chat History with Sync & Backup"
+msgstr "Sync & Backup සම්බන්ධ කතාබස් ඉතිහාසය ගැන"
 
 # smartling.placeholder_format=C
 #. at least in:
@@ -1816,6 +1837,12 @@ msgstr "ඇමිණීම"
 msgctxt "Add an image to be uploaded to the AI chat conversation"
 msgid "Attach Image"
 msgstr "රූපය අමුණන්න"
+
+# smartling.placeholder_format=C
+#. Accessible text of a button that toggles attaching page context to the current AI chat message being composed.
+msgctxt "Add page context from the current tab to the AI chat message"
+msgid "Attach Page Content"
+msgstr "පිටු අන්තර්ගතය එක් කරන්න"
 
 # smartling.placeholder_format=C
 #. Accessible text of a button that adds an image to the current AI chat message being composed.
@@ -4471,6 +4498,12 @@ msgid "Delayed"
 msgstr "ප්‍රමාද වී ඇත"
 
 # smartling.placeholder_format=C
+#. Button text to delete all chats and free up sync storage.
+msgctxt "Sync limit modal button"
+msgid "Delete All Chats"
+msgstr "සියලුම කතාබස් මකන්න"
+
+# smartling.placeholder_format=C
 #. Text for a button that confirms the deletion of the current chat.
 msgctxt "Primary button text in delete chat modal"
 msgid "Delete Chat"
@@ -4481,6 +4514,12 @@ msgstr "කතාබස් මකන්න"
 msgctxt "Primary button text in mobile chat history modal"
 msgid "Delete Chats"
 msgstr "මකා දැමූ කතාබස්"
+
+# smartling.placeholder_format=C
+#. Button text to delete unpinned chats older than 30 days to free up sync storage.
+msgctxt "Sync limit modal button"
+msgid "Delete Chats Older Than 30 Days"
+msgstr "දින 30කට වඩා පැරණි කතාබස් මකන්න"
 
 # smartling.placeholder_format=C
 #. Button text to confirm deletion of an image.
@@ -4642,6 +4681,18 @@ msgstr "කතාබස් ඉතිහාසය අක්‍රිය කරන
 msgctxt "Onboarding welcome screen button text"
 msgid "Disable Duck.ai"
 msgstr "Duck.ai අක්‍රීය කරන්න"
+
+# smartling.placeholder_format=C
+#. Text for a button that confirms disabling chat history and disconnecting from Sync & Backup.
+msgctxt "Primary button text in disable chat history and disconnect sync modal"
+msgid "Disable and Disconnect"
+msgstr "අබල කර විසන්ධි කරන්න"
+
+# smartling.placeholder_format=C
+#. Title of a modal that asks the user if they want to turn off chat history and disconnect from Sync & Backup.
+msgctxt "Modal header for disabling chat history and disconnecting sync"
+msgid "Disable chat history and disconnect from Sync & Backup?"
+msgstr "කතාබස් ඉතිහාසය අබල කර Sync & Backup වෙතින් විසන්ධි කරන්න ද?"
 
 # smartling.placeholder_format=C
 #. Title of a modal that asks the user if they want to turn off the chat history feature.
@@ -4853,6 +4904,12 @@ msgstr "කතාබස් ඉතිහාසය බාගන්න"
 msgctxt "duckai_migration"
 msgid "Download Complete"
 msgstr "බාගැනීම සම්පූර්ණයි"
+
+# smartling.placeholder_format=C
+#. Text of a button that will install the DuckDuckGo browser when clicked
+msgctxt "Browser Promo Popover"
+msgid "Download DuckDuckGo"
+msgstr "DuckDuckGo බාගත කරන්න"
 
 # smartling.placeholder_format=C
 #. Text of a button that will install the DuckDuckGo browser when clicked
@@ -6494,6 +6551,12 @@ msgid "Free to Share and Use Commercially"
 msgstr "බෙදාගැනීමට හා වාණිජමය වශයෙන් භාවිතා කිරීමට නිදහස්"
 
 # smartling.placeholder_format=C
+#. Description text explaining how to free up sync storage. Pinned chats are chats the user has explicitly marked to keep.
+msgctxt "Sync limit modal description"
+msgid "Free up space by deleting your chats. Pinned chats will not be deleted."
+msgstr "ඔබේ කතාබස් මකා දැමීමෙන් ඉඩ නිදහස් කර ගන්න. ඇමුණූ කතාබස් මකා දමනු නොලැබේ."
+
+# smartling.placeholder_format=C
 #. Indicates that this streaming service is free to watch but shows ads
 msgctxt "Where to watch instant answer"
 msgid "Free with ads"
@@ -6934,9 +6997,27 @@ msgid "Get computer help"
 msgstr "පරිගණක සහාය ලබා ගන්න"
 
 # smartling.placeholder_format=C
+#. Promotional text that appears in popup promo to encourage user's to download DuckDuckGo Browser from the settings page.
+msgctxt "Browser Promo Popover"
+msgid "Get our browser to never lose your settings."
+msgstr "ඔබේ සැකසුම් කිසිදා නැති නොවන පරිදි අපගේ බ්‍රව්සරය ලබා ගන්න."
+
+# smartling.placeholder_format=C
 msgid ""
 "Get seamless privacy protection on your browser for free with one download:"
 msgstr "එකම බාගැනීමකින් ඔබේ බ්‍රවුසරයේ සීමාරහිත රහස්‍යතා ආරක්ෂාවක් ලබාගන්න:"
+
+# smartling.placeholder_format=C
+#. Text of a button that will install the DuckDuckGo app when clicked
+msgctxt "Browser Promo Popover"
+msgid "Get the App"
+msgstr "යෙදුම ලබා ගන්න"
+
+# smartling.placeholder_format=C
+#. Link text in the sidebar footer that takes users to the DuckDuckGo app download page.
+msgctxt "Sidebar footer"
+msgid "Get the App"
+msgstr "යෙදුම ලබා ගන්න"
 
 # smartling.placeholder_format=C
 #. This button will open a dialog that explains how to update the browser version manually
@@ -7071,6 +7152,12 @@ msgstr "සුබ පැතුම්"
 # smartling.placeholder_format=C
 #. A button that closes the welcome modal.
 msgctxt "Button on the subscription welcome modal"
+msgid "Got It"
+msgstr "වැටහුණි"
+
+# smartling.placeholder_format=C
+#. Dismiss button for sync unavailable modal.
+msgctxt "Sync unavailable modal button"
 msgid "Got It"
 msgstr "වැටහුණි"
 
@@ -8371,6 +8458,12 @@ msgid "Interface Settings"
 msgstr "අතුරුමුහුනත් සැකසුම්"
 
 # smartling.placeholder_format=C
+#. Text for the badge displayed to indicate that the user is an internal user.
+msgctxt "Text for the internal badge"
+msgid "Internal"
+msgstr "අභ්යන්තර"
+
+# smartling.placeholder_format=C
 #. Indicator that a game has been interrupted
 msgctxt "Sports module"
 msgid "Interrupted"
@@ -9260,6 +9353,12 @@ msgid "Manage"
 msgstr "කළමනාකරණය කරන්න"
 
 # smartling.placeholder_format=C
+#. Text for the button that takes the user to the sync settings page.
+msgctxt "Manage button for chat syncing"
+msgid "Manage"
+msgstr "කළමනාකරණය කරන්න"
+
+# smartling.placeholder_format=C
 #. Button label shown to DuckDuckGo native browser users to manage sync in the native app.
 msgctxt "Manage button for native sync flow"
 msgid "Manage"
@@ -9270,6 +9369,12 @@ msgstr "කළමනාකරණය කරන්න"
 msgctxt "Text for the manage subscription button on the settings modal"
 msgid "Manage"
 msgstr "කළමනාකරණය කරන්න"
+
+# smartling.placeholder_format=C
+#. Label displayed on the manage subscription button in the sidebar footer.
+msgctxt "Label for the manage subscription button"
+msgid "Manage Subscription"
+msgstr "දායකත්වය කළමනාකරණය කරන්න"
 
 # smartling.placeholder_format=C
 #. Button label shown to DuckDuckGo native browser users to manage sync in the native app.
@@ -10178,6 +10283,20 @@ msgid "New chat"
 msgstr "නව කතාබස්"
 
 # smartling.placeholder_format=C
+#. Warning in the About Chat History and About Sync modals explaining that prompts and responses are temporarily stored encrypted on DuckDuckGo's server for connection recovery, and that disabling chat history deletes pinned chats.
+msgctxt "Chat history about modal list item"
+msgid ""
+"New prompts and responses are encrypted and temporarily stored on a "
+"DuckDuckGo server after being sent, to help recover a chat if you lose your "
+"internet connection. Disabling chat history will delete pinned chats, and "
+"disable the temporary storage of new prompts and responses."
+msgstr ""
+"ඔබගේ අන්තර්ජාල සම්බන්ධතාවය නැති වුවහොත් කතාබහක් නැවත ලබා ගැනීමට උපකාර කිරීම "
+"සඳහා, නව විමසීම් සහ ප්‍රතිචාර සංකේතනය කර යැවීමෙන් පසු තාවකාලිකව DuckDuckGo "
+"සේවාදායකයක ගබඩා කරනු ලැබේ. කතාබස් ඉතිහාසය අක්‍රිය කිරීමෙන් පින් කළ කතාබස් "
+"මැකෙනු ඇති අතර නව විමසීම් සහ ප්‍රතිචාර තාවකාලිකව ගබඩා කිරීම අක්‍රිය කරනු ඇත."
+
+# smartling.placeholder_format=C
 #. Question in a feedback form.
 msgctxt "new user poll"
 msgid "New to DuckDuckGo?"
@@ -10295,6 +10414,12 @@ msgstr "මාර්ග ලද නොහැක"
 #. A label at the end of a photo carousel.
 msgid "No More Photos"
 msgstr "තවත් පින්තූර නැත"
+
+# smartling.placeholder_format=C
+#. Text of a button that will dismiss the DuckDuckGo app promo when clicked
+msgctxt "Browser Promo Popover"
+msgid "No Thanks"
+msgstr "එපා ස්තුතියි"
 
 # smartling.placeholder_format=C
 #. Text describing how DuckDuckGo doesn't track its users.
@@ -11536,6 +11661,12 @@ msgid "Past year"
 msgstr "පසුගිය අවුරුද්ද"
 
 # smartling.placeholder_format=C
+#. Text for the label that indicates the feature is paused.
+msgctxt "Status label for a setting"
+msgid "Paused"
+msgstr "විරාම ගන්වා ඇත"
+
+# smartling.placeholder_format=C
 #. Indicates this is the percentage of wins for this team
 msgctxt "Sports module"
 msgid "Pct"
@@ -11753,6 +11884,12 @@ msgstr "සංචාරයක් සැලසුම් කරන්න"
 msgctxt "Tone option label for Playful"
 msgid "Playful"
 msgstr "සෙල්ලක්කාර"
+
+# smartling.placeholder_format=C
+#. Description text when sync is temporarily unavailable.
+msgctxt "Sync unavailable modal description"
+msgid "Please check back later."
+msgstr "කරුණාකර පසුව නැවත පරීක්ෂා කරන්න."
 
 # smartling.placeholder_format=C
 #. Explanation of an anti-bot challenge for AI Chat users, where 'prompt' is a message sent to the AI
@@ -13408,6 +13545,12 @@ msgid "Save more chats than you can in your web browser."
 msgstr "ඔබේ වෙබ් බ් රව්සරයේ ඔබට හැකි ප් රමාණයට වඩා කතාබස් සුරකින්න."
 
 # smartling.placeholder_format=C
+#. List item explaining that users can save more chats when Sync & Backup is enabled.
+msgctxt "Chat history with sync modal list item"
+msgid "Save more of your chats."
+msgstr "ඔබේ කතාබස්වලින් වැඩි ප්‍රමාණයක් සුරකින්න."
+
+# smartling.placeholder_format=C
 #. Text for 3rd party browser users explaining Chat History with mention of Encrypted Storage option for saving more chats.
 msgctxt "Description for Chat History feature with Encrypted Storage option"
 msgid ""
@@ -13422,6 +13565,24 @@ msgstr ""
 msgctxt "Short description for Chat History feature on native DDG browsers"
 msgid "Save up to 30 of your most recent chats locally on your device."
 msgstr "ඔබේ උපාංගයේ ඔබේ මෑත කාලීන කතාබස් 30ක් දක්වා ස්ථානීයව සුරකින්න."
+
+# smartling.placeholder_format=C
+#. Short description shown in Chat History settings when sync is enabled, explaining chats are saved across all devices.
+msgctxt "Description for Chat History when sync is enabled"
+msgid "Save your chats across all your devices."
+msgstr "ඔබගේ සියලු උපාංග හරහා ඔබේ කතාබස් සුරකින්න."
+
+# smartling.placeholder_format=C
+#. List item in the About Chat History modal explaining that recent chats are saved.
+msgctxt "Chat history about modal list item"
+msgid "Save your most recent chats."
+msgstr "ඔබගේ වඩාත් ම මෑතකාලීන කතාබස් සුරකින්න."
+
+# smartling.placeholder_format=C
+#. Short description shown in Chat History settings when sync is not yet enabled, explaining chats are saved locally on the device.
+msgctxt "Description for Chat History when sync is not enabled"
+msgid "Save your recent chats on this device."
+msgstr "ඔබගේ මෑතකාලීන කතාබස් මෙම උපාංගයේ සුරකින්න."
 
 # smartling.placeholder_format=C
 #. Prompt to save user settings to the cloud.
@@ -13576,6 +13737,15 @@ msgstr ""
 "ක්ලික් කළ විට පමණක්), සමහර විට (දැඩිව අදාළ වන විට), හෝ බොහෝ විට (පුළුල් "
 "පරාසයක සෙවුම් මත). දැනට, Search Assist ලබා ගත හැක්කේ ඉංග්‍රීසි කතා කරන "
 "කලාපවල උප කණ්ඩායමක පමණි."
+
+# smartling.placeholder_format=C
+#. Error message for the duckassist instant answer (based on generative AI) when the answer is not found and the answer is unsourced or with no sources
+msgid ""
+"Search Assist couldn't find enough reliable information to generate an "
+"answer for this question. Try another search."
+msgstr ""
+"මෙම ප්‍රශ්නය සඳහා පිළිතුරක් උත්පාදනය කිරීම සඳහා ප්‍රමාණවත් විශ්වාසදායක "
+"තොරතුරු සොයාගැනීමට Search Assist හට නොහැකි විය. තවත් සෙවීමක් කරන්න."
 
 # smartling.placeholder_format=C
 #. First paragraph of a section inviting users to learn more about the Assist instant answer (based on generative AI)
@@ -13807,6 +13977,12 @@ msgid "Season Weeks"
 msgstr "කන්නය සති"
 
 # smartling.placeholder_format=C
+#. Description shown in the Sync & Backup settings section when sync is not yet enabled, explaining the feature.
+msgctxt "Description for sync and backup feature"
+msgid "Securely save and sync your chats across all your devices."
+msgstr "ඔබගේ සියලු උපාංග හරහා ඔබේ කතාබස් සුරැකීම සහ සමමුහුර්ත කිරීම සිදු කරන්න."
+
+# smartling.placeholder_format=C
 #. Shown to DuckDuckGo native browser users explaining that they must finish setup inside the app.
 msgctxt "Description explaining how native users can enable sync"
 msgid ""
@@ -13851,6 +14027,16 @@ msgstr ""
 msgctxt "Sync feature benefit description"
 msgid "Securely stored on DuckDuckGo's server with end-to-end encryption."
 msgstr "DuckDuckGo සර්වරයේ මුල සිට අග දක්වා ගුප්ත කේතනය සමඟ ආරක්ෂිතව ගබඩා කර ඇත."
+
+# smartling.placeholder_format=C
+#. List item explaining that synced chats are stored with end-to-end encryption on DuckDuckGo's server and only the user can access them.
+msgctxt "Chat history with sync modal list item"
+msgid ""
+"Securely stored on DuckDuckGo's server with end-to-end encryption. Nobody "
+"but you can see your data, not even us."
+msgstr ""
+"DuckDuckGo සර්වරයේ මුල සිට අග දක්වා ගුප්ත කේතනය සමඟ ආරක්ෂිතව ගබඩා කර ඇත. ඔබට "
+"හැර වෙන කිසිවෙකුට ඔබගේ දත්ත දැකිය නොහැක, අපටවත් නොවේ."
 
 # smartling.placeholder_format=C
 msgctxt "Feedback prompt"
@@ -14274,6 +14460,16 @@ msgid "Set as Homepage"
 msgstr "මුල් පිටුව ලෙස සකසන්න"
 
 # smartling.placeholder_format=C
+#. List item in the About Chat History modal explaining that users can set up Sync & Backup to sync chats across devices.
+msgctxt "Chat history about modal list item"
+msgid ""
+"Set up Sync & Backup after turning on Chat History to keep your chats synced "
+"across devices."
+msgstr ""
+"ඔබේ කතාබස් උපාංග අතර සමමුහුර්තව තබා ගැනීමට කතාබස් ඉතිහාසය ක්‍රියාත්මක "
+"කිරීමෙන් පසු Sync & Backup පිහිටුුවන්න."
+
+# smartling.placeholder_format=C
 #. Prompt for the user to indicate their location on a map, to enable more relevant search results.
 msgctxt "precise_user_location"
 msgid "Set your location manually, or ensure Location Services is enabled."
@@ -14300,6 +14496,12 @@ msgstr "සැකසුම්"
 msgctxt "feedback form"
 msgid "Settings"
 msgstr "සැකසුම්"
+
+# smartling.placeholder_format=C
+#. Label displayed on the sidebar footer row indicating that the user can access the settings and more menu.
+msgctxt "Sidebar footer row"
+msgid "Settings & More"
+msgstr "සැකසුම් සහ තවත්"
 
 # smartling.placeholder_format=C
 #. Label for the user's settings in JSON format.
@@ -15607,12 +15809,36 @@ msgid "Sync & Backup"
 msgstr "Sync & Backup"
 
 # smartling.placeholder_format=C
+#. Title for the Sync & Backup section in Duck.ai settings
+msgctxt "Label for sync and backup setting"
+msgid "Sync & Backup"
+msgstr "Sync & Backup"
+
+# smartling.placeholder_format=C
 #. Title for the sync setting shown to users inside the DuckDuckGo native browser.
 msgctxt ""
 "Label for encrypted storage setting when running inside a DuckDuckGo native "
 "browser"
 msgid "Sync History"
 msgstr "සමමුහුර්ත ඉතිහාසය"
+
+# smartling.placeholder_format=C
+#. Title shown when sync service is temporarily unavailable.
+msgctxt "Sync unavailable modal title"
+msgid "Sync and Backup is temporarily unavailable"
+msgstr "සමමුහුර්ත කිරීම සහ උපස්ථ කිරීම තාවකාලිකව ලබා ගත නොහැකිය"
+
+# smartling.placeholder_format=C
+#. Tooltip text shown when sync is temporarily paused due to an error.
+msgctxt "Tooltip for sync error indicator"
+msgid "Sync is paused"
+msgstr "සමමුහුර්ත විරාමයක් ඇත"
+
+# smartling.placeholder_format=C
+#. List item explaining that chats are synced across all user devices when Sync & Backup is enabled.
+msgctxt "Chat history with sync modal list item"
+msgid "Sync your chats across all of your devices."
+msgstr "ඔබේ කතාබස් ඔබගේ සියලු උපාංග අතර සමමුහුර්ත කරන්න."
 
 # smartling.placeholder_format=C
 msgid "Syria"
@@ -16165,6 +16391,18 @@ msgid "This webpage does not use a secure, encrypted, connection (HTTPS)."
 msgstr "මෙම වෙබ් පිටුව ආරක්ෂක, කේතනය කරන ලද සම්බන්ධතාවයක් (HTTPS) භාවිතා නොකරයි."
 
 # smartling.placeholder_format=C
+#. Text explaining that disabling chat history will delete chats from this browser and disconnect Sync & Backup, but chats remain accessible from other connected browsers.
+msgctxt "Body text for disable chat history and disconnect sync modal"
+msgid ""
+"This will delete all of your Duck.ai chats from this browser, and disconnect "
+"Sync & Backup. You'll still be able to access your chats in other browsers "
+"connected to Sync & Backup."
+msgstr ""
+"මින් ඔබගේ සියලුම Duck.ai කතාබස් මෙම බ්‍රව්සරයෙන් මකා දමා Sync & Backup "
+"විසන්ධි කරයි. Sync & Backup ට සම්බන්ධ කර ඇති අනෙකුත් බ්‍රව්සර්වලින් ඔයාට "
+"තවමත් ඔයාගේ කතාබස් වෙත ප්‍රවේශ වීමට හැකි වනු ඇත."
+
+# smartling.placeholder_format=C
 #. Text asking the user to confirm if they want to clear all recentchats, with a warning that this action cannot be undone.
 msgctxt "Body text for clear all recent chats confirmation modal"
 msgid ""
@@ -16358,6 +16596,12 @@ msgstr "YouTube ප්‍රතිඵල බොහෝය"
 msgctxt "Feedback prompt"
 msgid "Too many ads"
 msgstr "දැන්වීම් වැඩියි"
+
+# smartling.placeholder_format=C
+#. Displayed when the user has sent too many requests in a short period of time.
+msgctxt "Error message for rate limit"
+msgid "Too many requests. Please take a short break and try again."
+msgstr "අධික ඉල්ලුම් සංඛ්‍යාවක් ඇත. කරුණාකර කෙටි විවේකයක් ගෙන නැවත උත්සාහ කරන්න."
 
 # smartling.placeholder_format=C
 #. A feedback suggestion
@@ -17308,6 +17552,12 @@ msgid "Upgrade Duck.ai with a DuckDuckGo subscription"
 msgstr "DuckDuckGo දායකත්වයක් සමඟ Duck.ai උත්ශ්‍රේණි කරන්න"
 
 # smartling.placeholder_format=C
+#. Text for the sidebar action button that takes the user to the upgrade models page.
+msgctxt "Upgrade models sidebar action button"
+msgid "Upgrade Models"
+msgstr "ආකෘති උත්ශ්රේණිගත කිරීම"
+
+# smartling.placeholder_format=C
 #. Promotional message asking users to upgrade to the Privacy Pro subscription service.
 msgctxt "SERP footer content"
 msgid "Upgrade to Privacy Pro"
@@ -17769,6 +18019,12 @@ msgstr "අපට තව ටිකක් කියන්න අවශ්‍ය�
 msgctxt "Feedback prompt"
 msgid "Was this helpful?"
 msgstr "මෙම දේ ප්‍රයෝජනවත් වුනාද?"
+
+# smartling.placeholder_format=C
+#. Message displayed to the user when they use page context for the first time. It asks them if the response correctly used the page content.
+msgctxt "First time page context response feedback"
+msgid "Was this response accurate?"
+msgstr "මේ ප්රතිචාරය නිවැරදි ද?"
 
 # smartling.placeholder_format=C
 #. A button that plays a video on the current page.
@@ -19135,6 +19391,12 @@ msgid ""
 msgstr "ඔයා අද දින හඬ කතාබස් සීමාවට ළඟා වෙලා තියෙනවා. කරුණාකර හෙට නැවත උත්සහ කරන්න."
 
 # smartling.placeholder_format=C
+#. Title shown when user has reached the sync storage limit.
+msgctxt "Sync limit modal title"
+msgid "You've run out of storage"
+msgstr "ඔබේ ගබඩා ආචයනය අවසන් වී ඇත"
+
+# smartling.placeholder_format=C
 #. A privacy disclaimer that appears above YouTube videos.
 msgid ""
 "YouTube (owned by Google) does not let you watch videos anonymously. As "
@@ -19272,6 +19534,12 @@ msgid ""
 msgstr ""
 "ඔබේ කතාබස් පුද්ගලික වන අතර, අප විසින් කිසි විටෙකත් සුරකින අතර AI ආකෘති "
 "පුහුණු කිරීමට භාවිත නොකෙරේ."
+
+# smartling.placeholder_format=C
+#. List item in the About Chat History modal explaining that chats are stored locally on the user's device.
+msgctxt "Chat history about modal list item"
+msgid "Your chats are saved on this device only."
+msgstr "ඔබගේ කතාබස් සුරකිනු ලබන්නේ මෙම උපාංගයේ පමණි."
 
 # smartling.placeholder_format=C
 #. Privacy reassurance and instructions intro.
@@ -19487,6 +19755,12 @@ msgstr "%1$s වෙතින්"
 # smartling.placeholder_format=C
 #. Label of which AI provider the current AI Model comes from. Example: 'by OpenAI'
 msgctxt "AI provider label in the side menu item"
+msgid "by %s"
+msgstr "%1$s වෙතින්"
+
+# smartling.placeholder_format=C
+#. Footer attribution text where %s is a link to the DuckDuckGo about page. The link text is the brand name 'DuckDuckGo'.
+msgctxt "Sidebar footer"
 msgid "by %s"
 msgstr "%1$s වෙතින්"
 
