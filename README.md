@@ -190,3 +190,14 @@ To import translations from Smartling:
 3. The script will ask for the location of the translated files. On macOS you can drag-drop the folder you just unzipped from Finder right to the terminal window
 4. Hit enter
 5. Review and commit 🎉
+
+## Running tests
+
+The repository includes automated tests (in the `t/` directory) that validate all translation files and catch common errors before they reach CI.
+
+To run them locally:
+
+```bash
+cpanm --installdeps .
+prove -r t/
+```
