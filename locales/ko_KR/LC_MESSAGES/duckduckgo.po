@@ -157,6 +157,27 @@ msgid "%s is here!"
 msgstr "%1$s 입성!"
 
 # smartling.placeholder_format=C
+#. Displayed when a Plus subscriber tries to use a Pro-only AI model. Example: 'GPT 4o mini is only available with Pro. Upgrade your DuckDuckGo subscription in this browser again to continue the chat, or switch to a Plus or free model.'
+msgctxt "Error message when a Plus subscriber tries to use a Pro-only model"
+msgid ""
+"%s is only available with Pro. Upgrade your DuckDuckGo subscription in this "
+"browser again to continue the chat, or switch to a Plus or free model."
+msgstr ""
+"%1$s는 Pro를 구독하셔야 이용할 수 있습니다. 이 브라우저에서 DuckDuckGo 구독을 다시 업그레이드하여 채팅을 계속 "
+"이용하거나, Plus 또는 무료 모델로 전환하세요."
+
+# smartling.placeholder_format=C
+#. Text for the disclaimer message that appears when a Plus subscriber tries to use a Pro-only model. %s is replaced with the model name. Example: Claude Opus 4.6 is only available with Pro. Upgrade your DuckDuckGo subscription in this browser again to continue the chat, or switch to a Plus or free model.
+msgctxt ""
+"Text for the model not available without a Pro subscription disclaimer"
+msgid ""
+"%s is only available with Pro. Upgrade your DuckDuckGo subscription in this "
+"browser again to continue the chat, or switch to a Plus or free model."
+msgstr ""
+"%1$s는 Pro를 구독하셔야 이용할 수 있습니다. 이 브라우저에서 DuckDuckGo 구독을 다시 업그레이드하여 채팅을 계속 "
+"이용하거나, Plus 또는 무료 모델로 전환하세요."
+
+# smartling.placeholder_format=C
 #. Displayed when an AI (Artificial Intelligence) chat model is temporarily unavailable. Example: 'GPT 4o is only available with a DuckDuckGo subscription.'
 msgctxt "Error message for model unavailability"
 msgid "%s is only available with a DuckDuckGo subscription."
@@ -232,6 +253,12 @@ msgstr "%1$s 순위는 아직 사용할 수 없습니다."
 msgctxt "Organic result context menu"
 msgid "%s results hidden"
 msgstr "결과 %1$s개 숨김"
+
+# smartling.placeholder_format=C
+#. Shown to Plus subscribers when they hit a usage limit error. The variable is a link with text 'Upgrade to Pro' that takes the user to the Pro plans page. Example: Upgrade to Pro to unlock 2x higher limits.
+msgctxt "Text promoting Pro upgrade for Plus subscribers who hit usage limits"
+msgid "%s to unlock 2x higher limits."
+msgstr "%1$s하여 2배 높은 한도를 이용하세요."
 
 # smartling.placeholder_format=C
 #. The main headline indicating that more than 1 attempt has been blocked. Eg: '2 tracking attempts blocked'
@@ -317,6 +344,13 @@ msgstr "%1$s더 알아보기%2$s."
 msgctxt "precise_user_location"
 msgid "%sLearn how we keep your location private%s."
 msgstr "%1$sDuckDuckGo가 사용자의 위치 정보를 어떻게 보호하는지 알아보세요%2$s."
+
+# smartling.placeholder_format=C
+#. Footer text with a Learn more link explaining where to find more information about chat privacy.
+msgctxt "Footer text for About Sync modal"
+msgid ""
+"%sLearn more%s about how chats are stored privately on DuckDuckGo's server."
+msgstr "DuckDuckGo 서버에 채팅이 비공개로 저장되는 방식 %1$s자세히 알아보기%2$s"
 
 # smartling.placeholder_format=C
 #. Text explaining that you can learn more about how recent chats work. Placeholders are for page markup to add links to 'Learn more'. Example: '<a>Learn more</a> about how chats are stored privately on your device.'
@@ -617,6 +651,13 @@ msgid "A"
 msgstr "A"
 
 # smartling.placeholder_format=C
+#. Error message for the duckassist instant answer (based on generative AI) whenever there is a network issue.
+msgid ""
+"A network issue is preventing Search Assist from generating an answer. "
+"Please check your connection and try again."
+msgstr "Search Assist가 네트워크 문제로 답변을 생성하지 못하고 있습니다. 연결 상태를 확인하고 다시 시도하세요."
+
+# smartling.placeholder_format=C
 #. Text informing the user that a new version of AI Chat is available and they need to refresh the page.
 msgctxt "Body text for new version available modal"
 msgid ""
@@ -797,10 +838,28 @@ msgid "About Browser"
 msgstr "브라우저 정보"
 
 # smartling.placeholder_format=C
+#. Title of the modal that provides information about Chat History, shown when the user clicks 'How it works'.
+msgctxt "Modal header for chat history information"
+msgid "About Chat History"
+msgstr "채팅 기록에 대하여"
+
+# smartling.placeholder_format=C
+#. Title of the modal that provides information about Chat History when Sync & Backup is enabled.
+msgctxt "Modal header for chat history with sync information"
+msgid "About Chat History with Sync & Backup"
+msgstr "Sync & Backup을 사용한 채팅 기록에 대하여"
+
+# smartling.placeholder_format=C
 #. at least in:
 #. * https://duckduckgo.com/about. Appears in the window title when you open the link
 msgid "About DuckDuckGo"
 msgstr "DuckDuckGo 소개"
+
+# smartling.placeholder_format=C
+#. Title displayed at the top of the modal that explains the Encrypted Storage feature for 3rd party browsers.
+msgctxt "Title for the About Encrypted Storage modal"
+msgid "About Encrypted Storage"
+msgstr "암호화된 저장소에 대하여"
 
 # smartling.placeholder_format=C
 #. Link label for DuckDuckGo 'App' page (https://duckduckgo.com/app)
@@ -812,6 +871,12 @@ msgstr "브라우저 정보"
 msgctxt "Modal header for recent chats information"
 msgid "About Recent Chats"
 msgstr "최근 채팅 관련"
+
+# smartling.placeholder_format=C
+#. Title displayed at the top of the modal that explains the Sync & Backup feature for native DDG browsers.
+msgctxt "Title for the About Sync modal"
+msgid "About Sync & Backup"
+msgstr "Sync & Backup에 대하여"
 
 # smartling.placeholder_format=C
 #. Link to a page with more information about the company.
@@ -828,6 +893,12 @@ msgstr "DuckDuckGo 광고 소개"
 msgctxt "settingsvalue"
 msgid "Above Title"
 msgstr "제목 위"
+
+# smartling.placeholder_format=C
+#. Description explaining that synced chats can be accessed from any device.
+msgctxt "Sync feature benefit description"
+msgid "Access from any device."
+msgstr "모든 기기에서 접속할 수 있습니다."
 
 # smartling.placeholder_format=C
 #. A feedback suggestion
@@ -1405,6 +1476,18 @@ msgid "Answer"
 msgstr "답변"
 
 # smartling.placeholder_format=C
+#. Button text that appears during AI reasoning to allow users to skip the thinking phase and get an immediate answer without reasoning.
+msgctxt "Button text to skip reasoning and get an answer immediately"
+msgid "Answer Faster"
+msgstr "더 빨리 답변"
+
+# smartling.placeholder_format=C
+#. Description text shown below the Fast option in the reasoning mode dropdown.
+msgctxt "Description for fast reasoning mode in Duck.ai"
+msgid "Answers right away"
+msgstr "바로 답변합니다"
+
+# smartling.placeholder_format=C
 msgid "Antigua and Barbuda"
 msgstr "앤티가바부다"
 
@@ -1746,6 +1829,12 @@ msgid "Attach Image"
 msgstr "이미지 첨부"
 
 # smartling.placeholder_format=C
+#. Accessible text of a button that toggles attaching page context to the current AI chat message being composed.
+msgctxt "Add page context from the current tab to the AI chat message"
+msgid "Attach Page Content"
+msgstr "페이지 내용 첨부"
+
+# smartling.placeholder_format=C
 #. Accessible text of a button that adds an image to the current AI chat message being composed.
 msgctxt "Add an image to be uploaded to the AI chat conversation"
 msgid "Attach image"
@@ -1786,6 +1875,12 @@ msgstr "오스트리아"
 msgctxt "Rich Facts label"
 msgid "Author"
 msgstr "작성자"
+
+# smartling.placeholder_format=C
+#. Option in the reasoning mode dropdown that lets the AI model decide when to use reasoning.
+msgctxt "Label for auto reasoning mode in Duck.ai"
+msgid "Auto"
+msgstr "자동"
 
 # smartling.placeholder_format=C
 #. http://i.imgur.com/DIzKQRl.png
@@ -1965,6 +2060,12 @@ msgstr "기본 모델"
 msgctxt "language_name"
 msgid "Basque"
 msgstr "바스크어"
+
+# smartling.placeholder_format=C
+#. Placeholder text displayed while the assistant waits for the user to choose an action.
+msgctxt "Assistant response placeholder"
+msgid "Before continuing..."
+msgstr "계속 진행하기 전에..."
 
 # smartling.placeholder_format=C
 #. Label that's displayed next to a past start date below a web search result.
@@ -2361,6 +2462,12 @@ msgid "Browser Promo Dismissed"
 msgstr "브라우저 프로모션 종료됨"
 
 # smartling.placeholder_format=C
+#. Title shown when user's DDG app is too old to support migration.
+msgctxt "duckai_migration"
+msgid "Browser Update Required"
+msgstr "브라우저 업데이트 필요"
+
+# smartling.placeholder_format=C
 #. Label for a menu that lets users select the language for their browser.
 msgctxt "settingsvalue"
 msgid "Browser preferred language"
@@ -2692,6 +2799,12 @@ msgstr "위치 변경"
 msgctxt "Tooltip for model selection"
 msgid "Change default model"
 msgstr "기본 모델 변경"
+
+# smartling.placeholder_format=C
+#. Tooltip text shown when hovering over the reasoning mode dropdown button.
+msgctxt "Tooltip for the reasoning mode button in Duck.ai"
+msgid "Change reasoning level"
+msgstr "추론 수준을 변경합니다"
 
 # smartling.placeholder_format=C
 #. Tooltip for a button that takes the user to the settings page.
@@ -3866,6 +3979,18 @@ msgid "Continue"
 msgstr "계속"
 
 # smartling.placeholder_format=C
+#. Button label on the minimal onboarding modal variant to accept terms and continue chatting.
+msgctxt "Modal onboarding experiment button text"
+msgid "Continue"
+msgstr "계속"
+
+# smartling.placeholder_format=C
+#. Button label to continue with the update.
+msgctxt "duckai_migration"
+msgid "Continue"
+msgstr "계속"
+
+# smartling.placeholder_format=C
 #. Label of a button that dismisses the request for the user to turn off their ad blocker
 msgid "Continue Blocking Ads"
 msgstr "광고 차단 계속하기"
@@ -4351,6 +4476,12 @@ msgid "Delayed"
 msgstr "연기됨"
 
 # smartling.placeholder_format=C
+#. Button text to delete all chats and free up sync storage.
+msgctxt "Sync limit modal button"
+msgid "Delete All Chats"
+msgstr "모든 채팅 삭제"
+
+# smartling.placeholder_format=C
 #. Text for a button that confirms the deletion of the current chat.
 msgctxt "Primary button text in delete chat modal"
 msgid "Delete Chat"
@@ -4361,6 +4492,12 @@ msgstr "채팅 삭제"
 msgctxt "Primary button text in mobile chat history modal"
 msgid "Delete Chats"
 msgstr "채팅 삭제"
+
+# smartling.placeholder_format=C
+#. Button text to delete unpinned chats older than 30 days to free up sync storage.
+msgctxt "Sync limit modal button"
+msgid "Delete Chats Older Than 30 Days"
+msgstr "30일 이상 지난 채팅 삭제"
 
 # smartling.placeholder_format=C
 #. Button text to confirm deletion of an image.
@@ -4524,6 +4661,18 @@ msgid "Disable Duck.ai"
 msgstr "Duck.ai 비활성화"
 
 # smartling.placeholder_format=C
+#. Text for a button that confirms disabling chat history and disconnecting from Sync & Backup.
+msgctxt "Primary button text in disable chat history and disconnect sync modal"
+msgid "Disable and Disconnect"
+msgstr "비활성화 및 연결 해제"
+
+# smartling.placeholder_format=C
+#. Title of a modal that asks the user if they want to turn off chat history and disconnect from Sync & Backup.
+msgctxt "Modal header for disabling chat history and disconnecting sync"
+msgid "Disable chat history and disconnect from Sync & Backup?"
+msgstr "채팅 기록을 비활성화하고 Sync & Backup 연결을 해제하시겠어요?"
+
+# smartling.placeholder_format=C
 #. Title of a modal that asks the user if they want to turn off the chat history feature.
 msgctxt "Modal header for disabling chat history confirmation"
 msgid "Disable chat history?"
@@ -4658,6 +4807,12 @@ msgid "Don't Remind Me"
 msgstr "배너 알림 표시 안 함"
 
 # smartling.placeholder_format=C
+#. User clicks this button to not share their device's location
+msgctxt "precise_user_location"
+msgid "Don't Use"
+msgstr "사용하지 않기"
+
+# smartling.placeholder_format=C
 #. A setting for the safe search filter that doesn't remove content inappropriate for children.
 msgctxt "safe search"
 msgid "Don't filter adult content"
@@ -4727,6 +4882,12 @@ msgstr "채팅 기록 내려받기"
 msgctxt "duckai_migration"
 msgid "Download Complete"
 msgstr "다운로드 완료"
+
+# smartling.placeholder_format=C
+#. Text of a button that will install the DuckDuckGo browser when clicked
+msgctxt "Browser Promo Popover"
+msgid "Download DuckDuckGo"
+msgstr "DuckDuckGo 다운로드"
 
 # smartling.placeholder_format=C
 #. Text of a button that will install the DuckDuckGo browser when clicked
@@ -4985,6 +5146,12 @@ msgctxt "Disclaimer above chat input during DuckAssist handoff - desktop"
 msgid ""
 "Duck.ai responses aren’t based on specific sources or checked for accuracy."
 msgstr "Duck.ai 답변은 특정 자료에 근거하거나 정확성을 확인하지 않습니다."
+
+# smartling.placeholder_format=C
+#. Title shown when native app needs to reload for service update.
+msgctxt "duckai_migration"
+msgid "Duck.ai update"
+msgstr "Duck.ai 업데이트"
 
 # smartling.placeholder_format=C
 #. Meta keywords content for Duck.ai.
@@ -5874,6 +6041,18 @@ msgctxt "AI Chat - Tooltip for export chat action"
 msgid "Export transcript"
 msgstr "녹취록 내보내기"
 
+# smartling.placeholder_format=C
+#. Tooltip that appears when hovering over the extend reasoning button, which allows users to resubmit a prompt with AI reasoning/thinking enabled.
+msgctxt "Tooltip text for button to resubmit prompt with reasoning enabled"
+msgid "Extend reasoning"
+msgstr "추론 확장"
+
+# smartling.placeholder_format=C
+#. Option in the reasoning mode dropdown that enables deeper reasoning. Only available to Pro subscribers.
+msgctxt "Label for extended reasoning mode in Duck.ai"
+msgid "Extended Reasoning"
+msgstr "확장된 추론"
+
 #  seen on Opera 9.52, Firefox 33 and Chrome 27 besides homepage instructions; link to e.g. https://help.duckduckgo.com/desktop/opera/
 # smartling.placeholder_format=C
 #. Link to a page where users can download the DuckDuckGo browser extension and other products.
@@ -5915,6 +6094,12 @@ msgstr "무료"
 msgctxt "Sports module"
 msgid "FT"
 msgstr "경기 종료"
+
+# smartling.placeholder_format=C
+#. Option in the reasoning mode dropdown that disables reasoning for faster responses.
+msgctxt "Label for fast reasoning mode in Duck.ai"
+msgid "Fast"
+msgstr "빠른"
 
 # smartling.placeholder_format=C
 #. Tagline in a promotion for a desktop web browser
@@ -6115,6 +6300,11 @@ msgid ""
 msgstr "내 주변 결과를 보세요. %1$s내 위치는 익명 비공개로 안전하게 유지됩니다."
 
 # smartling.placeholder_format=C
+#. Loading message shown while generating explore more follow-up questions
+msgid "Finding follow-ups you might like…"
+msgstr "회원님이 좋아하실 만한 후속 질문을 찾고 있습니다…"
+
+# smartling.placeholder_format=C
 msgid "Finland"
 msgstr "핀란드"
 
@@ -6202,6 +6392,12 @@ msgid "Font Size"
 msgstr "글꼴 크기"
 
 # smartling.placeholder_format=C
+#. Description text shown below the Reasoning option in the reasoning mode dropdown.
+msgctxt "Description for reasoning mode in Duck.ai"
+msgid "For complex tasks"
+msgstr "복잡한 작업용"
+
+# smartling.placeholder_format=C
 #. Part of a list of what our app can do. The app can: …
 msgctxt "welcome message eu search preference android"
 msgid "Force encryption on websites"
@@ -6282,6 +6478,12 @@ msgstr "공유 및 이용 자유"
 msgctxt "image-licence"
 msgid "Free to Share and Use Commercially"
 msgstr "상업적 공유 및 이용 자유"
+
+# smartling.placeholder_format=C
+#. Description text explaining how to free up sync storage. Pinned chats are chats the user has explicitly marked to keep.
+msgctxt "Sync limit modal description"
+msgid "Free up space by deleting your chats. Pinned chats will not be deleted."
+msgstr "채팅을 삭제하여 공간을 확보하세요. 고정된 채팅은 삭제되지 않습니다."
 
 # smartling.placeholder_format=C
 #. Indicates that this streaming service is free to watch but shows ads
@@ -6577,6 +6779,12 @@ msgstr "이미지 생성 중..."
 # smartling.placeholder_format=C
 #. Placeholder text displayed while the AI assistant is generating a response.
 msgctxt "Assistant response placeholder"
+msgid "Generating response"
+msgstr "응답 생성 중"
+
+# smartling.placeholder_format=C
+#. Placeholder text displayed while the AI assistant is generating a response.
+msgctxt "Assistant response placeholder"
 msgid "Generating response..."
 msgstr "응답 생성 중..."
 
@@ -6719,9 +6927,27 @@ msgid "Get computer help"
 msgstr "컴퓨터 도움 받기"
 
 # smartling.placeholder_format=C
+#. Promotional text that appears in popup promo to encourage user's to download DuckDuckGo Browser from the settings page.
+msgctxt "Browser Promo Popover"
+msgid "Get our browser to never lose your settings."
+msgstr "설정이 사라지지 않도록 DuckDuckGo 브라우저를 이용하세요."
+
+# smartling.placeholder_format=C
 msgid ""
 "Get seamless privacy protection on your browser for free with one download:"
 msgstr "다운로드 한 번으로 브라우저에서 무료로 개인정보 보호 기능을 원활하게 이용할 수 있습니다."
+
+# smartling.placeholder_format=C
+#. Text of a button that will install the DuckDuckGo app when clicked
+msgctxt "Browser Promo Popover"
+msgid "Get the App"
+msgstr "앱 받기"
+
+# smartling.placeholder_format=C
+#. Link text in the sidebar footer that takes users to the DuckDuckGo app download page.
+msgctxt "Sidebar footer"
+msgid "Get the App"
+msgstr "앱 받기"
 
 # smartling.placeholder_format=C
 #. This button will open a dialog that explains how to update the browser version manually
@@ -6852,6 +7078,12 @@ msgstr "기능들"
 # smartling.placeholder_format=C
 #. A button that closes the welcome modal.
 msgctxt "Button on the subscription welcome modal"
+msgid "Got It"
+msgstr "이해했습니다."
+
+# smartling.placeholder_format=C
+#. Dismiss button for sync unavailable modal.
+msgctxt "Sync unavailable modal button"
 msgid "Got It"
 msgstr "이해했습니다."
 
@@ -7278,6 +7510,12 @@ msgid "Hide Passphrase"
 msgstr "암호 숨기기"
 
 # smartling.placeholder_format=C
+#. Visible button text at the bottom of the expanded reasoning steps list that collapses it.
+msgctxt "Button label to collapse the reasoning steps list"
+msgid "Hide Reasoning"
+msgstr "추론 숨기기"
+
+# smartling.placeholder_format=C
 #. Hides details of a step-by-step navigation route
 msgctxt "directions"
 msgid "Hide Steps"
@@ -7294,6 +7532,18 @@ msgstr "팁 숨기기"
 msgctxt "Exclusion message re-enable button"
 msgid "Hide blocked sites from results"
 msgstr "결과에서 차단된 사이트 숨기기"
+
+# smartling.placeholder_format=C
+#. Button in the Maps exclusion banner that re-hides place information from blocked sites after the user previously clicked 'Show all information'. Returns the view to the filtered state without blocked site data.
+msgctxt "Exclusion message re-enable button for maps vertical"
+msgid "Hide information"
+msgstr "정보 숨기기"
+
+# smartling.placeholder_format=C
+#. Tooltip text for the button that hides the model's reasoning steps when already expanded.
+msgctxt "Tooltip for reasoning duration button"
+msgid "Hide reasoning"
+msgstr "추론 숨기기"
 
 # smartling.placeholder_format=C
 #. Tooltip text that appears when hovering over the desktop sidebar collapse button, while sidebar is open.
@@ -8125,6 +8375,12 @@ msgid "Interface Settings"
 msgstr "인터페이스 설정"
 
 # smartling.placeholder_format=C
+#. Text for the badge displayed to indicate that the user is an internal user.
+msgctxt "Text for the internal badge"
+msgid "Internal"
+msgstr "내부"
+
+# smartling.placeholder_format=C
 #. Indicator that a game has been interrupted
 msgctxt "Sports module"
 msgid "Interrupted"
@@ -8479,6 +8735,12 @@ msgid "Last updated April 3, 2024"
 msgstr "최종 업데이트: 2024년 4월 3일"
 
 # smartling.placeholder_format=C
+#. Text when onboarding users, describing that Duck.ai supports last AI models. Example: 'Latest AI Models from: GPT, Claude, Mistral, Llama'
+msgctxt "Onboarding welcome screen feature"
+msgid "Latest AI Models from:"
+msgstr "최신 AI 모델 -"
+
+# smartling.placeholder_format=C
 msgid "Latvia"
 msgstr "라트비아"
 
@@ -8620,6 +8882,12 @@ msgstr "레소토"
 msgctxt "video-duration"
 msgid "Less than 4 minutes"
 msgstr "4분 미만"
+
+# smartling.placeholder_format=C
+#. Description text shown below the Auto option in the reasoning mode dropdown.
+msgctxt "Description for auto reasoning mode in Duck.ai"
+msgid "Let the model decide"
+msgstr "모델이 결정하게 합니다"
 
 # smartling.placeholder_format=C
 #. Short sentence inviting user to return.
@@ -9008,6 +9276,12 @@ msgid "Manage"
 msgstr "관리"
 
 # smartling.placeholder_format=C
+#. Text for the button that takes the user to the sync settings page.
+msgctxt "Manage button for chat syncing"
+msgid "Manage"
+msgstr "관리"
+
+# smartling.placeholder_format=C
 #. Button label shown to DuckDuckGo native browser users to manage sync in the native app.
 msgctxt "Manage button for native sync flow"
 msgid "Manage"
@@ -9018,6 +9292,12 @@ msgstr "관리"
 msgctxt "Text for the manage subscription button on the settings modal"
 msgid "Manage"
 msgstr "관리"
+
+# smartling.placeholder_format=C
+#. Label displayed on the manage subscription button in the sidebar footer.
+msgctxt "Label for the manage subscription button"
+msgid "Manage Subscription"
+msgstr "구독 관리"
 
 # smartling.placeholder_format=C
 #. Button label shown to DuckDuckGo native browser users to manage sync in the native app.
@@ -9535,6 +9815,12 @@ msgid "More about !bangs"
 msgstr "!bangs 기능에 대해 더 알아보기"
 
 # smartling.placeholder_format=C
+#. Title displayed on the onboarding modal when it is shown after the user's first prompt rather than immediately.
+msgctxt "Onboarding welcome screen title for deferred experiment"
+msgid "More about Duck.ai"
+msgstr "Duck.ai 더 알아보기"
+
+# smartling.placeholder_format=C
 #. A label that appears before a link where more information can be found. For example 'More at Wikipedia'.
 msgid "More at"
 msgstr "자세히 보기:"
@@ -9926,6 +10212,18 @@ msgid "New chat"
 msgstr "새로운 채팅"
 
 # smartling.placeholder_format=C
+#. Warning in the About Chat History and About Sync modals explaining that prompts and responses are temporarily stored encrypted on DuckDuckGo's server for connection recovery, and that disabling chat history deletes pinned chats.
+msgctxt "Chat history about modal list item"
+msgid ""
+"New prompts and responses are encrypted and temporarily stored on a "
+"DuckDuckGo server after being sent, to help recover a chat if you lose your "
+"internet connection. Disabling chat history will delete pinned chats, and "
+"disable the temporary storage of new prompts and responses."
+msgstr ""
+"사용자의 인터넷 연결이 끊겼을 때 채팅을 복원할 수 있도록, 전송된 새 프롬프트와 응답을 암호화하여 DuckDuckGo 서버에 임시로 "
+"저장합니다. 채팅 기록을 비활성화하면 고정된 채팅이 삭제되고, 새로운 프롬프트와 응답의 임시 저장이 중단됩니다."
+
+# smartling.placeholder_format=C
 #. Question in a feedback form.
 msgctxt "new user poll"
 msgid "New to DuckDuckGo?"
@@ -10045,9 +10343,21 @@ msgid "No More Photos"
 msgstr "사진 없음"
 
 # smartling.placeholder_format=C
+#. Text of a button that will dismiss the DuckDuckGo app promo when clicked
+msgctxt "Browser Promo Popover"
+msgid "No Thanks"
+msgstr "사양합니다"
+
+# smartling.placeholder_format=C
 #. Text describing how DuckDuckGo doesn't track its users.
 msgid "No Tracking. Ever."
 msgstr "절대. 추적하지 않습니다."
+
+# smartling.placeholder_format=C
+#. Description explaining that no account is needed to use the sync feature.
+msgctxt "Sync feature benefit description"
+msgid "No account required."
+msgstr "계정이 없어도 괜찮습니다."
 
 # smartling.placeholder_format=C
 #. A setting for the safe search filter that removes content inappropriate for children.
@@ -11265,6 +11575,12 @@ msgid "Past year"
 msgstr "최근 일 년"
 
 # smartling.placeholder_format=C
+#. Text for the label that indicates the feature is paused.
+msgctxt "Status label for a setting"
+msgid "Paused"
+msgstr "일시 중지됨"
+
+# smartling.placeholder_format=C
 #. Indicates this is the percentage of wins for this team
 msgctxt "Sports module"
 msgid "Pct"
@@ -11474,6 +11790,12 @@ msgstr "여행 계획 세우기"
 msgctxt "Tone option label for Playful"
 msgid "Playful"
 msgstr "경쾌한"
+
+# smartling.placeholder_format=C
+#. Description text when sync is temporarily unavailable.
+msgctxt "Sync unavailable modal description"
+msgid "Please check back later."
+msgstr "나중에 다시 확인하세요."
 
 # smartling.placeholder_format=C
 #. Explanation of an anti-bot challenge for AI Chat users, where 'prompt' is a message sent to the AI
@@ -12303,8 +12625,20 @@ msgstr "검색 결과 읽는 중..."
 # smartling.placeholder_format=C
 #. Text displayed while the AI assistant is loading a specific website while generating a response.
 msgctxt "Assistant response progress report"
+msgid "Reading website"
+msgstr "웹사이트 읽는 중"
+
+# smartling.placeholder_format=C
+#. Text displayed while the AI assistant is loading a specific website while generating a response.
+msgctxt "Assistant response progress report"
 msgid "Reading website…"
 msgstr "웹사이트 읽는 중…"
+
+# smartling.placeholder_format=C
+#. Option in the reasoning mode dropdown that enables extended reasoning for AI models.
+msgctxt "Label for reasoning mode in Duck.ai"
+msgid "Reasoning"
+msgstr "추론"
 
 # smartling.placeholder_format=C
 #. Text for a label indicating that the AI (Artificial Intelligence) model is a reasoning AI. Reasoning refers to the AI ability to think logically to draw conclusions before providing an answer.
@@ -12329,6 +12663,12 @@ msgstr "낮은 수준의 조정 기능이 내장된 추론형 AI"
 msgctxt "Label copy with short description of AI Model"
 msgid "Reasoning AI with medium built-in moderation"
 msgstr "중간 수준의 조정 기능이 내장된 추론형 AI"
+
+# smartling.placeholder_format=C
+#. Accessibility label for the dropdown that allows users to select reasoning mode (Reasoning, Fast, Auto) for AI models that support it.
+msgctxt "Aria label for the reasoning mode dropdown in Duck.ai"
+msgid "Reasoning mode"
+msgstr "추론 모드"
 
 # smartling.placeholder_format=C
 #. Title for the recent chats section.
@@ -12706,6 +13046,12 @@ msgid "Republic of Moldova"
 msgstr "몰도바 공화국"
 
 # smartling.placeholder_format=C
+#. Description text shown below the Extended Reasoning option in the reasoning mode dropdown.
+msgctxt "Description for extended reasoning mode in Duck.ai"
+msgid "Researches before responding"
+msgstr "답변하기 전 조사"
+
+# smartling.placeholder_format=C
 #. A button that resets a user's settings.
 msgctxt "settings dropdown"
 msgid "Reset"
@@ -12833,6 +13179,12 @@ msgstr "결과"
 msgctxt "Exclusion message at top of vertical"
 msgid "Results exclude blocked sites."
 msgstr "차단된 사이트를 결과에서 제외합니다."
+
+# smartling.placeholder_format=C
+#. Informational banner shown at the top of the Maps search results panel when the user has blocked Yelp or TripAdvisor in their settings. Explains why ratings, reviews, and other details may be missing from place listings.
+msgctxt "Exclusion message at top of maps vertical"
+msgid "Results exclude information from blocked sites."
+msgstr "차단된 사이트에서 나온 정보는 결과에서 제외됩니다."
 
 # smartling.placeholder_format=C
 #. Message that appears when results exclude blocked sites
@@ -13091,6 +13443,50 @@ msgid "Save and Exit"
 msgstr "저장 후 종료"
 
 # smartling.placeholder_format=C
+#. Description explaining that sync allows saving more chats than local browser storage.
+msgctxt "Sync feature benefit description"
+msgid "Save more chats than you can in your web browser."
+msgstr "웹 브라우저에서보다 많은 채팅을 저장합니다."
+
+# smartling.placeholder_format=C
+#. List item explaining that users can save more chats when Sync & Backup is enabled.
+msgctxt "Chat history with sync modal list item"
+msgid "Save more of your chats."
+msgstr "더 많은 채팅을 저장하세요."
+
+# smartling.placeholder_format=C
+#. Text for 3rd party browser users explaining Chat History with mention of Encrypted Storage option for saving more chats.
+msgctxt "Description for Chat History feature with Encrypted Storage option"
+msgid ""
+"Save up to 30 of your most recent chats locally on your device, with the "
+"option for more with Encrypted Storage."
+msgstr "최근 채팅을 30개까지 기기에 로컬로 저장하며, 암호화된 저장소를 사용하면 더 많이 저장할 수도 있습니다."
+
+# smartling.placeholder_format=C
+#. Short text for native DDG browser users explaining how Chat History stores up to 30 of their most recent chats locally on their device.
+msgctxt "Short description for Chat History feature on native DDG browsers"
+msgid "Save up to 30 of your most recent chats locally on your device."
+msgstr "최근 채팅을 30개까지 기기에 로컬로 저장합니다."
+
+# smartling.placeholder_format=C
+#. Short description shown in Chat History settings when sync is enabled, explaining chats are saved across all devices.
+msgctxt "Description for Chat History when sync is enabled"
+msgid "Save your chats across all your devices."
+msgstr "모든 기기에서 채팅 내용을 저장하세요."
+
+# smartling.placeholder_format=C
+#. List item in the About Chat History modal explaining that recent chats are saved.
+msgctxt "Chat history about modal list item"
+msgid "Save your most recent chats."
+msgstr "최근 채팅을 저장하세요."
+
+# smartling.placeholder_format=C
+#. Short description shown in Chat History settings when sync is not yet enabled, explaining chats are saved locally on the device.
+msgctxt "Description for Chat History when sync is not enabled"
+msgid "Save your recent chats on this device."
+msgstr "이 기기에 최근 채팅을 저장하세요."
+
+# smartling.placeholder_format=C
 #. Prompt to save user settings to the cloud.
 msgctxt "settings"
 msgid "Save your settings anonymously to the cloud"
@@ -13236,6 +13632,15 @@ msgstr ""
 "답변을 생성합니다. 답변 표시 빈도는 사용자가 직접 선택할 수 있습니다. 안 함, 요청 시(검색 결과에서 Assist를 클릭했을 때만), "
 "가끔(관련성이 높은 경우에만 표시), 자주(검색 결과가 광범위할 때 표시) 중 선택하세요. 현재 Search Assist는 영어를 "
 "사용하는 일부 지역에만 제공됩니다."
+
+# smartling.placeholder_format=C
+#. Error message for the duckassist instant answer (based on generative AI) when the answer is not found and the answer is unsourced or with no sources
+msgid ""
+"Search Assist couldn't find enough reliable information to generate an "
+"answer for this question. Try another search."
+msgstr ""
+"Search Assist가 이 질문에 대한 답변을 생성하기에 위해 신뢰할 수 있는 정보를 충분히 찾지 못했습니다. 다른 검색을 시도해 "
+"보세요."
 
 # smartling.placeholder_format=C
 #. First paragraph of a section inviting users to learn more about the Assist instant answer (based on generative AI)
@@ -13451,6 +13856,12 @@ msgstr "<b>%1$s</b> 관련 검색"
 # smartling.placeholder_format=C
 #. Text displayed while the AI assistant is searching the web while generating a response.
 msgctxt "Assistant response progress report"
+msgid "Searching the web"
+msgstr "웹 검색 중"
+
+# smartling.placeholder_format=C
+#. Text displayed while the AI assistant is searching the web while generating a response.
+msgctxt "Assistant response progress report"
 msgid "Searching the web…"
 msgstr "웹 검색 중..."
 
@@ -13459,6 +13870,12 @@ msgstr "웹 검색 중..."
 msgctxt "Sports module"
 msgid "Season Weeks"
 msgstr "시즌 주간"
+
+# smartling.placeholder_format=C
+#. Description shown in the Sync & Backup settings section when sync is not yet enabled, explaining the feature.
+msgctxt "Description for sync and backup feature"
+msgid "Securely save and sync your chats across all your devices."
+msgstr "모든 기기에서 채팅 내용을 안전하게 저장하고 동기화하세요."
 
 # smartling.placeholder_format=C
 #. Shown to DuckDuckGo native browser users explaining that they must finish setup inside the app.
@@ -13491,6 +13908,20 @@ msgid ""
 "Securely store your chats on our server using end-to-end encryption, and "
 "access them from all your devices."
 msgstr "종단간 암호화를 사용해 사용자의 채팅을 Duck.ai 서버에 안전하게 저장하고 모든 기기에 접근할 수 있습니다."
+
+# smartling.placeholder_format=C
+#. Description explaining that chats are stored securely with encryption on DuckDuckGo's server.
+msgctxt "Sync feature benefit description"
+msgid "Securely stored on DuckDuckGo's server with end-to-end encryption."
+msgstr "DuckDuckGo 서버에 안전하게 저장되며, 종단간 암호화가 적용됩니다."
+
+# smartling.placeholder_format=C
+#. List item explaining that synced chats are stored with end-to-end encryption on DuckDuckGo's server and only the user can access them.
+msgctxt "Chat history with sync modal list item"
+msgid ""
+"Securely stored on DuckDuckGo's server with end-to-end encryption. Nobody "
+"but you can see your data, not even us."
+msgstr "DuckDuckGo 서버에 안전하게 저장되며, 종단간 암호화가 적용됩니다. 회원님의 데이터는 본인 외에 누구도 볼 수 없습니다."
 
 # smartling.placeholder_format=C
 msgctxt "Feedback prompt"
@@ -13906,6 +14337,14 @@ msgid "Set as Homepage"
 msgstr "홈페이지로 설정"
 
 # smartling.placeholder_format=C
+#. List item in the About Chat History modal explaining that users can set up Sync & Backup to sync chats across devices.
+msgctxt "Chat history about modal list item"
+msgid ""
+"Set up Sync & Backup after turning on Chat History to keep your chats synced "
+"across devices."
+msgstr "채팅 기록을 켜고 Sync & Backup을 설정하여 기기 간 채팅을 동기화된 상태로 유지하세요."
+
+# smartling.placeholder_format=C
 #. Prompt for the user to indicate their location on a map, to enable more relevant search results.
 msgctxt "precise_user_location"
 msgid "Set your location manually, or ensure Location Services is enabled."
@@ -13932,6 +14371,12 @@ msgstr "설정"
 msgctxt "feedback form"
 msgid "Settings"
 msgstr "설정"
+
+# smartling.placeholder_format=C
+#. Label displayed on the sidebar footer row indicating that the user can access the settings and more menu.
+msgctxt "Sidebar footer row"
+msgid "Settings & More"
+msgstr "설정 & 자세히 보기"
 
 # smartling.placeholder_format=C
 #. Label for the user's settings in JSON format.
@@ -14224,6 +14669,12 @@ msgid "Show Web Results"
 msgstr "웹 결과 보기"
 
 # smartling.placeholder_format=C
+#. Button in the Maps exclusion banner that temporarily shows all place information (including from blocked sites like Yelp/TripAdvisor) for the current session. Clicking this reveals the hidden ratings, reviews, and details.
+msgctxt "Exclusion message disable button for maps vertical"
+msgid "Show all information"
+msgstr "모든 정보 표시"
+
+# smartling.placeholder_format=C
 #. Text for the toggle that shows all AI assistant instructions.
 msgctxt "Label for showing all instructions toggle"
 msgid "Show all instructions"
@@ -14258,6 +14709,12 @@ msgstr "지도 보기"
 msgctxt "Expands content in a message"
 msgid "Show more"
 msgstr "더 보기"
+
+# smartling.placeholder_format=C
+#. Tooltip text for the button that shows the model's reasoning steps and how long they took.
+msgctxt "Tooltip for reasoning duration button"
+msgid "Show reasoning"
+msgstr "추론 과정 보기"
 
 # smartling.placeholder_format=C
 #. The aria-label text for a toggle button that shows/hides the detailed feed
@@ -14563,6 +15020,18 @@ msgid "Solomon Islands"
 msgstr "솔로몬제도"
 
 # smartling.placeholder_format=C
+#. Text for a promotional card that encourages users to try the reasoning mode on complex problems which thinks longer to hopefully provide a more accurate answer.
+msgctxt "Promotional text for reasoning mode"
+msgid "Solve complex problems with the new reasoning mode!"
+msgstr "새로운 추론 모드로 복잡한 문제를 해결하세요!"
+
+# smartling.placeholder_format=C
+#. Text for a promotional card that encourages users to try the reasoning mode on complex problems which thinks longer to hopefully provide a more accurate answer.
+msgctxt "Promotional text for reasoning mode"
+msgid "Solve complex problems with the reasoning mode!"
+msgstr "추론 모드로 복잡한 문제를 해결하세요!"
+
+# smartling.placeholder_format=C
 msgid "Somalia"
 msgstr "소말리아"
 
@@ -14637,6 +15106,14 @@ msgstr "죄송합니다. 검색에서 관련 정보를 찾을 수 없습니다."
 #. Indicates that there were no search results for a user's search.
 msgid "Sorry, no results here."
 msgstr "죄송합니다. 검색 결과가 없습니다."
+
+# smartling.placeholder_format=C
+#. Error message displayed when the browser fails to decode or process an uploaded image (e.g., corrupted file, empty data, unsupported encoding)
+msgctxt "Error message when an uploaded image cannot be decoded or processed"
+msgid ""
+"Sorry, the uploaded image couldn't be processed. Please try a different "
+"image or format."
+msgstr "업로드하신 이미지를 처리할 수 없습니다. 다른 이미지나 형식을 사용해 보세요."
 
 # smartling.placeholder_format=C
 #. Error message for the duckassist instant answer (based on generative AI)
@@ -15225,12 +15702,36 @@ msgid "Sync & Backup"
 msgstr "Sync & Backup"
 
 # smartling.placeholder_format=C
+#. Title for the Sync & Backup section in Duck.ai settings
+msgctxt "Label for sync and backup setting"
+msgid "Sync & Backup"
+msgstr "Sync & Backup"
+
+# smartling.placeholder_format=C
 #. Title for the sync setting shown to users inside the DuckDuckGo native browser.
 msgctxt ""
 "Label for encrypted storage setting when running inside a DuckDuckGo native "
 "browser"
 msgid "Sync History"
 msgstr "동기화 기록"
+
+# smartling.placeholder_format=C
+#. Title shown when sync service is temporarily unavailable.
+msgctxt "Sync unavailable modal title"
+msgid "Sync and Backup is temporarily unavailable"
+msgstr "Sync & Backup을 일시적으로 사용할 수 없습니다."
+
+# smartling.placeholder_format=C
+#. Tooltip text shown when sync is temporarily paused due to an error.
+msgctxt "Tooltip for sync error indicator"
+msgid "Sync is paused"
+msgstr "동기화 일시 중지됨"
+
+# smartling.placeholder_format=C
+#. List item explaining that chats are synced across all user devices when Sync & Backup is enabled.
+msgctxt "Chat history with sync modal list item"
+msgid "Sync your chats across all of your devices."
+msgstr "모든 기기에서 채팅을 동기화하세요."
 
 # smartling.placeholder_format=C
 msgid "Syria"
@@ -15286,6 +15787,18 @@ msgstr "개인정보를 원하는 대로 관리하세요."
 msgctxt "homepage ATB modal"
 msgid "Take control of your personal data!"
 msgstr "개인정보를 원하는 대로 관리하세요!"
+
+# smartling.placeholder_format=C
+#. Description text shown below the Reasoning option in the reasoning mode dropdown.
+msgctxt "Description for reasoning mode in Duck.ai"
+msgid "Takes a moment to respond"
+msgstr "답변하는 데 잠시 시간이 소요됨"
+
+# smartling.placeholder_format=C
+#. Text fot a button that encourages users to try the recently added voice chat mode, and talk to our AI at Duck.ai.
+msgctxt "Promotional CTA"
+msgid "Talk to Duck.ai"
+msgstr "Duck.ai와 대화하기"
 
 # smartling.placeholder_format=C
 #. Status label shown when the AI is speaking and the user can interrupt it by talking.
@@ -15579,6 +16092,12 @@ msgstr ""
 "웹사이트의 개인정보 보호를 강화하는 데 적용됩니다."
 
 # smartling.placeholder_format=C
+#. Placeholder text displayed while a reasoning AI model is thinking before generating a response.
+msgctxt "Assistant response placeholder"
+msgid "Thinking"
+msgstr "생각 중"
+
+# smartling.placeholder_format=C
 #. Text for the button that shows more of an answer from duckassist when the answer is being generated
 msgid "Thinking..."
 msgstr "생각 중..."
@@ -15760,6 +16279,17 @@ msgid "This webpage does not use a secure, encrypted, connection (HTTPS)."
 msgstr "이 웹사이트는 사용자를 안전하게 보호하고 통신을 암호화하는 HTTPS 프로토콜을 사용하지 않고 있습니다."
 
 # smartling.placeholder_format=C
+#. Text explaining that disabling chat history will delete chats from this browser and disconnect Sync & Backup, but chats remain accessible from other connected browsers.
+msgctxt "Body text for disable chat history and disconnect sync modal"
+msgid ""
+"This will delete all of your Duck.ai chats from this browser, and disconnect "
+"Sync & Backup. You'll still be able to access your chats in other browsers "
+"connected to Sync & Backup."
+msgstr ""
+"이렇게 하면 이 브라우저에서 Duck.ai 채팅이 모두 삭제되고 Sync & Backup 연결이 끊깁니다. Sync & Backup에 "
+"연결된 다른 브라우저에서는 계속 채팅을 볼 수 있습니다."
+
+# smartling.placeholder_format=C
 #. Text asking the user to confirm if they want to clear all recentchats, with a warning that this action cannot be undone.
 msgctxt "Body text for clear all recent chats confirmation modal"
 msgid ""
@@ -15893,6 +16423,14 @@ msgid ""
 msgstr "경로를 인쇄하려면 %1$s지도로 돌아가세요.%2$s원하는 경로를 선택하세요.%3$s인쇄 아이콘을 클릭하세요.%4$s"
 
 # smartling.placeholder_format=C
+#. Body text explaining that the user needs to update their DDG browser before migration can proceed.
+msgctxt "duckai_migration"
+msgid ""
+"To transfer your chat history to Duck.ai, please update your DuckDuckGo "
+"browser to the latest version and try again."
+msgstr "채팅 기록을 Duck.ai로 전송하려면 DuckDuckGo 브라우저를 최신 버전으로 업데이트하고 다시 시도하세요."
+
+# smartling.placeholder_format=C
 msgid "Today"
 msgstr "오늘"
 
@@ -15949,6 +16487,12 @@ msgstr "YouTube 결과가 너무 많음"
 msgctxt "Feedback prompt"
 msgid "Too many ads"
 msgstr "광고가 너무 많음"
+
+# smartling.placeholder_format=C
+#. Displayed when the user has sent too many requests in a short period of time.
+msgctxt "Error message for rate limit"
+msgid "Too many requests. Please take a short break and try again."
+msgstr "요청이 너무 많습니다. 잠시 기다렸다가 다시 시도하세요."
 
 # smartling.placeholder_format=C
 #. A feedback suggestion
@@ -16195,6 +16739,12 @@ msgid "Try Now"
 msgstr "지금 시도해봐"
 
 # smartling.placeholder_format=C
+#. Button label for a promotional card that encourages users to try the reasoning mode which thinks longer to hopefully provide a more accurate answer.
+msgctxt "Promotional CTA for reasoning mode"
+msgid "Try Now"
+msgstr "지금 시도해봐"
+
+# smartling.placeholder_format=C
 #. CTA for a promotional card that encourages DuckDuckGo Subscription users to try the advanced AI models that the subscription unlocks.
 msgctxt "Promotional CTA for advanced AI models for subscribed Duck.ai users"
 msgid "Try Them Out"
@@ -16337,6 +16887,12 @@ msgstr "새로운 이미지 생성 모드를 사용해 보세요!"
 msgctxt "Alternative promotional text for a single new AI model"
 msgid "Try the new model from OpenAI"
 msgstr "OpenAI의 새로운 모델을 시도해 보세요"
+
+# smartling.placeholder_format=C
+#. Text for a promotional card that encourages users to try the recently added voice chat mode.
+msgctxt "Promotional text"
+msgid "Try the new private, real-time voice chat!"
+msgstr "새로운 비공개 실시간 음성 채팅을 사용해 보세요!"
 
 # smartling.placeholder_format=C
 #. Text for a promotional card that encourages users to try the recently added open-source AI models. The placeholders are the names of AI models like 'Try the recently added open-source Llama 3.1 and Mistral.'
@@ -16719,6 +17275,14 @@ msgid "Units swapped"
 msgstr "전환된 단위"
 
 # smartling.placeholder_format=C
+#. Description for the modal shown to Plus subscribers, explaining the benefits of upgrading to the Pro plan. %s is replaced with the name of a Pro-exclusive AI model (e.g. 'Claude Opus 4.6').
+msgctxt "Description of the modal to upgrade to Pro"
+msgid ""
+"Unlock %s, higher AI reasoning, and 2x higher usage limits than the Plus "
+"plan by upgrading to Pro."
+msgstr "Pro로 업그레이드하여 %1$s, 더 높은 AI 추론 및 Plus 요금제보다 2배 더 높은 사용 한도를 이용하세요."
+
+# smartling.placeholder_format=C
 #. Text for the button that allows the user to unlock an AI model with a DuckDuckGo subscription when clicked.
 msgctxt ""
 "Text for the unlock with subscription button on the AI (Artificial "
@@ -16849,6 +17413,12 @@ msgid "Updating..."
 msgstr "업데이트 중입니다..."
 
 # smartling.placeholder_format=C
+#. Label for the button that takes Plus subscribers to the Pro plans page when they hit the image generation limit. Context ('Upgrade to Pro') is already provided by the description above.
+msgctxt "Upgrade button label for image generation limit"
+msgid "Upgrade"
+msgstr "업그레이드"
+
+# smartling.placeholder_format=C
 #. Text for the sidebar action button that takes the opens the upgrade subscription modal.
 msgctxt "Upgrade subscription sidebar action button"
 msgid "Upgrade"
@@ -16875,10 +17445,50 @@ msgid "Upgrade Duck.ai with a DuckDuckGo subscription"
 msgstr "DuckDuckGo 구독으로 Duck.ai 업그레이드"
 
 # smartling.placeholder_format=C
+#. Text for the sidebar action button that takes the user to the upgrade models page.
+msgctxt "Upgrade models sidebar action button"
+msgid "Upgrade Models"
+msgstr "모델 업그레이드"
+
+# smartling.placeholder_format=C
 #. Promotional message asking users to upgrade to the Privacy Pro subscription service.
 msgctxt "SERP footer content"
 msgid "Upgrade to Privacy Pro"
 msgstr "Privacy Pro로 업그레이드"
+
+# smartling.placeholder_format=C
+#. Used as the text for the primary action button shown to Plus subscribers when they try to use a Pro-only model. Clicking this button takes the user to the Pro plans page.
+msgctxt ""
+"Button text for upgrading to Pro when a Plus subscriber encounters a Pro-"
+"only model"
+msgid "Upgrade to Pro"
+msgstr "Pro로 업그레이드"
+
+# smartling.placeholder_format=C
+#. Used as the clickable link text in the sentence 'Upgrade to Pro to unlock 2x higher limits.' shown to Plus subscribers in usage limit error messages.
+msgctxt "Link text for upgrading to Pro plan within an error message"
+msgid "Upgrade to Pro"
+msgstr "Pro로 업그레이드"
+
+# smartling.placeholder_format=C
+#. Title for the modal shown to Plus subscribers encouraging them to upgrade to the Pro plan.
+msgctxt "Title of the modal to upgrade to Pro"
+msgid "Upgrade to Pro"
+msgstr "Pro로 업그레이드"
+
+# smartling.placeholder_format=C
+#. Text for the sidebar action button that opens the upgrade to Pro modal for Plus subscribers.
+msgctxt "Upgrade to Pro sidebar action button"
+msgid "Upgrade to Pro"
+msgstr "Pro로 업그레이드"
+
+# smartling.placeholder_format=C
+#. Description shown to Plus subscribers who have reached their image generation limit, encouraging them to upgrade to Pro.
+msgctxt ""
+"Description prompting Plus subscribers to upgrade to Pro for higher image "
+"generation limits"
+msgid "Upgrade to Pro to unlock 2x higher limits"
+msgstr "Pro로 업그레이드하여 2배 더 높은 한도를 이용하세요."
 
 # smartling.placeholder_format=C
 #. Heading in a promotion for a desktop web browser
@@ -16998,6 +17608,12 @@ msgstr "Firefox에서 사용"
 #. Link to download the DuckDuckGo extension for the Safari browser.
 msgid "Use in Safari"
 msgstr "Safari에서 사용"
+
+# smartling.placeholder_format=C
+#. Prompt to ask the user if they want to use their approximate location for more accurate results
+msgctxt "DuckChat location prompt"
+msgid "Use your approximate location for more accurate results?"
+msgstr "결과의 정확도를 높이기 위해 대략적인 위치를 사용할까요?"
 
 # smartling.placeholder_format=C
 #. When a user exports a chat they had with an AI model, this text goes before every user message in the downloaded file, indicating which message it is out of the total number of messages. Example: 'User prompt 3 of 5'
@@ -17319,6 +17935,12 @@ msgid "Was this helpful?"
 msgstr "도움이 되었나요?"
 
 # smartling.placeholder_format=C
+#. Message displayed to the user when they use page context for the first time. It asks them if the response correctly used the page content.
+msgctxt "First time page context response feedback"
+msgid "Was this response accurate?"
+msgstr "이 답변이 정확했나요?"
+
+# smartling.placeholder_format=C
 #. A button that plays a video on the current page.
 msgid "Watch Here"
 msgstr "여기서 보기"
@@ -17559,6 +18181,14 @@ msgid ""
 "We're sorry for this inconvenience. We’re working hard to make your "
 "experience better."
 msgstr "불편을 드려서 죄송합니다. 사용자 여러분이 더 쾌적한 경험을 하실 수 있도록 노력 중입니다."
+
+# smartling.placeholder_format=C
+#. Body text explaining the service update requires a page reload.
+msgctxt "duckai_migration"
+msgid ""
+"We've updated the Duck.ai service. For the change to take effect, we need to "
+"reload the page."
+msgstr "Duck.ai 서비스를 업데이트했습니다. 변경 사항을 적용하려면 페이지를 새로 고치세요."
 
 # smartling.placeholder_format=C
 #. Instant Answer Tab Name
@@ -18609,6 +19239,12 @@ msgid ""
 msgstr "오늘의 음성 채팅 한도에 도달했습니다. 내일 다시 시도하세요."
 
 # smartling.placeholder_format=C
+#. Title shown when user has reached the sync storage limit.
+msgctxt "Sync limit modal title"
+msgid "You've run out of storage"
+msgstr "사용자의 저장 공간이 부족합니다"
+
+# smartling.placeholder_format=C
 #. A privacy disclaimer that appears above YouTube videos.
 msgid ""
 "YouTube (owned by Google) does not let you watch videos anonymously. As "
@@ -18643,6 +19279,12 @@ msgstr "사용자 위치"
 #. Disclaimer telling users their precise geolocation remains private. More at https://help.duckduckgo.com/duckduckgo-help-pages/privacy/anonymous-localized-results/
 msgctxt "maps_places"
 msgid "Your actual location remains private"
+msgstr "실제 위치는 비공개로 유지됩니다."
+
+# smartling.placeholder_format=C
+#. Description of the location prompt
+msgctxt "DuckChat location prompt"
+msgid "Your actual location remains private."
 msgstr "실제 위치는 비공개로 유지됩니다."
 
 # smartling.placeholder_format=C
@@ -18723,6 +19365,12 @@ msgctxt "Modal body for privacy"
 msgid ""
 "Your chats are private, never saved by us, and not used to train AI models."
 msgstr "내 채팅은 비공개이며 당사는 이 내용을 저장하지 않고, AI 모델 훈련에도 사용하지 않습니다."
+
+# smartling.placeholder_format=C
+#. List item in the About Chat History modal explaining that chats are stored locally on the user's device.
+msgctxt "Chat history about modal list item"
+msgid "Your chats are saved on this device only."
+msgstr "채팅은 이 기기에만 저장됩니다."
 
 # smartling.placeholder_format=C
 #. Privacy reassurance and instructions intro.
@@ -18924,6 +19572,12 @@ msgstr "저자: %1$s"
 # smartling.placeholder_format=C
 #. Label of which AI provider the current AI Model comes from. Example: 'by OpenAI'
 msgctxt "AI provider label in the side menu item"
+msgid "by %s"
+msgstr "저자: %1$s"
+
+# smartling.placeholder_format=C
+#. Footer attribution text where %s is a link to the DuckDuckGo about page. The link text is the brand name 'DuckDuckGo'.
+msgctxt "Sidebar footer"
 msgid "by %s"
 msgstr "저자: %1$s"
 
