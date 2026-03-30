@@ -2,15 +2,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: DuckDuckGo-1.0\n"
-"Last-Translator: Community\n"
-"Language-Team: DuckDuckGo Community <community@duckduckgo.com>\n"
 "POT-Creation-Date: 2019-01-16 23:42-0500\n"
 "PO-Revision-Date: 2019-01-16 23:42-0500\n"
+"Last-Translator: Community\n"
+"Language-Team: DuckDuckGo Community <community@duckduckgo.com>\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
 # smartling.gettext_line_width = normalized : 79
 # smartling.placeholder_format=C
@@ -234,7 +235,8 @@ msgstr "Лайков: %1$s"
 #. Disclaimer text shown bellow chat input on mobile, avoid long text if possible. Example: 'GPT-3 may display inaccurate or offensive information.'
 msgctxt "Disclaimer bellow chat input - mobile"
 msgid "%s may display inaccurate or offensive information."
-msgstr "ИИ-модель %1$s может предложить неточную или оскорбительную информацию."
+msgstr ""
+"ИИ-модель %1$s может предложить неточную или оскорбительную информацию."
 
 # smartling.placeholder_format=C
 #. Label showing how many members a discussion has. To be displayed on a card about that discussion.
@@ -264,6 +266,15 @@ msgstr "Рейтинг в %1$s пока недоступен."
 msgctxt "Organic result context menu"
 msgid "%s results hidden"
 msgstr "%1$s результатов скрыто"
+
+# smartling.placeholder_format=C
+#. Description explaining that the model runs in an encrypted environment so neither DuckDuckGo nor the model provider can access user prompts or responses. %s is replaced with the full model name (e.g. 'GPT-OSS 120B').
+msgctxt "Privacy claim description in Duck.ai chat for encrypted models"
+msgid ""
+"%s runs in a Trusted Execution Environment. This means not even the model "
+"provider can see your prompts or the model’s responses, or save this chat on "
+"their servers."
+msgstr ""
 
 # smartling.placeholder_format=C
 #. Shown to Plus subscribers when they hit a usage limit error. The variable is a link with text 'Upgrade to Pro' that takes the user to the Pro plans page. Example: Upgrade to Pro to unlock 2x higher limits.
@@ -365,13 +376,15 @@ msgstr "%1$sКак мы сохраняем конфиденциальность 
 msgctxt "Footer text for About Sync modal"
 msgid ""
 "%sLearn more%s about how chats are stored privately on DuckDuckGo's server."
-msgstr "%1$sПодробнее%2$s о конфиденциальном хранении чатов на сервере DuckDuckGo."
+msgstr ""
+"%1$sПодробнее%2$s о конфиденциальном хранении чатов на сервере DuckDuckGo."
 
 # smartling.placeholder_format=C
 #. Text explaining that you can learn more about how recent chats work. Placeholders are for page markup to add links to 'Learn more'. Example: '<a>Learn more</a> about how chats are stored privately on your device.'
 msgctxt "Information about adjusting recent chat storage settings"
 msgid "%sLearn more%s about how chats are stored privately on your device."
-msgstr "%1$sПодробнее%2$s о том, как чаты хранятся в тайне на вашем устройстве."
+msgstr ""
+"%1$sПодробнее%2$s о том, как чаты хранятся в тайне на вашем устройстве."
 
 # smartling.placeholder_format=C
 #. Tells the user to press and hold the DuckDuckGo app icon. Part of a list of instructions on how to enable location service.
@@ -722,8 +735,8 @@ msgid ""
 msgstr ""
 "Функция AI Chat позволяет анонимно общаться с нашим чат-ботом на базе "
 "сторонних моделей ИИ. Если отключить эту функцию, она не будет отображаться "
-"в поиске DuckDuckGo Search, но останется доступной по ссылке "
-"%1$sduckduckgo.com/aichat%2$s."
+"в поиске DuckDuckGo Search, но останется доступной по ссылке %1$sduckduckgo."
+"com/aichat%2$s."
 
 # smartling.placeholder_format=C
 #. A label for a setting that appears on a menu, used to control global AI features settings.
@@ -839,7 +852,8 @@ msgstr "Не добавлять в браузер"
 # smartling.placeholder_format=C
 msgctxt "settings"
 msgid "ATB related (not displayed on settings page)"
-msgstr "Связано с параметром «Добавить в браузер» (отсутствует на странице настроек)"
+msgstr ""
+"Связано с параметром «Добавить в браузер» (отсутствует на странице настроек)"
 
 # smartling.placeholder_format=C
 #. In the new DDG website, this token appears as the Tab name for Instant Answers that give general information about a subject. eg. https://duckduckgo.com/?q=Sony
@@ -1321,6 +1335,12 @@ msgstr "Все настройки"
 msgctxt "Empty state heading in Duck.ai chat mode"
 msgid "All chats are %s"
 msgstr "Все чаты %1$s"
+
+# smartling.placeholder_format=C
+#. Disclaimer text shown below chat input. %s is replaced with a clickable underlined 'private' link that opens the privacy protection modal.
+msgctxt "Disclaimer below chat input in Duck.ai"
+msgid "All chats are %s. AI can make mistakes."
+msgstr ""
 
 # smartling.placeholder_format=C
 #. Title displayed at the top of the privacy protection modal in Duck.ai, summarizing that all conversations are private.
@@ -1872,9 +1892,10 @@ msgstr ""
 "интеллекта. Вы можете самостоятельно проконтролировать, как часто будут "
 "появляться ответы Assist: «никогда» (интерфейс Assist полностью исключается "
 "из поисковых запросов), «по запросу» (ответы ИИ отображаются при нажатии "
-"кнопки «Ассистент»), «иногда» (только при высокой релевантности) или «часто» "
-"(чаще и в отношении более широкого спектра запросов). Пока что ответы на "
-"базе ИИ предоставляются только на территории США (на английском языке)."
+"кнопки «Ассистент»), «иногда» (только при высокой релевантности) или "
+"«часто» (чаще и в отношении более широкого спектра запросов). Пока что "
+"ответы на базе ИИ предоставляются только на территории США (на английском "
+"языке)."
 
 # smartling.placeholder_format=C
 #. First paragraph of a section inviting users to learn more about the Assist instant answer (based on generative AI)
@@ -2298,7 +2319,8 @@ msgstr "Блокировка почтовых трекеров и скрытие
 # smartling.placeholder_format=C
 #. A disclaimer about AI-generated images in search results
 msgid "Block list is not exhaustive and may contain inaccuracies."
-msgstr "Список блокировки не является исчерпывающим и может содержать неточности."
+msgstr ""
+"Список блокировки не является исчерпывающим и может содержать неточности."
 
 # smartling.placeholder_format=C
 msgctxt "homepage ATB modal"
@@ -3104,11 +3126,11 @@ msgid ""
 "DuckDuckGo Search. However, you can still access Chat when this setting is "
 "off by visiting %shttps://duck.ai%s directly."
 msgstr ""
-"Чат (на сервисе Duck.ai) позволяет анонимно общаться со сторонними "
-"чат-моделями на базе ИИ от OpenAI, Anthropic и других компаний. При "
-"отключении этой настройки из интерфейса DuckDuckGo Search исчезнут кнопка "
-"«Чат» и ссылки на чат-сервис. Вы по-прежнему можете воспользоваться чатом, "
-"посетив его страницу напрямую: %1$shttps://duck.ai%2$s."
+"Чат (на сервисе Duck.ai) позволяет анонимно общаться со сторонними чат-"
+"моделями на базе ИИ от OpenAI, Anthropic и других компаний. При отключении "
+"этой настройки из интерфейса DuckDuckGo Search исчезнут кнопка «Чат» и "
+"ссылки на чат-сервис. Вы по-прежнему можете воспользоваться чатом, посетив "
+"его страницу напрямую: %1$shttps://duck.ai%2$s."
 
 # smartling.placeholder_format=C
 #. Text for the switch label that enables or disables the Chat History feature, a feature that stores the user's chats.
@@ -3152,6 +3174,19 @@ msgstr "Медленно работает"
 msgctxt "Placeholder text user’s chat input"
 msgid "Chat privately"
 msgstr "Приватный чат"
+
+# smartling.placeholder_format=C
+#. Mobile variant of DUCKCHAT_BROWSER_UPSELL_PROMO_TEXT. Shorter version for the promotional card encouraging third-party browser users to download the DuckDuckGo browser.
+msgctxt "Promotional text (mobile)"
+msgid "Chat privately on any website with Duck.ai built into our free browser."
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Text for a promotional card encouraging third-party browser users to download the DuckDuckGo browser. Not shown in the DuckDuckGo browser or on Linux.
+msgctxt "Promotional text"
+msgid ""
+"Chat privately on any website with the Duck.ai sidebar in our free browser."
+msgstr ""
 
 # smartling.placeholder_format=C
 #. Placeholder text used in chat input for user’s messages. Example: 'Chat with GPT-3'
@@ -3228,6 +3263,14 @@ msgstr ""
 "хранения новых запросов и ответов."
 
 # smartling.placeholder_format=C
+#. Title shown above the body copy in the Duck.ai recent chats IndexedDB unavailable notice.
+msgctxt ""
+"Heading for recent chats warning when device storage (IndexedDB) is "
+"unavailable"
+msgid "Chats aren’t being saved"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Title after successful download.
 msgctxt "duckai_migration"
 msgid "Chats downloaded securely"
@@ -3284,7 +3327,8 @@ msgstr "Проверьте орфографию"
 #. Displayed during an outage indicating where users can find information about the outage and watch for updates
 msgctxt "noresults"
 msgid "Check the DuckDuckGo subreddit for updates on this outage."
-msgstr "Последнюю информацию по этому сбою можно отследить в сабреддите DuckDuckGo."
+msgstr ""
+"Последнюю информацию по этому сбою можно отследить в сабреддите DuckDuckGo."
 
 # smartling.placeholder_format=C
 #. Displayed during an outage indicating where users can find information about the outage and watch for updates
@@ -3646,7 +3690,8 @@ msgstr "Нажмите %1$sНастройки%2$s в выпадающем мен
 # smartling.placeholder_format=C
 #. Tells the user how to make DuckDuckGo their home page.
 msgid "Click %sUse current pages%s then %sClick OK%s."
-msgstr "Выберите %1$sИспользовать текущие страницы%2$s, затем %3$sНажмите OK%4$s."
+msgstr ""
+"Выберите %1$sИспользовать текущие страницы%2$s, затем %3$sНажмите OK%4$s."
 
 #  Firefox 33 / SeaMonkey homepage instruction
 # smartling.placeholder_format=C
@@ -4225,7 +4270,8 @@ msgstr "Копировать"
 # smartling.placeholder_format=C
 #. Instructions on how to change the default search engine
 msgid "Copy &amp; paste %sabout:preferences#search%s into the address bar"
-msgstr "Скопируйте и вставьте %1$sabout:preferences#search%2$s в адресную строку"
+msgstr ""
+"Скопируйте и вставьте %1$sabout:preferences#search%2$s в адресную строку"
 
 # smartling.placeholder_format=C
 #. Text for a button that copies the content from a block of programming code. Please keep the text as short as possible.
@@ -4914,6 +4960,12 @@ msgid "Dismiss forever"
 msgstr "Не показывать снова"
 
 # smartling.placeholder_format=C
+#. ARIA label describing the action of the dismiss button on the sidemenu subscription promo.
+msgctxt "Sidemenu subscription promo"
+msgid "Dismiss promotion"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Label for the select dropdown to changing display language
 msgctxt "Display language selector"
 msgid "Display Language"
@@ -5139,7 +5191,8 @@ msgctxt "Full sentence for drafting a social media post"
 msgid ""
 "Draft a few options for a social media post inviting people to my upcoming "
 "party."
-msgstr "Предложи несколько вариантов поста для соцсетей с приглашением на вечеринку."
+msgstr ""
+"Предложи несколько вариантов поста для соцсетей с приглашением на вечеринку."
 
 # smartling.placeholder_format=C
 #. Text for a prompt suggestion for drafting a few options for a blog post title about strategies to increase team collaboration.
@@ -5161,7 +5214,8 @@ msgstr "Подготовь пост для соцсетей"
 # smartling.placeholder_format=C
 #. Tells the user how to make DuckDuckGo their home page.
 msgid "Drag %sThis Button%s on top of the home icon:"
-msgstr "Переместите %1$sЭту кнопку%2$s на верхнюю часть значка домашней страницы:"
+msgstr ""
+"Переместите %1$sЭту кнопку%2$s на верхнюю часть значка домашней страницы:"
 
 # smartling.placeholder_format=C
 #. Indicates this is the number of draws for this team in e.g. soccer
@@ -5268,6 +5322,15 @@ msgstr ""
 "Duck.ai теперь отвечает на вопросы о просматриваемых страницах. Содержимое "
 "страницы добавляется только после ее прикрепления, которое можно "
 "автоматизировать в «Настройках»."
+
+# smartling.placeholder_format=C
+#. Shown in the Duck.ai recent chats list on standalone when the browser API needed to store chats locally is missing or unavailable.
+msgctxt ""
+"Recent chats list warning when device storage (IndexedDB) is unavailable"
+msgid ""
+"Duck.ai can’t access local storage to save your chats. Please check your "
+"browser settings or disable any extensions and try again."
+msgstr ""
 
 # smartling.placeholder_format=C
 #. Displayed when the chat service has reached the maximum number of messages for one day.
@@ -5393,8 +5456,8 @@ msgid ""
 "models, privacy focused AI, no account AI chat"
 msgstr ""
 "Duck.ai, DuckDuckGo AI, приватный чат-бот, бесплатный чат с ИИ, анонимный "
-"чат с ИИ, ИИ-чат без регистрации, OpenAI, Anthropic, Llama, Mistral, "
-"ИИ-модели с открытым кодом, конфиденциальный ИИ, чат с ИИ без учетной записи"
+"чат с ИИ, ИИ-чат без регистрации, OpenAI, Anthropic, Llama, Mistral, ИИ-"
+"модели с открытым кодом, конфиденциальный ИИ, чат с ИИ без учетной записи"
 
 # smartling.placeholder_format=C
 msgctxt "settings"
@@ -5564,7 +5627,8 @@ msgstr ""
 #. Displayed when the AI chat service is temporarily unavailable.
 msgctxt "Error message for service unavailability"
 msgid "DuckDuckGo AI Chat is temporarily unavailable. Please try again later."
-msgstr "Сервис DuckDuckGo AI Chat временно недоступен. Повторите попытку позже."
+msgstr ""
+"Сервис DuckDuckGo AI Chat временно недоступен. Повторите попытку позже."
 
 # smartling.placeholder_format=C
 #. this is either the title that gets created by opening https://duckduckgo.com/duckduckbot or the top header in https://duckduckgo.com/duckduckbot
@@ -5789,8 +5853,8 @@ msgid ""
 msgstr ""
 "Каждый раз, когда вы просите нас порекомендовать парольную фразу, мы "
 "запрашиваем с серверов DuckDuckGo длинный список случайных слов. Затем в "
-"браузере мы наугад выбираем из списка 4–5 составных слов длиной минимум "
-"18–20 символов."
+"браузере мы наугад выбираем из списка 4–5 составных слов длиной минимум 18–"
+"20 символов."
 
 # smartling.placeholder_format=C
 msgctxt "Sports module"
@@ -7801,7 +7865,8 @@ msgstr "Ответ пригодился"
 #. The title of a menu that shows other applications DuckDuckGo has made.
 msgctxt "showcase_aria_dropdown"
 msgid "Here are some things that we made that you might like."
-msgstr "Мы сделали несколько приложений, которые могут вас заинтересовать. Вот они!"
+msgstr ""
+"Мы сделали несколько приложений, которые могут вас заинтересовать. Вот они!"
 
 # smartling.placeholder_format=C
 #. shown after the DuckDuckGo extension is installed
@@ -8447,7 +8512,8 @@ msgstr "Изображения по запросу «%1$s»"
 # smartling.placeholder_format=C
 #. A label that indicates a specific search result for images has been blocked by the safe search filter. The placeholder value is the name of the search result that was blocked.
 msgid "Images for %s blocked by safe search"
-msgstr "Изображения по запросу «%1$s» заблокированы в рамках безопасного поиска."
+msgstr ""
+"Изображения по запросу «%1$s» заблокированы в рамках безопасного поиска."
 
 # smartling.placeholder_format=C
 #. Title for the section that showcases the image results for a certain query, ex. Images for <b>beach</b>
@@ -9178,6 +9244,12 @@ msgid "Learn %sMore%s"
 msgstr "Узнать %1$sБольше%2$s"
 
 # smartling.placeholder_format=C
+#. Text for a button that opens a modal or page with additional information about a feature.
+msgctxt "Button text to learn more about a feature"
+msgid "Learn More"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Label for the button that opens the usage limits help page for Image Generation.
 msgctxt "Learn more button label"
 msgid "Learn More"
@@ -9222,7 +9294,8 @@ msgstr "Подробнее об активной защите конфиденц
 # smartling.placeholder_format=C
 msgctxt "showcase_newsletter"
 msgid "Learn about online privacy right in your inbox."
-msgstr "Получайте рекомендации о защите персональных данных на электронную почту."
+msgstr ""
+"Получайте рекомендации о защите персональных данных на электронную почту."
 
 # smartling.placeholder_format=C
 #. Link to a page with more information about how DuckDuckGo settings are managed.
@@ -9256,7 +9329,8 @@ msgstr "Подробнее о работе этой функции"
 # smartling.placeholder_format=C
 msgctxt "SERP footer content"
 msgid "Learn why reducing online tracking is important."
-msgstr "Узнайте, почему важно ограничивать отслеживание ваших действий в интернете."
+msgstr ""
+"Узнайте, почему важно ограничивать отслеживание ваших действий в интернете."
 
 # smartling.placeholder_format=C
 #. A link that takes users to a page where they can learn more about the dangers of online tracking.
@@ -11320,7 +11394,8 @@ msgstr "Оман"
 #. http://i.imgur.com/zQWKLIm.png
 msgctxt "settings"
 msgid "Omits objectionable (mostly adult) material"
-msgstr "Исключает из выдачи нежелательные материалы (в основном — \"для взрослых\")"
+msgstr ""
+"Исключает из выдачи нежелательные материалы (в основном — \"для взрослых\")"
 
 # smartling.placeholder_format=C
 msgid "On"
@@ -11462,7 +11537,8 @@ msgstr "Открыть сайт %1$s"
 #. Tells users where to find the location settings in the settings menu. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Open %sLocation%s, and ensure location is %senabled%s"
-msgstr "Убедитесь, что %1$sгеолокация%2$s (в одноименном разделе) %3$sвключена%4$s."
+msgstr ""
+"Убедитесь, что %1$sгеолокация%2$s (в одноименном разделе) %3$sвключена%4$s."
 
 #  Chrome/Firefox on Android/iOS
 # smartling.placeholder_format=C
@@ -11601,7 +11677,8 @@ msgstr "Откройте %1$s«Настройки»%2$s."
 #. Tells how to find the settings menu in their browser. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Open the Safari menu and select %sSettings for DuckDuckGo...%s"
-msgstr "Откройте меню Safari и выберите пункт «%1$sНастройки для DuckDuckGo...%2$s»"
+msgstr ""
+"Откройте меню Safari и выберите пункт «%1$sНастройки для DuckDuckGo...%2$s»"
 
 # smartling.placeholder_format=C
 #. Label for the time a business opens. For example: 'Opens at 10am'
@@ -12424,6 +12501,12 @@ msgid "Please wait..."
 msgstr "Подождите..."
 
 # smartling.placeholder_format=C
+#. Tagline for the subscription promo shown in the SERP sidemenu.
+msgctxt "Sidemenu subscription promo"
+msgid "Plus more premium features with a DuckDuckGo subscription."
+msgstr ""
+
+# smartling.placeholder_format=C
 #. A description to provide more detail on what Duck Player does (Duck Player is DDG's feature to watch youtube videos more privately)
 msgid ""
 "Plus, what you watch in Duck Player won’t influence your recommendations on "
@@ -12864,7 +12947,8 @@ msgstr "Приватные чаты без сохранения"
 #. The device location shared is is not logged by us
 msgctxt "precise_user_location"
 msgid "Private to us and secured on your device"
-msgstr "Ваши данные остаются конфиденциальными и надежно хранятся на вашем устройстве"
+msgstr ""
+"Ваши данные остаются конфиденциальными и надежно хранятся на вашем устройстве"
 
 # smartling.placeholder_format=C
 #. Category of feedback a user can select on a feedback form.
@@ -13097,6 +13181,12 @@ msgstr "Читайте раздел «%1$s»"
 msgctxt "Informational text with a link to DuckDuckGo AI Chat Privacy Terms"
 msgid "Read our %s"
 msgstr "Читайте раздел «%1$s»"
+
+# smartling.placeholder_format=C
+#. Text displayed while the AI assistant is reading a specific local document, such as an uploaded file or attached page context, while generating a response.
+msgctxt "Assistant response progress report"
+msgid "Reading document"
+msgstr ""
 
 # smartling.placeholder_format=C
 #. Loading message shown while duckassist is reading search results
@@ -14478,7 +14568,8 @@ msgstr ""
 #. Description explaining that chats are stored securely with encryption on DuckDuckGo's server.
 msgctxt "Sync feature benefit description"
 msgid "Securely stored on DuckDuckGo's server with end-to-end encryption."
-msgstr "Надежно хранится на сервере DuckDuckGo с применением сквозного шифрования."
+msgstr ""
+"Надежно хранится на сервере DuckDuckGo с применением сквозного шифрования."
 
 # smartling.placeholder_format=C
 #. List item explaining that synced chats are stored with end-to-end encryption on DuckDuckGo's server and only the user can access them.
@@ -14512,6 +14603,12 @@ msgid "See Photos"
 msgstr "Смотреть фотографии"
 
 # smartling.placeholder_format=C
+#. Text for a button that links to the terms of use and privacy policy page.
+msgctxt "Secondary button text in active privacy modal"
+msgid "See Privacy Policy and Terms of Service"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Text of the secondary button in the modal that allows the user to open the terms and privacy policy page.
 msgctxt "Modal secondary button for privacy"
 msgid "See Terms and Privacy Policy"
@@ -14541,6 +14638,12 @@ msgstr "Что нового"
 msgctxt "cloudsave"
 msgid "See also"
 msgstr "Смотрите также"
+
+# smartling.placeholder_format=C
+#. Link text shown below a rich caption list in search results. The placeholder %s is the website domain name, e.g. 'wikipedia.org'.
+msgctxt "Rich caption simple list, see more link"
+msgid "See full list on %s"
+msgstr ""
 
 # smartling.placeholder_format=C
 #. Text for tooltip shown on hover when displaying the number of reviews the merchant has on an ad
@@ -14611,7 +14714,8 @@ msgstr "Выберите %1$sDuckDuckGo%2$s и нажмите %3$sУстанов
 # smartling.placeholder_format=C
 #. Tells users where in the settings menu they can change their default search engine.
 msgid "Select %sDuckDuckGo%s in the Default Search Engine drop down"
-msgstr "Выберите %1$sDuckDuckGo%2$s поисковой системой по умолчанию в выпадающем меню"
+msgstr ""
+"Выберите %1$sDuckDuckGo%2$s поисковой системой по умолчанию в выпадающем меню"
 
 # smartling.placeholder_format=C
 #. Tells users which setting to change to enable location service. Part of a list of instructions on how to enable location service.
@@ -14631,7 +14735,8 @@ msgstr "Выберите %1$sDuckDuckGo%2$s в списке поисковых �
 # smartling.placeholder_format=C
 #. Tells users how to add DuckDuckGo to the list of search engines in their browser.
 msgid "Select %sDuckDuckGo%s under the%sDefault Search Engine%s section"
-msgstr "Выберите %1$sDuckDuckGo%2$s в разделе%3$sПоисковая система по умолчанию%4$s"
+msgstr ""
+"Выберите %1$sDuckDuckGo%2$s в разделе%3$sПоисковая система по умолчанию%4$s"
 
 # smartling.placeholder_format=C
 #. Tells the user were in the settings menu they can change their default search engine.
@@ -14716,7 +14821,8 @@ msgstr "Выберите %1$sНастройки%2$s, затем %3$sДополн
 #. Instructions on how to change a browser's default search engine to DuckDuckGo.
 msgctxt "mobile homepage banner"
 msgid "Select %sSettings%s, then %sDefault search engine%s"
-msgstr "Выберите %1$sНастройки%2$s, а затем %3$sПоисковая система по умолчанию%4$s"
+msgstr ""
+"Выберите %1$sНастройки%2$s, а затем %3$sПоисковая система по умолчанию%4$s"
 
 #  Chrome/Firefox on Android
 # smartling.placeholder_format=C
@@ -14799,7 +14905,8 @@ msgstr "Выбранный текст из %1$s"
 #. Displayed when the user's text selection exceeds the maximum message size for AI tools (summary, translation, etc.).
 msgctxt "Error message for selection input limit"
 msgid "Selected text is too long. Try again with a shorter selection."
-msgstr "Выделенный текст слишком длинный. Попробуйте выбрать фрагмент покороче."
+msgstr ""
+"Выделенный текст слишком длинный. Попробуйте выбрать фрагмент покороче."
 
 # smartling.placeholder_format=C
 #. Label for the semi-finals knockout stage in e.g. the soccer World Cup
@@ -14981,7 +15088,8 @@ msgstr "Сейшельские Острова"
 # smartling.placeholder_format=C
 msgctxt "homepage onboarding"
 msgid "Share DuckDuckGo and help friends take their privacy back!"
-msgstr "Поделитесь DuckDuckGo и помогите друзьям вернуть свою конфиденциальность!"
+msgstr ""
+"Поделитесь DuckDuckGo и помогите друзьям вернуть свою конфиденциальность!"
 
 # smartling.placeholder_format=C
 #. Text displayed on a button that opens a feedback modal when clicked.
@@ -15450,7 +15558,8 @@ msgstr "Показывает поисковые подсказки при вво
 # smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Shows the privacy benefits of using DuckDuckGo on the homepage"
-msgstr "Показывает преимущества приватного поиска с DuckDuckGo на стартовой странице"
+msgstr ""
+"Показывает преимущества приватного поиска с DuckDuckGo на стартовой странице"
 
 # smartling.placeholder_format=C
 msgctxt "settings"
@@ -15536,7 +15645,8 @@ msgstr "Поиск по сайту временно недоступен. Мы �
 # smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Sites you block will be hidden from all your search results"
-msgstr "Сайты, которые ты заблокируешь, будут скрыты из всех твоих результатов поиска"
+msgstr ""
+"Сайты, которые ты заблокируешь, будут скрыты из всех твоих результатов поиска"
 
 # smartling.placeholder_format=C
 #. List item indicating that a size filter is currently active for the search
@@ -15655,7 +15765,8 @@ msgstr "Что-то пошло не так"
 #. Error message indicating that the user's settings weren't able to be saved.
 msgctxt "cloudsave"
 msgid "Something went wrong saving to the server, please try again."
-msgstr "Что-то пошло не так при сохранении на сервер, пожалуйста, попробуйте снова."
+msgstr ""
+"Что-то пошло не так при сохранении на сервер, пожалуйста, попробуйте снова."
 
 # smartling.placeholder_format=C
 #. Displayed when the voice chat session ends with an unknown error.
@@ -15735,7 +15846,8 @@ msgctxt "noresults"
 msgid ""
 "Sorry, we ran into an error displaying these results. %sClick here%s to try "
 "again."
-msgstr "При отображении результатов произошла ошибка. %1$sПовторить попытку%2$s"
+msgstr ""
+"При отображении результатов произошла ошибка. %1$sПовторить попытку%2$s"
 
 # smartling.placeholder_format=C
 #. The main message for when the feedback form failed to send. For example, if the user lost connectivity.
@@ -16290,6 +16402,13 @@ msgid "Switch to the search engine that doesn't track you. Ever."
 msgstr "Переходите на поисковую систему, которая вас не отслеживает. Никогда."
 
 # smartling.placeholder_format=C
+#. Warning text shown in the model switch dropdown when the user is currently using an encrypted model. Warns that the new model will not have zero provider visibility.
+msgctxt "AI Chat warning when switching from an encrypted model"
+msgid ""
+"Switching will send your chat to a model without zero provider visibility"
+msgstr ""
+
+# smartling.placeholder_format=C
 msgid "Switzerland"
 msgstr "Швейцария"
 
@@ -16656,10 +16775,17 @@ msgstr ""
 # smartling.placeholder_format=C
 #. Description explaining that the AI model provider does not store any chat data on their servers.
 msgctxt "Privacy claim description in Duck.ai chat"
+msgid "The model provider does not save this chat on their servers."
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Description explaining that the AI model provider does not store any chat data on their servers.
+msgctxt "Privacy claim description in Duck.ai chat"
 msgid ""
 "The model provider does not save this chat or any associated data on their "
 "servers."
-msgstr "Поставщик не хранит этот чат и связанные с ним данные на своих серверах."
+msgstr ""
+"Поставщик не хранит этот чат и связанные с ним данные на своих серверах."
 
 # smartling.placeholder_format=C
 msgctxt "settings"
@@ -16777,7 +16903,8 @@ msgctxt "AI Chat: Error message for when a model is removed"
 msgid ""
 "This AI model is no longer available. Try starting a new chat with a "
 "different model."
-msgstr "Эта ИИ-модель больше недоступна. Попробуйте запустить чат с другой моделью."
+msgstr ""
+"Эта ИИ-модель больше недоступна. Попробуйте запустить чат с другой моделью."
 
 # smartling.placeholder_format=C
 #. Displayed when an AI chat model is no longer supported because it has been upgraded to a newest version.
@@ -16906,7 +17033,8 @@ msgstr "Для нормальной работы данной странице �
 #. Information tooltip text explaining that the current page's content will be included with the chat message.
 msgctxt "Tooltip explaining that page content will be sent to Duck.ai"
 msgid "This page's content will be sent with your message to Duck.ai"
-msgstr "Содержимое страницы будет отправлено в Duck.ai вместе с вашим сообщением."
+msgstr ""
+"Содержимое страницы будет отправлено в Duck.ai вместе с вашим сообщением."
 
 # smartling.placeholder_format=C
 #. Category of feedback a user can select on a feedback form.
@@ -16971,7 +17099,8 @@ msgstr "Здесь это видео пока недоступно. Его мо�
 #. Message indicating that a website is not using an encrypted connection and is not secure.
 msgctxt "Lock icon next to HTTP search result"
 msgid "This webpage does not use a secure, encrypted, connection (HTTPS)."
-msgstr "Эта страница не использует безопасное зашифрованное соединение (HTTPS)."
+msgstr ""
+"Эта страница не использует безопасное зашифрованное соединение (HTTPS)."
 
 # smartling.placeholder_format=C
 #. Text explaining that disabling chat history will delete chats from this browser and disconnect Sync & Backup, but chats remain accessible from other connected browsers.
@@ -17106,7 +17235,8 @@ msgstr ""
 msgctxt ""
 "Copy stating agreement to Duck.ai Privacy Policy and Terms of Service."
 msgid "To continue, you must agree to Duck.ai’s %s and %s"
-msgstr "Чтобы продолжить, примите положения разделов «%1$s» и «%2$s» сервиса Duck.ai."
+msgstr ""
+"Чтобы продолжить, примите положения разделов «%1$s» и «%2$s» сервиса Duck.ai."
 
 # smartling.placeholder_format=C
 #. Text stating agreement to AI Chat Privacy Policy and Terms of Service. Variables used to link to the Privacy Policy and Terms of Service content. Example: 'To continue, you must agree to DuckDuckGo AI Chat’s Privacy Policy and Terms of Service'
@@ -17420,13 +17550,26 @@ msgid "Trustworthy source"
 msgstr "Надежный источник"
 
 # smartling.placeholder_format=C
+#. Button label for a promotional card that encourages users to try the encrypted AI model. %s is replaced with the model's full display name (e.g. 'GPT-OSS 120B').
+msgctxt "Promotional CTA for encrypted AI model"
+msgid "Try %s"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Prompt for the user to start using our homepage that doesn't show promotional messages. The placeholder is a homepage url (e.g., 'start.duckduckgo.com')
 msgid "Try %s to stop seeing messages like this."
 msgstr "Чтобы не получать подобные сообщения, попробуйте %1$s."
 
 # smartling.placeholder_format=C
+#. Text for a promotional card that encourages users to try the encrypted AI model whose inference runs in a confidential environment so the model provider cannot access user data. %s is replaced with the model's full display name (e.g. 'GPT-OSS 120B').
+msgctxt "Promotional text for encrypted AI model"
+msgid "Try %s, our first model with zero provider visibility."
+msgstr ""
+
+# smartling.placeholder_format=C
 msgid "Try %sDuck.ai%s, our private AI chat service:"
-msgstr "Попробуйте %1$sDuck.ai%2$s — приватный чат с искусственным интеллектом:"
+msgstr ""
+"Попробуйте %1$sDuck.ai%2$s — приватный чат с искусственным интеллектом:"
 
 # smartling.placeholder_format=C
 #. Button text to retry loading an explore more question that failed
@@ -17444,6 +17587,12 @@ msgstr "Повторите попытку"
 msgctxt "noresults"
 msgid "Try Again"
 msgstr "Повторите попытку"
+
+# smartling.placeholder_format=C
+#. Call-to-action button for the subscription promo in the SERP sidemenu.
+msgctxt "Sidemenu subscription promo"
+msgid "Try Free"
+msgstr ""
 
 # smartling.placeholder_format=C
 #. CTA for a promotional card that encourages users to try new AI model that was added recently
@@ -17509,14 +17658,16 @@ msgstr ""
 #. Prompt to enable location access in order to get search results closer to the user's actual location.
 msgctxt "precise_user_location"
 msgid "Try enabling anonymous location for more accurate results."
-msgstr "Для более точных результатов попробуйте использовать анонимную геопозицию."
+msgstr ""
+"Для более точных результатов попробуйте использовать анонимную геопозицию."
 
 # smartling.placeholder_format=C
 #. Subtitle displayed on the screen of the onboarding where the user picks a chat model.
 msgctxt "Onboarding pick a chat model screen subtitle"
 msgid ""
 "Try experimenting with each model — they will provide different responses."
-msgstr "Попробуйте поэкспериментировать с каждой моделью: они дадут разные ответы."
+msgstr ""
+"Попробуйте поэкспериментировать с каждой моделью: они дадут разные ответы."
 
 # smartling.placeholder_format=C
 #. A prompt asking users to try searching with fewer words.
@@ -17640,7 +17791,8 @@ msgstr "Новинки платформы: ИИ-модели с открытым
 #. Message displayed to suggest the user to try the provided prompts or enter their own.
 msgctxt "Prompt suggestion message"
 msgid "Try these prompts to get started or enter your own prompt below"
-msgstr "Попробуйте начать с готовых запросов или введите собственный вариант ниже."
+msgstr ""
+"Попробуйте начать с готовых запросов или введите собственный вариант ниже."
 
 # smartling.placeholder_format=C
 #. In the context of an AI Chat, text prompting the user to try their prompt with a different AI model.
@@ -17728,7 +17880,8 @@ msgstr "Duck Player — просмотр YouTube без целевой рекл�
 #. Tells users which setting to change to enable location service.
 msgctxt "precise_user_location"
 msgid "Turn on “Precise Location” for more accurate results."
-msgstr "Для получения более точных результатов выберите вариант «Точная геопозиция»."
+msgstr ""
+"Для получения более точных результатов выберите вариант «Точная геопозиция»."
 
 # smartling.placeholder_format=C
 #. Tells users where to find the location settings in the settings menu. Part of a list of instructions on how to enable location service.
@@ -17917,14 +18070,15 @@ msgstr ""
 # smartling.placeholder_format=C
 #. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
 msgid "Under %sOpen with%s select %sA specific page or pages%s"
-msgstr "Под %1$sОткрыть с%2$s выберите %3$sОпределенная страница или страницы%4$s"
+msgstr ""
+"Под %1$sОткрыть с%2$s выберите %3$sОпределенная страница или страницы%4$s"
 
 # smartling.placeholder_format=C
 #. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
 msgid "Under %sSTARTUP > Homepage%s enter: https://duckduckgo.com"
 msgstr ""
-"В меню %1$sПри запуске > Домашняя страница%2$s введите: "
-"https://duckduckgo.com"
+"В меню %1$sПри запуске > Домашняя страница%2$s введите: https://duckduckgo."
+"com"
 
 # smartling.placeholder_format=C
 #. Tells users where in the settings menu they can change their default search engine.
@@ -17934,15 +18088,16 @@ msgstr "В меню %1$sНастройки поиска%2$s выберите %3$
 # smartling.placeholder_format=C
 #. Tells users where in the settings menu they can change their default search engine.
 msgid "Under %sSearch in the address bar with%s select %sAdd New%s"
-msgstr "В разделе %1$sпоиска в адресной строке%2$s выберите %3$sДобавить новый%4$s"
+msgstr ""
+"В разделе %1$sпоиска в адресной строке%2$s выберите %3$sДобавить новый%4$s"
 
 #  Chrome 36 on macOS, 27 on Windows
 # smartling.placeholder_format=C
 #. Tells users where in the settings menu they can change their default search engine.
 msgid "Under %sSearch%s section, click %sManage search engines...%s"
 msgstr ""
-"Под разделом %1$sПоиск%2$s нажмите на %3$sУправление поисковыми "
-"системами...%4$s"
+"Под разделом %1$sПоиск%2$s нажмите на %3$sУправление поисковыми системами..."
+"%4$s"
 
 #  Opera homepage instruction
 # smartling.placeholder_format=C
@@ -17956,7 +18111,8 @@ msgstr ""
 # smartling.placeholder_format=C
 #. Tells users where in the settings menu they can change their default search engine
 msgid "Under Search click the drop down and select %sDuckDuckGo%s"
-msgstr "В разделе поиска нажмите на выпадающий список и выберите %1$sDuckDuckGo%2$s"
+msgstr ""
+"В разделе поиска нажмите на выпадающий список и выберите %1$sDuckDuckGo%2$s"
 
 # smartling.placeholder_format=C
 #. https://duckduckgo.com/params under "Look & Feel Settings" header
@@ -18030,6 +18186,12 @@ msgid ""
 msgstr ""
 "Тариф Pro дает вам %1$s, более интенсивные рассуждения и лимит в 2 раза "
 "выше, чем в Plus."
+
+# smartling.placeholder_format=C
+#. Title for the subscription promo shown in the SERP sidemenu.
+msgctxt "Sidemenu subscription promo"
+msgid "Unlock VPN + Advanced AI"
+msgstr ""
 
 # smartling.placeholder_format=C
 #. Text for the button that allows the user to unlock an AI model with a DuckDuckGo subscription when clicked.
@@ -18147,8 +18309,8 @@ msgid ""
 "Update the DuckDuckGo browser to activate your subscription in Duck.ai and "
 "access advanced models"
 msgstr ""
-"Чтобы активировать подписку в Duck.ai и пользоваться продвинутыми "
-"ИИ-моделями, обновите браузер DuckDuckGo."
+"Чтобы активировать подписку в Duck.ai и пользоваться продвинутыми ИИ-"
+"моделями, обновите браузер DuckDuckGo."
 
 # smartling.placeholder_format=C
 #. The placeholder indicates a formatted date (e.g., 'Updated 2 days ago')
@@ -18359,7 +18521,8 @@ msgstr "Используйте DuckDuckGo Private Search"
 #. Explains that DuckDuckGo is available for multiple devices.
 msgctxt "mobile promotion on desktop"
 msgid "Use DuckDuckGo private search on your iPad, iPhone, or Android!"
-msgstr "Пользуйтесь DuckDuckGo Private Search на вашем iPad, iPhone, или Android!"
+msgstr ""
+"Пользуйтесь DuckDuckGo Private Search на вашем iPad, iPhone, или Android!"
 
 # smartling.placeholder_format=C
 #. User clicks this button to share their device's location
@@ -18457,7 +18620,8 @@ msgstr "Видеоролики заблокированы в рамках без
 # smartling.placeholder_format=C
 #. A label that indicates a specific search result for videos has been blocked by the safe search filter. The placeholder value is the name of the search result that was blocked.
 msgid "Videos for %s blocked by safe search"
-msgstr "Видеоролики по запросу «%1$s» заблокированы в рамках безопасного поиска."
+msgstr ""
+"Видеоролики по запросу «%1$s» заблокированы в рамках безопасного поиска."
 
 # smartling.placeholder_format=C
 #. Title for the section that showcases the video results for a certain query, ex. Videos for <b>japan</b>
@@ -18959,7 +19123,8 @@ msgstr ""
 # smartling.placeholder_format=C
 msgctxt "homepage ATB modal"
 msgid "We'll block trackers trying to collect your data as you browse."
-msgstr "Пока вы гуляете по Интернету, мы не даем трекерам собирать ваши данные."
+msgstr ""
+"Пока вы гуляете по Интернету, мы не даем трекерам собирать ваши данные."
 
 # smartling.placeholder_format=C
 #. Inform the user we're still having errors and that we will investigate the issue. Placeholder is an email for folks to reach out to. For example 'If you continue to see this error, please reach out to ops@duckduckgo.com'
@@ -19404,7 +19569,8 @@ msgstr "На какие бренды обратить внимание нови�
 # smartling.placeholder_format=C
 msgctxt "settings"
 msgid "When enabled, Duck.ai will show instant answers in the chat."
-msgstr "При активации этой настройки Duck.ai будет показывать быстрые ответы в чате."
+msgstr ""
+"При активации этой настройки Duck.ai будет показывать быстрые ответы в чате."
 
 # smartling.placeholder_format=C
 #. Text of a button that performs a search for the available streaming services that show a particular movie or tv show
@@ -19847,7 +20013,8 @@ msgstr ""
 
 # smartling.placeholder_format=C
 msgid "You can also use %sDuck.ai%s to answer questions or summarize text."
-msgstr "Сервис %1$sDuck.ai%2$s также умеет отвечать на вопросы и резюмировать текст."
+msgstr ""
+"Сервис %1$sDuck.ai%2$s также умеет отвечать на вопросы и резюмировать текст."
 
 # smartling.placeholder_format=C
 msgid ""
@@ -19870,7 +20037,8 @@ msgstr ""
 #. A label shown after the user enables the remember setting toggle that lets them know they change change it, and links to the appropriate setting
 msgctxt "Third party map app picker feedback dialog"
 msgid "You can change this any time in %sSearch Settings%s"
-msgstr "Вы в любой момент можете изменить свой выбор в %1$sнастройках поиска%2$s"
+msgstr ""
+"Вы в любой момент можете изменить свой выбор в %1$sнастройках поиска%2$s"
 
 # smartling.placeholder_format=C
 #. Text explaning how to change a passphrase.
@@ -19900,6 +20068,12 @@ msgid "You can hide this reminder in %sSearch Settings%s"
 msgstr "Это напоминание можно скрыть в %1$sнастройках поиска%2$s."
 
 # smartling.placeholder_format=C
+#. Text displayed in a popover informing existing users that the chat save limit has been increased to 100.
+msgctxt "Popover text notifying users of increased chat limit from 30 to 100"
+msgid "You can now save up to 100 chats on this device. Chat away!"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Error message displayed when the user has attached more files than are allowed in a conversation. Placeholder is the maximum number of files. E.g. You can only attach 3 files per conversation
 msgctxt "Error message when file count exceeds conversation limit"
 msgid "You can only attach %s files per conversation"
@@ -19909,13 +20083,15 @@ msgstr "Число файлов, прикрепляемых к одной бес
 #. Error message displayed when the user has select more images than are allowed to be uploaded. Placeholder is the number of images that are allowed. E.g. You can only attach 3 images per chat
 msgctxt "Error message when input exceeds image upload limit"
 msgid "You can only attach %s images at a time"
-msgstr "Число изображений, прикрепляемых за один раз, ограничено: максимум %1$s."
+msgstr ""
+"Число изображений, прикрепляемых за один раз, ограничено: максимум %1$s."
 
 # smartling.placeholder_format=C
 #. Error message displayed when the user has attached more images across the conversation than allowed. Placeholder is the maximum number of images. E.g. You can only attach 5 images per conversation
 msgctxt "Error message when total image count exceeds conversation limit"
 msgid "You can only attach %s images per conversation"
-msgstr "Число изображений, прикрепляемых к одной беседе, ограничено: максимум %1$s."
+msgstr ""
+"Число изображений, прикрепляемых к одной беседе, ограничено: максимум %1$s."
 
 # smartling.placeholder_format=C
 #. Error message displayed when the user has select more images than are allowed to be uploaded.
@@ -20215,7 +20391,8 @@ msgstr ""
 #. Text for a promotional card that informs users that their chats with the AI model are private and are never saved or used to train AI models.
 msgctxt "Promotional text emphasizing privacy of user chats"
 msgid "Your chats are private, and are never used to train AI models"
-msgstr "Ваши чаты сохраняются в секрете и не используются для обучения моделей ИИ"
+msgstr ""
+"Ваши чаты сохраняются в секрете и не используются для обучения моделей ИИ"
 
 # smartling.placeholder_format=C
 #. Text for a description of the active privacy protection for DuckDuckGo's AI Chat feature.
@@ -20237,8 +20414,8 @@ msgctxt "Menu item description"
 msgid ""
 "Your chats are private, never saved by us, and not used to train AI models."
 msgstr ""
-"Ваши чаты конфиденциальны. Мы не храним их и не используем для обучения "
-"ИИ-моделей."
+"Ваши чаты конфиденциальны. Мы не храним их и не используем для обучения ИИ-"
+"моделей."
 
 # smartling.placeholder_format=C
 #. Body text of the modal that provides information about the active privacy protection.
@@ -20272,8 +20449,8 @@ msgid ""
 "Your chats have been imported. Go ahead and pick up where you left off in "
 "Duck.ai."
 msgstr ""
-"Ваши чаты импортированы. Продолжай с того места, где ты остановился, в "
-"Duck.ai."
+"Ваши чаты импортированы. Продолжай с того места, где ты остановился, в Duck."
+"ai."
 
 # smartling.placeholder_format=C
 msgctxt "homepage ATB modal"
@@ -20466,6 +20643,19 @@ msgstr "Замбия"
 msgctxt "Privacy claim title in Duck.ai chat"
 msgid "Zero data retention"
 msgstr "Без хранения данных"
+
+# smartling.placeholder_format=C
+#. Text that indicates that an AI Model runs in a Trusted Execution Environment the model provider cannot access user data. Please stick to a short translation as this is used in a small label.
+msgctxt ""
+"Label copy indicating that an AI Model runs in an encrypted environment"
+msgid "Zero provider visibility"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Title for the privacy claim that the model provider cannot access user data because inference runs in an encrypted environment.
+msgctxt "Privacy claim title in Duck.ai chat for encrypted models"
+msgid "Zero provider visibility"
+msgstr ""
 
 # smartling.placeholder_format=C
 msgid "Zimbabwe"
@@ -20734,6 +20924,12 @@ msgstr "постоянно"
 msgctxt "Privacy button label in Duck.ai chat empty state"
 msgid "private"
 msgstr "скрыто"
+
+# smartling.placeholder_format=C
+#. This word is inserted into the sentence 'All chats are [private].' as a clickable link that opens the privacy protection modal. It must grammatically agree with 'chats' in the parent sentence (e.g. gender/number inflection in languages that require it).
+msgctxt "Privacy link label in Duck.ai disclaimer below chat input"
+msgid "private"
+msgstr ""
 
 # smartling.placeholder_format=C
 msgid "private search"
