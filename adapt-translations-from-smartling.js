@@ -13,18 +13,30 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
+const findPoFiles = (dir) => {
+  let results = [];
+  for (const entry of fs.readdirSync(dir)) {
+    const fullPath = path.join(dir, entry);
+    if (fs.statSync(fullPath).isDirectory()) {
+      results = results.concat(findPoFiles(fullPath));
+    } else if (/\.pot?$/.test(entry)) {
+      results.push(fullPath);
+    }
+  }
+  return results;
+}
+
 const copyFiles = (srcDir, destDir) => {
-  const files = fs.readdirSync(srcDir)
-  return files.map(file => {
-    const destFile = path.join(destDir, file.replace('.pot', '.po'));
-    const srcFile = path.join(srcDir, file);
+  const files = findPoFiles(srcDir);
+  return files.map(srcFile => {
+    const destFile = path.join(destDir, path.basename(srcFile).replace('.pot', '.po'));
     try {
       const dataBuffer = fs.readFileSync(srcFile);
       const fileContent = dataBuffer.toString();
       fs.writeFileSync(destFile, fileContent);
-      console.log(`Copied file from ${srcDir} to ${destFile}`);
+      console.log(`Copied file from ${srcFile} to ${destFile}`);
     } catch (e) {
-      console.log(`Got an error trying to copy the file ${srcDir}: ${e.message}`)
+      console.log(`Got an error trying to copy the file ${srcFile}: ${e.message}`)
     }
   })
 }
