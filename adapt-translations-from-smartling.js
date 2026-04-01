@@ -14,19 +14,33 @@ const rl = readline.createInterface({
 });
 
 const copyFiles = (srcDir, destDir) => {
-  const files = fs.readdirSync(srcDir)
-  return files.map(file => {
-    const destFile = path.join(destDir, file.replace('.pot', '.po'));
-    const srcFile = path.join(srcDir, file);
-    try {
-      const dataBuffer = fs.readFileSync(srcFile);
-      const fileContent = dataBuffer.toString();
-      fs.writeFileSync(destFile, fileContent);
-      console.log(`Copied file from ${srcDir} to ${destFile}`);
-    } catch (e) {
-      console.log(`Got an error trying to copy the file ${srcDir}: ${e.message}`)
+  const entries = fs.readdirSync(srcDir);
+  entries.forEach(entry => {
+    const srcEntry = path.join(srcDir, entry);
+    if (fs.statSync(srcEntry).isDirectory()) {
+      copyFiles(srcEntry, destDir);
+      try {
+        fs.rmdirSync(srcEntry);
+      } catch (e) {
+        // Directory not empty, skip
+      }
+    } else {
+      const destFile = path.join(destDir, entry.replace('.pot', '.po'));
+      try {
+        const fileContent = fs.readFileSync(srcEntry).toString();
+        fs.writeFileSync(destFile, fileContent);
+        fs.unlinkSync(srcEntry);
+        console.log(`Moved file from ${srcEntry} to ${destFile}`);
+      } catch (e) {
+        console.log(`Got an error trying to copy the file ${srcEntry}: ${e.message}`);
+      }
     }
-  })
+  });
+  try {
+    fs.rmdirSync(srcDir);
+  } catch (e) {
+    // Directory not empty, skip
+  }
 }
 
 const start = () => {
