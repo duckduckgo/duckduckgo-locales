@@ -261,6 +261,17 @@ msgid "%s results hidden"
 msgstr "결과 %1$s개 숨김"
 
 # smartling.placeholder_format=C
+#. Description explaining that the model runs in an encrypted environment so neither DuckDuckGo nor the model provider can access user prompts or responses. %s is replaced with the full model name (e.g. 'GPT-OSS 120B').
+msgctxt "Privacy claim description in Duck.ai chat for encrypted models"
+msgid ""
+"%s runs in a Trusted Execution Environment. This means not even the model "
+"provider can see your prompts or the model’s responses, or save this chat on "
+"their servers."
+msgstr ""
+"%1$s(은)는 신뢰할 수 있는 실행 환경에서 실행됩니다. 즉, 모델 제공자조차도 사용자의 메시지나 모델의 응답을 보거나 서버에 이 "
+"채팅을 저장할 수 없습니다."
+
+# smartling.placeholder_format=C
 #. Shown to Plus subscribers when they hit a usage limit error. The variable is a link with text 'Upgrade to Pro' that takes the user to the Pro plans page. Example: Upgrade to Pro to unlock 2x higher limits.
 msgctxt "Text promoting Pro upgrade for Plus subscribers who hit usage limits"
 msgid "%s to unlock 2x higher limits."
@@ -3086,19 +3097,6 @@ msgid "Chat privately"
 msgstr "비공개로 채팅하기"
 
 # smartling.placeholder_format=C
-#. Mobile variant of DUCKCHAT_BROWSER_UPSELL_PROMO_TEXT. Shorter version for the promotional card encouraging third-party browser users to download the DuckDuckGo browser.
-msgctxt "Promotional text (mobile)"
-msgid "Chat privately on any website with Duck.ai built into our free browser."
-msgstr "DuckDuckGo 무료 브라우저에 내장된 Duck.ai로 어떤 웹사이트에서든 비공개로 채팅하세요."
-
-# smartling.placeholder_format=C
-#. Text for a promotional card encouraging third-party browser users to download the DuckDuckGo browser. Not shown in the DuckDuckGo browser or on Linux.
-msgctxt "Promotional text"
-msgid ""
-"Chat privately on any website with the Duck.ai sidebar in our free browser."
-msgstr "DuckDuckGo 무료 브라우저에서 Duck.ai 사이드바를 통해 어떤 웹사이트에서든 비공개로 채팅하세요."
-
-# smartling.placeholder_format=C
 #. Placeholder text used in chat input for user’s messages. Example: 'Chat with GPT-3'
 msgctxt "Placeholder text user’s chat input"
 msgid "Chat privately with %s"
@@ -3474,6 +3472,14 @@ msgid ""
 msgstr ""
 "브라우저 데이터를 삭제하면 최근 채팅이 삭제됩니다. 브라우저에 따라 최근 채팅이 무기한으로 저장될 수도 있고, Duck.ai를 7일 이상 "
 "사용하지 않으면 자동으로 삭제될 수도 있습니다."
+
+# smartling.placeholder_format=C
+#. Warning message shown on the Block domain success modal. Blocked sites are stored in localStorage which is cleared alongside cookies when users clear browser data. Followed by a linked 'our free browser' text.
+msgctxt "settings"
+msgid ""
+"Clearing browser data will reset your blocked sites. Save your block list "
+"permanently in"
+msgstr "브라우저 데이터를 삭제하면 차단된 사이트가 초기화됩니다. 차단 목록을 DuckDuckGo 무료 브라우저에"
 
 # smartling.placeholder_format=C
 #. Second paragraph of a section inviting users to learn more about the duckassist instant answer (based on generative AI)
@@ -4639,6 +4645,12 @@ msgstr "이 채팅을 삭제할까요?"
 msgctxt "Feedback prompt"
 msgid "Deleted chats"
 msgstr "삭제된 채팅"
+
+# smartling.placeholder_format=C
+#. Warning message shown on settings pages and modals to inform users that deleting browser cookies will reset their search preferences.
+msgctxt "settings"
+msgid "Deleting cookies will reset these settings."
+msgstr "쿠키를 삭제하면 이러한 설정이 초기화됩니다."
 
 # smartling.placeholder_format=C
 msgid "Democratic People's Republic of Korea"
@@ -8958,6 +8970,12 @@ msgid "Learn More"
 msgstr "자세히 알아보기"
 
 # smartling.placeholder_format=C
+#. Link text on the full Settings page next to the cookie reset warning. Links to the help page explaining how settings are stored.
+msgctxt "settings"
+msgid "Learn More"
+msgstr "자세히 알아보기"
+
+# smartling.placeholder_format=C
 #. A link to the DuckDuckGo browser extension on the Firefox Add-ons Store
 msgctxt "homepage ATB modal"
 msgid "Learn More at Firefox Add-Ons"
@@ -9001,6 +9019,12 @@ msgstr "자세히 알아보기"
 # smartling.placeholder_format=C
 #. Text for a link to the help page that explain how DuckDuckGo uses the user location.
 msgctxt "Link to learn more about how DuckDuckGo uses the user location"
+msgid "Learn more"
+msgstr "자세히 알아보기"
+
+# smartling.placeholder_format=C
+#. Link text on the full Settings page next to the cookie reset warning. Links to the help page explaining how settings are stored.
+msgctxt "settings"
 msgid "Learn more"
 msgstr "자세히 알아보기"
 
@@ -15930,6 +15954,13 @@ msgid "Switch to the search engine that doesn't track you. Ever."
 msgstr "절대 사용자를 추적하지 않는 검색 엔진으로 전환하세요."
 
 # smartling.placeholder_format=C
+#. Warning text shown in the model switch dropdown when the user is currently using an encrypted model. Warns that the new model will not have zero provider visibility.
+msgctxt "AI Chat warning when switching from an encrypted model"
+msgid ""
+"Switching will send your chat to a model without zero provider visibility"
+msgstr "전환하면 채팅이 제공자 노출이 전혀 없는 모델로 전송됩니다."
+
+# smartling.placeholder_format=C
 msgid "Switzerland"
 msgstr "스위스"
 
@@ -17024,9 +17055,21 @@ msgid "Trustworthy source"
 msgstr "신뢰할 수 있는 출처"
 
 # smartling.placeholder_format=C
+#. Button label for a promotional card that encourages users to try the encrypted AI model. %s is replaced with the model's full display name (e.g. 'GPT-OSS 120B').
+msgctxt "Promotional CTA for encrypted AI model"
+msgid "Try %s"
+msgstr "%1$s 사용해 보기"
+
+# smartling.placeholder_format=C
 #. Prompt for the user to start using our homepage that doesn't show promotional messages. The placeholder is a homepage url (e.g., 'start.duckduckgo.com')
 msgid "Try %s to stop seeing messages like this."
 msgstr "앞으로 이런 메시지를 보지 않으려면 %1$s 페이지에 접속해 보세요."
+
+# smartling.placeholder_format=C
+#. Text for a promotional card that encourages users to try the encrypted AI model whose inference runs in a confidential environment so the model provider cannot access user data. %s is replaced with the model's full display name (e.g. 'GPT-OSS 120B').
+msgctxt "Promotional text for encrypted AI model"
+msgid "Try %s, our first model with zero provider visibility."
+msgstr "제공자 가시성이 전혀 없는 첫 모델인 %1$s을(를) 사용해 보세요."
 
 # smartling.placeholder_format=C
 msgid "Try %sDuck.ai%s, our private AI chat service:"
@@ -17147,6 +17190,12 @@ msgstr "Wikipedia에서 답변을 생성해 보세요."
 msgctxt "noresults"
 msgid "Try more general keywords."
 msgstr "더 일반적인 검색어를 사용해 보세요."
+
+# smartling.placeholder_format=C
+#. Link text encouraging users to download the DuckDuckGo browser. Links to the browser download page.
+msgctxt "settings"
+msgid "Try our browser"
+msgstr "저희 브라우저를 이용하시면"
 
 # smartling.placeholder_format=C
 #. Link to a version of the DuckDuckGo homepage that doesn't show any promotional messages.
@@ -19934,6 +19983,19 @@ msgid "Zero data retention"
 msgstr "데이터를 보유하지 않습니다"
 
 # smartling.placeholder_format=C
+#. Text that indicates that an AI Model runs in a Trusted Execution Environment the model provider cannot access user data. Please stick to a short translation as this is used in a small label.
+msgctxt ""
+"Label copy indicating that an AI Model runs in an encrypted environment"
+msgid "Zero provider visibility"
+msgstr "공급자 가시성 제로"
+
+# smartling.placeholder_format=C
+#. Title for the privacy claim that the model provider cannot access user data because inference runs in an encrypted environment.
+msgctxt "Privacy claim title in Duck.ai chat for encrypted models"
+msgid "Zero provider visibility"
+msgstr "공급자 가시성 제로"
+
+# smartling.placeholder_format=C
 msgid "Zimbabwe"
 msgstr "짐바브웨"
 
@@ -20189,6 +20251,12 @@ msgid "or write out the font you want"
 msgstr "또는 원하는 글꼴을 직접 입력하세요."
 
 # smartling.placeholder_format=C
+#. Link text on the Block domain success modal that links to the DuckDuckGo browser download page.
+msgctxt "settings"
+msgid "our free browser."
+msgstr "영구적으로 저장하세요."
+
+# smartling.placeholder_format=C
 #. Message displayed sometimes at top of results -- in the context of safe search.
 msgid "permanently"
 msgstr "영구적"
@@ -20271,6 +20339,12 @@ msgstr "이 도움말 페이지"
 msgctxt "maps_places"
 msgid "till %s"
 msgstr "%1$s까지"
+
+# smartling.placeholder_format=C
+#. Text that follows the 'Try our browser' link, completing the sentence.
+msgctxt "settings"
+msgid "to never lose your settings."
+msgstr "설정이 초기화되지 않습니다."
 
 #  https://duckduckgo.com/?e=6
 # smartling.placeholder_format=C
