@@ -261,6 +261,17 @@ msgid "%s results hidden"
 msgstr "결과 %1$s개 숨김"
 
 # smartling.placeholder_format=C
+#. Description explaining that the model runs in an encrypted environment so neither DuckDuckGo nor the model provider can access user prompts or responses. %s is replaced with the full model name (e.g. 'GPT-OSS 120B').
+msgctxt "Privacy claim description in Duck.ai chat for encrypted models"
+msgid ""
+"%s runs in a Trusted Execution Environment. This means not even the model "
+"provider can see your prompts or the model’s responses, or save this chat on "
+"their servers."
+msgstr ""
+"%1$s(은)는 신뢰할 수 있는 실행 환경에서 실행됩니다. 즉, 모델 제공자조차도 사용자의 메시지나 모델의 응답을 보거나 서버에 이 "
+"채팅을 저장할 수 없습니다."
+
+# smartling.placeholder_format=C
 #. Shown to Plus subscribers when they hit a usage limit error. The variable is a link with text 'Upgrade to Pro' that takes the user to the Pro plans page. Example: Upgrade to Pro to unlock 2x higher limits.
 msgctxt "Text promoting Pro upgrade for Plus subscribers who hit usage limits"
 msgid "%s to unlock 2x higher limits."
@@ -3086,6 +3097,19 @@ msgid "Chat privately"
 msgstr "비공개로 채팅하기"
 
 # smartling.placeholder_format=C
+#. Mobile variant of DUCKCHAT_BROWSER_UPSELL_PROMO_TEXT. Shorter version for the promotional card encouraging third-party browser users to download the DuckDuckGo browser.
+msgctxt "Promotional text (mobile)"
+msgid "Chat privately on any website with Duck.ai built into our free browser."
+msgstr "DuckDuckGo 무료 브라우저에 내장된 Duck.ai로 어떤 웹사이트에서든 비공개로 채팅하세요."
+
+# smartling.placeholder_format=C
+#. Text for a promotional card encouraging third-party browser users to download the DuckDuckGo browser. Not shown in the DuckDuckGo browser or on Linux.
+msgctxt "Promotional text"
+msgid ""
+"Chat privately on any website with the Duck.ai sidebar in our free browser."
+msgstr "DuckDuckGo 무료 브라우저에서 Duck.ai 사이드바를 통해 어떤 웹사이트에서든 비공개로 채팅하세요."
+
+# smartling.placeholder_format=C
 #. Placeholder text used in chat input for user’s messages. Example: 'Chat with GPT-3'
 msgctxt "Placeholder text user’s chat input"
 msgid "Chat privately with %s"
@@ -3154,6 +3178,14 @@ msgstr ""
 "채팅은 사용자의 기기에 직접 저장됩니다. 사용자의 인터넷 연결이 끊겼을 때 채팅을 복원할 수 있도록, 전송된 새 프롬프트와 응답을 "
 "암호화하여 DuckDuckGo 서버에 임시로 저장합니다. 채팅 기록을 비활성화하면 고정된 채팅이 삭제되고, 새로운 프롬프트와 응답의 임시 "
 "저장이 중단됩니다."
+
+# smartling.placeholder_format=C
+#. Title shown above the body copy in the Duck.ai recent chats IndexedDB unavailable notice.
+msgctxt ""
+"Heading for recent chats warning when device storage (IndexedDB) is "
+"unavailable"
+msgid "Chats aren’t being saved"
+msgstr "채팅이 저장되지 않고 있습니다"
 
 # smartling.placeholder_format=C
 #. Title after successful download.
@@ -4628,6 +4660,12 @@ msgid "Deleted chats"
 msgstr "삭제된 채팅"
 
 # smartling.placeholder_format=C
+#. Warning message shown on settings pages and modals to inform users that deleting browser cookies will reset their search preferences.
+msgctxt "settings"
+msgid "Deleting cookies will reset these settings."
+msgstr "쿠키를 삭제하면 이러한 설정이 초기화됩니다."
+
+# smartling.placeholder_format=C
 msgid "Democratic People's Republic of Korea"
 msgstr "조선민주주의인민공화국"
 
@@ -5161,6 +5199,17 @@ msgid ""
 msgstr ""
 "이제 내가 보고있는 페이지에 대해 궁금한 점이 있을 때 Duck.ai가 답해드릴 수 있습니다. 페이지 내용은 사용자가 첨부할 때만 "
 "포함됩니다. 또는 설정에서 페이지 자동 첨부를 선택하세요."
+
+# smartling.placeholder_format=C
+#. Shown in the Duck.ai recent chats list on standalone when the browser API needed to store chats locally is missing or unavailable.
+msgctxt ""
+"Recent chats list warning when device storage (IndexedDB) is unavailable"
+msgid ""
+"Duck.ai can’t access local storage to save your chats. Please check your "
+"browser settings or disable any extensions and try again."
+msgstr ""
+"Duck.ai가 채팅을 저장하기 위해 로컬 저장소에 액세스할 수 없습니다. 브라우저 설정을 확인하거나 확장 프로그램을 비활성화한 후 다시 "
+"시도하세요."
 
 # smartling.placeholder_format=C
 #. Displayed when the chat service has reached the maximum number of messages for one day.
@@ -8933,6 +8982,12 @@ msgid "Learn %sMore%s"
 msgstr "%1$s더%2$s 알아보기"
 
 # smartling.placeholder_format=C
+#. Text for a button that opens a modal or page with additional information about a feature.
+msgctxt "Button text to learn more about a feature"
+msgid "Learn More"
+msgstr "자세히 알아보기"
+
+# smartling.placeholder_format=C
 #. Label for the button that opens the usage limits help page for Image Generation.
 msgctxt "Learn more button label"
 msgid "Learn More"
@@ -8947,6 +9002,12 @@ msgstr "자세히 알아보기"
 # smartling.placeholder_format=C
 #. Displayed during an outage as a link to see all of the bangs DuckDuckGo has available.
 msgctxt "noresults"
+msgid "Learn More"
+msgstr "자세히 알아보기"
+
+# smartling.placeholder_format=C
+#. Link text on the full Settings page next to the cookie reset warning. Links to the help page explaining how settings are stored.
+msgctxt "settings"
 msgid "Learn More"
 msgstr "자세히 알아보기"
 
@@ -15929,6 +15990,13 @@ msgid "Switch to the search engine that doesn't track you. Ever."
 msgstr "절대 사용자를 추적하지 않는 검색 엔진으로 전환하세요."
 
 # smartling.placeholder_format=C
+#. Warning text shown in the model switch dropdown when the user is currently using an encrypted model. Warns that the new model will not have zero provider visibility.
+msgctxt "AI Chat warning when switching from an encrypted model"
+msgid ""
+"Switching will send your chat to a model without zero provider visibility"
+msgstr "전환하면 채팅이 제공자 노출이 전혀 없는 모델로 전송됩니다."
+
+# smartling.placeholder_format=C
 msgid "Switzerland"
 msgstr "스위스"
 
@@ -17023,9 +17091,21 @@ msgid "Trustworthy source"
 msgstr "신뢰할 수 있는 출처"
 
 # smartling.placeholder_format=C
+#. Button label for a promotional card that encourages users to try the encrypted AI model. %s is replaced with the model's full display name (e.g. 'GPT-OSS 120B').
+msgctxt "Promotional CTA for encrypted AI model"
+msgid "Try %s"
+msgstr "%1$s 사용해 보기"
+
+# smartling.placeholder_format=C
 #. Prompt for the user to start using our homepage that doesn't show promotional messages. The placeholder is a homepage url (e.g., 'start.duckduckgo.com')
 msgid "Try %s to stop seeing messages like this."
 msgstr "앞으로 이런 메시지를 보지 않으려면 %1$s 페이지에 접속해 보세요."
+
+# smartling.placeholder_format=C
+#. Text for a promotional card that encourages users to try the encrypted AI model whose inference runs in a confidential environment so the model provider cannot access user data. %s is replaced with the model's full display name (e.g. 'GPT-OSS 120B').
+msgctxt "Promotional text for encrypted AI model"
+msgid "Try %s, our first model with zero provider visibility."
+msgstr "제공자 가시성이 전혀 없는 첫 모델인 %1$s을(를) 사용해 보세요."
 
 # smartling.placeholder_format=C
 msgid "Try %sDuck.ai%s, our private AI chat service:"
@@ -17152,6 +17232,12 @@ msgstr "Wikipedia에서 답변을 생성해 보세요."
 msgctxt "noresults"
 msgid "Try more general keywords."
 msgstr "더 일반적인 검색어를 사용해 보세요."
+
+# smartling.placeholder_format=C
+#. Link text encouraging users to download the DuckDuckGo browser. Links to the browser download page.
+msgctxt "settings"
+msgid "Try our browser"
+msgstr "저희 브라우저를 이용하시면"
 
 # smartling.placeholder_format=C
 #. Link to a version of the DuckDuckGo homepage that doesn't show any promotional messages.
@@ -19415,6 +19501,12 @@ msgid "You can hide this reminder in %sSearch Settings%s"
 msgstr "%1$s검색 설정%2$s에서 이 알림을 숨길 수 있습니다."
 
 # smartling.placeholder_format=C
+#. Text displayed in a popover informing existing users that the chat save limit has been increased to 100.
+msgctxt "Popover text notifying users of increased chat limit from 30 to 100"
+msgid "You can now save up to 100 chats on this device. Chat away!"
+msgstr "이제 이 기기에 최근 채팅을 최대 100개 저장할 수 있습니다. 마음껏 채팅하세요!"
+
+# smartling.placeholder_format=C
 #. Error message displayed when the user has attached more files than are allowed in a conversation. Placeholder is the maximum number of files. E.g. You can only attach 3 files per conversation
 msgctxt "Error message when file count exceeds conversation limit"
 msgid "You can only attach %s files per conversation"
@@ -19945,6 +20037,19 @@ msgid "Zero data retention"
 msgstr "데이터를 보유하지 않습니다"
 
 # smartling.placeholder_format=C
+#. Text that indicates that an AI Model runs in a Trusted Execution Environment the model provider cannot access user data. Please stick to a short translation as this is used in a small label.
+msgctxt ""
+"Label copy indicating that an AI Model runs in an encrypted environment"
+msgid "Zero provider visibility"
+msgstr "공급자 가시성 제로"
+
+# smartling.placeholder_format=C
+#. Title for the privacy claim that the model provider cannot access user data because inference runs in an encrypted environment.
+msgctxt "Privacy claim title in Duck.ai chat for encrypted models"
+msgid "Zero provider visibility"
+msgstr "공급자 가시성 제로"
+
+# smartling.placeholder_format=C
 msgid "Zimbabwe"
 msgstr "짐바브웨"
 
@@ -20282,6 +20387,12 @@ msgstr "이 도움말 페이지"
 msgctxt "maps_places"
 msgid "till %s"
 msgstr "%1$s까지"
+
+# smartling.placeholder_format=C
+#. Text that follows the 'Try our browser' link, completing the sentence.
+msgctxt "settings"
+msgid "to never lose your settings."
+msgstr "설정이 초기화되지 않습니다."
 
 #  https://duckduckgo.com/?e=6
 # smartling.placeholder_format=C
