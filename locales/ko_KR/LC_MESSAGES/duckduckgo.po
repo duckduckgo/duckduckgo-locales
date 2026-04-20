@@ -268,8 +268,8 @@ msgid ""
 "provider can see your prompts or the model’s responses, or save this chat on "
 "their servers."
 msgstr ""
-"%1$s 는 신뢰할 수 있는 실행 환경에서 실행됩니다. 즉, 모델 제공자조차도 사용자의 메시지나 모델의 응답을 보거나 서버에 이 채팅을 "
-"저장할 수 없습니다."
+"%1$s(은)는 신뢰할 수 있는 실행 환경에서 실행됩니다. 즉, 모델 제공자조차도 사용자의 메시지나 모델의 응답을 보거나 서버에 이 "
+"채팅을 저장할 수 없습니다."
 
 # smartling.placeholder_format=C
 #. Shown to Plus subscribers when they hit a usage limit error. The variable is a link with text 'Upgrade to Pro' that takes the user to the Pro plans page. Example: Upgrade to Pro to unlock 2x higher limits.
@@ -431,6 +431,12 @@ msgstr "'항상 보호됨' 알림"
 msgctxt "settings"
 msgid "'Protected' Reminder"
 msgstr "'보호된' 알림"
+
+# smartling.placeholder_format=C
+#. Label appended to a tab entry to indicate it is the user's currently active browser tab.
+msgctxt "Suffix label indicating a tab is the currently active browser tab"
+msgid "(Current Tab)"
+msgstr "(현재 탭)"
 
 # smartling.placeholder_format=C
 #. A suffix on a filter option indicating it is the one that is in effect if no other filter is chosen
@@ -3197,7 +3203,7 @@ msgctxt ""
 "Heading for recent chats warning when device storage (IndexedDB) is "
 "unavailable"
 msgid "Chats aren’t being saved"
-msgstr "채팅이 저장되지 않고 있습니다."
+msgstr "채팅이 저장되지 않고 있습니다"
 
 # smartling.placeholder_format=C
 #. Title after successful download.
@@ -4097,7 +4103,7 @@ msgstr "DuckDuckGo의 비공개 AI 채팅 서비스 %1$s 사용해보기:"
 #. F1 standings tab label for constructor championship
 msgctxt "Sports module"
 msgid "Constructors"
-msgstr "생성자"
+msgstr "컨스트럭터"
 
 # smartling.placeholder_format=C
 #. A call to action to move to the next step typically used in forms
@@ -5240,7 +5246,7 @@ msgid ""
 "Duck.ai can’t access local storage to save your chats. Please check your "
 "browser settings or disable any extensions and try again."
 msgstr ""
-"Duck.ai가 채팅을 저장하기 위해 로컬 저장소에 접근할 수 없습니다. 브라우저 설정을 확인하거나 확장 프로그램을 비활성화한 후 다시 "
+"Duck.ai가 채팅을 저장하기 위해 로컬 저장소에 액세스할 수 없습니다. 브라우저 설정을 확인하거나 확장 프로그램을 비활성화한 후 다시 "
 "시도하세요."
 
 # smartling.placeholder_format=C
@@ -7890,6 +7896,12 @@ msgid ""
 msgstr "잠깐만요! 다시 변경하면 DuckDuckGo 확장 기능프로그램이 비활성화되어 개인정보 보호 기능을 사용할 수 없게 됩니다."
 
 # smartling.placeholder_format=C
+#. Heading shown above warning messages in the AI chat, for non-critical issues like unsupported file formats or file size limits. Analogous to 'Oops...' for error messages.
+msgctxt "Warning message heading in Duck.ai chat"
+msgid "Hold on..."
+msgstr "잠시만요..."
+
+# smartling.placeholder_format=C
 #. Indicates the Win-Loss record of a team when playing home
 msgctxt "Sports module"
 msgid "Home Record"
@@ -8108,7 +8120,7 @@ msgstr "저는 이미 구독 중이에요"
 #. Error message displayed when the upstream fails to process an uploaded image (e.g., bad image)
 msgctxt "Error message when text or an uploaded image cannot be processed"
 msgid "I can't help with this request."
-msgstr "이 요청은 도와드릴 수 없습니다."
+msgstr "도움을 드릴 수 없습니다."
 
 # smartling.placeholder_format=C
 #. Feedback option for when customer dislikes AI
@@ -9308,6 +9320,12 @@ msgstr "채팅 불러오는 중..."
 msgctxt "Aria label for loading thumbnail"
 msgid "Loading image"
 msgstr "이미지 불러오는 중"
+
+# smartling.placeholder_format=C
+#. Status text displayed while the list of open browser tabs is loading in the tab picker.
+msgctxt "Loading state shown while browser tabs are being fetched"
+msgid "Loading tabs…"
+msgstr "탭 로딩 중…"
 
 # smartling.placeholder_format=C
 #. Instructions for user once they've passed the bot challenge
@@ -10699,6 +10717,12 @@ msgid "No images found for %s"
 msgstr "%1$s에 대한 이미지를 찾을 수 없습니다"
 
 # smartling.placeholder_format=C
+#. Status text displayed when the user's search query does not match any open browser tabs.
+msgctxt "Empty state when no tabs match the user filter text"
+msgid "No matching tabs"
+msgstr "일치하는 탭 없음"
+
+# smartling.placeholder_format=C
 #. Indicates that there were no more search results for a user's search. The placeholder is the user's search term. For example: 'No more results found for 'restaurants near me''
 msgctxt "noresults"
 msgid "No more results found for %s%s%s"
@@ -10720,6 +10744,12 @@ msgstr "%1$s 관련 뉴스 기사를 찾을 수 없습니다"
 msgctxt "noresults"
 msgid "No news articles found for %s"
 msgstr "%1$s 관련 뉴스 기사를 찾을 수 없습니다"
+
+# smartling.placeholder_format=C
+#. Status text displayed when there are no open browser tabs available to attach.
+msgctxt "Empty state when there are no open browser tabs"
+msgid "No open tabs"
+msgstr "열려 있는 탭 없음"
 
 # smartling.placeholder_format=C
 msgctxt "settingsvalue"
@@ -11246,7 +11276,7 @@ msgctxt ""
 msgid ""
 "One of the files attached has more pages than we support. Please upload "
 "files with %s pages or fewer."
-msgstr "첨부된 파일 중 하나가 지원 가능한 페이지 수를 초과합니다. %1$s 페이지 이하의 파일을 업로드하세요."
+msgstr "첨부된 파일 중 하나가 지원 가능한 페이지 수를 초과합니다. %1$s페이지 이하의 파일을 업로드하세요."
 
 # smartling.placeholder_format=C
 #. Response a user can select in a feedback form, indicating that they heard about DuckDuckGo in an online article.
@@ -12300,7 +12330,7 @@ msgstr "팟캐스트"
 #. F1 driver standings column: number of podium finishes
 msgctxt "Sports module"
 msgid "Podiums"
-msgstr "포디엄"
+msgstr "포디움"
 
 # smartling.placeholder_format=C
 #. Indicates these are the total points of this team, in e.g. the soccer World Cup
@@ -12316,7 +12346,7 @@ msgstr "폴란드"
 #. F1 driver standings column: number of pole positions
 msgctxt "Sports module"
 msgid "Poles"
-msgstr "폴란드인"
+msgstr "폴"
 
 # smartling.placeholder_format=C
 #. Menu point on the main DuckDuckGo menu, can be seen on all pages. (Links to <a href="https://duckduckgo.com/privacy">privacy</a> page)
@@ -13034,6 +13064,12 @@ msgstr "최근 채팅"
 #. A label that appears above a list of search results from news sites.
 msgid "Recent News"
 msgstr "최근 뉴스"
+
+# smartling.placeholder_format=C
+#. Header text for the section listing recently used browser tabs in the tab picker.
+msgctxt "Section header for the list of recent browser tabs"
+msgid "Recent Tabs"
+msgstr "최근 탭"
 
 # smartling.placeholder_format=C
 #. Text explaining that this feature can be adjusted in the settings. Placeholder is for adding a link to 'Settings'. Example: 'Recent chat storage can be adjusted in Settings.'
@@ -16096,7 +16132,7 @@ msgstr "절대 사용자를 추적하지 않는 검색 엔진으로 전환하세
 msgctxt "AI Chat warning when switching from an encrypted model"
 msgid ""
 "Switching will send your chat to a model without zero provider visibility"
-msgstr "전환하면 제공자 노출이 전혀 없는 모델로 채팅이 전송됩니다."
+msgstr "전환하면 채팅이 제공자 노출이 전혀 없는 모델로 전송됩니다."
 
 # smartling.placeholder_format=C
 msgid "Switzerland"
@@ -16453,7 +16489,7 @@ msgstr "첨부 파일이 총 용량 한도 %1$sMB를 초과합니다"
 #. Error message displayed when the total size of all attached files in a conversation exceeds the allowed limit. Placeholder is the combined size limit in megabytes. E.g. The attached files exceed the total size limit of 5 MB
 msgctxt "Error message when combined file size exceeds the limit"
 msgid "The attached files exceed the total size limit of %s MB."
-msgstr "첨부 파일이 총 용량 한도 %1$s MB를 초과합니다."
+msgstr "첨부 파일이 총 용량 한도 %1$sMB를 초과합니다"
 
 # smartling.placeholder_format=C
 #. Description explaining that the AI model provider deletes all chat data within 30 days.
@@ -16654,7 +16690,7 @@ msgstr "파일이 너무 큽니다. 파일 용량 한도는 %1$sMB입니다."
 #. Error message displayed when the user tries to attach a file that exceeds the maximum allowed size. Placeholder is the size limit in megabytes. E.g. This file is too large. The maximum file size is 5 MB
 msgctxt "Error message when a single file exceeds the size limit"
 msgid "This file is too large. The maximum file size is %s MB."
-msgstr "파일이 너무 큽니다. 파일 용량 한도는 %1$s MB입니다."
+msgstr "파일이 너무 큽니다. 파일 용량 한도는 %1$sMB입니다."
 
 # smartling.placeholder_format=C
 #. Generic error message displayed when the user tries to upload an unsupported file type and we cannot determine the accepted types
@@ -17241,7 +17277,7 @@ msgstr "신뢰할 수 있는 출처"
 #. Button label for a promotional card that encourages users to try the encrypted AI model. %s is replaced with the model's full display name (e.g. 'GPT-OSS 120B').
 msgctxt "Promotional CTA for encrypted AI model"
 msgid "Try %s"
-msgstr "%1$s시도하기"
+msgstr "%1$s 사용해 보기"
 
 # smartling.placeholder_format=C
 #. Prompt for the user to start using our homepage that doesn't show promotional messages. The placeholder is a homepage url (e.g., 'start.duckduckgo.com')
@@ -17252,7 +17288,7 @@ msgstr "앞으로 이런 메시지를 보지 않으려면 %1$s 페이지에 접�
 #. Text for a promotional card that encourages users to try the encrypted AI model whose inference runs in a confidential environment so the model provider cannot access user data. %s is replaced with the model's full display name (e.g. 'GPT-OSS 120B').
 msgctxt "Promotional text for encrypted AI model"
 msgid "Try %s, our first model with zero provider visibility."
-msgstr "%1$s을(를) 시도해 보세요. 우리의 첫 모델로 제공자 가시성이 전혀 없습니다."
+msgstr "제공자 가시성이 전혀 없는 첫 모델인 %1$s을(를) 사용해 보세요."
 
 # smartling.placeholder_format=C
 msgid "Try %sDuck.ai%s, our private AI chat service:"
@@ -18585,7 +18621,7 @@ msgstr "익명%1$s 위치%2$s를 사용하여 주변 결과를 표시할 수 있
 msgctxt "Error message when at least one attached file is encrypted"
 msgid ""
 "We can't read the files attached because at least one of them is encrypted."
-msgstr "첨부된 파일 중 하나 이상이 암호화되어 있어 파일을 읽을 수 없어요."
+msgstr "첨부된 파일 중 하나 이상이 암호화되어 있어서 파일을 읽을 수 없습니다."
 
 # smartling.placeholder_format=C
 msgctxt "reasons-to-use-duckduckgo"
@@ -19658,7 +19694,7 @@ msgstr "%1$s검색 설정%2$s에서 이 알림을 숨길 수 있습니다."
 #. Text displayed in a popover informing existing users that the chat save limit has been increased to 100.
 msgctxt "Popover text notifying users of increased chat limit from 30 to 100"
 msgid "You can now save up to 100 chats on this device. Chat away!"
-msgstr "이제 이 기기에 최근 채팅을 100개까지 저장할 수 있습니다. 마음껏 채팅하세요!"
+msgstr "이제 이 기기에 최근 채팅을 최대 100개 저장할 수 있습니다. 마음껏 채팅하세요!"
 
 # smartling.placeholder_format=C
 #. Error message displayed when the user has attached more files than are allowed in a conversation. Placeholder is the maximum number of files. E.g. You can only attach 3 files per conversation
@@ -19670,7 +19706,7 @@ msgstr "파일은 대화당 %1$s개만 첨부할 수 있습니다"
 #. Error message displayed when the user has attached more files than are allowed in a conversation. Placeholder is the maximum number of files. E.g. You can only attach 3 files per conversation
 msgctxt "Error message when file count exceeds conversation limit"
 msgid "You can only attach %s files per conversation."
-msgstr "파일은 대화당 %1$s 개만 첨부할 수 있습니다."
+msgstr "파일은 대화당 %1$s개만 첨부할 수 있습니다."
 
 # smartling.placeholder_format=C
 #. Error message displayed when the user has select more images than are allowed to be uploaded. Placeholder is the number of images that are allowed. E.g. You can only attach 3 images per chat
@@ -19682,7 +19718,7 @@ msgstr "이미지는 한 번에 %1$s장만 첨부할 수 있습니다"
 #. Error message displayed when the user has select more images than are allowed to be uploaded. Placeholder is the number of images that are allowed. E.g. You can only attach 3 images per chat
 msgctxt "Error message when input exceeds image upload limit"
 msgid "You can only attach %s images at a time."
-msgstr "이미지는 한 번에 %1$s 장만 첨부할 수 있습니다"
+msgstr "이미지는 한 번에 %1$s장만 첨부할 수 있습니다."
 
 # smartling.placeholder_format=C
 #. Error message displayed when the user has attached more images across the conversation than allowed. Placeholder is the maximum number of images. E.g. You can only attach 5 images per conversation
@@ -19694,7 +19730,7 @@ msgstr "이미지는 대화당 %1$s개만 첨부할 수 있습니다"
 #. Error message displayed when the user has attached more images across the conversation than allowed. Placeholder is the maximum number of images. E.g. You can only attach 5 images per conversation
 msgctxt "Error message when total image count exceeds conversation limit"
 msgid "You can only attach %s images per conversation."
-msgstr "이미지는 대화당 %1$s 개만 첨부할 수 있습니다."
+msgstr "이미지는 대화당 %1$s개만 첨부할 수 있습니다."
 
 # smartling.placeholder_format=C
 #. Error message displayed when the user has select more images than are allowed to be uploaded.
@@ -19706,7 +19742,7 @@ msgstr "이미지는 한 번에 1장만 첨부할 수 있습니다"
 #. Error message displayed when the user has select more images than are allowed to be uploaded.
 msgctxt "Error message when input exceeds image upload limit"
 msgid "You can only attach 1 image at a time."
-msgstr "이미지는 한 번에 1장만 첨부할 수 있습니다"
+msgstr "이미지는 한 번에 1장만 첨부할 수 있습니다."
 
 # smartling.placeholder_format=C
 #. Message that appears when a site is blocked unsuccessfully
@@ -20219,7 +20255,7 @@ msgstr "데이터를 보유하지 않습니다"
 msgctxt ""
 "Label copy indicating that an AI Model runs in an encrypted environment"
 msgid "Zero provider visibility"
-msgstr "공급자의 가시성이 전혀 없습니다."
+msgstr "공급자 가시성 제로"
 
 # smartling.placeholder_format=C
 #. Title for the privacy claim that the model provider cannot access user data because inference runs in an encrypted environment.
