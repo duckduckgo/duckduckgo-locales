@@ -2405,6 +2405,12 @@ msgid "Bermuda"
 msgstr "Bermuda"
 
 # smartling.placeholder_format=C
+#. Label for the best answer badge in the rich caption upvote carousel.
+msgctxt "Rich caption upvote carousel, best answer badge"
+msgid "Best answer"
+msgstr "Miglior risposta"
+
+# smartling.placeholder_format=C
 msgctxt "settingsvalue"
 msgid "Best available"
 msgstr "Migliore disponibile"
@@ -3459,6 +3465,15 @@ msgstr "Le chat non vengono salvate"
 msgctxt "duckai_migration"
 msgid "Chats downloaded securely"
 msgstr "Chat scaricate in modo sicuro"
+
+# smartling.placeholder_format=C
+#. Body text shown on the inline disclaimer above the chat input when the file-storage sync quota is full.
+msgctxt "Sync file storage inline disclaimer body"
+msgid ""
+"Chats with attachments have stopped syncing. Free up storage to resume Sync."
+msgstr ""
+"Le chat con gli allegati hanno smesso di sincronizzarsi. Libera spazio per "
+"riprendere la sincronizzazione."
 
 # smartling.placeholder_format=C
 #. Message shown when we have no data from upstream to display
@@ -4942,6 +4957,12 @@ msgid "Delete"
 msgstr "Elimina"
 
 # smartling.placeholder_format=C
+#. Primary action that deletes the oldest chats containing files. %s is replaced with the batch-size cap (currently 10), matching the count in the modal description.
+msgctxt "Sync file storage limit modal primary button"
+msgid "Delete %s Oldest Chats"
+msgstr "Elimina %1$s chat più vecchie"
+
+# smartling.placeholder_format=C
 #. Text for the tooltip on button to delete selected chats in the batch actions toolbar. %s is replaced with the number of selected chats. This will always be plural.
 msgctxt ""
 "Tooltip on delete button for batch actions toolbar when chats are selected."
@@ -4991,6 +5012,12 @@ msgid "Delete Transcript"
 msgstr "Elimina trascrizione"
 
 # smartling.placeholder_format=C
+#. Tooltip text that appears when hovering over the delete chat button in the chat history list.
+msgctxt "Tooltip label for the delete chat button"
+msgid "Delete chat"
+msgstr "Elimina chat"
+
+# smartling.placeholder_format=C
 #. Text for the tooltip on button to delete a single selected chat in the batch actions toolbar. This will always be singular.
 msgctxt ""
 "Tooltip on delete button for batch actions toolbar when only one chat is "
@@ -5015,6 +5042,12 @@ msgstr "Elimina immagine"
 msgctxt "Title for delete image confirmation modal"
 msgid "Delete image?"
 msgstr "Eliminare l'immagine?"
+
+# smartling.placeholder_format=C
+#. Title shown when user has reached the file storage sync quota (5GB).
+msgctxt "Sync file storage limit modal title"
+msgid "Delete oldest chats to free up storage?"
+msgstr "Eliminare le chat più vecchie per liberare spazio di archiviazione?"
 
 # smartling.placeholder_format=C
 #. Title of a modal that asks the user if they want to delete all recent chats.
@@ -7146,6 +7179,12 @@ msgstr "Gratuito"
 msgctxt "Text for the free upgrade badge"
 msgid "Free Plan"
 msgstr "Piano gratuito"
+
+# smartling.placeholder_format=C
+#. Opens the file storage limit modal so the user can delete older chats.
+msgctxt "Sync file storage inline disclaimer primary button"
+msgid "Free Up Storage"
+msgstr "Libera spazio di archiviazione"
 
 # smartling.placeholder_format=C
 #. Text describing that chats are free, private and anonymized by us. Chats in this context are chats with AI (Artificial Intelligence) models, like GPT.
@@ -11488,6 +11527,12 @@ msgid "Not Now"
 msgstr "Non adesso"
 
 # smartling.placeholder_format=C
+#. Button on an inline disclaimer above the chat input that lets the user hide the file-storage-full warning for this browsing session.
+msgctxt "Sync file storage inline disclaimer dismiss button"
+msgid "Not Now"
+msgstr "Non adesso"
+
+# smartling.placeholder_format=C
 #. A feedback suggestion
 msgctxt "Feedback prompt"
 msgid "Not enough information"
@@ -15239,6 +15284,13 @@ msgid "See merchant reviews on bing.com"
 msgstr "Leggi le recensioni dei commercianti su bing.com"
 
 # smartling.placeholder_format=C
+#. Link text shown below a rich caption dated list in search results. The placeholder %s is the website domain name, e.g. 'wikipedia.org'.
+msgctxt ""
+"Rich caption dated list, see more link that adds domain inclusion to query"
+msgid "See more from %s"
+msgstr "Vedi di più da %1$s"
+
+# smartling.placeholder_format=C
 #. Link text shown below a rich caption tabbed snippet in search results. The placeholder %s is the website domain name, e.g. 'wikipedia.org'.
 msgctxt "Rich caption tabbed snippet, see more link"
 msgid "See more on %s"
@@ -15268,6 +15320,14 @@ msgid "See the %sURL Parameter Reference page%s for more details."
 msgstr ""
 "Per ulteriori dettagli visita la %1$spagina di riferimento dei parametri "
 "URL%2$s."
+
+# smartling.placeholder_format=C
+#. Text for a button that appears in the context menu of a chat in chat history, that allows the user to select the chat and begin batch selection mode.
+msgctxt ""
+"Button text for selecting a chat in the context menu in chat history and "
+"begin batch selection mode."
+msgid "Select"
+msgstr "Seleziona"
 
 # smartling.placeholder_format=C
 #. Aria label for the checkbox in the chat history list item that allows the user to select a chat for batch actions. %s is replaced with the title of the chat.
@@ -15452,6 +15512,13 @@ msgid "Select %syour browser%s in the list and %sallow%s location access"
 msgstr ""
 "Seleziona %1$sil tuo browser%2$s nell'elenco e %3$sconsenti%4$s l'accesso "
 "alla posizione"
+
+# smartling.placeholder_format=C
+#. Text for a button that appears in the modal for deleting all recent chats, that allows the user to select the chats to delete.
+msgctxt ""
+"Button text for selecting chats in the modal for deleting all recent chats"
+msgid "Select Chats"
+msgstr "Seleziona le chat"
 
 #  Safari default search engine instruction
 # smartling.placeholder_format=C
@@ -21127,6 +21194,17 @@ msgctxt "voice chat limit modal"
 msgid ""
 "You've reached the voice chat limit for today. Please try again tomorrow."
 msgstr "Hai raggiunto il limite di chat vocale per oggi. Riprova domani."
+
+# smartling.placeholder_format=C
+#. Description explaining that Sync & Backup storage for chats with attachments is full and deleting the oldest such chats will resume syncing. %s is replaced with the batch-size cap (currently 10). The dispatch deletes AT MOST this many unpinned chats with files; the placeholder value is the upper bound, not the exact count.
+msgctxt "Sync file storage limit modal description"
+msgid ""
+"You've run out of Sync & Backup storage for Duck.ai chats with attachments. "
+"Delete the %s oldest chats to resume Sync. Pinned chats will not be deleted."
+msgstr ""
+"Hai esaurito lo spazio di archiviazione Sync & Backup per le chat di Duck.ai "
+"con allegati. Elimina le %1$s chat più vecchie per riprendere la "
+"sincronizzazione. Le chat fissate non verranno eliminate."
 
 # smartling.placeholder_format=C
 #. Title shown when user has reached the sync storage limit.
