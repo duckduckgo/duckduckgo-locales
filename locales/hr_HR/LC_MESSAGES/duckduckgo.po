@@ -342,6 +342,30 @@ msgid "%s will be hidden from your search results."
 msgstr "%1$s će biti skriveno iz tvojih rezultata pretraživanja."
 
 # smartling.placeholder_format=C
+#. Displayed in a saved chat when its AI model is scheduled to be retired in more than one day. First placeholder is the friendly model name, second placeholder is the number of days remaining (integer >= 2), third placeholder is the removal date formatted in the user's browser locale (e.g., 'June 15, 2026' in en-US). Plural-day form.
+msgctxt ""
+"AI Chat: Pre-deprecation notice shown in a saved chat with the number of "
+"days remaining until the model is retired"
+msgid ""
+"%s will be leaving Duck.ai in %s days (%s). After that, you can switch "
+"models to continue this chat."
+msgstr ""
+"%1$s će napustiti Duck.ai za %2$s dana (%3$s). Nakon toga možeš promijeniti "
+"model kako bi nastavio ovaj razgovor."
+
+# smartling.placeholder_format=C
+#. Displayed in a saved chat when its AI model is about to be retired tomorrow. First placeholder is the friendly model name, second placeholder is the removal date formatted in the user's browser locale (e.g., 'June 15, 2026' in en-US). Singular-day form.
+msgctxt ""
+"AI Chat: Pre-deprecation notice shown in a saved chat exactly one day before "
+"the model is retired"
+msgid ""
+"%s will be leaving Duck.ai in 1 day (%s). After that, you can switch models "
+"to continue this chat."
+msgstr ""
+"%1$s će napustiti Duck.ai za 1 dan (%2$s). Nakon toga možeš promijeniti "
+"model kako bi nastavio ovaj razgovor."
+
+# smartling.placeholder_format=C
 #. Instructions on which buttons and options the user has to click in order to add the DuckDuckGo extension to their browser.
 msgctxt "install-duckduckgo"
 msgid "%sClick %sAdd%sCheck %sAllow%s, then click %sOkay%s"
@@ -489,6 +513,12 @@ msgstr "(Trenutačna kartica)"
 #. A suffix on a filter option indicating it is the one that is in effect if no other filter is chosen
 msgid "(Default)"
 msgstr "(zadano)"
+
+# smartling.placeholder_format=C
+#. Renders to the right of the device name for the row that matches this device's id.
+msgctxt "Suffix marking the current device in the synced devices list"
+msgid "(This device)"
+msgstr "(Ovaj uređaj)"
 
 # smartling.placeholder_format=C
 #. Displaying 1 review for a website
@@ -749,6 +779,11 @@ msgstr "9."
 #. Text for the query that is displayed in the Search Assist introduction. For example: Get an answer for 'How to wash a car'.
 msgid "<strong>Generate answer for</strong> %s"
 msgstr "<strong>Generiraj odgovor za</strong> %1$s"
+
+# smartling.placeholder_format=C
+#. Label inside the compact Search Assist button at the top of search results. The bold prefix precedes the user's query and the text is ellipsized to a single line. For example: 'Show answer for How to wash a car'.
+msgid "<strong>Show answer for</strong> %s"
+msgstr "<strong>Prikaži odgovor za</strong> %1$s"
 
 # smartling.placeholder_format=C
 #. Indicates the Win-Loss record of a team when playing away
@@ -1574,6 +1609,19 @@ msgid "Allow privacy-respecting ads on DuckDuckGo Private Search"
 msgstr "Dopusti oglase koji poštuju privatnost na DuckDuckGo Private Searchu"
 
 # smartling.placeholder_format=C
+#. Description explaining privacy implications of enabling web search on encrypted models. The first two placeholders are the full model name (e.g. 'gpt-oss 120B'). The third and fourth placeholders wrap a clickable link reading 'zero provider visibility' that opens the privacy modal, please keep those around the link text in your translation. An example full sentence would be: Allows gpt-oss 120B to search the web to improve responses to relevant prompts. Only sends AI-generated queries to a search engine with limited data retention. Prompts and responses with gpt-oss 120B still have zero provider visibility.
+msgctxt "DuckChat web search permission prompt for encrypted models"
+msgid ""
+"Allows %s to search the web to improve responses to relevant prompts. Only "
+"sends AI-generated queries to a search engine with limited data retention. "
+"Prompts and responses with %s still have %szero provider visibility%s."
+msgstr ""
+"Omogućuje da %1$s pretražuje web radi poboljšanja odgovora na relevantne "
+"upite. Šalje samo upite generirane umjetnom inteligencijom tražilici s "
+"ograničenim zadržavanjem podataka. Upiti i odgovori, kada se koristi %2$s, i "
+"dalje imaju %3$snultu vidljivost pružatelja usluga%4$s."
+
+# smartling.placeholder_format=C
 msgctxt "settings"
 msgid ""
 "Allows Cloud Save key to be stored locally on device (required to use Cloud "
@@ -2149,10 +2197,20 @@ msgid "Audio"
 msgstr "Audio"
 
 # smartling.placeholder_format=C
+#. Description for the data retention highlight in the dictation consent modal.
+msgid "Audio is not stored by us or by OpenAI after the chat ends."
+msgstr "Nakon završetka čavrljanja, zvuk ne pohranjujemo ni mi ni OpenAI."
+
+# smartling.placeholder_format=C
 #. Description in consent disclaimer informing that audio from the voice chat session is not stored by us or by OpenAI after the voice chat ends.
 msgctxt "voice chat"
 msgid "Audio is not stored by us or by OpenAI after the chat ends."
 msgstr "Nakon završetka čavrljanja, zvuk ne pohranjujemo ni mi ni OpenAI."
+
+# smartling.placeholder_format=C
+#. Error in the duck.ai chat input when MediaRecorder API is unavailable.
+msgid "Audio recording is not supported in this browser."
+msgstr "Snimanje zvuka nije podržano u ovom pregledniku."
 
 # smartling.placeholder_format=C
 msgid "Australia"
@@ -2313,6 +2371,14 @@ msgstr "Natrag"
 msgctxt "duckai_migration"
 msgid "Back to Duck.ai"
 msgstr "Natrag na Duck.ai"
+
+# smartling.placeholder_format=C
+#. Mobile-only. Renders below the Paste button with a back-arrow icon. Switches consumeMode from paste back to scan in SyncAnotherDevicePane.
+msgctxt ""
+"Secondary CTA on the Enter Code body that returns the user to the camera "
+"scanner"
+msgid "Back to Scan"
+msgstr "Povratak na skeniranje"
 
 # smartling.placeholder_format=C
 #. Button that takes the user to the DuckDuckGo search page.
@@ -2902,6 +2968,15 @@ msgstr ""
 "podaci ne spremaju se u oblak, a lozinka uvijek ostaje u pregledniku."
 
 # smartling.placeholder_format=C
+#. Description for the consent highlight in the dictation consent modal. %s is replaced with a link to the help page.
+msgid ""
+"By enabling dictation, you consent to your voice data being sent to OpenAI "
+"for the use of this feature. See our %s before getting started."
+msgstr ""
+"Omogućavanjem diktiranja pristaješ na slanje svojih glasovnih podataka "
+"OpenAI-u za korištenje ove značajke. Pogledaj %1$s prije nego što započneš."
+
+# smartling.placeholder_format=C
 #. Description for the 'enable voice chat' section of the voice chat consent modal. Placeholder for the voice chat help page link and text. Example: 'By enabling voice chat, you consent to your voice data being sent to OpenAI for the use of this feature. See our voice chat help page before getting started.'
 msgctxt "voice chat"
 msgid ""
@@ -2986,6 +3061,24 @@ msgstr "Otkaži"
 # smartling.placeholder_format=C
 #. Text displayed on the secondary button in the modal that cancels the action when clicked.
 msgctxt "Modal secondary button text"
+msgid "Cancel"
+msgstr "Otkaži"
+
+# smartling.placeholder_format=C
+#. Closes the recover sheet and returns the user to the Sync & Backup intro screen.
+msgctxt "Secondary CTA on the recover-data intro sheet"
+msgid "Cancel"
+msgstr "Otkaži"
+
+# smartling.placeholder_format=C
+#. Returns the user to Manage Devices without making changes.
+msgctxt "Secondary action that dismisses the Delete Server Data modal"
+msgid "Cancel"
+msgstr "Otkaži"
+
+# smartling.placeholder_format=C
+#. Returns the user to Manage Devices without making changes.
+msgctxt "Secondary action that dismisses the Remove Device modal"
 msgid "Cancel"
 msgstr "Otkaži"
 
@@ -4501,6 +4594,12 @@ msgid "Continue"
 msgstr "Nastavi"
 
 # smartling.placeholder_format=C
+#. Primary CTA on the intro screen on desktop; no leading icon per Figma.
+msgctxt "Primary button on the Sync & Backup intro screen (desktop)"
+msgid "Continue"
+msgstr "Nastavi"
+
+# smartling.placeholder_format=C
 #. Button that validates the pasted pairing payload and advances to the synced state or the wrong code state.
 msgctxt "Submit button for the manual paste fallback"
 msgid "Continue"
@@ -4562,6 +4661,11 @@ msgid "Conversions"
 msgstr "Konverzije"
 
 # smartling.placeholder_format=C
+#. Description for the dictation toggle in the duck.ai settings modal.
+msgid "Convert speech to text using your microphone."
+msgstr "Pretvori govor u tekst pomoću mikrofona."
+
+# smartling.placeholder_format=C
 msgid "Cook Islands"
 msgstr "Cookovi otoci"
 
@@ -4579,6 +4683,12 @@ msgid "Copied"
 msgstr "Kopirano"
 
 # smartling.placeholder_format=C
+#. Renders a check icon + this label as a small pill replacing the Copy button for 2 seconds. Distinct from DUCKCHAT_SYNC_RECOVERY_COPIED_LABEL because that key is an aria-label.
+msgctxt "Confirmation pill shown after the user taps Copy on the View Code tab"
+msgid "Copied"
+msgstr "Kopirano"
+
+# smartling.placeholder_format=C
 #. Text of a tooltip displayed when the user has copied the text content after pressing a button
 msgctxt "Text for a button after copying content to the clipboard"
 msgid "Copied"
@@ -4587,6 +4697,12 @@ msgstr "Kopirano"
 # smartling.placeholder_format=C
 #. Button text to copy the generation prompt (shown as the modal description) to the clipboard.
 msgctxt "Button label for image info modal"
+msgid "Copy"
+msgstr "Kopiraj"
+
+# smartling.placeholder_format=C
+#. Sits below the recovery code text on the View Code tab. Briefly replaced by a 'Copied' confirmation pill on click.
+msgctxt "Button label that copies the recovery code text to clipboard"
 msgid "Copy"
 msgstr "Kopiraj"
 
@@ -4600,6 +4716,12 @@ msgstr "Kopiraj i zalijepi %1$sabout:preferences#search%2$s u adresnu traku"
 msgctxt "Text for a button for copying preformatted code block content"
 msgid "Copy Code"
 msgstr "Kopiraj šifru"
+
+# smartling.placeholder_format=C
+#. Centered line above the recovery token in the holding panel, aligned with Figma 435:111290 (manual code / recovery layout).
+msgctxt "Heading inside the recovery code panel"
+msgid "Copy or save this code"
+msgstr "Kopiraj ili spremi ovu šifru"
 
 # smartling.placeholder_format=C
 #. Aria label for the icon button that copies the recovery code to the clipboard.
@@ -5106,6 +5228,18 @@ msgid "Delete My Data"
 msgstr "Izbriši moje podatke"
 
 # smartling.placeholder_format=C
+#. Calls /delete-account and then clears local sync credentials.
+msgctxt "Destructive action that deletes the entire sync account"
+msgid "Delete Server Data"
+msgstr "Brisanje podataka poslužitelja"
+
+# smartling.placeholder_format=C
+#. Asks the user to confirm wiping the server-side backup and disconnecting all devices.
+msgctxt "Title for the destructive Delete Server Data confirmation modal"
+msgid "Delete Server Data?"
+msgstr "Izbrisati podatke poslužitelja?"
+
+# smartling.placeholder_format=C
 #. Button text to delete a voice chat transcript.
 msgctxt "voice chat transcript"
 msgid "Delete Transcript"
@@ -5221,10 +5355,42 @@ msgid "Developer"
 msgstr "Razvojni inženjer"
 
 # smartling.placeholder_format=C
+#. Shown after a recovery code is applied and the device joins the sync account. Figma frame 3704-32225.
+msgctxt "Modal header for the recover-data success sheet"
+msgid "Device Synced!"
+msgstr "Uređaj je sinkroniziran!"
+
+# smartling.placeholder_format=C
 #. Title shown after the two devices have successfully paired.
 msgctxt "Title for the success screen"
 msgid "Devices Synced"
 msgstr "Uređaji su sinkronizirani"
+
+# smartling.placeholder_format=C
+#. Accessible label for the microphone button in the duck.ai chat input toolbar.
+msgid "Dictate"
+msgstr "Diktirati"
+
+# smartling.placeholder_format=C
+#. Title for the dictation toggle in the duck.ai settings modal.
+msgid "Dictation"
+msgstr "Diktat"
+
+# smartling.placeholder_format=C
+#. Description for the privacy highlight in the dictation consent modal.
+msgid "Dictation is anonymized by us, and never used to train AI models."
+msgstr ""
+"Diktiranje je anonimizirano kod nas i nikada se ne koristi za obuku AI "
+"modela."
+
+# smartling.placeholder_format=C
+#. Subtitle text in the dictation privacy consent modal explaining the feature.
+msgid ""
+"Dictation uses an OpenAI model to convert your speech to text, so you can "
+"chat in Duck.ai without having to type."
+msgstr ""
+"Diktiranje koristi OpenAI model za pretvaranje tvog govora u tekst, tako da "
+"možeš razgovarati u Duck.ai bez potrebe za tipkanjem."
 
 # smartling.placeholder_format=C
 #. In 0-click box -- link to definition.
@@ -6059,6 +6225,14 @@ msgid "DuckDuckGo AI Chat is temporarily unavailable. Please try again later."
 msgstr "DuckDuckGo AI Chat trenutačno nije dostupan. Pokušaj ponovno nešto kasnije."
 
 # smartling.placeholder_format=C
+#. Used in the desktop electron app instead of 'DuckDuckGo Subscription' since purchases happen on duckduckgo.com, not in the app.
+msgctxt ""
+"Title of the DuckDuckGo account setting located on the settings modal "
+"(electron desktop app variant)"
+msgid "DuckDuckGo Account"
+msgstr "DuckDuckGo račun"
+
+# smartling.placeholder_format=C
 #. this is either the title that gets created by opening https://duckduckgo.com/duckduckbot or the top header in https://duckduckgo.com/duckduckbot
 msgid "DuckDuckGo Bot"
 msgstr "DuckDuckGo Bot"
@@ -6420,6 +6594,16 @@ msgid "Enable Cloud Save by entering your existing passphrase."
 msgstr "Omogući uslugu Cloud Save unošenjem postojeće lozinke."
 
 # smartling.placeholder_format=C
+#. Title for the consent highlight in the dictation consent modal.
+msgid "Enable Dictation"
+msgstr "Omogući diktiranje"
+
+# smartling.placeholder_format=C
+#. Title of the dictation privacy consent modal shown on first use.
+msgid "Enable Dictation in Duck.ai"
+msgstr "Omogući diktiranje u Duck.ai"
+
+# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Enable Duck.ai Instant Answers"
 msgstr "Omogući izravne odgovore Duck.ai"
@@ -6467,6 +6651,12 @@ msgid "Enable Voice Chat"
 msgstr "Omogući glasovno čavrljanje"
 
 # smartling.placeholder_format=C
+#. Button to approve web search for the current conversation, shown inside an in-chat permission card in Duck.ai
+msgctxt "DuckChat web search permission prompt for encrypted models"
+msgid "Enable Web Search"
+msgstr "Omogući pretraživanje weba"
+
+# smartling.placeholder_format=C
 #. Tells users how to enable location service on their device.
 msgid ""
 "Enable anonymous location for more accurate results. You can always change "
@@ -6486,6 +6676,12 @@ msgstr "Omogući postavke lokacije na uređaju za korištenje anonimne lokacije"
 msgctxt "precise_user_location"
 msgid "Enable the Location setting on your phone."
 msgstr "Omogući postavku lokacije na mobilnom telefonu."
+
+# smartling.placeholder_format=C
+#. Title of the web search permission prompt shown for zero-provider-visibility models, shown inside an in-chat permission card in Duck.ai
+msgctxt "DuckChat web search permission prompt for encrypted models"
+msgid "Enable web search for this chat?"
+msgstr "Omogućiti pretraživanje weba za ovo čavrljanje?"
 
 # smartling.placeholder_format=C
 #. Text for the label that indicates the feature is enabled.
@@ -6649,6 +6845,12 @@ msgstr "Provjeri je li tvom pregledniku dopušten pristup lokaciji."
 #. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
 msgid "Enter %shttps://duckduckgo.com%s"
 msgstr "Unesi %1$shttps://duckduckgo.com%2$s"
+
+# smartling.placeholder_format=C
+#. Always visible on desktop. On mobile, replaces Scan QR Code as the first tab label after the user taps Manually Enter Code.
+msgctxt "Tab label for the manual-entry side of the Sync Another Device pane"
+msgid "Enter Code"
+msgstr "Unesi šifru"
 
 # smartling.placeholder_format=C
 #. A placeholder for the AI Chat prompt input when used in the context of asking follow-up questions based on a DuckAssist reponse
@@ -7962,6 +8164,12 @@ msgid "Goodies"
 msgstr "Zgodni alati"
 
 # smartling.placeholder_format=C
+#. Button label that the user clicks to acknowledge and dismiss the pre-deprecation notice for a retiring AI model. Keep brief.
+msgctxt "AI Chat: Dismiss button on the pre-deprecation notice"
+msgid "Got It"
+msgstr "U redu"
+
+# smartling.placeholder_format=C
 #. A button that closes the welcome modal.
 msgctxt "Button on the subscription welcome modal"
 msgid "Got It"
@@ -8690,6 +8898,11 @@ msgstr "Kako radi generator za zaporku?"
 msgctxt "cloudsave"
 msgid "How is it anonymous?"
 msgstr "Kako je osigurana anonimnost?"
+
+# smartling.placeholder_format=C
+#. Link text in the dictation settings section that opens the dictation privacy info modal.
+msgid "How it works"
+msgstr "Kako funkcionira"
 
 # smartling.placeholder_format=C
 #. Text for the link that takes the user to the a model with more information about a feature.
@@ -10147,6 +10360,14 @@ msgid "Log Out"
 msgstr "Odjava"
 
 # smartling.placeholder_format=C
+#. Used in the desktop electron app to take an existing DuckDuckGo account holder to the login flow. Replaces 'I already have a subscription' wording, since the app does not host purchases.
+msgctxt ""
+"Text for the link that lets a user log into their existing DuckDuckGo "
+"account (electron desktop app variant)"
+msgid "Login to your existing DuckDuckGo account"
+msgstr "Prijavi se na svoj postojeći DuckDuckGo račun"
+
+# smartling.placeholder_format=C
 #. Filters the duration of videos in search results.
 msgctxt "video-duration"
 msgid "Long"
@@ -10399,6 +10620,12 @@ msgid "Manage sites you've blocked"
 msgstr "Upravljaj mrežnim lokacijama koje si blokirao"
 
 # smartling.placeholder_format=C
+#. Button that switches the consume tab from camera scan to paste-textarea entry. Only shown when getUserMedia fails (permission denied, no device, etc.).
+msgctxt "Fallback CTA shown below a failed camera viewfinder"
+msgid "Manually Enter Code"
+msgstr "Ručno unesi šifru"
+
+# smartling.placeholder_format=C
 #. Text link below the camera viewport that takes the user to the manual paste screen instead of scanning a QR code.
 msgctxt "Link on the Scan screen that switches to manual paste"
 msgid "Manually Enter Code"
@@ -10604,6 +10831,12 @@ msgstr "Meksiko"
 # smartling.placeholder_format=C
 msgid "Micronesia"
 msgstr "Mikronezija"
+
+# smartling.placeholder_format=C
+#. Error in the duck.ai chat input when the user denies microphone access for dictation.
+msgid ""
+"Microphone access was denied. Please allow microphone access and try again."
+msgstr "Pristup mikrofona je uskraćen. Dopusti pristup mikrofonu i pokušaj ponovno."
 
 # smartling.placeholder_format=C
 #. The Microsoft brand name.
@@ -11240,6 +11473,11 @@ msgid "Netherlands"
 msgstr "Nizozemska"
 
 # smartling.placeholder_format=C
+#. Error in the duck.ai chat input when a network error occurs during dictation upload.
+msgid "Network error. Please check your connection and try again."
+msgstr "Mrežna pogreška. Provjeri vezu i pokušaj ponovno."
+
+# smartling.placeholder_format=C
 #. The title of the 'Never' option in the assist settings modal.
 msgctxt "duckassist"
 msgid "Never"
@@ -11256,6 +11494,12 @@ msgstr "Novo"
 msgctxt "Button label for starting a new chat"
 msgid "New Chat"
 msgstr "Novo čavrljanje"
+
+# smartling.placeholder_format=C
+#. Title shown after the two devices have successfully paired.
+msgctxt "Title for the success screen"
+msgid "New Device Added!"
+msgstr "Dodan je novi uređaj!"
 
 # smartling.placeholder_format=C
 #. Label for a button that starts a new AI image generation session. Appears in the UI where users can initiate a new image creation.
@@ -11461,6 +11705,12 @@ msgid "No Thanks"
 msgstr "Ne, hvala"
 
 # smartling.placeholder_format=C
+#. Button to decline web search for the current conversation, shown inside an in-chat permission card in Duck.ai
+msgctxt "DuckChat web search permission prompt for encrypted models"
+msgid "No Thanks"
+msgstr "Ne, hvala"
+
+# smartling.placeholder_format=C
 #. Text describing how DuckDuckGo doesn't track its users.
 msgid "No Tracking. Ever."
 msgstr "Bez praćenja. Ikad."
@@ -11482,6 +11732,11 @@ msgstr "Bez sadržaja za odrasle"
 msgctxt "voice chat"
 msgid "No audio gets stored"
 msgstr "Nikakav audio zapis se ne pohranjuje"
+
+# smartling.placeholder_format=C
+#. Title for the audio identification highlight in the dictation consent modal.
+msgid "No audio identification"
+msgstr "Nema glasovne identifikacije"
 
 # smartling.placeholder_format=C
 #. Title for the section explaining that we do not use the user's voice to identify them.
@@ -12761,10 +13016,22 @@ msgid "Past year"
 msgstr "Prošla godina"
 
 # smartling.placeholder_format=C
+#. Reads the system clipboard when the textarea is empty (and submits) or submits whatever the user typed. Paired with a clipboard icon. Was 'Continue' historically; renamed to match the design's clipboard-first UX.
+msgctxt "Primary CTA on the Enter Code body"
+msgid "Paste"
+msgstr "Zalijepi"
+
+# smartling.placeholder_format=C
 #. Placeholder text inside the textarea where the user can paste the pairing payload as a fallback.
 msgctxt "Placeholder for the manual paste textarea"
 msgid "Paste pairing code"
 msgstr "Zalijepi kôd za uparivanje"
+
+# smartling.placeholder_format=C
+#. Placeholder text inside the textarea where the user can paste the pairing payload from another device.
+msgctxt "Placeholder for the manual paste textarea"
+msgid "Paste your code here"
+msgstr "Zalijepi svoju šifru ovdje"
 
 # smartling.placeholder_format=C
 #. Text for the label that indicates the feature is paused.
@@ -13217,6 +13484,12 @@ msgid "Podiums"
 msgstr "Podiji"
 
 # smartling.placeholder_format=C
+#. Renders as a small dark pill near the bottom of the viewfinder while the camera is live. Guides the user to aim at another device's QR.
+msgctxt "Overlay caption inside the camera viewfinder area"
+msgid "Point Camera at QR to Scan"
+msgstr "Usmjeri kameru prema QR-u za skeniranje"
+
+# smartling.placeholder_format=C
 #. Indicates these are the total points of this team, in e.g. the soccer World Cup
 msgctxt "Sports module"
 msgid "Points"
@@ -13632,6 +13905,11 @@ msgstr "Privatno pretraživanje"
 # smartling.placeholder_format=C
 msgid "Private Search Engine"
 msgstr "Private Search Engine"
+
+# smartling.placeholder_format=C
+#. Title for the privacy highlight in the dictation consent modal.
+msgid "Private by design"
+msgstr "Privatno i prilagođeno"
 
 # smartling.placeholder_format=C
 #. Title for the privacy respecting description section of the voice chat consent modal.
@@ -14052,6 +14330,23 @@ msgid "Recommend a book"
 msgstr "Preporuči knjigu"
 
 # smartling.placeholder_format=C
+#. Error in the duck.ai chat input when a WebKit encoder failure produces an empty audio blob.
+msgid "Recording failed. Please try again."
+msgstr "Snimanje nije uspjelo. Pokušaj ponovno."
+
+# smartling.placeholder_format=C
+#. Opens the Restore Your Chats sheet. Shown before Help Pages in the intro footer per desktop Figma.
+msgctxt "Footer link on the Sync & Backup intro (choose) screen"
+msgid "Recover Synced Data"
+msgstr "Oporavak sinkroniziranih podataka"
+
+# smartling.placeholder_format=C
+#. Label preceding the recovery code description and Save Recovery Code button.
+msgctxt "Section header for the recovery code area inside Manage"
+msgid "Recovery"
+msgstr "Oporavak"
+
+# smartling.placeholder_format=C
 #. Used for various color settings  query parameters values captions into <a =href="https://duckduckgo.com/params.html">query parameters documentation page</a>.
 msgid "Red"
 msgstr "Crvena"
@@ -14261,6 +14556,12 @@ msgid "Remind Me Later"
 msgstr "Podsjeti me kasnije"
 
 # smartling.placeholder_format=C
+#. Calls /logout-device with the target device id and removes the row optimistically. Note: `device sync session` is intentional (no apostrophe) because the token-loader uses single-quoted JS strings for the context field.
+msgctxt "Destructive action that revokes the selected device sync session"
+msgid "Remove"
+msgstr "Ukloni"
+
+# smartling.placeholder_format=C
 #. Screen-reader label for the close button on the chip that indicates an active per-turn tool selection (e.g. 'Remove Create Image' or 'Remove Web Search'). %s is replaced with the localized tool label.
 msgctxt ""
 "Accessibility label for the remove button on a tool chip above the chat input"
@@ -14274,10 +14575,22 @@ msgid "Remove %s"
 msgstr "Ukloni %1$s"
 
 # smartling.placeholder_format=C
+#. Asks the user to confirm revoking another device's sync session.
+msgctxt "Title for the destructive Remove Device confirmation modal"
+msgid "Remove Device?"
+msgstr "Želiš li ukloniti uređaj?"
+
+# smartling.placeholder_format=C
 #. Text for a button that removes a pin from a chat, as in it will it will remove the chat from the pinned chats list.
 msgctxt "Button for removing a pin from a chat"
 msgid "Remove Pin"
 msgstr "Ukloni pribadaču"
+
+# smartling.placeholder_format=C
+#. Used as aria-label on the small remove button next to a non-current device.
+msgctxt "Accessibility label for the per-row remove button in Manage Devices"
+msgid "Remove device"
+msgstr "Ukloni uređaj"
 
 # smartling.placeholder_format=C
 #. Accessible label for the button that removes an attached image from the Duck.ai chat message. %s is the image number, e.g. 'Remove image 1'.
@@ -14494,6 +14807,12 @@ msgstr ""
 msgctxt "new tab page"
 msgid "Restore all"
 msgstr "Vrati sve"
+
+# smartling.placeholder_format=C
+#. Shown on the explainer sheet the user lands on from the Recover Synced Data link. Figma frame 3703-44420.
+msgctxt "Modal header for the recover-data intro sheet"
+msgid "Restore your chats"
+msgstr "Obnovi svoja čavrljanja"
 
 # smartling.placeholder_format=C
 #. Text for the button that takes the user to the page where they can resubscribe to DuckDuckGo.
@@ -14894,6 +15213,13 @@ msgid "Save up to 30 of your most recent chats locally on your device."
 msgstr "Spremi do 30 svojih najnovijih čavrljanja lokalno na svom uređaju."
 
 # smartling.placeholder_format=C
+#. Desktop/mobile intro modal body under the title per Sync Chats Figma (choose step).
+msgctxt "Body copy for the Sync & Backup intro screen"
+msgid ""
+"Save your Duck.ai chats between your devices with end-to-end encryption."
+msgstr "Spremi svoja Duck.ai čavrljanja između uređaja pomoću end-to-end šifriranja."
+
+# smartling.placeholder_format=C
 #. Short description shown in Chat History settings when sync is enabled, explaining chats are saved across all devices.
 msgctxt "Description for Chat History when sync is enabled"
 msgid "Save your chats across all your devices."
@@ -14942,10 +15268,28 @@ msgid "Scan QR Code"
 msgstr "Skeniraj QR kôd"
 
 # smartling.placeholder_format=C
+#. Shown when the user is scanning the QR from their Recovery PDF or typing the code manually. Figma frame 3705-32811.
+msgctxt "Modal header for the recover-data scan/paste sheet"
+msgid "Scan QR Code"
+msgstr "Skeniraj QR kôd"
+
+# smartling.placeholder_format=C
+#. Mobile-only label. When active, the user sees the camera viewfinder for scanning another device's QR code.
+msgctxt "Tab label for the camera-scan side of the Sync Another Device pane"
+msgid "Scan QR Code"
+msgstr "Skeniraj QR kôd"
+
+# smartling.placeholder_format=C
 #. Screen-reader label set as the aria-label on the QR code SVG so users know what the image represents. Not visible on screen.
 msgctxt "Accessible label for the QR pairing code image"
 msgid "Scan This Code"
 msgstr "Skeniraj ovaj kôd"
+
+# smartling.placeholder_format=C
+#. Tells the user that either the QR or the text-form code below is what the other device should consume.
+msgctxt "Instruction text above the QR code in the View Code tab"
+msgid "Scan or copy this code to connect"
+msgstr "Skeniraj ili kopiraj ovaj kôd za povezivanje"
 
 # smartling.placeholder_format=C
 #. Title of a tab that displays a list of the season schedule for a team
@@ -15495,6 +15839,12 @@ msgid "See more from %s"
 msgstr "Pogledaj više od %1$s"
 
 # smartling.placeholder_format=C
+#. Link text shown below a rich caption accordion in search results. The placeholder %s is the website domain name, e.g. 'wikipedia.org'.
+msgctxt "Rich caption accordion, see more link"
+msgid "See more on %s"
+msgstr "Pogledaj više na %1$s"
+
+# smartling.placeholder_format=C
 #. Link text shown below a rich caption tabbed snippet in search results. The placeholder %s is the website domain name, e.g. 'wikipedia.org'.
 msgctxt "Rich caption tabbed snippet, see more link"
 msgid "See more on %s"
@@ -15880,10 +16230,22 @@ msgid "Set Up Now"
 msgstr "Postavi odmah"
 
 # smartling.placeholder_format=C
+#. Primary CTA on the intro screen on narrow/mobile viewports; starts setup on this device.
+msgctxt "Primary button on the Sync & Backup intro screen (mobile)"
+msgid "Set Up Now"
+msgstr "Postavi odmah"
+
+# smartling.placeholder_format=C
 #. Button label shown to DuckDuckGo native browser users to open the native sync flow.
 msgctxt "Setup button for native sync flow"
 msgid "Set Up Now"
 msgstr "Postavi odmah"
+
+# smartling.placeholder_format=C
+#. Title shown on the entry screen where the user chooses between setting up Sync & Backup or pairing with another device.
+msgctxt "Title for the Sync & Backup intro screen"
+msgid "Set Up Sync & Backup"
+msgstr "Postavi Sync & Backup"
 
 # smartling.placeholder_format=C
 #. Text prompting users to make DuckDuckGo the default search engine in their browser.
@@ -16150,6 +16512,11 @@ msgstr "Prikaži još %1$s"
 msgctxt "shopping_vertical"
 msgid "Show 1 more"
 msgstr "Prikaži još 1"
+
+# smartling.placeholder_format=C
+#. Accessible label for the compact Search Assist button. %s is replaced with the user's search query. For example: 'Show AI answer for How to wash a car'.
+msgid "Show AI answer for %s"
+msgstr "Prikaži AI odgovor za %1$s"
 
 # smartling.placeholder_format=C
 #. Button that displays more information about saved settings.
@@ -16991,6 +17358,12 @@ msgid "Statistics"
 msgstr "Statistika"
 
 # smartling.placeholder_format=C
+#. Section label preceding the Enabled/Paused indicator.
+msgctxt "Label for the sync status row inside the Manage modal"
+msgid "Status"
+msgstr "Status"
+
+# smartling.placeholder_format=C
 #. The label shown below the dax logo on the 3rd party app picker when the user wishes to stay on DuckDuckGo and use our mapping service for directions
 msgctxt "Third party map app picker feedback dialog"
 msgid "Stay on DuckDuckGo"
@@ -17035,6 +17408,11 @@ msgstr "Zaustavi"
 msgctxt "Stop ongoing streaming response from AI chat"
 msgid "Stop"
 msgstr "Zaustavi"
+
+# smartling.placeholder_format=C
+#. Accessible label for the microphone button while recording is active.
+msgid "Stop dictation"
+msgstr "Zaustavi diktiranje"
 
 # smartling.placeholder_format=C
 #. Text in a button that stops an ongoing streaming that is generating a response from the AI chat.
@@ -17412,6 +17790,12 @@ msgid "Sync & Backup"
 msgstr "Sinkronizacija i sigurnosno kopiranje"
 
 # smartling.placeholder_format=C
+#. Header of the Manage Devices modal opened from the settings sync tile.
+msgctxt "Title for the Manage Sync & Backup modal"
+msgid "Sync & Backup"
+msgstr "Sync & Backup"
+
+# smartling.placeholder_format=C
 #. Title shown after the user has successfully enabled Sync & Backup on this device.
 msgctxt "Title for the Sync & Backup setup success screen"
 msgid "Sync & Backup Enabled!"
@@ -17424,6 +17808,12 @@ msgid "Sync & Backup data can't be recovered after 18 months of inactivity."
 msgstr ""
 "Podaci sinkronizacije i sigurnosne kopije (Sync & Backup) ne mogu se "
 "oporaviti nakon 18 (ili više) mjeseci neaktivnosti."
+
+# smartling.placeholder_format=C
+#. Reuses the existing Sync Another Device pairing modal stack.
+msgctxt "Action that opens the pairing flow from inside Manage"
+msgid "Sync Another Device"
+msgstr "Sinkroniziraj drugi uređaj"
 
 # smartling.placeholder_format=C
 #. Shared header for every screen in the Sync Another Device flow: QR display, camera scan, camera-unavailable fallback, and explicit manual entry. The header stays constant throughout pairing.
@@ -17462,6 +17852,12 @@ msgstr "Sinkronizacija je pauzirana"
 msgctxt "Chat history with sync modal list item"
 msgid "Sync your chats across all of your devices."
 msgstr "Sinkroniziraj svoja čavrljanja na svim svojim uređajima."
+
+# smartling.placeholder_format=C
+#. Label preceding the list of devices currently registered to the account.
+msgctxt "Section header for the device list inside Manage Sync & Backup"
+msgid "Synced Devices"
+msgstr "Sinkronizirani uređaji"
 
 # smartling.placeholder_format=C
 msgid "Syria"
@@ -17762,6 +18158,11 @@ msgid "The attached files exceed the total size limit of %s MB."
 msgstr "Priložene datoteke prelaze ukupno ograničenje veličine od %1$s MB."
 
 # smartling.placeholder_format=C
+#. Error in the duck.ai chat input when the server rejects corrupt or unrecognized audio.
+msgid "The audio could not be processed. Please try recording again."
+msgstr "Zvučni zapis nije moguće obraditi. Pokušaj ponovno snimiti zvučni zapis."
+
+# smartling.placeholder_format=C
 #. Second paragraph explaining where the encryption key is stored on the entry screen.
 msgctxt "Second paragraph for the Sync & Backup intro screen"
 msgid ""
@@ -17800,6 +18201,11 @@ msgstr ""
 msgctxt "settings"
 msgid "The rendering method to use for interactive maps"
 msgstr "Metoda prikazivanja za interaktivne karte"
+
+# smartling.placeholder_format=C
+#. Error in the duck.ai chat input when the dictation upload request exceeds 30 seconds.
+msgid "The request timed out. Please try again."
+msgstr "Zahtjevu je isteklo vrijeme. Pokušaj ponovno."
 
 # smartling.placeholder_format=C
 #. Inform the users that "something" went wrong and we are unable to show any results.
@@ -18348,6 +18754,19 @@ msgstr ""
 "ispisati.%3$sKlikni na ikonu za ispis.%4$s"
 
 # smartling.placeholder_format=C
+#. Explains where the user can find their recovery code. Figma frame 3703-44420.
+msgctxt "Body copy on the recover-data intro sheet"
+msgid ""
+"To restore your synced data, you'll need the Recovery Code you saved when "
+"you first set up Sync. This code may have been saved as a PDF on the device "
+"you originally used to set up Sync."
+msgstr ""
+"Za vraćanje sinkroniziranih podataka trebat će ti šifra za oporavak koju si "
+"spremio prilikom prvog postavljanja sinkronizacije. Ta je šifra možda "
+"spremljena kao PDF na uređaju koji je izvorno korišten za postavljanje "
+"sinkronizacije."
+
+# smartling.placeholder_format=C
 #. Body text explaining that the user needs to update their DDG browser before migration can proceed.
 msgctxt "duckai_migration"
 msgid ""
@@ -18553,6 +18972,11 @@ msgstr ""
 msgctxt "tracker_stats"
 msgid "Tracking attempts blocked by DuckDuckGo will appear here"
 msgstr "Ovdje će se pojaviti pokušaji praćenja koje je blokirao DuckDuckGo"
+
+# smartling.placeholder_format=C
+#. Fallback error in the duck.ai chat input when dictation fails for an unknown reason.
+msgid "Transcription failed. Please try again."
+msgstr "Transkripcija nije uspjela. Pokušaj ponovno."
 
 # smartling.placeholder_format=C
 #. Primary button to update now.
@@ -18968,6 +19392,24 @@ msgstr "Turski"
 # smartling.placeholder_format=C
 msgid "Turkmenistan"
 msgstr "Turkmenistan"
+
+# smartling.placeholder_format=C
+#. Disconnects the current device from sync without deleting server data.
+msgctxt "Secondary action that disables sync on this device only"
+msgid "Turn Off Sync & Backup"
+msgstr "Isključi Sync & Backup"
+
+# smartling.placeholder_format=C
+#. Opens the Delete Server Data confirmation modal.
+msgctxt "Destructive link at the bottom of the Manage modal"
+msgid "Turn Off and Delete Server Data"
+msgstr "Isključi i izbriši podatke poslužitelja"
+
+# smartling.placeholder_format=C
+#. Short CTA for mobile / narrow settings and bottom sheets; same entry points as DUCKCHAT_SYNC_SETUP_BUTTON_TEXT.
+msgctxt "Encrypted storage setup button (third-party browsers, narrow width)"
+msgid "Turn On"
+msgstr "Uključi"
 
 # smartling.placeholder_format=C
 #. This is a button that lets the user play a video in our custom video player
@@ -19696,6 +20138,15 @@ msgid "Use in Safari"
 msgstr "Koristi u Safariju"
 
 # smartling.placeholder_format=C
+#. First sentence of the recovery section. The 18-month inactivity notice is rendered by the component using DUCKCHAT_SYNC_RECOVERY_INACTIVITY_NOTICE so both surfaces stay consistent.
+msgctxt "Description for the recovery section inside Manage"
+msgid ""
+"Use this code to restore your saved chats if you lose access to your devices."
+msgstr ""
+"Pomoću ove šifre možeš vratiti spremljene razgovore ako izgubiš pristup "
+"svojim uređajima."
+
+# smartling.placeholder_format=C
 #. Prompt to ask the user if they want to use their approximate location for more accurate results
 msgctxt "DuckChat location prompt"
 msgid "Use your approximate location for more accurate results?"
@@ -19787,6 +20238,12 @@ msgstr "Vijetnam (en)"
 msgctxt "language_name"
 msgid "Vietnamese"
 msgstr "Vijetnamski"
+
+# smartling.placeholder_format=C
+#. Always-visible second tab. When active the user sees their own QR plus the recovery code text for another device to consume.
+msgctxt "Tab label for the share-my-code side of the Sync Another Device pane"
+msgid "View Code"
+msgstr "Pogledaj kôd"
 
 # smartling.placeholder_format=C
 #. Button that shows the contents of a file.
@@ -19894,6 +20351,18 @@ msgstr ""
 "Posjeti Duck.ai u drugom pregledniku i idi na %1$sPostavke Duck.ai%2$s > "
 "%3$sSync & Backup%4$s > %5$sUpravljanje%6$s, a zatim odaberi "
 "%7$sSinkroniziraj s drugim uređajem%8$s."
+
+# smartling.placeholder_format=C
+#. Instructions for where to find the QR or recovery code. Figma frame 3705-32811.
+msgctxt "Body copy on the recover-data scan/paste sheet"
+msgid ""
+"Visit Duck.ai in your other browser and open Duck.ai Settings. Select “Turn "
+"On” under Sync & Backup and select “Sync With Another Device”. Or scan the "
+"QR on your Recovery PDF."
+msgstr ""
+"Posjeti Duck.ai u drugom pregledniku i otvori postavke Duck.ai. Odaberi "
+"\"Uključi\" pod Sync & Backup i odaberi \"Sinkronizacija s drugim "
+"uređajem\". Ili skeniraj QR kôd na svom Recovery PDF-u."
 
 # smartling.placeholder_format=C
 #. Step 2 label for export screens.
@@ -20208,6 +20677,11 @@ msgstr ""
 msgctxt "reasons-to-use-duckduckgo"
 msgid "We don't track you. Ever."
 msgstr "Ne pratimo te. Nikad."
+
+# smartling.placeholder_format=C
+#. Description for the audio identification highlight in the dictation consent modal.
+msgid "We don't use your voice to identify you."
+msgstr "Ne koristimo tvoj glas da bismo te identificirali."
 
 # smartling.placeholder_format=C
 #. Description in consent disclaimer informing that we do not use the user's voice from the voice chat session to identify them.
@@ -21446,6 +21920,18 @@ msgid "You now have the latest version of Duck.ai."
 msgstr "Sada imaš najnoviju verziju Duck.ai."
 
 # smartling.placeholder_format=C
+#. Explains the consequence of revoking a paired device and reassures that local chats and the server backup remain.
+msgctxt "Body copy for the Remove Device confirmation modal"
+msgid ""
+"You will no longer be able to access your saved chats from this browser. The "
+"last 30 chats will still remain available in local storage. This will not "
+"delete your chats from the encrypted server."
+msgstr ""
+"Više nećeš moći pristupiti svojim spremljenim čavrljanjima iz ovog "
+"preglednika. Posljednjih 30 čavrljanja i dalje će ostati dostupno u lokalnoj "
+"pohrani. Ovo neće izbrisati tvoje razgovore sa šifriranog poslužitelja."
+
+# smartling.placeholder_format=C
 #. Informational message letting the user know they won't see the message unless they clear their cookies or other browsing data
 msgid "You won't see this message again unless you clear your browser data."
 msgstr "Ovu poruku više nećeš vidjeti osim ako ne izbrišeš podatke svog preglednika."
@@ -21614,6 +22100,18 @@ msgstr "Tvoja stvarna lokacija ostaje privatna"
 msgctxt "DuckChat location prompt"
 msgid "Your actual location remains private."
 msgstr "Tvoja stvarna lokacija ostaje privatna."
+
+# smartling.placeholder_format=C
+#. Explains the consequence of deleting all server data; followed by the device list.
+msgctxt "Body copy for the Delete Server Data confirmation modal"
+msgid ""
+"Your backup will be deleted from DuckDuckGo's server. All devices will be "
+"disconnected from sync. Your 100 most recent chats will be available in "
+"local storage on these browsers:"
+msgstr ""
+"Tvoja sigurnosna kopija bit će izbrisana s DuckDuckGo poslužitelja. Svi "
+"uređaji bit će isključeni iz sinkronizacije. Tvojih 100 najnovijih razgovora "
+"bit će dostupno u lokalnoj pohrani u ovim preglednicima:"
 
 # smartling.placeholder_format=C
 #. List item indicating that a site exclusion filter is currently active for the search
@@ -21873,6 +22371,12 @@ msgid "Your searches can’t be tied back to you"
 msgstr "Tvoja se pretraživanja ne mogu povezati s tobom"
 
 # smartling.placeholder_format=C
+#. Confirms the recovery succeeded. The Next CTA closes the sheet.
+msgctxt "Body copy on the recover-data success sheet"
+msgid "Your synced chats are being restored to this device."
+msgstr "Tvoji sinkronizirani razgovori vraćaju se na ovaj uređaj."
+
+# smartling.placeholder_format=C
 msgctxt "homepage ATB modal"
 msgid "You’re Searching Privately with DuckDuckGo."
 msgstr "Koristi privatno pretraživanje s DuckDuckGo."
@@ -21948,6 +22452,11 @@ msgstr "Jukatanski majanski"
 # smartling.placeholder_format=C
 msgid "Zambia"
 msgstr "Zambija"
+
+# smartling.placeholder_format=C
+#. Title for the data retention highlight in the dictation consent modal.
+msgid "Zero data retention"
+msgstr "Nulta razina zadržavanja podataka"
 
 # smartling.placeholder_format=C
 #. Title for the privacy claim that indicates the AI model provider does not retain any chat data.
@@ -22357,6 +22866,11 @@ msgstr "pokušati ponovno nešto kasnije"
 msgctxt "noresults"
 msgid "try your search again"
 msgstr "pokušati ponovno pretraživati"
+
+# smartling.placeholder_format=C
+#. Link text for the help page link in the dictation consent modal.
+msgid "voice chat help page"
+msgstr "stranica za pomoć pri glasovnom čavrljanju"
 
 # smartling.placeholder_format=C
 #. Link text for the voice chat help page. Will be used wrapped in a link in the placeholder of another sentence. Example: 'See our <a>voice chat help page</a> before getting started.'
