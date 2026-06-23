@@ -3098,6 +3098,11 @@ msgctxt "noresults"
 msgid "Check the status page for updates on this outage."
 msgstr ""
 
+#. Title shown to the host device (the one that is logged in) after it sends the pairing code. The host can't confirm the peer applied it, so this is a title-only screen (no body) prompting the user to finish on the other device.
+msgctxt "Title for the host-device success screen"
+msgid "Check your other device to finish."
+msgstr ""
+
 #. Body copy on the host device's success screen, prompting the user to check the other device to finish pairing.
 msgctxt "Description for the host-device success screen"
 msgid "Check your other device."
@@ -3861,6 +3866,11 @@ msgstr ""
 
 #. Button label on the minimal onboarding modal variant to accept terms and continue chatting.
 msgctxt "Modal onboarding experiment button text"
+msgid "Continue"
+msgstr ""
+
+#. Primary CTA on the intro screen; starts setup on this device. Shown on all viewport widths (mobile adds a leading icon).
+msgctxt "Primary button on the Sync & Backup intro screen"
 msgid "Continue"
 msgstr ""
 
@@ -10534,6 +10544,11 @@ msgctxt "Label copy indicating that an AI Model is open source"
 msgid "Open Source"
 msgstr ""
 
+#. Header title shown after a pairing code is scanned/shown, while the two devices complete their handshake. Prompts the user to open Sync & Backup on their other device so the connection can finish.
+msgctxt "Modal header shown on both devices while pairing connects"
+msgid "Open Sync & Backup on your other device."
+msgstr ""
+
 #. Prompts users to open a new browser tab or window.
 msgid "Open a new tab or window"
 msgstr "open e lupa sin"
@@ -16309,6 +16324,11 @@ msgctxt "Setup button for native sync flow"
 msgid "Turn On Sync"
 msgstr ""
 
+#. CTA at the Sync & Backup entry points (the Sync settings tile and the About Sync modal). Shown on all platforms and viewport widths.
+msgctxt "Encrypted storage setup button"
+msgid "Turn On Sync & Backup"
+msgstr ""
+
 #. CTA shown on third-party browsers (non-DDG) at the Sync & Backup entry points: the Sync settings tile and the About Sync modal. Native DDG browsers use DUCKCHAT_SYNC_NATIVE_SETUP_BUTTON_TEXT instead.
 msgctxt "Encrypted storage setup button (third-party browsers)"
 msgid "Turn On Sync & Backup"
@@ -17072,6 +17092,22 @@ msgid ""
 "Visit Duck.ai in your other browser and open Duck.ai Settings. Select “Turn "
 "On” under Sync & Backup and select “Sync With Another Device”. Or scan the "
 "QR on your Recovery PDF."
+msgstr ""
+
+#. Shared body copy for every screen in the Sync Another Device flow (QR display, camera scan, camera-unavailable fallback, manual entry). Bold tags wrap navigation breadcrumbs. Render with <Translate /> so the HTML is interpreted; plain `translate()` will trip the html-string warning.
+msgctxt "Modal body for the device-pairing flow"
+msgid ""
+"Visit Duck.ai in your other browser or the DuckDuckGo app and go to %sDuck."
+"ai Settings%s > %sSync & Backup%s > %sManage%s then select %sSync With "
+"Another Device%s."
+msgstr ""
+
+#. Instructions for where to find the QR or recovery code. Figma frame 3705-32811.
+msgctxt "Body copy on the recover-data scan/paste sheet"
+msgid ""
+"Visit Duck.ai in your other browser or the DuckDuckGo app and open Duck.ai "
+"Settings. Select “Turn On” under Sync & Backup and select “Sync With Another "
+"Device”. Or scan the QR on your Recovery PDF."
 msgstr ""
 
 #. Step 2 label for export screens.
