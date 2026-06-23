@@ -883,6 +883,12 @@ msgid ""
 msgstr "Na voljo je nova različica Duck.ai! Če želite nadaljevati, osvežite to stran."
 
 # smartling.placeholder_format=C
+#. Shown when the Duck.ai desktop app has been open a long time and a newer version exists.
+msgctxt "Stale version banner in Duck.ai (Electron desktop app)"
+msgid "A new version of Duck.ai is available. "
+msgstr "Na voljo je nova različica Duck.ai. "
+
+# smartling.placeholder_format=C
 #. https://duckduckgo.com/params in the end under " Source:"
 msgid "A string to identify the source."
 msgstr "Niz za prepoznavo izvora."
@@ -1762,6 +1768,13 @@ msgstr "Skoraj na koncu!"
 msgctxt "homepage onboarding"
 msgid "Already a fan?"
 msgstr "Ste že navdušeni?"
+
+# smartling.placeholder_format=C
+#. Shown when the user tries to pair a device that is already connected to this Sync & Backup account (same_account). Dismissing returns the user to the device management screen.
+msgctxt ""
+"Title for the screen shown when both devices are already on the same account"
+msgid "Already synced."
+msgstr "Že sinhronizirano."
 
 # smartling.placeholder_format=C
 #. Explains that DuckDuckGo is available for multiple devices.
@@ -4100,6 +4113,12 @@ msgid "Clear source text"
 msgstr "Počisti izvorno besedilo"
 
 # smartling.placeholder_format=C
+#. Shown when the peer is on a different protocol version, which on the web usually means a stale Duck.ai bundle. The title is the full instruction; there is no body line. Native browsers use 'Update the DuckDuckGo browser and try again.' instead.
+msgctxt "Title for the version-mismatch error screen on Duck.ai (3p browser)"
+msgid "Clear your cache, refresh Duck.ai, and try again."
+msgstr "Počistite predpomnilnik, osvežite Duck.ai in poskusite znova."
+
+# smartling.placeholder_format=C
 #. Asks users if they clear the cookies from their web browser often.
 msgid "Clear your cookies often?"
 msgstr "Pogosto brišete piškotke?"
@@ -4499,6 +4518,12 @@ msgstr "Zapri iskanje"
 msgctxt "Aria label for the selection toolbar"
 msgid "Close selection toolbar"
 msgstr "Zapri orodno vrstico za izbiro"
+
+# smartling.placeholder_format=C
+#. Description for the notice displayed in the Duck.ai chat history sidebar when chat search cannot be loaded, telling users how to retry.
+msgctxt "Description shown when chat history search in Duck.ai is unavailable"
+msgid "Close the search bar and try again."
+msgstr "Zaprite iskalno vrstico in poskusite znova."
 
 #  Safari homepage instruction
 # smartling.placeholder_format=C
@@ -6578,6 +6603,14 @@ msgid "DuckDuckGo Browser"
 msgstr "Brskalnik DuckDuckGo"
 
 # smartling.placeholder_format=C
+#. Shown for devices whose access credential is 'ddg' (a DuckDuckGo native client); their name/type bytes are encrypted under a key this client doesn't hold.
+msgctxt ""
+"Placeholder name for a DuckDuckGo native browser/app in the synced devices "
+"list; the %s is the 1-based position in the list"
+msgid "DuckDuckGo Browser %s"
+msgstr "Brskalnik DuckDuckGo %1$s"
+
+# smartling.placeholder_format=C
 #. by opening https://duckduckgo.com/api it shows in the window title
 msgid "DuckDuckGo Instant Answer API"
 msgstr "Vmesnik API za storitev DuckDuckGo Instant Answer"
@@ -8570,8 +8603,32 @@ msgid "Got It"
 msgstr "Razumem"
 
 # smartling.placeholder_format=C
+#. Closes the dialog shown by DUCKCHAT_SYNC_PAIRING_NATIVE_CODE_TITLE and returns the user to the previous screen.
+msgctxt "Dismiss button for the DDG-browser-code dialog on Duck.ai"
+msgid "Got It"
+msgstr "Razumem"
+
+# smartling.placeholder_format=C
+#. Closes the already-synced message and takes the user to the Sync & Backup device management screen.
+msgctxt "Dismiss button on the already-synced screen"
+msgid "Got It"
+msgstr "Razumem"
+
+# smartling.placeholder_format=C
+#. Returns the user to the Sync Another Device scan screen after the clear-cache-and-refresh message.
+msgctxt "Dismiss button on the version-mismatch error screen"
+msgid "Got It"
+msgstr "Razumem"
+
+# smartling.placeholder_format=C
 #. Text for the primary button that dismisses the post-upgrade success modal.
 msgctxt "Post-upgrade success modal dismiss button"
+msgid "Got It"
+msgstr "Razumem"
+
+# smartling.placeholder_format=C
+#. Button that returns the user to the scan screen after a wrong code error.
+msgctxt "Retry button on the wrong code screen"
 msgid "Got It"
 msgstr "Razumem"
 
@@ -9736,6 +9793,18 @@ msgstr ""
 "V nekaterih starejših brskalnikih je treba vaše klike preusmeriti preko "
 "našega strežnika, da se prepreči puščanje iskanja. %1$sVeč o tem%2$s."
 
+# smartling.placeholder_format=C
+#. Instructions accompanying DUCKCHAT_SYNC_PAIRING_NATIVE_CODE_TITLE; tells the user where to use the code on a DuckDuckGo browser.
+msgctxt ""
+"Body for the dialog shown when the user pastes/scans a DDG-browser-intended "
+"code on Duck.ai"
+msgid ""
+"In the DuckDuckGo browser, go to Settings › Sync & Backup, and then “Sync "
+"with another device”."
+msgstr ""
+"V brskalniku DuckDuckGo pojdite v Nastavitve › Sync & Backup in nato "
+"»Sinhroniziraj z drugo napravo«."
+
 #  SeaMonkey default search engine instruction
 # smartling.placeholder_format=C
 #. Tells the user where in the settings menu they can change their default search engine.
@@ -10711,6 +10780,12 @@ msgstr "Naloži več"
 #. Button that loads previously-saved user settings.
 msgid "Load Settings"
 msgstr "Naloži nastavitve"
+
+# smartling.placeholder_format=C
+#. Aria label for the chat history search loading state.
+msgctxt "Aria label for loading chat search results"
+msgid "Loading chat search results"
+msgstr "Nalaganje rezultatov iskanja v klepetu"
 
 # smartling.placeholder_format=C
 #. Accessible label displayed while a previously saved Duck.ai chat is being loaded from the server. Shown as a status indicator to screen readers and visually while the chat content is being fetched.
@@ -13431,6 +13506,13 @@ msgid "Paid articles"
 msgstr "Plačani članki"
 
 # smartling.placeholder_format=C
+#. Header on the wrong-code step when the failure is a session error rather than an invalid code. Placeholder copy pending review.
+msgctxt ""
+"Title shown when a pairing session fails (timeout, network, denied, etc.)"
+msgid "Pairing couldn't be completed"
+msgstr "Seznanjanja ni bilo mogoče dokončati"
+
+# smartling.placeholder_format=C
 msgid "Pakistan"
 msgstr "Pakistan"
 
@@ -13890,6 +13972,12 @@ msgid "Please enter a pass phrase"
 msgstr "Vnesi varnostno frazo"
 
 # smartling.placeholder_format=C
+#. Body copy shown when a scanned or pasted pairing payload fails schema validation.
+msgctxt "Description for the wrong code error screen"
+msgid "Please make sure the correct code was entered or scanned."
+msgstr "Prepričajte se, da je bila vnesena ali optično prebrana pravilna koda."
+
+# smartling.placeholder_format=C
 #. Disclaimer text displayed in a modal that informs the user that starting a new chat with any AI model will delete their current chat session.
 msgctxt "Modal disclaimer text"
 msgid ""
@@ -13920,6 +14008,14 @@ msgstr "Pošljite povratne informacije"
 msgctxt "Modal header for refresh page prompt"
 msgid "Please refresh this page"
 msgstr "Osvežite to stran"
+
+# smartling.placeholder_format=C
+#. Shown on 3p browsers (Duck.ai) when the input is a legacy v1 recovery code or a v2 code with cid != '3party'. Directs the user to scan/paste the code on a DuckDuckGo browser instead.
+msgctxt ""
+"Title for the dialog shown when the user pastes/scans a DDG-browser-intended "
+"code on Duck.ai"
+msgid "Please scan this code with the DuckDuckGo browser."
+msgstr "Skenirajte to kodo z brskalnikom DuckDuckGo."
 
 # smartling.placeholder_format=C
 #. Short subtitle text instructing the user to pick up a category of feedback from a list.
@@ -14009,6 +14105,12 @@ msgstr "Prosimo, poskusite znova"
 msgctxt "Anomaly modal"
 msgid "Please try again"
 msgstr "Prosimo, poskusite znova"
+
+# smartling.placeholder_format=C
+#. Secondary line under DUCKCHAT_SYNC_PAIRING_FAILED_TITLE inviting the user to retry pairing.
+msgctxt "Body for the generic pairing-failure error screen"
+msgid "Please try again."
+msgstr "Poskusite znova."
 
 # smartling.placeholder_format=C
 #. A link that will allow users to reload the page.
@@ -15020,6 +15122,12 @@ msgstr "Osveži stran"
 msgctxt "duckai_migration"
 msgid "Refresh now"
 msgstr "Osveži zdaj"
+
+# smartling.placeholder_format=C
+#. Button that reloads the Duck.ai desktop app to pick up the new version.
+msgctxt "Stale version banner in Duck.ai (Electron desktop app)"
+msgid "Refresh the App Now"
+msgstr "Osveži aplikacijo zdaj"
 
 # smartling.placeholder_format=C
 msgid "Refugee Olympic Team"
@@ -16167,6 +16275,12 @@ msgstr "Iskanje klepetov"
 #. A button that searches within a specific website. The placeholder value is the name of the website. For example: 'Search domain Wikipedia'
 msgid "Search domain %s"
 msgstr "Preišči domeno %1$s"
+
+# smartling.placeholder_format=C
+#. Title for the notice displayed in the Duck.ai chat history sidebar when chat search cannot be loaded.
+msgctxt "Title shown when chat history search in Duck.ai is unavailable"
+msgid "Search is unavailable"
+msgstr "Iskanje ni na voljo"
 
 # smartling.placeholder_format=C
 #. Placeholder text for a text-based language filter
@@ -18516,6 +18630,52 @@ msgid "Sync History"
 msgstr "Zgodovina sinhronizacije"
 
 # smartling.placeholder_format=C
+#. Full contents of the .txt file downloaded when a user saves their Sync & Backup recovery code. %s is replaced with the recovery code. Keep the \n sequences exactly as-is - they mark line and paragraph breaks.
+msgctxt "Body of the downloaded recovery-code .txt file"
+msgid ""
+"Sync Recovery Code\n"
+"\n"
+"The recovery code allows you to sync your passwords, autofill data, and Duck."
+"ai chats across multiple devices, and recover your synced data if you lose "
+"access to a device.\n"
+"\n"
+"Keep this information safe and secure.\n"
+"Anyone with access to this code can access your synced data.\n"
+"\n"
+"%s\n"
+"\n"
+"How does this code work?\n"
+"1. Go to Duck.ai in your browser and open Duck.ai Settings.\n"
+"2. Select \"Turn on Sync & Backup\", then \"Recover Synced Data\"\n"
+"3. Copy the recovery code above and paste where it says \"Paste your code "
+"here\"\n"
+"\n"
+"If you go more than 18 months without using a DuckDuckGo browser with Sync & "
+"Backup enabled, your data will be deleted from the server and cannot be "
+"restored."
+msgstr ""
+"Koda za obnovitev sinhronizacije\n"
+"\n"
+"Koda za obnovitev vam omogoča sinhronizacijo gesel, podatkov za samodejno "
+"izpolnjevanje in klepetov Duck.ai v več napravah ter obnovitev "
+"sinhroniziranih podatkov, če izgubite dostop do naprave.\n"
+"\n"
+"Te podatke hranite na varnem.\n"
+"Vsakdo z dostopom do te kode lahko dostopa do vaših sinhroniziranih "
+"podatkov.\n"
+"\n"
+"%1$s\n"
+"\n"
+"Kako ta koda deluje?\n"
+"1. Pojdite na Duck.ai v brskalniku in odprite Duck.ai nastavitve.\n"
+"2. Izberite »Vklopi Sync & Backup«, nato »Obnovi sinhronizirane podatke«.\n"
+"3. Kopirajte zgornjo kodo za obnovitev in jo prilepite tja, kjer piše "
+"»Prilepite svojo kodo tukaj«.\n"
+"\n"
+"Če več kot 18 mesecev ne uporabljate brskalnika DuckDuckGo z omogočenim Sync "
+"& Backup, bodo vaši podatki izbrisani s strežnika in jih ni mogoče obnoviti."
+
+# smartling.placeholder_format=C
 #. Secondary button label on the Sync & Backup intro screen that takes the user to the camera scan screen to pair with another device.
 msgctxt "Secondary button on the Sync & Backup intro screen"
 msgid "Sync With Another Device"
@@ -18526,6 +18686,12 @@ msgstr "Sinhronizacija z drugo napravo"
 msgctxt "Sync unavailable modal title"
 msgid "Sync and Backup is temporarily unavailable"
 msgstr "Sinhronizacija in varnostno kopiranje trenutno nista na voljo"
+
+# smartling.placeholder_format=C
+#. Catch-all shown when pairing fails for a runtime reason (network, timeout, dropped channel, denied/aborted, protocol error). Paired with DUCKCHAT_SYNC_PAIRING_FAILED_BODY and a retry button.
+msgctxt "Title for the generic pairing-failure error screen"
+msgid "Sync failed."
+msgstr "Sinhronizacija ni uspela."
 
 # smartling.placeholder_format=C
 #. Tooltip text shown when sync is temporarily paused due to an error.
@@ -18974,6 +19140,12 @@ msgstr ""
 "iskalnik."
 
 # smartling.placeholder_format=C
+#. Secondary line under DUCKCHAT_SYNC_PAIRING_ALREADY_SYNCED_TITLE.
+msgctxt "Body for the already-synced screen"
+msgid "These devices are already connected to Sync & Backup."
+msgstr "Te naprave so že povezane s storitvijo Sync & Backup."
+
+# smartling.placeholder_format=C
 #. Placeholder text displayed while a reasoning AI model is thinking before generating a response.
 msgctxt "Assistant response placeholder"
 msgid "Thinking"
@@ -19163,6 +19335,12 @@ msgstr "Ta vrsta slike ni podprta, priložite JPG, PNG, WebP ali GIF."
 #. Given as an option to select when providing feedback
 msgid "This information isn’t useful"
 msgstr "Te informacije niso uporabne"
+
+# smartling.placeholder_format=C
+#. Title shown when the scanned or pasted payload does not match the expected pairing format.
+msgctxt "Title for the wrong code error screen"
+msgid "This is not a valid Sync code."
+msgstr "To ni veljavna koda za sinhronizacijo."
 
 # smartling.placeholder_format=C
 #. Body shown while importing chats.
@@ -19847,6 +20025,12 @@ msgstr "Poskusi znova"
 # smartling.placeholder_format=C
 #. Text of button allowing users to try the bot challenge again
 msgctxt "Anomaly modal"
+msgid "Try Again"
+msgstr "Poskusi znova"
+
+# smartling.placeholder_format=C
+#. Returns the user to the Sync Another Device scan screen to attempt pairing again.
+msgctxt "Retry button on the generic pairing-failure screen"
 msgid "Try Again"
 msgstr "Poskusi znova"
 
