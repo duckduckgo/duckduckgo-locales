@@ -3938,6 +3938,12 @@ msgstr ""
 "λειτουργίας."
 
 # smartling.placeholder_format=C
+#. Title shown to the host device (the one that is logged in) after it sends the pairing code. The host can't confirm the peer applied it, so this is a title-only screen (no body) prompting the user to finish on the other device.
+msgctxt "Title for the host-device success screen"
+msgid "Check your other device to finish."
+msgstr "Έλεγξε την άλλη συσκευή σου για ολοκλήρωση."
+
+# smartling.placeholder_format=C
 #. Body copy on the host device's success screen, prompting the user to check the other device to finish pairing.
 msgctxt "Description for the host-device success screen"
 msgid "Check your other device."
@@ -13297,6 +13303,12 @@ msgctxt "Label copy indicating that an AI Model is open source"
 msgid "Open Source"
 msgstr "Ανοικτού κώδικα"
 
+# smartling.placeholder_format=C
+#. Header title shown after a pairing code is scanned/shown, while the two devices complete their handshake. Prompts the user to open Sync & Backup on their other device so the connection can finish.
+msgctxt "Modal header shown on both devices while pairing connects"
+msgid "Open Sync & Backup on your other device."
+msgstr "Άνοιξε το Sync & Backup στην άλλη συσκευή σου."
+
 #  Safari default search engine instruction
 # smartling.placeholder_format=C
 #. Prompts users to open a new browser tab or window.
@@ -21672,6 +21684,32 @@ msgstr ""
 "Επισκέψου το Duck.ai στο άλλο πρόγραμμα περιήγησής σου και άνοιξε τις "
 "ρυθμίσεις Duck.ai. Επίλεξε «Ενεργοποίηση» κάτω από Sync & Backup και επίλεξε "
 "«Συγχρονισμός με άλλη συσκευή». Ή σάρωσε το QR στο PDF ανάκτησης."
+
+# smartling.placeholder_format=C
+#. Shared body copy for every screen in the Sync Another Device flow (QR display, camera scan, camera-unavailable fallback, manual entry). Bold tags wrap navigation breadcrumbs. Render with <Translate /> so the HTML is interpreted; plain `translate()` will trip the html-string warning.
+msgctxt "Modal body for the device-pairing flow"
+msgid ""
+"Visit Duck.ai in your other browser or the DuckDuckGo app and go to %sDuck."
+"ai Settings%s > %sSync & Backup%s > %sManage%s then select %sSync With "
+"Another Device%s."
+msgstr ""
+"Επισκέψου το Duck.ai στο άλλο πρόγραμμα περιήγησης ή στην εφαρμογή "
+"DuckDuckGo και πήγαινε στις %1$sΡυθμίσεις Duck.ai%2$s > %3$sSync & "
+"Backup%4$s > %5$sΔιαχείριση%6$s και, στη συνέχεια, επίλεξε %7$sΣυγχρονισμός "
+"με άλλη συσκευή%8$s."
+
+# smartling.placeholder_format=C
+#. Instructions for where to find the QR or recovery code. Figma frame 3705-32811.
+msgctxt "Body copy on the recover-data scan/paste sheet"
+msgid ""
+"Visit Duck.ai in your other browser or the DuckDuckGo app and open Duck.ai "
+"Settings. Select “Turn On” under Sync & Backup and select “Sync With Another "
+"Device”. Or scan the QR on your Recovery PDF."
+msgstr ""
+"Επισκέψου το Duck.ai στο άλλο πρόγραμμα περιήγησης ή στην εφαρμογή "
+"DuckDuckGo και άνοιξε τις Ρυθμίσεις του Duck.ai. Επίλεξε «Ενεργοποίηση» κάτω "
+"από το Sync & Backup και επίλεξε «Συγχρονισμός με άλλη συσκευή». Ή σάρωσε το "
+"QR στο PDF ανάκτησης."
 
 # smartling.placeholder_format=C
 #. Step 2 label for export screens.

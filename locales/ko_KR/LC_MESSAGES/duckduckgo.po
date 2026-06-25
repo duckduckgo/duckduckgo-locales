@@ -3780,6 +3780,12 @@ msgid "Check the status page for updates on this outage."
 msgstr "상태 페이지에서 이번 서비스 중단에 대한 최신 소식을 확인하세요."
 
 # smartling.placeholder_format=C
+#. Title shown to the host device (the one that is logged in) after it sends the pairing code. The host can't confirm the peer applied it, so this is a title-only screen (no body) prompting the user to finish on the other device.
+msgctxt "Title for the host-device success screen"
+msgid "Check your other device to finish."
+msgstr "완료하려면 다른 기기를 확인해 보세요."
+
+# smartling.placeholder_format=C
 #. Body copy on the host device's success screen, prompting the user to check the other device to finish pairing.
 msgctxt "Description for the host-device success screen"
 msgid "Check your other device."
@@ -12846,6 +12852,12 @@ msgctxt "Label copy indicating that an AI Model is open source"
 msgid "Open Source"
 msgstr "오픈 소스"
 
+# smartling.placeholder_format=C
+#. Header title shown after a pairing code is scanned/shown, while the two devices complete their handshake. Prompts the user to open Sync & Backup on their other device so the connection can finish.
+msgctxt "Modal header shown on both devices while pairing connects"
+msgid "Open Sync & Backup on your other device."
+msgstr "다른 장치에서 Sync & Backup을 여세요."
+
 #  Safari default search engine instruction
 # smartling.placeholder_format=C
 #. Prompts users to open a new browser tab or window.
@@ -20827,6 +20839,28 @@ msgid ""
 msgstr ""
 "다른 브라우저에서 Duck.ai를 방문하여 Duck.ai 설정을 여세요. Sync & Backup 아래에 있는 '켜기'를 선택하고 "
 "''다른 기기와 동기화'를 선택하세요. 또는 복구 PDF에 있는 QR을 스캔하세요."
+
+# smartling.placeholder_format=C
+#. Shared body copy for every screen in the Sync Another Device flow (QR display, camera scan, camera-unavailable fallback, manual entry). Bold tags wrap navigation breadcrumbs. Render with <Translate /> so the HTML is interpreted; plain `translate()` will trip the html-string warning.
+msgctxt "Modal body for the device-pairing flow"
+msgid ""
+"Visit Duck.ai in your other browser or the DuckDuckGo app and go to %sDuck."
+"ai Settings%s > %sSync & Backup%s > %sManage%s then select %sSync With "
+"Another Device%s."
+msgstr ""
+"다른 브라우저나 DuckDuckGo 앱에서 Duck.ai를 열고 %1$sDuck.ai 설정%2$s > %3$sSync & "
+"Backup%4$s > %5$s관리%6$s로 들어가 %7$s다른 기기와 동기화%8$s를 선택하세요."
+
+# smartling.placeholder_format=C
+#. Instructions for where to find the QR or recovery code. Figma frame 3705-32811.
+msgctxt "Body copy on the recover-data scan/paste sheet"
+msgid ""
+"Visit Duck.ai in your other browser or the DuckDuckGo app and open Duck.ai "
+"Settings. Select “Turn On” under Sync & Backup and select “Sync With Another "
+"Device”. Or scan the QR on your Recovery PDF."
+msgstr ""
+"다른 브라우저나 DuckDuckGo 앱에서 Duck.ai를 방문하여 Duck.ai 설정을 여세요. Sync & Backup 아래에 있는 "
+"'켜기'를 선택하고 ''다른 기기와 동기화'를 선택하세요. 또는 복구 PDF에 있는 QR을 스캔하세요."
 
 # smartling.placeholder_format=C
 #. Step 2 label for export screens.

@@ -3902,6 +3902,12 @@ msgid "Check the status page for updates on this outage."
 msgstr "Per aggiornamenti su questa interruzione, consulta la pagina di stato."
 
 # smartling.placeholder_format=C
+#. Title shown to the host device (the one that is logged in) after it sends the pairing code. The host can't confirm the peer applied it, so this is a title-only screen (no body) prompting the user to finish on the other device.
+msgctxt "Title for the host-device success screen"
+msgid "Check your other device to finish."
+msgstr "Controlla l'altro dispositivo per completare l'operazione."
+
+# smartling.placeholder_format=C
 #. Body copy on the host device's success screen, prompting the user to check the other device to finish pairing.
 msgctxt "Description for the host-device success screen"
 msgid "Check your other device."
@@ -13191,6 +13197,12 @@ msgctxt "Label copy indicating that an AI Model is open source"
 msgid "Open Source"
 msgstr "Open source"
 
+# smartling.placeholder_format=C
+#. Header title shown after a pairing code is scanned/shown, while the two devices complete their handshake. Prompts the user to open Sync & Backup on their other device so the connection can finish.
+msgctxt "Modal header shown on both devices while pairing connects"
+msgid "Open Sync & Backup on your other device."
+msgstr "Apri Sync & Backup sull'altro dispositivo."
+
 #  Safari default search engine instruction
 # smartling.placeholder_format=C
 #. Prompts users to open a new browser tab or window.
@@ -21470,6 +21482,31 @@ msgstr ""
 "Visita Duck.ai nel tuo altro browser e apri le impostazioni di Duck.ai. "
 "Seleziona “Attiva” in Sync & Backup e seleziona “Sincronizza con un altro "
 "dispositivo”. Oppure scansiona il codice QR presente sul tuo PDF di recupero."
+
+# smartling.placeholder_format=C
+#. Shared body copy for every screen in the Sync Another Device flow (QR display, camera scan, camera-unavailable fallback, manual entry). Bold tags wrap navigation breadcrumbs. Render with <Translate /> so the HTML is interpreted; plain `translate()` will trip the html-string warning.
+msgctxt "Modal body for the device-pairing flow"
+msgid ""
+"Visit Duck.ai in your other browser or the DuckDuckGo app and go to %sDuck."
+"ai Settings%s > %sSync & Backup%s > %sManage%s then select %sSync With "
+"Another Device%s."
+msgstr ""
+"Visita Duck.ai nell'altro browser o nell'app DuckDuckGo e vai su "
+"%1$sImpostazioni Duck.ai%2$s > %3$sSync & Backup%4$s > %5$sGestisci%6$s, "
+"quindi seleziona %7$sSincronizza con un altro dispositivo%8$s."
+
+# smartling.placeholder_format=C
+#. Instructions for where to find the QR or recovery code. Figma frame 3705-32811.
+msgctxt "Body copy on the recover-data scan/paste sheet"
+msgid ""
+"Visit Duck.ai in your other browser or the DuckDuckGo app and open Duck.ai "
+"Settings. Select “Turn On” under Sync & Backup and select “Sync With Another "
+"Device”. Or scan the QR on your Recovery PDF."
+msgstr ""
+"Visita Duck.ai nell'altro browser o nell'app DuckDuckGo e apri le "
+"impostazioni di Duck.ai. Seleziona “Attiva” in Sync & Backup e seleziona "
+"“Sincronizza con un altro dispositivo”. Oppure scansiona il codice QR "
+"presente sul tuo PDF di recupero."
 
 # smartling.placeholder_format=C
 #. Step 2 label for export screens.
