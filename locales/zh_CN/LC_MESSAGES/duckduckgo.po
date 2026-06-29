@@ -389,6 +389,12 @@ msgid ""
 msgstr "Duck.ai 将在 1 天后（%2$s）下架 %1$s。之后可以切换模型继续此聊天。"
 
 # smartling.placeholder_format=C
+#. Shown in a text selection chip when the selection contains multiple words. %s is replaced with the number of words, e.g. '142 words'.
+msgctxt "Word count for an attached text selection"
+msgid "%s words"
+msgstr "%1$s 个词"
+
+# smartling.placeholder_format=C
 #. Instructions on which buttons and options the user has to click in order to add the DuckDuckGo extension to their browser.
 msgctxt "install-duckduckgo"
 msgid "%sClick %sAdd%sCheck %sAllow%s, then click %sOkay%s"
@@ -573,6 +579,12 @@ msgstr "1 个结果已隐藏"
 #. The main headline indicating that 1 tracker was blocked
 msgid "1 tracking attempt blocked"
 msgstr "已阻止 1 次跟踪尝试"
+
+# smartling.placeholder_format=C
+#. Shown in a text selection chip when the selection contains exactly one word.
+msgctxt "Word count for an attached text selection"
+msgid "1 word"
+msgstr "1 个词"
 
 # smartling.placeholder_format=C
 #. Tells users where they can find the DuckDuckGo browser extension file downloaded to their computer.
@@ -2606,6 +2618,14 @@ msgid "Best available"
 msgstr "最佳效果"
 
 # smartling.placeholder_format=C
+#. One-line description rendered beneath the default model in the Recommended group.
+msgctxt ""
+"Short descriptor under the everyday-use recommended model in the model "
+"picker dropdown"
+msgid "Best for everyday use"
+msgstr "最适合日常使用"
+
+# smartling.placeholder_format=C
 #. In the right menu panel of the homepage.
 msgid "Beta"
 msgstr "测试版"
@@ -3808,6 +3828,12 @@ msgstr "请选择“%1$s保留%2$s”，以继续保护你的隐私。"
 #. A headline letting the user choose between two video player options
 msgid "Choose How You Watch"
 msgstr "选择观看方式"
+
+# smartling.placeholder_format=C
+#. Screen-reader label for the dropdown menu opened by the model picker button in the chat input toolbar. Announced when the user navigates into the menu.
+msgctxt "Accessibility label for the model picker dropdown menu in Duck.ai"
+msgid "Choose a model"
+msgstr "选择模型"
 
 # smartling.placeholder_format=C
 #. Label for the field where a user sets their passphrase.
@@ -5567,6 +5593,11 @@ msgid "Dictation"
 msgstr "听写"
 
 # smartling.placeholder_format=C
+#. Title of the dictation privacy modal, shown both on first use (consent) and from the settings 'How it works' link (info-only).
+msgid "Dictation in Duck.ai"
+msgstr "Duck.ai 中的听写"
+
+# smartling.placeholder_format=C
 #. Description for the privacy highlight in the dictation consent modal.
 msgid "Dictation is anonymized by us, and never used to train AI models."
 msgstr "我们会对听写内容匿名处理，并且绝不会将其用于训练人工智能模型。"
@@ -6240,6 +6271,12 @@ msgstr "Duck.ai 更新"
 msgctxt "Title of the post-upgrade success modal"
 msgid "Duck.ai upgraded!"
 msgstr "Duck.ai 升级啦！"
+
+# smartling.placeholder_format=C
+#. Main body text of the RetentionBrowserPromo horizontal banner encouraging users to download the DuckDuckGo browser.
+msgctxt "Promotional banner body text"
+msgid "Duck.ai works best in our private and free DuckDuckGo app!"
+msgstr "Duck.ai 在我们私密且免费的 DuckDuckGo 应用中表现最佳！"
 
 # smartling.placeholder_format=C
 #. Meta keywords content for Duck.ai.
@@ -9409,6 +9446,13 @@ msgstr "图片信息"
 msgctxt "Disclaimer text for Image Generation mode"
 msgid "Image prompts must comply with the %s"
 msgstr "图像提示必须符合%1$s"
+
+# smartling.placeholder_format=C
+#. Disclaimer text shown below chat input. %s is replaced with a clickable underlined 'terms' link that opens the Duck.ai terms of service page.
+msgctxt ""
+"Disclaimer below chat input in Duck.ai when image generation is enabled"
+msgid "Image prompts must comply with the Duck.ai %s."
+msgstr "图像提示必须符合 Duck.ai %1$s。"
 
 # smartling.placeholder_format=C
 msgctxt "settingsvalue"
@@ -14302,6 +14346,14 @@ msgid "Private to us and secured on your device"
 msgstr "安全地存储在你的设备上，不会被我们收集"
 
 # smartling.placeholder_format=C
+#. Heading above the group of Pro-tier locked models in the model picker dropdown, when the user is on the Plus tier.
+msgctxt ""
+"Section heading inside the model picker dropdown for models gated behind the "
+"Pro tier, shown to Plus-tier users"
+msgid "Pro exclusive."
+msgstr "Pro 专享。"
+
+# smartling.placeholder_format=C
 #. Category of feedback a user can select on a feedback form.
 msgctxt "feedback form"
 msgid "Product ad content is deceptive"
@@ -14962,6 +15014,12 @@ msgstr "移除第 %1$s 张图像"
 msgctxt "Remove the attached page context"
 msgid "Remove page context"
 msgstr "移除页面上下文"
+
+# smartling.placeholder_format=C
+#. Accessible label for button that removes an attached page text selection from the chat message.
+msgctxt "Remove the attached text selection"
+msgid "Remove text selection"
+msgstr "移除选定文本"
 
 # smartling.placeholder_format=C
 #. A prompt asking users to try searching without any punctuation to get more results.
@@ -16436,6 +16494,12 @@ msgid "Selected text from %s"
 msgstr "选定文本来自%1$s"
 
 # smartling.placeholder_format=C
+#. A subtitle indicating that an attached text snippet was selected from a specific source page. The placeholder will contain a link to the source page. Example: <a href='https://example.com'>example.com</a>
+msgctxt "Subtitle for the text selection message"
+msgid "Selected text from %s"
+msgstr "选定文本来自 %1$s"
+
+# smartling.placeholder_format=C
 #. Displayed when the user's text selection exceeds the maximum message size for AI tools (summary, translation, etc.).
 msgctxt "Error message for selection input limit"
 msgid "Selected text is too long. Try again with a shorter selection."
@@ -17338,8 +17402,22 @@ msgid "Software"
 msgstr "软件"
 
 # smartling.placeholder_format=C
+#. One-line description rendered beneath the frontier / higher-cost model in the Recommended group, warning that it consumes usage limits more quickly.
+msgctxt ""
+"Short descriptor under the higher-cost recommended model in the model picker "
+"dropdown"
+msgid "Solid but uses limits faster"
+msgstr "稳健可靠，但使用额度消耗更快"
+
+# smartling.placeholder_format=C
 msgid "Solomon Islands"
 msgstr "所罗门群岛"
+
+# smartling.placeholder_format=C
+#. Text for a promotional card that encourages users to try the reasoning mode on complex problems which thinks longer to hopefully provide a more accurate answer.
+msgctxt "Promotional text for reasoning mode"
+msgid "Solve complex problems with reasoning mode!"
+msgstr "利用推理模式解决复杂问题！"
 
 # smartling.placeholder_format=C
 #. Text for a promotional card that encourages users to try the reasoning mode on complex problems which thinks longer to hopefully provide a more accurate answer.
@@ -17873,6 +17951,14 @@ msgstr "订阅 DuckDuckGo 以解锁 Duck.ai 的更高限额，或稍后再来创
 msgctxt "Description prompting subscription for higher limits"
 msgid "Subscribe to unlock higher Duck.ai limits"
 msgstr "订阅即可解锁更高的 Duck.ai 创建上限"
+
+# smartling.placeholder_format=C
+#. Heading above the group of tier-locked models in the model picker dropdown, when the user is on the Free tier and could become a subscriber.
+msgctxt ""
+"Section heading inside the model picker dropdown for models gated behind a "
+"paid Duck.ai subscription, shown to Free-tier users"
+msgid "Subscriber exclusive."
+msgstr "订阅用户专享。"
 
 # smartling.placeholder_format=C
 #. A link to the DuckDuckGo Subscription product page (https://duckduckgo.com/pro/)
@@ -18446,6 +18532,12 @@ msgstr "服务条款"
 # smartling.placeholder_format=C
 #. Text used in other strings to link to the Terms of Service content.
 msgctxt "Copy used to compose link in sentences"
+msgid "Terms of Service"
+msgstr "服务条款"
+
+# smartling.placeholder_format=C
+#. This words are inserted into the sentence 'Image prompts must comply with the Duck.ai [Terms of Service].' as a clickable link that opens the Duck.ai terms of service page.
+msgctxt "Privacy link label in Duck.ai disclaimer below chat input"
 msgid "Terms of Service"
 msgstr "服务条款"
 
@@ -19613,6 +19705,14 @@ msgid "Try for free"
 msgstr "免费试用"
 
 # smartling.placeholder_format=C
+#. Link-style CTA shown on the right of the Subscriber exclusive section header; clicking starts the subscription trial flow.
+msgctxt ""
+"Trailing CTA on the Subscriber exclusive section header in the model picker "
+"dropdown"
+msgid "Try for free"
+msgstr "免费试用"
+
+# smartling.placeholder_format=C
 #. Promotional message explaining that a VPN and two additional privacy protections are included in the DuckDuckGo subscription, for which a free trial is available.
 msgctxt "SERP footer content"
 msgid "Try for free! A secure VPN, advanced & private AI, and more."
@@ -20321,6 +20421,13 @@ msgstr "正在更新定位..."
 msgctxt "duckai_migration"
 msgid "Updating..."
 msgstr "更新中……"
+
+# smartling.placeholder_format=C
+#. Link-style CTA shown on the right of the Pro exclusive section header; clicking starts the Pro upgrade flow.
+msgctxt ""
+"Trailing CTA on the Pro exclusive section header in the model picker dropdown"
+msgid "Upgrade"
+msgstr "升级"
 
 # smartling.placeholder_format=C
 #. Label for the button that takes Plus subscribers to the Pro plans page when they hit the image generation limit. Context ('Upgrade to Pro') is already provided by the description above.
@@ -22180,6 +22287,12 @@ msgid ""
 "You can also use %sDuckDuckGo AI Chat%s to answer questions or summarize "
 "text."
 msgstr "还可以使用 %1$sDuckDuckGo AI Chat%2$s 回答问题或总结文本。"
+
+# smartling.placeholder_format=C
+#. Error message displayed when the user tries to attach more text selections than are allowed. Placeholder is the maximum number of text selections. E.g. You can attach up to 5 text selections.
+msgctxt "Error message when text selection count exceeds the limit"
+msgid "You can attach up to %s text selections."
+msgstr "您最多可以附加 %1$s 个文本选中内容。"
 
 # smartling.placeholder_format=C
 #. Third paragraph of a section inviting users to learn more about the duckassist instant answer (based on generative AI)

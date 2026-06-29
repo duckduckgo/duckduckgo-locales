@@ -407,6 +407,12 @@ msgstr ""
 "přepnutí modelu."
 
 # smartling.placeholder_format=C
+#. Shown in a text selection chip when the selection contains multiple words. %s is replaced with the number of words, e.g. '142 words'.
+msgctxt "Word count for an attached text selection"
+msgid "%s words"
+msgstr "%1$s slov"
+
+# smartling.placeholder_format=C
 #. Instructions on which buttons and options the user has to click in order to add the DuckDuckGo extension to their browser.
 msgctxt "install-duckduckgo"
 msgid "%sClick %sAdd%sCheck %sAllow%s, then click %sOkay%s"
@@ -601,6 +607,12 @@ msgstr "1 skrytý výsledek"
 #. The main headline indicating that 1 tracker was blocked
 msgid "1 tracking attempt blocked"
 msgstr "Zablokovali jsme 1 pokus o sledování"
+
+# smartling.placeholder_format=C
+#. Shown in a text selection chip when the selection contains exactly one word.
+msgctxt "Word count for an attached text selection"
+msgid "1 word"
+msgstr "1 slovo"
 
 # smartling.placeholder_format=C
 #. Tells users where they can find the DuckDuckGo browser extension file downloaded to their computer.
@@ -2696,6 +2708,14 @@ msgid "Best available"
 msgstr "Nejlepší dostupné"
 
 # smartling.placeholder_format=C
+#. One-line description rendered beneath the default model in the Recommended group.
+msgctxt ""
+"Short descriptor under the everyday-use recommended model in the model "
+"picker dropdown"
+msgid "Best for everyday use"
+msgstr "Nejlepší pro každodenní použití"
+
+# smartling.placeholder_format=C
 #. In the right menu panel of the homepage.
 msgid "Beta"
 msgstr "Beta"
@@ -3931,6 +3951,12 @@ msgstr ""
 #. A headline letting the user choose between two video player options
 msgid "Choose How You Watch"
 msgstr "Vyber si, jak se chceš dívat"
+
+# smartling.placeholder_format=C
+#. Screen-reader label for the dropdown menu opened by the model picker button in the chat input toolbar. Announced when the user navigates into the menu.
+msgctxt "Accessibility label for the model picker dropdown menu in Duck.ai"
+msgid "Choose a model"
+msgstr "Zvol si model"
 
 # smartling.placeholder_format=C
 #. Label for the field where a user sets their passphrase.
@@ -5728,6 +5754,11 @@ msgid "Dictation"
 msgstr "Diktování"
 
 # smartling.placeholder_format=C
+#. Title of the dictation privacy modal, shown both on first use (consent) and from the settings 'How it works' link (info-only).
+msgid "Dictation in Duck.ai"
+msgstr "Diktování v Duck.ai"
+
+# smartling.placeholder_format=C
 #. Description for the privacy highlight in the dictation consent modal.
 msgid "Dictation is anonymized by us, and never used to train AI models."
 msgstr ""
@@ -6430,6 +6461,12 @@ msgstr "Aktualizace Duck.ai"
 msgctxt "Title of the post-upgrade success modal"
 msgid "Duck.ai upgraded!"
 msgstr "Upgrade Duck.ai je hotový!"
+
+# smartling.placeholder_format=C
+#. Main body text of the RetentionBrowserPromo horizontal banner encouraging users to download the DuckDuckGo browser.
+msgctxt "Promotional banner body text"
+msgid "Duck.ai works best in our private and free DuckDuckGo app!"
+msgstr "Duck.ai funguje nejlíp v naší soukromé a bezplatné aplikaci DuckDuckGo!"
 
 # smartling.placeholder_format=C
 #. Meta keywords content for Duck.ai.
@@ -9703,6 +9740,13 @@ msgstr "Informace o obrázku"
 msgctxt "Disclaimer text for Image Generation mode"
 msgid "Image prompts must comply with the %s"
 msgstr "Pokyny k zadávání obrázků musí splňovat %1$s"
+
+# smartling.placeholder_format=C
+#. Disclaimer text shown below chat input. %s is replaced with a clickable underlined 'terms' link that opens the Duck.ai terms of service page.
+msgctxt ""
+"Disclaimer below chat input in Duck.ai when image generation is enabled"
+msgid "Image prompts must comply with the Duck.ai %s."
+msgstr "Pokyny k zadávání obrázků musí splňovat %1$s Duck.ai."
 
 # smartling.placeholder_format=C
 msgctxt "settingsvalue"
@@ -14653,6 +14697,14 @@ msgid "Private to us and secured on your device"
 msgstr "Soukromé pro nás a zabezpečené v zařízení"
 
 # smartling.placeholder_format=C
+#. Heading above the group of Pro-tier locked models in the model picker dropdown, when the user is on the Plus tier.
+msgctxt ""
+"Section heading inside the model picker dropdown for models gated behind the "
+"Pro tier, shown to Plus-tier users"
+msgid "Pro exclusive."
+msgstr "Jenom pro předplatitele s tarifem Pro."
+
+# smartling.placeholder_format=C
 #. Category of feedback a user can select on a feedback form.
 msgctxt "feedback form"
 msgid "Product ad content is deceptive"
@@ -15324,6 +15376,12 @@ msgstr "Odstranit obrázek %1$s"
 msgctxt "Remove the attached page context"
 msgid "Remove page context"
 msgstr "Odebrat kontext stránky"
+
+# smartling.placeholder_format=C
+#. Accessible label for button that removes an attached page text selection from the chat message.
+msgctxt "Remove the attached text selection"
+msgid "Remove text selection"
+msgstr "Odstranit vybraný text"
 
 # smartling.placeholder_format=C
 #. A prompt asking users to try searching without any punctuation to get more results.
@@ -16863,6 +16921,12 @@ msgid "Selected text from %s"
 msgstr "Vybraný text ze stránky %1$s"
 
 # smartling.placeholder_format=C
+#. A subtitle indicating that an attached text snippet was selected from a specific source page. The placeholder will contain a link to the source page. Example: <a href='https://example.com'>example.com</a>
+msgctxt "Subtitle for the text selection message"
+msgid "Selected text from %s"
+msgstr "Vybraný text ze stránky %1$s"
+
+# smartling.placeholder_format=C
 #. Displayed when the user's text selection exceeds the maximum message size for AI tools (summary, translation, etc.).
 msgctxt "Error message for selection input limit"
 msgid "Selected text is too long. Try again with a shorter selection."
@@ -17787,8 +17851,22 @@ msgid "Software"
 msgstr "Software"
 
 # smartling.placeholder_format=C
+#. One-line description rendered beneath the frontier / higher-cost model in the Recommended group, warning that it consumes usage limits more quickly.
+msgctxt ""
+"Short descriptor under the higher-cost recommended model in the model picker "
+"dropdown"
+msgid "Solid but uses limits faster"
+msgstr "Výkonnější, ale rychleji vyčerpá limit"
+
+# smartling.placeholder_format=C
 msgid "Solomon Islands"
 msgstr "Šalamounovy ostrovy"
+
+# smartling.placeholder_format=C
+#. Text for a promotional card that encourages users to try the reasoning mode on complex problems which thinks longer to hopefully provide a more accurate answer.
+msgctxt "Promotional text for reasoning mode"
+msgid "Solve complex problems with reasoning mode!"
+msgstr "Vyřeš složité problémy s režimem uvažování!"
 
 # smartling.placeholder_format=C
 #. Text for a promotional card that encourages users to try the reasoning mode on complex problems which thinks longer to hopefully provide a more accurate answer.
@@ -18332,6 +18410,14 @@ msgstr ""
 msgctxt "Description prompting subscription for higher limits"
 msgid "Subscribe to unlock higher Duck.ai limits"
 msgstr "Přihlas se a získáš vyšší limity Duck.ai"
+
+# smartling.placeholder_format=C
+#. Heading above the group of tier-locked models in the model picker dropdown, when the user is on the Free tier and could become a subscriber.
+msgctxt ""
+"Section heading inside the model picker dropdown for models gated behind a "
+"paid Duck.ai subscription, shown to Free-tier users"
+msgid "Subscriber exclusive."
+msgstr "Jenom pro předplatitele."
 
 # smartling.placeholder_format=C
 #. A link to the DuckDuckGo Subscription product page (https://duckduckgo.com/pro/)
@@ -18912,6 +18998,12 @@ msgstr "Podmínky služby"
 # smartling.placeholder_format=C
 #. Text used in other strings to link to the Terms of Service content.
 msgctxt "Copy used to compose link in sentences"
+msgid "Terms of Service"
+msgstr "Podmínky služby"
+
+# smartling.placeholder_format=C
+#. This words are inserted into the sentence 'Image prompts must comply with the Duck.ai [Terms of Service].' as a clickable link that opens the Duck.ai terms of service page.
+msgctxt "Privacy link label in Duck.ai disclaimer below chat input"
 msgid "Terms of Service"
 msgstr "Podmínky služby"
 
@@ -20143,6 +20235,14 @@ msgid "Try for free"
 msgstr "Vyzkoušej zdarma"
 
 # smartling.placeholder_format=C
+#. Link-style CTA shown on the right of the Subscriber exclusive section header; clicking starts the subscription trial flow.
+msgctxt ""
+"Trailing CTA on the Subscriber exclusive section header in the model picker "
+"dropdown"
+msgid "Try for free"
+msgstr "Vyzkoušej zdarma"
+
+# smartling.placeholder_format=C
 #. Promotional message explaining that a VPN and two additional privacy protections are included in the DuckDuckGo subscription, for which a free trial is available.
 msgctxt "SERP footer content"
 msgid "Try for free! A secure VPN, advanced & private AI, and more."
@@ -20871,6 +20971,13 @@ msgstr "Aktualizace polohy..."
 msgctxt "duckai_migration"
 msgid "Updating..."
 msgstr "Probíhá aktualizace..."
+
+# smartling.placeholder_format=C
+#. Link-style CTA shown on the right of the Pro exclusive section header; clicking starts the Pro upgrade flow.
+msgctxt ""
+"Trailing CTA on the Pro exclusive section header in the model picker dropdown"
+msgid "Upgrade"
+msgstr "Upgradovat"
 
 # smartling.placeholder_format=C
 #. Label for the button that takes Plus subscribers to the Pro plans page when they hit the image generation limit. Context ('Upgrade to Pro') is already provided by the description above.
@@ -22826,6 +22933,12 @@ msgid ""
 msgstr ""
 "Můžeš taky použít %1$sDuckDuckGo AI Chat%2$s, který pro tebe shrne text nebo "
 "ti odpoví na otázky."
+
+# smartling.placeholder_format=C
+#. Error message displayed when the user tries to attach more text selections than are allowed. Placeholder is the maximum number of text selections. E.g. You can attach up to 5 text selections.
+msgctxt "Error message when text selection count exceeds the limit"
+msgid "You can attach up to %s text selections."
+msgstr "Můžeš připojit maximálně %1$s vybraných textů."
 
 # smartling.placeholder_format=C
 #. Third paragraph of a section inviting users to learn more about the duckassist instant answer (based on generative AI)
