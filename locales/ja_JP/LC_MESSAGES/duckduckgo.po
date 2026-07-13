@@ -1414,6 +1414,18 @@ msgid "Advanced AI in DuckDuckGo subscription!"
 msgstr "DuckDuckGoサブスクリプションの高度なAI！"
 
 # smartling.placeholder_format=C
+#. Displayed above the fixed-window limit error when the user can continue by switching to a configured free/degraded model.
+msgctxt "Error label for fixed-window Duck.ai usage limit."
+msgid "Advanced AI models limit reached"
+msgstr "高度なAIモデルの上限に達しました"
+
+# smartling.placeholder_format=C
+#. Displayed when the user's advanced-model Duck.ai usage limit has been reached but they can continue the current conversation by switching to a configured free/degraded model.
+msgctxt "Usage limit banner in Duck.ai."
+msgid "Advanced AI models limit reached"
+msgstr "高度なAIモデルの上限に達しました"
+
+# smartling.placeholder_format=C
 #. Text for a promotional card that encourages DuckDuckGo Subscription users to try the advanced AI models that the subscription unlocks.
 msgctxt "Promotional text for advanced AI models for subscribed Duck.ai users"
 msgid "Advanced AI models unlocked!"
@@ -1681,6 +1693,12 @@ msgid "All types"
 msgstr "すべての種類"
 
 # smartling.placeholder_format=C
+#. Button to approve file/image uploads for the current conversation, shown inside an in-chat permission card in Duck.ai
+msgctxt "DuckChat upload consent prompt for encrypted models"
+msgid "Allow"
+msgstr "許可"
+
+# smartling.placeholder_format=C
 #. Message shown to the user when microphone access is denied.
 msgctxt "voice chat"
 msgid ""
@@ -1697,6 +1715,12 @@ msgstr "DuckDuckGoに位置情報の使用を許可します。"
 #. Label of a button that opens instructions on how to turn off the user's ad blocker
 msgid "Allow Privacy-Respecting Ads"
 msgstr "プライバシーを尊重する広告を許可"
+
+# smartling.placeholder_format=C
+#. Title of the upload consent prompt shown before the first image/file upload in a chat with a zero-provider-visibility model, shown inside an in-chat permission card in Duck.ai
+msgctxt "DuckChat upload consent prompt for encrypted models"
+msgid "Allow anonymous file review for this chat?"
+msgstr "このチャットで匿名ファイルレビューを許可しますか？"
 
 # smartling.placeholder_format=C
 #. Title in a dialog informing the user how to disable their ad blocker for DuckDuckGo
@@ -2407,6 +2431,12 @@ msgctxt "settings"
 msgid ""
 "Autoplay short, silent video previews when you hover over video results."
 msgstr "動画の結果にカーソルを合わせると、プレビューが短時間無音で自動再生されます。"
+
+# smartling.placeholder_format=C
+#. Title for the menu listing free/degraded models available after the advanced-model usage limit has been reached.
+msgctxt "Usage limit banner in Duck.ai."
+msgid "Available Free Models"
+msgstr "利用可能な無料モデル"
 
 # smartling.placeholder_format=C
 #. Screen-reader label for the radiogroup of tool options inside the Tools dropdown. Announced when assistive technology enters the group of menuitemradio items.
@@ -3757,6 +3787,14 @@ msgid "Chats downloaded securely"
 msgstr "チャットは安全にダウンロードされました"
 
 # smartling.placeholder_format=C
+#. Description explaining that uploaded files are anonymously reviewed for CSAM by a content moderation provider, even on zero-provider-visibility models. First placeholder is the full model name (e.g. 'Gemma 4 31B'). Second placeholder is the acronym 'CSAM' (Child Sexual Abuse Material), injected as-is and NOT translated — it renders with a tooltip carrying the translated expansion. An example full sentence would be: Chats with Gemma 4 31B have zero provider visibility, but all files uploaded in Duck.ai are anonymously reviewed by a content moderation provider for CSAM.
+msgctxt "DuckChat upload consent prompt for encrypted models"
+msgid ""
+"Chats with %s have zero provider visibility, but all files uploaded in Duck."
+"ai are anonymously reviewed by a content moderation provider for %s."
+msgstr "%1$sとのチャットではプロバイダーの可視性がゼロになりますが、Duck.aiにアップロードされたすべてのファイルは、%2$sを目的としてコンテンツモデレーションプロバイダーによって匿名でレビューされます。"
+
+# smartling.placeholder_format=C
 #. Body text shown on the inline disclaimer above the chat input when the file-storage sync quota is full.
 msgctxt "Sync file storage inline disclaimer body"
 msgid ""
@@ -3839,6 +3877,12 @@ msgstr "他のデバイスをチェックしてください。"
 msgctxt "Assistant role option label for Chef"
 msgid "Chef"
 msgstr "シェフ"
+
+# smartling.placeholder_format=C
+#. Tooltip shown on hover/focus of the acronym 'CSAM' in the upload consent prompt. This is the translated expansion of the 'CSAM' acronym.
+msgctxt "DuckChat upload consent prompt for encrypted models"
+msgid "Child Sexual Abuse Material"
+msgstr "子供の性的虐待コンテンツ"
 
 # smartling.placeholder_format=C
 #. Option in a feedback form for image search results.
@@ -6854,6 +6898,12 @@ msgid "Edit"
 msgstr "編集"
 
 # smartling.placeholder_format=C
+#. Text in button that opens the prompt editor so the user edit their last prompt (message) sent to the AI assistant.
+msgctxt "DuckChat upload consent prompt for encrypted models"
+msgid "Edit Prompt"
+msgstr "プロンプトを編集"
+
+# smartling.placeholder_format=C
 #. Title text shown for an assistant response that contains an edited image. Shown to internal users only
 msgctxt "Assistant response title"
 msgid "Edited image. Cost %s (internal only)"
@@ -8540,6 +8590,12 @@ msgstr "オプションを開いてください。"
 #. Tells users where in the settings menu they can change their default search engine.
 msgid "Go to Search Engine."
 msgstr "検索エンジンへ移動"
+
+# smartling.placeholder_format=C
+#. Accessibility label for the ball icon shown between the two teams' goalscorers in a soccer match timeline.
+msgctxt "Sports module"
+msgid "Goal"
+msgstr "ゴール"
 
 # smartling.placeholder_format=C
 #. Indicates this is the difference between goals 'for' and 'against' for this team
@@ -15103,6 +15159,12 @@ msgid "Red Cards"
 msgstr "レッドカード"
 
 # smartling.placeholder_format=C
+#. Accessibility label for the red card marker shown between the two teams' sent-off players in a soccer match timeline.
+msgctxt "Sports module"
+msgid "Red card"
+msgstr "レッドカード"
+
+# smartling.placeholder_format=C
 msgid "Reddit"
 msgstr "Reddit"
 
@@ -18624,10 +18686,22 @@ msgid "Switch Model"
 msgstr "モデルを切り替える"
 
 # smartling.placeholder_format=C
+#. Button text that opens a menu of free/degraded models from the fixed-window limit error.
+msgctxt "Error message action for fixed-window Duck.ai usage limit."
+msgid "Switch Model"
+msgstr "モデルを切り替える"
+
+# smartling.placeholder_format=C
 #. In the context of an AI Chat, tooltip text for the button that allows the user to switch to a different AI model.
 msgctxt "AI Chat - Tooltip for switch model chat action"
 msgid "Switch model"
 msgstr "モデルを切り替える"
+
+# smartling.placeholder_format=C
+#. Displayed when the user hits a non-bypassable advanced-model fixed-window usage limit but can continue the conversation by switching to a configured free/degraded model. %s is the reset date/time formatted in the user's locale.
+msgctxt "Error message for fixed-window Duck.ai usage limit."
+msgid "Switch this chat to a free model or wait until %s."
+msgstr "このチャットを無料モデルに切り替えるか、%1$s までお待ちください。"
 
 # smartling.placeholder_format=C
 #. Call to action in the Duck.ai usage limit banner. %s is the recommended lower-cost AI model name, e.g., 'Sonnet 4.5'.
@@ -18657,6 +18731,12 @@ msgstr "ブラウザに切り替え"
 msgctxt "new tab page"
 msgid "Switch to Our Browser"
 msgstr "当社ブラウザに切り替え"
+
+# smartling.placeholder_format=C
+#. Button text that opens a menu of free/degraded models after the advanced-model usage limit has been reached.
+msgctxt "Usage limit banner in Duck.ai."
+msgid "Switch to a Free Model"
+msgstr "無料モデルに切り替える"
 
 # smartling.placeholder_format=C
 #. Title for the Duck.ai usage limit banner menu listing lower-cost AI models.
@@ -22015,6 +22095,12 @@ msgid "Weekly limit reached"
 msgstr "週間制限に達しました"
 
 # smartling.placeholder_format=C
+#. Displayed in the Duck.ai usage limit banner for subscribers when the weekly usage limit has been reached.
+msgctxt "Usage limit banner in Duck.ai."
+msgid "Weekly usage limit reached"
+msgstr "週間使用制限に達しました"
+
+# smartling.placeholder_format=C
 #. Displayed when the user has reached a fixed weekly Duck.ai usage limit. %s is the reset date/time formatted in the user's locale and reads as 'after <date/time>', e.g. 'after May 7, 2026, 5:00 PM'.
 msgctxt "Error message for fixed-window Duck.ai usage limit"
 msgid "Weekly usage limit reached. You can continue this chat after %s."
@@ -22707,6 +22793,12 @@ msgid "Wintry Mix"
 msgstr "みぞれ混じりの雪"
 
 # smartling.placeholder_format=C
+#. Section header in the model switch dropdown, shown above the list of models that do NOT run in a Trusted Execution Environment (i.e. the model provider can access user data). It is paired with a 'Zero provider visibility' section that lists the encrypted models. Please keep the wording consistent with the 'Zero provider visibility' label.
+msgctxt "AI Chat model switch dropdown section header"
+msgid "Without zero provider visibility"
+msgstr "プロバイダーの可視性ゼロではない"
+
+# smartling.placeholder_format=C
 #. Label for the global number of confirmed Covid 19 cases
 msgctxt "Covid 19 module"
 msgid "World"
@@ -23032,6 +23124,12 @@ msgid "You can change this any time in %sSearch Settings%s"
 msgstr "この設定は「%1$s検索設定%2$s」でいつでも変更できます"
 
 # smartling.placeholder_format=C
+#. Displayed when the user has reached a fixed weekly Duck.ai usage limit. %s is the reset date/time formatted in the user's locale, e.g. 'May 7, 2026, 5:00 PM'.
+msgctxt "Error message for fixed-window Duck.ai usage limit"
+msgid "You can continue this chat when your limit resets on %s."
+msgstr "%1$sに制限がリセットされたら、このチャットを続行できます。"
+
+# smartling.placeholder_format=C
 #. Text explaning how to change a passphrase.
 msgctxt "cloudsave"
 msgid ""
@@ -23055,6 +23153,12 @@ msgstr "<b>%1$s</b>ファイルはダウンロードフォルダにあります�
 #. A link to the settings to where the user can hide the private search reminder from the filter bar of search results
 msgid "You can hide this reminder in %sSearch Settings%s"
 msgstr "このリマインダーは%1$s検索設定%2$sで非表示にできます。"
+
+# smartling.placeholder_format=C
+#. Displayed when the user has reached a bypassable weekly Duck.ai usage limit and can opt in to continue using the monthly limit.
+msgctxt "Error message for fixed-window Duck.ai usage limit"
+msgid "You can keep chatting by using your monthly limit."
+msgstr "月間制限時間を使ってチャットを続行できます。"
 
 # smartling.placeholder_format=C
 #. Text displayed in a popover informing existing users that the chat save limit has been increased to 100.
