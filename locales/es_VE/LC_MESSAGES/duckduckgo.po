@@ -453,6 +453,14 @@ msgctxt "Suffix marking the current device in the synced devices list"
 msgid "(This device)"
 msgstr ""
 
+#. Shorter mobile placeholder for the AI Chat prompt input shown inline next to the 'Show More' button on the short answer, where the narrow width would otherwise wrap the longer copy (Duck.ai entry-point experiment, variant f only)
+msgid "... or ask a follow-up"
+msgstr ""
+
+#. A placeholder for the AI Chat prompt input shown inline next to the 'Show More' button on the short answer (Duck.ai entry-point experiment, variant f only)
+msgid "... or ask a follow-up with Duck.ai"
+msgstr ""
+
 #. Displaying 1 review for a website
 msgid "1 Review"
 msgstr ""
@@ -730,6 +738,11 @@ msgstr ""
 #. https://duckduckgo.com/params in the end under " Source:"
 msgid "A string to identify the source."
 msgstr "Una cadena para identificar la fuente"
+
+#. Abbreviation for 'after extra time'. Shown in parentheses after 'FT' (e.g. 'FT (AET)') when a soccer match was decided in extra time or on penalties (which follow extra time).
+msgctxt "Sports module"
+msgid "AET"
+msgstr ""
 
 #. Page title for a ChatGPT-like chat bot feature. Translation should include the equivalent term for AI (Artificial Intelligence). It's ok to leave it in English if that's the expectation in your language.
 msgctxt "Page title in browser tab"
@@ -3251,6 +3264,11 @@ msgstr ""
 msgid "Choose How You Watch"
 msgstr ""
 
+#. Opens a picker to re-run the second opinion against a manually chosen AI model.
+msgctxt "Button label in the second-opinion card"
+msgid "Choose Model"
+msgstr ""
+
 #. Screen-reader label for the dropdown menu opened by the model picker button in the chat input toolbar. Announced when the user navigates into the menu.
 msgctxt "Accessibility label for the model picker dropdown menu in Duck.ai"
 msgid "Choose a model"
@@ -3792,6 +3810,11 @@ msgctxt "Weather IA"
 msgid "Cloudy"
 msgstr ""
 
+#. Explains what the copied code is for. Appears when hovering the copy button on the Scan QR tab.
+msgctxt "Tooltip shown on hover over the Copy Text Code button"
+msgid "Code for syncing with another device"
+msgstr ""
+
 #. Label for the option prompting the AI assistant to adopt a role of a coding coach in its responses.
 msgctxt "Assistant role option label for Coding coach"
 msgid "Coding coach"
@@ -3941,6 +3964,11 @@ msgstr ""
 msgid "Congratulations!"
 msgstr ""
 
+#. Replaces the button label alongside a spinner while the account is being created.
+msgctxt "Loading label on the Sync This Device Only button while setup runs"
+msgid "Connecting"
+msgstr ""
+
 #. Status label shown while connecting to the voice chat session.
 msgctxt "voice chat"
 msgid "Connecting"
@@ -4085,6 +4113,11 @@ msgstr ""
 #. Text for a button that copies the content from a block of programming code. Please keep the text as short as possible.
 msgctxt "Text for a button for copying preformatted code block content"
 msgid "Copy Code"
+msgstr ""
+
+#. Label for the copy button on the Scan QR tab.
+msgctxt "Button label that copies the sync code text to clipboard"
+msgid "Copy Text Code"
 msgstr ""
 
 #. Centered line above the recovery token in the holding panel, aligned with Figma 435:111290 (manual code / recovery layout).
@@ -4661,6 +4694,10 @@ msgctxt "feedback form"
 msgid "Detailed answer"
 msgstr ""
 
+#. Section heading in redesigned About IA for section showing facts and figures
+msgid "Details"
+msgstr ""
+
 #. Default value for a dropdown, indicating that the language of inputted text will be automatically-detected.
 msgctxt "translations_module"
 msgid "Detect language"
@@ -4946,6 +4983,11 @@ msgctxt "new tab page"
 msgid "Don't show"
 msgstr ""
 
+#. Button that finishes the pairing flow on the joiner device's success screen (this is the final step for the joiner, so 'Done' rather than 'Next').
+msgctxt "CTA on the joiner-device success screen"
+msgid "Done"
+msgstr ""
+
 #. Button that closes the modal after a successful pairing.
 msgctxt "Close button on the success screen"
 msgid "Done"
@@ -5022,6 +5064,12 @@ msgstr ""
 #. Text of a button that will install the DuckDuckGo browser when clicked
 msgctxt "Browser Promo Popover"
 msgid "Download Our Free Browser"
+msgstr ""
+
+#. Aria label for the download icon button in the recovery code box on the joiner-device ('New device added') success screen; triggers a download of the recovery code as a PDF (falling back to a .txt file).
+msgctxt ""
+"Accessible label for the download icon button on the joiner success screen"
+msgid "Download Recovery Code"
 msgstr ""
 
 #. Button that downloads a file.
@@ -6054,6 +6102,13 @@ msgctxt "Sports module"
 msgid "Events"
 msgstr ""
 
+#. Shown greyed in the empty textarea, above an example sync code. The example code itself is a non-translatable constant appended in the component.
+msgctxt ""
+"Label above the illustrative code in the enlarged Enter Code textarea "
+"placeholder"
+msgid "Example code:"
+msgstr ""
+
 #. Button that makes a map larger
 msgctxt "mobile expanded map"
 msgid "Expand Map"
@@ -7038,6 +7093,36 @@ msgstr ""
 #. Prompt sent to the AI when the user taps the "Who is this person?" page-suggestion chip.
 msgctxt "Page suggestion prompt"
 msgid "Give me a quick background on this person."
+msgstr ""
+
+#. Same as the Scan QR instruction plus the Copy Text Code step. Bold segments are UI path labels.
+msgctxt "Instruction under the Enter Code tab sub-heading"
+msgid ""
+"Go to %sDuck.ai Settings%s in your other browser, or the DuckDuckGo App and "
+"go to %sChats › Sync & Backup › Sync With Another Device › Copy Text Code%s"
+msgstr ""
+
+#. Tells the user where to find the pairing entry on their other device. Bold segments are UI path labels.
+msgctxt "Instruction under the Scan QR tab sub-heading"
+msgid ""
+"Go to %sDuck.ai Settings%s in your other browser, or the DuckDuckGo App and "
+"go to %sChats › Sync & Backup › Sync With Another Device%s"
+msgstr ""
+
+#. Same path as the Scan QR instruction, plus a scan-this-code prompt. Bold segments are UI path labels.
+msgctxt "Instruction in the mobile Scan-or-Copy-Code modal"
+msgid ""
+"Go to %sDuck.ai Settings%s in your other browser, or the DuckDuckGo App and "
+"go to %sChats › Sync & Backup › Sync With Another Device%s and scan this "
+"code:"
+msgstr ""
+
+#. Same as the Scan QR pairing instruction (DUCKCHAT_SYNC_PAIRING_SCAN_INSTRUCTION) plus the Recovery PDF option. Bold segments are UI path labels.
+msgctxt "Instruction on the recover-data scan/paste sheet"
+msgid ""
+"Go to %sDuck.ai Settings%s in your other browser, or the DuckDuckGo App and "
+"go to %sChats › Sync & Backup › Sync With Another Device%s. Or scan the QR "
+"on your Recovery PDF."
 msgstr ""
 
 #. Tells user where to find location settings in the settings menu. Part of a list of instructions on how to enable location service.
@@ -9467,6 +9552,11 @@ msgctxt "Feedback prompt"
 msgid "Misleading source"
 msgstr ""
 
+#. Accessibility label for a marker representing a penalty kick that was missed in a soccer shootout.
+msgctxt "Sports module"
+msgid "Missed"
+msgstr ""
+
 #. A negative feedback suggestion where the user can provide feedback on the feature missing having other AI (Artificial Intelligence) models available
 msgctxt "Feedback prompt"
 msgid "Missing AI models"
@@ -10035,6 +10125,11 @@ msgstr ""
 #. Tooltip text that appears when hovering over the new chat button.
 msgctxt "Tooltip label for the new chat button"
 msgid "New chat"
+msgstr ""
+
+#. Title shown to the joiner device (the one that is not logged in) after the two devices have successfully paired. %s is a line break so the title wraps after "to"; rendered via <Translate>. This screen prompts the user to save the recovery code.
+msgctxt "Title for the joiner-device success screen"
+msgid "New device added to %sSync & Backup."
 msgstr ""
 
 #. Warning in the About Chat History and About Sync modals explaining that prompts and responses are temporarily stored encrypted on DuckDuckGo's server for connection recovery, and that disabling chat history deletes pinned chats.
@@ -11312,6 +11407,11 @@ msgctxt "Primary CTA on the Enter Code body"
 msgid "Paste"
 msgstr ""
 
+#. Label for the paste button on the Enter Code tab.
+msgctxt "Button label that pastes the sync code from clipboard"
+msgid "Paste Sync Code"
+msgstr ""
+
 #. Placeholder text inside the textarea where the user can paste the pairing payload as a fallback.
 msgctxt "Placeholder for the manual paste textarea"
 msgid "Paste pairing code"
@@ -12309,6 +12409,11 @@ msgstr ""
 msgid "Read More"
 msgstr ""
 
+#. A labelled link in About IA showing the source of the abstract, e.g. "Read more on Wikipedia"
+msgctxt "Link in redesigned About IA to continued content directly in source"
+msgid "Read more on %s"
+msgstr ""
+
 #. Text suggesting the user to read the Duck.ai Privacy Policy and Terms of Use, placeholder is a link to 'Privacy Policy and Terms of Use'. Example: 'Read our Privacy Privacy Policy & Terms of Use'
 msgctxt "Informational text with a link to Duck.ai Privacy Terms"
 msgid "Read our %s"
@@ -12463,6 +12568,11 @@ msgstr ""
 #. Label preceding the recovery code description and Save Recovery Code button.
 msgctxt "Section header for the recovery code area inside Manage"
 msgid "Recovery"
+msgstr ""
+
+#. Left-aligned label naming the recovery code shown in the dashed box on the joiner-device ('New device added') success screen (Figma 4174-1377933).
+msgctxt "Label above the recovery code on the joiner success screen"
+msgid "Recovery Code"
 msgstr ""
 
 #. Used for various color settings  query parameters values captions into <a =href="https://duckduckgo.com/params.html">query parameters documentation page</a>.
@@ -13161,6 +13271,11 @@ msgctxt "settings"
 msgid "Save Cloud Settings"
 msgstr "Guardar configuración de la nube "
 
+#. Secondary button on the 'Sync This Device Only' recovery code screen that triggers a download of the recovery code as a PDF (falling back to a .txt file).
+msgctxt "Button label that downloads the recovery code as a PDF file"
+msgid "Save Recovery Code"
+msgstr ""
+
 #. Secondary button on the recovery code screen that triggers a download of the recovery code as a .txt file.
 msgctxt "Button label that downloads the recovery code as a text file"
 msgid "Save Recovery Code"
@@ -13242,6 +13357,11 @@ msgctxt "Onboarding welcome screen title"
 msgid "Say hello to DuckDuckGo AI Chat!"
 msgstr ""
 
+#. Label for the Scan QR tab: on desktop it shows this device's QR for another device to scan; on mobile/tablet it opens the camera to scan the other device's QR. Used in both pairing and recovery.
+msgctxt "Tab label on the Sync Another Device pane for the QR/scan side"
+msgid "Scan QR"
+msgstr ""
+
 #. Text link below the paste textarea that takes the user back to the QR scan screen.
 msgctxt "Link on the manual paste screen that switches to camera scan"
 msgid "Scan QR Code"
@@ -13260,6 +13380,11 @@ msgstr ""
 #. Screen-reader label set as the aria-label on the QR code SVG so users know what the image represents. Not visible on screen.
 msgctxt "Accessible label for the QR pairing code image"
 msgid "Scan This Code"
+msgstr ""
+
+#. Header of the bottom sheet that shows this device's pairing QR and text code on mobile.
+msgctxt "Title of the mobile Scan-or-Copy-Code modal"
+msgid "Scan or Copy Code"
 msgstr ""
 
 #. Tells the user that either the QR or the text-form code below is what the other device should consume.
@@ -13288,6 +13413,11 @@ msgstr ""
 #. Golf leaderboard column: score relative to par
 msgctxt "Sports module"
 msgid "Score"
+msgstr ""
+
+#. Accessibility label for a marker representing a penalty kick that was scored in a soccer shootout.
+msgctxt "Sports module"
+msgid "Scored"
 msgstr ""
 
 #. Title of a tab that displays a list of scores for a team
@@ -13584,6 +13714,11 @@ msgstr ""
 #. Title for modal letting you choose which week of the season you wish to view
 msgctxt "Sports module"
 msgid "Season Weeks"
+msgstr ""
+
+#. Call to action that re-asks the same question to a different AI model so the user can compare answers.
+msgctxt "Tooltip for an action button"
+msgid "Second opinion"
 msgstr ""
 
 #. Description shown in the Sync & Backup settings section when sync is not yet enabled, explaining the feature.
@@ -15391,6 +15526,11 @@ msgctxt "Error message for fixed-window Duck.ai usage limit."
 msgid "Switch this chat to a free model or wait until %s."
 msgstr ""
 
+#. Button that switches the conversation to the second-opinion model. %s is the model name.
+msgctxt "Switch-model button label in the second-opinion card"
+msgid "Switch to %s"
+msgstr ""
+
 #. Call to action in the Duck.ai usage limit banner. %s is the recommended lower-cost AI model name, e.g., 'Sonnet 4.5'.
 msgctxt "Usage limit banner in Duck.ai."
 msgid "Switch to %s"
@@ -15427,6 +15567,11 @@ msgstr ""
 
 #. Text prompting  users to switch their current search engine to the DuckDuckGo private search engine.
 msgid "Switch to the search engine that doesn't track you. Ever."
+msgstr ""
+
+#. Shown in the second-opinion card after the user switches to its model. %s is the model name.
+msgctxt "Confirmation label"
+msgid "Switched to %s"
 msgstr ""
 
 #. Warning text shown in the model switch dropdown when the user is currently using an encrypted model. Warns that the new model will not have zero provider visibility.
@@ -15521,6 +15666,11 @@ msgid ""
 "restored."
 msgstr ""
 
+#. Sets up sync on this device alone, then shows the recovery code.
+msgctxt "Secondary CTA on the sync setup choice modal"
+msgid "Sync This Device Only"
+msgstr ""
+
 #. Secondary button label on the Sync & Backup intro screen that takes the user to the camera scan screen to pair with another device.
 msgctxt "Secondary button on the Sync & Backup intro screen"
 msgid "Sync With Another Device"
@@ -15539,6 +15689,11 @@ msgstr ""
 #. Tooltip text shown when sync is temporarily paused due to an error.
 msgctxt "Tooltip for sync error indicator"
 msgid "Sync is paused"
+msgstr ""
+
+#. Header of the first sync setup screen offering to pair with another device or set up this device only.
+msgctxt "Title of the sync setup choice modal"
+msgid "Sync with a nearby device."
 msgstr ""
 
 #. List item explaining that chats are synced across all user devices when Sync & Backup is enabled.
@@ -16904,9 +17059,19 @@ msgctxt "Destructive link at the bottom of the Manage modal"
 msgid "Turn Off and Delete Server Data"
 msgstr ""
 
+#. Shorter CTA label at the Sync & Backup entry points. Shown on all platforms and viewport widths.
+msgctxt "Encrypted storage setup button"
+msgid "Turn On"
+msgstr ""
+
 #. Short CTA for mobile / narrow settings and bottom sheets; same entry points as DUCKCHAT_SYNC_SETUP_BUTTON_TEXT.
 msgctxt "Encrypted storage setup button (third-party browsers, narrow width)"
 msgid "Turn On"
+msgstr ""
+
+#. Shown over the intro animation; tapping it prompts for camera access so scanning can start. Also used to retry after the camera is denied/unavailable.
+msgctxt "Button on the mobile scan tab that requests camera permission"
+msgid "Turn On Camera"
 msgstr ""
 
 #. This is a button that lets the user play a video in our custom video player
@@ -17521,6 +17686,13 @@ msgstr ""
 #. Link to download the DuckDuckGo extension for the Safari browser.
 msgid "Use in Safari"
 msgstr "Usar en Safari"
+
+#. Body copy shown on the joiner device's success screen after a successful pairing, above the recovery code the user should save.
+msgctxt "Description for the joiner-device success screen"
+msgid ""
+"Use this code to restore your data if you lose access to your devices. Keep "
+"it safe."
+msgstr ""
 
 #. First sentence of the recovery section. The 18-month inactivity notice is rendered by the component using DUCKCHAT_SYNC_RECOVERY_INACTIVITY_NOTICE so both surfaces stay consistent.
 msgctxt "Description for the recovery section inside Manage"
@@ -19554,6 +19726,13 @@ msgstr ""
 
 #. An item in the ads tooltip that explains that your searches can’t be tied back to you.
 msgid "Your searches can’t be tied back to you"
+msgstr ""
+
+#. Message shown in a modal after users who already have the standard DuckDuckGo extension disable AI features in Settings, inviting them to install the No AI extension. The first two placeholders bold DuckDuckGo No AI. The last two placeholders wrap Learn More in a link to the noai help page.
+msgctxt "settings"
+msgid ""
+"Your settings are saved, but clearing cookies will reset them. Install the "
+"%sDuckDuckGo No AI%s extension to make it permanent. %sLearn More%s"
 msgstr ""
 
 #. Confirms the recovery succeeded. The Next CTA closes the sheet.
