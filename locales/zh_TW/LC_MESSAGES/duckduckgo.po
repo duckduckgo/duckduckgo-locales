@@ -538,6 +538,16 @@ msgid "(This device)"
 msgstr "（此裝置）"
 
 # smartling.placeholder_format=C
+#. Shorter mobile placeholder for the AI Chat prompt input shown inline next to the 'Show More' button on the short answer, where the narrow width would otherwise wrap the longer copy (Duck.ai entry-point experiment, variant f only)
+msgid "... or ask a follow-up"
+msgstr "……或提出後續問題"
+
+# smartling.placeholder_format=C
+#. A placeholder for the AI Chat prompt input shown inline next to the 'Show More' button on the short answer (Duck.ai entry-point experiment, variant f only)
+msgid "... or ask a follow-up with Duck.ai"
+msgstr "……或向 Duck.ai 提出後續問題"
+
+# smartling.placeholder_format=C
 #. Displaying 1 review for a website
 msgid "1 Review"
 msgstr "1 則評論"
@@ -870,6 +880,12 @@ msgstr "Duck.ai 新版本已推出。 "
 #. https://duckduckgo.com/params in the end under " Source:"
 msgid "A string to identify the source."
 msgstr "一個識別來源的字串。"
+
+# smartling.placeholder_format=C
+#. Abbreviation for 'after extra time'. Shown in parentheses after 'FT' (e.g. 'FT (AET)') when a soccer match was decided in extra time or on penalties (which follow extra time).
+msgctxt "Sports module"
+msgid "AET"
+msgstr "延長賽"
 
 # smartling.placeholder_format=C
 #. Page title for a ChatGPT-like chat bot feature. Translation should include the equivalent term for AI (Artificial Intelligence). It's ok to leave it in English if that's the expectation in your language.
@@ -3931,6 +3947,12 @@ msgid "Choose How You Watch"
 msgstr "選擇觀看方式"
 
 # smartling.placeholder_format=C
+#. Opens a picker to re-run the second opinion against a manually chosen AI model.
+msgctxt "Button label in the second-opinion card"
+msgid "Choose Model"
+msgstr "選擇型號"
+
+# smartling.placeholder_format=C
 #. Screen-reader label for the dropdown menu opened by the model picker button in the chat input toolbar. Announced when the user navigates into the menu.
 msgctxt "Accessibility label for the model picker dropdown menu in Duck.ai"
 msgid "Choose a model"
@@ -4609,6 +4631,12 @@ msgid "Cloudy"
 msgstr "多雲"
 
 # smartling.placeholder_format=C
+#. Explains what the copied code is for. Appears when hovering the copy button on the Scan QR tab.
+msgctxt "Tooltip shown on hover over the Copy Text Code button"
+msgid "Code for syncing with another device"
+msgstr "用於與另一裝置同步的代碼"
+
+# smartling.placeholder_format=C
 #. Label for the option prompting the AI assistant to adopt a role of a coding coach in its responses.
 msgctxt "Assistant role option label for Coding coach"
 msgid "Coding coach"
@@ -4792,6 +4820,12 @@ msgid "Congratulations!"
 msgstr "恭喜你！"
 
 # smartling.placeholder_format=C
+#. Replaces the button label alongside a spinner while the account is being created.
+msgctxt "Loading label on the Sync This Device Only button while setup runs"
+msgid "Connecting"
+msgstr "連接"
+
+# smartling.placeholder_format=C
 #. Status label shown while connecting to the voice chat session.
 msgctxt "voice chat"
 msgid "Connecting"
@@ -4966,6 +5000,12 @@ msgstr "複製%1$sabout:preferences#search%2$s並在網址列貼上"
 msgctxt "Text for a button for copying preformatted code block content"
 msgid "Copy Code"
 msgstr "複製代碼"
+
+# smartling.placeholder_format=C
+#. Label for the copy button on the Scan QR tab.
+msgctxt "Button label that copies the sync code text to clipboard"
+msgid "Copy Text Code"
+msgstr "複製文字代碼"
 
 # smartling.placeholder_format=C
 #. Centered line above the recovery token in the holding panel, aligned with Figma 435:111290 (manual code / recovery layout).
@@ -5661,6 +5701,11 @@ msgid "Detailed answer"
 msgstr "詳細回答"
 
 # smartling.placeholder_format=C
+#. Section heading in redesigned About IA for section showing facts and figures
+msgid "Details"
+msgstr "詳情"
+
+# smartling.placeholder_format=C
 #. Default value for a dropdown, indicating that the language of inputted text will be automatically-detected.
 msgctxt "translations_module"
 msgid "Detect language"
@@ -6009,6 +6054,12 @@ msgid "Don't show"
 msgstr "不顯示"
 
 # smartling.placeholder_format=C
+#. Button that finishes the pairing flow on the joiner device's success screen (this is the final step for the joiner, so 'Done' rather than 'Next').
+msgctxt "CTA on the joiner-device success screen"
+msgid "Done"
+msgstr "完成"
+
+# smartling.placeholder_format=C
 #. Button that closes the modal after a successful pairing.
 msgctxt "Close button on the success screen"
 msgid "Done"
@@ -6100,6 +6151,13 @@ msgstr "下載 DuckDuckGo 瀏覽器"
 msgctxt "Browser Promo Popover"
 msgid "Download Our Free Browser"
 msgstr "下載我們的免費瀏覽器"
+
+# smartling.placeholder_format=C
+#. Aria label for the download icon button in the recovery code box on the joiner-device ('New device added') success screen; triggers a download of the recovery code as a PDF (falling back to a .txt file).
+msgctxt ""
+"Accessible label for the download icon button on the joiner success screen"
+msgid "Download Recovery Code"
+msgstr "下載恢復碼"
 
 # smartling.placeholder_format=C
 #. Button that downloads a file.
@@ -7350,6 +7408,14 @@ msgid "Events"
 msgstr "活動"
 
 # smartling.placeholder_format=C
+#. Shown greyed in the empty textarea, above an example sync code. The example code itself is a non-translatable constant appended in the component.
+msgctxt ""
+"Label above the illustrative code in the enlarged Enter Code textarea "
+"placeholder"
+msgid "Example code:"
+msgstr "範例代碼："
+
+# smartling.placeholder_format=C
 #. Button that makes a map larger
 msgctxt "mobile expanded map"
 msgid "Expand Map"
@@ -8540,6 +8606,48 @@ msgstr "來試試看吧"
 msgctxt "Page suggestion prompt"
 msgid "Give me a quick background on this person."
 msgstr "給我這個人的快速背景介紹。"
+
+# smartling.placeholder_format=C
+#. Same as the Scan QR instruction plus the Copy Text Code step. Bold segments are UI path labels.
+msgctxt "Instruction under the Enter Code tab sub-heading"
+msgid ""
+"Go to %sDuck.ai Settings%s in your other browser, or the DuckDuckGo App and "
+"go to %sChats › Sync & Backup › Sync With Another Device › Copy Text Code%s"
+msgstr ""
+"前往其他瀏覽器中的 %1$sDuck.ai 設定%2$s，或前往 DuckDuckGo 應用程式並進入 %3$s聊天記錄 › Sync & Backup "
+"› 與另一裝置同步 › 複製文字代碼%4$s"
+
+# smartling.placeholder_format=C
+#. Tells the user where to find the pairing entry on their other device. Bold segments are UI path labels.
+msgctxt "Instruction under the Scan QR tab sub-heading"
+msgid ""
+"Go to %sDuck.ai Settings%s in your other browser, or the DuckDuckGo App and "
+"go to %sChats › Sync & Backup › Sync With Another Device%s"
+msgstr ""
+"前往其他瀏覽器中的 %1$sDuck.ai 設定%2$s，或在 DuckDuckGo 應用程式中前往 %3$s聊天記錄 › Sync & Backup "
+"› 與另一裝置同步%4$s"
+
+# smartling.placeholder_format=C
+#. Same path as the Scan QR instruction, plus a scan-this-code prompt. Bold segments are UI path labels.
+msgctxt "Instruction in the mobile Scan-or-Copy-Code modal"
+msgid ""
+"Go to %sDuck.ai Settings%s in your other browser, or the DuckDuckGo App and "
+"go to %sChats › Sync & Backup › Sync With Another Device%s and scan this "
+"code:"
+msgstr ""
+"使用其他瀏覽器或 DuckDuckGo 應用程式前往 %1$sDuck.ai 設定%2$s，再前往 %3$s聊天 › Sync & Backup › "
+"與其他裝置同步%4$s，然後掃描此代碼："
+
+# smartling.placeholder_format=C
+#. Same as the Scan QR pairing instruction (DUCKCHAT_SYNC_PAIRING_SCAN_INSTRUCTION) plus the Recovery PDF option. Bold segments are UI path labels.
+msgctxt "Instruction on the recover-data scan/paste sheet"
+msgid ""
+"Go to %sDuck.ai Settings%s in your other browser, or the DuckDuckGo App and "
+"go to %sChats › Sync & Backup › Sync With Another Device%s. Or scan the QR "
+"on your Recovery PDF."
+msgstr ""
+"請用其他瀏覽器或 DuckDuckGo 應用程式前往 %1$sDuck.ai 設定%2$s，然後前往 %3$s聊天 › Sync & Backup › "
+"與其他裝置同步%4$s。或掃描您的恢復 PDF 上的二維碼。"
 
 # smartling.placeholder_format=C
 #. Tells user where to find location settings in the settings menu. Part of a list of instructions on how to enable location service.
@@ -11493,6 +11601,12 @@ msgid "Misleading source"
 msgstr "誤導的來源"
 
 # smartling.placeholder_format=C
+#. Accessibility label for a marker representing a penalty kick that was missed in a soccer shootout.
+msgctxt "Sports module"
+msgid "Missed"
+msgstr "未進"
+
+# smartling.placeholder_format=C
 #. A negative feedback suggestion where the user can provide feedback on the feature missing having other AI (Artificial Intelligence) models available
 msgctxt "Feedback prompt"
 msgid "Missing AI models"
@@ -12187,6 +12301,12 @@ msgstr "新瀏覽器或電腦"
 msgctxt "Tooltip label for the new chat button"
 msgid "New chat"
 msgstr "新增聊天室"
+
+# smartling.placeholder_format=C
+#. Title shown to the joiner device (the one that is not logged in) after the two devices have successfully paired. %s is a line break so the title wraps after "to"; rendered via <Translate>. This screen prompts the user to save the recovery code.
+msgctxt "Title for the joiner-device success screen"
+msgid "New device added to %sSync & Backup."
+msgstr "新裝置已新增至 %1$sSync & Backup。"
 
 # smartling.placeholder_format=C
 #. Warning in the About Chat History and About Sync modals explaining that prompts and responses are temporarily stored encrypted on DuckDuckGo's server for connection recovery, and that disabling chat history deletes pinned chats.
@@ -13734,6 +13854,12 @@ msgid "Paste"
 msgstr "貼上"
 
 # smartling.placeholder_format=C
+#. Label for the paste button on the Enter Code tab.
+msgctxt "Button label that pastes the sync code from clipboard"
+msgid "Paste Sync Code"
+msgstr "貼上同步代碼"
+
+# smartling.placeholder_format=C
 #. Placeholder text inside the textarea where the user can paste the pairing payload as a fallback.
 msgctxt "Placeholder for the manual paste textarea"
 msgid "Paste pairing code"
@@ -14947,6 +15073,12 @@ msgid "Read More"
 msgstr "閱讀更多"
 
 # smartling.placeholder_format=C
+#. A labelled link in About IA showing the source of the abstract, e.g. "Read more on Wikipedia"
+msgctxt "Link in redesigned About IA to continued content directly in source"
+msgid "Read more on %s"
+msgstr "在 %1$s 閱讀更多"
+
+# smartling.placeholder_format=C
 #. Text suggesting the user to read the Duck.ai Privacy Policy and Terms of Use, placeholder is a link to 'Privacy Policy and Terms of Use'. Example: 'Read our Privacy Privacy Policy & Terms of Use'
 msgctxt "Informational text with a link to Duck.ai Privacy Terms"
 msgid "Read our %s"
@@ -15132,6 +15264,12 @@ msgstr "恢復已同步的資料"
 msgctxt "Section header for the recovery code area inside Manage"
 msgid "Recovery"
 msgstr "復甦"
+
+# smartling.placeholder_format=C
+#. Left-aligned label naming the recovery code shown in the dashed box on the joiner-device ('New device added') success screen (Figma 4174-1377933).
+msgctxt "Label above the recovery code on the joiner success screen"
+msgid "Recovery Code"
+msgstr "恢復碼"
 
 # smartling.placeholder_format=C
 #. Used for various color settings  query parameters values captions into <a =href="https://duckduckgo.com/params.html">query parameters documentation page</a>.
@@ -15977,6 +16115,12 @@ msgid "Save Cloud Settings"
 msgstr "儲存雲端設定"
 
 # smartling.placeholder_format=C
+#. Secondary button on the 'Sync This Device Only' recovery code screen that triggers a download of the recovery code as a PDF (falling back to a .txt file).
+msgctxt "Button label that downloads the recovery code as a PDF file"
+msgid "Save Recovery Code"
+msgstr "保存恢復碼"
+
+# smartling.placeholder_format=C
 #. Secondary button on the recovery code screen that triggers a download of the recovery code as a .txt file.
 msgctxt "Button label that downloads the recovery code as a text file"
 msgid "Save Recovery Code"
@@ -16074,6 +16218,12 @@ msgid "Say hello to DuckDuckGo AI Chat!"
 msgstr "向 DuckDuckGo AI Chat 打聲招呼！"
 
 # smartling.placeholder_format=C
+#. Label for the Scan QR tab: on desktop it shows this device's QR for another device to scan; on mobile/tablet it opens the camera to scan the other device's QR. Used in both pairing and recovery.
+msgctxt "Tab label on the Sync Another Device pane for the QR/scan side"
+msgid "Scan QR"
+msgstr "掃描 QR 碼"
+
+# smartling.placeholder_format=C
 #. Text link below the paste textarea that takes the user back to the QR scan screen.
 msgctxt "Link on the manual paste screen that switches to camera scan"
 msgid "Scan QR Code"
@@ -16096,6 +16246,12 @@ msgstr "掃描二維碼"
 msgctxt "Accessible label for the QR pairing code image"
 msgid "Scan This Code"
 msgstr "掃描這個代碼"
+
+# smartling.placeholder_format=C
+#. Header of the bottom sheet that shows this device's pairing QR and text code on mobile.
+msgctxt "Title of the mobile Scan-or-Copy-Code modal"
+msgid "Scan or Copy Code"
+msgstr "掃描或複製代碼"
 
 # smartling.placeholder_format=C
 #. Tells the user that either the QR or the text-form code below is what the other device should consume.
@@ -16130,6 +16286,12 @@ msgstr "比分"
 msgctxt "Sports module"
 msgid "Score"
 msgstr "比分"
+
+# smartling.placeholder_format=C
+#. Accessibility label for a marker representing a penalty kick that was scored in a soccer shootout.
+msgctxt "Sports module"
+msgid "Scored"
+msgstr "得分"
 
 # smartling.placeholder_format=C
 #. Title of a tab that displays a list of scores for a team
@@ -16498,6 +16660,12 @@ msgstr "正在網路上搜尋…..."
 msgctxt "Sports module"
 msgid "Season Weeks"
 msgstr "季賽週"
+
+# smartling.placeholder_format=C
+#. Call to action that re-asks the same question to a different AI model so the user can compare answers.
+msgctxt "Tooltip for an action button"
+msgid "Second opinion"
+msgstr "另一種觀點"
 
 # smartling.placeholder_format=C
 #. Description shown in the Sync & Backup settings section when sync is not yet enabled, explaining the feature.
@@ -18688,6 +18856,12 @@ msgid "Switch this chat to a free model or wait until %s."
 msgstr "將此聊天切換至免費模型，或等到 %1$s。"
 
 # smartling.placeholder_format=C
+#. Button that switches the conversation to the second-opinion model. %s is the model name.
+msgctxt "Switch-model button label in the second-opinion card"
+msgid "Switch to %s"
+msgstr "切換到%1$s"
+
+# smartling.placeholder_format=C
 #. Call to action in the Duck.ai usage limit banner. %s is the recommended lower-cost AI model name, e.g., 'Sonnet 4.5'.
 msgctxt "Usage limit banner in Duck.ai."
 msgid "Switch to %s"
@@ -18732,6 +18906,12 @@ msgstr "轉換到更有效率的模式"
 #. Text prompting  users to switch their current search engine to the DuckDuckGo private search engine.
 msgid "Switch to the search engine that doesn't track you. Ever."
 msgstr "切換到永遠不會追蹤你的搜尋引擎。"
+
+# smartling.placeholder_format=C
+#. Shown in the second-opinion card after the user switches to its model. %s is the model name.
+msgctxt "Confirmation label"
+msgid "Switched to %s"
+msgstr "已切換至 %1$s"
 
 # smartling.placeholder_format=C
 #. Warning text shown in the model switch dropdown when the user is currently using an encrypted model. Warns that the new model will not have zero provider visibility.
@@ -18853,6 +19033,12 @@ msgstr ""
 "如果你超過 18 個月未使用已啟用 Sync & Backup 的 DuckDuckGo 瀏覽器，你的資料將從伺服器上刪除，且無法恢復。"
 
 # smartling.placeholder_format=C
+#. Sets up sync on this device alone, then shows the recovery code.
+msgctxt "Secondary CTA on the sync setup choice modal"
+msgid "Sync This Device Only"
+msgstr "僅同步此裝置"
+
+# smartling.placeholder_format=C
 #. Secondary button label on the Sync & Backup intro screen that takes the user to the camera scan screen to pair with another device.
 msgctxt "Secondary button on the Sync & Backup intro screen"
 msgid "Sync With Another Device"
@@ -18875,6 +19061,12 @@ msgstr "同步失敗。"
 msgctxt "Tooltip for sync error indicator"
 msgid "Sync is paused"
 msgstr "同步已暫停"
+
+# smartling.placeholder_format=C
+#. Header of the first sync setup screen offering to pair with another device or set up this device only.
+msgctxt "Title of the sync setup choice modal"
+msgid "Sync with a nearby device."
+msgstr "與附近裝置同步。"
 
 # smartling.placeholder_format=C
 #. List item explaining that chats are synced across all user devices when Sync & Backup is enabled.
@@ -20520,10 +20712,22 @@ msgid "Turn Off and Delete Server Data"
 msgstr "關閉及刪除伺服器資料"
 
 # smartling.placeholder_format=C
+#. Shorter CTA label at the Sync & Backup entry points. Shown on all platforms and viewport widths.
+msgctxt "Encrypted storage setup button"
+msgid "Turn On"
+msgstr "開啟"
+
+# smartling.placeholder_format=C
 #. Short CTA for mobile / narrow settings and bottom sheets; same entry points as DUCKCHAT_SYNC_SETUP_BUTTON_TEXT.
 msgctxt "Encrypted storage setup button (third-party browsers, narrow width)"
 msgid "Turn On"
 msgstr "開啟"
+
+# smartling.placeholder_format=C
+#. Shown over the intro animation; tapping it prompts for camera access so scanning can start. Also used to retry after the camera is denied/unavailable.
+msgctxt "Button on the mobile scan tab that requests camera permission"
+msgid "Turn On Camera"
+msgstr "開啟相機"
 
 # smartling.placeholder_format=C
 #. This is a button that lets the user play a video in our custom video player
@@ -21269,6 +21473,14 @@ msgstr "用於Firefox"
 #. Link to download the DuckDuckGo extension for the Safari browser.
 msgid "Use in Safari"
 msgstr "用於Safari"
+
+# smartling.placeholder_format=C
+#. Body copy shown on the joiner device's success screen after a successful pairing, above the recovery code the user should save.
+msgctxt "Description for the joiner-device success screen"
+msgid ""
+"Use this code to restore your data if you lose access to your devices. Keep "
+"it safe."
+msgstr "若你無法存取裝置，請使用此代碼恢復你的資料。 確保其安全。"
 
 # smartling.placeholder_format=C
 #. First sentence of the recovery section. The 18-month inactivity notice is rendered by the component using DUCKCHAT_SYNC_RECOVERY_INACTIVITY_NOTICE so both surfaces stay consistent.
@@ -23703,6 +23915,16 @@ msgstr "你的角色"
 #. An item in the ads tooltip that explains that your searches can’t be tied back to you.
 msgid "Your searches can’t be tied back to you"
 msgstr "你的搜尋結果無法追溯到你本人"
+
+# smartling.placeholder_format=C
+#. Message shown in a modal after users who already have the standard DuckDuckGo extension disable AI features in Settings, inviting them to install the No AI extension. The first two placeholders bold DuckDuckGo No AI. The last two placeholders wrap Learn More in a link to the noai help page.
+msgctxt "settings"
+msgid ""
+"Your settings are saved, but clearing cookies will reset them. Install the "
+"%sDuckDuckGo No AI%s extension to make it permanent. %sLearn More%s"
+msgstr ""
+"你的設定已儲存，但清除 Cookie 將會重設這些設定。 安裝 %1$sDuckDuckGo No AI%2$s 擴充套件以使其永久生效。 "
+"%3$s瞭解更多%4$s"
 
 # smartling.placeholder_format=C
 #. Confirms the recovery succeeded. The Next CTA closes the sheet.
