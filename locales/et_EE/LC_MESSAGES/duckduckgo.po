@@ -124,6 +124,12 @@ msgid "%s detected"
 msgstr "%1$s tuvastatud"
 
 # smartling.placeholder_format=C
+#. Shown under a shared user message when multiple uploaded files were omitted from the share. %s is the file count (always 2 or more).
+msgctxt "Caption under a shared user prompt with multiple hidden attachments"
+msgid "%s files used"
+msgstr "%1$s faili kasutatud"
+
+# smartling.placeholder_format=C
 #. Label that's displayed next to a follower count below a web search result.
 msgctxt "Rich Facts label"
 msgid "%s followers"
@@ -291,6 +297,12 @@ msgid "%s rankings are not yet available"
 msgstr "%1$s paremusjärjestus pole veel saadaval"
 
 # smartling.placeholder_format=C
+#. Dismissible banner inside the chat input on a new chat when Opus is selected (any reasoning mode). The first placeholder is the model short name in bold (e.g. 'Opus 4.8'). The second is a 'Learn More' link to the usage-limits help page (currently hidden until the URL is final). Example: '<strong>Opus 4.8</strong> uses limits 2-5x faster than other models. <a>Learn More</a>'.
+msgctxt "Dismissible new-chat banner when Opus is selected"
+msgid "%s reaches usage limits 2-5x sooner than basic models. %s"
+msgstr "%1$s jõuab kasutuspiiranguteni 2–5 korda varem kui baasmudelid. %2$s"
+
+# smartling.placeholder_format=C
 #. Warning text shown when approaching the dictation recording time limit. %s is replaced with the time remaining (e.g. '1:00').
 msgid "%s remaining"
 msgstr "%1$s allesjäänud"
@@ -355,6 +367,12 @@ msgid "%s used"
 msgstr "%1$s kasutatud"
 
 # smartling.placeholder_format=C
+#. Dismissible banner inside the chat input on a new chat when Opus is selected (any reasoning mode). The first placeholder is the model short name in bold (e.g. 'Opus 4.8'). The second is a 'Learn More' link to the usage-limits help page (currently hidden until the URL is final). Example: '<strong>Opus 4.8</strong> uses limits up to 2-5x faster than basic models. <a>Learn More</a>'.
+msgctxt "Dismissible new-chat banner when Opus is selected"
+msgid "%s uses limits up to 2-5x faster than basic models %s"
+msgstr "%1$s kasutab piiranguid kuni 2–5 korda kiiremini kui baasmudelid %2$s"
+
+# smartling.placeholder_format=C
 #. Label to add to describe the number of views of a video (e.g., 1 view). This is for the singular case (just 1 view). The placeholder indicates the number of view (typically 1).
 msgid "%s view"
 msgstr "%1$s vaatamine"
@@ -416,7 +434,8 @@ msgstr "%1$s sõna"
 #. Instructions on which buttons and options the user has to click in order to add the DuckDuckGo extension to their browser.
 msgctxt "install-duckduckgo"
 msgid "%sClick %sAdd%sCheck %sAllow%s, then click %sOkay%s"
-msgstr "%1$sKlõpsa %2$sLisa%3$sKontrolli %4$sLuba%5$s, seejärel klõpsa %6$sOK%7$s"
+msgstr ""
+"%1$sKlõpsa %2$sLisa%3$sKontrolli %4$sLuba%5$s, seejärel klõpsa %6$sOK%7$s"
 
 # Firefox, obsolete
 # smartling.placeholder_format=C
@@ -602,6 +621,12 @@ msgstr "DuckDuckGo blokeeris viimase 24 tunni jooksul 1 katse"
 msgctxt "published dates for organic results"
 msgid "1 day ago"
 msgstr "1 päev tagasi"
+
+# smartling.placeholder_format=C
+#. Shown under a shared user message when exactly one uploaded file was omitted from the share.
+msgctxt "Caption under a shared user prompt with one hidden attachment"
+msgid "1 file used"
+msgstr "üks fail kasutatud"
 
 # smartling.placeholder_format=C
 #. We realise this is the incorrect way to handle plurals. Sorry, we are working on a fix.
@@ -1530,6 +1555,27 @@ msgid "Advanced Models"
 msgstr "Täiustatud mudelid"
 
 # smartling.placeholder_format=C
+#. Non-dismissible banner at the top of the model picker warning that advanced models consume usage limits more quickly. The placeholder is a 'Learn More' link to a help page about usage limits. Example: 'Advanced models can use limits 2-5x faster than other models. <a>Learn More</a>'.
+msgctxt ""
+"Always-visible warning banner shown above the recommended models in the "
+"model picker dropdown"
+msgid ""
+"Advanced models can reach usage limits 2–5x sooner than other models. %s"
+msgstr ""
+"Täiustatud mudelid võivad jõuda kasutuspiiranguteni 2–5 korda kiiremini kui "
+"teised mudelid. %1$s"
+
+# smartling.placeholder_format=C
+#. Non-dismissible banner at the top of the model picker warning that advanced models consume usage limits more quickly. The placeholder is a 'Learn More' link to a help page about usage limits. Example: 'Advanced models can use limits 2-5x faster than other models. <a>Learn More</a>'.
+msgctxt ""
+"Always-visible warning banner shown above the recommended models in the "
+"model picker dropdown"
+msgid "Advanced models can use limits 2-5x faster than other models. %s"
+msgstr ""
+"Täiustatud mudelid võivad kasutada piiranguid 2–5 korda kiiremini kui teised "
+"mudelid. %1$s"
+
+# smartling.placeholder_format=C
 #. Link to a page with resources for advertisers who want to place ads on the search results page.
 msgid "Advertise on Search"
 msgstr "Reklaami otsingus"
@@ -2320,6 +2366,12 @@ msgid "Ask privately"
 msgstr "Küsi privaatselt"
 
 # smartling.placeholder_format=C
+#. Placeholder text for the Duck.ai prompt input on the Chrome New Tab Page, shown when the Search/Duck.ai toggle is set to Duck.ai.
+msgctxt "new tab page"
+msgid "Ask privately"
+msgstr "Küsi privaatselt"
+
+# smartling.placeholder_format=C
 #. The name of the Assamese language
 msgctxt "language_name"
 msgid "Assamese"
@@ -2356,8 +2408,8 @@ msgstr ""
 "mõnedele otsingutele, tuginedes asjakohase veebisisu kokkuvõttele. Saate "
 "valida, kui tihti soovite Assisti kuvada: mitte kunagi (eemaldab "
 "otsingutulemustest täielikult Assisti kasutajaliidese), nõudmisel (AI-toega "
-"vastuseid kuvatakse ainult siis, kui klõpsate nuppu Assist), mõnikord "
-"(AI-toega vastuseid kuvatakse ainult siis, kui need on väga asjakohased) või "
+"vastuseid kuvatakse ainult siis, kui klõpsate nuppu Assist), mõnikord (AI-"
+"toega vastuseid kuvatakse ainult siis, kui need on väga asjakohased) või "
 "sageli (kuvatakse sagedamini laiema otsingute valiku puhul). Praegu on AI "
 "abil genereeritud vastused saadaval ainult USA (ingliskeelses) piirkonnas."
 
@@ -2478,7 +2530,8 @@ msgstr "Heli ei salvestata meie ega OpenAI poolt pärast vestluse lõppu."
 # smartling.placeholder_format=C
 #. Description for the data retention highlight in the dictation consent modal.
 msgid "Audio is not stored by us or by OpenAI after the chat is transcribed."
-msgstr "Heli ei salvestata meie ega OpenAI poolt pärast vestluse transkribeerimist."
+msgstr ""
+"Heli ei salvestata meie ega OpenAI poolt pärast vestluse transkribeerimist."
 
 # smartling.placeholder_format=C
 #. Error in the duck.ai chat input when MediaRecorder API is unavailable.
@@ -3891,6 +3944,12 @@ msgid "Chat privately with AI"
 msgstr "Vestle privaatselt AI-ga"
 
 # smartling.placeholder_format=C
+#. Title of the one-time Duck.ai promo card on the Chrome New Tab Page.
+msgctxt "new tab page"
+msgid "Chat privately with Popular AIs"
+msgstr "Vestle privaatselt populaarsete tehisintellektidega"
+
+# smartling.placeholder_format=C
 #. Option for feedback when the chat response is below expectations.
 msgctxt "Feedback option for chat response below expectations"
 msgid "Chat response is below expectations"
@@ -4381,9 +4440,9 @@ msgid ""
 "%sDuck.ai%s, our private AI chat service that supports chat models from "
 "OpenAI, Anthropic, and more."
 msgstr ""
-"Teema süvenemiseks klõpsake nuppu \"Veel\" ja esitage lisaküsimusi "
-"%1$sDuck.ai%2$skaudu, meie privaatne AI-vestlusteenus, mis toetab "
-"vestlusmudeleid OpenAI, Anthropic ja teised."
+"Teema süvenemiseks klõpsake nuppu \"Veel\" ja esitage lisaküsimusi %1$sDuck."
+"ai%2$skaudu, meie privaatne AI-vestlusteenus, mis toetab vestlusmudeleid "
+"OpenAI, Anthropic ja teised."
 
 # smartling.placeholder_format=C
 #. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
@@ -4442,7 +4501,8 @@ msgstr "Klõpsa %1$sSiia%2$s, et laadida alla DuckDuckGo laiend"
 # smartling.placeholder_format=C
 #. Link to download the DuckDuckGo browser extension.
 msgid "Click %sOpen%s to download and open the DuckDuckGo Safari extension"
-msgstr "Klõpsa %1$sAva%2$s, et laadida alla ja avada DuckDuckGo Safari laiendus"
+msgstr ""
+"Klõpsa %1$sAva%2$s, et laadida alla ja avada DuckDuckGo Safari laiendus"
 
 #  Edge default search engine instruction
 # smartling.placeholder_format=C
@@ -4688,6 +4748,12 @@ msgid "Close"
 msgstr "Sulge"
 
 # smartling.placeholder_format=C
+#. Accessible label for the close (X) button in the header of the mobile onboarding-checklist bottom sheet. This only closes the sheet and keeps the tour available; the separate 'Hide Tutorial' action dismisses the tour entirely and can be re-enabled in settings.
+msgctxt "Accessible label for the checklist sheet close button"
+msgid "Close"
+msgstr "Sulge"
+
+# smartling.placeholder_format=C
 #. Aria label for the close button in the image lightbox.
 msgctxt "Aria label for image lightbox close button"
 msgid "Close"
@@ -4730,6 +4796,12 @@ msgctxt ""
 "Accessibility label for the button that exits chat search mode in Duck.ai"
 msgid "Close search"
 msgstr "Sulge otsing"
+
+# smartling.placeholder_format=C
+#. Removes the second-opinion card and returns to the original answer.
+msgctxt "Accessible label for a close (X) button"
+msgid "Close second opinion"
+msgstr "Sule teine arvamus"
 
 # smartling.placeholder_format=C
 #. Accessibility label for closing the batch actions toolbar. The Batch Action toolbar is used to perform actions on multiple chats in the chat history list.
@@ -5103,6 +5175,12 @@ msgid "Continue Blocking Ads"
 msgstr "Jätka reklaamide blokeerimist"
 
 # smartling.placeholder_format=C
+#. Description in the first tooltip shown when the user selects the 'Delete a chat' onboarding step. The Fire Button is DuckDuckGo's control for deleting a chat from history.
+msgctxt "Product-tour tooltip description"
+msgid "Continue recent chats here. Or delete them with the fire button."
+msgstr "Jätka hiljutisi vestlusi siin. Või kustuta need Fire Buttoni abil."
+
+# smartling.placeholder_format=C
 #. In the context of an AI Chat, tooltip text for the button that allows the user to select an existing response from an AI model and continue the conversation with that AI model.
 msgctxt "AI Chat - Tooltip for selecting a response in chat action"
 msgid "Continue with this model"
@@ -5168,6 +5246,12 @@ msgid "Cookie data:"
 msgstr "Küpsise andmed:"
 
 # smartling.placeholder_format=C
+#. Temporary label shown on the copy button after a successful copy.
+msgctxt "Confirmation label after copying a share link"
+msgid "Copied"
+msgstr "Kopeeritud"
+
+# smartling.placeholder_format=C
 #. Short confirmation announcement shown to the user after copying the recovery code.
 msgctxt "Confirmation label after the recovery code has been copied"
 msgid "Copied"
@@ -5213,6 +5297,12 @@ msgstr "Kopeeri ja kleebi aadressiribale %1$sabout:preferences # search%2$s"
 msgctxt "Text for a button for copying preformatted code block content"
 msgid "Copy Code"
 msgstr "Kopeeri kood"
+
+# smartling.placeholder_format=C
+#. Title-case button label in the Duck.ai share modal that copies the generated share URL.
+msgctxt "Button to copy the share link to the clipboard"
+msgid "Copy Link"
+msgstr "Kopeeri link"
 
 # smartling.placeholder_format=C
 #. Label for the copy button on the Scan QR tab.
@@ -5328,6 +5418,12 @@ msgid "Create Image"
 msgstr "Loo pilt"
 
 # smartling.placeholder_format=C
+#. Title-case primary button label in the Duck.ai share modal that creates an encrypted share link.
+msgctxt "Primary button to create a share link"
+msgid "Create Share Link"
+msgstr "Loo jagamislink"
+
+# smartling.placeholder_format=C
 #. Prompt sent to the AI when the user taps the "Generate a shopping list" page-suggestion chip.
 msgctxt "Page suggestion prompt"
 msgid "Create a shopping list with quantities from this recipe."
@@ -5369,6 +5465,16 @@ msgstr "Loonud"
 msgctxt "Label copy indicating the creator of an AI Model"
 msgid "Created by %s"
 msgstr "Loodud %1$s poolt"
+
+# smartling.placeholder_format=C
+#. Explains that anyone with the link can view the shared copy.
+msgctxt "Share modal info bullet about public access"
+msgid ""
+"Creating a link makes a copy of the chat that can be viewed by anyone who "
+"opens it."
+msgstr ""
+"Lingi loomine teeb vestlusest koopia, mida saab vaadata igaüks, kes selle "
+"avab."
 
 # smartling.placeholder_format=C
 #. Label below a video that's available under the Creative Commons license.
@@ -5524,6 +5630,12 @@ msgid "Customize responses"
 msgstr "Kohanda vastuseid"
 
 # smartling.placeholder_format=C
+#. Onboarding checklist item: opens the customize-responses modal so the user can tailor how Duck.ai replies.
+msgctxt "Product-tour checklist item title"
+msgid "Customize responses"
+msgstr "Kohanda vastuseid"
+
+# smartling.placeholder_format=C
 #. The help text shown to users to indicate that there's a menu that can be used to customize the layout of the page
 msgid "Customize this page"
 msgstr "Selle lehe kohandamine"
@@ -5533,6 +5645,12 @@ msgstr "Selle lehe kohandamine"
 msgctxt "Label for chat customization button"
 msgid "Customized"
 msgstr "Kohandatud"
+
+# smartling.placeholder_format=C
+#. Label for cycling (bicycle) directions on a map.
+msgctxt "directions"
+msgid "Cycling"
+msgstr "Jalgrattasõit"
 
 # smartling.placeholder_format=C
 msgid "Cyprus"
@@ -5588,7 +5706,8 @@ msgstr "Päevane piirang on saavutatud"
 #. Displayed when the user has reached a fixed daily Duck.ai usage limit. %s is the reset date/time formatted in the user's locale and reads as 'after <date/time>', e.g. 'after May 7, 2026, 5:00 PM'.
 msgctxt "Error message for fixed-window Duck.ai usage limit"
 msgid "Daily usage limit reached. You can continue this chat after %s."
-msgstr "Päevane kasutuspiirang on saavutatud. Saad seda vestlust jätkata pärast %1$s."
+msgstr ""
+"Päevane kasutuspiirang on saavutatud. Saad seda vestlust jätkata pärast %1$s."
 
 # smartling.placeholder_format=C
 #. Displayed when the user has reached a bypassable daily Duck.ai usage limit and can opt in to continue using the weekly limit.
@@ -5808,10 +5927,22 @@ msgid "Delete Server Data?"
 msgstr "Kas kustutada serveri andmed?"
 
 # smartling.placeholder_format=C
+#. Title-case destructive button label in the Duck.ai share modal that deletes the shared link.
+msgctxt "Button to revoke a share link"
+msgid "Delete Shared Link"
+msgstr "Kustuta jagatud link"
+
+# smartling.placeholder_format=C
 #. Button text to delete a voice chat transcript.
 msgctxt "voice chat transcript"
 msgid "Delete Transcript"
 msgstr "Kustuta ärakiri"
+
+# smartling.placeholder_format=C
+#. Onboarding checklist item: completed when the user deletes a chat using the Fire Button.
+msgctxt "Product-tour checklist item title"
+msgid "Delete a chat"
+msgstr "Kustuta vestlus"
 
 # smartling.placeholder_format=C
 #. Tooltip text that appears when hovering over the delete chat button in the chat history list.
@@ -5844,6 +5975,12 @@ msgstr "Kustuta pilt"
 msgctxt "Title for delete image confirmation modal"
 msgid "Delete image?"
 msgstr "Kas kustutada pilt?"
+
+# smartling.placeholder_format=C
+#. Title shown in the chat-history sidebar for the disposable sample chat the 'Delete a chat' tour step creates so the user can practice deleting without removing a real conversation.
+msgctxt "Title of a throwaway sample chat created by the product tour"
+msgid "Delete me"
+msgstr "Kustuta mind"
 
 # smartling.placeholder_format=C
 #. Title shown when user has reached the file storage sync quota (5GB).
@@ -5972,8 +6109,8 @@ msgstr "Dikteerimine Duck.ai-s"
 #. Description for the privacy highlight in the dictation consent modal.
 msgid "Dictation is anonymized by us, and never used to train AI models."
 msgstr ""
-"Dikteerimine on meie poolt anonümiseeritud ja seda ei kasutata kunagi "
-"AI-mudelite koolitamiseks."
+"Dikteerimine on meie poolt anonümiseeritud ja seda ei kasutata kunagi AI-"
+"mudelite koolitamiseks."
 
 # smartling.placeholder_format=C
 #. Tooltip for the disabled microphone button in the duck.ai chat input when the voice budget is exhausted.
@@ -6154,6 +6291,12 @@ msgstr "Tühista igaveseks"
 msgctxt "Sidemenu subscription promo"
 msgid "Dismiss promotion"
 msgstr "Loobu reklaamist"
+
+# smartling.placeholder_format=C
+#. Accessible label for the close (X) button that dismisses the onboarding checklist.
+msgctxt "Accessible label for the checklist dismiss button"
+msgid "Dismiss tour"
+msgstr "Loobu tuurist"
 
 # smartling.placeholder_format=C
 #. Accessible label for the close button in the Duck.ai usage limit banner.
@@ -6364,6 +6507,12 @@ msgstr "Allalaadimine lõpetatud"
 # smartling.placeholder_format=C
 #. Text of a button that will install the DuckDuckGo browser when clicked
 msgctxt "Browser Promo Popover"
+msgid "Download DuckDuckGo"
+msgstr "Laadi alla DuckDuckGo"
+
+# smartling.placeholder_format=C
+#. Button on the onboarding completion modal that links to download the DuckDuckGo app.
+msgctxt "Product-tour completion modal button"
 msgid "Download DuckDuckGo"
 msgstr "Laadi alla DuckDuckGo"
 
@@ -6583,6 +6732,12 @@ msgid "Duck.ai by DuckDuckGo. Private AI chat. Free."
 msgstr "Duck.ai by DuckDuckGo. Privaatne AI-vestlus. Tasuta."
 
 # smartling.placeholder_format=C
+#. Text for a promotional card that informs users Duck.ai can read and analyze PDF files.
+msgctxt "Promotional text for PDF upload feature"
+msgid "Duck.ai can now analyze PDFs. Give it a try!"
+msgstr "Duck.ai saab nüüd PDF-faile analüüsida. Proovi järele!"
+
+# smartling.placeholder_format=C
 #. Description explaining how the page context feature works in Duck.ai sidebar.
 msgctxt "Description text for the page context onboarding modal"
 msgid ""
@@ -6735,6 +6890,12 @@ msgstr ""
 "kontrollitud."
 
 # smartling.placeholder_format=C
+#. Second, dimmer line of the highlight tooltip shown under the 'Try a different model' item title when the user activates that onboarding step.
+msgctxt "Product-tour tooltip description"
+msgid "Duck.ai supports models from Anthropic, OpenAI, and others."
+msgstr "Duck.ai toetab Anthropicu, OpenAI ja teiste mudeleid."
+
+# smartling.placeholder_format=C
 #. Title shown when native app needs to reload for service update.
 msgctxt "duckai_migration"
 msgid "Duck.ai update"
@@ -6808,9 +6969,9 @@ msgid ""
 "%sDuckDuckGo AI Chat%s, which is a private AI-powered chat service that "
 "supports chat models from OpenAI, and Anthropic, and more."
 msgstr ""
-"DuckAssist ei saa järelküsimustele vastata, kuid pakume ka privaatset "
-"AI-põhist vestlusteenust %1$sDuckDuckGo AI Chat%2$s, mis toetab "
-"vestlusmudeleid OpenAI, Anthropic ja teisi."
+"DuckAssist ei saa järelküsimustele vastata, kuid pakume ka privaatset AI-"
+"põhist vestlusteenust %1$sDuckDuckGo AI Chat%2$s, mis toetab vestlusmudeleid "
+"OpenAI, Anthropic ja teisi."
 
 # smartling.placeholder_format=C
 #. Second paragraph of a section inviting users to learn more about the duckassist instant answer (based on generative AI)
@@ -6819,8 +6980,8 @@ msgid ""
 "DuckDuckGo %sAI Chat%s, which is a private AI-powered chat service that "
 "supports chat models from OpenAI and Anthropic."
 msgstr ""
-"DuckAssist ei saa järelküsimustele vastata, kuid pakume ka privaatset "
-"AI-põhist vestlusteenust DuckDuckGo %1$sAI Chat%2$s, mis toetab OpenAI ja "
+"DuckAssist ei saa järelküsimustele vastata, kuid pakume ka privaatset AI-"
+"põhist vestlusteenust DuckDuckGo %1$sAI Chat%2$s, mis toetab OpenAI ja "
 "Anthropicu vestlusmudeleid."
 
 # smartling.placeholder_format=C
@@ -6926,7 +7087,8 @@ msgctxt "Error message for VQD error"
 msgid ""
 "DuckDuckGo AI Chat is temporarily unavailable. Please refresh the page and "
 "try again."
-msgstr "DuckDuckGo AI Chat pole ajutiselt saadaval. Värskenda lehte ja proovi uuesti."
+msgstr ""
+"DuckDuckGo AI Chat pole ajutiselt saadaval. Värskenda lehte ja proovi uuesti."
 
 # smartling.placeholder_format=C
 #. Displayed when the AI chat service is temporarily unavailable.
@@ -7404,6 +7566,12 @@ msgid "Enable Most-Visited Sites"
 msgstr "Luba enim külastatud saidid"
 
 # smartling.placeholder_format=C
+#. Button text in the modal that links Firefox users to the DuckDuckGo extension add-on page so they can enable the installed No AI extension.
+msgctxt "settings"
+msgid "Enable Now"
+msgstr "Luba kohe"
+
+# smartling.placeholder_format=C
 #. Text for the switch label that enables or disables the Recent Chats feature, a feature that stores the user's most recent chats.
 msgctxt "Label for enabling recent chats feature"
 msgid "Enable Recent Chats"
@@ -7701,6 +7869,12 @@ msgid "Entertainment guide"
 msgstr "Meelelahutusjuhend"
 
 # smartling.placeholder_format=C
+#. Title-case label on the share-scope card to share the full conversation in the Duck.ai share modal.
+msgctxt "Share scope toggle label for the full chat"
+msgid "Entire Chat"
+msgstr "Kogu vestlus"
+
+# smartling.placeholder_format=C
 msgid "Equatorial Guinea"
 msgstr "Ekvatoriaal-Guinea"
 
@@ -7768,7 +7942,8 @@ msgstr "Laienda kaarti"
 #. Subtitle for the Collaborations promotional card at the bottom of search results. Describes the branded merchandise line. 'Give a duck' is a wordplay on the DuckDuckGo brand name.
 msgctxt "SERP footer content"
 msgid "Expertly crafted products for people who give a duck about privacy."
-msgstr "Asjatundlikult loodud tooted inimestele, kes tõesti hoolivad privaatsusest."
+msgstr ""
+"Asjatundlikult loodud tooted inimestele, kes tõesti hoolivad privaatsusest."
 
 # smartling.placeholder_format=C
 #. Label indicating that the user has an expired DuckDuckGo subscription.
@@ -7860,6 +8035,18 @@ msgstr "Paljastav sisu"
 msgctxt "Feedback prompt"
 msgid "Explicit lyrics"
 msgstr "Selged laulusõnad"
+
+# smartling.placeholder_format=C
+#. Text shown next to the Duck.ai duck icon on the mobile onboarding-checklist entry pill. Names the getting-started tour the button opens; 'Duck.ai' is the product name and should not be translated.
+msgctxt "Label on the mobile product-tour entry button"
+msgid "Explore Duck.ai"
+msgstr "Avasta Duck.ai"
+
+# smartling.placeholder_format=C
+#. Shared title across every page of the Duck.ai sidebar/mobile getting-started checklist ('Explore Duck.ai').
+msgctxt "Product-tour checklist group title"
+msgid "Explore Duck.ai"
+msgstr "Avasta Duck.ai"
 
 # smartling.placeholder_format=C
 #. Links to a page that provides a list of DuckDuckGo product updates
@@ -7961,6 +8148,12 @@ msgstr "FPV"
 msgctxt "Text for the free badge"
 msgid "FREE"
 msgstr "Tasuta"
+
+# smartling.placeholder_format=C
+#. Pill badge on the one-time Duck.ai feature-discovery drawer shown to new installs under the search box. All caps by design; adapt casing to what suits your language.
+msgctxt "new tab page"
+msgid "FREE & OPTIONAL"
+msgstr "TASUTA JA VALIKULINE"
 
 # smartling.placeholder_format=C
 #. Full-time (match has ended) indicator in a soccer match
@@ -8377,6 +8570,12 @@ msgid "Free Up Storage"
 msgstr "Vabasta salvestusruumi"
 
 # smartling.placeholder_format=C
+#. Secondary text under the app-download row, emphasising the app is free and private.
+msgctxt "Subtitle under the Download the app row"
+msgid "Free and always private"
+msgstr "Tasuta ja alati privaatne"
+
+# smartling.placeholder_format=C
 #. Text describing that chats are free, private and anonymized by us. Chats in this context are chats with AI (Artificial Intelligence) models, like GPT.
 msgctxt "Onboarding welcome screen private claim"
 msgid "Free and private chats, anonymized by us"
@@ -8386,7 +8585,8 @@ msgstr "Meie poolt anonüümistatud tasuta ja privaatsed vestlused"
 #. Text describing that chats are free, private and anonymized by us. Chats in this context are chats with AI (Artificial Intelligence) models, like GPT.
 msgctxt "Onboarding welcome screen private claim"
 msgid "Free and private chats, anonymized by us. No account required."
-msgstr "Meie poolt anonüümistatud tasuta ja privaatsed vestlused. Konto pole vajalik."
+msgstr ""
+"Meie poolt anonüümistatud tasuta ja privaatsed vestlused. Konto pole vajalik."
 
 # smartling.placeholder_format=C
 #. a filter for images with the CC BY-NC usage license
@@ -8416,7 +8616,8 @@ msgstr "Tasuta jagatavad ja kaubanduslikult kasutatavad"
 #. Description text explaining how to free up sync storage. Pinned chats are chats the user has explicitly marked to keep.
 msgctxt "Sync limit modal description"
 msgid "Free up space by deleting your chats. Pinned chats will not be deleted."
-msgstr "Vabasta ruumi oma vestluste kustutamisega. Kinnitatud vestlusi ei kustutata."
+msgstr ""
+"Vabasta ruumi oma vestluste kustutamisega. Kinnitatud vestlusi ei kustutata."
 
 # smartling.placeholder_format=C
 #. Indicates that this streaming service is free to watch but shows ads
@@ -8936,6 +9137,12 @@ msgid "Get computer help"
 msgstr "Hangi abi arvutilt"
 
 # smartling.placeholder_format=C
+#. Description shown beneath the reached-limit title when a subscription-eligible free user has reached a Duck.ai usage limit.
+msgctxt "Subscription upsell in the usage limit banner in Duck.ai."
+msgid "Get higher usage limits with a DuckDuckGo subscription."
+msgstr "Hangi DuckDuckGo tellimusega kõrgemad kasutuspiirangud."
+
+# smartling.placeholder_format=C
 #. Promotional text that appears in popup promo to encourage user's to download DuckDuckGo Browser from the settings page.
 msgctxt "Browser Promo Popover"
 msgid "Get our browser to never lose your settings."
@@ -8959,8 +9166,8 @@ msgid ""
 "Get our secure, no-log VPN, advanced Duck.ai, Personal Information Removal, "
 "and Identity Theft Restoration."
 msgstr ""
-"Hangi meie turvaline, kasutajate andmeid salvestamatu VPN, täiustatud "
-"Duck.ai, Personal Information Removal ja Identity Theft Restoration teenus."
+"Hangi meie turvaline, kasutajate andmeid salvestamatu VPN, täiustatud Duck."
+"ai, Personal Information Removal ja Identity Theft Restoration teenus."
 
 # smartling.placeholder_format=C
 #. Body text of the DuckDuckGo Subscription instant answer shown on the search results page. One of several messages rotated over time; international (non-US) version. 'No-log' means the VPN keeps no activity logs; Duck.ai is DuckDuckGo's AI chat product; Identity Theft Restoration is a bundled feature.
@@ -9003,6 +9210,19 @@ msgid "Get the Latest Version"
 msgstr "Hangi uusim versioon"
 
 # smartling.placeholder_format=C
+#. Row that links to downloading the DuckDuckGo app after finishing the tour.
+msgctxt "Title of the app-download row on the completion card"
+msgid "Get the app"
+msgstr "Hangi rakendus"
+
+# smartling.placeholder_format=C
+#. Body text in a popover that promotes our ability to block youtube ads, the strong tag is used to highglight and style the text
+msgctxt "Browser Promo Popover"
+msgid "Get the free DuckDuckGo Browser %sto block ads on YouTube.%s"
+msgstr ""
+"Hangi tasuta DuckDuckGo brauser %1$sreklaamide blokeerimiseks YouTube'is.%2$s"
+
+# smartling.placeholder_format=C
 #. Label for links to appropriate local health authorities
 msgctxt "Covid 19 module"
 msgid "Get the latest information:"
@@ -9023,6 +9243,12 @@ msgstr "Hangi see lugu siit:"
 msgctxt "spread_badge"
 msgid "Get your friends to switch and help us grow!"
 msgstr "Soovita oma sõpradel üle minna ja aita meil kasvada!"
+
+# smartling.placeholder_format=C
+#. Accessible (screen-reader) label for the onboarding checklist card in the Duck.ai sidebar.
+msgctxt "Accessible label for the product-tour checklist"
+msgid "Getting started checklist"
+msgstr "Alustamise kontrollnimekiri"
 
 # smartling.placeholder_format=C
 msgid "Ghana"
@@ -9708,6 +9934,12 @@ msgid "Hide Tips"
 msgstr "Peida nõuanded"
 
 # smartling.placeholder_format=C
+#. Button at the foot of the onboarding component that dismisses the tour entirely; the user can re-enable it from settings.
+msgctxt "Product-tour checklist sheet dismiss button"
+msgid "Hide Tutorial"
+msgstr "Peida õpetus"
+
+# smartling.placeholder_format=C
 #. Label for the button to enable the site exclusion feature
 msgctxt "Exclusion message re-enable button"
 msgid "Hide blocked sites from results"
@@ -10002,7 +10234,8 @@ msgstr "Kui tihti soovid, et ilmuksid AI-toega vastused?"
 #. Description for the Usage section in Duck.ai settings, explaining that the section shows how much of the user's daily and weekly limits they have used so far.
 msgctxt "Duck.ai settings usage section"
 msgid "How much of your daily and weekly limits you've used so far."
-msgstr "Kui suurt osa oma päevastest ja nädalapiirangutest sa seni kasutanud oled."
+msgstr ""
+"Kui suurt osa oma päevastest ja nädalapiirangutest sa seni kasutanud oled."
 
 # smartling.placeholder_format=C
 #. A header for the feedback form in the assist negative feedback flow. The user is being asked to update how often they want AI-assisted answers to appear.
@@ -10822,7 +11055,8 @@ msgstr "See on kiire, tasuta ja pakub sulle veelgi suuremat võrgukaitset."
 msgctxt "settings"
 msgid ""
 "It's okay to (very infrequently) ask me about my experience using DuckDuckGo"
-msgstr "Mulle sobib, kui küsite (väga harva) minu DuckDuckGo kasutuskogemuse kohta"
+msgstr ""
+"Mulle sobib, kui küsite (väga harva) minu DuckDuckGo kasutuskogemuse kohta"
 
 # smartling.placeholder_format=C
 #. The name of the Italian language
@@ -11330,6 +11564,14 @@ msgid "Lets you search anonymously with DuckDuckGo"
 msgstr "Võimaldab sul DuckDuckGo abil anonüümselt otsida"
 
 # smartling.placeholder_format=C
+#. Description shown under the 'Search & Duck.ai Toggle' entry in the 'Customize New Tab Page' menu, explaining what the toggle does.
+msgctxt "new tab page"
+msgid ""
+"Lets you switch between submitting search queries and prompts to Duck.ai"
+msgstr ""
+"Võimaldab vahetada Duck.ai-le otsingupäringute ja käskluste saatmise vahel"
+
+# smartling.placeholder_format=C
 msgid "Liberia"
 msgstr "Libeeria"
 
@@ -11400,6 +11642,12 @@ msgid "Lineouts Won"
 msgstr "Võidetud lahtimängud"
 
 # smartling.placeholder_format=C
+#. Explains the seven-day share link lifetime.
+msgctxt "Share modal info bullet about link expiry"
+msgid "Link expires in 7 days."
+msgstr "Link aegub seitsme päeva pärast."
+
+# smartling.placeholder_format=C
 #. https://duckduckgo.com/params under "Look & Feel Settings"
 msgid "Link font:"
 msgstr "Lingi font:"
@@ -11413,7 +11661,8 @@ msgstr "Lingid:"
 #. Prompt sent to the AI when the user taps the "What will I need?" page-suggestion chip.
 msgctxt "Page suggestion prompt"
 msgid "List the tools, materials, or prerequisites I need for this."
-msgstr "Loetle tööriistad, materjalid või eeltingimused, mida ma selleks vajan."
+msgstr ""
+"Loetle tööriistad, materjalid või eeltingimused, mida ma selleks vajan."
 
 # smartling.placeholder_format=C
 #. Used in 0-click bot for video results, e.g. <a href="https://duckduckgo.com/?q=blink182+song">https://duckduckgo.com/?q=blink182+song</a>
@@ -11710,7 +11959,8 @@ msgstr "Veendu, et kõik sõnad on korrektselt kirjutatud."
 # smartling.placeholder_format=C
 #. Tells users where in the settings menu they can change their default search engine.
 msgid "Make sure to check %s\"Make this my default search provider\"%s"
-msgstr "Veendu, et märkisid %1$s„Muuda see minu vaikimisi otsingupakkujaks“%2$s"
+msgstr ""
+"Veendu, et märkisid %1$s„Muuda see minu vaikimisi otsingupakkujaks“%2$s"
 
 # smartling.placeholder_format=C
 #. Message prompting users to check the spelling of their search term.
@@ -12299,6 +12549,12 @@ msgid "More"
 msgstr "Veel"
 
 # smartling.placeholder_format=C
+#. Accessible label (aria-label) for the three-dot overflow menu icon button on an assistant response action bar in Duck.ai. Announced by screen readers only. Menu items can include Search Web, Extend Reasoning, Export, and Report (Windows).
+msgctxt "Accessible label for the overflow menu on assistant response actions"
+msgid "More"
+msgstr "Veel"
+
+# smartling.placeholder_format=C
 #. Text displayed on a button to show more of the list of search results from within the Duck.ai interface when a web search has been conducted
 msgctxt "Button label for showing more search result links in Duck.ai"
 msgid "More"
@@ -12498,6 +12754,12 @@ msgstr "Rohkem statistikat saidil %1$s"
 msgctxt "video-duration"
 msgid "More than 20 minutes"
 msgstr "Rohkem kui 20 minutit"
+
+# smartling.placeholder_format=C
+#. Accessible label for the right chevron button that navigates the onboarding checklist card to the next page of tips.
+msgctxt "Accessible label for the checklist next-page button"
+msgid "More tips"
+msgstr "Veel nõuandeid"
 
 # smartling.placeholder_format=C
 #. e.g. More ways to add DuckDuckGo to Firefox
@@ -12983,6 +13245,12 @@ msgstr "Ei aitäh"
 # smartling.placeholder_format=C
 #. Button to decline web search for the current conversation, shown inside an in-chat permission card in Duck.ai
 msgctxt "DuckChat web search permission prompt for encrypted models"
+msgid "No Thanks"
+msgstr "Ei aitäh"
+
+# smartling.placeholder_format=C
+#. Button that closes the success modal shown when the user finishes the entire onboarding checklist.
+msgctxt "Product-tour success modal button"
 msgid "No Thanks"
 msgstr "Ei aitäh"
 
@@ -13649,6 +13917,12 @@ msgid "On but no numbers"
 msgstr "Sees, aga numbrid puuduvad"
 
 # smartling.placeholder_format=C
+#. Accessible label for the card shown once the onboarding checklist is fully complete.
+msgctxt "Accessible label for the tour-completion card"
+msgid "Onboarding complete"
+msgstr "Kasutuselevõtt lõpetatud"
+
+# smartling.placeholder_format=C
 #. Message shown to the user while they are waiting for a connection to a new voice chat session to be established.
 msgctxt "voice chat"
 msgid "One moment please..."
@@ -13705,7 +13979,8 @@ msgctxt "translations_module"
 msgid ""
 "Oops! An unexpected error occurred while translating this text. Please try "
 "again later."
-msgstr "Oih! Selle teksti tõlkimisel tekkis ootamatu viga. Proovi hiljem uuesti."
+msgstr ""
+"Oih! Selle teksti tõlkimisel tekkis ootamatu viga. Proovi hiljem uuesti."
 
 # smartling.placeholder_format=C
 #. Title shown in a fatal error modal when Duck.ai fails to load.
@@ -13857,6 +14132,12 @@ msgstr "Ava vestluse soovitused"
 msgctxt "Aria label for the create and edit images pill tab"
 msgid "Open create and edit images suggestions"
 msgstr "Ava piltide loomise ja muutmise soovitused"
+
+# smartling.placeholder_format=C
+#. Accessible label for the icon button that opens the onboarding checklist when the sidebar is collapsed.
+msgctxt "Accessible label for the collapsed checklist trigger"
+msgid "Open getting started checklist"
+msgstr "Ava alustamise kontrollnimekiri"
 
 # smartling.placeholder_format=C
 #. Button that opens a third party app. Placeholder is the name of the app. For example: 'Open in TripAdvisor'
@@ -14038,8 +14319,8 @@ msgid ""
 "more premium protections. All in one subscription."
 msgstr ""
 "Meie kiire ja kasutajate andmeid salvestamatu VPN sisaldab nutikamaid "
-"tehisintellekti vestlusi kõrgemate piirangutega ning lisaks muid "
-"premium-kaitseid. Kõik ühes tellimuses."
+"tehisintellekti vestlusi kõrgemate piirangutega ning lisaks muid premium-"
+"kaitseid. Kõik ühes tellimuses."
 
 # smartling.placeholder_format=C
 msgctxt "homepage onboarding"
@@ -14605,7 +14886,8 @@ msgstr "Vali konkreetne probleem"
 #. Header instructing the user to follow the instructions for their ad blocker
 msgid ""
 "Pick your ad blocker and follow the instructions to allow ads on DuckDuckGo."
-msgstr "Vali oma reklaamiblokeerija ja järgi juhiseid, et lubada DuckDuckGo reklaame."
+msgstr ""
+"Vali oma reklaamiblokeerija ja järgi juhiseid, et lubada DuckDuckGo reklaame."
 
 # smartling.placeholder_format=C
 #. Text for a button that pins a chat, as in it will it will add the chat to the pinned chats list.
@@ -14614,10 +14896,22 @@ msgid "Pin"
 msgstr "Kinnita"
 
 # smartling.placeholder_format=C
+#. Onboarding checklist item: points the user to pinning a chat in the sidebar.
+msgctxt "Product-tour checklist item title"
+msgid "Pin a chat"
+msgstr "Kinnita vestlus"
+
+# smartling.placeholder_format=C
 #. Text explaining how to pin chats, placeholders are for an icon and the word 'menu' wrapped in <strong> tags. Example: 'Pin chats here from the [three-dots-icon] <strong>menu</strong>'
 msgctxt "Pinned chats education row in Duck.ai"
 msgid "Pin chats here from the %s %s"
 msgstr "Kinnita vestlused siia %1$s %2$s jaoks"
+
+# smartling.placeholder_format=C
+#. Title shown in the chat-history sidebar for the disposable sample chat the 'Pin a chat' tour step creates so the user can practice pinning without affecting a real conversation.
+msgctxt "Title of a throwaway sample chat created by the product tour"
+msgid "Pin me"
+msgstr "Kinnita mind"
 
 # smartling.placeholder_format=C
 #. Used for various color settings  query parameters values captions into <a =href="https://duckduckgo.com/params.html">query parameters documentation page</a>.
@@ -14635,6 +14929,12 @@ msgstr "Roosa"
 msgctxt "Title for the pinned chats section"
 msgid "Pinned"
 msgstr "Kinnitatud"
+
+# smartling.placeholder_format=C
+#. Second, dimmer line of the highlight tooltip shown under the 'Pin a chat' item title when the user activates that onboarding step.
+msgctxt "Product-tour tooltip description"
+msgid "Pinned chats will appear at the top of your recent chats."
+msgstr "Kinnitatud vestlused ilmuvad su hiljutiste vestluste ülaosas."
 
 # smartling.placeholder_format=C
 #. https://duckduckgo.com/params under "Look & Feel Settings"
@@ -14683,19 +14983,22 @@ msgctxt "Anomaly modal"
 msgid ""
 "Please complete the following challenge to confirm this search was made by a "
 "human."
-msgstr "Soorita järgmine ülesanne, et kinnitada, et selle otsingu tegi inimene."
+msgstr ""
+"Soorita järgmine ülesanne, et kinnitada, et selle otsingu tegi inimene."
 
 # smartling.placeholder_format=C
 #. A placeholder text for an open text field prompting the user to provide feedback on the AI (Artificial Intelligence) chat bot providing harmful or illegal content when sharing the prompt and response with DuckDuckGo
 msgctxt "Feedback prompt"
 msgid "Please describe why the chat response is harmful or illegal. (optional)"
-msgstr "Kirjelda, miks vestluse vastus on kahjulik või ebaseaduslik. (valikuline)"
+msgstr ""
+"Kirjelda, miks vestluse vastus on kahjulik või ebaseaduslik. (valikuline)"
 
 # smartling.placeholder_format=C
 #. A placeholder text for an open text field prompting the user to provide feedback on the AI (Artificial Intelligence) chat bot providing harmful or illegal content when sharing the prompt and response with DuckDuckGo
 msgctxt "Feedback prompt"
 msgid "Please describe why the chat response is illegal or harmful. (Optional)"
-msgstr "Kirjeldage, miks vestluse vastus on ebaseaduslik või kahjulik. (Valikuline)"
+msgstr ""
+"Kirjeldage, miks vestluse vastus on ebaseaduslik või kahjulik. (Valikuline)"
 
 # smartling.placeholder_format=C
 #. A prompt asking users to enter their passphrase.
@@ -14950,6 +15253,14 @@ msgid "Poor formatting"
 msgstr "Kehv vormindus"
 
 # smartling.placeholder_format=C
+#. Secondary line of the one-time Duck.ai feature-discovery drawer shown to new installs under the search box.
+msgctxt "new tab page"
+msgid "Popular AI models available. No account needed. Chats anonymized by us."
+msgstr ""
+"Saadaval on populaarsed tehisintellekti mudelid. Kontot pole vaja. Meie "
+"poolt anonüümistatud vestlused."
+
+# smartling.placeholder_format=C
 #. Text when onboarding users, describing that Duck.ai supports last AI models. Example: 'Popular AI models from: GPT, Claude, Mistral, Llama'
 msgctxt "Onboarding welcome screen feature"
 msgid "Popular AI models from:"
@@ -15156,6 +15467,12 @@ msgstr "Eelmine pilt"
 msgctxt "Rich caption tabbed snippet, horizontal tab scroll"
 msgid "Previous tabs"
 msgstr "Eelmised vahekaardid"
+
+# smartling.placeholder_format=C
+#. Accessible label for the left chevron button that navigates the onboarding checklist card to the previous page of tips.
+msgctxt "Accessible label for the checklist previous-page button"
+msgid "Previous tips"
+msgstr "Eelmised soovitused"
 
 # smartling.placeholder_format=C
 #. Label that's displayed next to a price below a web search result.
@@ -15698,6 +16015,26 @@ msgid "Reasoning AI with medium built-in moderation"
 msgstr "Keskmise sisseehitatud modereerimisega arutlev AI"
 
 # smartling.placeholder_format=C
+#. Second, dimmer line of the highlight tooltip shown under the 'Try reasoning' item title when the user activates that onboarding step.
+msgctxt "Product-tour tooltip description"
+msgid "Reasoning can give better responses to complex questions."
+msgstr "Arutlus võib anda paremaid vastuseid keerulistele küsimustele."
+
+# smartling.placeholder_format=C
+#. Non-dismissible banner at the top of the reasoning mode dropdown. Warns that reasoning modes consume usage limits more quickly. The placeholder is a 'Learn More' link to a help page about usage limits. Example: 'Reasoning is more thorough, but takes longer and uses limits 2-5x faster. <a>Learn More</a>'.
+msgctxt "Usage warning in the reasoning mode dropdown"
+msgid "Reasoning is more thorough, but reaches usage limits 2-5x sooner. %s"
+msgstr ""
+"Arutlus on põhjalikum, kuid jõuab kasutuspiiranguteni 2–5 korda varem. %1$s"
+
+# smartling.placeholder_format=C
+#. Non-dismissible banner at the top of the reasoning mode dropdown. Warns that reasoning modes consume usage limits more quickly. The placeholder is a 'Learn More' link to a help page about usage limits. Example: 'Reasoning is more thorough, but uses limits 2-5x faster. <a>Learn More</a>'.
+msgctxt "Usage warning in the reasoning mode dropdown"
+msgid "Reasoning is more thorough, but uses limits 2-5x faster. %s"
+msgstr ""
+"Arutlus on põhjalikum, kuid ammendab piiranguid 2–5 korda kiiremini. %1$s"
+
+# smartling.placeholder_format=C
 #. Accessibility label for the dropdown that allows users to select reasoning mode (Reasoning, Fast, Auto) for AI models that support it.
 msgctxt "Aria label for the reasoning mode dropdown in Duck.ai"
 msgid "Reasoning mode"
@@ -15731,6 +16068,12 @@ msgstr "Hiljutised vahelehed"
 msgctxt "Information about adjusting recent chat storage settings"
 msgid "Recent chat storage can be adjusted in %s."
 msgstr "Hiljutist vestluse salvestust saab kohandada siin %1$s."
+
+# smartling.placeholder_format=C
+#. Title of the first tooltip shown when the user selects the 'Delete a chat' onboarding step.
+msgctxt "Product-tour tooltip title"
+msgid "Recent chats"
+msgstr "Hiljutised vestlused"
 
 # smartling.placeholder_format=C
 #. Text explaining that the Recent Chats feature stores the user's most recent chats locally to their device, and not in other remote servers.
@@ -15886,6 +16229,12 @@ msgstr "Otsi uuesti ilma selle saidita"
 msgctxt "Usage limit banner in Duck.ai."
 msgid "Reduce Usage"
 msgstr "Vähenda kasutuspiirangut"
+
+# smartling.placeholder_format=C
+#. Subtitle shown under the title in the Duck.ai usage limit banner, prompting the user to switch to a lower-cost model to reduce their usage.
+msgctxt "Usage limit banner in Duck.ai."
+msgid "Reduce usage with a more efficient model"
+msgstr "Vähenda kasutusmahtu tõhusama mudeliga"
 
 # smartling.placeholder_format=C
 msgctxt "settings"
@@ -16265,6 +16614,12 @@ msgid "Reset All Settings"
 msgstr "Lähtesta kõik seaded"
 
 # smartling.placeholder_format=C
+#. Button in settings that resets the Duck.ai onboarding tips so they show again from the beginning.
+msgctxt "Settings button"
+msgid "Reset tutorial"
+msgstr "Lähtesta õpetus"
+
+# smartling.placeholder_format=C
 #. Displayed in the Duck.ai usage limit banner for subscribers. %s is a compact duration until the active usage limit window resets, e.g., '2d' or '5h'.
 msgctxt "Usage limit banner in Duck.ai."
 msgid "Resets in %s"
@@ -16275,6 +16630,12 @@ msgstr "Lähtestatakse %1$s pärast"
 msgctxt "noresults"
 msgid "Resolution"
 msgstr "Resolutsioon"
+
+# smartling.placeholder_format=C
+#. Title-case label on the share-scope card to share only the selected assistant response in the Duck.ai share modal.
+msgctxt "Share scope toggle label for a single response"
+msgid "Response"
+msgstr "Vastus"
 
 # smartling.placeholder_format=C
 #. Feedback option when AI response is helpful
@@ -16403,7 +16764,8 @@ msgstr "Tulemused ei sisalda blokeeritud saitide teavet."
 #. Message that appears when results exclude blocked sites
 msgctxt "Blocked sites filter disclaimer"
 msgid "Results exclude your blocked sites, which you can manage in your %s."
-msgstr "Tulemused välistavad sinu blokeeritud saidid, mida saad hallata oma %1$s-s."
+msgstr ""
+"Tulemused välistavad sinu blokeeritud saidid, mida saad hallata oma %1$s-s."
 
 # smartling.placeholder_format=C
 #. A label showing the source of the results, e.g. "Results from Reddit"
@@ -16474,7 +16836,8 @@ msgstr "Arvustused"
 #. Prompt sent to the AI when the user taps the "Adjust the servings" page-suggestion chip.
 msgctxt "Page suggestion prompt"
 msgid "Rewrite this recipe scaled for a different number of servings."
-msgstr "Kirjuta see retsept ümber, kohandades seda teistsugusele portsjonite arvule."
+msgstr ""
+"Kirjuta see retsept ümber, kohandades seda teistsugusele portsjonite arvule."
 
 # smartling.placeholder_format=C
 msgid "Romania"
@@ -16766,7 +17129,8 @@ msgstr "Salvesta oma seadmesse kuni 30 viimast vestlust."
 msgctxt "Body copy for the Sync & Backup intro screen"
 msgid ""
 "Save your Duck.ai chats between your devices with end-to-end encryption."
-msgstr "Salvesta oma Duck.ai vestlused seadmete vahel otsast lõpuni krüptimisega."
+msgstr ""
+"Salvesta oma Duck.ai vestlused seadmete vahel otsast lõpuni krüptimisega."
 
 # smartling.placeholder_format=C
 #. Short description shown in Chat History settings when sync is enabled, explaining chats are saved across all devices.
@@ -16943,7 +17307,8 @@ msgstr "Keri alla ja leia loendist %1$soma brauser%2$s."
 #. Tells users which setting to change to enable location service.
 msgctxt "precise_user_location"
 msgid "Scroll down to %sDuckDuckGo%s and allow it to use your location."
-msgstr "Keri alla suvandini %1$sDuckDuckGo%2$s ja luba sellel oma asukohta kasutada."
+msgstr ""
+"Keri alla suvandini %1$sDuckDuckGo%2$s ja luba sellel oma asukohta kasutada."
 
 #  Edge default search engine instruction
 # smartling.placeholder_format=C
@@ -16972,6 +17337,12 @@ msgstr "Otsing"
 #. e.g., 'Search coffee shop in san diego ca to find results closer to you?' (when the user searched with a local query like 'coffee shop near me')
 msgid "Search %s to find results closer to you?"
 msgstr "Kas otsida märksõna „%1$s“, et leida endale lähemal asuvaid vasteid?"
+
+# smartling.placeholder_format=C
+#. Label of the Duck.ai entry in the 'Customize New Tab Page' menu.
+msgctxt "new tab page"
+msgid "Search & Duck.ai Toggle"
+msgstr "Otsingu ja Duck.ai lüliti"
 
 # smartling.placeholder_format=C
 msgid "Search Anonymously"
@@ -17331,7 +17702,8 @@ msgstr ""
 #. Description explaining that chats are stored securely with encryption on DuckDuckGo's server.
 msgctxt "Sync feature benefit description"
 msgid "Securely stored on DuckDuckGo's server with end-to-end encryption."
-msgstr "Turvaliselt salvestatud DuckDuckGo serverisse otspunktide krüptimisega."
+msgstr ""
+"Turvaliselt salvestatud DuckDuckGo serverisse otspunktide krüptimisega."
 
 # smartling.placeholder_format=C
 #. List item explaining that synced chats are stored with end-to-end encryption on DuckDuckGo's server and only the user can access them.
@@ -17342,6 +17714,12 @@ msgid ""
 msgstr ""
 "Turvaliselt salvestatud DuckDuckGo serverisse otspunktide krüptimisega. "
 "Keegi peale sinu ei näe sinu andmeid, isegi mitte meie."
+
+# smartling.placeholder_format=C
+#. Explains that the shared copy is stored encrypted on the server.
+msgctxt "Share modal info bullet about encryption"
+msgid "Securely stored on our encrypted server."
+msgstr "Turvaliselt salvestatud meie krüptitud serverisse."
 
 # smartling.placeholder_format=C
 msgctxt "Feedback prompt"
@@ -17485,7 +17863,8 @@ msgstr "Vali Safari menüüst %1$sSelle veebisaidi seadistamine...%2$s."
 #. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
 msgid ""
 "Select %sCustom%s and enter %shttps://duckduckgo.com%s in the input field"
-msgstr "Vali %1$sKohanda%2$s ja sisesta %3$shttps://duckduckgo.com%4$s sisendväljale"
+msgstr ""
+"Vali %1$sKohanda%2$s ja sisesta %3$shttps://duckduckgo.com%4$s sisendväljale"
 
 # smartling.placeholder_format=C
 #. Instructions to add a search engine in Microsoft Edge
@@ -17847,6 +18226,12 @@ msgid "Set as Homepage"
 msgstr "Määra avaleheks"
 
 # smartling.placeholder_format=C
+#. Second, dimmer line of the highlight tooltip shown under the 'Customize responses' item title when the user activates that onboarding step.
+msgctxt "Product-tour tooltip description"
+msgid "Set the tone and style of Duck.ai's responses."
+msgstr "Määra Duck.ai vastuste toon ja stiil."
+
+# smartling.placeholder_format=C
 #. Short description shown below the 'Customize responses' label in the Tools dropdown. May be overridden dynamically when customizations are saved.
 msgctxt "Subtitle for the Customize Responses entry in the Tools dropdown menu"
 msgid "Set tone, length and behavior"
@@ -17866,7 +18251,8 @@ msgstr ""
 #. Prompt for the user to indicate their location on a map, to enable more relevant search results.
 msgctxt "precise_user_location"
 msgid "Set your location manually, or ensure Location Services is enabled."
-msgstr "Määra oma asukoht käsitsi või veendu, et asukohateenused oleksid lubatud."
+msgstr ""
+"Määra oma asukoht käsitsi või veendu, et asukohateenused oleksid lubatud."
 
 # smartling.placeholder_format=C
 #. In the top dropdown menu  ("More" > "Settings")
@@ -17912,6 +18298,18 @@ msgid "Seychelles"
 msgstr "Seišellid"
 
 # smartling.placeholder_format=C
+#. Label for the share action in the chat options menu and on assistant message actions.
+msgctxt "Button for sharing a chat or response"
+msgid "Share"
+msgstr "Jaga"
+
+# smartling.placeholder_format=C
+#. Modal header when the user opens share from an assistant response.
+msgctxt "Title for the share modal when sharing from a response action"
+msgid "Share"
+msgstr "Jaga"
+
+# smartling.placeholder_format=C
 #. Label for the 'Share' item in the Search Assist overflow menu. Opens the OS-native share sheet to share a link to the answer.
 msgctxt "duckassist"
 msgid "Share"
@@ -17920,7 +18318,8 @@ msgstr "Jaga"
 # smartling.placeholder_format=C
 msgctxt "homepage onboarding"
 msgid "Share DuckDuckGo and help friends take their privacy back!"
-msgstr "Jaga rakendust DuckDuckGo ja aita sõpradel oma privaatsus tagasi saada!"
+msgstr ""
+"Jaga rakendust DuckDuckGo ja aita sõpradel oma privaatsus tagasi saada!"
 
 # smartling.placeholder_format=C
 #. Text displayed on a button that opens a feedback modal when clicked.
@@ -17947,8 +18346,15 @@ msgid ""
 "Share a city-level location with AI models to improve relevancy. Duck.ai "
 "never reveals your precise location to us or AI models."
 msgstr ""
-"Jaga linna tasemel asukohta TI-mudelitega, et parandada asjakohasust. "
-"Duck.ai ei avalda meile ega TI-mudelitele kunagi teie täpset asukohta."
+"Jaga linna tasemel asukohta TI-mudelitega, et parandada asjakohasust. Duck."
+"ai ei avalda meile ega TI-mudelitele kunagi teie täpset asukohta."
+
+# smartling.placeholder_format=C
+#. Modal header when the user opens share from the chat history options menu.
+msgctxt ""
+"Title for the share modal when sharing an entire chat from the sidebar menu"
+msgid "Share chat"
+msgstr "Jaga vestlust"
 
 # smartling.placeholder_format=C
 #. Menu option to share feedback about a result
@@ -18009,6 +18415,12 @@ msgid "Share positive feedback"
 msgstr "Anna positiivset tagasisidet"
 
 # smartling.placeholder_format=C
+#. ARIA label for the response vs entire chat toggle in the share modal.
+msgctxt "Accessible label for the share scope toggle group"
+msgid "Share scope"
+msgstr "Jagamise ulatus"
+
+# smartling.placeholder_format=C
 #. Label for a toggle; when enabled, the user agrees to include this conversation with feedback sent to DuckDuckGo.
 msgctxt ""
 "Label beside the share-content switch on the Duck.ai response feedback form"
@@ -18047,8 +18459,8 @@ msgid ""
 "Shield your online activity with our no-log, fast VPN. Simple to set up and "
 "easy to turn on and off anytime."
 msgstr ""
-"Kaitse oma veebitegevust meie kasutajate andmeid salvestamatu ja kiire "
-"VPN-iga. Lihtne seadistada ning igal ajal hõlpsasti sisse ja välja lülitada."
+"Kaitse oma veebitegevust meie kasutajate andmeid salvestamatu ja kiire VPN-"
+"iga. Lihtne seadistada ning igal ajal hõlpsasti sisse ja välja lülitada."
 
 # smartling.placeholder_format=C
 #. Keyboard shortcut for Duck.ai
@@ -18152,6 +18564,12 @@ msgstr "Kuva bookmarkleti ja seadete andmed"
 msgctxt "mobile expanded map"
 msgid "Show Detail"
 msgstr "Kuva detaile"
+
+# smartling.placeholder_format=C
+#. Title of the settings row that controls the Duck.ai onboarding tips / getting-started checklist.
+msgctxt "Settings row title"
+msgid "Show Duck.ai tutorial"
+msgstr "Kuva Duck.ai õpetust"
 
 # smartling.placeholder_format=C
 msgctxt "settings"
@@ -18303,6 +18721,12 @@ msgid "Show more"
 msgstr "Näita rohkem"
 
 # smartling.placeholder_format=C
+#. Accessible label for the dropdown toggle button next to the instant model-switch button in the Duck.ai usage limit banner. Opens a menu listing more lower-cost AI models.
+msgctxt "Usage limit banner in Duck.ai."
+msgid "Show more models"
+msgstr "Näita rohkem mudeleid"
+
+# smartling.placeholder_format=C
 #. Screen-reader label for the right chevron button that navigates to the next page of suggested chat prompts.
 msgctxt ""
 "Accessible label for the next-page chevron button in the chat suggestions "
@@ -18336,6 +18760,12 @@ msgctxt ""
 "collapsed"
 msgid "Show sidebar"
 msgstr "Näita külgriba"
+
+# smartling.placeholder_format=C
+#. Description of the settings row that controls the Duck.ai onboarding tips / getting-started checklist.
+msgctxt "Settings row description"
+msgid "Show step-by-step tips for getting the most out of Duck.ai."
+msgstr "Kuva samm-sammult näpunäiteid Duck.ai parimaks kasutamiseks."
 
 # smartling.placeholder_format=C
 #. Tooltip/label for the button to show the voice chat transcript.
@@ -18647,6 +19077,14 @@ msgstr "Tarkvara"
 msgctxt ""
 "Short descriptor under the higher-cost recommended model in the model picker "
 "dropdown"
+msgid "Solid but hits limits sooner"
+msgstr "Töökindel, aga ammendab piiranguid varem"
+
+# smartling.placeholder_format=C
+#. One-line description rendered beneath the frontier / higher-cost model in the Recommended group, warning that it consumes usage limits more quickly.
+msgctxt ""
+"Short descriptor under the higher-cost recommended model in the model picker "
+"dropdown"
 msgid "Solid but uses limits faster"
 msgstr "Töökindel, aga ammendab piiranguid kiiremini"
 
@@ -18705,6 +19143,12 @@ msgstr "Sync & Backup lubamisel läks midagi valesti. Proovi uuesti."
 msgctxt "voice chat error"
 msgid "Something went wrong, please try again later."
 msgstr "Midagi läks valesti, proovi hiljem uuesti."
+
+# smartling.placeholder_format=C
+#. Error callout in the Duck.ai share modal when create/copy/delete fails, or when the selected assistant response cannot be previewed/shared (e.g. superseded by regeneration).
+msgctxt "Error message shown in the Duck.ai share modal"
+msgid "Something went wrong. Please try again."
+msgstr "Midagi läks valesti. Proovi uuesti."
 
 # smartling.placeholder_format=C
 #. Error message shown when the user tries to activate their subscription but the process fails.
@@ -18850,7 +19294,8 @@ msgstr "Algtekst kustutatud"
 msgctxt "Error message for summary selection input limit"
 msgid ""
 "Source text is too long to summarize. Try again with a shorter selection."
-msgstr "Algtekst on liiga pikk, et seda kokku võtta. Proovi uuesti lühema valikuga."
+msgstr ""
+"Algtekst on liiga pikk, et seda kokku võtta. Proovi uuesti lühema valikuga."
 
 # smartling.placeholder_format=C
 #. https://duckduckgo.com/params under Interface Settings.in the end. It is a header
@@ -18997,6 +19442,12 @@ msgstr "Alusta igakuise piirangu kasutamist"
 msgctxt "Action button for fixed-window Duck.ai usage limit"
 msgid "Start Using Weekly Limit"
 msgstr "Alusta nädalapiirangu kasutamist"
+
+# smartling.placeholder_format=C
+#. Onboarding checklist item, the tour's opening step: highlights the Suggestions pill so the user sends their first prompt. Completed when a message is sent.
+msgctxt "Product-tour checklist item title"
+msgid "Start a new chat"
+msgstr "Alusta uut vestlust"
 
 # smartling.placeholder_format=C
 #. A prompt to start a new web search.
@@ -19577,6 +20028,14 @@ msgid "Switch to the search engine that doesn't track you. Ever."
 msgstr "Lülitu otsingumootorile, mis ei jälita sind. Kunagi."
 
 # smartling.placeholder_format=C
+#. Re-activates a stacked second opinion, making it the current answer again.
+msgctxt ""
+"Accessible name and tooltip for the heading button on an inactive second-"
+"opinion card"
+msgid "Switch to this second opinion"
+msgstr "Mine üle sellele teisele arvamusele"
+
+# smartling.placeholder_format=C
 #. Shown in the second-opinion card after the user switches to its model. %s is the model name.
 msgctxt "Confirmation label"
 msgid "Switched to %s"
@@ -19734,6 +20193,12 @@ msgid "Sync and Backup is temporarily unavailable"
 msgstr "Sünkroonimine ja varundamine pole ajutiselt saadaval"
 
 # smartling.placeholder_format=C
+#. Onboarding checklist item: opens the Sync setup so the user can access chat history across devices. Leads with the Sync mechanism and explains its cross-device benefit.
+msgctxt "Product-tour checklist item title"
+msgid "Sync chats across devices"
+msgstr "Vestluste sünkroonimine seadmete vahel"
+
+# smartling.placeholder_format=C
 #. Catch-all shown when pairing fails for a runtime reason (network, timeout, dropped channel, denied/aborted, protocol error). Paired with DUCKCHAT_SYNC_PAIRING_FAILED_BODY and a retry button.
 msgctxt "Title for the generic pairing-failure error screen"
 msgid "Sync failed."
@@ -19821,6 +20286,26 @@ msgid "Take Back Your Privacy!"
 msgstr "Võta tagasi oma privaatsus!"
 
 # smartling.placeholder_format=C
+#. Body of the success modal shown when the user finishes the entire onboarding checklist. Mobile variant.
+msgctxt "Product-tour success modal body - mobile variant"
+msgid ""
+"Take Duck.ai with you everywhere. Get it built into our free app for quicker "
+"access, wherever you are."
+msgstr ""
+"Võta Duck.ai endaga kõikjale kaasa. Hangi see kiiremaks juurdepääsuks meie "
+"tasuta rakendusse integreeritult, kus iganes viibid."
+
+# smartling.placeholder_format=C
+#. Body of the success modal shown when the user finishes the entire onboarding checklist.
+msgctxt "Product-tour success modal body"
+msgid ""
+"Take Duck.ai with you everywhere. Get it built into our free browser for "
+"quicker access, wherever you're browsing."
+msgstr ""
+"Võta Duck.ai endaga kõikjale kaasa. Hangi see meie tasuta brauserisse "
+"sisseehitatuna kiiremaks juurdepääsuks, kus iganes sirvid."
+
+# smartling.placeholder_format=C
 #. Primary button/link text to open the user survey (desktop only)
 msgctxt "User survey popup"
 msgid "Take Our Survey"
@@ -19850,6 +20335,12 @@ msgstr ""
 msgctxt "Description for reasoning mode in Duck.ai"
 msgid "Takes a moment to respond"
 msgstr "Võtab vastamiseks vaid hetke"
+
+# smartling.placeholder_format=C
+#. Description text shown below the Reasoning option in the reasoning mode dropdown.
+msgctxt "Description for reasoning mode in Duck.ai"
+msgid "Takes longer to respond"
+msgstr "Võtab vastamiseks kauem aega"
 
 # smartling.placeholder_format=C
 #. Text fot a button that encourages users to try the recently added voice chat mode, and talk to our AI at Duck.ai.
@@ -20108,7 +20599,8 @@ msgstr ""
 msgctxt "Privacy claim description in Duck.ai chat"
 msgid ""
 "The model provider deletes any data associated with this chat within 30 days."
-msgstr "Mudelipakkuja kustutab kõik selle vestlusega seotud andmed 30 päeva jooksul."
+msgstr ""
+"Mudelipakkuja kustutab kõik selle vestlusega seotud andmed 30 päeva jooksul."
 
 # smartling.placeholder_format=C
 #. Description explaining that the AI model provider does not store any chat data on their servers.
@@ -20258,7 +20750,8 @@ msgctxt "AI Chat: Error message for when a model is removed"
 msgid ""
 "This AI model is no longer available. Try starting a new chat with a "
 "different model."
-msgstr "See AI mudel pole enam saadaval. Proovi alustada uut vestlust teise mudeliga."
+msgstr ""
+"See AI mudel pole enam saadaval. Proovi alustada uut vestlust teise mudeliga."
 
 # smartling.placeholder_format=C
 #. Displayed when an AI chat model is no longer supported because it has been upgraded to a newest version.
@@ -20283,10 +20776,22 @@ msgid "This Month"
 msgstr "Sel kuul"
 
 # smartling.placeholder_format=C
+#. Title-case label on the share-scope card after a link is created; replaces the shorter 'Response' label. Shown in the Duck.ai share modal.
+msgctxt "Share scope toggle label after a link is created"
+msgid "This Response"
+msgstr "See vastus"
+
+# smartling.placeholder_format=C
 #. Label for the weekly usage row in the Usage section of Duck.ai settings.
 msgctxt "Duck.ai settings usage section"
 msgid "This Week"
 msgstr "Sel nädalal"
+
+# smartling.placeholder_format=C
+#. Info bullet in the Duck.ai share modal explaining the original chat stays private. 'Duck.ai' is a brand name and should not be translated.
+msgctxt "Share modal info bullet about private original chat"
+msgid "This chat stays in Duck.ai and remains private to you."
+msgstr "See vestlus jääb Duck.ai-sse ja püsib sinu jaoks privaatne."
 
 # smartling.placeholder_format=C
 #. When a user exports a chat they had with an AI model, this text goes at the very top of the downloaded file as a header. Example: 'This conversation was generated with Duck.ai (https://duck.ai) using OpenAI's GPT-4 Model. AI chats may display inaccurate or offensive information (see https://duckduckgo.com/duckai/privacy-terms for more info).'
@@ -20417,6 +20922,26 @@ msgid "This information isn’t useful"
 msgstr "See teave pole kasulik"
 
 # smartling.placeholder_format=C
+#. Placeholder assistant reply in the disposable sample chat created by the 'Pin a chat' tour step. Tells the user to open the chat row's 3-dot menu and choose Pin.
+msgctxt "Sample assistant reply inside the throwaway product-tour chat"
+msgid ""
+"This is just a sample chat. Open its menu (the three dots), then choose Pin "
+"to keep it at the top of your chats!"
+msgstr ""
+"See on lihtsalt näidisvestlus. Ava selle menüü (kolm punkti) ja seejärel "
+"vali „Kinnita”, et see sinu vestluste ülaosas püsiks!"
+
+# smartling.placeholder_format=C
+#. Placeholder assistant reply in the disposable sample chat created by the 'Delete a chat' tour step. Tells the user to delete the chat using the Fire (delete) button in the side menu. Device-agnostic: on desktop the Fire Button is on the chat row (hover-revealed), on mobile it's inside the row's 3-dot menu; the tour highlight points at the right control on each.
+msgctxt "Sample assistant reply inside the throwaway product-tour chat"
+msgid ""
+"This is just a sample chat. Use the Fire Button in the side menu to delete "
+"it!"
+msgstr ""
+"See on lihtsalt näidisvestlus. Selle kustutamiseks kasuta külgmenüüs nuppu "
+"Fire Button!"
+
+# smartling.placeholder_format=C
 #. Title shown when the scanned or pasted payload does not match the expected pairing format.
 msgctxt "Title for the wrong code error screen"
 msgid "This is not a valid Sync code."
@@ -20530,7 +21055,8 @@ msgstr "See tõlge on vale"
 # smartling.placeholder_format=C
 #. Label indicating that the video can't be played on the current page, and only on the website that owns the vide. The placeholder is the name of the website that owns the video.
 msgid "This video is not yet able to be watched here. You can watch it on %s."
-msgstr "Seda videot ei saa veel siin vaadata. Sa saad seda vaadata saidil %1$s."
+msgstr ""
+"Seda videot ei saa veel siin vaadata. Sa saad seda vaadata saidil %1$s."
 
 # smartling.placeholder_format=C
 #. Message indicating that a website is not using an encrypted connection and is not secure.
@@ -20650,7 +21176,8 @@ msgstr "Soovitused"
 
 # smartling.placeholder_format=C
 msgid "Tired of being tracked online? %sWe can help.%s"
-msgstr "Oled väsinud sellest, et sind võrgus jälitatakse? %1$sMeie saame aidata.%2$s"
+msgstr ""
+"Oled väsinud sellest, et sind võrgus jälitatakse? %1$sMeie saame aidata.%2$s"
 
 # smartling.placeholder_format=C
 #. This is the name of a user setting
@@ -20708,8 +21235,8 @@ msgid ""
 "you originally used to set up Sync."
 msgstr ""
 "Sünkroonitud andmete taastamiseks vajad taastamiskoodi, mille salvestasid "
-"sünkroonimise esmakordsel seadistamisel. See kood võis olla salvestatud "
-"PDF-vormingus seadmesse, milles sa sünkroonimise algselt seadistasid."
+"sünkroonimise esmakordsel seadistamisel. See kood võis olla salvestatud PDF-"
+"vormingus seadmesse, milles sa sünkroonimise algselt seadistasid."
 
 # smartling.placeholder_format=C
 #. Body text explaining that the user needs to update their DDG browser before migration can proceed.
@@ -20745,6 +21272,14 @@ msgstr "Täna"
 msgctxt "Title for the period of chats from today"
 msgid "Today"
 msgstr "Täna"
+
+# smartling.placeholder_format=C
+#. Headline of the one-time Duck.ai feature-discovery drawer shown to new installs under the search box. The first and last placeholders wrap a link-styled control that opens the 'Customize New Tab Page' menu; the middle placeholder is filled with the localized NTP_CUSTOMIZE button label.
+msgctxt "new tab page"
+msgid "Toggle to try private AI chat or %sdisable it in the %s menu.%s"
+msgstr ""
+"Lülita sisse, et proovida privaatset AI-vestlust, või %1$skeela see menüüs "
+"%2$s.%3$s"
 
 # smartling.placeholder_format=C
 msgid "Togo"
@@ -21092,7 +21627,8 @@ msgstr "Proovi %1$s, et selliseid sõnumeid enam ei näeks."
 #. Text for a promotional card that encourages users to try the encrypted AI model whose inference runs in a confidential environment so the model provider cannot access user data. %s is replaced with the model's full display name (e.g. 'GPT-OSS 120B').
 msgctxt "Promotional text for encrypted AI model"
 msgid "Try %s, our first model with zero provider visibility."
-msgstr "Proovi mudelit %1$s, meie esimest mudelit null teenusepakkuja nähtavusega."
+msgstr ""
+"Proovi mudelit %1$s, meie esimest mudelit null teenusepakkuja nähtavusega."
 
 # smartling.placeholder_format=C
 msgid "Try %sDuck.ai%s, our private AI chat service:"
@@ -21170,9 +21706,21 @@ msgid "Try Them Out"
 msgstr "Proovi neid"
 
 # smartling.placeholder_format=C
+#. Onboarding checklist item: opens the model selector so the user can pick a different AI model.
+msgctxt "Product-tour checklist item title"
+msgid "Try a different model"
+msgstr "Proovi teist mudelit"
+
+# smartling.placeholder_format=C
 #. Alternate header text for front page
 msgid "Try a search!"
 msgstr "Proovi otsingut!"
+
+# smartling.placeholder_format=C
+#. Tooltip on the Suggestions pill when the user activates the 'Start a new chat' onboarding step. Invites them to open the suggested prompts instead of composing from scratch.
+msgctxt "Product-tour highlight tooltip"
+msgid "Try a suggestion"
+msgstr "Proovi soovitust"
 
 # smartling.placeholder_format=C
 #. Message prompting users to add more information to their search term.
@@ -21207,7 +21755,8 @@ msgstr "Proovi teisi märksõnu."
 # smartling.placeholder_format=C
 #. Prompt encouraging the user to turn off their ad blocker to see more results for their query.
 msgid "Try disabling your ad blocker on DuckDuckGo to see more results."
-msgstr "Rohkemate tulemuste nägemiseks proovi DuckDuckGo reklaamiblokeerija keelata."
+msgstr ""
+"Rohkemate tulemuste nägemiseks proovi DuckDuckGo reklaamiblokeerija keelata."
 
 # smartling.placeholder_format=C
 #. Prompt to enable location access in order to get search results closer to the user's actual location.
@@ -21249,6 +21798,12 @@ msgid "Try for free"
 msgstr "Proovi tasuta"
 
 # smartling.placeholder_format=C
+#. Link-style call to action shown when a subscription-eligible free user has reached a Duck.ai usage limit. Opens the DuckDuckGo subscription modal.
+msgctxt "Subscription upsell in the usage limit banner in Duck.ai."
+msgid "Try for free"
+msgstr "Proovi tasuta"
+
+# smartling.placeholder_format=C
 #. Link-style CTA shown on the right of the Subscriber exclusive section header; clicking starts the subscription trial flow.
 msgctxt ""
 "Trailing CTA on the Subscriber exclusive section header in the model picker "
@@ -21263,6 +21818,12 @@ msgid "Try for free! A secure VPN, advanced & private AI, and more."
 msgstr ""
 "Proovi tasuta! Turvaline VPN, täiustatud ja privaatne tehisintellekt ning "
 "palju muud."
+
+# smartling.placeholder_format=C
+#. Secondary text under the subscription row, pointing at the 7-day free trial.
+msgctxt "Subtitle under the Unlock advanced models row"
+msgid "Try free for 7 days"
+msgstr "Proovi tasuta seitse päeva"
 
 # smartling.placeholder_format=C
 #. Copy to invite the user to ask Assist (an instant answer based on generative AI) for an answer
@@ -21302,6 +21863,12 @@ msgstr "Proovi meie kodulehte, mis ei näita kunagi neid sõnumeid:"
 msgctxt "Mobile SERP subscription badge"
 msgid "Try our subscription for free!"
 msgstr "Proovi meie tellimust tasuta!"
+
+# smartling.placeholder_format=C
+#. Onboarding checklist item: points the user to reasoning / extended-thinking mode.
+msgctxt "Product-tour checklist item title"
+msgid "Try reasoning"
+msgstr "Proovi arutlust"
 
 # smartling.placeholder_format=C
 #. A prompt asking users to try searching with different words to get more results.
@@ -21549,6 +22116,12 @@ msgid "Turn on Duck Player to watch YouTube without targeted ads"
 msgstr "Sihitud reklaamideta Youtube'i vaatamiseks lülita sisse Duck Player"
 
 # smartling.placeholder_format=C
+#. Button that enables the Search/Duck.ai toggle.
+msgctxt "new tab page"
+msgid "Turn on Duck.ai Toggle"
+msgstr "Lülita Duck.ai lüliti sisse"
+
+# smartling.placeholder_format=C
 #. Tells users which setting to change to enable location service.
 msgctxt "precise_user_location"
 msgid "Turn on “Precise Location” for more accurate results."
@@ -21558,7 +22131,8 @@ msgstr "Täpsemate tulemuste saamiseks lülita sisse suvand „Täpne asukoht“
 #. Tells users where to find the location settings in the settings menu. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Turn on “Use precise location” for more accurate results."
-msgstr "Täpsemate tulemuste saamiseks lülita sisse suvand „Kasuta täpset asukohta“."
+msgstr ""
+"Täpsemate tulemuste saamiseks lülita sisse suvand „Kasuta täpset asukohta“."
 
 # smartling.placeholder_format=C
 #. Short description shown below the 'Create Image' label in the Tools dropdown.
@@ -21750,8 +22324,8 @@ msgstr ""
 msgid ""
 "Under %sOn startup%s, select %sHomepage%s and enter: https://duckduckgo.com"
 msgstr ""
-"Jaotisest %1$sKäivitamisel%2$s vali %3$sAvaleht%4$s ja sisesta: "
-"https://duckduckgo.com"
+"Jaotisest %1$sKäivitamisel%2$s vali %3$sAvaleht%4$s ja sisesta: https://"
+"duckduckgo.com"
 
 # smartling.placeholder_format=C
 #. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
@@ -21911,6 +22485,12 @@ msgstr "Lukusta lahti täiustatud AI mudelid DuckDuckGo tellimusega"
 msgctxt "Text promotion"
 msgid "Unlock advanced AI with your subscription!"
 msgstr "Ava oma tellimusega täiustatud tehisintellekt!"
+
+# smartling.placeholder_format=C
+#. Row on the tour-completion card that opens the Duck.ai subscription purchase modal. Leads with the subscription benefit (access to advanced AI models).
+msgctxt "Title of the row that opens the subscription modal"
+msgid "Unlock advanced models"
+msgstr "Ava edasijõudnutele mõeldud mudelid"
 
 # smartling.placeholder_format=C
 #. Upsell message shown in the voice chat duration limit modal for free users.
@@ -22255,7 +22835,8 @@ msgstr "Kasuta DuckDuckGo privaatset otsingut"
 #. Explains that DuckDuckGo is available for multiple devices.
 msgctxt "mobile promotion on desktop"
 msgid "Use DuckDuckGo private search on your iPad, iPhone, or Android!"
-msgstr "Kasuta DuckDuckGo privaatsest otsingut oma iPadis, iPhone'is või Androidis!"
+msgstr ""
+"Kasuta DuckDuckGo privaatsest otsingut oma iPadis, iPhone'is või Androidis!"
 
 # smartling.placeholder_format=C
 #. User clicks this button to share their device's location
@@ -22284,6 +22865,12 @@ msgstr "Kasuta Safaris"
 msgctxt "DuckDuckGo VPN instant answer"
 msgid "Use public Wi-Fi? Use our VPN."
 msgstr "Kasutad avalikku Wi-Fi-t? Kasuta meie VPN-i."
+
+# smartling.placeholder_format=C
+#. Second, dimmer line of the highlight tooltip shown under the 'Delete a chat' item title when the user activates that onboarding step. 'Fire Button' is DuckDuckGo's one-tap data-clearing feature; user testing showed people don't realize it deletes.
+msgctxt "Product-tour tooltip description"
+msgid "Use the Fire Button to delete a chat from history."
+msgstr "Kasuta nuppu Fire Button vestluse ajaloost kustutamiseks."
 
 # smartling.placeholder_format=C
 #. Body copy shown on the joiner device's success screen after a successful pairing, above the recovery code the user should save.
@@ -22838,7 +23425,8 @@ msgstr "Me ei jälita sind reklaamidega."
 #. Text explaining how the cloud save feature works.
 msgctxt "cloudsave"
 msgid "We don't store usernames or any personally identifiable information."
-msgstr "Me ei salvesta kasutajanimesid ega isikut tuvastada võimaldavat teavet."
+msgstr ""
+"Me ei salvesta kasutajanimesid ega isikut tuvastada võimaldavat teavet."
 
 # smartling.placeholder_format=C
 msgctxt "homepage onboarding"
@@ -22998,7 +23586,8 @@ msgstr ""
 # smartling.placeholder_format=C
 msgctxt "homepage ATB modal"
 msgid "We stop anyone from getting your search history, including us."
-msgstr "Me ei lase kellelgi, sealhulgas meil endil, sinu otsinguajalugu vaadata."
+msgstr ""
+"Me ei lase kellelgi, sealhulgas meil endil, sinu otsinguajalugu vaadata."
 
 # smartling.placeholder_format=C
 #. Message that appears after submitting a feedback form.
@@ -23166,7 +23755,8 @@ msgstr "Nädala kasutuspiirang on saavutatud"
 #. Displayed when the user has reached a fixed weekly Duck.ai usage limit. %s is the reset date/time formatted in the user's locale and reads as 'after <date/time>', e.g. 'after May 7, 2026, 5:00 PM'.
 msgctxt "Error message for fixed-window Duck.ai usage limit"
 msgid "Weekly usage limit reached. You can continue this chat after %s."
-msgstr "Nädala kasutuspiirang on saavutatud. Saad seda vestlust jätkata pärast %1$s."
+msgstr ""
+"Nädala kasutuspiirang on saavutatud. Saad seda vestlust jätkata pärast %1$s."
 
 # smartling.placeholder_format=C
 #. Displayed when the user has reached a bypassable weekly Duck.ai usage limit and can opt in to continue using the monthly limit.
@@ -23464,6 +24054,12 @@ msgstr "Mis häiris sind kõige rohkem?"
 msgctxt "new user poll"
 msgid "What brought you back today?"
 msgstr "Mis sind täna tagasi tõi?"
+
+# smartling.placeholder_format=C
+#. Placeholder user message in the disposable sample chat created by the 'Delete a chat' tour step.
+msgctxt "Sample user message inside the throwaway product-tour chat"
+msgid "What can you do?"
+msgstr "Mida sa saad teha?"
 
 # smartling.placeholder_format=C
 #. Question on a feedback form.
@@ -23884,6 +24480,17 @@ msgid "Wintry Mix"
 msgstr "Talvine segailm"
 
 # smartling.placeholder_format=C
+#. Body text of the one-time Duck.ai promo card on the Chrome New Tab Page. The placeholder is filled with the localized NTP_CUSTOMIZE button label (the button that opens the New Tab Page customization menu).
+msgctxt "new tab page"
+msgid ""
+"With Duck.ai, your chats are anonymized and never used to train AI. Turn it "
+"on or off anytime in the '%s' menu."
+msgstr ""
+"Duck.ai abil on sinu vestlused anonümiseeritud ja neid ei kasutata kunagi "
+"tehisintellekti treenimiseks. Saad selle igal ajal sisse või välja lülitada "
+"„%1$s“ menüüs."
+
+# smartling.placeholder_format=C
 #. Section header in the model switch dropdown, shown above the list of models that do NOT run in a Trusted Execution Environment (i.e. the model provider can access user data). It is paired with a 'Zero provider visibility' section that lists the encrypted models. Please keep the wording consistent with the 'Zero provider visibility' label.
 msgctxt "AI Chat model switch dropdown section header"
 msgid "Without zero provider visibility"
@@ -24156,7 +24763,8 @@ msgctxt "Disclaimer bellow chat input - desktop"
 msgid ""
 "You are chatting with %s. AI chats may display inaccurate or offensive "
 "information."
-msgstr "Vestled %1$s-ga. AI-vestlused võivad kuvada ebatäpset või solvavat teavet."
+msgstr ""
+"Vestled %1$s-ga. AI-vestlused võivad kuvada ebatäpset või solvavat teavet."
 
 # smartling.placeholder_format=C
 #. Provide users with the ability to retry their search on a different search engine. First placeholder will be a link with the text "try your search again" OR "try your search later". Second is a URL to the !bangs page: https://duckduckgo.com/bangs.
@@ -24196,8 +24804,8 @@ msgstr ""
 # smartling.placeholder_format=C
 msgid "You can also use %sDuck.ai%s to answer questions or summarize text."
 msgstr ""
-"Küsimustele vastamiseks või teksti kokkuvõtmiseks võite kasutada ka "
-"%1$sDuck.ai%2$s."
+"Küsimustele vastamiseks või teksti kokkuvõtmiseks võite kasutada ka %1$sDuck."
+"ai%2$s."
 
 # smartling.placeholder_format=C
 msgid ""
@@ -24271,7 +24879,8 @@ msgstr "Saad vestlust jätkata, kasutades oma igakuist piirangut."
 #. Text displayed in a popover informing existing users that the chat save limit has been increased to 100.
 msgctxt "Popover text notifying users of increased chat limit from 30 to 100"
 msgid "You can now save up to 100 chats on this device. Chat away!"
-msgstr "Nüüd saad sellesse seadmesse salvestada kuni 100 vestlust. Vestle edasi!"
+msgstr ""
+"Nüüd saad sellesse seadmesse salvestada kuni 100 vestlust. Vestle edasi!"
 
 # smartling.placeholder_format=C
 #. Error message displayed when the user has attached more files than are allowed in a conversation. Placeholder is the maximum number of files. E.g. You can only attach 3 files per conversation
@@ -24308,6 +24917,13 @@ msgstr "Saad vestluse kohta lisada ainult %1$s pilti"
 msgctxt "Error message when total image count exceeds conversation limit"
 msgid "You can only attach %s images per conversation."
 msgstr "Saad vestlusele lisada ainult %1$s pilti."
+
+# smartling.placeholder_format=C
+#. Error message displayed when the user has attached more open browser tabs than are allowed on a single prompt. Placeholder is the maximum number of tabs. E.g. You can only attach 3 tabs at a time.
+msgctxt ""
+"Error message when the number of attached browser tabs exceeds the limit"
+msgid "You can only attach %s tabs at a time."
+msgstr "Korraga saad lisada ainult %1$s vahekaarti."
 
 # smartling.placeholder_format=C
 #. Error message displayed when the user has select more images than are allowed to be uploaded.
@@ -24438,7 +25054,8 @@ msgstr ""
 # smartling.placeholder_format=C
 #. Informational message letting the user know they won't see the message unless they clear their cookies or other browsing data
 msgid "You won't see this message again unless you clear your browser data."
-msgstr "Sa ei näe seda sõnumit enam, kui sa ei kustuta oma veebilehitseja andmeid."
+msgstr ""
+"Sa ei näe seda sõnumit enam, kui sa ei kustuta oma veebilehitseja andmeid."
 
 # smartling.placeholder_format=C
 #. The second paragraph of a pop up where we explain how to update the browser manually.
@@ -24449,6 +25066,12 @@ msgid ""
 msgstr ""
 "Kui sul on uusim versioon, saad automaatselt DuckDuckGo rakenduse "
 "värskendused."
+
+# smartling.placeholder_format=C
+#. Celebration heading shown when the user has completed every step of the onboarding checklist.
+msgctxt "Heading shown while the completion celebration (confetti) plays"
+msgid "You're all set!"
+msgstr "Kõik on valmis!"
 
 # smartling.placeholder_format=C
 #. shown when DDG is selected after eu preference menu on android
@@ -24499,6 +25122,12 @@ msgid "You've blocked 1 site"
 msgstr "Oled blokeerinud ühe saidi"
 
 # smartling.placeholder_format=C
+#. Congratulatory title of the success modal shown when the user completes every onboarding checklist item.
+msgctxt "Product-tour success modal title"
+msgid "You've mastered the basics of Duck.ai"
+msgstr "Oled selgeks saanud Duck.ai põhitõed"
+
+# smartling.placeholder_format=C
 #. Title shown when a user has reached their image generation limit.
 msgctxt "Title for image generation limit reached message"
 msgid "You've reached the image creation limit"
@@ -24516,7 +25145,8 @@ msgctxt "Error message for user limit"
 msgid ""
 "You've reached the maximum number of messages for the moment. Please try "
 "again later."
-msgstr "Oled hetkel saavutanud maksimaalse sõnumite arvu. Proovi hiljem uuesti."
+msgstr ""
+"Oled hetkel saavutanud maksimaalse sõnumite arvu. Proovi hiljem uuesti."
 
 # smartling.placeholder_format=C
 #. Description shown when the user has reached the maximum voice chat duration.
@@ -24529,7 +25159,8 @@ msgstr "Oled saavutanud ühe seansi maksimaalse häälvestluse kestuse."
 msgctxt "voice chat limit modal"
 msgid ""
 "You've reached the voice chat limit for today. Please try again tomorrow."
-msgstr "Oled jõudnud tänase päeva häälvestluse limiidini. Palun proovi homme uuesti."
+msgstr ""
+"Oled jõudnud tänase päeva häälvestluse limiidini. Palun proovi homme uuesti."
 
 # smartling.placeholder_format=C
 #. Error in the duck.ai chat input when dictation is blocked because the user's voice/shared budget is exhausted.
@@ -24647,7 +25278,8 @@ msgstr "Sinu brauser näitab, kui oled seda linki külastanud"
 # smartling.placeholder_format=C
 msgctxt "new tab page"
 msgid "Your browser provides a list of your most-visited sites."
-msgstr "Sinu brauser esitab sinu kõige sagedamini külastatavate saitide loetelu."
+msgstr ""
+"Sinu brauser esitab sinu kõige sagedamini külastatavate saitide loetelu."
 
 # smartling.placeholder_format=C
 #. Used as a description in a menu
@@ -24689,8 +25321,8 @@ msgstr "Sinu vestlused salvestatakse nüüd."
 msgctxt "Promotional text emphasizing privacy of user chats"
 msgid "Your chats are private, and are never saved or used to train AI models"
 msgstr ""
-"Sinu vestlused on privaatsed ja neid ei salvestata ega kasutata kunagi "
-"AI-mudelite treenimiseks"
+"Sinu vestlused on privaatsed ja neid ei salvestata ega kasutata kunagi AI-"
+"mudelite treenimiseks"
 
 # smartling.placeholder_format=C
 #. Text for a promotional card that informs users that their chats with the AI model are private and are never saved or used to train AI models.
@@ -24896,6 +25528,16 @@ msgstr "Sinu roll"
 #. An item in the ads tooltip that explains that your searches can’t be tied back to you.
 msgid "Your searches can’t be tied back to you"
 msgstr "Sinu otsinguid ei saa sinuga siduda"
+
+# smartling.placeholder_format=C
+#. Message shown in a modal on Firefox when the No AI extension is installed but disabled. The first two placeholders bold DuckDuckGo No AI.
+msgctxt "settings"
+msgid ""
+"Your settings are saved, but clearing cookies will reset them. Enable the "
+"%sDuckDuckGo No AI%s extension to make it permanent."
+msgstr ""
+"Sinu sätted on salvestatud, kuid küpsiste kustutamine lähtestab need. Luba "
+"%1$sDuckDuckGo No AI%2$s laiendus, et muuta see püsivaks."
 
 # smartling.placeholder_format=C
 #. Message shown in a modal after users who already have the standard DuckDuckGo extension disable AI features in Settings, inviting them to install the No AI extension. The first two placeholders bold DuckDuckGo No AI. The last two placeholders wrap Learn More in a link to the noai help page.
@@ -25491,3 +26133,9 @@ msgstr "aastat"
 msgctxt "published date for videos"
 msgid "yr"
 msgstr "a"
+
+# smartling.placeholder_format=C
+#. Visible arrow that advances the first tooltip in the 'Delete a chat' onboarding step. Use the appropriate direction for the locale's reading direction; the control's accessible label is translated separately.
+msgctxt "Product-tour tooltip action"
+msgid "→"
+msgstr "→"
