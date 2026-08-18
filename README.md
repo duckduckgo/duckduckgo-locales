@@ -96,7 +96,12 @@ Find the locale code for your language in the list below. The file can be found 
 - cy_GB: Cymraeg
 - da_DK: Dansk (Danmark)
 - de_CH: Deutsch (Schweiz)
-- de_DE: Deutsch (Deutschland)
+- 
+ de_IT: Deutsch (Südtirol)
+ 
+-
+
+de_DE: Deutsch (Deutschland)
 - el_GR: Ελληνικά (Ελλάδα)
 - en_AU: English (Australia)
 - en_CA: English (Canada)
