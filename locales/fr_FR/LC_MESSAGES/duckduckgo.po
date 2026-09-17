@@ -293,6 +293,12 @@ msgid "%s of weekly limit"
 msgstr "%1$s de la limite hebdomadaire"
 
 # smartling.placeholder_format=C
+#. Indicates which outlet wrote a news story and where it is hosted. First %s is the original outlet; second %s is the aggregator display name. E.g. New York Times on MSN.com
+msgctxt "News Vertical item"
+msgid "%s on %s"
+msgstr "%1$s sur %2$s"
+
+# smartling.placeholder_format=C
 #. Label next to a user review. The placeholders are the user name and the review website. For example: 'John on TripAdvisor'
 msgctxt "maps_places"
 msgid "%s on %s"
@@ -1018,8 +1024,8 @@ msgstr ""
 "AI Chat vous permet d'avoir des conversations anonymes avec des modèles de "
 "chat IA tiers. La désactivation de cette option masquera la fonctionnalité "
 "AI Chat sur DuckDuckGo Search. Vous pouvez toujours accéder à l'AI Chat "
-"lorsque ce paramètre est désactivé en consultant %1$sduckduckgo.com/"
-"aichat%2$s."
+"lorsque ce paramètre est désactivé en consultant "
+"%1$sduckduckgo.com/aichat%2$s."
 
 # smartling.placeholder_format=C
 #. A label for a setting that appears on a menu, used to control global AI features settings.
@@ -1209,6 +1215,12 @@ msgid "About Recent Chats"
 msgstr "À propos des discussions récentes"
 
 # smartling.placeholder_format=C
+#. Tooltip shown on hover/focus of the info icon button in the Search Assist header, which opens the 'About AI-Assisted Answers' explainer modal.
+msgctxt "duckassist"
+msgid "About Search Assist"
+msgstr "À propos de Search Assist"
+
+# smartling.placeholder_format=C
 #. Title displayed at the top of the modal that explains the Sync & Backup feature for native DDG browsers.
 msgctxt "Title for the About Sync modal"
 msgid "About Sync & Backup"
@@ -1223,6 +1235,12 @@ msgstr "À propos de nous"
 #. A title for the ads tooltip
 msgid "About our ads"
 msgstr "À propos de nos publicités"
+
+# smartling.placeholder_format=C
+#. Title of the modal that provides information about Chat History when Sync & Backup is enabled. The first three spaces are non-breaking (\u00a0) so the title wraps after 'with' rather than leaving an orphan word; translators may reposition or drop them to suit the target language.
+msgctxt "Modal header for chat history with sync information"
+msgid "About Chat History with Sync & Backup"
+msgstr "À propos de l'historique des discussions avec Sync & Backup"
 
 # smartling.placeholder_format=C
 #. This is an option for a user setting. It refers to showing the URL for a result ABOVE the TITLE of the result -- Example image: https://i.imgur.com/bTm8PCc.png
@@ -1354,6 +1372,26 @@ msgid "Ad is suspicious"
 msgstr "Publicité suspecte"
 
 # smartling.placeholder_format=C
+#. Accessible text of a button that opens a dropdown menu with options to attach images or page context to the current AI chat message.
+msgctxt "Button to open menu for attaching images or page context to AI chat"
+msgid "Add"
+msgstr "Ajouter"
+
+# smartling.placeholder_format=C
+#. Confirms the tab selection and attaches the checked tabs to the current Duck.ai chat message.
+msgctxt ""
+"Primary button that attaches the tabs the user checked in the tab picker "
+"dialog"
+msgid "Add"
+msgstr "Ajouter"
+
+# smartling.placeholder_format=C
+#. Button that enables the Search/Duck.ai toggle.
+msgctxt "new tab page"
+msgid "Add Duck.ai Toggle"
+msgstr "Ajouter le bouton Duck.ai"
+
+# smartling.placeholder_format=C
 #. Link to add the DuckDuckGo extension to the user's web browser.
 msgid "Add DuckDuckGo"
 msgstr "Ajouter DuckDuckGo"
@@ -1380,6 +1418,27 @@ msgstr "Ajouter DuckDuckGo en tant que moteur de recherche"
 #. Link to add the DuckDuckGo extension to the user's web browser. The placeholder is the name of the browser the user is currently using. For example: 'Add DuckDuckGo to Chrome'
 msgid "Add DuckDuckGo to %s"
 msgstr "Ajoutez DuckDuckGo à %1$s"
+
+# smartling.placeholder_format=C
+#. Title-case label used in the attach dropdown menu when only PDF file upload is supported in the Duck.ai chat.
+msgctxt ""
+"Add PDF files to the Duck.ai chat conversation (attach dropdown menu item)"
+msgid "Add File"
+msgstr "Ajouter un fichier"
+
+# smartling.placeholder_format=C
+#. Title-case label used in the attach dropdown menu when only image upload is supported in the Duck.ai chat.
+msgctxt "Add an image to the AI chat conversation (attach dropdown menu item)"
+msgid "Add Image"
+msgstr "Ajouter une image"
+
+# smartling.placeholder_format=C
+#. Title-case label used in the attach dropdown menu when both image and PDF file upload are supported in the Duck.ai chat.
+msgctxt ""
+"Add images or PDFs to the Duck.ai chat conversation (attach dropdown menu "
+"item)"
+msgid "Add Image or File"
+msgstr "Ajouter une image ou un fichier"
 
 # smartling.placeholder_format=C
 #. Title-case label used in the attach dropdown menu when only image upload is supported in the Duck.ai chat.
@@ -1427,6 +1486,22 @@ msgid "Add Page Content"
 msgstr "Ajouter le contenu de la page"
 
 # smartling.placeholder_format=C
+#. Title-case label for the tab-picker option in the attach dropdown menu.
+msgctxt ""
+"Open the tab picker to attach browser tab content to the AI chat message "
+"(attach dropdown menu item)"
+msgid "Add Tabs"
+msgstr "Ajouter des onglets"
+
+# smartling.placeholder_format=C
+#. Title shown at the top of the tab-picker dialog, and its accessible name. Distinct from the dropdown menu item that opens it (DUCKCHAT_ACTION_ATTACH_PAGE_CONTEXT_MENU_ITEM), which says "Add Tabs".
+msgctxt ""
+"Title and accessible name of the tab-picker dialog opened from the attach "
+"dropdown menu"
+msgid "Add Tabs"
+msgstr "Ajouter des onglets"
+
+# smartling.placeholder_format=C
 #. https://duckduckgo.com/search_box near the top
 #. e.g.: Add a DuckDuckGo search box to your site!
 msgid "Add a %s search box to your site!"
@@ -1436,8 +1511,7 @@ msgstr "Ajouter un champ de recherche %1$s à votre site !"
 #. Prompt to add locations on a map in order to get directions.
 msgctxt "directions"
 msgid "Add a starting point and destination to find a route."
-msgstr ""
-"Ajoutez un lieu de départ et une destination pour trouver un itinéraire."
+msgstr "Ajoutez un lieu de départ et une destination pour trouver un itinéraire."
 
 # smartling.placeholder_format=C
 #. Label on the AI model card indicating the model supports file uploads.
@@ -1511,6 +1585,12 @@ msgstr "Extensions"
 msgctxt "Loading state message"
 msgid "Adding finishing touches"
 msgstr "Ajout des touches finales"
+
+# smartling.placeholder_format=C
+#. Accessible label (aria-label) for the textarea in the Customize Responses dialog where users type extra instructions for the AI model. Announced by screen readers only; the visible placeholder text gives a longer example. Please keep the text short.
+msgctxt "Aria label for the additional instructions textarea"
+msgid "Additional instructions"
+msgstr "Instructions supplémentaires"
 
 # smartling.placeholder_format=C
 #. Label that's displayed next to an address below a web search result.
@@ -1817,6 +1897,12 @@ msgstr "Toutes les couleurs"
 msgctxt "Title for the host-device success screen"
 msgid "All done!"
 msgstr "C'est fait !"
+
+# smartling.placeholder_format=C
+#. Accessible label (aria-label) for the read-only textarea in the Customize Responses dialog that shows the combined instructions sent to the AI model. Announced by screen readers only, not visible on screen.
+msgctxt "Aria label for the read-only textarea listing all AI instructions"
+msgid "All instructions"
+msgstr "Toutes les instructions"
 
 # smartling.placeholder_format=C
 #. This is shown in a layout selector for images, other options are: square, tall, wide  https://duckduckgo.com/?q=images+of+cats&iar=images&iax=images&ia=images.
@@ -2173,6 +2259,15 @@ msgid "Any time"
 msgstr "Date indifférente"
 
 # smartling.placeholder_format=C
+#. Replaces the create-flow public-access bullet after the share link has been created.
+msgctxt ""
+"Share modal info bullet about public access, shown once the link exists"
+msgid "Anyone with the link can view and save a copy of the chat."
+msgstr ""
+"Toute personne disposant du lien peut consulter et enregistrer une copie de "
+"la discussion."
+
+# smartling.placeholder_format=C
 msgid "Anywhere"
 msgstr "N'importe où"
 
@@ -2255,8 +2350,7 @@ msgstr ""
 #. Body text of the modal that asks the user if they want to clear the conversation.
 msgctxt "Modal body for clearing conversation"
 msgid "Are you sure you want to clear this conversation and start a new one?"
-msgstr ""
-"Voulez-vous vraiment effacer cette conversation et en commencer une autre ?"
+msgstr "Voulez-vous vraiment effacer cette conversation et en commencer une autre ?"
 
 # smartling.placeholder_format=C
 #. Text asking the user to confirm if they want to delete their current chat, explaining that this action cannot be undone.
@@ -2584,21 +2678,18 @@ msgstr "Audio"
 # smartling.placeholder_format=C
 #. Description for the data retention highlight in the dictation consent modal.
 msgid "Audio is not stored by us or by OpenAI after the chat ends."
-msgstr ""
-"Une fois le chat terminé, le son n'est conservé ni par nous ni par OpenAI."
+msgstr "Une fois le chat terminé, le son n'est conservé ni par nous ni par OpenAI."
 
 # smartling.placeholder_format=C
 #. Description in consent disclaimer informing that audio from the voice chat session is not stored by us or by OpenAI after the voice chat ends.
 msgctxt "voice chat"
 msgid "Audio is not stored by us or by OpenAI after the chat ends."
-msgstr ""
-"Une fois le chat terminé, le son n'est conservé ni par nous ni par OpenAI."
+msgstr "Une fois le chat terminé, le son n'est conservé ni par nous ni par OpenAI."
 
 # smartling.placeholder_format=C
 #. Description for the data retention highlight in the dictation consent modal.
 msgid "Audio is not stored by us or by OpenAI after the chat is transcribed."
-msgstr ""
-"Une fois le chat transcrit, le son n'est conservé ni par nous ni par OpenAI."
+msgstr "Une fois le chat transcrit, le son n'est conservé ni par nous ni par OpenAI."
 
 # smartling.placeholder_format=C
 #. Error in the duck.ai chat input when MediaRecorder API is unavailable.
@@ -2900,8 +2991,24 @@ msgid ""
 "removing PII like names, email addresses, and identifying metadata."
 msgstr ""
 "Avant de stocker ce rapport, DuckDuckGo anonymisera votre conversation en "
-"supprimant les données à caractère personnel comme les noms, les adresses e-"
-"mail et les métadonnées d'identification."
+"supprimant les données à caractère personnel comme les noms, les adresses "
+"e-mail et les métadonnées d'identification."
+
+# smartling.placeholder_format=C
+#. Variant of DUCKCHAT_RESPONSE_FEEDBACK_ANONYMOUS_DISCLAIMER that also tells the user uploaded files and generated images are not part of the report. Shown instead of that string, never alongside it.
+msgctxt ""
+"Disclaimer at the bottom of the Duck.ai response feedback form, replacing "
+"DUCKCHAT_RESPONSE_FEEDBACK_ANONYMOUS_DISCLAIMER when the rated response "
+"generated an image"
+msgid ""
+"Before storing this report, DuckDuckGo will remove uploaded files and "
+"generated images, and will anonymize your conversation by removing PII like "
+"names, email addresses, and identifying metadata."
+msgstr ""
+"Avant de stocker ce rapport, DuckDuckGo supprimera les fichiers importés et "
+"les images générées, et anonymisera votre conversation en supprimant les "
+"données à caractère personnel comme les noms, les adresses e-mail et les "
+"métadonnées d'identification."
 
 # smartling.placeholder_format=C
 #. Label that's displayed next to a past start date below a web search result.
@@ -3037,8 +3144,7 @@ msgstr ""
 # smartling.placeholder_format=C
 #. A disclaimer about AI-generated images in search results
 msgid "Block list is not exhaustive and may contain inaccuracies."
-msgstr ""
-"La liste de blocage n'est pas exhaustive et peut contenir des inexactitudes."
+msgstr "La liste de blocage n'est pas exhaustive et peut contenir des inexactitudes."
 
 # smartling.placeholder_format=C
 msgctxt "homepage ATB modal"
@@ -3054,8 +3160,7 @@ msgstr "Bloquer ce site dans tous les résultats"
 # smartling.placeholder_format=C
 msgctxt "homepage ATB modal"
 msgid "Block trackers and take control of your personal data"
-msgstr ""
-"Bloquez les traqueurs et prenez le contrôle de vos données personnelles"
+msgstr "Bloquez les traqueurs et prenez le contrôle de vos données personnelles"
 
 # smartling.placeholder_format=C
 msgctxt "homepage ATB modal"
@@ -3403,8 +3508,7 @@ msgstr "En cliquant sur « %1$s », vous acceptez nos %2$s."
 msgctxt ""
 "Copy stating agreement to Duck.ai Privacy Policy and Terms of Service."
 msgid "By clicking “%s,” you accept Duck.ai’s %s and %s."
-msgstr ""
-"En cliquant sur « %1$s », vous acceptez la %2$s et les %3$s de Duck.ai."
+msgstr "En cliquant sur « %1$s », vous acceptez la %2$s et les %3$s de Duck.ai."
 
 # smartling.placeholder_format=C
 #. Text stating agreement to Duck.ai Privacy Policy and Terms of Service. Variables used to link to the Privacy Policy and Terms of Service content. Example: 'By clicking “Agree and Continue,” you accept Duck.ai’s Privacy Policy and Terms of Service.'
@@ -3551,6 +3655,14 @@ msgstr "Annuler"
 # smartling.placeholder_format=C
 #. Returns the user to Manage Sync & Backup without changes.
 msgctxt "Secondary action that dismisses the turn-off Sync & Backup dialog"
+msgid "Cancel"
+msgstr "Annuler"
+
+# smartling.placeholder_format=C
+#. Discards any tabs the user checked in the tab picker dialog and closes it, leaving existing attachments untouched.
+msgctxt ""
+"Secondary button that dismisses the tab picker dialog without attaching "
+"anything"
 msgid "Cancel"
 msgstr "Annuler"
 
@@ -3762,6 +3874,12 @@ msgid "Change Location"
 msgstr "Modifier la position"
 
 # smartling.placeholder_format=C
+#. Tooltip shown on hover/focus of the settings (gear) icon button in the Search Assist header and generate (on-demand) introduction. Opens the Search Assist frequency settings modal.
+msgctxt "duckassist"
+msgid "Change Search Assist settings"
+msgstr "Modifier les paramètres de Search Assist"
+
+# smartling.placeholder_format=C
 #. Tooltip text for the button that allows the user to change the default AI model.
 msgctxt "Tooltip for model selection"
 msgid "Change default model"
@@ -3789,8 +3907,7 @@ msgstr "Change l'affichage de l'URL des résultats"
 #. This is the description of a user setting
 msgctxt "settings"
 msgid "Changes how the header is displayed and its behavior as you scroll"
-msgstr ""
-"Change l'affichage de l'en-tête ainsi que son comportement lors du défilement"
+msgstr "Change l'affichage de l'en-tête ainsi que son comportement lors du défilement"
 
 # smartling.placeholder_format=C
 #. http://i.imgur.com/mcZdcaF.png
@@ -4052,10 +4169,22 @@ msgid "Chat response is offensive"
 msgstr "La réponse du chat est offensante"
 
 # smartling.placeholder_format=C
+#. Headline in the About Chat History modal explaining that browser behavior affects local chat storage.
+msgctxt "Chat history about modal list item headline"
+msgid "Chat storage varies by browser"
+msgstr "Le stockage des discussions varie selon le navigateur"
+
+# smartling.placeholder_format=C
 #. Placeholder text used in chat input for user’s messages. Example: 'Chat with GPT-3'
 msgctxt "Placeholder text user’s chat input"
 msgid "Chat with %s"
 msgstr "Discuter avec %1$s"
+
+# smartling.placeholder_format=C
+#. Secondary line of the one-time Duck.ai feature-discovery drawer shown to new installs under the search box.
+msgctxt "new tab page"
+msgid "Chat with popular AI models, anonymized by us."
+msgstr "Discutez avec des modèles d'IA populaires, anonymisés par nos soins."
 
 # smartling.placeholder_format=C
 #. Text for a button button that allows users to access their recent chat conversations. The translation should convey the meaning of 'recent activity' or 'recently generated conversations', not historical events or periods.
@@ -4074,6 +4203,17 @@ msgstr "Discussions"
 msgctxt "Title for the chats section on the sidebar"
 msgid "Chats"
 msgstr "Discussions"
+
+# smartling.placeholder_format=C
+#. Supporting copy under the end-to-end encryption headline in sync-enabled chat history about modals.
+msgctxt "Chat history with sync modal list item description"
+msgid ""
+"Chats are securely stored on DuckDuckGo's server with end-to-end encryption. "
+"Nobody but you can see your data, not even us."
+msgstr ""
+"Les discussions sont stockées en toute sécurité sur le serveur de DuckDuckGo "
+"grâce à un cryptage de bout en bout. Personne d'autre que vous ne peut voir "
+"vos données, pas même nous."
 
 # smartling.placeholder_format=C
 #. Text explaining that the Chat History feature stores the user's chats locally to their device, and not in other remote servers. Also explains that disabling chat history will delete pinned chats.
@@ -4264,8 +4404,7 @@ msgstr "Choix de modèles d'IA, y compris %1$s et %2$s"
 # smartling.placeholder_format=C
 #. As in 'Choose to keep DuckDuckGo as your default search engine'. Placeholders are for markup, you can ignore them.
 msgid "Choose %skeep it%s to continue protecting your privacy."
-msgstr ""
-"Choisissez %1$sConserver%2$s pour continuer à protéger votre confidentialité."
+msgstr "Choisissez %1$sConserver%2$s pour continuer à protéger votre confidentialité."
 
 # smartling.placeholder_format=C
 #. A headline letting the user choose between two video player options
@@ -4633,8 +4772,7 @@ msgstr "Cliquez sur %1$sParamètres%2$s dans le menu déroulant."
 # smartling.placeholder_format=C
 #. Tells the user how to make DuckDuckGo their home page.
 msgid "Click %sUse current pages%s then %sClick OK%s."
-msgstr ""
-"Cliquez sur %1$sUtiliser les pages Web actuelles%2$s puis sur %3$sOK%4$s."
+msgstr "Cliquez sur %1$sUtiliser les pages Web actuelles%2$s puis sur %3$sOK%4$s."
 
 #  Firefox 33 / SeaMonkey homepage instruction
 # smartling.placeholder_format=C
@@ -5375,8 +5513,20 @@ msgid "Copied"
 msgstr "Copié"
 
 # smartling.placeholder_format=C
+#. Short inline label that appears next to the checkmark icon on the Copy button (v.A layout) briefly after the user copies the Search Assist answer. Distinct from SEARCH_ASSIST_ANSWER_COPIED, which is a full-sentence toast used elsewhere; this one must stay short since it animates into a small fixed-width button.
+msgctxt "Search Assist"
+msgid "Copied"
+msgstr "Copié"
+
+# smartling.placeholder_format=C
 #. Text of a tooltip displayed when the user has copied the text content after pressing a button
 msgctxt "Text for a button after copying content to the clipboard"
+msgid "Copied"
+msgstr "Copié"
+
+# smartling.placeholder_format=C
+#. Tooltip and accessibility label shown on the Search Assist copy icon button while its checkmark feedback is active.
+msgctxt "duckassist"
 msgid "Copied"
 msgstr "Copié"
 
@@ -5477,6 +5627,12 @@ msgid "Copy to clipboard"
 msgstr "Copier dans le presse-papiers"
 
 # smartling.placeholder_format=C
+#. Tooltip shown on hover/focus of the copy icon button in the Search Assist header, which copies the generated answer to the user's clipboard.
+msgctxt "duckassist"
+msgid "Copy to clipboard"
+msgstr "Copier dans le presse-papiers"
+
+# smartling.placeholder_format=C
 #. Descriptive text for a button that allows users to copy text that has been translated.
 msgctxt "translations_module"
 msgid "Copy translation"
@@ -5564,6 +5720,12 @@ msgstr "Créer une image"
 # smartling.placeholder_format=C
 #. Title-case primary button label in the Duck.ai share modal that creates an encrypted share link.
 msgctxt "Primary button to create a share link"
+msgid "Create Public Link"
+msgstr "Créer un lien public"
+
+# smartling.placeholder_format=C
+#. Title-case primary button label in the Duck.ai share modal that creates an encrypted share link.
+msgctxt "Primary button to create a share link"
 msgid "Create Share Link"
 msgstr "Créer un lien de partage"
 
@@ -5609,6 +5771,16 @@ msgstr "Créé par"
 msgctxt "Label copy indicating the creator of an AI Model"
 msgid "Created by %s"
 msgstr "Créé par %1$s"
+
+# smartling.placeholder_format=C
+#. Explains that creating a share link makes a copy of the selected chat content that anyone with the link can view and save.
+msgctxt "Share modal info bullet about public access"
+msgid ""
+"Creates a copy of the chat that can be viewed and saved by anyone who opens "
+"the link."
+msgstr ""
+"Génère une copie de la conversation que toute personne qui ouvre le lien "
+"peut consulter et enregistrer."
 
 # smartling.placeholder_format=C
 #. Explains that anyone with the link can view the shared copy.
@@ -5696,6 +5868,12 @@ msgstr "Valeur monétaire en %1$s"
 msgctxt "Sports module"
 msgid "Current Streak"
 msgstr "Série actuelle"
+
+# smartling.placeholder_format=C
+#. Label appended to a tab entry to indicate it is the user's currently active browser tab. Surrounding punctuation (a bullet separator or parentheses) is added by the UI, so this string must not include any.
+msgctxt "Suffix label indicating a tab is the currently active browser tab"
+msgid "Current Tab"
+msgstr "Onglet actuel"
 
 # smartling.placeholder_format=C
 #. Text of menu item in attach dropdown that attaches the current tab's page content to the AI chat message.
@@ -6048,6 +6226,12 @@ msgid "Delete Chats Older Than 30 Days"
 msgstr "Supprimer les discussions datant de plus de 30 jours"
 
 # smartling.placeholder_format=C
+#. Text for a button that clears all recent chats and revokes every shared chat link created on this device.
+msgctxt "Button text in the modal for deleting all recent chats"
+msgid "Delete Chats and Shared Links"
+msgstr "Supprimer les discussions et les liens partagés"
+
+# smartling.placeholder_format=C
 #. Button text to confirm deletion of an image.
 msgctxt "Button label in delete image modal"
 msgid "Delete Image"
@@ -6184,8 +6368,7 @@ msgstr ""
 #. Warning message shown on settings pages and modals to inform users that deleting browser cookies will reset their search preferences.
 msgctxt "settings"
 msgid "Deleting cookies will reset these settings."
-msgstr ""
-"La suppression des cookies aura pour effet de réinitialiser ces paramètres."
+msgstr "La suppression des cookies aura pour effet de réinitialiser ces paramètres."
 
 # smartling.placeholder_format=C
 msgid "Democratic People's Republic of Korea"
@@ -6207,8 +6390,7 @@ msgstr "Décrivez les modifications en fonction de l'image"
 #. Placeholder text displayed in the input field when the user can make follow-up edits to a generated image.
 msgctxt "Placeholder text for the image generation input field for follow-ups"
 msgid "Describe changes to continue editing this image"
-msgstr ""
-"Décrivez les modifications souhaitées pour continuer à modifier cette image"
+msgstr "Décrivez les modifications souhaitées pour continuer à modifier cette image"
 
 # smartling.placeholder_format=C
 #. Title shown when the user first enters Image Generation mode, prompting them to describe the image they want to create.
@@ -6377,8 +6559,7 @@ msgstr "Désactiver et déconnecter"
 #. Title of a modal that asks the user if they want to turn off chat history and disconnect from Sync & Backup.
 msgctxt "Modal header for disabling chat history and disconnecting sync"
 msgid "Disable chat history and disconnect from Sync & Backup?"
-msgstr ""
-"Désactiver l'historique des discussions et se déconnecter de Sync & Backup ?"
+msgstr "Désactiver l'historique des discussions et se déconnecter de Sync & Backup ?"
 
 # smartling.placeholder_format=C
 #. Title of a modal that asks the user if they want to turn off the chat history feature.
@@ -6428,6 +6609,12 @@ msgid "Dislike source"
 msgstr "Je n'aime pas la source"
 
 # smartling.placeholder_format=C
+#. Negative reason chip in the Duck.ai response thumbs-down feedback form when the rated turn includes a settled generated image.
+msgctxt "Feedback prompt"
+msgid "Dislike visual style"
+msgstr "Je n'aime pas le style visuel"
+
+# smartling.placeholder_format=C
 #. This appears on a button that a user clicks to close a notification.
 msgid "Dismiss"
 msgstr "Rejeter"
@@ -6467,6 +6654,12 @@ msgstr "Ne plus afficher"
 msgctxt "Sidemenu subscription promo"
 msgid "Dismiss promotion"
 msgstr "Ignorer la promotion"
+
+# smartling.placeholder_format=C
+#. Accessible label (aria-label) for the close (X) button that dismisses the survey invitation banner in Duck.ai. Announced by screen readers only, not visible on screen.
+msgctxt "Aria label for the close button on the survey banner"
+msgid "Dismiss survey"
+msgstr "Ignorer l'enquête"
 
 # smartling.placeholder_format=C
 #. Accessible label for the close (X) button that dismisses the onboarding checklist.
@@ -6530,6 +6723,12 @@ msgstr "Classement par division"
 # smartling.placeholder_format=C
 msgid "Djibouti"
 msgstr "Djibouti"
+
+# smartling.placeholder_format=C
+#. Negative reason chip in the Duck.ai response thumbs-down feedback form when the rated turn includes a settled generated image.
+msgctxt "Feedback prompt"
+msgid "Doesn't follow instructions"
+msgstr "Ne suit pas les instructions"
 
 # smartling.placeholder_format=C
 #. This is an option for a user setting. It refers to showing only the domain for a website URL (e.g. domain.com) -- Example image: https://i.imgur.com/KkBcFcQ.png
@@ -6952,8 +7151,7 @@ msgstr ""
 #. Main body text of the RetentionBrowserPromo horizontal banner encouraging users to download the DuckDuckGo browser.
 msgctxt "Promotional banner body text"
 msgid "Duck.ai is best in our private and free DuckDuckGo browser!"
-msgstr ""
-"Duck.ai fonctionne mieux dans notre navigateur DuckDuckGo privé et gratuit !"
+msgstr "Duck.ai fonctionne mieux dans notre navigateur DuckDuckGo privé et gratuit !"
 
 # smartling.placeholder_format=C
 #. Introductory paragraph in the About & Legal section of the Duck.ai settings page, describing DuckDuckGo as the independent company behind Duck.ai.
@@ -7044,8 +7242,7 @@ msgstr ""
 #. Text displayed at the bottom of a feedback form giving a disclaimer regarding Duck.ai.
 msgctxt "Disclaimer text at the bottom of the feedback form."
 msgid "Duck.ai may display inaccurate or offensive information."
-msgstr ""
-"Duck.ai est susceptible d'afficher des informations inexactes ou offensantes."
+msgstr "Duck.ai est susceptible d'afficher des informations inexactes ou offensantes."
 
 # smartling.placeholder_format=C
 #. Error modal body line 2.
@@ -7061,8 +7258,7 @@ msgstr ""
 #. Text for a promotional card that informs users Duck.ai can read and analyze PDF files.
 msgctxt "Promotional text for PDF upload feature"
 msgid "Duck.ai now can read and analyze PDFs. Give it a try!"
-msgstr ""
-"Duck.ai peut désormais lire et analyser des PDF. Essayez par vous-même !"
+msgstr "Duck.ai peut désormais lire et analyser des PDF. Essayez par vous-même !"
 
 # smartling.placeholder_format=C
 #. Disclaimer text shown above the chat input only when coming from a DuckAssist grounded response into ungrounded models.
@@ -7660,6 +7856,12 @@ msgid "Edit Prompt"
 msgstr "Modifier le prompt"
 
 # smartling.placeholder_format=C
+#. Accessible label (aria-label) for the text area in which the user edits a previously sent chat message in Duck.ai. Announced by screen readers only, not visible on screen.
+msgctxt "Aria label for the message-editing text area"
+msgid "Edit message"
+msgstr "Modifier le message"
+
+# smartling.placeholder_format=C
 #. Title text shown for an assistant response that contains an edited image. Shown to internal users only
 msgctxt "Assistant response title"
 msgid "Edited image. Cost %s (internal only)"
@@ -7739,8 +7941,7 @@ msgstr "Activer les fonctionnalités d'IA"
 #. Text explaining how to enable the cloud save feature.
 msgctxt "cloudsave"
 msgid "Enable Cloud Save by entering your existing passphrase."
-msgstr ""
-"Activez la sauvegarde dans le cloud en saisissant votre phrase de passe."
+msgstr "Activez la sauvegarde dans le cloud en saisissant votre phrase de passe."
 
 # smartling.placeholder_format=C
 #. Primary button text in the dictation privacy consent modal to enable dictation.
@@ -7886,6 +8087,12 @@ msgid "Encrypted model"
 msgstr "Modèle chiffré"
 
 # smartling.placeholder_format=C
+#. Explains that the shared chat is encrypted so DuckDuckGo cannot read its contents.
+msgctxt "Share modal info bullet about encryption"
+msgid "Encrypted. Not even DuckDuckGo can read your chat."
+msgstr "C'est crypté. Même DuckDuckGo ne peut pas lire votre discussion."
+
+# smartling.placeholder_format=C
 #. shown after the DuckDuckGo extension is installed
 msgctxt "welcome message"
 msgid "Encrypts connections when possible"
@@ -7902,6 +8109,14 @@ msgstr "Clore la discussion"
 msgctxt "Sports module"
 msgid "End of %s"
 msgstr "Fin de %1$s"
+
+# smartling.placeholder_format=C
+#. Written into the exported text file of a chat that was saved from a shared link, right after the last shared message. Counterpart of the top marker DUCKCHAT_SHARE_VIEW_COPY_LABEL.
+msgctxt ""
+"Marker line in an exported chat .txt after the messages that came from a "
+"shared link"
+msgid "End of shared chat"
+msgstr "Fin de la discussion partagée"
 
 # smartling.placeholder_format=C
 #. Label that's displayed next to a past end date below a web search result.
@@ -8001,15 +8216,13 @@ msgstr ""
 #. Tells how to enable location service. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Ensure your browser is allowed location access"
-msgstr ""
-"Assurez-vous que votre navigateur est autorisé à accéder à la localisation"
+msgstr "Assurez-vous que votre navigateur est autorisé à accéder à la localisation"
 
 # smartling.placeholder_format=C
 #. Tells how to enable location service.
 msgctxt "precise_user_location"
 msgid "Ensure your browser is allowed location access."
-msgstr ""
-"Vérifiez que votre navigateur est autorisé à accéder à la localisation."
+msgstr "Vérifiez que votre navigateur est autorisé à accéder à la localisation."
 
 #  Opera homepage instruction
 # smartling.placeholder_format=C
@@ -8408,6 +8621,12 @@ msgid "Fast"
 msgstr "Rapide"
 
 # smartling.placeholder_format=C
+#. Positive reason chip in the Duck.ai response thumbs-up feedback form when the rated turn produced a generated image.
+msgctxt "Feedback prompt"
+msgid "Fast image generation"
+msgstr "Génération rapide d'images"
+
+# smartling.placeholder_format=C
 #. Tagline in a promotion for a desktop web browser
 msgctxt "Browser Promo Popover"
 msgid "Fast. Secure. Free."
@@ -8472,8 +8691,8 @@ msgid ""
 "Feel free to adjust the settings below. Then, just copy and paste the code "
 "into your website."
 msgstr ""
-"Ajustez les paramètres ci-dessous comme bon vous semble. Ensuite, copiez-"
-"collez le code dans votre site."
+"Ajustez les paramètres ci-dessous comme bon vous semble. Ensuite, "
+"copiez-collez le code dans votre site."
 
 # smartling.placeholder_format=C
 msgid "Fiji"
@@ -8524,6 +8743,11 @@ msgid "Filter by Region"
 msgstr "Filtrer par région"
 
 # smartling.placeholder_format=C
+#. An aria-label for a toggle button that turns on/off the region filter.
+msgid "Filter by the selected region"
+msgstr "Filtrer par la région sélectionnée"
+
+# smartling.placeholder_format=C
 #. Message that appears above the search results encouraging them to filter results by domain. The placeholder string would include the domain of the website. E.g. 'Filter to only see results from reddit.com'
 msgctxt "Site filter message"
 msgid "Filter to only see results from %s"
@@ -8550,8 +8774,7 @@ msgstr "Filtres inefficaces"
 # smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Filters out AI-generated images from image search results"
-msgstr ""
-"Filtre les images générées par l'IA des résultats de recherche d'images"
+msgstr "Filtre les images générées par l'IA des résultats de recherche d'images"
 
 # smartling.placeholder_format=C
 msgctxt "settings"
@@ -8608,8 +8831,7 @@ msgstr "Vous trouverez <b>%1$s</b> dans votre dossier de téléchargements"
 # smartling.placeholder_format=C
 #. Tells users how to change their default search engine to DuckDuckGo.
 msgid "Find DuckDuckGo in the displayed list and click %sMake Default%s"
-msgstr ""
-"Cherchez DuckDuckGo dans la liste et cliquez sur %1$sDéfinir par défaut%2$s"
+msgstr "Cherchez DuckDuckGo dans la liste et cliquez sur %1$sDéfinir par défaut%2$s"
 
 # smartling.placeholder_format=C
 #. Short string representing a prompt suggestion for finding a better word.
@@ -8720,13 +8942,24 @@ msgstr ""
 #. Privacy reassurance and instructions intro.
 msgctxt "duckai_migration"
 msgid "Follow these steps to move your chats to the new Duck.ai"
-msgstr ""
-"Suivez ces étapes pour déplacer vos discussions vers le nouveau Duck.ai"
+msgstr "Suivez ces étapes pour déplacer vos discussions vers le nouveau Duck.ai"
 
 # smartling.placeholder_format=C
 #. A placeholder for the AI Chat prompt input when used in the context of asking follow-up questions based on a DuckAssist reponse on mobile
 msgid "Follow-up question"
 msgstr "Question de suivi"
+
+# smartling.placeholder_format=C
+#. Explains that messages added after the shared copy remain private to the person continuing the chat.
+msgctxt "Share modal info bullet about private original chat"
+msgid "Follow-ups remain private."
+msgstr "Les messages complémentaires restent privés."
+
+# smartling.placeholder_format=C
+#. Positive reason chip in the Duck.ai response thumbs-up feedback form when the rated turn produced a generated image.
+msgctxt "Feedback prompt"
+msgid "Followed instructions"
+msgstr "Instructions respectées"
 
 # smartling.placeholder_format=C
 #. Link to DuckDuckGo's Twitter profile.
@@ -8948,8 +9181,8 @@ msgid ""
 "strong>."
 msgstr ""
 "Dans la barre de menu de l'application sur Mac, sélectionnez "
-"<strong>DuckDuckGo</strong> &gt; <strong>Rechercher des mises à jour…</"
-"strong>, puis sélectionnez <strong>Installer la mise à jour</strong>."
+"<strong>DuckDuckGo</strong> &gt; <strong>Rechercher des mises à "
+"jour…</strong>, puis sélectionnez <strong>Installer la mise à jour</strong>."
 
 # smartling.placeholder_format=C
 #. This is an option for a user setting. It refers to showing the full URL for a website, including the url path, but made to look like the breadcrumbs of a website (e.g. website.com > this > is > the > path) -- Example image: https://i.imgur.com/roiQBYz.png
@@ -9247,6 +9480,12 @@ msgstr ""
 "Restoration."
 
 # smartling.placeholder_format=C
+#. Sentence shown when hovering the Dax-in-sunglasses logo (desktop, where the whole sentence is the link) or tapping it (mobile, where it is a heading above a short button). It must read as a call to action on its own, since on desktop there is no separate link text. Points at /collaborations, the DuckDuckGo branded merchandise line. Names sunglasses specifically, so it belongs to that logo only -- another merch logo needs its own.
+msgctxt "Tooltip on the header logo for sunglasses searches"
+msgid "Get DuckDuckGo sunglasses and other gear."
+msgstr "Procurez-vous des lunettes de soleil DuckDuckGo et d'autres articles."
+
+# smartling.placeholder_format=C
 #. 'Get' refers to downloading our free browser app from the Google Play Store
 msgctxt "SERP footer content"
 msgid "Get It on Google Play"
@@ -9420,8 +9659,8 @@ msgid ""
 "Get our secure, no-log VPN, advanced Duck.ai, Personal Information Removal, "
 "and Identity Theft Restoration."
 msgstr ""
-"Bénéficiez de notre VPN sécurisé sans journalisation, du chat avancé Duck."
-"ai, de Personal Information Removal et d'Identity Theft Restoration."
+"Bénéficiez de notre VPN sécurisé sans journalisation, du chat avancé "
+"Duck.ai, de Personal Information Removal et d'Identity Theft Restoration."
 
 # smartling.placeholder_format=C
 #. Body text of the DuckDuckGo Subscription instant answer shown on the search results page. One of several messages rotated over time; international (non-US) version. 'No-log' means the VPN keeps no activity logs; Duck.ai is DuckDuckGo's AI chat product; Identity Theft Restoration is a bundled feature.
@@ -9588,8 +9827,7 @@ msgstr ""
 #. Tells user where to find location settings in the settings menu. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Go to %sPrivacy & Security > Location Services%s"
-msgstr ""
-"Accédez à %1$sConfidentialité et sécurité > Services de localisation%2$s"
+msgstr "Accédez à %1$sConfidentialité et sécurité > Services de localisation%2$s"
 
 # smartling.placeholder_format=C
 #. Tells users where to find the location settings in the settings menu. Part of a list of instructions on how to enable location service.
@@ -9677,6 +9915,12 @@ msgstr "Design réussi"
 msgctxt "Feedback prompt"
 msgid "Good privacy policy"
 msgstr "Bonne politique de confidentialité"
+
+# smartling.placeholder_format=C
+#. Positive reason chip in the Duck.ai response thumbs-up feedback form when the rated turn produced a generated image.
+msgctxt "Feedback prompt"
+msgid "Good visual style"
+msgstr "Bon style visuel"
 
 # smartling.placeholder_format=C
 #. Part of the sentence: "<b>Goodies</b> and no tracking." (used for limited browsers, mobile and co.)
@@ -9866,8 +10110,7 @@ msgstr "Guatemala"
 #. Text for a prompt suggestion for guiding through the basic steps of replacing a window wiper.
 msgctxt "Full sentence for learning a new skill"
 msgid "Guide me through the basic steps of replacing a window wiper."
-msgstr ""
-"Explique-moi les principales étapes à suivre pour remplacer un essuie-glace."
+msgstr "Explique-moi les principales étapes à suivre pour remplacer un essuie-glace."
 
 # smartling.placeholder_format=C
 msgid "Guinea"
@@ -10067,8 +10310,7 @@ msgstr "Aide-nous à améliorer DuckDuckGo"
 #. An invitation for users to leave feedback
 msgctxt "Feedback prompt"
 msgid "Help us improve DuckDuckGo searches with your feedback"
-msgstr ""
-"Aidez-nous à améliorer les recherches DuckDuckGo grâce à vos commentaires"
+msgstr "Aidez-nous à améliorer les recherches DuckDuckGo grâce à vos commentaires"
 
 # smartling.placeholder_format=C
 msgctxt "Feedback prompt"
@@ -10126,8 +10368,7 @@ msgstr "Aidez votre famille et vos ami(e)s à rejoindre le côté Duck !"
 #. Text description for the Spread card in the SERP footer
 msgctxt "footer_card"
 msgid "Help your friends and family take back their privacy!"
-msgstr ""
-"Aidez vos amis et votre famille à reprendre le contrôle de leur vie privée !"
+msgstr "Aidez vos amis et votre famille à reprendre le contrôle de leur vie privée !"
 
 # smartling.placeholder_format=C
 #. A feedback suggestion
@@ -10492,6 +10733,12 @@ msgid "How it works"
 msgstr "Comment ça fonctionne"
 
 # smartling.placeholder_format=C
+#. Headline in chat history about modals for the temporary encrypted server storage explanation.
+msgctxt "Chat history about modal list item headline"
+msgid "How it works"
+msgstr "Comment ça fonctionne"
+
+# smartling.placeholder_format=C
 #. Text for the link that takes the user to the a model with more information about a feature.
 msgctxt "Link text for the settings modal"
 msgid "How it works"
@@ -10529,8 +10776,7 @@ msgstr "À quelle fréquence souhaitez-vous voir des réponses %1$s ?"
 #. A header for the feedback form in the assist negative feedback flow. The user is being asked to update how often they want AI-assisted answers to appear.
 msgctxt "duckassist"
 msgid "How often do you want to see AI-assisted answers?"
-msgstr ""
-"À quelle fréquence souhaitez-vous voir des réponses assistées par l’IA ?"
+msgstr "À quelle fréquence souhaitez-vous voir des réponses assistées par l’IA ?"
 
 # smartling.placeholder_format=C
 #. Section title above the frequency radio options in the Search Assist settings modal.
@@ -10819,8 +11065,13 @@ msgstr "Les prompts d’image doivent respecter les %1$s"
 msgctxt ""
 "Disclaimer below chat input in Duck.ai when image generation is enabled"
 msgid "Image prompts must comply with the Duck.ai %s."
-msgstr ""
-"Les prompts relatifs aux images doivent être conformes aux %1$s de Duck.ai."
+msgstr "Les prompts relatifs aux images doivent être conformes aux %1$s de Duck.ai."
+
+# smartling.placeholder_format=C
+#. Positive reason chip (shown first) in the Duck.ai response thumbs-up feedback form when the rated turn produced a generated image. Replaces the text-response chips on that turn. Not shown for text-only responses or when generation failed.
+msgctxt "Feedback prompt"
+msgid "Image quality"
+msgstr "Qualité de l’image"
 
 # smartling.placeholder_format=C
 msgctxt "settingsvalue"
@@ -11340,8 +11591,7 @@ msgstr "Cela peut prendre quelques minutes."
 #. Body text of a card that promotes installing the DuckDuckGo desktop browser.
 msgctxt "new tab page"
 msgid "It's fast, free, and gives you even more online protection."
-msgstr ""
-"Il est rapide, gratuit et vous offre encore plus de protection en ligne."
+msgstr "Il est rapide, gratuit et vous offre encore plus de protection en ligne."
 
 # smartling.placeholder_format=C
 msgctxt "settings"
@@ -11763,6 +12013,12 @@ msgid "Learn how DuckDuckGo settings are managed"
 msgstr "Découvrez comment sont gérés les paramètres de DuckDuckGo"
 
 # smartling.placeholder_format=C
+#. Shown in Duck.ai Settings > Chats as the description link under the Shared Chat Links row, next to its Manage button. The whole text is a link to the chat-sharing help page.
+msgctxt "Help-page link under the Shared Chat Links row in Duck.ai Settings"
+msgid "Learn how shared chats work"
+msgstr "En savoir plus sur le fonctionnement des discussions partagées"
+
+# smartling.placeholder_format=C
 #. Description of a page with more information about how anonymous location works.
 msgctxt "precise_user_location"
 msgid "Learn how we keep your location private"
@@ -11945,6 +12201,26 @@ msgid "Lineouts Won"
 msgstr "Touches gagnées"
 
 # smartling.placeholder_format=C
+#. Shown instead of the static expiry bullet when the modal holds an existing link. %s is a whole number of days, always 2 or more.
+msgctxt ""
+"Share modal info bullet counting down the expiry of an existing link; %s is "
+"a number of days"
+msgid "Link expires in %s days."
+msgstr "Le lien expire dans %1$s jours."
+
+# smartling.placeholder_format=C
+#. Shown in the share modal info bullets when the modal holds an existing link on its last day, replacing the static expiry bullet. Singular counterpart of DUCKCHAT_SHARE_INFO_EXPIRES_DAYS.
+msgctxt "Share modal info bullet on the last day of an existing link"
+msgid "Link expires in 1 day."
+msgstr "Le lien expire dans 1 jour."
+
+# smartling.placeholder_format=C
+#. Explains the thirty-day share link lifetime.
+msgctxt "Share modal info bullet about link expiry"
+msgid "Link expires in 30 days."
+msgstr "Le lien expire dans 30 jours."
+
+# smartling.placeholder_format=C
 #. Explains the seven-day share link lifetime.
 msgctxt "Share modal info bullet about link expiry"
 msgid "Link expires in 7 days."
@@ -11964,8 +12240,7 @@ msgstr "Liens :"
 #. Prompt sent to the AI when the user taps the "What will I need?" page-suggestion chip.
 msgctxt "Page suggestion prompt"
 msgid "List the tools, materials, or prerequisites I need for this."
-msgstr ""
-"Liste les outils, le matériel ou les prérequis dont j'ai besoin pour cela."
+msgstr "Liste les outils, le matériel ou les prérequis dont j'ai besoin pour cela."
 
 # smartling.placeholder_format=C
 #. Used in 0-click bot for video results, e.g. <a href="https://duckduckgo.com/?q=blink182+song">https://duckduckgo.com/?q=blink182+song</a>
@@ -12395,6 +12670,12 @@ msgstr "Gérer les sites bloqués"
 msgctxt "setting"
 msgid "Manage in Browser Settings"
 msgstr "Gérer dans les paramètres du navigateur"
+
+# smartling.placeholder_format=C
+#. Modal header above the list of share links created on this device. Separate from the settings row label so the two can be worded differently.
+msgctxt "Header of the Duck.ai shared links modal"
+msgid "Manage shared chat links"
+msgstr "Gérer les liens de discussions partagées"
 
 # smartling.placeholder_format=C
 #. Link to the site exclusion settings page
@@ -13675,6 +13956,13 @@ msgid "No open tabs"
 msgstr "Aucun onglet ouvert"
 
 # smartling.placeholder_format=C
+#. Status text displayed in the Duck.ai attach dropdown menu when there are no open browser tabs whose page content can be attached.
+msgctxt ""
+"Empty state in the attach dropdown when there are no browser tabs to attach"
+msgid "No page content available"
+msgstr "Aucun contenu de page disponible"
+
+# smartling.placeholder_format=C
 msgctxt "settingsvalue"
 msgid "No preference (default)"
 msgstr "Aucune préférence (par défaut)"
@@ -14077,6 +14365,12 @@ msgid "OK, got it!"
 msgstr "C'est bon, je l'ai !"
 
 # smartling.placeholder_format=C
+#. Pill badge on the one-time Duck.ai feature-discovery drawer shown to new installs under the search box. All caps by design; adapt casing to what suits your language.
+msgctxt "new tab page"
+msgid "OPTIONAL"
+msgstr "FACULTATIF"
+
+# smartling.placeholder_format=C
 #. Separator label between actions.
 msgctxt "duckai_migration"
 msgid "OR"
@@ -14204,8 +14498,7 @@ msgstr "Oman"
 #. http://i.imgur.com/zQWKLIm.png
 msgctxt "settings"
 msgid "Omits objectionable (mostly adult) material"
-msgstr ""
-"Omet le contenu à caractère sensible (principalement du contenu pour adulte)"
+msgstr "Omet le contenu à caractère sensible (principalement du contenu pour adulte)"
 
 # smartling.placeholder_format=C
 msgid "On"
@@ -14424,8 +14717,7 @@ msgstr "Ouvrir %1$sParamètres%2$s"
 #. Tells users where to find the location settings in the settings menu. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Open 'Location', and ensure location is %senabled%s."
-msgstr ""
-"Ouvrez « Localisation » et vérifiez que la localisation est %1$sactivée%2$s."
+msgstr "Ouvrez « Localisation » et vérifiez que la localisation est %1$sactivée%2$s."
 
 # smartling.placeholder_format=C
 #. Tells user where to find location settings in the settings menu. Part of a list of instructions on how to enable location service.
@@ -14535,6 +14827,14 @@ msgid "Open settings"
 msgstr "Ouvrez les Paramètres"
 
 # smartling.placeholder_format=C
+#. Names the icon-only action, shown on hover, that opens that row's share URL in a new tab.
+msgctxt ""
+"Tooltip and accessible name for the open button on a row of the Duck.ai "
+"shared links modal"
+msgid "Open shared link"
+msgstr "Ouvrir le lien partagé"
+
+# smartling.placeholder_format=C
 #. Text that indicates that an AI Model is open source. Please stick to a short translation as this is used in a small label.
 msgctxt "Label copy indicating that an AI Model is open source"
 msgid "Open source"
@@ -14574,8 +14874,7 @@ msgstr "Ouvrir le volet « Comment fonctionne Duck.ai »"
 #. Tells how to find the settings menu in their browser. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Open the Safari menu and select %sSettings for DuckDuckGo...%s"
-msgstr ""
-"Ouvrez le menu Safari et sélectionnez %1$sRéglages pour DuckDuckGo...%2$s"
+msgstr "Ouvrez le menu Safari et sélectionnez %1$sRéglages pour DuckDuckGo...%2$s"
 
 # smartling.placeholder_format=C
 #. Label for the time a business opens. For example: 'Opens at 10am'
@@ -15341,8 +15640,7 @@ msgstr "Épinglé"
 #. Second, dimmer line of the highlight tooltip shown under the 'Pin a chat' item title when the user activates that onboarding step.
 msgctxt "Product-tour tooltip description"
 msgid "Pinned chats will appear at the top of your recent chats."
-msgstr ""
-"Les discussions épinglées apparaîtront en haut de vos discussions récentes."
+msgstr "Les discussions épinglées apparaîtront en haut de vos discussions récentes."
 
 # smartling.placeholder_format=C
 #. https://duckduckgo.com/params under "Look & Feel Settings"
@@ -15666,6 +15964,12 @@ msgstr "Polonais"
 msgctxt "Feedback prompt"
 msgid "Poor formatting"
 msgstr "Mauvais formatage"
+
+# smartling.placeholder_format=C
+#. Negative reason chip (shown first) in the Duck.ai response thumbs-down feedback form when the rated turn includes a settled generated image (success or failure). Replaces the text-response chips on that turn. Not shown for text-only responses.
+msgctxt "Feedback prompt"
+msgid "Poor image quality"
+msgstr "Mauvaise qualité d’image"
 
 # smartling.placeholder_format=C
 #. Secondary line of the one-time Duck.ai feature-discovery drawer shown to new installs under the search box.
@@ -16218,6 +16522,12 @@ msgid "Protected"
 msgstr "Protégé"
 
 # smartling.placeholder_format=C
+#. Headline in sync-enabled chat history about modals explaining encrypted server storage.
+msgctxt "Chat history with sync modal list item headline"
+msgid "Protected with end-to-end encryption"
+msgstr "Protection par un cryptage de bout en bout"
+
+# smartling.placeholder_format=C
 #. Tagline for DuckDuckGo's values, emphasizing we protect users privacy as our top priority
 msgid "Protection. Privacy. Peace of mind."
 msgstr "Protection. Confidentialité. Tranquillité d'esprit."
@@ -16351,12 +16661,24 @@ msgid "Rankings"
 msgstr "Classements"
 
 # smartling.placeholder_format=C
+#. Accessible label read out by screen readers for a visual star rating, since the stars themselves convey no text. The first placeholder is the rating, the second is the maximum possible rating. Example: 'Rated 4.5 out of 5'
+msgctxt "star rating on a product"
+msgid "Rated %s out of %s"
+msgstr "Note de %1$s sur %2$s"
+
+# smartling.placeholder_format=C
 #. Placeholder will be a number. This is used to describe extension rating out of 5 stars.
 msgid "Rated %s/5"
 msgstr "Noté %1$s/5"
 
 # smartling.placeholder_format=C
 #. A button that takes users to another page with additional information.
+msgid "Read More"
+msgstr "Lire la suite"
+
+# smartling.placeholder_format=C
+#. Header for list of sources returned by an AI model indicating they were used to generate an answer to a given prompt.
+msgctxt "Header in AI chat message for sources"
 msgid "Read More"
 msgstr "Lire la suite"
 
@@ -16441,8 +16763,7 @@ msgstr "IA de raisonnement avec modération intégrée moyenne"
 #. Second, dimmer line of the highlight tooltip shown under the 'Try reasoning' item title when the user activates that onboarding step.
 msgctxt "Product-tour tooltip description"
 msgid "Reasoning can give better responses to complex questions."
-msgstr ""
-"Le raisonnement peut donner de meilleures réponses aux questions complexes."
+msgstr "Le raisonnement peut donner de meilleures réponses aux questions complexes."
 
 # smartling.placeholder_format=C
 #. Non-dismissible banner at the top of the reasoning mode dropdown. Warns that reasoning modes consume usage limits more quickly. The placeholder is a 'Learn More' link to a help page about usage limits. Example: 'Reasoning is more thorough, but takes longer and uses limits 2-5x faster. <a>Learn More</a>'.
@@ -16827,8 +17148,7 @@ msgstr "Mémoriser mon choix"
 # smartling.placeholder_format=C
 #. Button that saves the user's current settings
 msgid "Remember my choice (this can be changed in %s%s%sSettings%s)"
-msgstr ""
-"Se souvenir de mon choix (peut être changé dans %1$s%2$s%3$sParamètres%4$s)"
+msgstr "Se souvenir de mon choix (peut être changé dans %1$s%2$s%3$sParamètres%4$s)"
 
 # smartling.placeholder_format=C
 #. Button that saves the user's current settings. The placehoder is to wrap Settings in a link.
@@ -16951,6 +17271,12 @@ msgstr "Renommer"
 msgctxt "Where to watch instant answer"
 msgid "Rent or buy"
 msgstr "Louer ou acheter"
+
+# smartling.placeholder_format=C
+#. A feedback suggestion, meaning the suggested related searches repeated each other or the search the user had already run.
+msgctxt "Feedback prompt"
+msgid "Repetitive suggestions"
+msgstr "Suggestions répétitives"
 
 # smartling.placeholder_format=C
 #. Placeholder text used in chat input for user’s messages to reply to the assistant's response.
@@ -17290,8 +17616,7 @@ msgstr "Avis"
 #. Prompt sent to the AI when the user taps the "Adjust the servings" page-suggestion chip.
 msgctxt "Page suggestion prompt"
 msgid "Rewrite this recipe scaled for a different number of servings."
-msgstr ""
-"Réécris cette recette pour l'adapter à un nombre de portions différent."
+msgstr "Réécris cette recette pour l'adapter à un nombre de portions différent."
 
 # smartling.placeholder_format=C
 msgid "Romania"
@@ -17597,6 +17922,12 @@ msgid "Save your chats across all your devices."
 msgstr "Enregistrez vos discussions sur tous vos appareils."
 
 # smartling.placeholder_format=C
+#. Headline in the About Chat History modal explaining that chats are saved locally on the user's device.
+msgctxt "Chat history about modal list item headline"
+msgid "Save your chats on this device"
+msgstr "Enregistrez vos discussions sur cet appareil"
+
+# smartling.placeholder_format=C
 #. List item in the About Chat History modal explaining that recent chats are saved.
 msgctxt "Chat history about modal list item"
 msgid "Save your most recent chats."
@@ -17772,8 +18103,7 @@ msgstr ""
 #. Tells users where to find location settings within the settings menu. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Scroll down and locate %syour browser%s in the list."
-msgstr ""
-"Faites défiler la liste vers le bas et localisez %1$svotre navigateur%2$s."
+msgstr "Faites défiler la liste vers le bas et localisez %1$svotre navigateur%2$s."
 
 # smartling.placeholder_format=C
 #. Tells users which setting to change to enable location service.
@@ -17805,6 +18135,14 @@ msgstr "Rechercher"
 # smartling.placeholder_format=C
 #. Label for the button that forces the LLM in Duck.ai to use web search to answer the question for the user.
 msgctxt "Label for button to force web search in Duck.ai"
+msgid "Search"
+msgstr "Rechercher"
+
+# smartling.placeholder_format=C
+#. Placeholder text and accessibility label for the search field that filters the list of open browser tabs in the tab picker dialog.
+msgctxt ""
+"Placeholder and accessibility label for the search input in the tab picker "
+"dialog"
 msgid "Search"
 msgstr "Rechercher"
 
@@ -18348,35 +18686,31 @@ msgstr "Sélectionner %1$s%2$s%3$s, puis %4$sMoteur de recherche%5$s"
 #. Tells how to find the settings menu in their browser. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Select %s'Setting for this Website...'%s from the Safari menu."
-msgstr ""
-"Sélectionnez %1$s« Réglages pour ce site Web... »%2$s dans le menu Safari."
+msgstr "Sélectionnez %1$s« Réglages pour ce site Web... »%2$s dans le menu Safari."
 
 # smartling.placeholder_format=C
 #. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
 msgid ""
 "Select %sCustom%s and enter %shttps://duckduckgo.com%s in the input field"
 msgstr ""
-"Selectionnez %1$sPersonnaliser%2$s et saisissez %3$shttps://duckduckgo."
-"com%4$s dans le champ de saisie"
+"Selectionnez %1$sPersonnaliser%2$s et saisissez "
+"%3$shttps://duckduckgo.com%4$s dans le champ de saisie"
 
 # smartling.placeholder_format=C
 #. Instructions to add a search engine in Microsoft Edge
 msgid "Select %sDuckDuckGo%s and click %sAdd as default%s!"
-msgstr ""
-"Sélectionnez %1$sDuckDuckGo%2$s, puis cliquez sur %3$sAjouter par défaut%4$s!"
+msgstr "Sélectionnez %1$sDuckDuckGo%2$s, puis cliquez sur %3$sAjouter par défaut%4$s!"
 
 #  Edge Legacy default search engine instruction
 # smartling.placeholder_format=C
 msgid "Select %sDuckDuckGo%s and click %sSet as default%s"
-msgstr ""
-"Sélectionnez %1$sDuckDuckGo%2$s et cliquez sur %3$sDéfinir par défaut%4$s"
+msgstr "Sélectionnez %1$sDuckDuckGo%2$s et cliquez sur %3$sDéfinir par défaut%4$s"
 
 #  Edge Legacy default search engine instruction
 # smartling.placeholder_format=C
 #. Tells users how to add DuckDuckGo to the list of search engines in their browser.
 msgid "Select %sDuckDuckGo%s and click %sSet as default%s."
-msgstr ""
-"Sélectionnez %1$sDuckDuckGo%2$s et cliquez sur %3$sDéfinir par défaut%4$s."
+msgstr "Sélectionnez %1$sDuckDuckGo%2$s et cliquez sur %3$sDéfinir par défaut%4$s."
 
 #  Firefox 33
 # smartling.placeholder_format=C
@@ -18417,8 +18751,7 @@ msgstr "Sélectionnez %1$sDuckDuckGo%2$s!"
 # smartling.placeholder_format=C
 #. Tells users where to click in their browser to change the default search engine.
 msgid "Select %sEdit Search Engines...%sin the dropdown"
-msgstr ""
-"Sélectionnez %1$sModifier les moteurs de recherche…%2$sdans le menu déroulant"
+msgstr "Sélectionnez %1$sModifier les moteurs de recherche…%2$sdans le menu déroulant"
 
 #  IE 11 default search engine instruction
 # smartling.placeholder_format=C
@@ -18492,8 +18825,7 @@ msgstr "Sélectionnez %1$sRéglages%2$s, puis %3$sRéglages avancés%4$s"
 #. Instructions on how to change a browser's default search engine to DuckDuckGo.
 msgctxt "mobile homepage banner"
 msgid "Select %sSettings%s, then %sDefault search engine%s"
-msgstr ""
-"Sélectionnez %1$sRéglages%2$s, puis %3$sMoteur de recherche par défaut%4$s"
+msgstr "Sélectionnez %1$sRéglages%2$s, puis %3$sMoteur de recherche par défaut%4$s"
 
 #  Chrome/Firefox on Android
 # smartling.placeholder_format=C
@@ -18554,8 +18886,7 @@ msgstr "Sélectionnez tous les carrés contenant un canard :"
 #. Tells users which setting to change to enable location service. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Select an option to %sallow%s location access"
-msgstr ""
-"Sélectionnez une option pour %1$sautoriser%2$s l'accès à la localisation"
+msgstr "Sélectionnez une option pour %1$sautoriser%2$s l'accès à la localisation"
 
 # smartling.placeholder_format=C
 #. Tells users where in the settings menu they can change their default search engine.
@@ -18590,8 +18921,7 @@ msgstr "Texte sélectionné de %1$s"
 #. Displayed when the user's text selection exceeds the maximum message size for AI tools (summary, translation, etc.).
 msgctxt "Error message for selection input limit"
 msgid "Selected text is too long. Try again with a shorter selection."
-msgstr ""
-"Le texte sélectionné est trop long. Réessayez avec une sélection plus courte."
+msgstr "Le texte sélectionné est trop long. Réessayez avec une sélection plus courte."
 
 # smartling.placeholder_format=C
 #. Label for the semi-finals knockout stage in e.g. the soccer World Cup
@@ -18924,6 +19254,12 @@ msgid "Share feedback on your search results."
 msgstr "Partagez des commentaires au sujet de vos résultats de recherche."
 
 # smartling.placeholder_format=C
+#. Tooltip shown on hover/focus of the share icon button in the Search Assist header, which opens the OS-native share sheet to share a link to the answer.
+msgctxt "duckassist"
+msgid "Share link"
+msgstr "Partager le lien"
+
+# smartling.placeholder_format=C
 msgctxt "feedback form"
 msgid "Share negative feedback"
 msgstr "Partager des commentaires négatifs"
@@ -18984,10 +19320,32 @@ msgid "Shared Chat Links"
 msgstr "Liens des discussions partagées"
 
 # smartling.placeholder_format=C
+#. The HTML <title> and OpenGraph title for shared-chat pages (duck.ai/share/...), shown in link previews on social media and messengers. The chat content itself is end-to-end encrypted and never appears in previews. 'Duck.ai' is a brand name and should not be translated.
+msgctxt "duckai_seo"
+msgid "Shared Duck.ai Chat"
+msgstr "Chat Duck.ai partagé"
+
+# smartling.placeholder_format=C
 #. Modal header above the list of share links created on this device. Separate from the settings row label so the two can be worded differently.
 msgctxt "Header of the Duck.ai shared links modal"
 msgid "Shared chat links"
 msgstr "Liens de discussions partagées"
+
+# smartling.placeholder_format=C
+#. Tells the viewer how long the shared link keeps working. %s is a whole number of days, always 2 or more.
+msgctxt ""
+"Note next to the Add to My Chats button in a shared-chat copy panel; %s is a "
+"number of days"
+msgid "Shared link expires in %s days"
+msgstr "Le lien partagé expire dans %1$s jours"
+
+# smartling.placeholder_format=C
+#. Singular variant of the shared-link expiry note, shown on the link's last day.
+msgctxt ""
+"Note next to the Add to My Chats button in a shared-chat copy panel when one "
+"day remains"
+msgid "Shared link expires in 1 day"
+msgstr "Le lien partagé expire dans 1 jour"
 
 # smartling.placeholder_format=C
 #. Body text of the VPN instant answer shown on the search results page. One of several messages rotated over time. 'No-log' means the VPN keeps no logs of activity; emphasizes that the VPN is easy to set up and toggle.
@@ -19009,6 +19367,12 @@ msgstr "Maj+Entrée"
 #. Call to action button that appears in a merchant ad extension dropdown and on clicking takes the user to an external product page
 msgctxt "merchant promotion product ad extension"
 msgid "Shop"
+msgstr "Acheter"
+
+# smartling.placeholder_format=C
+#. Button below the zoomed easter-egg logo in the tap-to-zoom modal, beneath the sentence above it; opens /collaborations, the DuckDuckGo branded merchandise line. Short because the sentence above already carries the message. Names no product, so any merchandise logo can reuse it.
+msgctxt "Button in the merchandise logo modal (mobile)"
+msgid "Shop Now"
 msgstr "Acheter"
 
 # smartling.placeholder_format=C
@@ -19305,8 +19669,8 @@ msgstr "Afficher la barre latérale"
 msgctxt "Settings row description"
 msgid "Show step-by-step tips for getting the most out of Duck.ai."
 msgstr ""
-"Découvrez des conseils étape par étape pour tirer le meilleur parti de Duck."
-"ai."
+"Découvrez des conseils étape par étape pour tirer le meilleur parti de "
+"Duck.ai."
 
 # smartling.placeholder_format=C
 #. Tooltip/label for the button to show the voice chat transcript.
@@ -19453,8 +19817,7 @@ msgstr "Montre l'arrière-plan du bouton de recherche"
 # smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Shows welcome message on top of the search results page"
-msgstr ""
-"Affiche un message de bienvenue en haut de la page des résultats de recherche"
+msgstr "Affiche un message de bienvenue en haut de la page des résultats de recherche"
 
 # smartling.placeholder_format=C
 msgctxt "settings"
@@ -19661,8 +20024,7 @@ msgstr "Résolvez des problèmes complexes grâce au mode de raisonnement !"
 #. Text for a promotional card that encourages users to try the reasoning mode on complex problems which thinks longer to hopefully provide a more accurate answer.
 msgctxt "Promotional text for reasoning mode"
 msgid "Solve complex problems with the new reasoning mode!"
-msgstr ""
-"Résolvez des problèmes complexes grâce au nouveau mode de raisonnement !"
+msgstr "Résolvez des problèmes complexes grâce au nouveau mode de raisonnement !"
 
 # smartling.placeholder_format=C
 #. Text for a promotional card that encourages users to try the reasoning mode on complex problems which thinks longer to hopefully provide a more accurate answer.
@@ -19734,8 +20096,7 @@ msgstr "Parfois"
 #. Generic error message shown when the image generation model cannot process the user's request.
 msgctxt "Error message from the image generation model"
 msgid "Sorry I can't help, please describe your image in a different way."
-msgstr ""
-"Désolé, je ne peux pas vous aider, veuillez décrire votre image différemment."
+msgstr "Désolé, je ne peux pas vous aider, veuillez décrire votre image différemment."
 
 # smartling.placeholder_format=C
 #. Error message for the duckassist instant answer (based on generative AI)
@@ -20074,8 +20435,7 @@ msgstr "Reste sur DuckDuckGo"
 #. Prompt to subscribe to a newsletter.
 msgctxt "SERP footer content"
 msgid "Stay protected and informed with our privacy newsletter."
-msgstr ""
-"Restez protégé(e) et informé(e) avec notre newsletter sur la confidentialité."
+msgstr "Restez protégé(e) et informé(e) avec notre newsletter sur la confidentialité."
 
 # smartling.placeholder_format=C
 #. Prompt to subscribe to a newsletter.
@@ -20130,8 +20490,7 @@ msgstr "Arrêtez les traqueurs qui se cachent sur d'autres sites Web."
 # smartling.placeholder_format=C
 msgctxt "homepage ATB modal"
 msgid "Stop most hidden trackers lurking on other websites."
-msgstr ""
-"Arrêtez la plupart des traqueurs qui se cachent sur d'autres sites Web."
+msgstr "Arrêtez la plupart des traqueurs qui se cachent sur d'autres sites Web."
 
 # smartling.placeholder_format=C
 msgctxt "settings"
@@ -20221,8 +20580,8 @@ msgid ""
 "Subscribe to DuckDuckGo to unlock higher limits in Duck.ai, or come back "
 "later to create more images."
 msgstr ""
-"Abonnez-vous à DuckDuckGo pour débloquer des limites plus élevées dans Duck."
-"ai, ou revenez plus tard pour créer plus d'images."
+"Abonnez-vous à DuckDuckGo pour débloquer des limites plus élevées dans "
+"Duck.ai, ou revenez plus tard pour créer plus d'images."
 
 # smartling.placeholder_format=C
 #. Description shown to free users who have reached their image generation limit, encouraging them to subscribe.
@@ -20557,8 +20916,7 @@ msgstr "Changer de modèle"
 #. Displayed when the user hits a non-bypassable advanced-model fixed-window usage limit but can continue the conversation by switching to a configured free/degraded model. %s is the reset date/time formatted in the user's locale.
 msgctxt "Error message for fixed-window Duck.ai usage limit."
 msgid "Switch this chat to a free model or wait until %s."
-msgstr ""
-"Passez cette conversation à un modèle gratuit ou attendez jusqu’au %1$s."
+msgstr "Passez cette conversation à un modèle gratuit ou attendez jusqu’au %1$s."
 
 # smartling.placeholder_format=C
 #. Button that switches the conversation to the second-opinion model. %s is the model name.
@@ -20692,6 +21050,16 @@ msgstr ""
 "d'inactivité."
 
 # smartling.placeholder_format=C
+#. Supporting copy under the cross-device sync headline in sync-enabled chat history about modals.
+msgctxt "Chat history with sync modal list item description"
+msgid ""
+"Sync & Backup saves more of your chats and syncs them across all of your "
+"devices."
+msgstr ""
+"Sync & Backup enregistre davantage de vos discussions et les synchronise sur "
+"tous vos appareils."
+
+# smartling.placeholder_format=C
 #. Reuses the existing Sync Another Device pairing modal stack.
 msgctxt "Action that opens the pairing flow from inside Manage"
 msgid "Sync Another Device"
@@ -20750,8 +21118,8 @@ msgstr ""
 "%1$s\n"
 "\n"
 "Comment fonctionne ce code ?\n"
-"1. Accédez à Duck.ai dans votre navigateur et ouvrez les paramètres de Duck."
-"ai.\n"
+"1. Accédez à Duck.ai dans votre navigateur et ouvrez les paramètres de "
+"Duck.ai.\n"
 "2. Sélectionnez « Activer Sync & Backup », puis « Récupérer les données "
 "synchronisées »\n"
 "3. Copiez le code de récupération ci-dessus et collez-le là où il est écrit "
@@ -20808,6 +21176,12 @@ msgstr "Synchroniser avec un appareil à proximité."
 msgctxt "Chat history with sync modal list item"
 msgid "Sync your chats across all of your devices."
 msgstr "Synchronisez vos discussions sur tous vos appareils."
+
+# smartling.placeholder_format=C
+#. Headline in sync-enabled chat history about modals explaining cross-device sync.
+msgctxt "Chat history with sync modal list item headline"
+msgid "Sync your chats across all your devices"
+msgstr "Synchronisez vos discussions sur tous vos appareils"
 
 # smartling.placeholder_format=C
 #. Label preceding the list of devices currently registered to the account.
@@ -21133,15 +21507,13 @@ msgstr "Merci pour vos commentaires !"
 #. Inform the users that "something" went wrong and we are unable to show any results.
 msgctxt "noresults"
 msgid "Thanks for your patience while we get our ducks in a row!"
-msgstr ""
-"Merci pour votre patience pendant que nous mettons les choses en ordre !"
+msgstr "Merci pour votre patience pendant que nous mettons les choses en ordre !"
 
 # smartling.placeholder_format=C
 #. Inform the users that "something" went wrong and we are unable to show any results.
 msgctxt "noresults"
 msgid "Thanks for your patience while we get our ducks in a row."
-msgstr ""
-"Merci pour votre patience pendant que nous mettons les choses en ordre."
+msgstr "Merci pour votre patience pendant que nous mettons les choses en ordre."
 
 # smartling.placeholder_format=C
 #. Message indicating that the open lock icon in the address bar means that a website is not secure.
@@ -21168,6 +21540,16 @@ msgstr ""
 "paramètres."
 
 # smartling.placeholder_format=C
+#. Body text of the one-time Duck.ai promo card on the Chrome New Tab Page.
+msgctxt "new tab page"
+msgid ""
+"The Duck.ai toggle lets you quickly switch between private search and AI "
+"chat, anonymized by DuckDuckGo."
+msgstr ""
+"Le bouton Duck.ai vous permet de basculer rapidement entre la recherche "
+"privée et le chat IA, anonymisés par DuckDuckGo."
+
+# smartling.placeholder_format=C
 msgid "The Gambia"
 msgstr "Gambie"
 
@@ -21186,8 +21568,7 @@ msgstr "Les fichiers joints dépassent la limite totale de taille de %1$s Mo."
 # smartling.placeholder_format=C
 #. Error in the duck.ai chat input when the server rejects corrupt or unrecognized audio.
 msgid "The audio could not be processed. Please try recording again."
-msgstr ""
-"L'audio n'a pas pu être traité. Veuillez essayer d'enregistrer à nouveau."
+msgstr "L'audio n'a pas pu être traité. Veuillez essayer d'enregistrer à nouveau."
 
 # smartling.placeholder_format=C
 #. Second paragraph explaining where the encryption key is stored on the entry screen.
@@ -21212,8 +21593,7 @@ msgstr ""
 #. Description explaining that the AI model provider does not store any chat data on their servers.
 msgctxt "Privacy claim description in Duck.ai chat"
 msgid "The model provider does not save this chat on their servers."
-msgstr ""
-"Le fournisseur de modèles n'enregistre pas cette discussion sur ses serveurs."
+msgstr "Le fournisseur de modèles n'enregistre pas cette discussion sur ses serveurs."
 
 # smartling.placeholder_format=C
 #. Description explaining that the AI model provider does not store any chat data on their servers.
@@ -21273,8 +21653,7 @@ msgstr "Thèmes"
 #. Inform the users that "something" went wrong and we are unable to show any results.
 msgctxt "noresults"
 msgid "There was an error displaying the search results."
-msgstr ""
-"Une erreur s'est produite lors de l'affichage des résultats de recherche."
+msgstr "Une erreur s'est produite lors de l'affichage des résultats de recherche."
 
 # smartling.placeholder_format=C
 #. Error message displayed when there was an issue in saving the chat locally to the browser's storage
@@ -21478,15 +21857,13 @@ msgstr ""
 #. Error message displayed when the user tries to attach a file that exceeds the maximum allowed size. Placeholder is the size limit in megabytes. E.g. This file is too large. The maximum file size is 5 MB
 msgctxt "Error message when a single file exceeds the size limit"
 msgid "This file is too large. The maximum file size is %s MB"
-msgstr ""
-"Ce fichier est trop volumineux. La taille maximale du fichier est de %1$s Mo"
+msgstr "Ce fichier est trop volumineux. La taille maximale du fichier est de %1$s Mo"
 
 # smartling.placeholder_format=C
 #. Error message displayed when the user tries to attach a file that exceeds the maximum allowed size. Placeholder is the size limit in megabytes. E.g. This file is too large. The maximum file size is 5 MB
 msgctxt "Error message when a single file exceeds the size limit"
 msgid "This file is too large. The maximum file size is %s MB."
-msgstr ""
-"Ce fichier est trop volumineux. La taille maximale du fichier est de %1$s Mo."
+msgstr "Ce fichier est trop volumineux. La taille maximale du fichier est de %1$s Mo."
 
 # smartling.placeholder_format=C
 #. Generic error message displayed when the user tries to upload an unsupported file type and we cannot determine the accepted types
@@ -21524,8 +21901,7 @@ msgstr ""
 #. Error message displayed when the user tries to upload an unsupported file type and we know which types are accepted. Placeholder is a single accepted type. E.g. This file type is not supported, please attach a PDF
 msgctxt "Error message when an uploaded file type is not supported"
 msgid "This file type is not supported, please attach a %s."
-msgstr ""
-"Ce type de fichier n’est pas pris en charge ; veuillez joindre un %1$s."
+msgstr "Ce type de fichier n’est pas pris en charge ; veuillez joindre un %1$s."
 
 # smartling.placeholder_format=C
 #. Generic error message displayed when the user tries to upload an unsupported file type and we cannot determine the accepted types
@@ -21567,6 +21943,14 @@ msgstr ""
 #. Given as an option to select when providing feedback
 msgid "This information isn’t useful"
 msgstr "Ces informations sont inutiles"
+
+# smartling.placeholder_format=C
+#. Header label at the top of the shared conversation panel in Duck.ai when someone opens a shared chat link, and above the shared messages in exported .txt files. Tells the viewer that the messages shown are a copy of a shared chat.
+msgctxt ""
+"Label above messages copied from a shared chat, on screen and in exported "
+"text files"
+msgid "This is a copy of a shared chat."
+msgstr "Ceci est une copie d'une discussion partagée."
 
 # smartling.placeholder_format=C
 #. Header label at the top of the shared conversation panel in Duck.ai when someone opens a shared chat link. Tells the viewer that the messages shown are a copy of a shared chat.
@@ -21615,8 +21999,8 @@ msgid ""
 "Other model providers follow a zero data retention model."
 msgstr ""
 "Ce fournisseur de modèles supprime les données associées à cette discussion "
-"dans les 30 jours. D'autres fournisseurs de modèles suivent un modèle de non-"
-"conservation des données."
+"dans les 30 jours. D'autres fournisseurs de modèles suivent un modèle de "
+"non-conservation des données."
 
 # smartling.placeholder_format=C
 #. Description explaining that the AI model provider does not store any chat data on their servers, and that other providers may retain chat data for a limited time instead.
@@ -21736,8 +22120,7 @@ msgstr ""
 #. Message indicating that a website is not using an encrypted connection and is not secure.
 msgctxt "Lock icon next to HTTP search result"
 msgid "This webpage does not use a secure, encrypted, connection (HTTPS)."
-msgstr ""
-"Cette page web n'utilise pas de connexion sécurisée et cryptée (HTTPS)."
+msgstr "Cette page web n'utilise pas de connexion sécurisée et cryptée (HTTPS)."
 
 # smartling.placeholder_format=C
 #. Text explaining that disabling chat history will delete chats from this browser and disconnect Sync & Backup, but chats remain accessible from other connected browsers.
@@ -21878,8 +22261,7 @@ msgstr "Souligner le titre"
 # smartling.placeholder_format=C
 #. Informative header on a list of steps for the user to take to disable their adblocker
 msgid "To allowlist DuckDuckGo in other ad blocker extensions:"
-msgstr ""
-"Pour autoriser DuckDuckGo dans d'autres extensions de blocage de publicités :"
+msgstr "Pour autoriser DuckDuckGo dans d'autres extensions de blocage de publicités :"
 
 # smartling.placeholder_format=C
 #. Text stating agreement to Duck.ai Privacy Policy and Terms of Service. Variables used to link to the Privacy Policy and Terms of Service content. Example: 'To continue, you must agree to Duck.ai’s Privacy Policy and Terms of Service'
@@ -21893,8 +22275,7 @@ msgstr "Pour continuer, vous devez accepter la %1$s et les %2$s de Duck.ai"
 msgctxt ""
 "Copy stating agreement to AI Chat Privacy Policy and Terms of Service."
 msgid "To continue, you must agree to DuckDuckGo AI Chat’s %s and %s"
-msgstr ""
-"Pour continuer, vous devez accepter la %1$s et les %2$s de DuckDuckGo AI Chat"
+msgstr "Pour continuer, vous devez accepter la %1$s et les %2$s de DuckDuckGo AI Chat"
 
 # smartling.placeholder_format=C
 #. Instructions for how to print driving directions.
@@ -21957,12 +22338,18 @@ msgid "Today"
 msgstr "Auj."
 
 # smartling.placeholder_format=C
+#. Headline of the one-time Duck.ai feature-discovery drawer shown to new installs under the search box. The two placeholders wrap a link-styled control ('disable in settings') that opens the 'Customize New Tab Page' menu.
+msgctxt "new tab page"
+msgid "Toggle to private AI chat or %sdisable in settings%s."
+msgstr "Passez au chat IA privé ou %1$sdésactivez dans les paramètres%2$s."
+
+# smartling.placeholder_format=C
 #. Headline of the one-time Duck.ai feature-discovery drawer shown to new installs under the search box. The first and last placeholders wrap a link-styled control that opens the 'Customize New Tab Page' menu; the middle placeholder is filled with the localized NTP_CUSTOMIZE button label.
 msgctxt "new tab page"
 msgid "Toggle to try private AI chat or %sdisable it in the %s menu.%s"
 msgstr ""
-"Activez cette option pour essayer le chat privé avec l’IA ou %1$sdésactivez-"
-"la dans le menu %2$s.%3$s"
+"Activez cette option pour essayer le chat privé avec l’IA ou "
+"%1$sdésactivez-la dans le menu %2$s.%3$s"
 
 # smartling.placeholder_format=C
 msgid "Togo"
@@ -22023,6 +22410,12 @@ msgstr "Trop de résultats provenant de cette source"
 msgctxt "Feedback prompt"
 msgid "Too slow"
 msgstr "Trop lent"
+
+# smartling.placeholder_format=C
+#. Negative reason chip in the Duck.ai response thumbs-down feedback form when the rated turn includes a settled generated image. Distinct from FEEDBACK_TOO_SLOW, which is the text-response chip.
+msgctxt "Feedback prompt"
+msgid "Too slow to generate"
+msgstr "Se génère trop lentement"
 
 # smartling.placeholder_format=C
 #. Used as both the visible button label and its hover tooltip. The button opens a dropdown menu containing Image mode, Web Search, and Customize Responses options.
@@ -22310,8 +22703,7 @@ msgstr "Essayez %1$s pour ne plus voir de messages comme celui-ci."
 #. Text for a promotional card that encourages users to try the encrypted AI model whose inference runs in a confidential environment so the model provider cannot access user data. %s is replaced with the model's full display name (e.g. 'GPT-OSS 120B').
 msgctxt "Promotional text for encrypted AI model"
 msgid "Try %s, our first model with zero provider visibility."
-msgstr ""
-"Essayez %1$s, notre premier modèle sans aucune visibilité du fournisseur."
+msgstr "Essayez %1$s, notre premier modèle sans aucune visibilité du fournisseur."
 
 # smartling.placeholder_format=C
 msgid "Try %sDuck.ai%s, our private AI chat service:"
@@ -22452,22 +22844,26 @@ msgstr ""
 #. Prompt to enable location access in order to get search results closer to the user's actual location.
 msgctxt "precise_user_location"
 msgid "Try enabling anonymous location for more accurate results."
-msgstr ""
-"Essayez d'activer la géolocalisation anonyme pour des résultats plus précis."
+msgstr "Essayez d'activer la géolocalisation anonyme pour des résultats plus précis."
 
 # smartling.placeholder_format=C
 #. Subtitle displayed on the screen of the onboarding where the user picks a chat model.
 msgctxt "Onboarding pick a chat model screen subtitle"
 msgid ""
 "Try experimenting with each model — they will provide different responses."
-msgstr ""
-"N’hésitez pas à essayer chaque modèle pour obtenir des réponses différentes."
+msgstr "N’hésitez pas à essayer chaque modèle pour obtenir des réponses différentes."
 
 # smartling.placeholder_format=C
 #. A prompt asking users to try searching with fewer words.
 msgctxt "noresults"
 msgid "Try fewer keywords."
 msgstr "Essayer de nouveau avec moins de mots clés."
+
+# smartling.placeholder_format=C
+#. Title-cased button label for free-tier users. Shown on the Duck.ai subscribe modal, Settings → Subscription, the image-generation limit message, and the voice-chat limit and duration-limit modals. Clicking starts the DuckDuckGo subscription free-trial / purchase flow. Distinct from sentence-cased 'Try for free' text links in the model picker and promo card.
+msgctxt "Button CTA that starts the DuckDuckGo subscription free trial"
+msgid "Try for Free"
+msgstr "Essayer gratuitement"
 
 # smartling.placeholder_format=C
 #. Call-to-action button label on the DuckDuckGo Subscription instant answer shown on the search results page. Starts a free trial of the paid subscription. Default CTA, used by most rotated messages.
@@ -22641,15 +23037,13 @@ msgstr "Essayez les logiciels open source %1$s et %2$s récemment ajoutés"
 #. Text for a promotional card that encourages users to try the recently added open-source AI models Llama 3.1 and Mixtral.
 msgctxt "Promotional text for new AI models"
 msgid "Try the recently added open-source Llama 3.1 and Mixtral"
-msgstr ""
-"Essayez les logiciels open source Llama 3.1 et Mixtral récemment ajoutés"
+msgstr "Essayez les logiciels open source Llama 3.1 et Mixtral récemment ajoutés"
 
 # smartling.placeholder_format=C
 #. Message displayed to suggest the user to try the provided prompts or enter their own.
 msgctxt "Prompt suggestion message"
 msgid "Try these prompts to get started or enter your own prompt below"
-msgstr ""
-"Essayez ces prompts pour commencer ou saisissez les vôtres ci-dessous :"
+msgstr "Essayez ces prompts pour commencer ou saisissez les vôtres ci-dessous :"
 
 # smartling.placeholder_format=C
 #. Description for the empty state displayed when searching recent chats in Duck.ai returns no results, suggesting the user rephrase their search query.
@@ -22657,8 +23051,7 @@ msgctxt ""
 "Description shown when a chat search in Duck.ai returns no matching chats, "
 "suggesting the user rephrase their query"
 msgid "Try using a different search term or phrase."
-msgstr ""
-"Essayez d'utiliser un autre terme ou une autre expression de recherche."
+msgstr "Essayez d'utiliser un autre terme ou une autre expression de recherche."
 
 # smartling.placeholder_format=C
 #. In the context of an AI Chat, text prompting the user to try their prompt with a different AI model.
@@ -22846,8 +23239,7 @@ msgstr "Activez la « position exacte » pour des résultats plus précis."
 #. Tells users where to find the location settings in the settings menu. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Turn on “Use precise location” for more accurate results."
-msgstr ""
-"Activez « Utiliser la position exacte » pour des résultats plus précis."
+msgstr "Activez « Utiliser la position exacte » pour des résultats plus précis."
 
 # smartling.placeholder_format=C
 #. Short description shown below the 'Create Image' label in the Tools dropdown.
@@ -23040,20 +23432,18 @@ msgstr ""
 msgid ""
 "Under %sOn startup%s, select %sHomepage%s and enter: https://duckduckgo.com"
 msgstr ""
-"Sous %1$sAu démarrage%2$s, séléctionnez %3$sPage d'accueil%4$s et "
-"saisissez : https://duckduckgo.com"
+"Sous %1$sAu démarrage%2$s, séléctionnez %3$sPage d'accueil%4$s et saisissez "
+": https://duckduckgo.com"
 
 # smartling.placeholder_format=C
 #. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
 msgid "Under %sOpen with%s select %sA specific page or pages%s"
-msgstr ""
-"Sous %1$sOuvrir avec%2$s, sélectionnez %3$sUne ou des pages spécifiques%4$s"
+msgstr "Sous %1$sOuvrir avec%2$s, sélectionnez %3$sUne ou des pages spécifiques%4$s"
 
 # smartling.placeholder_format=C
 #. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
 msgid "Under %sSTARTUP > Homepage%s enter: https://duckduckgo.com"
-msgstr ""
-"Sous %1$sDÉMARRAGE > Page d'accueil%2$s saisissez : https://duckduckgo.com"
+msgstr "Sous %1$sDÉMARRAGE > Page d'accueil%2$s saisissez : https://duckduckgo.com"
 
 # smartling.placeholder_format=C
 #. Tells users where in the settings menu they can change their default search engine.
@@ -23614,8 +24004,7 @@ msgstr "Vous utilisez le Wi-Fi public ? Utilisez notre VPN."
 #. Second, dimmer line of the highlight tooltip shown under the 'Delete a chat' item title when the user activates that onboarding step. 'Fire Button' is DuckDuckGo's one-tap data-clearing feature; user testing showed people don't realize it deletes.
 msgctxt "Product-tour tooltip description"
 msgid "Use the Fire Button to delete a chat from history."
-msgstr ""
-"Utilisez le Fire Button pour supprimer une conversation de l’historique."
+msgstr "Utilisez le Fire Button pour supprimer une conversation de l’historique."
 
 # smartling.placeholder_format=C
 #. Body copy shown on the joiner device's success screen after a successful pairing, above the recovery code the user should save.
@@ -23754,6 +24143,17 @@ msgid "View Settings"
 msgstr "Afficher les paramètres"
 
 # smartling.placeholder_format=C
+#. Meta and OpenGraph description for shared-chat pages, shown in link previews. Generic on purpose: shared content is end-to-end encrypted, so nothing chat-specific can be included. 'Duck.ai' and 'DuckDuckGo' are brand names and should not be translated.
+msgctxt "duckai_seo"
+msgid ""
+"View a conversation shared from Duck.ai - free, private AI chat by "
+"DuckDuckGo. Save it to your own chats and continue privately."
+msgstr ""
+"Consultez une discussion partagée depuis Duck.ai : chat IA gratuit et privé "
+"par DuckDuckGo. Enregistrez-la dans vos propres discussions et continuez en "
+"privé."
+
+# smartling.placeholder_format=C
 #. Heading for a dropdown that toggles more items
 msgid "View more items"
 msgstr "Voir plus d'éléments"
@@ -23778,8 +24178,7 @@ msgstr "Voir les prix de votre séjour"
 # smartling.placeholder_format=C
 #. A description for the ads tooltip that explains that viewing ads is privacy protected by DuckDuckGo.
 msgid "Viewing ads is privacy protected by DuckDuckGo."
-msgstr ""
-"DuckDuckGo protège la confidentialité lors de la consultation des publicités."
+msgstr "DuckDuckGo protège la confidentialité lors de la consultation des publicités."
 
 # smartling.placeholder_format=C
 msgctxt "Ads GDPR, internal use only. Do not change"
@@ -23800,6 +24199,17 @@ msgstr ""
 "DuckDuckGo protège la confidentialité lors de la consultation des "
 "publicités. Les clics sur les publicités sont gérés par le réseau "
 "publicitaire de TripAdvisor."
+
+# smartling.placeholder_format=C
+#. The Yelp counterpart of AD_BADGE_TOOLTIP. Body copy of the tooltip behind the 'Ad' badge on Yelp-sourced local results, followed by an AD_BADGE_TOOLTIP_MORE_INFO link to the DuckDuckGo help page about ads by Yelp.
+msgctxt "Ads GDPR"
+msgid ""
+"Viewing ads is privacy protected by DuckDuckGo. Ad clicks are managed by "
+"Yelp's ad network."
+msgstr ""
+"DuckDuckGo protège la confidentialité lors de la consultation des "
+"publicités. Les clics sur les publicités sont gérés par le réseau "
+"publicitaire de Yelp."
 
 # smartling.placeholder_format=C
 msgid "Virgin Islands"
@@ -23859,9 +24269,9 @@ msgid ""
 "On” under Sync & Backup and select “Sync With Another Device”. Or scan the "
 "QR on your Recovery PDF."
 msgstr ""
-"Visitez Duck.ai dans votre autre navigateur et ouvrez les paramètres de Duck."
-"ai. Sélectionnez « Activer » sous Sync & Backup, puis « Synchroniser avec un "
-"autre appareil ». Ou scannez le code QR figurant sur votre PDF de "
+"Visitez Duck.ai dans votre autre navigateur et ouvrez les paramètres de "
+"Duck.ai. Sélectionnez « Activer » sous Sync & Backup, puis « Synchroniser "
+"avec un autre appareil ». Ou scannez le code QR figurant sur votre PDF de "
 "récupération."
 
 # smartling.placeholder_format=C
@@ -24024,6 +24434,12 @@ msgstr "Victoire par forfait"
 msgctxt "size"
 msgid "Wallpaper"
 msgstr "Fond d'écran"
+
+# smartling.placeholder_format=C
+#. Title of the one-time Duck.ai promo card on the Chrome New Tab Page.
+msgctxt "new tab page"
+msgid "Want easy access to private AI chat on the new tab page?"
+msgstr "Tu veux accéder facilement au chat IA privé sur la page Nouvel onglet ?"
 
 # smartling.placeholder_format=C
 #. A feedback suggestion
@@ -24326,8 +24742,7 @@ msgstr "Nous avons perdu la connexion ; veuillez réessayer plus tard."
 #. We store chats for 15 minutes in the BE. If the user tries to fetch it after the 15 minutes elapsed or if we had an issue saving it we show them this error message so they can re-submit their prompt.
 msgctxt "AI Chat: Error message for unsaved or expired chats saved in sync"
 msgid "We lost the connection. Please try sending your message again."
-msgstr ""
-"Nous avons perdu la connexion. Veuillez réessayer d'envoyer votre message."
+msgstr "Nous avons perdu la connexion. Veuillez réessayer d'envoyer votre message."
 
 # smartling.placeholder_format=C
 #. Message asking the user to disable their ad blocker, with a link to how our ads don't track you. The placeholders are for the start and end tags of that link (e.g. <a href="%">, </a>)
@@ -24618,8 +25033,7 @@ msgstr ""
 #. Intro message on import screen.
 msgctxt "duckai_migration"
 msgid "Welcome to new Duck.ai, it's time to import your chats"
-msgstr ""
-"Bienvenue sur le nouveau Duck.ai ; il est temps d'importer vos discussions."
+msgstr "Bienvenue sur le nouveau Duck.ai ; il est temps d'importer vos discussions."
 
 # smartling.placeholder_format=C
 #. Welcome message for new DuckDuckGo users.
@@ -24971,8 +25385,7 @@ msgstr "À quoi cela répond-il ?"
 #. A placeholder text for a text area field prompting the user to suggest a feature to be added to the product, and this field is optional.
 msgctxt "Feedback prompt"
 msgid "What feature would you like us to add? (optional)"
-msgstr ""
-"Quelle fonctionnalité souhaiteriez-vous que nous ajoutions ? (facultatif)"
+msgstr "Quelle fonctionnalité souhaiteriez-vous que nous ajoutions ? (facultatif)"
 
 # smartling.placeholder_format=C
 #. Header above a list of types of information that gets saved by the cloud save feature.
@@ -24984,8 +25397,7 @@ msgstr "Quelles informations sont sauvegardées ?"
 #. Prompt sent to the AI when the user taps the "Help me prep for the interview" page-suggestion chip.
 msgctxt "Page suggestion prompt"
 msgid "What interview questions might come up for this role?"
-msgstr ""
-"Quelles questions pourraient être posées lors de l'entretien pour ce poste ?"
+msgstr "Quelles questions pourraient être posées lors de l'entretien pour ce poste ?"
 
 # smartling.placeholder_format=C
 #. Text explaining how the cloud save feature works.
@@ -24994,8 +25406,8 @@ msgid ""
 "What is the Cloud Save bookmarklet and how does it differ from the URL "
 "parameter bookmarklet?"
 msgstr ""
-"À quoi sert le bookmarklet de sauvegarde dans le Cloud Save et en quoi est-"
-"il différent du bookmarklet avec URL de paramétrage ?"
+"À quoi sert le bookmarklet de sauvegarde dans le Cloud Save et en quoi "
+"est-il différent du bookmarklet avec URL de paramétrage ?"
 
 # smartling.placeholder_format=C
 #. Text for a prompt suggestion for looking up the capital city of Albania.
@@ -25307,6 +25719,25 @@ msgstr ""
 "Avec Duck.ai, vos conversations sont anonymisées et ne sont jamais utilisées "
 "pour entraîner l’IA. Vous pouvez activer ou désactiver cette fonctionnalité "
 "à tout moment dans le menu « %1$s »."
+
+# smartling.placeholder_format=C
+#. Supporting copy under the save-on-device headline when Sync & Backup is unavailable. %s is replaced with the chat limit. Example: 'With chat history on, up to 100 of your most recent chats will be saved on this device.'
+msgctxt "Chat history about modal list item description"
+msgid ""
+"With chat history on, up to %s of your most recent chats will be saved on "
+"this device."
+msgstr ""
+"Lorsque l'historique des discussions est activé, jusqu'à %1$s de vos "
+"discussions les plus récentes sont enregistrées sur cet appareil."
+
+# smartling.placeholder_format=C
+#. Supporting copy under the save-on-device headline in the About Chat History modal.
+msgctxt "Chat history about modal list item description"
+msgid ""
+"With chat history on, your most recent chats will be saved on this device."
+msgstr ""
+"Lorsque l'historique des discussions est activé, vos discussions les plus "
+"récentes sont enregistrées sur cet appareil."
 
 # smartling.placeholder_format=C
 #. Section header in the model switch dropdown, shown above the list of models that do NOT run in a Trusted Execution Environment (i.e. the model provider can access user data). It is paired with a 'Zero provider visibility' section that lists the encrypted models. Please keep the wording consistent with the 'Zero provider visibility' label.
@@ -25665,8 +26096,7 @@ msgstr ""
 #. A label shown after the user enables the remember setting toggle that lets them know they change change it, and links to the appropriate setting
 msgctxt "Third party map app picker feedback dialog"
 msgid "You can change this any time in %sSearch Settings%s"
-msgstr ""
-"Vous pouvez modifier cela à tout moment dans %1$sParamètres de recherche%2$s"
+msgstr "Vous pouvez modifier cela à tout moment dans %1$sParamètres de recherche%2$s"
 
 # smartling.placeholder_format=C
 #. Displayed when the user has reached a fixed weekly Duck.ai usage limit. %s is the reset date/time formatted in the user's locale, e.g. 'May 7, 2026, 5:00 PM'.
@@ -25696,8 +26126,7 @@ msgstr "Vous pouvez trouver le"
 #. Sentence shown after export, includes a placeholder for one or more filenames with bold formatting for the filename(s).
 msgctxt "duckai_migration"
 msgid "You can find the <b>%s</b> file in your downloads folder."
-msgstr ""
-"Vous trouverez le fichier <b>%1$s</b> dans votre dossier de téléchargements."
+msgstr "Vous trouverez le fichier <b>%1$s</b> dans votre dossier de téléchargements."
 
 # smartling.placeholder_format=C
 #. A link to the settings to where the user can hide the private search reminder from the filter bar of search results
@@ -26002,8 +26431,7 @@ msgstr ""
 #. Description shown when the user has reached the maximum voice chat duration.
 msgctxt "voice chat duration limit modal"
 msgid "You've reached the maximum voice chat duration for a single session."
-msgstr ""
-"Vous avez atteint la durée maximale de chat vocal lors d'une seule session."
+msgstr "Vous avez atteint la durée maximale de chat vocal lors d'une seule session."
 
 # smartling.placeholder_format=C
 #. Description shown when the user has reached the daily voice chat limit.
@@ -26017,8 +26445,7 @@ msgstr ""
 # smartling.placeholder_format=C
 #. Error in the duck.ai chat input when dictation is blocked because the user's voice/shared budget is exhausted.
 msgid "You've reached your dictation usage limit. Try again later."
-msgstr ""
-"Vous avez atteint votre limite d'utilisation de dictée. Réessayez plus tard."
+msgstr "Vous avez atteint votre limite d'utilisation de dictée. Réessayez plus tard."
 
 # smartling.placeholder_format=C
 #. Description explaining that Sync & Backup storage for chats with attachments is full and deleting the oldest such chats will resume syncing. %s is replaced with the batch-size cap (currently 10). The dispatch deletes AT MOST this many unpinned chats with files; the placeholder value is the upper bound, not the exact count.
@@ -26173,8 +26600,8 @@ msgid ""
 "Your browser provides a list of your most-visited sites. DuckDuckGo never "
 "has access to this data."
 msgstr ""
-"Votre navigateur fournit une liste des sites que vous visitez le plus."
-"DuckDuckGo n'a jamais accès à ces données."
+"Votre navigateur fournit une liste des sites que vous visitez le "
+"plus.DuckDuckGo n'a jamais accès à ces données."
 
 # smartling.placeholder_format=C
 msgctxt "new tab page"
@@ -26437,11 +26864,18 @@ msgstr ""
 "cela permanent. %3$sEn savoir plus%4$s"
 
 # smartling.placeholder_format=C
+#. Shown once the share link has been created. %s is a link that opens Duck.ai Settings, labeled Settings.
+msgctxt ""
+"Share modal info bullet pointing to the shared-links list; %s is a link "
+"labeled Settings"
+msgid "Your shared links are in %s."
+msgstr "Tes liens partagés se trouvent dans %1$s."
+
+# smartling.placeholder_format=C
 #. Confirms the recovery succeeded. The Next CTA closes the sheet.
 msgctxt "Body copy on the recover-data success sheet"
 msgid "Your synced chats are being restored to this device."
-msgstr ""
-"Vos discussions synchronisées sont en cours de restauration sur cet appareil."
+msgstr "Vos discussions synchronisées sont en cours de restauration sur cet appareil."
 
 # smartling.placeholder_format=C
 msgctxt "homepage ATB modal"
@@ -26509,8 +26943,7 @@ msgstr ""
 #. Description shown when a subscribed user has reached their voice chat limit for now, and should try to come back again later.
 msgctxt "voice chat limit modal"
 msgid "You’ve reached the voice chat limit for now. Please try again later."
-msgstr ""
-"Vous avez atteint la limite de chat vocal. Veuillez réessayer plus tard."
+msgstr "Vous avez atteint la limite de chat vocal. Veuillez réessayer plus tard."
 
 # smartling.placeholder_format=C
 #. The name of the Yucatec Maya language
@@ -26735,6 +27168,12 @@ msgstr "min"
 msgctxt "published date for videos"
 msgid "m"
 msgstr "min"
+
+# smartling.placeholder_format=C
+#. Accessible label (aria-label) for the button that opens a saved chat's options menu (pin, rename, delete, export, share) in the chat history list. Used on both desktop and mobile. Announced by screen readers only, not visible on screen.
+msgctxt "Aria label for the chat options menu button"
+msgid "menu"
+msgstr "menu"
 
 # smartling.placeholder_format=C
 #. Aria label for the button that opens the menu in the mobile variant.
@@ -27027,444 +27466,3 @@ msgstr "an"
 msgctxt "Product-tour tooltip action"
 msgid "→"
 msgstr "→"
-
-# smartling.placeholder_format=C
-#. %s is replaced with the name of the device, for example Chrome 150 (This device). Reword or move the parenthetical if that reads better in your language.
-msgctxt ""
-"Title of the device detail sheet when it shows the device the person is "
-"using right now; %s is the device name"
-msgid "%s (This device)"
-msgstr "%1$s (Cet appareil)"
-
-# smartling.placeholder_format=C
-#. The text between the two placeholders becomes a link to a help page about recovery codes. %s are the opening and closing link tags; keep the words Learn more between them.
-msgctxt ""
-"Learn more link at the end of the recovery section description inside Manage"
-msgid "%sLearn more%s"
-msgstr "%1$sEn savoir plus%2$s"
-
-# smartling.placeholder_format=C
-#. Button in the shared conversation panel footer that saves the conversation to the viewer's on-device chat history, called My Chats.
-msgctxt "Button in the footer of a shared-chat copy panel"
-msgid "Add to My Chats"
-msgstr "Ajouter à mes discussions"
-
-# smartling.placeholder_format=C
-#. Tells the user that every device has been signed out of syncing now that the data is gone.
-msgctxt ""
-"Body of the success screen shown after the server data has been deleted"
-msgid "All your devices are disconnected from Sync."
-msgstr "Tous vos appareils sont déconnectés de la synchronisation."
-
-# smartling.placeholder_format=C
-#. Shorter label for the copy button under the QR, used when it sits next to a Share button.
-msgctxt "Short button label that copies the sync code text to clipboard"
-msgid "Copy"
-msgstr "Copier"
-
-# smartling.placeholder_format=C
-#. Names the icon-only action that copies that row's share URL to the clipboard.
-msgctxt ""
-"Tooltip and accessible name for the copy button on a row of the Duck.ai "
-"shared links modal"
-msgid "Copy shared link"
-msgstr "Copier le lien partagé"
-
-# smartling.placeholder_format=C
-#. Tells the user to copy the pairing code on their other device.
-msgctxt "First numbered step heading on the Enter Code tab"
-msgid "Copy the code from another device"
-msgstr "Copiez le code depuis un autre appareil"
-
-# smartling.placeholder_format=C
-#. Shown when the code the user entered is not a valid sync code. Tells them where to find the correct code. The text between the two %s is the on-screen menu path and is shown in a darker colour.
-msgctxt "Description for the wrong code error screen"
-msgid ""
-"Copy the code from another device. Go to %sDuck.ai Settings › Chats › Sync & "
-"Backup › Sync With Another Device%s and try again."
-msgstr ""
-"Copiez le code depuis un autre appareil. Allez dans %1$sParamètres Duck.ai › "
-"Discussions › Sync & Backup › Synchroniser avec un autre appareil%2$s et "
-"réessayez."
-
-# smartling.placeholder_format=C
-#. Names the icon-only action that revokes that row's share link. Deleting is immediate — there is no confirmation step.
-msgctxt ""
-"Tooltip and accessible name for the delete button on a row of the Duck.ai "
-"shared links modal"
-msgid "Delete shared link"
-msgstr "Supprimer le lien partagé"
-
-# smartling.placeholder_format=C
-#. Sets expectations before the user deletes a link: revoking the link blocks future views, but anyone who already saved the conversation into their own chats keeps that copy.
-msgctxt "Description at the top of the Duck.ai shared links modal"
-msgid ""
-"Deleting a link stops it from working. People who have opened it and added "
-"the conversation to their chats will keep their own copy."
-msgstr ""
-"La suppression d’un lien l'empêche de fonctionner. Les personnes qui l’ont "
-"ouvert et ont ajouté la conversation à leurs discussions conserveront leur "
-"propre copie."
-
-# smartling.placeholder_format=C
-#. Names the trusted source an answer was grounded in. Shown with a verified badge instead of the AI model name when the response was built only from official DuckDuckGo help pages.
-msgctxt ""
-"Attribution shown in place of the model name in a Duck.ai assistant message"
-msgid "DuckDuckGo Help Pages"
-msgstr "Pages d'aide DuckDuckGo"
-
-# smartling.placeholder_format=C
-#. Replaces the 'Expires <date>' line once the share has passed its expiry. The link no longer resolves, but the row stays until the user deletes it.
-msgctxt ""
-"Status shown in place of the expiry date once a shared link has lapsed"
-msgid "Expired"
-msgstr "Périmé"
-
-# smartling.placeholder_format=C
-#. %s is a localized short date, e.g. 'Apr 17, 2025'. Shown for links that have not expired yet.
-msgctxt ""
-"Expiry line under a link title in the Duck.ai shared links modal; %s is a "
-"localized date"
-msgid "Expires %s"
-msgstr "Expire le %1$s"
-
-# smartling.placeholder_format=C
-#. Path to the pairing code on the other device. Bold segments are UI path labels.
-msgctxt "Detail under the first numbered step on the Enter Code tab"
-msgid ""
-"Go to %sDuck.ai Settings%s › %sChats › Sync & Backup › Sync With Another "
-"Device%s."
-msgstr ""
-"Accédez à %1$sParamètres Duck.ai%2$s › %3$sDiscussions › Sync & Backup › "
-"Synchroniser avec un autre appareil%4$s."
-
-# smartling.placeholder_format=C
-#. The user taps this to close the screen after their server data has been deleted.
-msgctxt "Button that dismisses the server-data-deleted success screen"
-msgid "Got It"
-msgstr "J'ai compris"
-
-# smartling.placeholder_format=C
-#. Button below the zoomed Dax-in-solar-glasses logo on Aug 12, 2026; searches for information about the eclipse.
-msgctxt "Button in the eclipse logo modal (mobile)"
-msgid "Learn More"
-msgstr "En savoir plus"
-
-# smartling.placeholder_format=C
-#. Title-case button label. Opens a modal listing the share links created on this device.
-msgctxt ""
-"Button on the Shared Links settings row that opens the shared links modal"
-msgid "Manage"
-msgstr "Gérer"
-
-# smartling.placeholder_format=C
-#. Label below the shared conversation panel, between the shared messages and any follow-up messages the viewer adds. Tells the viewer that those follow-ups stay private.
-msgctxt "Divider under the shared-copy panel"
-msgid "Messages beyond this point are only visible to you."
-msgstr "Vous uniquement pouvez voir les messages au-delà de ce point."
-
-# smartling.placeholder_format=C
-#. Accessible label (aria-label) for the three-dot overflow menu on an assistant response action bar in Duck.ai. Announced by screen readers only — the visible control is the icon. Menu items can include Search the web, Extend reasoning, Export, and Report (Windows).
-msgctxt "Accessible label for a menu button on a chat response"
-msgid "More actions"
-msgstr "Plus d'actions"
-
-# smartling.placeholder_format=C
-#. Label preceding the list of devices currently registered to the account.
-msgctxt "Section header for the device list inside Manage Sync & Backup"
-msgid "My Devices"
-msgstr "Mes appareils"
-
-# smartling.placeholder_format=C
-#. Tells the user where to find the pairing entry on their other device. Bold segments are UI path labels.
-msgctxt "Instruction under the Scan QR tab sub-heading"
-msgid ""
-"On another device go to %sDuck.ai Settings%s › %sChats › Sync & Backup › "
-"Sync With Another Device%s"
-msgstr ""
-"Sur un autre appareil, accédez à %1$sParamètres Duck.ai%2$s › "
-"%3$sDiscussions › Sync & Backup › Synchroniser avec un autre appareil%4$s"
-
-# smartling.placeholder_format=C
-#. Same path as the Scan QR instruction, plus a scan-this-code prompt. Bold segments are UI path labels.
-msgctxt "Instruction in the mobile Scan-or-Copy-Code modal"
-msgid ""
-"On another device go to %sDuck.ai Settings%s › %sChats › Sync & Backup › "
-"Sync With Another Device%s and scan this code:"
-msgstr ""
-"Sur un autre appareil, accédez à %1$sParamètres Duck.ai%2$s › "
-"%3$sDiscussions › Sync & Backup › Synchroniser avec un autre appareil%4$s et "
-"scannez ce code :"
-
-# smartling.placeholder_format=C
-#. Same as the Scan QR pairing instruction (DUCKCHAT_SYNC_PAIRING_SCAN_INSTRUCTION) plus the Recovery PDF option. Bold segments are UI path labels.
-msgctxt "Instruction on the recover-data scan/paste sheet"
-msgid ""
-"On another device go to %sDuck.ai Settings%s › %sChats › Sync & Backup › "
-"Sync With Another Device%s. Or scan the QR on your Recovery PDF."
-msgstr ""
-"Sur un autre appareil, accédez à %1$sParamètres Duck.ai%2$s › "
-"%3$sDiscussions › Sync & Backup › Synchroniser avec un autre appareil%4$s. "
-"Ou scannez le code QR figurant sur votre PDF de récupération."
-
-# smartling.placeholder_format=C
-#. Label for the paste button docked in the code field on the Enter Code tab.
-msgctxt "Button label that pastes the sync code from clipboard"
-msgid "Paste"
-msgstr "Coller"
-
-# smartling.placeholder_format=C
-#. Tells the user to paste the copied code into the field below.
-msgctxt "Second numbered step heading on the Enter Code tab"
-msgid "Paste it below"
-msgstr "Collez-le ci-dessous"
-
-# smartling.placeholder_format=C
-#. Shared headline of the Personal Information Removal instant answer shown on the search results page (US only), reused by the rotating slots whose heading is just the product name (the distinctive copy is in the body text).
-msgctxt "DuckDuckGo Personal Information Removal instant answer"
-msgid "Personal Information Removal"
-msgstr "Personal Information Removal"
-
-# smartling.placeholder_format=C
-#. Body text of the Personal Information Removal instant answer shown on the search results page (US only). One of several messages rotated over time. Explains that Personal Information Removal finds the user's info on data broker sites (companies that collect and sell personal information) and works to get it removed.
-msgctxt "DuckDuckGo Personal Information Removal instant answer"
-msgid ""
-"Personal Information Removal finds your info on data broker sites that are "
-"selling it. Then we work to get it removed for you."
-msgstr ""
-"Personal Information Removal trouve vos informations sur les sites de "
-"courtiers en données qui les vendent. Ensuite, nous nous efforçons de les "
-"faire supprimer pour vous."
-
-# smartling.placeholder_format=C
-#. Shown next to a 'Learn more' link when hovering (desktop) or tapping (mobile) the special Dax-in-solar-glasses logo displayed on Aug 12, 2026. The link searches for information about the eclipse.
-msgctxt "Tooltip on the header logo on the day of the 2026 solar eclipse"
-msgid "Ready for the solar eclipse?"
-msgstr "Prêt(e) pour l'éclipse solaire ?"
-
-# smartling.placeholder_format=C
-#. Label preceding the recovery code description and Download Recovery Code link.
-msgctxt "Section header for the recovery code area inside Manage"
-msgid "Recovery Code"
-msgstr "Code de récupération"
-
-# smartling.placeholder_format=C
-#. The user taps this to remove a device (other than the one they are using) so it can no longer sync.
-msgctxt "Button that starts removing one of the other devices from syncing"
-msgid "Remove Device"
-msgstr "Supprimer l'appareil"
-
-# smartling.placeholder_format=C
-#. Headline of the Personal Information Removal instant answer shown on the search results page (US only). One of several messages rotated over time. Invites the user to remove their personal information from the internet.
-msgctxt "DuckDuckGo Personal Information Removal instant answer"
-msgid "Remove your info from the internet"
-msgstr "Supprimez vos informations d'Internet"
-
-# smartling.placeholder_format=C
-#. Headline of the Personal Information Removal instant answer shown on the search results page (US only). One of several messages rotated over time. Invites the user to remove their personal information from the internet.
-msgctxt "DuckDuckGo Personal Information Removal instant answer"
-msgid "Remove your info online"
-msgstr "Supprimer vos informations en ligne"
-
-# smartling.placeholder_format=C
-#. Confirms that deleting the server data finished successfully.
-msgctxt ""
-"Title of the success screen shown after the server data has been deleted"
-msgid "Server data deleted"
-msgstr "Données du serveur supprimées"
-
-# smartling.placeholder_format=C
-#. Shown beside the Copy button under the QR code, only on devices whose browser can open a share sheet. It shares the same link the QR code contains, not a picture of the QR code.
-msgctxt ""
-"Button label that opens the system share sheet to send the sync code link to "
-"another app"
-msgid "Share"
-msgstr "Partager"
-
-# smartling.placeholder_format=C
-#. Title-case label for the Duck.ai setting that opens the list of share links created on this device. The row has no description line.
-msgctxt "Title of the Shared Chat Links row on the Duck.ai chat settings page"
-msgid "Shared Chat Links"
-msgstr "Liens des discussions partagées"
-
-# smartling.placeholder_format=C
-#. Modal header above the list of share links created on this device. Separate from the settings row label so the two can be worded differently.
-msgctxt "Header of the Duck.ai shared links modal"
-msgid "Shared chat links"
-msgstr "Liens de discussions partagées"
-
-# smartling.placeholder_format=C
-#. Error toast shown when a shared chat cannot be opened and no more specific reason is available.
-msgctxt "Generic toast for share view load failures"
-msgid "Something went wrong loading this shared chat."
-msgstr ""
-"Une erreur s'est produite lors du chargement de cette discussion partagée."
-
-# smartling.placeholder_format=C
-#. Appears under the device name when the user opens the details for one of their devices. %s is replaced with a date.
-msgctxt ""
-"Shows the date a device last synced; %s is a date such as Apr 17, 2025"
-msgid "Synced on %s"
-msgstr "Synchronisé le %1$s"
-
-# smartling.placeholder_format=C
-#. Accessible label announced by screen readers for the scrollable container around a data table in an AI chat response. Keyboard users can focus this container to scroll wide tables. Please keep the text as short as possible.
-msgctxt "AI Chat accessible label for a scrollable table in a response"
-msgid "Table"
-msgstr "Tableau"
-
-# smartling.placeholder_format=C
-#. Renders to the right of the device name for the row that matches this device's id.
-msgctxt "Label marking the current device in the synced devices list"
-msgid "This device"
-msgstr "Cet appareil"
-
-# smartling.placeholder_format=C
-#. Reassures the user that the most recent chats stay saved on this device even after they turn syncing off. The %s is a placeholder for the maximum number of chats stored locally.
-msgctxt ""
-"Body text of the dialog asking the user to confirm turning off syncing on "
-"the device they are using"
-msgid ""
-"This device will no longer be able to access your synced data on other "
-"devices. The last %s chats will still remain available in local storage."
-msgstr ""
-"Cet appareil ne pourra plus accéder à vos données synchronisées sur d'autres "
-"appareils. Les %1$s dernières discussions resteront disponibles dans le "
-"stockage local."
-
-# smartling.placeholder_format=C
-#. Header label at the top of the shared conversation panel in Duck.ai when someone opens a shared chat link. Tells the viewer that the messages shown are a copy of a shared chat.
-msgctxt "Label above messages in a shared chat view"
-msgid "This is a copy of a shared chat."
-msgstr "Ceci est une copie d'une discussion partagée."
-
-# smartling.placeholder_format=C
-#. Error toast shown when a shared chat link cannot be opened because the link is incomplete or its key is incorrect.
-msgctxt "Toast when share decryption fails"
-msgid "This shared chat could not be opened. The link may be incomplete."
-msgstr ""
-"Cette discussion partagée n'a pas pu être ouverte. Le lien est peut-être "
-"incomplet."
-
-# smartling.placeholder_format=C
-#. Error toast shown when a shared chat link cannot be opened because it was deleted or expired.
-msgctxt "Toast when a share link is missing or expired"
-msgid "This shared chat link is no longer available."
-msgstr "Ce lien de discussion partagée n'est plus disponible."
-
-# smartling.placeholder_format=C
-#. Call-to-action button label on the Personal Information Removal instant answer shown on the search results page (US only). Starts a free trial of the paid subscription. One of several CTAs rotated over time.
-msgctxt "DuckDuckGo Personal Information Removal instant answer"
-msgid "Try Free!"
-msgstr "Essayez gratuitement !"
-
-# smartling.placeholder_format=C
-#. Call-to-action button label on the Personal Information Removal instant answer shown on the search results page (US only). Starts a free trial of the paid subscription. Default CTA, used by most rotated messages.
-msgctxt "DuckDuckGo Personal Information Removal instant answer"
-msgid "Try for Free!"
-msgstr "Essayez gratuitement !"
-
-# smartling.placeholder_format=C
-#. The user taps this to turn off Sync & Backup on the device they are using.
-msgctxt "Button that confirms turning off syncing"
-msgid "Turn Off"
-msgstr "Désactiver"
-
-# smartling.placeholder_format=C
-#. Asks the user to confirm wiping the server-side backup and disconnecting all devices.
-msgctxt "Title for the destructive Delete Server Data confirmation modal"
-msgid "Turn Off Sync & Backup and Delete Server Data?"
-msgstr "Désactiver Sync & Backup et supprimer les données du serveur ?"
-
-# smartling.placeholder_format=C
-#. Placeholder shown in the Duck.ai shared links list when the stored share record has an empty title.
-msgctxt "Fallback name for a shared link whose chat has no title"
-msgid "Untitled chat"
-msgstr "Discussion sans titre"
-
-# smartling.placeholder_format=C
-#. Error toast shown when a shared chat was created by a newer version of Duck.ai than the viewer's version supports. 'Duck.ai' is a brand name and should not be translated.
-msgctxt "Toast when a shared chat requires a newer version of Duck.ai"
-msgid "Update Duck.ai to view this shared chat."
-msgstr "Mets à jour Duck.ai pour voir ce chat partagé."
-
-# smartling.placeholder_format=C
-#. Body text of the Personal Information Removal instant answer shown on the search results page (US only). One of several messages rotated over time. 'Data broker sites' are companies that collect and sell personal information; the subscription also includes a VPN and other premium protections.
-msgctxt "DuckDuckGo Personal Information Removal instant answer"
-msgid ""
-"We find and remove your personal info from data broker sites. Plus get a VPN "
-"and more."
-msgstr ""
-"Nous trouvons et supprimons vos informations personnelles des sites de "
-"courtiers en données. En prime, obtenez un VPN et bien plus encore."
-
-# smartling.placeholder_format=C
-#. Body text of the Personal Information Removal instant answer shown on the search results page (US only). One of several messages rotated over time. 'Data broker sites' are companies that collect and sell personal information; the dashboard shows removal progress.
-msgctxt "DuckDuckGo Personal Information Removal instant answer"
-msgid ""
-"We regularly scan data broker sites for your personal info, and we share our "
-"progress with you in an easy-to-use dashboard."
-msgstr ""
-"Nous analysons régulièrement les sites de courtiers en données en "
-"recherchant vos informations personnelles et nous partageons notre "
-"progression dans un tableau de bord simple d’utilisation."
-
-# smartling.placeholder_format=C
-#. Body text of the Personal Information Removal instant answer shown on the search results page (US only). One of several messages rotated over time. 'Data broker sites' are companies that collect and sell personal information.
-msgctxt "DuckDuckGo Personal Information Removal instant answer"
-msgid ""
-"We'll scan data broker sites for your email, name, address, and more, and "
-"work to get anything we find about you removed."
-msgstr ""
-"Nous analyserons les sites de courtiers en données en recherchant votre "
-"adresse e-mail, votre nom, votre adresse et plus encore, et nous nous "
-"efforcerons de faire supprimer tout ce que nous trouverons sur vous."
-
-# smartling.placeholder_format=C
-#. Body text of the Personal Information Removal instant answer shown on the search results page (US only). One of several messages rotated over time. Emphasizes that removal runs from the user's device; 'data broker sites' are companies that collect and sell personal information.
-msgctxt "DuckDuckGo Personal Information Removal instant answer"
-msgid ""
-"Works right from your device to remove your email, name, address, and more "
-"from data broker sites."
-msgstr ""
-"Fonctionne directement depuis votre appareil pour supprimer votre adresse e-"
-"mail, votre nom, votre adresse et plus encore des sites de courtiers en "
-"données."
-
-# smartling.placeholder_format=C
-#. Shown instead of the rows when the device has no share links. Scoped to this device on purpose — links created elsewhere can't be listed or deleted here.
-msgctxt ""
-"Empty state shown inside the list container of the Duck.ai shared links modal"
-msgid "You have no shared chat links."
-msgstr "Vous n'avez aucun lien de discussion partagée."
-
-# smartling.placeholder_format=C
-#. Reassures the user that a limited number of recent chats stay saved on the listed devices after deleting. The %s is a placeholder for the maximum number of chats stored locally.
-msgctxt ""
-"Second body paragraph in the Delete Server Data confirmation modal, above "
-"the device list"
-msgid ""
-"Your %s most recent chats will be available in local storage on these "
-"browsers:"
-msgstr ""
-"Vos %1$s dernières discussions seront disponibles dans le stockage local de "
-"ces navigateurs :"
-
-# smartling.placeholder_format=C
-#. Tells the user their chats are being kept in sync privately. 'End-to-end encryption' means only the user's own devices can read the data.
-msgctxt ""
-"Description shown under the title on the Sync & Backup settings screen"
-msgid "Your Duck.ai chats are being synced with end-to-end encryption."
-msgstr ""
-"Vos discussions Duck.ai sont en cours de synchronisation avec un cryptage de "
-"bout en bout."
-
-# smartling.placeholder_format=C
-#. Explains the main consequence of deleting all server data: the backup is removed and every device is signed out of syncing.
-msgctxt "First body paragraph in the Delete Server Data confirmation modal"
-msgid ""
-"Your backup will be deleted from DuckDuckGo's server. All devices will be "
-"disconnected from sync."
-msgstr ""
-"Votre sauvegarde sera supprimée du serveur de DuckDuckGo. Tous les appareils "
-"seront déconnectés de la synchronisation."

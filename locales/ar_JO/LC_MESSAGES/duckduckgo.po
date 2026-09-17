@@ -243,6 +243,11 @@ msgctxt "Usage limit banner in Duck.ai."
 msgid "%s of weekly limit"
 msgstr ""
 
+#. Indicates which outlet wrote a news story and where it is hosted. First %s is the original outlet; second %s is the aggregator display name. E.g. New York Times on MSN.com
+msgctxt "News Vertical item"
+msgid "%s on %s"
+msgstr ""
+
 #. Label next to a user review. The placeholders are the user name and the review website. For example: 'John on TripAdvisor'
 msgctxt "maps_places"
 msgid "%s on %s"
@@ -968,6 +973,11 @@ msgctxt "Modal header for recent chats information"
 msgid "About Recent Chats"
 msgstr ""
 
+#. Tooltip shown on hover/focus of the info icon button in the Search Assist header, which opens the 'About AI-Assisted Answers' explainer modal.
+msgctxt "duckassist"
+msgid "About Search Assist"
+msgstr ""
+
 #. Title displayed at the top of the modal that explains the Sync & Backup feature for native DDG browsers.
 msgctxt "Title for the About Sync modal"
 msgid "About Sync & Backup"
@@ -979,6 +989,11 @@ msgstr ""
 
 #. A title for the ads tooltip
 msgid "About our ads"
+msgstr ""
+
+#. Title of the modal that provides information about Chat History when Sync & Backup is enabled. The first three spaces are non-breaking (\u00a0) so the title wraps after 'with' rather than leaving an orphan word; translators may reposition or drop them to suit the target language.
+msgctxt "Modal header for chat history with sync information"
+msgid "About Chat History with Sync & Backup"
 msgstr ""
 
 #. This is an option for a user setting. It refers to showing the URL for a result ABOVE the TITLE of the result -- Example image: https://i.imgur.com/bTm8PCc.png
@@ -1084,6 +1099,23 @@ msgctxt "feedback form"
 msgid "Ad is suspicious"
 msgstr ""
 
+#. Accessible text of a button that opens a dropdown menu with options to attach images or page context to the current AI chat message.
+msgctxt "Button to open menu for attaching images or page context to AI chat"
+msgid "Add"
+msgstr ""
+
+#. Confirms the tab selection and attaches the checked tabs to the current Duck.ai chat message.
+msgctxt ""
+"Primary button that attaches the tabs the user checked in the tab picker "
+"dialog"
+msgid "Add"
+msgstr ""
+
+#. Button that enables the Search/Duck.ai toggle.
+msgctxt "new tab page"
+msgid "Add Duck.ai Toggle"
+msgstr ""
+
 #. Link to add the DuckDuckGo extension to the user's web browser.
 msgid "Add DuckDuckGo"
 msgstr "اضافه DuckDuckGo"
@@ -1102,6 +1134,24 @@ msgstr ""
 
 #. Link to add the DuckDuckGo extension to the user's web browser. The placeholder is the name of the browser the user is currently using. For example: 'Add DuckDuckGo to Chrome'
 msgid "Add DuckDuckGo to %s"
+msgstr ""
+
+#. Title-case label used in the attach dropdown menu when only PDF file upload is supported in the Duck.ai chat.
+msgctxt ""
+"Add PDF files to the Duck.ai chat conversation (attach dropdown menu item)"
+msgid "Add File"
+msgstr ""
+
+#. Title-case label used in the attach dropdown menu when only image upload is supported in the Duck.ai chat.
+msgctxt "Add an image to the AI chat conversation (attach dropdown menu item)"
+msgid "Add Image"
+msgstr ""
+
+#. Title-case label used in the attach dropdown menu when both image and PDF file upload are supported in the Duck.ai chat.
+msgctxt ""
+"Add images or PDFs to the Duck.ai chat conversation (attach dropdown menu "
+"item)"
+msgid "Add Image or File"
 msgstr ""
 
 #. Title-case label used in the attach dropdown menu when only image upload is supported in the Duck.ai chat.
@@ -1141,6 +1191,20 @@ msgctxt ""
 "Attach page context from the current tab to the AI chat message (standalone "
 "CTA button and icon toggle tooltip)"
 msgid "Add Page Content"
+msgstr ""
+
+#. Title-case label for the tab-picker option in the attach dropdown menu.
+msgctxt ""
+"Open the tab picker to attach browser tab content to the AI chat message "
+"(attach dropdown menu item)"
+msgid "Add Tabs"
+msgstr ""
+
+#. Title shown at the top of the tab-picker dialog, and its accessible name. Distinct from the dropdown menu item that opens it (DUCKCHAT_ACTION_ATTACH_PAGE_CONTEXT_MENU_ITEM), which says "Add Tabs".
+msgctxt ""
+"Title and accessible name of the tab-picker dialog opened from the attach "
+"dropdown menu"
+msgid "Add Tabs"
 msgstr ""
 
 #. https://duckduckgo.com/search_box near the top
@@ -1212,6 +1276,11 @@ msgstr "الاضافات"
 #. Loading message shown when the image generation is nearing completion.
 msgctxt "Loading state message"
 msgid "Adding finishing touches"
+msgstr ""
+
+#. Accessible label (aria-label) for the textarea in the Customize Responses dialog where users type extra instructions for the AI model. Announced by screen readers only; the visible placeholder text gives a longer example. Please keep the text short.
+msgctxt "Aria label for the additional instructions textarea"
+msgid "Additional instructions"
 msgstr ""
 
 #. Label that's displayed next to an address below a web search result.
@@ -1456,6 +1525,11 @@ msgstr ""
 #. Title shown to the host device (the one that is logged in) after the pair completes.
 msgctxt "Title for the host-device success screen"
 msgid "All done!"
+msgstr ""
+
+#. Accessible label (aria-label) for the read-only textarea in the Customize Responses dialog that shows the combined instructions sent to the AI model. Announced by screen readers only, not visible on screen.
+msgctxt "Aria label for the read-only textarea listing all AI instructions"
+msgid "All instructions"
 msgstr ""
 
 #. This is shown in a layout selector for images, other options are: square, tall, wide  https://duckduckgo.com/?q=images+of+cats&iar=images&iax=images&ia=images.
@@ -1731,6 +1805,12 @@ msgid "Any resolution"
 msgstr ""
 
 msgid "Any time"
+msgstr ""
+
+#. Replaces the create-flow public-access bullet after the share link has been created.
+msgctxt ""
+"Share modal info bullet about public access, shown once the link exists"
+msgid "Anyone with the link can view and save a copy of the chat."
 msgstr ""
 
 msgid "Anywhere"
@@ -2293,6 +2373,17 @@ msgid ""
 "removing PII like names, email addresses, and identifying metadata."
 msgstr ""
 
+#. Variant of DUCKCHAT_RESPONSE_FEEDBACK_ANONYMOUS_DISCLAIMER that also tells the user uploaded files and generated images are not part of the report. Shown instead of that string, never alongside it.
+msgctxt ""
+"Disclaimer at the bottom of the Duck.ai response feedback form, replacing "
+"DUCKCHAT_RESPONSE_FEEDBACK_ANONYMOUS_DISCLAIMER when the rated response "
+"generated an image"
+msgid ""
+"Before storing this report, DuckDuckGo will remove uploaded files and "
+"generated images, and will anonymize your conversation by removing PII like "
+"names, email addresses, and identifying metadata."
+msgstr ""
+
 #. Label that's displayed next to a past start date below a web search result.
 msgctxt "Rich Facts label"
 msgid "Began"
@@ -2803,6 +2894,13 @@ msgctxt "Secondary action that dismisses the turn-off Sync & Backup dialog"
 msgid "Cancel"
 msgstr ""
 
+#. Discards any tabs the user checked in the tab picker dialog and closes it, leaving existing attachments untouched.
+msgctxt ""
+"Secondary button that dismisses the tab picker dialog without attaching "
+"anything"
+msgid "Cancel"
+msgstr ""
+
 #. A label for the button that allows the user to dismiss a messsage that allows them to filter the results by domain.
 msgctxt "Site filter message"
 msgid "Cancel"
@@ -2971,6 +3069,11 @@ msgstr ""
 #. Button that allows the user to change location.
 msgctxt "precise_user_location"
 msgid "Change Location"
+msgstr ""
+
+#. Tooltip shown on hover/focus of the settings (gear) icon button in the Search Assist header and generate (on-demand) introduction. Opens the Search Assist frequency settings modal.
+msgctxt "duckassist"
+msgid "Change Search Assist settings"
 msgstr ""
 
 #. Tooltip text for the button that allows the user to change the default AI model.
@@ -3203,9 +3306,19 @@ msgctxt "Feedback option for offensive chat response"
 msgid "Chat response is offensive"
 msgstr ""
 
+#. Headline in the About Chat History modal explaining that browser behavior affects local chat storage.
+msgctxt "Chat history about modal list item headline"
+msgid "Chat storage varies by browser"
+msgstr ""
+
 #. Placeholder text used in chat input for user’s messages. Example: 'Chat with GPT-3'
 msgctxt "Placeholder text user’s chat input"
 msgid "Chat with %s"
+msgstr ""
+
+#. Secondary line of the one-time Duck.ai feature-discovery drawer shown to new installs under the search box.
+msgctxt "new tab page"
+msgid "Chat with popular AI models, anonymized by us."
 msgstr ""
 
 #. Text for a button button that allows users to access their recent chat conversations. The translation should convey the meaning of 'recent activity' or 'recently generated conversations', not historical events or periods.
@@ -3221,6 +3334,13 @@ msgstr ""
 #. Title for the chats section on the sidebar.
 msgctxt "Title for the chats section on the sidebar"
 msgid "Chats"
+msgstr ""
+
+#. Supporting copy under the end-to-end encryption headline in sync-enabled chat history about modals.
+msgctxt "Chat history with sync modal list item description"
+msgid ""
+"Chats are securely stored on DuckDuckGo's server with end-to-end encryption. "
+"Nobody but you can see your data, not even us."
 msgstr ""
 
 #. Text explaining that the Chat History feature stores the user's chats locally to their device, and not in other remote servers. Also explains that disabling chat history will delete pinned chats.
@@ -4217,8 +4337,18 @@ msgctxt "Confirmation pill shown after the user taps Copy on the View Code tab"
 msgid "Copied"
 msgstr ""
 
+#. Short inline label that appears next to the checkmark icon on the Copy button (v.A layout) briefly after the user copies the Search Assist answer. Distinct from SEARCH_ASSIST_ANSWER_COPIED, which is a full-sentence toast used elsewhere; this one must stay short since it animates into a small fixed-width button.
+msgctxt "Search Assist"
+msgid "Copied"
+msgstr ""
+
 #. Text of a tooltip displayed when the user has copied the text content after pressing a button
 msgctxt "Text for a button after copying content to the clipboard"
+msgid "Copied"
+msgstr ""
+
+#. Tooltip and accessibility label shown on the Search Assist copy icon button while its checkmark feedback is active.
+msgctxt "duckassist"
 msgid "Copied"
 msgstr ""
 
@@ -4300,6 +4430,11 @@ msgctxt "Tooltip for copy action"
 msgid "Copy to clipboard"
 msgstr ""
 
+#. Tooltip shown on hover/focus of the copy icon button in the Search Assist header, which copies the generated answer to the user's clipboard.
+msgctxt "duckassist"
+msgid "Copy to clipboard"
+msgstr ""
+
 #. Descriptive text for a button that allows users to copy text that has been translated.
 msgctxt "translations_module"
 msgid "Copy translation"
@@ -4371,6 +4506,11 @@ msgstr ""
 
 #. Title-case primary button label in the Duck.ai share modal that creates an encrypted share link.
 msgctxt "Primary button to create a share link"
+msgid "Create Public Link"
+msgstr ""
+
+#. Title-case primary button label in the Duck.ai share modal that creates an encrypted share link.
+msgctxt "Primary button to create a share link"
 msgid "Create Share Link"
 msgstr ""
 
@@ -4408,6 +4548,13 @@ msgstr ""
 #. Text that indicates the creator of an AI Model, such as 'Created by OpenAI'.
 msgctxt "Label copy indicating the creator of an AI Model"
 msgid "Created by %s"
+msgstr ""
+
+#. Explains that creating a share link makes a copy of the selected chat content that anyone with the link can view and save.
+msgctxt "Share modal info bullet about public access"
+msgid ""
+"Creates a copy of the chat that can be viewed and saved by anyone who opens "
+"the link."
 msgstr ""
 
 #. Explains that anyone with the link can view the shared copy.
@@ -4478,6 +4625,11 @@ msgstr ""
 #. Indicates the current win or loss streak of a team
 msgctxt "Sports module"
 msgid "Current Streak"
+msgstr ""
+
+#. Label appended to a tab entry to indicate it is the user's currently active browser tab. Surrounding punctuation (a bullet separator or parentheses) is added by the UI, so this string must not include any.
+msgctxt "Suffix label indicating a tab is the currently active browser tab"
+msgid "Current Tab"
 msgstr ""
 
 #. Text of menu item in attach dropdown that attaches the current tab's page content to the AI chat message.
@@ -4764,6 +4916,11 @@ msgstr ""
 #. Button text to delete unpinned chats older than 30 days to free up sync storage.
 msgctxt "Sync limit modal button"
 msgid "Delete Chats Older Than 30 Days"
+msgstr ""
+
+#. Text for a button that clears all recent chats and revokes every shared chat link created on this device.
+msgctxt "Button text in the modal for deleting all recent chats"
+msgid "Delete Chats and Shared Links"
 msgstr ""
 
 #. Button text to confirm deletion of an image.
@@ -5070,6 +5227,11 @@ msgctxt "Feedback prompt"
 msgid "Dislike source"
 msgstr ""
 
+#. Negative reason chip in the Duck.ai response thumbs-down feedback form when the rated turn includes a settled generated image.
+msgctxt "Feedback prompt"
+msgid "Dislike visual style"
+msgstr ""
+
 #. This appears on a button that a user clicks to close a notification.
 msgid "Dismiss"
 msgstr ""
@@ -5102,6 +5264,11 @@ msgstr ""
 #. ARIA label describing the action of the dismiss button on the sidemenu subscription promo.
 msgctxt "Sidemenu subscription promo"
 msgid "Dismiss promotion"
+msgstr ""
+
+#. Accessible label (aria-label) for the close (X) button that dismisses the survey invitation banner in Duck.ai. Announced by screen readers only, not visible on screen.
+msgctxt "Aria label for the close button on the survey banner"
+msgid "Dismiss survey"
 msgstr ""
 
 #. Accessible label for the close (X) button that dismisses the onboarding checklist.
@@ -5154,6 +5321,11 @@ msgid "Division Record"
 msgstr ""
 
 msgid "Djibouti"
+msgstr ""
+
+#. Negative reason chip in the Duck.ai response thumbs-down feedback form when the rated turn includes a settled generated image.
+msgctxt "Feedback prompt"
+msgid "Doesn't follow instructions"
 msgstr ""
 
 #. This is an option for a user setting. It refers to showing only the domain for a website URL (e.g. domain.com) -- Example image: https://i.imgur.com/KkBcFcQ.png
@@ -6016,6 +6188,11 @@ msgctxt "DuckChat upload consent prompt for encrypted models"
 msgid "Edit Prompt"
 msgstr ""
 
+#. Accessible label (aria-label) for the text area in which the user edits a previously sent chat message in Duck.ai. Announced by screen readers only, not visible on screen.
+msgctxt "Aria label for the message-editing text area"
+msgid "Edit message"
+msgstr ""
+
 #. Title text shown for an assistant response that contains an edited image. Shown to internal users only
 msgctxt "Assistant response title"
 msgid "Edited image. Cost %s (internal only)"
@@ -6195,6 +6372,11 @@ msgctxt ""
 msgid "Encrypted model"
 msgstr ""
 
+#. Explains that the shared chat is encrypted so DuckDuckGo cannot read its contents.
+msgctxt "Share modal info bullet about encryption"
+msgid "Encrypted. Not even DuckDuckGo can read your chat."
+msgstr ""
+
 #. shown after the DuckDuckGo extension is installed
 msgctxt "welcome message"
 msgid "Encrypts connections when possible"
@@ -6208,6 +6390,13 @@ msgstr ""
 #. In the context of the clock of a sports game, indicates that a game period is over and we are on a break. E.g. 'End of 1st', 'End of OT' where 1st would be 1st period, and OT would be an overtime period
 msgctxt "Sports module"
 msgid "End of %s"
+msgstr ""
+
+#. Written into the exported text file of a chat that was saved from a shared link, right after the last shared message. Counterpart of the top marker DUCKCHAT_SHARE_VIEW_COPY_LABEL.
+msgctxt ""
+"Marker line in an exported chat .txt after the messages that came from a "
+"shared link"
+msgid "End of shared chat"
 msgstr ""
 
 #. Label that's displayed next to a past end date below a web search result.
@@ -6612,6 +6801,11 @@ msgctxt "Label for fast reasoning mode in Duck.ai"
 msgid "Fast"
 msgstr ""
 
+#. Positive reason chip in the Duck.ai response thumbs-up feedback form when the rated turn produced a generated image.
+msgctxt "Feedback prompt"
+msgid "Fast image generation"
+msgstr ""
+
 #. Tagline in a promotion for a desktop web browser
 msgctxt "Browser Promo Popover"
 msgid "Fast. Secure. Free."
@@ -6699,6 +6893,10 @@ msgid "Filter by Date"
 msgstr ""
 
 msgid "Filter by Region"
+msgstr ""
+
+#. An aria-label for a toggle button that turns on/off the region filter.
+msgid "Filter by the selected region"
 msgstr ""
 
 #. Message that appears above the search results encouraging them to filter results by domain. The placeholder string would include the domain of the website. E.g. 'Filter to only see results from reddit.com'
@@ -6856,6 +7054,16 @@ msgstr ""
 
 #. A placeholder for the AI Chat prompt input when used in the context of asking follow-up questions based on a DuckAssist reponse on mobile
 msgid "Follow-up question"
+msgstr ""
+
+#. Explains that messages added after the shared copy remain private to the person continuing the chat.
+msgctxt "Share modal info bullet about private original chat"
+msgid "Follow-ups remain private."
+msgstr ""
+
+#. Positive reason chip in the Duck.ai response thumbs-up feedback form when the rated turn produced a generated image.
+msgctxt "Feedback prompt"
+msgid "Followed instructions"
 msgstr ""
 
 #. Link to DuckDuckGo's Twitter profile.
@@ -7278,6 +7486,11 @@ msgctxt "DuckDuckGo Subscription instant answer"
 msgid "Get DuckDuckGo VPN, advanced Duck.ai, and Identity Theft Restoration."
 msgstr ""
 
+#. Sentence shown when hovering the Dax-in-sunglasses logo (desktop, where the whole sentence is the link) or tapping it (mobile, where it is a heading above a short button). It must read as a call to action on its own, since on desktop there is no separate link text. Points at /collaborations, the DuckDuckGo branded merchandise line. Names sunglasses specifically, so it belongs to that logo only -- another merch logo needs its own.
+msgctxt "Tooltip on the header logo for sunglasses searches"
+msgid "Get DuckDuckGo sunglasses and other gear."
+msgstr ""
+
 #. 'Get' refers to downloading our free browser app from the Google Play Store
 msgctxt "SERP footer content"
 msgid "Get It on Google Play"
@@ -7598,6 +7811,11 @@ msgstr ""
 #. A positive feedback suggestion saying the feature has a good privacy policy
 msgctxt "Feedback prompt"
 msgid "Good privacy policy"
+msgstr ""
+
+#. Positive reason chip in the Duck.ai response thumbs-up feedback form when the rated turn produced a generated image.
+msgctxt "Feedback prompt"
+msgid "Good visual style"
 msgstr ""
 
 #. Part of the sentence: "<b>Goodies</b> and no tracking." (used for limited browsers, mobile and co.)
@@ -8261,6 +8479,11 @@ msgstr "كيف يكون مخفيا؟"
 msgid "How it works"
 msgstr ""
 
+#. Headline in chat history about modals for the temporary encrypted server storage explanation.
+msgctxt "Chat history about modal list item headline"
+msgid "How it works"
+msgstr ""
+
 #. Text for the link that takes the user to the a model with more information about a feature.
 msgctxt "Link text for the settings modal"
 msgid "How it works"
@@ -8513,6 +8736,11 @@ msgstr ""
 msgctxt ""
 "Disclaimer below chat input in Duck.ai when image generation is enabled"
 msgid "Image prompts must comply with the Duck.ai %s."
+msgstr ""
+
+#. Positive reason chip (shown first) in the Duck.ai response thumbs-up feedback form when the rated turn produced a generated image. Replaces the text-response chips on that turn. Not shown for text-only responses or when generation failed.
+msgctxt "Feedback prompt"
+msgid "Image quality"
 msgstr ""
 
 msgctxt "settingsvalue"
@@ -9262,6 +9490,11 @@ msgctxt "settings"
 msgid "Learn how DuckDuckGo settings are managed"
 msgstr ""
 
+#. Shown in Duck.ai Settings > Chats as the description link under the Shared Chat Links row, next to its Manage button. The whole text is a link to the chat-sharing help page.
+msgctxt "Help-page link under the Shared Chat Links row in Duck.ai Settings"
+msgid "Learn how shared chats work"
+msgstr ""
+
 #. Description of a page with more information about how anonymous location works.
 msgctxt "precise_user_location"
 msgid "Learn how we keep your location private"
@@ -9408,6 +9641,23 @@ msgstr ""
 #. Rugby match stats
 msgctxt "Sports module"
 msgid "Lineouts Won"
+msgstr ""
+
+#. Shown instead of the static expiry bullet when the modal holds an existing link. %s is a whole number of days, always 2 or more.
+msgctxt ""
+"Share modal info bullet counting down the expiry of an existing link; %s is "
+"a number of days"
+msgid "Link expires in %s days."
+msgstr ""
+
+#. Shown in the share modal info bullets when the modal holds an existing link on its last day, replacing the static expiry bullet. Singular counterpart of DUCKCHAT_SHARE_INFO_EXPIRES_DAYS.
+msgctxt "Share modal info bullet on the last day of an existing link"
+msgid "Link expires in 1 day."
+msgstr ""
+
+#. Explains the thirty-day share link lifetime.
+msgctxt "Share modal info bullet about link expiry"
+msgid "Link expires in 30 days."
 msgstr ""
 
 #. Explains the seven-day share link lifetime.
@@ -9776,6 +10026,11 @@ msgstr ""
 #. Button on the AI Features settings page (DuckDuckGo app only) that deep-links into the browser's Duck.ai settings screen.
 msgctxt "setting"
 msgid "Manage in Browser Settings"
+msgstr ""
+
+#. Modal header above the list of share links created on this device. Separate from the settings row label so the two can be worded differently.
+msgctxt "Header of the Duck.ai shared links modal"
+msgid "Manage shared chat links"
 msgstr ""
 
 #. Link to the site exclusion settings page
@@ -10819,6 +11074,12 @@ msgctxt "Empty state when there are no open browser tabs"
 msgid "No open tabs"
 msgstr ""
 
+#. Status text displayed in the Duck.ai attach dropdown menu when there are no open browser tabs whose page content can be attached.
+msgctxt ""
+"Empty state in the attach dropdown when there are no browser tabs to attach"
+msgid "No page content available"
+msgstr ""
+
 msgctxt "settingsvalue"
 msgid "No preference (default)"
 msgstr ""
@@ -11148,6 +11409,11 @@ msgstr ""
 #. Button that confirms a user has read a message.
 msgctxt "mobile promotion on desktop"
 msgid "OK, got it!"
+msgstr ""
+
+#. Pill badge on the one-time Duck.ai feature-discovery drawer shown to new installs under the search box. All caps by design; adapt casing to what suits your language.
+msgctxt "new tab page"
+msgid "OPTIONAL"
 msgstr ""
 
 #. Separator label between actions.
@@ -11510,6 +11776,13 @@ msgstr ""
 #. Tooltip text that appears when hovering over the settings button.
 msgctxt "Tooltip label for the settings button"
 msgid "Open settings"
+msgstr ""
+
+#. Names the icon-only action, shown on hover, that opens that row's share URL in a new tab.
+msgctxt ""
+"Tooltip and accessible name for the open button on a row of the Duck.ai "
+"shared links modal"
+msgid "Open shared link"
 msgstr ""
 
 #. Text that indicates that an AI Model is open source. Please stick to a short translation as this is used in a small label.
@@ -12404,6 +12677,11 @@ msgctxt "Feedback prompt"
 msgid "Poor formatting"
 msgstr ""
 
+#. Negative reason chip (shown first) in the Duck.ai response thumbs-down feedback form when the rated turn includes a settled generated image (success or failure). Replaces the text-response chips on that turn. Not shown for text-only responses.
+msgctxt "Feedback prompt"
+msgid "Poor image quality"
+msgstr ""
+
 #. Secondary line of the one-time Duck.ai feature-discovery drawer shown to new installs under the search box.
 msgctxt "new tab page"
 msgid "Popular AI models available. No account needed. Chats anonymized by us."
@@ -12850,6 +13128,11 @@ msgstr ""
 msgid "Protected"
 msgstr ""
 
+#. Headline in sync-enabled chat history about modals explaining encrypted server storage.
+msgctxt "Chat history with sync modal list item headline"
+msgid "Protected with end-to-end encryption"
+msgstr ""
+
 #. Tagline for DuckDuckGo's values, emphasizing we protect users privacy as our top priority
 msgid "Protection. Privacy. Peace of mind."
 msgstr ""
@@ -12958,11 +13241,21 @@ msgctxt "Sports module"
 msgid "Rankings"
 msgstr ""
 
+#. Accessible label read out by screen readers for a visual star rating, since the stars themselves convey no text. The first placeholder is the rating, the second is the maximum possible rating. Example: 'Rated 4.5 out of 5'
+msgctxt "star rating on a product"
+msgid "Rated %s out of %s"
+msgstr ""
+
 #. Placeholder will be a number. This is used to describe extension rating out of 5 stars.
 msgid "Rated %s/5"
 msgstr ""
 
 #. A button that takes users to another page with additional information.
+msgid "Read More"
+msgstr ""
+
+#. Header for list of sources returned by an AI model indicating they were used to generate an answer to a given prompt.
+msgctxt "Header in AI chat message for sources"
 msgid "Read More"
 msgstr ""
 
@@ -13436,6 +13729,11 @@ msgstr ""
 #. Indicates that this show (movie, series, etc.) is available to either rent or buy from the given streaming service.
 msgctxt "Where to watch instant answer"
 msgid "Rent or buy"
+msgstr ""
+
+#. A feedback suggestion, meaning the suggested related searches repeated each other or the search the user had already run.
+msgctxt "Feedback prompt"
+msgid "Repetitive suggestions"
 msgstr ""
 
 #. Placeholder text used in chat input for user’s messages to reply to the assistant's response.
@@ -13944,6 +14242,11 @@ msgctxt "Description for Chat History when sync is enabled"
 msgid "Save your chats across all your devices."
 msgstr ""
 
+#. Headline in the About Chat History modal explaining that chats are saved locally on the user's device.
+msgctxt "Chat history about modal list item headline"
+msgid "Save your chats on this device"
+msgstr ""
+
 #. List item in the About Chat History modal explaining that recent chats are saved.
 msgctxt "Chat history about modal list item"
 msgid "Save your most recent chats."
@@ -14099,6 +14402,13 @@ msgstr ""
 
 #. Label for the button that forces the LLM in Duck.ai to use web search to answer the question for the user.
 msgctxt "Label for button to force web search in Duck.ai"
+msgid "Search"
+msgstr ""
+
+#. Placeholder text and accessibility label for the search field that filters the list of open browser tabs in the tab picker dialog.
+msgctxt ""
+"Placeholder and accessibility label for the search input in the tab picker "
+"dialog"
 msgid "Search"
 msgstr ""
 
@@ -14947,6 +15257,11 @@ msgctxt "feedback form"
 msgid "Share feedback on your search results."
 msgstr ""
 
+#. Tooltip shown on hover/focus of the share icon button in the Search Assist header, which opens the OS-native share sheet to share a link to the answer.
+msgctxt "duckassist"
+msgid "Share link"
+msgstr ""
+
 msgctxt "feedback form"
 msgid "Share negative feedback"
 msgstr ""
@@ -14996,9 +15311,28 @@ msgctxt "Title of the Shared Chat Links row on the Duck.ai chat settings page"
 msgid "Shared Chat Links"
 msgstr ""
 
+#. The HTML <title> and OpenGraph title for shared-chat pages (duck.ai/share/...), shown in link previews on social media and messengers. The chat content itself is end-to-end encrypted and never appears in previews. 'Duck.ai' is a brand name and should not be translated.
+msgctxt "duckai_seo"
+msgid "Shared Duck.ai Chat"
+msgstr ""
+
 #. Modal header above the list of share links created on this device. Separate from the settings row label so the two can be worded differently.
 msgctxt "Header of the Duck.ai shared links modal"
 msgid "Shared chat links"
+msgstr ""
+
+#. Tells the viewer how long the shared link keeps working. %s is a whole number of days, always 2 or more.
+msgctxt ""
+"Note next to the Add to My Chats button in a shared-chat copy panel; %s is a "
+"number of days"
+msgid "Shared link expires in %s days"
+msgstr ""
+
+#. Singular variant of the shared-link expiry note, shown on the link's last day.
+msgctxt ""
+"Note next to the Add to My Chats button in a shared-chat copy panel when one "
+"day remains"
+msgid "Shared link expires in 1 day"
 msgstr ""
 
 #. Body text of the VPN instant answer shown on the search results page. One of several messages rotated over time. 'No-log' means the VPN keeps no logs of activity; emphasizes that the VPN is easy to set up and toggle.
@@ -15016,6 +15350,11 @@ msgstr ""
 #. Call to action button that appears in a merchant ad extension dropdown and on clicking takes the user to an external product page
 msgctxt "merchant promotion product ad extension"
 msgid "Shop"
+msgstr ""
+
+#. Button below the zoomed easter-egg logo in the tap-to-zoom modal, beneath the sentence above it; opens /collaborations, the DuckDuckGo branded merchandise line. Short because the sentence above already carries the message. Names no product, so any merchandise logo can reuse it.
+msgctxt "Button in the merchandise logo modal (mobile)"
+msgid "Shop Now"
 msgstr ""
 
 #. Label above shopping search results.
@@ -16355,6 +16694,13 @@ msgctxt "Inactivity notice on the Sync & Backup recovery code screen"
 msgid "Sync & Backup data can't be recovered after 18 months of inactivity."
 msgstr ""
 
+#. Supporting copy under the cross-device sync headline in sync-enabled chat history about modals.
+msgctxt "Chat history with sync modal list item description"
+msgid ""
+"Sync & Backup saves more of your chats and syncs them across all of your "
+"devices."
+msgstr ""
+
 #. Reuses the existing Sync Another Device pairing modal stack.
 msgctxt "Action that opens the pairing flow from inside Manage"
 msgid "Sync Another Device"
@@ -16435,6 +16781,11 @@ msgstr ""
 #. List item explaining that chats are synced across all user devices when Sync & Backup is enabled.
 msgctxt "Chat history with sync modal list item"
 msgid "Sync your chats across all of your devices."
+msgstr ""
+
+#. Headline in sync-enabled chat history about modals explaining cross-device sync.
+msgctxt "Chat history with sync modal list item headline"
+msgid "Sync your chats across all your devices"
 msgstr ""
 
 #. Label preceding the list of devices currently registered to the account.
@@ -16718,6 +17069,13 @@ msgctxt "cloudsave"
 msgid ""
 "The Cloud Save bookmarklet allows any changes you make to your settings to "
 "automatically save in the cloud."
+msgstr ""
+
+#. Body text of the one-time Duck.ai promo card on the Chrome New Tab Page.
+msgctxt "new tab page"
+msgid ""
+"The Duck.ai toggle lets you quickly switch between private search and AI "
+"chat, anonymized by DuckDuckGo."
 msgstr ""
 
 msgid "The Gambia"
@@ -17014,6 +17372,13 @@ msgstr ""
 msgid "This information isn’t useful"
 msgstr ""
 
+#. Header label at the top of the shared conversation panel in Duck.ai when someone opens a shared chat link, and above the shared messages in exported .txt files. Tells the viewer that the messages shown are a copy of a shared chat.
+msgctxt ""
+"Label above messages copied from a shared chat, on screen and in exported "
+"text files"
+msgid "This is a copy of a shared chat."
+msgstr ""
+
 #. Header label at the top of the shared conversation panel in Duck.ai when someone opens a shared chat link. Tells the viewer that the messages shown are a copy of a shared chat.
 msgctxt "Label above messages in a shared chat view"
 msgid "This is a copy of a shared chat."
@@ -17299,6 +17664,11 @@ msgctxt "Title for the period of chats from today"
 msgid "Today"
 msgstr ""
 
+#. Headline of the one-time Duck.ai feature-discovery drawer shown to new installs under the search box. The two placeholders wrap a link-styled control ('disable in settings') that opens the 'Customize New Tab Page' menu.
+msgctxt "new tab page"
+msgid "Toggle to private AI chat or %sdisable in settings%s."
+msgstr ""
+
 #. Headline of the one-time Duck.ai feature-discovery drawer shown to new installs under the search box. The first and last placeholders wrap a link-styled control that opens the 'Customize New Tab Page' menu; the middle placeholder is filled with the localized NTP_CUSTOMIZE button label.
 msgctxt "new tab page"
 msgid "Toggle to try private AI chat or %sdisable it in the %s menu.%s"
@@ -17351,6 +17721,11 @@ msgstr ""
 #. A feedback suggestion
 msgctxt "Feedback prompt"
 msgid "Too slow"
+msgstr ""
+
+#. Negative reason chip in the Duck.ai response thumbs-down feedback form when the rated turn includes a settled generated image. Distinct from FEEDBACK_TOO_SLOW, which is the text-response chip.
+msgctxt "Feedback prompt"
+msgid "Too slow to generate"
 msgstr ""
 
 #. Used as both the visible button label and its hover tooltip. The button opens a dropdown menu containing Image mode, Web Search, and Customize Responses options.
@@ -17711,6 +18086,11 @@ msgstr ""
 #. A prompt asking users to try searching with fewer words.
 msgctxt "noresults"
 msgid "Try fewer keywords."
+msgstr ""
+
+#. Title-cased button label for free-tier users. Shown on the Duck.ai subscribe modal, Settings → Subscription, the image-generation limit message, and the voice-chat limit and duration-limit modals. Clicking starts the DuckDuckGo subscription free-trial / purchase flow. Distinct from sentence-cased 'Try for free' text links in the model picker and promo card.
+msgctxt "Button CTA that starts the DuckDuckGo subscription free trial"
+msgid "Try for Free"
 msgstr ""
 
 #. Call-to-action button label on the DuckDuckGo Subscription instant answer shown on the search results page. Starts a free trial of the paid subscription. Default CTA, used by most rotated messages.
@@ -18724,6 +19104,13 @@ msgctxt "Button on the page context onboarding modal"
 msgid "View Settings"
 msgstr ""
 
+#. Meta and OpenGraph description for shared-chat pages, shown in link previews. Generic on purpose: shared content is end-to-end encrypted, so nothing chat-specific can be included. 'Duck.ai' and 'DuckDuckGo' are brand names and should not be translated.
+msgctxt "duckai_seo"
+msgid ""
+"View a conversation shared from Duck.ai - free, private AI chat by "
+"DuckDuckGo. Save it to your own chats and continue privately."
+msgstr ""
+
 #. Heading for a dropdown that toggles more items
 msgid "View more items"
 msgstr ""
@@ -18757,6 +19144,13 @@ msgctxt "Single Place Hotel Offers Module"
 msgid ""
 "Viewing ads is privacy protected by DuckDuckGo. Ad clicks are managed by "
 "TripAdvisor's ad network."
+msgstr ""
+
+#. The Yelp counterpart of AD_BADGE_TOOLTIP. Body copy of the tooltip behind the 'Ad' badge on Yelp-sourced local results, followed by an AD_BADGE_TOOLTIP_MORE_INFO link to the DuckDuckGo help page about ads by Yelp.
+msgctxt "Ads GDPR"
+msgid ""
+"Viewing ads is privacy protected by DuckDuckGo. Ad clicks are managed by "
+"Yelp's ad network."
 msgstr ""
 
 msgid "Virgin Islands"
@@ -18927,6 +19321,11 @@ msgstr ""
 #. Filters the size of images in search results.
 msgctxt "size"
 msgid "Wallpaper"
+msgstr ""
+
+#. Title of the one-time Duck.ai promo card on the Chrome New Tab Page.
+msgctxt "new tab page"
+msgid "Want easy access to private AI chat on the new tab page?"
 msgstr ""
 
 #. A feedback suggestion
@@ -19908,6 +20307,19 @@ msgid ""
 "on or off anytime in the '%s' menu."
 msgstr ""
 
+#. Supporting copy under the save-on-device headline when Sync & Backup is unavailable. %s is replaced with the chat limit. Example: 'With chat history on, up to 100 of your most recent chats will be saved on this device.'
+msgctxt "Chat history about modal list item description"
+msgid ""
+"With chat history on, up to %s of your most recent chats will be saved on "
+"this device."
+msgstr ""
+
+#. Supporting copy under the save-on-device headline in the About Chat History modal.
+msgctxt "Chat history about modal list item description"
+msgid ""
+"With chat history on, your most recent chats will be saved on this device."
+msgstr ""
+
 #. Section header in the model switch dropdown, shown above the list of models that do NOT run in a Trusted Execution Environment (i.e. the model provider can access user data). It is paired with a 'Zero provider visibility' section that lists the encrypted models. Please keep the wording consistent with the 'Zero provider visibility' label.
 msgctxt "AI Chat model switch dropdown section header"
 msgid "Without zero provider visibility"
@@ -20757,6 +21169,13 @@ msgid ""
 "%sDuckDuckGo No AI%s extension to make it permanent. %sLearn More%s"
 msgstr ""
 
+#. Shown once the share link has been created. %s is a link that opens Duck.ai Settings, labeled Settings.
+msgctxt ""
+"Share modal info bullet pointing to the shared-links list; %s is a link "
+"labeled Settings"
+msgid "Your shared links are in %s."
+msgstr ""
+
 #. Confirms the recovery succeeded. The Next CTA closes the sheet.
 msgctxt "Body copy on the recover-data success sheet"
 msgid "Your synced chats are being restored to this device."
@@ -20993,6 +21412,11 @@ msgctxt "published date for videos"
 msgid "m"
 msgstr ""
 
+#. Accessible label (aria-label) for the button that opens a saved chat's options menu (pin, rename, delete, export, share) in the chat history list. Used on both desktop and mobile. Announced by screen readers only, not visible on screen.
+msgctxt "Aria label for the chat options menu button"
+msgid "menu"
+msgstr ""
+
 #. Aria label for the button that opens the menu in the mobile variant.
 msgctxt "Aria label for the menu button"
 msgid "menu"
@@ -21225,347 +21649,6 @@ msgstr ""
 #. Visible arrow that advances the first tooltip in the 'Delete a chat' onboarding step. Use the appropriate direction for the locale's reading direction; the control's accessible label is translated separately.
 msgctxt "Product-tour tooltip action"
 msgid "→"
-msgstr ""
-
-#. %s is replaced with the name of the device, for example Chrome 150 (This device). Reword or move the parenthetical if that reads better in your language.
-msgctxt ""
-"Title of the device detail sheet when it shows the device the person is "
-"using right now; %s is the device name"
-msgid "%s (This device)"
-msgstr ""
-
-#. The text between the two placeholders becomes a link to a help page about recovery codes. %s are the opening and closing link tags; keep the words Learn more between them.
-msgctxt ""
-"Learn more link at the end of the recovery section description inside Manage"
-msgid "%sLearn more%s"
-msgstr ""
-
-#. Button in the shared conversation panel footer that saves the conversation to the viewer's on-device chat history, called My Chats.
-msgctxt "Button in the footer of a shared-chat copy panel"
-msgid "Add to My Chats"
-msgstr ""
-
-#. Tells the user that every device has been signed out of syncing now that the data is gone.
-msgctxt ""
-"Body of the success screen shown after the server data has been deleted"
-msgid "All your devices are disconnected from Sync."
-msgstr ""
-
-#. Shorter label for the copy button under the QR, used when it sits next to a Share button.
-msgctxt "Short button label that copies the sync code text to clipboard"
-msgid "Copy"
-msgstr ""
-
-#. Names the icon-only action that copies that row's share URL to the clipboard.
-msgctxt ""
-"Tooltip and accessible name for the copy button on a row of the Duck.ai "
-"shared links modal"
-msgid "Copy shared link"
-msgstr ""
-
-#. Tells the user to copy the pairing code on their other device.
-msgctxt "First numbered step heading on the Enter Code tab"
-msgid "Copy the code from another device"
-msgstr ""
-
-#. Shown when the code the user entered is not a valid sync code. Tells them where to find the correct code. The text between the two %s is the on-screen menu path and is shown in a darker colour.
-msgctxt "Description for the wrong code error screen"
-msgid ""
-"Copy the code from another device. Go to %sDuck.ai Settings › Chats › Sync & "
-"Backup › Sync With Another Device%s and try again."
-msgstr ""
-
-#. Names the icon-only action that revokes that row's share link. Deleting is immediate — there is no confirmation step.
-msgctxt ""
-"Tooltip and accessible name for the delete button on a row of the Duck.ai "
-"shared links modal"
-msgid "Delete shared link"
-msgstr ""
-
-#. Sets expectations before the user deletes a link: revoking the link blocks future views, but anyone who already saved the conversation into their own chats keeps that copy.
-msgctxt "Description at the top of the Duck.ai shared links modal"
-msgid ""
-"Deleting a link stops it from working. People who have opened it and added "
-"the conversation to their chats will keep their own copy."
-msgstr ""
-
-#. Names the trusted source an answer was grounded in. Shown with a verified badge instead of the AI model name when the response was built only from official DuckDuckGo help pages.
-msgctxt ""
-"Attribution shown in place of the model name in a Duck.ai assistant message"
-msgid "DuckDuckGo Help Pages"
-msgstr ""
-
-#. Replaces the 'Expires <date>' line once the share has passed its expiry. The link no longer resolves, but the row stays until the user deletes it.
-msgctxt ""
-"Status shown in place of the expiry date once a shared link has lapsed"
-msgid "Expired"
-msgstr ""
-
-#. %s is a localized short date, e.g. 'Apr 17, 2025'. Shown for links that have not expired yet.
-msgctxt ""
-"Expiry line under a link title in the Duck.ai shared links modal; %s is a "
-"localized date"
-msgid "Expires %s"
-msgstr ""
-
-#. Path to the pairing code on the other device. Bold segments are UI path labels.
-msgctxt "Detail under the first numbered step on the Enter Code tab"
-msgid ""
-"Go to %sDuck.ai Settings%s › %sChats › Sync & Backup › Sync With Another "
-"Device%s."
-msgstr ""
-
-#. The user taps this to close the screen after their server data has been deleted.
-msgctxt "Button that dismisses the server-data-deleted success screen"
-msgid "Got It"
-msgstr ""
-
-#. Button below the zoomed Dax-in-solar-glasses logo on Aug 12, 2026; searches for information about the eclipse.
-msgctxt "Button in the eclipse logo modal (mobile)"
-msgid "Learn More"
-msgstr ""
-
-#. Title-case button label. Opens a modal listing the share links created on this device.
-msgctxt ""
-"Button on the Shared Links settings row that opens the shared links modal"
-msgid "Manage"
-msgstr ""
-
-#. Label below the shared conversation panel, between the shared messages and any follow-up messages the viewer adds. Tells the viewer that those follow-ups stay private.
-msgctxt "Divider under the shared-copy panel"
-msgid "Messages beyond this point are only visible to you."
-msgstr ""
-
-#. Accessible label (aria-label) for the three-dot overflow menu on an assistant response action bar in Duck.ai. Announced by screen readers only — the visible control is the icon. Menu items can include Search the web, Extend reasoning, Export, and Report (Windows).
-msgctxt "Accessible label for a menu button on a chat response"
-msgid "More actions"
-msgstr ""
-
-#. Label preceding the list of devices currently registered to the account.
-msgctxt "Section header for the device list inside Manage Sync & Backup"
-msgid "My Devices"
-msgstr ""
-
-#. Tells the user where to find the pairing entry on their other device. Bold segments are UI path labels.
-msgctxt "Instruction under the Scan QR tab sub-heading"
-msgid ""
-"On another device go to %sDuck.ai Settings%s › %sChats › Sync & Backup › "
-"Sync With Another Device%s"
-msgstr ""
-
-#. Same path as the Scan QR instruction, plus a scan-this-code prompt. Bold segments are UI path labels.
-msgctxt "Instruction in the mobile Scan-or-Copy-Code modal"
-msgid ""
-"On another device go to %sDuck.ai Settings%s › %sChats › Sync & Backup › "
-"Sync With Another Device%s and scan this code:"
-msgstr ""
-
-#. Same as the Scan QR pairing instruction (DUCKCHAT_SYNC_PAIRING_SCAN_INSTRUCTION) plus the Recovery PDF option. Bold segments are UI path labels.
-msgctxt "Instruction on the recover-data scan/paste sheet"
-msgid ""
-"On another device go to %sDuck.ai Settings%s › %sChats › Sync & Backup › "
-"Sync With Another Device%s. Or scan the QR on your Recovery PDF."
-msgstr ""
-
-#. Label for the paste button docked in the code field on the Enter Code tab.
-msgctxt "Button label that pastes the sync code from clipboard"
-msgid "Paste"
-msgstr ""
-
-#. Tells the user to paste the copied code into the field below.
-msgctxt "Second numbered step heading on the Enter Code tab"
-msgid "Paste it below"
-msgstr ""
-
-#. Shared headline of the Personal Information Removal instant answer shown on the search results page (US only), reused by the rotating slots whose heading is just the product name (the distinctive copy is in the body text).
-msgctxt "DuckDuckGo Personal Information Removal instant answer"
-msgid "Personal Information Removal"
-msgstr ""
-
-#. Body text of the Personal Information Removal instant answer shown on the search results page (US only). One of several messages rotated over time. Explains that Personal Information Removal finds the user's info on data broker sites (companies that collect and sell personal information) and works to get it removed.
-msgctxt "DuckDuckGo Personal Information Removal instant answer"
-msgid ""
-"Personal Information Removal finds your info on data broker sites that are "
-"selling it. Then we work to get it removed for you."
-msgstr ""
-
-#. Shown next to a 'Learn more' link when hovering (desktop) or tapping (mobile) the special Dax-in-solar-glasses logo displayed on Aug 12, 2026. The link searches for information about the eclipse.
-msgctxt "Tooltip on the header logo on the day of the 2026 solar eclipse"
-msgid "Ready for the solar eclipse?"
-msgstr ""
-
-#. Label preceding the recovery code description and Download Recovery Code link.
-msgctxt "Section header for the recovery code area inside Manage"
-msgid "Recovery Code"
-msgstr ""
-
-#. The user taps this to remove a device (other than the one they are using) so it can no longer sync.
-msgctxt "Button that starts removing one of the other devices from syncing"
-msgid "Remove Device"
-msgstr ""
-
-#. Headline of the Personal Information Removal instant answer shown on the search results page (US only). One of several messages rotated over time. Invites the user to remove their personal information from the internet.
-msgctxt "DuckDuckGo Personal Information Removal instant answer"
-msgid "Remove your info from the internet"
-msgstr ""
-
-#. Headline of the Personal Information Removal instant answer shown on the search results page (US only). One of several messages rotated over time. Invites the user to remove their personal information from the internet.
-msgctxt "DuckDuckGo Personal Information Removal instant answer"
-msgid "Remove your info online"
-msgstr ""
-
-#. Confirms that deleting the server data finished successfully.
-msgctxt ""
-"Title of the success screen shown after the server data has been deleted"
-msgid "Server data deleted"
-msgstr ""
-
-#. Shown beside the Copy button under the QR code, only on devices whose browser can open a share sheet. It shares the same link the QR code contains, not a picture of the QR code.
-msgctxt ""
-"Button label that opens the system share sheet to send the sync code link to "
-"another app"
-msgid "Share"
-msgstr ""
-
-#. Title-case label for the Duck.ai setting that opens the list of share links created on this device. The row has no description line.
-msgctxt "Title of the Shared Chat Links row on the Duck.ai chat settings page"
-msgid "Shared Chat Links"
-msgstr ""
-
-#. Modal header above the list of share links created on this device. Separate from the settings row label so the two can be worded differently.
-msgctxt "Header of the Duck.ai shared links modal"
-msgid "Shared chat links"
-msgstr ""
-
-#. Error toast shown when a shared chat cannot be opened and no more specific reason is available.
-msgctxt "Generic toast for share view load failures"
-msgid "Something went wrong loading this shared chat."
-msgstr ""
-
-#. Appears under the device name when the user opens the details for one of their devices. %s is replaced with a date.
-msgctxt ""
-"Shows the date a device last synced; %s is a date such as Apr 17, 2025"
-msgid "Synced on %s"
-msgstr ""
-
-#. Accessible label announced by screen readers for the scrollable container around a data table in an AI chat response. Keyboard users can focus this container to scroll wide tables. Please keep the text as short as possible.
-msgctxt "AI Chat accessible label for a scrollable table in a response"
-msgid "Table"
-msgstr ""
-
-#. Renders to the right of the device name for the row that matches this device's id.
-msgctxt "Label marking the current device in the synced devices list"
-msgid "This device"
-msgstr ""
-
-#. Reassures the user that the most recent chats stay saved on this device even after they turn syncing off. The %s is a placeholder for the maximum number of chats stored locally.
-msgctxt ""
-"Body text of the dialog asking the user to confirm turning off syncing on "
-"the device they are using"
-msgid ""
-"This device will no longer be able to access your synced data on other "
-"devices. The last %s chats will still remain available in local storage."
-msgstr ""
-
-#. Header label at the top of the shared conversation panel in Duck.ai when someone opens a shared chat link. Tells the viewer that the messages shown are a copy of a shared chat.
-msgctxt "Label above messages in a shared chat view"
-msgid "This is a copy of a shared chat."
-msgstr ""
-
-#. Error toast shown when a shared chat link cannot be opened because the link is incomplete or its key is incorrect.
-msgctxt "Toast when share decryption fails"
-msgid "This shared chat could not be opened. The link may be incomplete."
-msgstr ""
-
-#. Error toast shown when a shared chat link cannot be opened because it was deleted or expired.
-msgctxt "Toast when a share link is missing or expired"
-msgid "This shared chat link is no longer available."
-msgstr ""
-
-#. Call-to-action button label on the Personal Information Removal instant answer shown on the search results page (US only). Starts a free trial of the paid subscription. One of several CTAs rotated over time.
-msgctxt "DuckDuckGo Personal Information Removal instant answer"
-msgid "Try Free!"
-msgstr ""
-
-#. Call-to-action button label on the Personal Information Removal instant answer shown on the search results page (US only). Starts a free trial of the paid subscription. Default CTA, used by most rotated messages.
-msgctxt "DuckDuckGo Personal Information Removal instant answer"
-msgid "Try for Free!"
-msgstr ""
-
-#. The user taps this to turn off Sync & Backup on the device they are using.
-msgctxt "Button that confirms turning off syncing"
-msgid "Turn Off"
-msgstr ""
-
-#. Asks the user to confirm wiping the server-side backup and disconnecting all devices.
-msgctxt "Title for the destructive Delete Server Data confirmation modal"
-msgid "Turn Off Sync & Backup and Delete Server Data?"
-msgstr ""
-
-#. Placeholder shown in the Duck.ai shared links list when the stored share record has an empty title.
-msgctxt "Fallback name for a shared link whose chat has no title"
-msgid "Untitled chat"
-msgstr ""
-
-#. Error toast shown when a shared chat was created by a newer version of Duck.ai than the viewer's version supports. 'Duck.ai' is a brand name and should not be translated.
-msgctxt "Toast when a shared chat requires a newer version of Duck.ai"
-msgid "Update Duck.ai to view this shared chat."
-msgstr ""
-
-#. Body text of the Personal Information Removal instant answer shown on the search results page (US only). One of several messages rotated over time. 'Data broker sites' are companies that collect and sell personal information; the subscription also includes a VPN and other premium protections.
-msgctxt "DuckDuckGo Personal Information Removal instant answer"
-msgid ""
-"We find and remove your personal info from data broker sites. Plus get a VPN "
-"and more."
-msgstr ""
-
-#. Body text of the Personal Information Removal instant answer shown on the search results page (US only). One of several messages rotated over time. 'Data broker sites' are companies that collect and sell personal information; the dashboard shows removal progress.
-msgctxt "DuckDuckGo Personal Information Removal instant answer"
-msgid ""
-"We regularly scan data broker sites for your personal info, and we share our "
-"progress with you in an easy-to-use dashboard."
-msgstr ""
-
-#. Body text of the Personal Information Removal instant answer shown on the search results page (US only). One of several messages rotated over time. 'Data broker sites' are companies that collect and sell personal information.
-msgctxt "DuckDuckGo Personal Information Removal instant answer"
-msgid ""
-"We'll scan data broker sites for your email, name, address, and more, and "
-"work to get anything we find about you removed."
-msgstr ""
-
-#. Body text of the Personal Information Removal instant answer shown on the search results page (US only). One of several messages rotated over time. Emphasizes that removal runs from the user's device; 'data broker sites' are companies that collect and sell personal information.
-msgctxt "DuckDuckGo Personal Information Removal instant answer"
-msgid ""
-"Works right from your device to remove your email, name, address, and more "
-"from data broker sites."
-msgstr ""
-
-#. Shown instead of the rows when the device has no share links. Scoped to this device on purpose — links created elsewhere can't be listed or deleted here.
-msgctxt ""
-"Empty state shown inside the list container of the Duck.ai shared links modal"
-msgid "You have no shared chat links."
-msgstr ""
-
-#. Reassures the user that a limited number of recent chats stay saved on the listed devices after deleting. The %s is a placeholder for the maximum number of chats stored locally.
-msgctxt ""
-"Second body paragraph in the Delete Server Data confirmation modal, above "
-"the device list"
-msgid ""
-"Your %s most recent chats will be available in local storage on these "
-"browsers:"
-msgstr ""
-
-#. Tells the user their chats are being kept in sync privately. 'End-to-end encryption' means only the user's own devices can read the data.
-msgctxt ""
-"Description shown under the title on the Sync & Backup settings screen"
-msgid "Your Duck.ai chats are being synced with end-to-end encryption."
-msgstr ""
-
-#. Explains the main consequence of deleting all server data: the backup is removed and every device is signed out of syncing.
-msgctxt "First body paragraph in the Delete Server Data confirmation modal"
-msgid ""
-"Your backup will be deleted from DuckDuckGo's server. All devices will be "
-"disconnected from sync."
 msgstr ""
 
 #~ msgid "Develop"
