@@ -1976,6 +1976,12 @@ msgid "Allow"
 msgstr "Leisti"
 
 # smartling.placeholder_format=C
+#. Sheet opens on the first camera denial and offers this retry; if the retry also comes back denied, the block is treated as durable and the plain screen (no CTA) takes over instead. Copy ship-review: task 1218736035065401.
+msgctxt "Primary button in the camera-blocked recovery sheet"
+msgid "Allow Camera Access"
+msgstr "Leisti prieigą prie kameros"
+
+# smartling.placeholder_format=C
 #. Message shown to the user when microphone access is denied.
 msgctxt "voice chat"
 msgid ""
@@ -7099,6 +7105,16 @@ msgid "Duck.ai Terms of Service"
 msgstr "„Duck.ai“ paslaugų teikimo sąlygos"
 
 # smartling.placeholder_format=C
+#. Names both Duck.ai and the browser, matching the native app's equivalent screen (copy ship-review: task 1218736035065401). Deliberately a separate key from DUCKCHAT_SYNC_PAIRING_CAMERA_BLOCKED_TITLE — that copy change was scoped to this standalone screen only, not the recovery sheet's header.
+msgctxt ""
+"Title on the plain camera-blocked screen (no buttons), shown once a retry "
+"from the recovery sheet also comes back denied and the block is durable"
+msgid "Duck.ai and this browser need camera permissions to scan the QR code."
+msgstr ""
+"„Duck.ai“ ir šiai naršyklei reikia leidimo naudoti kamerą, kad galėtų "
+"nuskaityti QR kodą."
+
+# smartling.placeholder_format=C
 #. The HTML <title> for Duck.ai.
 msgctxt "duckai_seo"
 msgid "Duck.ai by DuckDuckGo. Private AI chat. Free."
@@ -7255,6 +7271,14 @@ msgstr ""
 "Duck.ai įprastai."
 
 # smartling.placeholder_format=C
+#. States why up front, rather than just repeating what the browser's own permission prompt already said (ship-review feedback). No separate body copy underneath, per the reference design.
+msgctxt ""
+"Header of the camera-blocked recovery sheet, opened on the first counted "
+"camera denial"
+msgid "Duck.ai needs camera permissions to scan the QR code."
+msgstr "„Duck.ai“ reikia leidimo naudoti kamerą, kad galėtų nuskaityti QR kodą."
+
+# smartling.placeholder_format=C
 #. Text for a promotional card that informs users Duck.ai can read and analyze PDF files.
 msgctxt "Promotional text for PDF upload feature"
 msgid "Duck.ai now can read and analyze PDFs. Give it a try!"
@@ -7268,6 +7292,12 @@ msgid ""
 msgstr ""
 "„Duck.ai“ atsakymai nėra pagrįsti patvirtintais šaltiniais ir jų patikimumas "
 "netikrinamas."
+
+# smartling.placeholder_format=C
+#. Announced by screen readers as soon as the AI assistant starts responding, before the progress updates and the answer itself, so it is clear who is speaking. Also serves as the heading for the response when navigating by heading. 'Duck.ai' is a product name and must not be translated. Please keep the text as short as possible.
+msgctxt "AI Chat screen reader heading that introduces a response"
+msgid "Duck.ai said"
+msgstr "„Duck.ai“ sakė"
 
 # smartling.placeholder_format=C
 #. Second, dimmer line of the highlight tooltip shown under the 'Try a different model' item title when the user activates that onboarding step.
@@ -8218,6 +8248,12 @@ msgstr "Eik į %1$shttps://duckduckgo.com%2$s"
 msgctxt "Tab label for the manual-entry side of the Sync Another Device pane"
 msgid "Enter Code"
 msgstr "Įvesti kodą"
+
+# smartling.placeholder_format=C
+#. Switches from the camera-blocked recovery sheet to the Enter Code tab. Copy ship-review: task 1218736035065401.
+msgctxt "Secondary button in the camera-blocked recovery sheet"
+msgid "Enter Code Manually"
+msgstr "Įvesti kodą rankiniu būdu"
 
 # smartling.placeholder_format=C
 #. A placeholder for the AI Chat prompt input when used in the context of asking follow-up questions based on a DuckAssist reponse
@@ -9923,6 +9959,12 @@ msgid "Got It"
 msgstr "Supratau"
 
 # smartling.placeholder_format=C
+#. Shown over the intro animation; tapping it prompts for camera access so scanning can start.
+msgctxt "Button on the mobile scan tab that requests camera permission"
+msgid "Got It"
+msgstr "Supratau"
+
+# smartling.placeholder_format=C
 #. A button that closes the welcome modal.
 msgctxt "Button on the subscription welcome modal"
 msgid "Got It"
@@ -11038,6 +11080,14 @@ msgid "Image generated"
 msgstr "Vaizdas sugeneruotas"
 
 # smartling.placeholder_format=C
+#. Announced by screen readers instead of the plain completion status when the AI assistant finishes a response in which it could not create the image that was asked for. Please keep the text as short as possible.
+msgctxt ""
+"AI Chat screen reader status announced when a requested image could not be "
+"created"
+msgid "Image generation failed"
+msgstr "Vaizdo sugeneruoti nepavyko"
+
+# smartling.placeholder_format=C
 #. Aria label for a thumbnail that failed to generate.
 msgctxt "Aria label for error thumbnail"
 msgid "Image generation failed"
@@ -11067,6 +11117,14 @@ msgstr "Vaizdų užklausoms taikomos „Duck.ai“ %1$s."
 msgctxt "Feedback prompt"
 msgid "Image quality"
 msgstr "Vaizdo kokybė"
+
+# smartling.placeholder_format=C
+#. Announced by screen readers instead of the plain completion status when the AI assistant finishes a response that created an image, so the user knows a picture arrived rather than text. Please keep the text as short as possible.
+msgctxt ""
+"AI Chat screen reader status announced when a requested image has been "
+"created"
+msgid "Image ready"
+msgstr "Vaizdas paruoštas"
 
 # smartling.placeholder_format=C
 msgctxt "settingsvalue"
@@ -11659,6 +11717,12 @@ msgstr "Prisijunk prie mūsų 500 000 $ Privatumo Iššūkio"
 # smartling.placeholder_format=C
 msgid "Jordan"
 msgstr "Jordanija"
+
+# smartling.placeholder_format=C
+#. Label for a control, hidden until focused, that moves keyboard focus from the message box to the start of the most recent AI response so it can be read. Please keep the text as short as possible.
+msgctxt "AI Chat skip link that moves keyboard focus to the newest response"
+msgid "Jump to latest response"
+msgstr "Pereiti prie naujausio atsakymo"
 
 # smartling.placeholder_format=C
 #. Placeholder text displayed while the AI assistant is generating a response after losing connection and coming back online
@@ -17303,6 +17367,12 @@ msgid "Repetitive suggestions"
 msgstr "Pasikartojantys pasiūlymai"
 
 # smartling.placeholder_format=C
+#. Name, read out by screen readers, of the box where the user writes a message once the chat has a response in it. On screen that box shows the shorter placeholder DUCKCHAT_USER_PROMPT_REPLY_PLACEHOLDER, so this text must keep the word used there at the start of it. 'Duck.ai' is a product name and must not be translated. Please keep the text as short as possible.
+msgctxt "AI Chat name of the message box in a chat that already has a response"
+msgid "Reply to Duck.ai"
+msgstr "Atsakyti „Duck.ai“"
+
+# smartling.placeholder_format=C
 #. Placeholder text used in chat input for user’s messages to reply to the assistant's response.
 msgctxt "Placeholder text user’s chat input"
 msgid "Reply..."
@@ -17437,6 +17507,12 @@ msgstr "Rezoliucija"
 msgctxt "Share scope toggle label for a single response"
 msgid "Response"
 msgstr "Atsakymas"
+
+# smartling.placeholder_format=C
+#. Announced by screen readers when the AI assistant has finished responding. The answer itself is not announced, so this tells the user the response is ready to read. Please keep the text as short as possible.
+msgctxt "AI Chat screen reader status announced when a response finishes"
+msgid "Response complete"
+msgstr "Atsakymas baigtas"
 
 # smartling.placeholder_format=C
 #. Feedback option when AI response is helpful
@@ -22786,6 +22862,14 @@ msgid "Try Again"
 msgstr "Bandyti dar kartą"
 
 # smartling.placeholder_format=C
+#. Separate key from DUCKCHAT_SYNC_PAIRING_TURN_ON_CAMERA (code review finding): that one is an intro acknowledgement reading 'Got It', which doesn't read as an invitation to retry here.
+msgctxt ""
+"Retry button shown over the viewfinder after a non-permission camera failure "
+"(e.g. no camera found, hardware busy)"
+msgid "Try Again"
+msgstr "Bandyti dar kartą"
+
+# smartling.placeholder_format=C
 #. A link that will allow users to reload the page, show when no search results loaded due to an error
 msgctxt "noresults"
 msgid "Try Again"
@@ -26384,6 +26468,13 @@ msgstr "Nuo šiol turi „DuckDuckGo“ plėtinį!"
 msgctxt "duckai_migration"
 msgid "You now have the latest version of Duck.ai."
 msgstr "Dabar turi naujausią „Duck.ai“ versiją."
+
+# smartling.placeholder_format=C
+#. Heading, hidden from view, that names the message written by the user when navigating an AI chat by heading, so each question can be found as well as each answer. It is never read out on its own. Please keep the text as short as possible.
+msgctxt ""
+"AI Chat screen reader heading that introduces the prompt written by the user"
+msgid "You said"
+msgstr "Tu sakei"
 
 # smartling.placeholder_format=C
 #. Explains the consequence of revoking a paired device and reassures that local chats and the server backup remain.
