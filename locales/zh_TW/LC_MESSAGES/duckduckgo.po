@@ -51,6 +51,11 @@ msgid "%s (This device)"
 msgstr "%1$s（此裝置）"
 
 # smartling.placeholder_format=C
+#. Radio option in the Duck.ai share preview for the lifetime of a new shared link. %s is the number of days: 2, 7, or 30.
+msgid "%s Days"
+msgstr "%1$s 天"
+
+# smartling.placeholder_format=C
 #. In the context of an NHL (hockey) game, indicates in which intermission (break between game periods) an in-progress game is currently in. The number is in ordinal form (e.g. 1st), localized separately. The combination results in e.g. 1st Intermission, 4th Intermission
 msgctxt "Sports module"
 msgid "%s Intermission"
@@ -126,6 +131,12 @@ msgid "%s can't read PDFs. Try a different model."
 msgstr "%1$s 無法讀取 PDF。嘗試其他模型。"
 
 # smartling.placeholder_format=C
+#. Shown in the pasted-text modal in Duck.ai when the text contains multiple characters. %s is replaced with the number of characters, e.g. '5230 characters'.
+msgctxt "Character count of a pasted-text attachment"
+msgid "%s characters"
+msgstr "%1$s 個字元"
+
+# smartling.placeholder_format=C
 #. We realise this is the incorrect way to handle plurals. Sorry, we are working on a fix.
 msgctxt "published dates for organic results"
 msgid "%s days ago"
@@ -136,6 +147,12 @@ msgstr "%1$s天前"
 msgctxt "translations_module"
 msgid "%s detected"
 msgstr "偵測到%1$s"
+
+# smartling.placeholder_format=C
+#. Description explaining that the AI model provider does not store any chat data on their servers, with very limited exceptions. The first %s is replaced with the full model name (e.g. 'GPT-5.4'). The second %s is replaced with a 'Learn more' link to the Duck.ai privacy help page. Example: 'GPT-5.4 does not store data from this chat, with very limited exceptions. Learn more'.
+msgctxt "Privacy claim description in Duck.ai chat"
+msgid "%s does not store data from this chat, with very limited exceptions. %s"
+msgstr "%1$s 不會儲存此聊天的資料，只有極少數例外。 %2$s"
 
 # smartling.placeholder_format=C
 #. Shown under a shared user message when multiple uploaded files were omitted from the share. %s is the file count (always 2 or more).
@@ -606,6 +623,11 @@ msgid "... or ask a follow-up with Duck.ai"
 msgstr "……或向 Duck.ai 提出後續問題"
 
 # smartling.placeholder_format=C
+#. Radio option in the Duck.ai share preview that makes a new shared link expire after one day.
+msgid "1 Day"
+msgstr "1 天"
+
+# smartling.placeholder_format=C
 #. Displaying 1 review for a website
 msgid "1 Review"
 msgstr "1 則評論"
@@ -626,6 +648,12 @@ msgstr "1次嘗試"
 #. A summary description of how many tracking attempts where blocked, when only one exists.
 msgid "1 attempt blocked by DuckDuckGo in the last 24 hours"
 msgstr "在過去 24 小時內，有 1 次嘗試被 DuckDuckGo 封鎖"
+
+# smartling.placeholder_format=C
+#. Shown in the pasted-text modal in Duck.ai when the text contains exactly one character.
+msgctxt "Character count of a pasted-text attachment"
+msgid "1 character"
+msgstr "1 個字元"
 
 # smartling.placeholder_format=C
 #. We realise this is the incorrect way to handle plurals. Sorry, we are working on a fix.
@@ -1846,6 +1874,26 @@ msgid "All colors"
 msgstr "所有顏色"
 
 # smartling.placeholder_format=C
+#. Spells out what is destroyed: every device loses access and the backup is removed from the server.
+msgctxt ""
+"Body of the final confirmation before the Sync & Backup server data is "
+"deleted"
+msgid ""
+"All devices using Sync & Backup will be disconnected and your synced data "
+"will be deleted from the server."
+msgstr "所有使用 Sync & Backup 的裝置都將中斷連線，且你的同步資料將從伺服器中刪除。"
+
+# smartling.placeholder_format=C
+#. %s is the maximum number of chats kept locally, for example 100.
+msgctxt ""
+"Body of the Turn Off Sync & Backup dialog after switching on delete server "
+"data"
+msgid ""
+"All devices using Sync & Backup will be disconnected. Only your %s most "
+"recent chats will remain on your devices."
+msgstr "所有使用 Sync & Backup 的裝置都將中斷連線。你的裝置上只會保留 %1$s 筆近期聊天記錄。"
+
+# smartling.placeholder_format=C
 #. Title shown to the host device (the one that is logged in) after the pair completes.
 msgctxt "Title for the host-device success screen"
 msgid "All done!"
@@ -1994,6 +2042,14 @@ msgid "Already synced."
 msgstr "已同步。"
 
 # smartling.placeholder_format=C
+#. Optional extra step: when the switch is off, only this device stops syncing. When it is on, the whole backup is deleted and every device is disconnected.
+msgctxt ""
+"Label of the switch in the Turn Off Sync & Backup dialog that also deletes "
+"the server data"
+msgid "Also delete server data?"
+msgstr "一併刪除伺服器資料？"
+
+# smartling.placeholder_format=C
 #. Explains that DuckDuckGo is available for multiple devices.
 msgctxt "mobile promotion on desktop"
 msgid "Also search privately on your iPad, iPhone, or Android!"
@@ -2079,6 +2135,12 @@ msgstr "安哥拉"
 msgctxt "image-type"
 msgid "Animated GIF"
 msgstr "動畫GIF"
+
+# smartling.placeholder_format=C
+#. Short description of how the second voice option sounds, shown below it in the voice picker.
+msgctxt "voice chat voice picker"
+msgid "Animated and earnest"
+msgstr "活潑且真誠"
 
 # smartling.placeholder_format=C
 #. Title for the privacy claim that explains user prompts are anonymized before being sent to AI model providers.
@@ -2465,6 +2527,12 @@ msgid "Ask privately"
 msgstr "私下詢問"
 
 # smartling.placeholder_format=C
+#. Text displayed while the AI assistant is looking up live scores, schedules or standings in official DuckDuckGo sports data. Distinct from searching the web. The placeholder is the sports data provider's brand name, passed in by the client, for example: 'Asking Sportradar'.
+msgctxt "Assistant response progress report"
+msgid "Asking %s"
+msgstr "正在詢問 %1$s"
+
+# smartling.placeholder_format=C
 #. The name of the Assamese language
 msgctxt "language_name"
 msgid "Assamese"
@@ -2612,6 +2680,12 @@ msgstr "音訊在聊天結束後不會被我們或 OpenAI 儲存。"
 #. Description for the data retention highlight in the dictation consent modal.
 msgid "Audio is not stored by us or by OpenAI after the chat is transcribed."
 msgstr "音訊在聊天轉錄後不會被我們或 OpenAI 儲存。"
+
+# smartling.placeholder_format=C
+#. Bullet in the voice chat consent modal, next to a voice picker. Informs that audio from the voice chat is not used to identify the user and is not stored after the voice chat ends.
+msgctxt "voice chat"
+msgid "Audio isn’t used to identify you or stored after the chat ends."
+msgstr "音訊不會用來辨識你的身分，也不會在聊天結束後儲存。"
 
 # smartling.placeholder_format=C
 #. Error in the duck.ai chat input when MediaRecorder API is unavailable.
@@ -3961,6 +4035,12 @@ msgid "Chat Suggestions"
 msgstr "聊天建議"
 
 # smartling.placeholder_format=C
+#. Shown above the summary of a chat that reached its maximum length, where the model name usually appears.
+msgctxt "Label above a chat summary"
+msgid "Chat Summary"
+msgstr "聊天摘要"
+
+# smartling.placeholder_format=C
 #. Option for feedback when the user wants to complain that the chat does not save the user's conversations.
 msgctxt "Feedback option for chat not saving conversations"
 msgid "Chat does not save my conversations"
@@ -4222,6 +4302,12 @@ msgid "Checking sources…"
 msgstr "正在檢查來源……"
 
 # smartling.placeholder_format=C
+#. Short description of how the fourth voice option sounds, shown below it in the voice picker.
+msgctxt "voice chat voice picker"
+msgid "Cheerful and candid"
+msgstr "開朗且坦率"
+
+# smartling.placeholder_format=C
 #. Label for the option prompting the AI assistant to adopt a role of a chef in its responses.
 msgctxt "Assistant role option label for Chef"
 msgid "Chef"
@@ -4296,6 +4382,12 @@ msgstr "選擇型號"
 msgctxt "cloudsave"
 msgid "Choose a unique passphrase for your settings."
 msgstr "為你的設定選擇獨一無二的通關密語。"
+
+# smartling.placeholder_format=C
+#. Accessible label for the voice picker, which shows one voice at a time with previous/next buttons.
+msgctxt "voice chat voice picker"
+msgid "Choose a voice"
+msgstr "選擇語音"
 
 # smartling.placeholder_format=C
 #. Body text of the VPN instant answer shown on the search results page. One of several messages rotated over time. '40+ server locations worldwide' are the VPN server locations the user can connect through; the VPN also helps block harmful sites and scams.
@@ -4847,6 +4939,12 @@ msgid "Close menu"
 msgstr "關閉選單"
 
 # smartling.placeholder_format=C
+#. Accessible label for the icon-only button that closes the result context menu
+msgctxt "Result context menu"
+msgid "Close menu"
+msgstr "關閉選單"
+
+# smartling.placeholder_format=C
 #. Screen-reader label for the X button that dismisses a suggested-prompts or How Duck.ai Works panel on mobile.
 msgctxt "Aria label for the close button on a suggested-prompts panel"
 msgid "Close panel"
@@ -5141,6 +5239,12 @@ msgstr "聯盟紀錄"
 msgctxt "Sports module"
 msgid "Conferences"
 msgstr "聯盟"
+
+# smartling.placeholder_format=C
+#. Short description of how the third voice option sounds, shown below it in the voice picker.
+msgctxt "voice chat voice picker"
+msgid "Confident and optimistic"
+msgstr "自信且樂觀"
 
 # smartling.placeholder_format=C
 #. Text for a button in the modal that confirms the deletion of recent chats and disables the feature.
@@ -5507,6 +5611,12 @@ msgctxt ""
 "fails"
 msgid "Couldn't refresh devices."
 msgstr "無法重新整理裝置。"
+
+# smartling.placeholder_format=C
+#. Displayed when generating the summary of a chat that reached its maximum length failed.
+msgctxt "Error when a chat summary fails"
+msgid "Couldn’t summarize this chat. Please try again."
+msgstr "無法總結這段聊天。請再試一次。"
 
 # smartling.placeholder_format=C
 #. Instant Answer Tab Name
@@ -5980,6 +6090,11 @@ msgstr "預設"
 
 # smartling.placeholder_format=C
 msgctxt "settings"
+msgid "Default Logo"
+msgstr "預設標誌"
+
+# smartling.placeholder_format=C
+msgctxt "settings"
 msgid "Default Navigation App"
 msgstr "預設導航應用程式"
 
@@ -6076,6 +6191,12 @@ msgstr "刪除伺服器資料？"
 # smartling.placeholder_format=C
 #. Title-case destructive button label in the Duck.ai share modal that deletes the shared link.
 msgctxt "Button to revoke a share link"
+msgid "Delete Share Link"
+msgstr "刪除分享連結"
+
+# smartling.placeholder_format=C
+#. Title-case destructive button label in the Duck.ai share modal that deletes the shared link.
+msgctxt "Button to revoke a share link"
 msgid "Delete Shared Link"
 msgstr "刪除分享連結"
 
@@ -6166,6 +6287,16 @@ msgstr "刪除此聊天記錄？"
 msgctxt "Feedback prompt"
 msgid "Deleted chats"
 msgstr "已刪除的聊天記錄"
+
+# smartling.placeholder_format=C
+#. Explains what switching on the option does. %s is the maximum number of chats kept on each device, for example 100.
+msgctxt ""
+"Description under the Also delete server data switch in the Turn Off Sync & "
+"Backup dialog"
+msgid ""
+"Deletes all synced data from the server and deactivates your recovery code. "
+"%s most recent chats still remain on your devices."
+msgstr "刪除伺服器上所有同步資料並停用你的恢復碼。%1$s筆的近期聊天記錄仍保留在你的裝置上。"
 
 # smartling.placeholder_format=C
 #. Sets expectations before the user deletes a link: revoking the link blocks future views, but anyone who already saved the conversation into their own chats keeps that copy.
@@ -6624,6 +6755,12 @@ msgid "Done"
 msgstr "完成"
 
 # smartling.placeholder_format=C
+#. The user taps this to confirm the new device name.
+msgctxt "Primary button that saves the edited device name"
+msgid "Done"
+msgstr "完成"
+
+# smartling.placeholder_format=C
 msgctxt "precise_user_location"
 msgid "Done"
 msgstr "完成"
@@ -6750,6 +6887,12 @@ msgstr "下載你的聊天記錄"
 #. Sidebar heading displayed above links to DuckDuckGo apps (our 'browser') on platforms such as iOS, Android, Windows, MacOS, and more.
 msgid "Downloads"
 msgstr "下載"
+
+# smartling.placeholder_format=C
+#. Heading of a card holding a short, ready-to-send message the AI drafted. Kept to one word to fit beside the action button.
+msgctxt "Label on a writing block card in a Duck.ai chat response"
+msgid "Draft"
+msgstr "草稿"
 
 # smartling.placeholder_format=C
 #. Text for a prompt suggestion for drafting an email to a vendor requesting a quote for ceiling fan repair services.
@@ -7545,6 +7688,11 @@ msgid "East"
 msgstr "東區"
 
 # smartling.placeholder_format=C
+msgctxt "settings"
+msgid "Easter egg logo shown in place of the standard logo on search results"
+msgstr "在搜尋結果中顯示彩蛋標誌以取代標準標誌"
+
+# smartling.placeholder_format=C
 #. For US leagues that divide teams in two conferences, short version used e.g. in the Team module subtitle in NBA
 msgctxt "Sports module"
 msgid "Eastern"
@@ -7591,6 +7739,24 @@ msgid "Edit Prompt"
 msgstr "編輯提示"
 
 # smartling.placeholder_format=C
+#. Opens the summary of a chat that reached its maximum length for editing.
+msgctxt "Button to edit a chat summary"
+msgid "Edit Summary"
+msgstr "編輯概要"
+
+# smartling.placeholder_format=C
+#. Accessible name of the text area used to edit a chat summary.
+msgctxt "Aria label for the chat summary editing text area"
+msgid "Edit chat summary"
+msgstr "編輯聊天摘要"
+
+# smartling.placeholder_format=C
+#. Header of the dialog where the user types a new name for the device they are using. Also read by screen readers as the label of the name text field.
+msgctxt "Title of the dialog for renaming the current device"
+msgid "Edit device name"
+msgstr "編輯裝置名稱"
+
+# smartling.placeholder_format=C
 #. Accessible label (aria-label) for the text area in which the user edits a previously sent chat message in Duck.ai. Announced by screen readers only, not visible on screen.
 msgctxt "Aria label for the message-editing text area"
 msgid "Edit message"
@@ -7632,6 +7798,14 @@ msgstr "薩爾瓦多"
 # smartling.placeholder_format=C
 #. Form field for your email ;)
 #. From <a href="https://duckduckgo.com/newbang.html ">new !bang page</a> and <a href="https://duckduckgo.com/feedback.html">feedback page</a>.
+msgid "Email"
+msgstr "電郵"
+
+# smartling.placeholder_format=C
+#. Heading of the card when the drafted message is an email, replacing the generic Draft label.
+msgctxt ""
+"Label on a writing block card in a Duck.ai chat response, when the draft is "
+"an email"
 msgid "Email"
 msgstr "電郵"
 
@@ -7837,6 +8011,12 @@ msgid "End of %s"
 msgstr "%1$s結束"
 
 # smartling.placeholder_format=C
+#. Line placed after the content of a long text the user pasted into a Duck.ai message, in the exported chat file. %s is the number of the pasted text within the message, e.g. 'End of pasted text #1'.
+msgctxt "End marker of a pasted-text attachment in an exported Duck.ai chat"
+msgid "End of pasted text #%s"
+msgstr "貼上的文字 #%1$s結束"
+
+# smartling.placeholder_format=C
 #. Written into the exported text file of a chat that was saved from a shared link, right after the last shared message. Counterpart of the top marker DUCKCHAT_SHARE_VIEW_COPY_LABEL.
 msgctxt ""
 "Marker line in an exported chat .txt after the messages that came from a "
@@ -7980,6 +8160,12 @@ msgstr "輸入新的通關密語，再按一下/點按%1$s儲存設定%2$s。這
 msgctxt "settings"
 msgid "Enter a passphrase"
 msgstr "輸入通關密語"
+
+# smartling.placeholder_format=C
+#. Hint text shown inside the text field before the user types a device name.
+msgctxt "Placeholder shown in the empty device-name input"
+msgid "Enter device name"
+msgstr "輸入裝置名稱"
 
 # smartling.placeholder_format=C
 #. Prompt to enter a starting location for driving directions.
@@ -8438,6 +8624,15 @@ msgid "File Size"
 msgstr "檔案大小"
 
 # smartling.placeholder_format=C
+#. Notice shown in a banner below the Duck.ai chat input as soon as the user attaches an image or file, before sending. Explains that uploads are scanned for illegal content and that chats flagged by the scan are retained for a limited time. The placeholder is replaced with a 'Learn more' link (LEARN_MORE_SENTENCE) that opens the AI Chat privacy help page.
+msgctxt ""
+"Privacy notice below the Duck.ai chat input when a file or image is attached"
+msgid ""
+"Files are automatically scanned for illegal content. Flagged chats have "
+"limited data retention. %s"
+msgstr "檔案會自動掃描是否含有非法內容。 被標記的聊天資料只會保留有限時間。 %1$s"
+
+# smartling.placeholder_format=C
 #. The name of the Filipino language
 msgctxt "language_name"
 msgid "Filipino"
@@ -8719,6 +8914,12 @@ msgstr "格式"
 msgctxt "Feedback prompt"
 msgid "Formatting issues"
 msgstr "格式問題"
+
+# smartling.placeholder_format=C
+#. Note under the title of the pasted-text modal in Duck.ai, warning that the pasted text may not keep the formatting (e.g. bold, tables, layout) of the page or document it was copied from.
+msgctxt "Subtitle of the modal showing a pasted-text attachment"
+msgid "Formatting may be inconsistent from source."
+msgstr "格式可能與來源不一致。"
 
 # smartling.placeholder_format=C
 #. Soccer match stats
@@ -11878,6 +12079,16 @@ msgid "Lineouts Won"
 msgstr "邊線爭球成功次數"
 
 # smartling.placeholder_format=C
+#. Shown in the share modal when an existing shared link has passed its expiry. Refers to the link, not any saved copy of the chat.
+msgid "Link expired."
+msgstr "連結已到期。"
+
+# smartling.placeholder_format=C
+#. Label above the create-link button in the Duck.ai share preview, next to options for how long the link will remain available.
+msgid "Link expires in"
+msgstr "連結有效期限"
+
+# smartling.placeholder_format=C
 #. Shown instead of the static expiry bullet when the modal holds an existing link. %s is a whole number of days, always 2 or more.
 msgctxt ""
 "Share modal info bullet counting down the expiry of an existing link; %s is "
@@ -12078,6 +12289,18 @@ msgctxt ""
 "account (electron desktop app variant)"
 msgid "Login to your existing DuckDuckGo account"
 msgstr "登入您現有的 DuckDuckGo 帳戶"
+
+# smartling.placeholder_format=C
+#. Replaces the title and button after the user clicks Switch to This Logo. Same copy as the iOS app.
+msgctxt "Confirmation in the easter egg logo modal (mobile)"
+msgid "Logo Saved"
+msgstr "已儲存標誌"
+
+# smartling.placeholder_format=C
+#. Replaces the title and link after the user clicks 'Switch to this logo.'. Sentence case with a period, like the rest of the tooltip; the mobile modal shows 'Logo Saved'.
+msgctxt "Confirmation in the easter egg logo tooltip (desktop)"
+msgid "Logo saved."
+msgstr "已儲存標誌。"
 
 # smartling.placeholder_format=C
 #. Filters the duration of videos in search results.
@@ -12552,6 +12775,12 @@ msgid "Menu"
 msgstr "選單"
 
 # smartling.placeholder_format=C
+#. Accessible label for the icon-only button that opens the result context menu
+msgctxt "Result context menu"
+msgid "Menu"
+msgstr "選單"
+
+# smartling.placeholder_format=C
 #. Refers to the menu of a restaurant.
 msgctxt "maps_places"
 msgid "Menu"
@@ -12869,6 +13098,12 @@ msgid "More Info"
 msgstr "更多資訊"
 
 # smartling.placeholder_format=C
+#. Opens DuckDuckGo Search in a new tab on the game or league the answer was about, where the scoreboard and surrounding coverage are shown.
+msgctxt "Button on a Duck.ai sports answer that opens DuckDuckGo Search"
+msgid "More Info"
+msgstr "更多資訊"
+
+# smartling.placeholder_format=C
 #. A button that loads additional links.
 msgid "More Links"
 msgstr "更多連結"
@@ -13133,6 +13368,13 @@ msgstr "暗紅"
 #. Label preceding the list of devices currently registered to the account.
 msgctxt "Section header for the device list inside Manage Sync & Backup"
 msgid "My Devices"
+msgstr "我的裝置"
+
+# smartling.placeholder_format=C
+#. Heads the list of devices that are connected to Sync & Backup right now.
+msgctxt ""
+"Label above the list of devices inside the Turn Off Sync & Backup dialogs"
+msgid "My devices"
 msgstr "我的裝置"
 
 # smartling.placeholder_format=C
@@ -13441,10 +13683,22 @@ msgid "Next image"
 msgstr "下一張圖片"
 
 # smartling.placeholder_format=C
+#. Accessible label for the button that moves to the next image in the image detail view.
+msgctxt "image_detail_view"
+msgid "Next image"
+msgstr "下一張圖片"
+
+# smartling.placeholder_format=C
 #. Accessibility label for the button that scrolls the rich caption tab row right to reveal later tabs.
 msgctxt "Rich caption tabbed snippet, horizontal tab scroll"
 msgid "Next tabs"
 msgstr "下一個分頁"
+
+# smartling.placeholder_format=C
+#. Accessible label for the button that switches the voice picker to the next voice.
+msgctxt "voice chat voice picker"
+msgid "Next voice"
+msgstr "下一個語音"
 
 # smartling.placeholder_format=C
 msgid "Nicaragua"
@@ -14336,6 +14590,14 @@ msgid "Only when Assist is clicked"
 msgstr "只有在您點擊「Assist」的時候"
 
 # smartling.placeholder_format=C
+#. %s is the maximum number of chats kept locally, for example 100.
+msgctxt ""
+"Note under the device list in the final confirmation before deleting the "
+"server data"
+msgid "Only your %s most recent chats will remain on your devices."
+msgstr "你的裝置上只會保留 %1$s 筆近期聊天記錄。"
+
+# smartling.placeholder_format=C
 #. Message displayed if there is an error during translation
 msgctxt "translations_module"
 msgid ""
@@ -14477,6 +14739,12 @@ msgid "Open a new tab or window"
 msgstr "開啟新分頁或視窗"
 
 # smartling.placeholder_format=C
+#. Short description of how the first voice option sounds, shown below it in the voice picker.
+msgctxt "voice chat voice picker"
+msgid "Open and upbeat"
+msgstr "開朗且積極"
+
+# smartling.placeholder_format=C
 #. shown when DDG is selected after eu preference menu on android
 msgctxt "welcome message eu search preference android"
 msgid "Open app"
@@ -14516,6 +14784,12 @@ msgstr "開啟選單"
 msgctxt "settingsvalue"
 msgid "Open on third-party site"
 msgstr "在第三方網站開啟"
+
+# smartling.placeholder_format=C
+#. Accessible label for the button that opens a long text the user pasted into the Duck.ai chat input. Used when the pasted text is only whitespace and has no excerpt to name it by.
+msgctxt "Accessible label for opening a pasted-text attachment"
+msgid "Open pasted text"
+msgstr "開啟貼上的文字"
 
 # smartling.placeholder_format=C
 #. Tooltip text that appears when hovering over the settings button.
@@ -14615,6 +14889,14 @@ msgstr "選填"
 msgctxt "feedback form"
 msgid "Optional"
 msgstr "選填"
+
+# smartling.placeholder_format=C
+#. Read by screen readers for the button that opens the menu with actions for one device, such as Remove Device. %s is the device name, for example Chrome 151.
+msgctxt ""
+"Accessibility label for the options button on a row in the synced devices "
+"list; %s is the device name"
+msgid "Options for %s"
+msgstr "%1$s 的選項"
 
 # smartling.placeholder_format=C
 #. A label that appears next to a suggested search term. For example 'Or did you mean pizza?'
@@ -15051,6 +15333,25 @@ msgstr "貼上配對碼"
 msgctxt "Placeholder for the manual paste textarea"
 msgid "Paste your code here"
 msgstr "把您的代碼貼到這裡"
+
+# smartling.placeholder_format=C
+#. Title-case title of the modal that shows the full content of a long text the user pasted into the Duck.ai chat input. Also the accessible label of the text area inside the modal.
+msgctxt "Title of the modal showing a pasted-text attachment"
+msgid "Pasted Text"
+msgstr "貼上的文字"
+
+# smartling.placeholder_format=C
+#. Short label naming the attachment as text the user pasted into the Duck.ai chat input, shown under the start of the pasted text in the attachment chip.
+msgctxt ""
+"Attachment kind label under the title of a pasted-text attachment chip"
+msgid "Pasted text"
+msgstr "貼上的文字"
+
+# smartling.placeholder_format=C
+#. Line placed before the content of a long text the user pasted into a Duck.ai message, in the exported chat file. %s is the number of the pasted text within the message, e.g. 'Pasted text #1'.
+msgctxt "Start marker of a pasted-text attachment in an exported Duck.ai chat"
+msgid "Pasted text #%s"
+msgstr "貼上的文字 #%1$s"
 
 # smartling.placeholder_format=C
 #. Text for the label that indicates the feature is paused.
@@ -15827,6 +16128,12 @@ msgid "Previous image"
 msgstr "前一張圖片"
 
 # smartling.placeholder_format=C
+#. Accessible label for the button that moves to the previous image in the image detail view.
+msgctxt "image_detail_view"
+msgid "Previous image"
+msgstr "前一張圖片"
+
+# smartling.placeholder_format=C
 #. Accessibility label for the button that scrolls the rich caption tab row left to reveal earlier tabs.
 msgctxt "Rich caption tabbed snippet, horizontal tab scroll"
 msgid "Previous tabs"
@@ -15837,6 +16144,12 @@ msgstr "先前的分頁"
 msgctxt "Accessible label for the checklist previous-page button"
 msgid "Previous tips"
 msgstr "先前的提示"
+
+# smartling.placeholder_format=C
+#. Accessible label for the button that switches the voice picker to the previous voice.
+msgctxt "voice chat voice picker"
+msgid "Previous voice"
+msgstr "上一個語音"
 
 # smartling.placeholder_format=C
 #. Label that's displayed next to a price below a web search result.
@@ -15996,6 +16309,12 @@ msgstr "透過電子郵件接收電子報"
 msgctxt "showcase_newsletter"
 msgid "Privacy in Your Inbox"
 msgstr "透過電子郵件接收電子報"
+
+# smartling.placeholder_format=C
+#. Title for the first privacy claim shown for models that do not run in an encrypted environment. Appears both as the first row of the privacy modal and as the opening sentence of the privacy tagline under the Duck.ai chat header, e.g. 'Privacy protected and anonymized by DuckDuckGo. No AI training. Learn more'.
+msgctxt "Privacy claim title in Duck.ai chat for non-encrypted models"
+msgid "Privacy protected and anonymized by DuckDuckGo"
+msgstr "DuckDuckGo 保護隱私並進行匿名處理"
 
 # smartling.placeholder_format=C
 #. shown when DDG is selected after eu preference menu on android
@@ -16820,6 +17139,14 @@ msgid "Remove %s"
 msgstr "移除 %1$s"
 
 # smartling.placeholder_format=C
+#. %s is the device name, for example Chrome 151. Also used when turning off Sync & Backup on the device the person is using.
+msgctxt ""
+"Title of the confirmation dialog for removing one device from Sync & Backup; "
+"%s is the device name"
+msgid "Remove %s from Sync & Backup?"
+msgstr "要從 Sync & Backup 移除「%1$s」嗎？"
+
+# smartling.placeholder_format=C
 #. The user taps this to remove a device (other than the one they are using) so it can no longer sync.
 msgctxt "Button that starts removing one of the other devices from syncing"
 msgid "Remove Device"
@@ -16898,6 +17225,14 @@ msgstr "移除「產生」按鈕，自動開啟相關搜尋的問答結果。總
 msgctxt "Button text for renaming a chat"
 msgid "Rename"
 msgstr "重新命名"
+
+# smartling.placeholder_format=C
+#. Item in the options menu of the user's own row in the synced devices list. Opens a dialog to change the name of the device they are using.
+msgctxt ""
+"Menu item that opens a dialog to rename the device the user is currently "
+"using"
+msgid "Rename Device"
+msgstr "重新命名裝置"
 
 # smartling.placeholder_format=C
 #. Indicates that this show (movie, series, etc.) is available to either rent or buy from the given streaming service.
@@ -17020,6 +17355,18 @@ msgstr "重設所有設定"
 msgctxt "settings"
 msgid "Reset All Settings"
 msgstr "重設所有設定"
+
+# smartling.placeholder_format=C
+#. Shown when the logo on screen is the user's saved default; clears it so later searches show the standard logo. Same copy as the iOS app.
+msgctxt "Button in the easter egg logo modal (mobile)"
+msgid "Reset Search Logo"
+msgstr "重設搜尋標誌"
+
+# smartling.placeholder_format=C
+#. Shown when the logo on screen is the user's saved default; clears it so later searches show the standard logo. Sentence case with a period, as a link; the mobile button of the same meaning is title case.
+msgctxt "Link in the easter egg logo tooltip (desktop)"
+msgid "Reset search logo."
+msgstr "重設搜尋標誌。"
 
 # smartling.placeholder_format=C
 #. Button in settings that resets the Duck.ai onboarding tips so they show again from the beginning.
@@ -17465,6 +17812,12 @@ msgid "Save"
 msgstr "儲存"
 
 # smartling.placeholder_format=C
+#. Saves the user's changes to a chat summary.
+msgctxt "Button to save an edited chat summary"
+msgid "Save"
+msgstr "儲存"
+
+# smartling.placeholder_format=C
 #. A button to save the assist settings.
 msgctxt "duckassist"
 msgid "Save"
@@ -17474,6 +17827,12 @@ msgstr "儲存"
 msgctxt "settings"
 msgid "Save"
 msgstr "儲存"
+
+# smartling.placeholder_format=C
+#. Button in the pasted-text modal in Duck.ai that saves the user's edits to the pasted text.
+msgctxt "Button to save edits to a pasted-text attachment"
+msgid "Save Changes"
+msgstr "儲存變更"
 
 # smartling.placeholder_format=C
 #. Title above the page where settings are saved to the cloud.
@@ -17579,6 +17938,14 @@ msgstr "將你最近的聊天記錄保存在此裝置上。"
 msgctxt "settings"
 msgid "Save your settings anonymously to the cloud"
 msgstr "以匿名方式將你的設定儲存至雲端"
+
+# smartling.placeholder_format=C
+#. Announced to screen readers while the rename is in progress; not shown as visible text.
+msgctxt ""
+"Accessible status label on the loading spinner shown while the new device "
+"name is saved"
+msgid "Saving..."
+msgstr "正在儲存……"
 
 # smartling.placeholder_format=C
 #. Title displayed on the welcome screen of the onboarding.
@@ -17934,6 +18301,12 @@ msgstr "搜尋聊天"
 #. A button that searches within a specific website. The placeholder value is the name of the website. For example: 'Search domain Wikipedia'
 msgid "Search domain %s"
 msgstr "搜尋「%1$s」網域"
+
+# smartling.placeholder_format=C
+#. Tooltip on a clickable team name inside a Duck.ai sports answer. Clicking it opens DuckDuckGo Search for that team. The placeholder is the team's full name, for example: 'Search for San Francisco Giants'.
+msgctxt "Tooltip on a team name in a Duck.ai sports answer"
+msgid "Search for %s"
+msgstr "搜尋「%1$s」"
 
 # smartling.placeholder_format=C
 #. Title for the notice displayed in the Duck.ai chat history sidebar when chat search cannot be loaded.
@@ -19637,6 +20010,12 @@ msgid "Something went wrong while enabling Sync & Backup. Please try again."
 msgstr "發生錯誤，啟用 Sync & Backup 時發生錯誤。請再試一次。"
 
 # smartling.placeholder_format=C
+#. Message shown below the input when the rename could not be saved.
+msgctxt "Error shown when saving the new device name fails"
+msgid "Something went wrong, please try again later."
+msgstr "發生錯誤，請稍後再試。"
+
+# smartling.placeholder_format=C
 #. Displayed when the voice chat session ends with an unknown error.
 msgctxt "voice chat error"
 msgid "Something went wrong, please try again later."
@@ -20109,6 +20488,12 @@ msgid "Student"
 msgstr "學生"
 
 # smartling.placeholder_format=C
+#. Precedes the subject line the AI suggests for a drafted email. Includes the colon for translation.
+msgctxt "Label before the suggested subject line of a drafted email in Duck.ai"
+msgid "Subject:"
+msgstr "主旨："
+
+# smartling.placeholder_format=C
 #. Button that submits feedback.
 msgid "Submit"
 msgstr "提交"
@@ -20261,6 +20646,12 @@ msgid "Summarize"
 msgstr "總結"
 
 # smartling.placeholder_format=C
+#. Summarizes a chat that reached its maximum length so the user can continue in it.
+msgctxt "Button to summarize a chat and keep going"
+msgid "Summarize and Continue"
+msgstr "總結並繼續"
+
+# smartling.placeholder_format=C
 #. Page-suggestion chip label "Summarize the Q&As", shown on the current web page in the duck.ai sidebar. Tapping the chip sends a related prompt to the AI.
 msgctxt "Page suggestion chip label"
 msgid "Summarize the Q&As"
@@ -20349,6 +20740,12 @@ msgstr "總結評論內容。"
 msgctxt "Assistant role option label for Summarizer"
 msgid "Summarizer"
 msgstr "摘要工具"
+
+# smartling.placeholder_format=C
+#. Displayed while the summary of a chat that reached its maximum length is being generated.
+msgctxt "Placeholder while a chat summary is generated"
+msgid "Summarizing"
+msgstr "正在產生摘要"
 
 # smartling.placeholder_format=C
 #. Label for summary tab
@@ -20512,6 +20909,12 @@ msgid "Switch to Our Browser"
 msgstr "切換到我們的瀏覽器"
 
 # smartling.placeholder_format=C
+#. Saves the logo on screen as the user's default logo for later searches. Same copy as the iOS app.
+msgctxt "Button in the easter egg logo modal (mobile)"
+msgid "Switch to This Logo"
+msgstr "切換至此標誌"
+
+# smartling.placeholder_format=C
 #. Button text that opens a menu of free/degraded models after the advanced-model usage limit has been reached.
 msgctxt "Usage limit banner in Duck.ai."
 msgid "Switch to a Free Model"
@@ -20527,6 +20930,12 @@ msgstr "轉換到更有效率的模式"
 #. Text prompting  users to switch their current search engine to the DuckDuckGo private search engine.
 msgid "Switch to the search engine that doesn't track you. Ever."
 msgstr "切換到永遠不會追蹤你的搜尋引擎。"
+
+# smartling.placeholder_format=C
+#. Follows 'You found a hidden logo!'. Saves the logo on screen as the user's default logo for later searches. Sentence case with a period, as a link; the mobile button of the same meaning is title case.
+msgctxt "Link after a sentence in the easter egg logo tooltip (desktop)"
+msgid "Switch to this logo."
+msgstr "切換到此標誌。"
 
 # smartling.placeholder_format=C
 #. Re-activates a stacked second opinion, making it the current answer again.
@@ -21244,6 +21653,14 @@ msgstr "這些瀏覽器權限可封鎖隱藏的追蹤器，並盡可能加密資
 msgctxt "Body for the already-synced screen"
 msgid "These devices are already connected to Sync & Backup."
 msgstr "這些裝置已連接到 Sync & Backup。"
+
+# smartling.placeholder_format=C
+#. Heads the list of every device that will be disconnected.
+msgctxt ""
+"Label above the device list in the final confirmation before deleting the "
+"server data, when several devices are synced"
+msgid "These devices will stop syncing"
+msgstr "這些裝置將停止同步"
 
 # smartling.placeholder_format=C
 #. Placeholder text displayed while a reasoning AI model is thinking before generating a response.
@@ -22633,6 +23050,13 @@ msgid "Turn Off Sync & Backup?"
 msgstr "關閉 Sync & Backup？"
 
 # smartling.placeholder_format=C
+#. Shown on the Turn Off dialog once the delete server data switch is on, and again on the final cannot-undo confirmation, which is the step that actually deletes the data.
+msgctxt ""
+"Destructive button that turns off Sync & Backup and deletes the server data"
+msgid "Turn Off and Delete Server Data"
+msgstr "關閉及刪除伺服器資料"
+
+# smartling.placeholder_format=C
 #. Opens the Delete Server Data confirmation modal.
 msgctxt "Destructive link at the bottom of the Manage modal"
 msgid "Turn Off and Delete Server Data"
@@ -23756,6 +24180,12 @@ msgid "Visited links:"
 msgstr "已造訪連結："
 
 # smartling.placeholder_format=C
+#. Screen reader announcement when the voice picker switches voice. The first %s is the voice's position, the second is the total number of voices, and the last is that voice's short description. Example: 'Voice 2 of 4: Animated and earnest'
+msgctxt "voice chat voice picker"
+msgid "Voice %s of %s: %s"
+msgstr "第%1$s個語音，共%2$s個：%3$s"
+
+# smartling.placeholder_format=C
 #. Title for the Voice Chat feature.
 msgctxt "voice chat"
 msgid "Voice Chat"
@@ -23778,6 +24208,12 @@ msgstr "語音聊天時間已達上限"
 msgctxt "voice chat"
 msgid "Voice chat ended"
 msgstr "語音聊天結束"
+
+# smartling.placeholder_format=C
+#. Bullet in the voice chat consent modal, next to a voice picker. Informs that voice chats with the AI are anonymized by us and never used to train AI models.
+msgctxt "voice chat"
+msgid "Voice chat is anonymized by us, and never used for training."
+msgstr "我們會對語音聊天進行匿名處理，且絕不會用於訓練。"
 
 # smartling.placeholder_format=C
 #. Description in consent disclaimer informing that voice chats with the AI (Artificial Intelligence) are anonymized by us, and are never used to train AI models.
@@ -25582,6 +26018,22 @@ msgid "You can store several sets of settings for different purposes."
 msgstr "你可預備數套設定作不同用途。"
 
 # smartling.placeholder_format=C
+#. Second, last confirmation shown after the person chose to turn off Sync & Backup and delete the server data.
+msgctxt ""
+"Title of the final confirmation before the Sync & Backup server data is "
+"deleted"
+msgid "You can’t undo this action."
+msgstr "你無法復原此操作。"
+
+# smartling.placeholder_format=C
+#. Shown above the Switch to This Logo button, which makes the logo the user's default. Hidden once the logo is saved. Same copy as the iOS app.
+msgctxt ""
+"Title in the tooltip / tap-to-zoom modal of an easter egg logo on the search "
+"results header"
+msgid "You found a hidden logo!"
+msgstr "你找到了隱藏標誌！"
+
+# smartling.placeholder_format=C
 #. Instructions for user once they've failed the bot challenge
 msgctxt "Anomaly modal"
 msgid "You have %s attempts left."
@@ -26192,6 +26644,14 @@ msgid "You’ve reached the maximum duration for a single session."
 msgstr "您已達到單次會話的最長時長。"
 
 # smartling.placeholder_format=C
+#. Explains that summarizing the chat lets the user keep going in the same chat.
+msgctxt "Description shown when a chat reaches its maximum length"
+msgid ""
+"You’ve reached the maximum length for this chat. Summarize the conversation "
+"and pick up where you left off."
+msgstr "你已達到此聊天的最長長度。 總結對話並接續你上次中斷的地方。"
+
+# smartling.placeholder_format=C
 #. Displayed when the user has reached the maximum number of messages for one day.
 msgctxt "Error message for user limit"
 msgid ""
@@ -26716,6 +27176,15 @@ msgstr "年"
 msgctxt "published date for videos"
 msgid "yr"
 msgstr "年"
+
+# smartling.placeholder_format=C
+#. The first %s is the device name, for example Chrome 151 (falls back to a Device N placeholder when the name cannot be decrypted). The second %s is the maximum number of chats kept locally, for example 100.
+msgctxt ""
+"Body of the confirmation dialog for removing one device from Sync & Backup"
+msgid ""
+"“%s” will no longer be able to access your synced data on other devices. "
+"Only your %s most recent chats will remain on your devices."
+msgstr "「%1$s」將無法再存取你在其他裝置上的同步資料。你的裝置上只會保留 %2$s 筆近期聊天記錄。"
 
 # smartling.placeholder_format=C
 #. Visible arrow that advances the first tooltip in the 'Delete a chat' onboarding step. Use the appropriate direction for the locale's reading direction; the control's accessible label is translated separately.
