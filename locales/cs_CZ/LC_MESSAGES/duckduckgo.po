@@ -68,6 +68,11 @@ msgid "%s Intermission"
 msgstr "%1$s přestávka"
 
 # smartling.placeholder_format=C
+#. In the full-screen window of a small game made by DuckDuckGo (for example 'Dax Bricks'). Heading when the player won the game and the score is in the 10 best scores in this browser. The first %s is the game's own title, for example 'You win!'; the second %s is the score, for example '1,240'. Example: 'You win! New high score! 1,240'.
+msgid "%s New high score! %s"
+msgstr "%1$s Nový rekord! %2$s"
+
+# smartling.placeholder_format=C
 #. Indicates the number of players who are out in Baseball, e.g. '3 Out'
 msgctxt "Sports module"
 msgid "%s Out"
@@ -2342,6 +2347,22 @@ msgid "Amharic"
 msgstr "Amharština"
 
 # smartling.placeholder_format=C
+#. Shown under the line 'Account info key ID: <key ID>'. The line itself stays in English; only this explanation is translated.
+msgctxt ""
+"Explanation of the Account info key ID line on the Duck.ai sync diagnostics "
+"screen"
+msgid "An ID for one of your sync encryption keys, not the key itself"
+msgstr "ID jednoho z tvých šifrovacích klíčů pro synchronizaci, ne samotný klíč"
+
+# smartling.placeholder_format=C
+#. Shown under the line 'AI chats key ID: <key ID>'. The line itself stays in English; only this explanation is translated.
+msgctxt ""
+"Explanation of the AI chats key ID line on the Duck.ai sync diagnostics "
+"screen"
+msgid "An ID for the key that encrypts your synced chats, not the key itself"
+msgstr "ID klíče, kterým se šifrují tvoje synchronizované chaty, ne samotný klíč"
+
+# smartling.placeholder_format=C
 #. Link text to the Duck.ai help pages, inserted at the start of DUCKCHAT_BONUS_MODAL_DISCLAIMER_ANONYMIZED_ID. Example: '<a>An anonymized ID</a> is used to manage your extra limits.'
 msgctxt "Duck.ai limit-extension offer activation modal"
 msgid "An anonymized ID"
@@ -3369,6 +3390,11 @@ msgctxt ""
 "picker dropdown"
 msgid "Best for everyday use"
 msgstr "Nejlepší pro každodenní použití"
+
+# smartling.placeholder_format=C
+#. Shown under the game's name on the search results card for a small game made by DuckDuckGo. The first %s is the best score saved in this browser (for example '1,240'), the second %s is the 3 letters the player entered with it (for example 'ABC'). Example: 'Best: 1,240 | ABC'.
+msgid "Best: %s | %s"
+msgstr "Nejlepší: %1$s | %2$s"
 
 # smartling.placeholder_format=C
 #. In the right menu panel of the homepage.
@@ -4595,6 +4621,14 @@ msgid "Chats reverted to standard usage limits"
 msgstr "Pro chaty opět platí standardní limity používání"
 
 # smartling.placeholder_format=C
+#. Shown under the line 'Chats failed to sync: 3 (2 storage full, 1 refused)'. The line itself stays in English; only this explanation is translated.
+msgctxt ""
+"Explanation of the Chats failed to sync line on the Duck.ai sync diagnostics "
+"screen"
+msgid "Chats that couldn’t sync, with the reason"
+msgstr "Chaty, které se nepodařilo synchronizovat, včetně důvodu"
+
+# smartling.placeholder_format=C
 #. Description explaining that uploaded files are anonymously reviewed for CSAM by a content moderation provider, even on zero-provider-visibility models. First placeholder is the full model name (e.g. 'Gemma 4 31B'). Second placeholder is the acronym 'CSAM' (Child Sexual Abuse Material), injected as-is and NOT translated — it renders with a tooltip carrying the translated expansion. An example full sentence would be: Chats with Gemma 4 31B have zero provider visibility, but all files uploaded in Duck.ai are anonymously reviewed by a content moderation provider for CSAM.
 msgctxt "DuckChat upload consent prompt for encrypted models"
 msgid ""
@@ -4613,6 +4647,14 @@ msgid ""
 msgstr ""
 "Chaty s přílohami se přestaly synchronizovat. Uvolni úložiště a pokračuj v "
 "synchronizaci."
+
+# smartling.placeholder_format=C
+#. Shown under the line 'Chats waiting to upload: 2'. The line itself stays in English; only this explanation is translated.
+msgctxt ""
+"Explanation of the Chats waiting to upload line on the Duck.ai sync "
+"diagnostics screen"
+msgid "Chats with changes not synced yet"
+msgstr "Chaty se změnami, které se ještě nesynchronizovaly"
 
 # smartling.placeholder_format=C
 #. Message shown when we have no data from upstream to display
@@ -5375,6 +5417,17 @@ msgid "Close Follow-Up Suggestions"
 msgstr "Skrýt návrhy navazujících otázek"
 
 # smartling.placeholder_format=C
+#. Tooltip and screen-reader label for the buttons that close the card showing one place's details (photos, hours, contact) beside the expanded map's list of places.
+msgctxt "maps_places"
+msgid "Close details"
+msgstr "Zavřít podrobnosti"
+
+# smartling.placeholder_format=C
+#. Accessible label of the X button that closes the full-screen window of a small game made by DuckDuckGo (for example 'Dax Bricks').
+msgid "Close game"
+msgstr "Zavřít hru"
+
+# smartling.placeholder_format=C
 msgctxt "Label for X button that closes side menu"
 msgid "Close menu"
 msgstr "Zavřít nabídku"
@@ -5928,6 +5981,13 @@ msgid "Copied"
 msgstr "Zkopírováno"
 
 # smartling.placeholder_format=C
+#. Title-case label that temporarily replaces Copy Report after the report was copied.
+msgctxt ""
+"Confirmation shown on the copy button of the Duck.ai sync diagnostics screen"
+msgid "Copied to Clipboard"
+msgstr "Zkopírováno do schránky"
+
+# smartling.placeholder_format=C
 #. Button text to copy the generation prompt (shown as the modal description) to the clipboard.
 msgctxt "Button label for image info modal"
 msgid "Copy"
@@ -5967,6 +6027,12 @@ msgstr "Kopírovat kód"
 msgctxt "Button to copy the share link to the clipboard"
 msgid "Copy Link"
 msgstr "Kopírovat odkaz"
+
+# smartling.placeholder_format=C
+#. Title-case primary button that copies the sync report to the clipboard, so the user can paste it into an email to support.
+msgctxt "Button that copies the report on the Duck.ai sync diagnostics screen"
+msgid "Copy Report"
+msgstr "Kopírovat přehled"
 
 # smartling.placeholder_format=C
 #. Label for the copy button on the Scan QR tab.
@@ -6009,6 +6075,16 @@ msgid ""
 msgstr ""
 "Zkopíruj kód z jiného zařízení. Přejdi do %1$sNastavení Duck.ai › Chaty › "
 "Sync & Backup › Synchronizace s jiným zařízením%2$s a zkus to znovu."
+
+# smartling.placeholder_format=C
+#. Shown under the Sync & Backup Report title. Tells the user how to send the report to DuckDuckGo support.
+msgctxt "Description under the title of the Duck.ai sync diagnostics screen"
+msgid ""
+"Copy the report and paste it in your email reply to support. Engineers at "
+"DuckDuckGo will review the case."
+msgstr ""
+"Zkopíruj přehled a vlož ho do odpovědi na e-mail pro podporu. Případ prověří "
+"inženýři DuckDuckGo."
 
 # smartling.placeholder_format=C
 #. Tooltip text for the button that copies the chat response content to the clipboard.
@@ -10346,6 +10422,18 @@ msgid "Get more chat storage with Sync & Backup."
 msgstr "Získej větší úložiště pro chaty pomocí funkce Sync & Backup."
 
 # smartling.placeholder_format=C
+#. 'Get' refers to downloading our free browser app
+msgctxt "SERP footer content"
+msgid "Get our Mac browser"
+msgstr "Nainstaluj si náš prohlížeč pro Mac"
+
+# smartling.placeholder_format=C
+#. 'Get' refers to downloading our free browser app
+msgctxt "SERP footer content"
+msgid "Get our Windows browser"
+msgstr "Nainstaluj si náš prohlížeč pro Windows"
+
+# smartling.placeholder_format=C
 #. Promotional text that appears in popup promo to encourage user's to download DuckDuckGo Browser from the settings page.
 msgctxt "Browser Promo Popover"
 msgid "Get our browser to never lose your settings."
@@ -11218,6 +11306,12 @@ msgid "Hide information"
 msgstr "Skrýt informace"
 
 # smartling.placeholder_format=C
+#. Tooltip and screen-reader label for the tab on the edge of the expanded map's list of places, which hides the list to show more of the map.
+msgctxt "maps_places"
+msgid "Hide list"
+msgstr "Skrýt seznam"
+
+# smartling.placeholder_format=C
 #. Tooltip text for the button that hides the model's reasoning steps when already expanded.
 msgctxt "Tooltip for reasoning duration button"
 msgid "Hide reasoning"
@@ -11509,6 +11603,14 @@ msgid "How it works"
 msgstr "Jak to funguje"
 
 # smartling.placeholder_format=C
+#. Shown under the line 'Chats on this device: 87'. The line itself stays in English; only this explanation is translated.
+msgctxt ""
+"Explanation of the Chats on this device line on the Duck.ai sync diagnostics "
+"screen"
+msgid "How many chats are saved on this device"
+msgstr "Kolik chatů se ukládá na tomhle zařízení"
+
+# smartling.placeholder_format=C
 #. Header for the assist settings modal where the user can choose how often they want AI-assisted answers to appear.
 msgctxt "duckassist"
 msgid "How much do you want AI-assisted answers to appear?"
@@ -11519,6 +11621,15 @@ msgstr "Jak často chceš, aby se objevovaly odpovědi s podporou umělé inteli
 msgctxt "Duck.ai settings usage section"
 msgid "How much of your daily and weekly limits you've used so far."
 msgstr "Kolik už máš vyčerpáno ze svých denních a týdenních limitů."
+
+# smartling.placeholder_format=C
+#. Shown under the line 'Site storage used: 12 MB, ok'. The line itself stays in English; only this explanation is translated.
+msgctxt ""
+"Explanation of the Site storage used line on the Duck.ai sync diagnostics "
+"screen"
+msgid ""
+"How much space Duck.ai uses on this device, and whether it’s nearly full"
+msgstr "Kolik místa Duck.ai zabírá na tomhle zařízení a jestli je téměř plné"
 
 # smartling.placeholder_format=C
 #. A header for the feedback form in the assist negative feedback flow. The user is being asked to update how often they want AI-assisted answers to appear.
@@ -11791,6 +11902,14 @@ msgstr ""
 msgctxt "Menu item to attach an image to the AI chat message"
 msgid "Image"
 msgstr "Obrázek"
+
+# smartling.placeholder_format=C
+#. Error message displayed when Duck.ai image features (upload and generation) are disabled server-side
+msgctxt ""
+"Error message when image upload and image generation are temporarily turned "
+"off"
+msgid "Image features are currently unavailable. Try again later."
+msgstr "Obrazové funkce momentálně nejsou dostupné. Zkus to později."
 
 # smartling.placeholder_format=C
 #. Heading shown above an assistant message that contains a generated image.
@@ -12133,6 +12252,21 @@ msgstr "Informace jsou zastaralé"
 #. Feedback option when AI response is up-to-date
 msgid "Information is up-to-date"
 msgstr "Informace jsou aktuální"
+
+# smartling.placeholder_format=C
+#. In the full-screen window of a small game made by DuckDuckGo (for example 'Dax Bricks'). Accessible label of one of the 3 letters (initials) the player enters with a new high score, like in an arcade. %s is 1, 2 or 3.
+msgid "Initial %s of 3"
+msgstr "Iniciála %1$s ze 3"
+
+# smartling.placeholder_format=C
+#. In the full-screen window of a small game made by DuckDuckGo (for example 'Dax Bricks'). Accessible label of the up-arrow button above one of the 3 initials; it changes that letter to the next one in the alphabet. %s is 1, 2 or 3.
+msgid "Initial %s: next letter"
+msgstr "Iniciála %1$s: další písmeno"
+
+# smartling.placeholder_format=C
+#. In the full-screen window of a small game made by DuckDuckGo (for example 'Dax Bricks'). Accessible label of the down-arrow button under one of the 3 initials; it changes that letter to the previous one in the alphabet. %s is 1, 2 or 3.
+msgid "Initial %s: previous letter"
+msgstr "Iniciála %1$s: předchozí písmeno"
 
 # smartling.placeholder_format=C
 #. Cricket scorecard: innings tab label prefix
@@ -12913,6 +13047,16 @@ msgid ""
 msgstr "Umožní ti přepínat mezi odesíláním vyhledávacích dotazů a promptů do Duck.ai"
 
 # smartling.placeholder_format=C
+#. Drawn on the board of 'Dax Bricks', a small brick-breaking game made by DuckDuckGo, in a 5x7 pixel font that has only the letters A-Z, digits and a few marks. Keep it short: the board is 320 pixels wide. Top centre during play. %s is the level number, 1 to 25.
+msgid "Level %s"
+msgstr "Úroveň %1$s"
+
+# smartling.placeholder_format=C
+#. Drawn on the board of 'Dax Bricks', a small brick-breaking game made by DuckDuckGo, in a 5x7 pixel font that has only the letters A-Z, digits and a few marks. Keep it short: the board is 320 pixels wide. Shown for a moment when every brick of a level is broken.
+msgid "Level cleared!"
+msgstr "Úroveň dokončena!"
+
+# smartling.placeholder_format=C
 msgid "Liberia"
 msgstr "Libérie"
 
@@ -13073,6 +13217,11 @@ msgid "Live"
 msgstr "Živě"
 
 # smartling.placeholder_format=C
+#. Drawn on the board of 'Dax Bricks', a small brick-breaking game made by DuckDuckGo, in a 5x7 pixel font that has only the letters A-Z, digits and a few marks. Keep it short: the board is 320 pixels wide. Shown after the last level. %s is the points added for the lives left, for example '15,000'.
+msgid "Lives bonus %s"
+msgstr "Bonus za životy %1$s"
+
+# smartling.placeholder_format=C
 #. Button that loads settings.
 msgctxt "settings"
 msgid "Load"
@@ -13137,6 +13286,11 @@ msgid "Loading..."
 msgstr "Načítání..."
 
 # smartling.placeholder_format=C
+#. Shown on the search results card for a small game made by DuckDuckGo, after the user presses Play and while the game downloads.
+msgid "Loading…"
+msgstr "Načítání..."
+
+# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Loads more image and video results when scrolling"
 msgstr "Při posouvání se načte více výsledků obrázků a videí"
@@ -13156,6 +13310,14 @@ msgstr "Při posunování načítat více výsledků obrázků, videí a nakupov
 msgctxt "settings"
 msgid "Loads more results when scrolling"
 msgstr "Načítat víc výsledků při posunování"
+
+# smartling.placeholder_format=C
+#. Header above a Duck.ai answer that an AI model on the user's own device wrote, instead of a model in the cloud. %s is the name of that on-device model, for example 'Apple Intelligence'.
+msgctxt ""
+"Header above a Duck.ai answer written by an AI model on the device of the "
+"user"
+msgid "Local Model (%s)"
+msgstr "Lokální model (%1$s)"
 
 # smartling.placeholder_format=C
 #. Heading for the table column indicating the country or region for which the data applies
@@ -14562,6 +14724,11 @@ msgid "New device added to %sSync & Backup."
 msgstr "Do %1$sSync & Backup bylo přidáno nové zařízení."
 
 # smartling.placeholder_format=C
+#. In the full-screen window of a small game made by DuckDuckGo (for example 'Dax Bricks'). Heading when the player's score is in the 10 best scores in this browser; the player then enters 3 letters. %s is the score, for example '1,240'.
+msgid "New high score! %s"
+msgstr "Nový rekord! %1$s"
+
+# smartling.placeholder_format=C
 #. Warning in the About Chat History and About Sync modals explaining that prompts and responses are temporarily stored encrypted on DuckDuckGo's server for connection recovery, and that disabling chat history deletes pinned chats.
 msgctxt "Chat history about modal list item"
 msgid ""
@@ -14678,6 +14845,12 @@ msgstr "Niger"
 # smartling.placeholder_format=C
 msgid "Nigeria"
 msgstr "Nigérie"
+
+# smartling.placeholder_format=C
+#. Shown under the 'Prices' title, introducing the list of prices below it, when each is the average nightly price for the chosen dates, not the total.
+msgctxt "Single Place Hotel Offers Module"
+msgid "Nightly rates for your stay:"
+msgstr "Ceny za noc během pobytu:"
 
 # smartling.placeholder_format=C
 msgid "No"
@@ -15530,6 +15703,11 @@ msgstr ""
 "Maximální počet stránek v souboru: %1$s."
 
 # smartling.placeholder_format=C
+#. Label on a dictionary definition card, before links to the other words in today's NYT Connections word puzzle.
+msgid "One search away..."
+msgstr "Stačí jedno hledání..."
+
+# smartling.placeholder_format=C
 #. Response a user can select in a feedback form, indicating that they heard about DuckDuckGo in an online article.
 msgctxt "new user poll"
 msgid "Online article"
@@ -15540,6 +15718,12 @@ msgstr "Online článek"
 msgctxt "Organic result context menu"
 msgid "Only include results for this site"
 msgstr "Zahrnout jenom výsledky pro tenhle web"
+
+# smartling.placeholder_format=C
+#. Shown above the Copy Report button. Anyone can send the link that opens this screen, so it warns the user to send the report only to DuckDuckGo support.
+msgctxt "Warning above the copy button on the Duck.ai sync diagnostics screen"
+msgid "Only share this report with DuckDuckGo support."
+msgstr "Tento přehled sdílej pouze s podporou DuckDuckGo."
 
 # smartling.placeholder_format=C
 #. A message saying that a site filter is applied to the search results. The placeholder string will contain a domain name. e.g. 'Only showing results from reddit.com'
@@ -16434,6 +16618,11 @@ msgid "Pasted text #%s"
 msgstr "Vložený text č. %1$s"
 
 # smartling.placeholder_format=C
+#. In the full-screen window of a small game made by DuckDuckGo (for example 'Dax Bricks'). Heading shown when the game is paused.
+msgid "Paused"
+msgstr "Pozastaveno"
+
+# smartling.placeholder_format=C
 #. Text for the label that indicates the feature is paused.
 msgctxt "Status label for a setting"
 msgid "Paused"
@@ -16461,6 +16650,16 @@ msgstr "Přiznané tresty"
 #. Heading above a list of related questions and answers shown on the search results page.
 msgid "People also ask"
 msgstr "Lidé se také ptají"
+
+# smartling.placeholder_format=C
+#. Drawn on the board of 'Dax Bricks', a small brick-breaking game made by DuckDuckGo, in a 5x7 pixel font that has only the letters A-Z, digits and a few marks. Keep it short: the board is 320 pixels wide. Shown after the last level when the player lost no life. %s is the points added, for example '25,000'.
+msgid "Perfect bonus %s"
+msgstr "Bonus za čistou hru %1$s"
+
+# smartling.placeholder_format=C
+#. Drawn on the board of 'Dax Bricks', a small brick-breaking game made by DuckDuckGo, in a 5x7 pixel font that has only the letters A-Z, digits and a few marks. Keep it short: the board is 320 pixels wide. Shown instead of 'You win!' after the last level when the player lost no life, and as the heading of the high-score table.
+msgid "Perfect!"
+msgstr "Dokonalé!"
 
 # smartling.placeholder_format=C
 #. A feedback suggestion
@@ -16729,6 +16928,16 @@ msgstr "Místa"
 msgctxt "Brief for planning a trip"
 msgid "Plan a trip"
 msgstr "Naplánuj si výlet"
+
+# smartling.placeholder_format=C
+#. Button on the search results card for a small game made by DuckDuckGo (for example 'Dax Bricks'). It opens the game full screen.
+msgid "Play"
+msgstr "Hrát"
+
+# smartling.placeholder_format=C
+#. In the full-screen window of a small game made by DuckDuckGo (for example 'Dax Bricks'). Button under the high-score table that starts a new game.
+msgid "Play again"
+msgstr "Hrát znovu"
 
 # smartling.placeholder_format=C
 #. Accessible label for the button that plays a short sample of the selected voice.
@@ -17219,6 +17428,12 @@ msgid "Prepare for a purchase"
 msgstr "Připrav mě na nákup"
 
 # smartling.placeholder_format=C
+#. Shown under the Sync & Backup Report title while the report about Sync & Backup on this device is being put together. Replaced by the description once the report is ready.
+msgctxt "Loading state of the Duck.ai sync diagnostics screen"
+msgid "Preparing your report…"
+msgstr "Připravuje se tvůj přehled…"
+
+# smartling.placeholder_format=C
 #. Main page under "More"
 msgid "Press"
 msgstr "Informace pro média"
@@ -17308,6 +17523,12 @@ msgstr "Cena"
 msgctxt "feedback form"
 msgid "Price shown doesn't reflect merchant site"
 msgstr "Zobrazená cena se neshoduje se stránkami obchodníka"
+
+# smartling.placeholder_format=C
+#. Title of the panel listing booking sites and their prices for a hotel.
+msgctxt "Single Place Hotel Offers Module"
+msgid "Prices"
+msgstr "Ceny"
 
 # smartling.placeholder_format=C
 #. A button that prints the contents of a page.
@@ -19253,6 +19474,11 @@ msgid "Score"
 msgstr "Skóre"
 
 # smartling.placeholder_format=C
+#. In the full-screen window of a small game made by DuckDuckGo (for example 'Dax Bricks'). Heading over the high-score table after a game. %s is the player's score, for example '1,240'.
+msgid "Score %s"
+msgstr "Skóre %1$s"
+
+# smartling.placeholder_format=C
 #. Accessibility label for a marker representing a penalty kick that was scored in a soccer shootout.
 msgctxt "Sports module"
 msgid "Scored"
@@ -19784,6 +20010,22 @@ msgid "Security issue (opens in new tab)"
 msgstr "Problém se zabezpečením (otevře se na nové kartě)"
 
 # smartling.placeholder_format=C
+#. Title-case button under an expanded report section. Hides all but the first few lines again.
+msgctxt ""
+"Button that hides extra lines of a section on the Duck.ai sync diagnostics "
+"screen"
+msgid "See Less"
+msgstr "Zobrazit méně"
+
+# smartling.placeholder_format=C
+#. Title-case button under the first few lines of a report section. Shows the rest of the lines.
+msgctxt ""
+"Button that shows all lines of a section on the Duck.ai sync diagnostics "
+"screen"
+msgid "See More"
+msgstr "Zobrazit více"
+
+# smartling.placeholder_format=C
 msgctxt "expand_text"
 msgid "See More"
 msgstr "Zobrazit více"
@@ -19882,6 +20124,12 @@ msgstr "Podívej se, co je u nás nového"
 msgctxt "settings"
 msgid "See the %sURL Parameter Reference page%s for more details."
 msgstr "Další podrobnosti najdeš na %1$sReferenční stránce URL parametrů%2$s."
+
+# smartling.placeholder_format=C
+#. A link to a page that provides the latest updates on DuckDuckGo products.
+msgctxt "SERP footer content"
+msgid "See what’s new"
+msgstr "Podívej se, co je nového"
 
 # smartling.placeholder_format=C
 #. Text for a button that appears in the context menu of a chat in chat history, that allows the user to select the chat and begin batch selection mode.
@@ -20327,6 +20575,11 @@ msgid ""
 msgstr ""
 "Po zapnutí historie chatu nastav funkci Sync & Backup, ať se tvoje chaty "
 "synchronizují na všech tvých zařízeních."
+
+# smartling.placeholder_format=C
+#. Shown under the game's name on the search results card for a small game made by DuckDuckGo, when the user has not saved a score for that game in this browser yet.
+msgid "Set your first high score"
+msgstr "Vytvoř svůj první rekord"
 
 # smartling.placeholder_format=C
 #. Prompt for the user to indicate their location on a map, to enable more relevant search results.
@@ -20860,6 +21113,12 @@ msgid "Show citations"
 msgstr "Zobrazit citace"
 
 # smartling.placeholder_format=C
+#. Button that collapses the expanded list of hotel booking offers back to the ones displayed by default
+msgctxt "Single Place Hotel Offers Module"
+msgid "Show less"
+msgstr "Zobrazit méně"
+
+# smartling.placeholder_format=C
 #. Button that shows search results on a map.
 msgctxt "directions"
 msgid "Show map"
@@ -20876,6 +21135,12 @@ msgstr "Zobrazit více"
 msgctxt "Usage limit banner in Duck.ai."
 msgid "Show more models"
 msgstr "Zobrazit více modelů"
+
+# smartling.placeholder_format=C
+#. Button that allows user to expand list of offers and show more than the displayed ones by default
+msgctxt "Single Place Hotel Offers Module"
+msgid "Show more rates"
+msgstr "Zobrazit další ceny"
 
 # smartling.placeholder_format=C
 #. Screen-reader label for the right chevron button that navigates to the next page of suggested chat prompts.
@@ -22266,6 +22531,12 @@ msgid "Switch to a more efficient model"
 msgstr "Přepněte na efektivnější model"
 
 # smartling.placeholder_format=C
+#. Prompt for users to switch to the DuckDuckGo browser by downloading it.
+msgctxt "SERP footer content"
+msgid "Switch to our browser"
+msgstr "Přejdi na náš prohlížeč"
+
+# smartling.placeholder_format=C
 #. Text prompting  users to switch their current search engine to the DuckDuckGo private search engine.
 msgid "Switch to the search engine that doesn't track you. Ever."
 msgstr "Přejdi na vyhledávač, který tě nesleduje. Nikdy."
@@ -22355,6 +22626,12 @@ msgstr "Sync & Backup"
 msgctxt "Title for the Sync & Backup setup success screen"
 msgid "Sync & Backup Enabled!"
 msgstr "Sync & Backup zapnuto!"
+
+# smartling.placeholder_format=C
+#. Title of a screen that DuckDuckGo support asks users to open with a link. It shows a report about Sync & Backup on this device, which the user copies into their email reply to support.
+msgctxt "Title of the Duck.ai sync diagnostics screen"
+msgid "Sync & Backup Report"
+msgstr "Přehled funkce Sync & Backup"
 
 # smartling.placeholder_format=C
 #. Notice shown under the recovery code explaining that backup data has an inactivity expiration.
@@ -22669,6 +22946,11 @@ msgid "Tap %sPermissions > Location%s"
 msgstr "Klepni na %1$sOprávnění > Poloha%2$s"
 
 # smartling.placeholder_format=C
+#. Drawn on the board of 'Dax Bricks', a small brick-breaking game made by DuckDuckGo, in a 5x7 pixel font that has only the letters A-Z, digits and a few marks. Keep it short: the board is 320 pixels wide. Shown before each serve; a tap, a click, Space or Enter launches the crumb.
+msgid "Tap or press Space to start"
+msgstr "Klepni nebo stiskni mezerník"
+
+# smartling.placeholder_format=C
 #. Tells users to select the app info. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Tap the %sapp info icon%s"
@@ -22908,6 +23190,11 @@ msgstr ""
 "přístup k němu máš pouze ty."
 
 # smartling.placeholder_format=C
+#. Shown on the search results card for a small game made by DuckDuckGo, when the game did not download after the user pressed Play. The user can press Play again.
+msgid "The game did not load. Try again."
+msgstr "Hru se nepodařilo načíst. Zkus to znovu."
+
+# smartling.placeholder_format=C
 #. Description explaining that the AI model provider deletes all chat data within 30 days.
 msgctxt "Privacy claim description in Duck.ai chat"
 msgid ""
@@ -22945,6 +23232,13 @@ msgstr "Časový limit požadavku vypršel. Zkus to znovu."
 msgctxt "noresults"
 msgid "The server encountered an error and could not complete your request."
 msgstr "Server narazil na chybu a nemohl tvůj požadavek dokončit."
+
+# smartling.placeholder_format=C
+#. Shown under the line 'Web release: serp_20261027_101500_ET'. The line itself stays in English; only this explanation is translated.
+msgctxt ""
+"Explanation of the Web release line on the Duck.ai sync diagnostics screen"
+msgid "The version of Duck.ai you’re using"
+msgstr "Verze Duck.ai, kterou používáš"
 
 # smartling.placeholder_format=C
 #. Title for the theme menu:
@@ -23183,6 +23477,12 @@ msgstr ""
 # smartling.placeholder_format=C
 #. Renders to the right of the device name for the row that matches this device's id.
 msgctxt "Label marking the current device in the synced devices list"
+msgid "This device"
+msgstr "Tohle zařízení"
+
+# smartling.placeholder_format=C
+#. Heading of the section listing the sync state of the device the user is on, e.g. whether sync is on and how many chats are saved.
+msgctxt "Section heading on the Duck.ai sync diagnostics screen"
 msgid "This device"
 msgstr "Tohle zařízení"
 
@@ -23834,6 +24134,12 @@ msgstr "Body proti celkem"
 msgctxt "Sports module"
 msgid "Total Points Won"
 msgstr "Celkem získaných bodů"
+
+# smartling.placeholder_format=C
+#. Shown under the 'Prices' title, introducing the list of prices below it, when they are the total for the chosen dates, not per night.
+msgctxt "Single Place Hotel Offers Module"
+msgid "Total prices for your stay:"
+msgstr "Celkové ceny za pobyt:"
 
 # smartling.placeholder_format=C
 msgid "Tour"
@@ -25813,6 +26119,12 @@ msgid "Voice chat limit reached"
 msgstr "Dosaženo limitu hlasového chatu"
 
 # smartling.placeholder_format=C
+#. Second line of the disclaimer below the voice chat controls, under 'All chats are private. AI can make mistakes.' Always shown during a voice chat, so users know the conversation is sent to OpenAI. Do not translate OpenAI.
+msgctxt "voice chat"
+msgid "Voice chat uses OpenAI models."
+msgstr "Hlasový chat používá modely OpenAI."
+
+# smartling.placeholder_format=C
 #. Title of the voice chat privacy disclaimer and consent modal.
 msgctxt "voice chat"
 msgid "Voice chat with Duck.ai"
@@ -26984,9 +27296,33 @@ msgstr ""
 "kytary pro začátečníka?"
 
 # smartling.placeholder_format=C
+#. Shown under the line 'Newest server change: 2026-10-26 18:02'. The line itself stays in English; only this explanation is translated.
+msgctxt ""
+"Explanation of the Newest server change line on the Duck.ai sync diagnostics "
+"screen"
+msgid "When chats on your account last changed, as of this device’s last check"
+msgstr ""
+"Kdy se naposledy změnily chaty v tvém účtu, podle poslední kontroly na "
+"tomhle zařízení"
+
+# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "When enabled, Duck.ai will show instant answers in the chat."
 msgstr "Když je možnost zapnutá, Duck.ai bude v chatu zobrazovat okamžité odpovědi."
+
+# smartling.placeholder_format=C
+#. Shown under the line 'Last fetch: 2026-10-28 14:31'. The line itself stays in English; only this explanation is translated.
+msgctxt ""
+"Explanation of the Last fetch line on the Duck.ai sync diagnostics screen"
+msgid "When this page last checked for changes from your other devices"
+msgstr "Kdy tahle stránka naposledy kontrolovala změny z ostatních zařízení"
+
+# smartling.placeholder_format=C
+#. Shown under the line 'Report time: 2026-10-28 14:32 UTC'. The line itself stays in English; only this explanation is translated.
+msgctxt ""
+"Explanation of the Report time line on the Duck.ai sync diagnostics screen"
+msgid "When this report was made"
+msgstr "Kdy byl tento přehled vytvořen"
 
 # smartling.placeholder_format=C
 #. Text of a button that performs a search for the available streaming services that show a particular movie or tv show
@@ -27011,6 +27347,40 @@ msgstr "V části Domovská stránka klikni na %1$sPoužít aktuální stránku%
 msgctxt "Where to watch instant answer"
 msgid "Where to Watch <strong>%s</strong>"
 msgstr "Kde si pustit <strong>%1$s</strong>"
+
+# smartling.placeholder_format=C
+#. Shown under the line 'Chat storage: browser'. The line itself stays in English; only this explanation is translated.
+msgctxt ""
+"Explanation of the Chat storage line on the Duck.ai sync diagnostics screen"
+msgid "Where your chats are saved on this device"
+msgstr "Kde se na tomhle zařízení ukládají tvoje chaty"
+
+# smartling.placeholder_format=C
+#. Shown under the line 'Chat history: on'. The line itself stays in English; only this explanation is translated.
+msgctxt ""
+"Explanation of the Chat history line on the Duck.ai sync diagnostics screen"
+msgid "Whether Duck.ai saves your chats"
+msgstr "Jestli Duck.ai ukládá tvoje chaty"
+
+# smartling.placeholder_format=C
+#. Shown under the line 'Sync: on'. The line itself stays in English; only this explanation is translated.
+msgctxt "Explanation of the Sync line on the Duck.ai sync diagnostics screen"
+msgid "Whether sync is on for this device"
+msgstr "Jestli je na tomhle zařízení zapnutá synchronizace"
+
+# smartling.placeholder_format=C
+#. Shown under the line 'Paused: too many requests'. The line itself stays in English; only this explanation is translated.
+msgctxt "Explanation of the Paused line on the Duck.ai sync diagnostics screen"
+msgid "Whether sync is paused, and why"
+msgstr "Jestli je synchronizace pozastavená a proč"
+
+# smartling.placeholder_format=C
+#. Shown under the line 'Last fetch status: successful'. The line itself stays in English; only this explanation is translated.
+msgctxt ""
+"Explanation of the Last fetch status line on the Duck.ai sync diagnostics "
+"screen"
+msgid "Whether the last check for changes succeeded"
+msgstr "Jestli poslední kontrola změn proběhla úspěšně"
 
 # smartling.placeholder_format=C
 #. An invitation for users to leave feedback
@@ -27849,6 +28219,11 @@ msgstr ""
 "šifrovaného serveru nesmažou."
 
 # smartling.placeholder_format=C
+#. Drawn on the board of 'Dax Bricks', a small brick-breaking game made by DuckDuckGo, in a 5x7 pixel font that has only the letters A-Z, digits and a few marks. Keep it short: the board is 320 pixels wide. Shown after the last level, and as the heading of the high-score table.
+msgid "You win!"
+msgstr "Vyhráváš!"
+
+# smartling.placeholder_format=C
 #. Informational message letting the user know they won't see the message unless they clear their cookies or other browsing data
 msgid "You won't see this message again unless you clear your browser data."
 msgstr "Tahle zpráva už se ti nezobrazí, pokud nevymažeš data prohlížeče."
@@ -28112,6 +28487,13 @@ msgstr "Tvé zablokované weby"
 #. Floating text over a tick next to search results which indicates if a link has been visited.
 msgid "Your browser indicates if you've visited this link"
 msgstr "Prohlížeč označil tento odkaz jako navštívený"
+
+# smartling.placeholder_format=C
+#. Shown under the line 'Browser: Chrome 152 on Windows'. The line itself stays in English; only this explanation is translated.
+msgctxt ""
+"Explanation of the Browser line on the Duck.ai sync diagnostics screen"
+msgid "Your browser or DuckDuckGo app, and your operating system"
+msgstr "Tvůj prohlížeč nebo aplikace DuckDuckGo a tvůj operační systém"
 
 # smartling.placeholder_format=C
 msgctxt "new tab page"
